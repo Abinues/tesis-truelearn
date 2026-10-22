@@ -1,0 +1,340 @@
+{
+    "user_id": 12254,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.25123671687353766,
+            "variance": 0.4513472413165224
+        },
+        "interest": {
+            "mean": 0.01697505181888446,
+            "variance": 0.3966124411743192
+        },
+        "bias": {
+            "mean": -0.5764317992917454,
+            "variance": 0.31596827066335775
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 49676.0,
+            "means": {
+                "Deep learning": 0.1293788208469706,
+                "Milk": 0.1293788208469706,
+                "Machine learning": 0.1293788208469706,
+                "Spectrogram": 0.1293788208469706,
+                "Sentiment analysis": 0.1293788208469706,
+                "Rnn (software)": -0.12199613798198207,
+                "Vanishing gradient problem": -0.12199613798198207,
+                "Memory": -0.12199613798198207,
+                "Gradient": -0.12199613798198207,
+                "Knowledge base": -0.12199613798198207
+            },
+            "variances": {
+                "Deep learning": 0.4328859194823246,
+                "Milk": 0.4328859194823246,
+                "Machine learning": 0.4328859194823246,
+                "Spectrogram": 0.4328859194823246,
+                "Sentiment analysis": 0.4328859194823246,
+                "Rnn (software)": 0.4669133982155625,
+                "Vanishing gradient problem": 0.4669133982155625,
+                "Memory": 0.4669133982155625,
+                "Gradient": 0.4669133982155625,
+                "Knowledge base": 0.4669133982155625
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 63748.0,
+            "means": {
+                "Deep learning": 0.1293788208469706,
+                "Milk": 0.1293788208469706,
+                "Machine learning": 0.1293788208469706,
+                "Spectrogram": 0.1293788208469706,
+                "Sentiment analysis": 0.1293788208469706,
+                "Rnn (software)": -0.19789742473881236,
+                "Vanishing gradient problem": -0.19789742473881236,
+                "Memory": -0.19789742473881236,
+                "Gradient": -0.19789742473881236,
+                "Knowledge base": -0.19789742473881236
+            },
+            "variances": {
+                "Deep learning": 0.4328859194823246,
+                "Milk": 0.4328859194823246,
+                "Machine learning": 0.4328859194823246,
+                "Spectrogram": 0.4328859194823246,
+                "Sentiment analysis": 0.4328859194823246,
+                "Rnn (software)": 0.443318033126389,
+                "Vanishing gradient problem": 0.443318033126389,
+                "Memory": 0.443318033126389,
+                "Gradient": 0.443318033126389,
+                "Knowledge base": 0.443318033126389
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 63903.0,
+            "means": {
+                "Deep learning": -0.27470596282098614,
+                "Milk": 0.1293788208469706,
+                "Machine learning": -0.015944342166685097,
+                "Spectrogram": 0.1293788208469706,
+                "Sentiment analysis": 0.1293788208469706,
+                "Rnn (software)": -0.19789742473881236,
+                "Vanishing gradient problem": -0.19789742473881236,
+                "Memory": -0.19789742473881236,
+                "Gradient": -0.19789742473881236,
+                "Knowledge base": -0.19789742473881236,
+                "Watt": -0.17237669703464611,
+                "Protein–protein interaction": -0.17237669703464611,
+                "Laptop": -0.1723766970346462,
+                "Syntax": -0.17237669703464617,
+                "Gather/scatter (vector addressing)": -0.16785388074927843,
+                "Convolution": -0.16785388074927843,
+                "Enzyme": -0.16785388074927843,
+                "Tesla (unit)": -0.15866033123280102,
+                "Chemical engineering": -0.15866033123280102,
+                "Interposer": -0.15866033123280102,
+                "Nickel": -0.15866033123280102
+            },
+            "variances": {
+                "Deep learning": 0.35476210022999427,
+                "Milk": 0.4328859194823246,
+                "Machine learning": 0.40271771408199913,
+                "Spectrogram": 0.4328859194823246,
+                "Sentiment analysis": 0.4328859194823246,
+                "Rnn (software)": 0.443318033126389,
+                "Vanishing gradient problem": 0.443318033126389,
+                "Memory": 0.443318033126389,
+                "Gradient": 0.443318033126389,
+                "Knowledge base": 0.443318033126389,
+                "Watt": 0.46006824711107536,
+                "Protein–protein interaction": 0.46006824711107536,
+                "Laptop": 0.46006824711107536,
+                "Syntax": 0.46006824711107536,
+                "Gather/scatter (vector addressing)": 0.45975216113831335,
+                "Convolution": 0.45975216113831335,
+                "Enzyme": 0.45975216113831335,
+                "Tesla (unit)": 0.461173043019082,
+                "Chemical engineering": 0.461173043019082,
+                "Interposer": 0.461173043019082,
+                "Nickel": 0.461173043019082
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": -0.27470596282098614,
+            "variance": 0.35476210022999427,
+            "interest_mean": 2.6902584519799615,
+            "interest_var": 0.2656010809024533,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 16954,
+            "topic_name": "Milk",
+            "topic_url": "https://en.wikipedia.org/wiki/Milk",
+            "mean": 0.1293788208469706,
+            "variance": 0.4328859194823246,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 49676.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.015944342166685097,
+            "variance": 0.40271771408199913,
+            "interest_mean": 1.585838197213189,
+            "interest_var": 0.3448125354211596,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 25608,
+            "topic_name": "Spectrogram",
+            "topic_url": "https://en.wikipedia.org/wiki/Spectrogram",
+            "mean": 0.1293788208469706,
+            "variance": 0.4328859194823246,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 49676.0
+        },
+        {
+            "topic_id": 24233,
+            "topic_name": "Sentiment analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Sentiment_analysis",
+            "mean": 0.1293788208469706,
+            "variance": 0.4328859194823246,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 49676.0
+        },
+        {
+            "topic_id": 23161,
+            "topic_name": "Rnn (software)",
+            "topic_url": "https://en.wikipedia.org/wiki/Rnn_(software)",
+            "mean": -0.19789742473881236,
+            "variance": 0.443318033126389,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 63748.0
+        },
+        {
+            "topic_id": 29034,
+            "topic_name": "Vanishing gradient problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem",
+            "mean": -0.19789742473881236,
+            "variance": 0.443318033126389,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 63748.0
+        },
+        {
+            "topic_id": 16581,
+            "topic_name": "Memory",
+            "topic_url": "https://en.wikipedia.org/wiki/Memory",
+            "mean": -0.19789742473881236,
+            "variance": 0.443318033126389,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 63748.0
+        },
+        {
+            "topic_id": 11509,
+            "topic_name": "Gradient",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient",
+            "mean": -0.19789742473881236,
+            "variance": 0.443318033126389,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 63748.0
+        },
+        {
+            "topic_id": 14485,
+            "topic_name": "Knowledge base",
+            "topic_url": "https://en.wikipedia.org/wiki/Knowledge_base",
+            "mean": -0.19789742473881236,
+            "variance": 0.443318033126389,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 63748.0
+        },
+        {
+            "topic_id": 29655,
+            "topic_name": "Watt",
+            "topic_url": "https://en.wikipedia.org/wiki/Watt",
+            "mean": -0.17237669703464611,
+            "variance": 0.46006824711107536,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 21671,
+            "topic_name": "Protein–protein interaction",
+            "topic_url": "https://en.wikipedia.org/wiki/Protein–protein_interaction",
+            "mean": -0.17237669703464611,
+            "variance": 0.46006824711107536,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 14713,
+            "topic_name": "Laptop",
+            "topic_url": "https://en.wikipedia.org/wiki/Laptop",
+            "mean": -0.1723766970346462,
+            "variance": 0.46006824711107536,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 26897,
+            "topic_name": "Syntax",
+            "topic_url": "https://en.wikipedia.org/wiki/Syntax",
+            "mean": -0.17237669703464617,
+            "variance": 0.46006824711107536,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 10935,
+            "topic_name": "Gather/scatter (vector addressing)",
+            "topic_url": "https://en.wikipedia.org/wiki/Gather-scatter_(vector_addressing)",
+            "mean": -0.16785388074927843,
+            "variance": 0.45975216113831335,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 5927,
+            "topic_name": "Convolution",
+            "topic_url": "https://en.wikipedia.org/wiki/Convolution",
+            "mean": -0.16785388074927843,
+            "variance": 0.45975216113831335,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 8921,
+            "topic_name": "Enzyme",
+            "topic_url": "https://en.wikipedia.org/wiki/Enzyme",
+            "mean": -0.16785388074927843,
+            "variance": 0.45975216113831335,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 27384,
+            "topic_name": "Tesla (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Tesla_(unit)",
+            "mean": -0.15866033123280102,
+            "variance": 0.461173043019082,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 4167,
+            "topic_name": "Chemical engineering",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemical_engineering",
+            "mean": -0.15866033123280102,
+            "variance": 0.461173043019082,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 13795,
+            "topic_name": "Interposer",
+            "topic_url": "https://en.wikipedia.org/wiki/Interposer",
+            "mean": -0.15866033123280102,
+            "variance": 0.461173043019082,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 63903.0
+        },
+        {
+            "topic_id": 18252,
+            "topic_name": "Nickel",
+            "topic_url": "https://en.wikipedia.org/wiki/Nickel",
+            "mean": -0.15866033123280102,
+            "variance": 0.461173043019082,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 63903.0
+        }
+    ]
+}

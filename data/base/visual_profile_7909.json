@@ -1,0 +1,332 @@
+{
+    "user_id": 7909,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.5806982304489313,
+            "variance": 0.42832444765657685
+        },
+        "interest": {
+            "mean": 0.4050174552844486,
+            "variance": 0.3651314364219181
+        },
+        "bias": {
+            "mean": -0.2623657244993244,
+            "variance": 0.2768394538695127
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 62097.0,
+            "means": {
+                "Machine learning": 0.32570768677559697,
+                "Maximum and minimum": -0.13618115157117144,
+                "Function space": -0.13618115157117144,
+                "Language model": -0.13618115157117144,
+                "Regularization (mathematics)": -0.02062716228933378,
+                "Unsupervised learning": 0.166272890838385,
+                "Supervised learning": 0.06016293171843421,
+                "Autoencoder": -0.30289281291793463,
+                "Linear classifier": -0.10506705539880876,
+                "Logistic regression": -0.20454216417136648,
+                "Linear map": -0.10916033036227582,
+                "Hyperbolic functions": -0.1091603303622758,
+                "Information retrieval": 0.24321183167505142,
+                "Sparse approximation": 0.24321183167505142,
+                "Restricted Boltzmann machine": -0.20313158826871294,
+                "Gradient": -0.10179653535029182,
+                "Hidden-variable theory": -0.10179653535029182,
+                "Deep learning": 0.1786758554166847,
+                "Polynomial": 0.17867585541668465,
+                "Neuron": 0.12768356004449583,
+                "Logic gate": 0.12768356004449583,
+                "Neural network": 0.12768356004449583,
+                "Deep belief network": -0.10798444429011465,
+                "Log probability": -0.10798444429011465,
+                "Convolutional neural network": -0.10798444429011465
+            },
+            "variances": {
+                "Machine learning": 0.3206476249381638,
+                "Maximum and minimum": 0.4649387831576279,
+                "Function space": 0.4649387831576279,
+                "Language model": 0.4649387831576279,
+                "Regularization (mathematics)": 0.38457091334503524,
+                "Unsupervised learning": 0.3585970220971825,
+                "Supervised learning": 0.32934207891419814,
+                "Autoencoder": 0.41700216042203286,
+                "Linear classifier": 0.46932042507153277,
+                "Logistic regression": 0.44146191275014185,
+                "Linear map": 0.4684925350399816,
+                "Hyperbolic functions": 0.4684925350399816,
+                "Information retrieval": 0.42997019709732687,
+                "Sparse approximation": 0.42997019709732687,
+                "Restricted Boltzmann machine": 0.441480601470055,
+                "Gradient": 0.4692113460628225,
+                "Hidden-variable theory": 0.4692113460628225,
+                "Deep learning": 0.4279012796136458,
+                "Polynomial": 0.4279012796136458,
+                "Neuron": 0.42834082049148986,
+                "Logic gate": 0.42834082049148986,
+                "Neural network": 0.42834082049148986,
+                "Deep belief network": 0.46851058960978087,
+                "Log probability": 0.46851058960978087,
+                "Convolutional neural network": 0.46851058960978087
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.32570768677559697,
+            "variance": 0.3206476249381638,
+            "interest_mean": 2.031588932981753,
+            "interest_var": 0.27064076755492905,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 16376,
+            "topic_name": "Maximum and minimum",
+            "topic_url": "https://en.wikipedia.org/wiki/Maxima_and_minima",
+            "mean": -0.13618115157117144,
+            "variance": 0.4649387831576279,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 10678,
+            "topic_name": "Function space",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_space",
+            "mean": -0.13618115157117144,
+            "variance": 0.4649387831576279,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 14688,
+            "topic_name": "Language model",
+            "topic_url": "https://en.wikipedia.org/wiki/Language_model",
+            "mean": -0.13618115157117144,
+            "variance": 0.4649387831576279,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 22716,
+            "topic_name": "Regularization (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)",
+            "mean": -0.02062716228933378,
+            "variance": 0.38457091334503524,
+            "interest_mean": 2.0778274257738287,
+            "interest_var": 0.30396879041407177,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 28855,
+            "topic_name": "Unsupervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+            "mean": 0.166272890838385,
+            "variance": 0.3585970220971825,
+            "interest_mean": 1.662373950811128,
+            "interest_var": 0.30045896763689894,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.06016293171843421,
+            "variance": 0.32934207891419814,
+            "interest_mean": 2.4189587750517774,
+            "interest_var": 0.24207971741348264,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 1749,
+            "topic_name": "Autoencoder",
+            "topic_url": "https://en.wikipedia.org/wiki/Autoencoder",
+            "mean": -0.30289281291793463,
+            "variance": 0.41700216042203286,
+            "interest_mean": 2.077472790249696,
+            "interest_var": 0.29635673072992225,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 15212,
+            "topic_name": "Linear classifier",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_classifier",
+            "mean": -0.10506705539880876,
+            "variance": 0.46932042507153277,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 15593,
+            "topic_name": "Logistic regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_regression",
+            "mean": -0.20454216417136648,
+            "variance": 0.44146191275014185,
+            "interest_mean": 1.3557813956737381,
+            "interest_var": 0.34022364002036043,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 15234,
+            "topic_name": "Linear map",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_map",
+            "mean": -0.10916033036227582,
+            "variance": 0.4684925350399816,
+            "interest_mean": 0.8050175163171822,
+            "interest_var": 0.4036429475274632,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 12865,
+            "topic_name": "Hyperbolic functions",
+            "topic_url": "https://en.wikipedia.org/wiki/Hyperbolic_functions",
+            "mean": -0.1091603303622758,
+            "variance": 0.4684925350399816,
+            "interest_mean": 0.805017516317182,
+            "interest_var": 0.4036429475274632,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 13443,
+            "topic_name": "Information retrieval",
+            "topic_url": "https://en.wikipedia.org/wiki/Information_retrieval",
+            "mean": 0.24321183167505142,
+            "variance": 0.42997019709732687,
+            "interest_mean": 0.35838192341215763,
+            "interest_var": 0.4155475470550895,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 25506,
+            "topic_name": "Sparse approximation",
+            "topic_url": "https://en.wikipedia.org/wiki/Sparse_approximation",
+            "mean": 0.24321183167505142,
+            "variance": 0.42997019709732687,
+            "interest_mean": 0.35838192341215763,
+            "interest_var": 0.4155475470550895,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 22932,
+            "topic_name": "Restricted Boltzmann machine",
+            "topic_url": "https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine",
+            "mean": -0.20313158826871294,
+            "variance": 0.441480601470055,
+            "interest_mean": 1.2809778658998254,
+            "interest_var": 0.3394512239984283,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 11509,
+            "topic_name": "Gradient",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient",
+            "mean": -0.10179653535029182,
+            "variance": 0.4692113460628225,
+            "interest_mean": 0.6822414249156216,
+            "interest_var": 0.4026879175406882,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 12311,
+            "topic_name": "Hidden-variable theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Hidden-variable_theory",
+            "mean": -0.10179653535029182,
+            "variance": 0.4692113460628225,
+            "interest_mean": 0.6822414249156216,
+            "interest_var": 0.4026879175406882,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.1786758554166847,
+            "variance": 0.4279012796136458,
+            "interest_mean": 0.35999320913336885,
+            "interest_var": 0.4130427583098553,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 20758,
+            "topic_name": "Polynomial",
+            "topic_url": "https://en.wikipedia.org/wiki/Polynomial",
+            "mean": 0.17867585541668465,
+            "variance": 0.4279012796136458,
+            "interest_mean": 0.35999320913336885,
+            "interest_var": 0.4130427583098553,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 18150,
+            "topic_name": "Neuron",
+            "topic_url": "https://en.wikipedia.org/wiki/Neuron",
+            "mean": 0.12768356004449583,
+            "variance": 0.42834082049148986,
+            "interest_mean": 0.6521088363818971,
+            "interest_var": 0.40165943592768233,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 15567,
+            "topic_name": "Logic gate",
+            "topic_url": "https://en.wikipedia.org/wiki/Logic_gate",
+            "mean": 0.12768356004449583,
+            "variance": 0.42834082049148986,
+            "interest_mean": 0.6521088363818971,
+            "interest_var": 0.40165943592768233,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 18126,
+            "topic_name": "Neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Neural_network",
+            "mean": 0.12768356004449583,
+            "variance": 0.42834082049148986,
+            "interest_mean": 0.6521088363818971,
+            "interest_var": 0.40165943592768233,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 7007,
+            "topic_name": "Deep belief network",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_belief_network",
+            "mean": -0.10798444429011465,
+            "variance": 0.46851058960978087,
+            "interest_mean": 0.7434248892303884,
+            "interest_var": 0.4025073299723758,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 15552,
+            "topic_name": "Log probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Log_probability",
+            "mean": -0.10798444429011465,
+            "variance": 0.46851058960978087,
+            "interest_mean": 0.7434248892303884,
+            "interest_var": 0.4025073299723758,
+            "timestamp": 62097.0
+        },
+        {
+            "topic_id": 5930,
+            "topic_name": "Convolutional neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+            "mean": -0.10798444429011465,
+            "variance": 0.46851058960978087,
+            "interest_mean": 0.7434248892303884,
+            "interest_var": 0.4025073299723758,
+            "timestamp": 62097.0
+        }
+    ]
+}

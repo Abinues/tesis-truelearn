@@ -1,0 +1,79 @@
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+exclude = ["venv", ".venv", "data", "models", "__pycache__"]
+
+[tool.ruff.lint]
+# Conjunto de reglas deliberadamente conservador para un proyecto de tesis
+# que ya tiene un estilo propio (nombres en español, líneas más largas en
+# los diccionarios de opciones de ECharts). Se prioriza atrapar errores
+# reales (F = pyflakes: variables no usadas, imports muertos, nombres no
+# definidos) por sobre exigir un estilo particular.
+select = [
+    "E",   # pycodestyle (errores)
+    "F",   # pyflakes (nombres no definidos, imports muertos, etc.)
+    "W",   # pycodestyle (warnings)
+    "I",   # isort (orden de imports)
+    "B",   # flake8-bugbear (bugs comunes: mutable default args, etc.)
+]
+ignore = [
+    "E501",  # línea larga: los dict de opciones de ECharts son intrínsecamente largos
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Los tests usan fixtures/imports que ruff no siempre reconoce como "usados"
+"tests/*" = ["F401"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true          # streamlit_echarts, truelearn no traen stubs
+warn_unused_ignores = true
+warn_redundant_casts = true
+# Deliberadamente NO se usa --strict acá: el proyecto mezcla Streamlit
+# (que no tipa bien sus propios retornos) con lógica de dominio pura. Se
+# empieza exigiendo tipado completo solo en los módulos de logic/ (la
+# parte más crítica y más testeada), y se deja el resto sin exigir tipos
+# explícitos todavía — ver CAMBIOS.md, punto 22, para el plan de
+# ampliar esto gradualmente.
+[[tool.mypy.overrides]]
+module = "logic.dominio"
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+
+[[tool.mypy.overrides]]
+module = "logic.modelo_utils"
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"
+
+[tool.coverage.run]
+source = ["logic", "shared", "dashboard"]
+omit = [
+    "logic/api_backend.py",   # requiere Flask corriendo de verdad para cubrir /entrenar, /log_entrenamiento a fondo
+    "*/tests/*",
+]
+
+[tool.coverage.report]
+precision = 1
+skip_empty = true
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+]
+
+# vulture (detector de código muerto) no lee [tool.vulture] de pyproject.toml
+# en esta versión -- se deja documentado acá el comando exacto para correrlo
+# de forma reproducible (ver CAMBIOS.md, punto 33):
+#
+#   vulture pages/ logic/ shared.py dashboard.py --min-confidence 60 \
+#       --ignore-names "listar_usuarios,obtener_perfil,aplicar_feedback,historial_feedback,obtener_prediccion,iniciar_entrenamiento,log_entrenamiento,write,flush"
+#
+# Los nombres en --ignore-names son falsos positivos esperados:
+# los primeros 7 son endpoints Flask registrados vía @app.route(...)
+# (Flask los invoca por URL, nunca aparecen "llamados" en el código
+# Python); write/flush implementan la interfaz de io.TextIOBase que usa
+# contextlib.redirect_stdout() internamente. Cualquier otro hallazgo de
+# vulture es código muerto real y debería revisarse.

@@ -1,0 +1,362 @@
+{
+    "user_id": 26658,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 7,
+    "weights": {
+        "novelty": {
+            "mean": 0.13833772840376404,
+            "variance": 0.4672426637931719
+        },
+        "interest": {
+            "mean": -0.19715991939675767,
+            "variance": 0.3819468541827679
+        },
+        "bias": {
+            "mean": -0.8838883279034697,
+            "variance": 0.31364435767594223
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 71847.0,
+            "means": {
+                "Data mining": -0.12254095002759421,
+                "Bag-of-words model": -0.12254095002759421,
+                "Overfitting": -0.12254095002759421,
+                "Generalized additive model": -0.12254095002759421,
+                "Morphine": -0.12254095002759424
+            },
+            "variances": {
+                "Data mining": 0.46683413787069894,
+                "Bag-of-words model": 0.46683413787069894,
+                "Overfitting": 0.46683413787069894,
+                "Generalized additive model": 0.46683413787069894,
+                "Morphine": 0.46683413787069894
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 71867.0,
+            "means": {
+                "Data mining": -0.20228522093317355,
+                "Bag-of-words model": -0.20228522093317355,
+                "Overfitting": -0.20228522093317355,
+                "Generalized additive model": -0.20228522093317355,
+                "Morphine": -0.20228522093317364
+            },
+            "variances": {
+                "Data mining": 0.4425250661798401,
+                "Bag-of-words model": 0.4425250661798401,
+                "Overfitting": 0.4425250661798401,
+                "Generalized additive model": 0.4425250661798401,
+                "Morphine": 0.4425250661798401
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 72350.0,
+            "means": {
+                "Data mining": -0.25919486159453775,
+                "Bag-of-words model": -0.33934604343544217,
+                "Overfitting": -0.25919486159453775,
+                "Generalized additive model": -0.25919486159453775,
+                "Morphine": -0.25919486159453786,
+                "Logistic regression": -0.21260582846007586,
+                "Coordinate descent": -0.09456405990194838,
+                "Generalized linear model": -0.09456405990194838,
+                "Algorithm": -0.09456405990194838,
+                "Elastic net regularization": -0.125338801046845,
+                "Newton (unit)": -0.125338801046845,
+                "Mean squared error": -0.125338801046845,
+                "Coefficient": -0.125338801046845
+            },
+            "variances": {
+                "Data mining": 0.4237930452859767,
+                "Bag-of-words model": 0.40288090949707567,
+                "Overfitting": 0.4237930452859767,
+                "Generalized additive model": 0.4237930452859767,
+                "Morphine": 0.4237930452859767,
+                "Logistic regression": 0.4409452975217746,
+                "Coordinate descent": 0.47089076795145735,
+                "Generalized linear model": 0.47089076795145735,
+                "Algorithm": 0.47089076795145735,
+                "Elastic net regularization": 0.46623779544677324,
+                "Newton (unit)": 0.46623779544677324,
+                "Mean squared error": 0.46623779544677324,
+                "Coefficient": 0.46623779544677324
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 72485.0,
+            "means": {
+                "Data mining": -0.25919486159453775,
+                "Bag-of-words model": -0.33934604343544217,
+                "Overfitting": -0.25919486159453775,
+                "Generalized additive model": -0.25919486159453775,
+                "Morphine": -0.25919486159453786,
+                "Logistic regression": -0.21260582846007586,
+                "Coordinate descent": -0.09456405990194838,
+                "Generalized linear model": -0.09456405990194838,
+                "Algorithm": -0.09456405990194838,
+                "Elastic net regularization": -0.125338801046845,
+                "Newton (unit)": -0.125338801046845,
+                "Mean squared error": -0.125338801046845,
+                "Coefficient": -0.125338801046845,
+                "Machine learning": -0.14212617730469063,
+                "Chromosome": -0.14212617730469063,
+                "Frequentist inference": -0.14212617730469063,
+                "Cancer": -0.14212617730469065,
+                "Sparse matrix": -0.14212617730469065
+            },
+            "variances": {
+                "Data mining": 0.4237930452859767,
+                "Bag-of-words model": 0.40288090949707567,
+                "Overfitting": 0.4237930452859767,
+                "Generalized additive model": 0.4237930452859767,
+                "Morphine": 0.4237930452859767,
+                "Logistic regression": 0.4409452975217746,
+                "Coordinate descent": 0.47089076795145735,
+                "Generalized linear model": 0.47089076795145735,
+                "Algorithm": 0.47089076795145735,
+                "Elastic net regularization": 0.46623779544677324,
+                "Newton (unit)": 0.46623779544677324,
+                "Mean squared error": 0.46623779544677324,
+                "Coefficient": 0.46623779544677324,
+                "Machine learning": 0.4641628763013942,
+                "Chromosome": 0.4641628763013942,
+                "Frequentist inference": 0.4641628763013942,
+                "Cancer": 0.464162876301394,
+                "Sparse matrix": 0.464162876301394
+            }
+        },
+        {
+            "session_id": 5,
+            "timestamp": 72542.0,
+            "means": {
+                "Data mining": -0.25919486159453775,
+                "Bag-of-words model": -0.33934604343544217,
+                "Overfitting": -0.25919486159453775,
+                "Generalized additive model": -0.25919486159453775,
+                "Morphine": -0.25919486159453786,
+                "Logistic regression": -0.21260582846007586,
+                "Coordinate descent": -0.09456405990194838,
+                "Generalized linear model": -0.09456405990194838,
+                "Algorithm": -0.09456405990194838,
+                "Elastic net regularization": -0.125338801046845,
+                "Newton (unit)": -0.125338801046845,
+                "Mean squared error": -0.125338801046845,
+                "Coefficient": -0.125338801046845,
+                "Machine learning": -0.23139325802293273,
+                "Chromosome": -0.23139325802293273,
+                "Frequentist inference": -0.23139325802293273,
+                "Cancer": -0.23139325802293276,
+                "Sparse matrix": -0.23139325802293276
+            },
+            "variances": {
+                "Data mining": 0.4237930452859767,
+                "Bag-of-words model": 0.40288090949707567,
+                "Overfitting": 0.4237930452859767,
+                "Generalized additive model": 0.4237930452859767,
+                "Morphine": 0.4237930452859767,
+                "Logistic regression": 0.4409452975217746,
+                "Coordinate descent": 0.47089076795145735,
+                "Generalized linear model": 0.47089076795145735,
+                "Algorithm": 0.47089076795145735,
+                "Elastic net regularization": 0.46623779544677324,
+                "Newton (unit)": 0.46623779544677324,
+                "Mean squared error": 0.46623779544677324,
+                "Coefficient": 0.46623779544677324,
+                "Machine learning": 0.4383119055613427,
+                "Chromosome": 0.4383119055613427,
+                "Frequentist inference": 0.4383119055613427,
+                "Cancer": 0.4383119055613426,
+                "Sparse matrix": 0.4383119055613426
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 6823,
+            "topic_name": "Data mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_mining",
+            "mean": -0.25919486159453775,
+            "variance": 0.4237930452859767,
+            "interest_mean": 1.3415287318242244,
+            "interest_var": 0.3333266793637935,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 1939,
+            "topic_name": "Bag-of-words model",
+            "topic_url": "https://en.wikipedia.org/wiki/Bag-of-words_model",
+            "mean": -0.33934604343544217,
+            "variance": 0.40288090949707567,
+            "interest_mean": 1.9366765642238501,
+            "interest_var": 0.29016773492383213,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 19264,
+            "topic_name": "Overfitting",
+            "topic_url": "https://en.wikipedia.org/wiki/Overfitting",
+            "mean": -0.25919486159453775,
+            "variance": 0.4237930452859767,
+            "interest_mean": 1.3415287318242244,
+            "interest_var": 0.3333266793637935,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 11032,
+            "topic_name": "Generalized additive model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generalized_additive_model",
+            "mean": -0.25919486159453775,
+            "variance": 0.4237930452859767,
+            "interest_mean": 1.3415287318242244,
+            "interest_var": 0.3333266793637935,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 17405,
+            "topic_name": "Morphine",
+            "topic_url": "https://en.wikipedia.org/wiki/Morphine",
+            "mean": -0.25919486159453786,
+            "variance": 0.4237930452859767,
+            "interest_mean": 1.3415287318242244,
+            "interest_var": 0.3333266793637935,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 15593,
+            "topic_name": "Logistic regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_regression",
+            "mean": -0.21260582846007586,
+            "variance": 0.4409452975217746,
+            "interest_mean": 1.6619417520222233,
+            "interest_var": 0.3409336072702427,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 5951,
+            "topic_name": "Coordinate descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Coordinate_descent",
+            "mean": -0.09456405990194838,
+            "variance": 0.47089076795145735,
+            "interest_mean": 0.8927395693851438,
+            "interest_var": 0.4028884979869256,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 11043,
+            "topic_name": "Generalized linear model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generalized_linear_model",
+            "mean": -0.09456405990194838,
+            "variance": 0.47089076795145735,
+            "interest_mean": 0.8927395693851442,
+            "interest_var": 0.4028884979869256,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.09456405990194838,
+            "variance": 0.47089076795145735,
+            "interest_mean": 0.8927395693851442,
+            "interest_var": 0.4028884979869256,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 8417,
+            "topic_name": "Elastic net regularization",
+            "topic_url": "https://en.wikipedia.org/wiki/Elastic_net_regularization",
+            "mean": -0.125338801046845,
+            "variance": 0.46623779544677324,
+            "interest_mean": 0.954609260974784,
+            "interest_var": 0.4045785820055318,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 18236,
+            "topic_name": "Newton (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Newton_(unit)",
+            "mean": -0.125338801046845,
+            "variance": 0.46623779544677324,
+            "interest_mean": 0.954609260974784,
+            "interest_var": 0.4045785820055318,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 16429,
+            "topic_name": "Mean squared error",
+            "topic_url": "https://en.wikipedia.org/wiki/Mean_squared_error",
+            "mean": -0.125338801046845,
+            "variance": 0.46623779544677324,
+            "interest_mean": 0.9546092609747842,
+            "interest_var": 0.4045785820055318,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 4831,
+            "topic_name": "Coefficient",
+            "topic_url": "https://en.wikipedia.org/wiki/Coefficient",
+            "mean": -0.125338801046845,
+            "variance": 0.46623779544677324,
+            "interest_mean": 0.9546092609747842,
+            "interest_var": 0.4045785820055318,
+            "timestamp": 72350.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.23139325802293273,
+            "variance": 0.4383119055613427,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 72542.0
+        },
+        {
+            "topic_id": 4407,
+            "topic_name": "Chromosome",
+            "topic_url": "https://en.wikipedia.org/wiki/Chromosome",
+            "mean": -0.23139325802293273,
+            "variance": 0.4383119055613427,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 72542.0
+        },
+        {
+            "topic_id": 10587,
+            "topic_name": "Frequentist inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Frequentist_inference",
+            "mean": -0.23139325802293273,
+            "variance": 0.4383119055613427,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 72542.0
+        },
+        {
+            "topic_id": 3524,
+            "topic_name": "Cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Cancer",
+            "mean": -0.23139325802293276,
+            "variance": 0.4383119055613426,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 72542.0
+        },
+        {
+            "topic_id": 25511,
+            "topic_name": "Sparse matrix",
+            "topic_url": "https://en.wikipedia.org/wiki/Sparse_matrix",
+            "mean": -0.23139325802293276,
+            "variance": 0.4383119055613426,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 72542.0
+        }
+    ]
+}

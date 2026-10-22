@@ -1,0 +1,286 @@
+{
+    "user_id": 19462,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 4,
+    "weights": {
+        "novelty": {
+            "mean": 0.3819441382886143,
+            "variance": 0.4576342190109933
+        },
+        "interest": {
+            "mean": 0.18358609432552905,
+            "variance": 0.41246243763816604
+        },
+        "bias": {
+            "mean": -0.4298086232119074,
+            "variance": 0.33334980646328055
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 30058.0,
+            "means": {
+                "French Revolution": -0.12616333124266207,
+                "Common Era": -0.12616333124266207,
+                "Republic": -0.25333821595041073,
+                "Chalice": -0.1261633312426621,
+                "Western world": -0.1261633312426621,
+                "Ancient Greek": -0.13636175987440163,
+                "Departments of France": -0.13636175987440163,
+                "Oxygen": -0.1363617598744017,
+                "Yale (mythical creature)": -0.1363617598744017
+            },
+            "variances": {
+                "French Revolution": 0.4663143275097257,
+                "Common Era": 0.4663143275097257,
+                "Republic": 0.43559103046568537,
+                "Chalice": 0.4663143275097257,
+                "Western world": 0.4663143275097257,
+                "Ancient Greek": 0.4646775914223474,
+                "Departments of France": 0.4646775914223474,
+                "Oxygen": 0.4646775914223474,
+                "Yale (mythical creature)": 0.4646775914223474
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 33970.0,
+            "means": {
+                "French Revolution": -0.12616333124266207,
+                "Common Era": -0.12616333124266207,
+                "Republic": -0.33462572298276705,
+                "Chalice": -0.1261633312426621,
+                "Western world": -0.1261633312426621,
+                "Ancient Greek": -0.22307723457125286,
+                "Departments of France": -0.22307723457125286,
+                "Oxygen": -0.22307723457125292,
+                "Yale (mythical creature)": -0.22307723457125292,
+                "Instrumental and intrinsic value": 0.1222217269647249,
+                "Medicine": 0.1222217269647249,
+                "Scientific method": 0.1222217269647249,
+                "Morality": 0.1222217269647249,
+                "Oak": 0.1222217269647249,
+                "Actin": -0.13373422953630643,
+                "Psychology": -0.13373422953630643,
+                "Dependent and independent variables": -0.13373422953630648,
+                "Lottery": -0.13373422953630648,
+                "Printer (computing)": -0.13373422953630648
+            },
+            "variances": {
+                "French Revolution": 0.4663143275097257,
+                "Common Era": 0.4663143275097257,
+                "Republic": 0.41310421335295366,
+                "Chalice": 0.4663143275097257,
+                "Western world": 0.4663143275097257,
+                "Ancient Greek": 0.43908739671689373,
+                "Departments of France": 0.43908739671689373,
+                "Oxygen": 0.43908739671689373,
+                "Yale (mythical creature)": 0.43908739671689373,
+                "Instrumental and intrinsic value": 0.4328859290505469,
+                "Medicine": 0.4328859290505469,
+                "Scientific method": 0.4328859290505469,
+                "Morality": 0.4328859290505469,
+                "Oak": 0.4328859290505469,
+                "Actin": 0.4652666688439519,
+                "Psychology": 0.4652666688439519,
+                "Dependent and independent variables": 0.4652666688439519,
+                "Lottery": 0.4652666688439519,
+                "Printer (computing)": 0.4652666688439519
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 10557,
+            "topic_name": "French Revolution",
+            "topic_url": "https://en.wikipedia.org/wiki/French_Revolution",
+            "mean": -0.12616333124266207,
+            "variance": 0.4663143275097257,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30058.0
+        },
+        {
+            "topic_id": 5115,
+            "topic_name": "Common Era",
+            "topic_url": "https://en.wikipedia.org/wiki/Common_Era",
+            "mean": -0.12616333124266207,
+            "variance": 0.4663143275097257,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30058.0
+        },
+        {
+            "topic_id": 22861,
+            "topic_name": "Republic",
+            "topic_url": "https://en.wikipedia.org/wiki/Republic",
+            "mean": -0.33462572298276705,
+            "variance": 0.41310421335295366,
+            "interest_mean": 1.9752142783555504,
+            "interest_var": 0.310688270575109,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 4054,
+            "topic_name": "Chalice",
+            "topic_url": "https://en.wikipedia.org/wiki/Chalice",
+            "mean": -0.1261633312426621,
+            "variance": 0.4663143275097257,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30058.0
+        },
+        {
+            "topic_id": 29848,
+            "topic_name": "Western world",
+            "topic_url": "https://en.wikipedia.org/wiki/Western_world",
+            "mean": -0.1261633312426621,
+            "variance": 0.4663143275097257,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30058.0
+        },
+        {
+            "topic_id": 962,
+            "topic_name": "Ancient Greek",
+            "topic_url": "https://en.wikipedia.org/wiki/Ancient_Greek",
+            "mean": -0.22307723457125286,
+            "variance": 0.43908739671689373,
+            "interest_mean": 1.0861145542292752,
+            "interest_var": 0.35910838488770286,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 7201,
+            "topic_name": "Departments of France",
+            "topic_url": "https://en.wikipedia.org/wiki/Departments_of_France",
+            "mean": -0.22307723457125286,
+            "variance": 0.43908739671689373,
+            "interest_mean": 1.0861145542292754,
+            "interest_var": 0.35910838488770286,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 19300,
+            "topic_name": "Oxygen",
+            "topic_url": "https://en.wikipedia.org/wiki/Oxygen",
+            "mean": -0.22307723457125292,
+            "variance": 0.43908739671689373,
+            "interest_mean": 1.0861145542292754,
+            "interest_var": 0.35910838488770286,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 30233,
+            "topic_name": "Yale (mythical creature)",
+            "topic_url": "https://en.wikipedia.org/wiki/Yale_(mythical_creature)",
+            "mean": -0.22307723457125292,
+            "variance": 0.43908739671689373,
+            "interest_mean": 1.0861145542292754,
+            "interest_var": 0.35910838488770286,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 13561,
+            "topic_name": "Instrumental and intrinsic value",
+            "topic_url": "https://en.wikipedia.org/wiki/Instrumental_and_intrinsic_value",
+            "mean": 0.1222217269647249,
+            "variance": 0.4328859290505469,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 16524,
+            "topic_name": "Medicine",
+            "topic_url": "https://en.wikipedia.org/wiki/Medicine",
+            "mean": 0.1222217269647249,
+            "variance": 0.4328859290505469,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 23797,
+            "topic_name": "Scientific method",
+            "topic_url": "https://en.wikipedia.org/wiki/Scientific_method",
+            "mean": 0.1222217269647249,
+            "variance": 0.4328859290505469,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 17388,
+            "topic_name": "Morality",
+            "topic_url": "https://en.wikipedia.org/wiki/Morality",
+            "mean": 0.1222217269647249,
+            "variance": 0.4328859290505469,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 18634,
+            "topic_name": "Oak",
+            "topic_url": "https://en.wikipedia.org/wiki/Oak",
+            "mean": 0.1222217269647249,
+            "variance": 0.4328859290505469,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 271,
+            "topic_name": "Actin",
+            "topic_url": "https://en.wikipedia.org/wiki/Actin",
+            "mean": -0.13373422953630643,
+            "variance": 0.4652666688439519,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 21779,
+            "topic_name": "Psychology",
+            "topic_url": "https://en.wikipedia.org/wiki/Psychology",
+            "mean": -0.13373422953630643,
+            "variance": 0.4652666688439519,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 7209,
+            "topic_name": "Dependent and independent variables",
+            "topic_url": "https://en.wikipedia.org/wiki/Dependent_and_independent_variables",
+            "mean": -0.13373422953630648,
+            "variance": 0.4652666688439519,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 15674,
+            "topic_name": "Lottery",
+            "topic_url": "https://en.wikipedia.org/wiki/Lottery",
+            "mean": -0.13373422953630648,
+            "variance": 0.4652666688439519,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        },
+        {
+            "topic_id": 21303,
+            "topic_name": "Printer (computing)",
+            "topic_url": "https://en.wikipedia.org/wiki/Printer_(computing)",
+            "mean": -0.13373422953630648,
+            "variance": 0.4652666688439519,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 33970.0
+        }
+    ]
+}

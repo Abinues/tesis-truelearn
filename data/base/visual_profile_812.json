@@ -1,0 +1,382 @@
+{
+    "user_id": 812,
+    "number_of_engagements": 2,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.3036265740564796,
+            "variance": 0.436869165451477
+        },
+        "interest": {
+            "mean": 0.06627639645542895,
+            "variance": 0.3810996584021558
+        },
+        "bias": {
+            "mean": -0.44651747699485617,
+            "variance": 0.2951969399491755
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 69601.0,
+            "means": {
+                "Turbot": 0.12000193065057718,
+                "Open science": 0.12000193065057718,
+                "Shared memory": 0.12000193065057718,
+                "Program optimization": 0.12000193065057718,
+                "Distributed memory": 0.12000193065057715,
+                "Supercomputer": -0.2753626671945609,
+                "Cloud computing": 0.10945448586746545,
+                "Vestment": 0.10945448586746545,
+                "Analytics": 0.10945448586746545,
+                "Science": -0.010588855409205058,
+                "Massive open online course": -0.17516403057285354,
+                "Software engineering": -0.17516403057285354,
+                "Computational science": -0.17516403057285354,
+                "Data science": -0.17516403057285354,
+                "Computer science": -0.1386175440012634,
+                "Biogeochemistry": -0.1386175440012634,
+                "Big science": -0.1386175440012634,
+                "Blockship": -0.16018458053340265,
+                "Physics": -0.16018458053340265,
+                "Particle physics": -0.1601845805334027,
+                "Quantum chemistry": -0.1601845805334027
+            },
+            "variances": {
+                "Turbot": 0.4328859418190126,
+                "Open science": 0.4328859418190126,
+                "Shared memory": 0.4328859418190126,
+                "Program optimization": 0.4328859418190126,
+                "Distributed memory": 0.4328859418190126,
+                "Supercomputer": 0.3566694595987714,
+                "Cloud computing": 0.433001977280655,
+                "Vestment": 0.433001977280655,
+                "Analytics": 0.433001977280655,
+                "Science": 0.40556329735252333,
+                "Massive open online course": 0.4597677932095793,
+                "Software engineering": 0.4597677932095793,
+                "Computational science": 0.4597677932095793,
+                "Data science": 0.4597677932095793,
+                "Computer science": 0.463413281133641,
+                "Biogeochemistry": 0.463413281133641,
+                "Big science": 0.463413281133641,
+                "Blockship": 0.4610098912961509,
+                "Physics": 0.4610098912961509,
+                "Particle physics": 0.4610098912961509,
+                "Quantum chemistry": 0.4610098912961509
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 69705.0,
+            "means": {
+                "Turbot": 0.12000193065057718,
+                "Open science": 0.12000193065057718,
+                "Shared memory": 0.12000193065057718,
+                "Program optimization": 0.12000193065057718,
+                "Distributed memory": 0.12000193065057715,
+                "Supercomputer": -0.3364031972064336,
+                "Cloud computing": -0.02444090736195897,
+                "Vestment": 0.10945448586746545,
+                "Analytics": 0.10945448586746545,
+                "Science": -0.0799970930856501,
+                "Massive open online course": -0.17516403057285354,
+                "Software engineering": -0.17516403057285354,
+                "Computational science": -0.17516403057285354,
+                "Data science": -0.17516403057285354,
+                "Computer science": -0.21792624715392273,
+                "Biogeochemistry": -0.21792624715392273,
+                "Big science": -0.21792624715392273,
+                "Blockship": -0.16018458053340265,
+                "Physics": -0.16018458053340265,
+                "Particle physics": -0.1601845805334027,
+                "Quantum chemistry": -0.1601845805334027,
+                "Gravitational wave": -0.15461291201291527,
+                "Computing": -0.15461291201291527,
+                "Steinberg Cubase": -0.15461291201291527,
+                "Cloud base": -0.15461291201291527
+            },
+            "variances": {
+                "Turbot": 0.4328859418190126,
+                "Open science": 0.4328859418190126,
+                "Shared memory": 0.4328859418190126,
+                "Program optimization": 0.4328859418190126,
+                "Distributed memory": 0.4328859418190126,
+                "Supercomputer": 0.3419346073125667,
+                "Cloud computing": 0.4045842578728028,
+                "Vestment": 0.433001977280655,
+                "Analytics": 0.433001977280655,
+                "Science": 0.3865117072226168,
+                "Massive open online course": 0.4597677932095793,
+                "Software engineering": 0.4597677932095793,
+                "Computational science": 0.4597677932095793,
+                "Data science": 0.4597677932095793,
+                "Computer science": 0.43853897978418055,
+                "Biogeochemistry": 0.43853897978418055,
+                "Big science": 0.43853897978418055,
+                "Blockship": 0.4610098912961509,
+                "Physics": 0.4610098912961509,
+                "Particle physics": 0.4610098912961509,
+                "Quantum chemistry": 0.4610098912961509,
+                "Gravitational wave": 0.462107830496168,
+                "Computing": 0.462107830496168,
+                "Steinberg Cubase": 0.462107830496168,
+                "Cloud base": 0.462107830496168
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 28498,
+            "topic_name": "Turbot",
+            "topic_url": "https://en.wikipedia.org/wiki/Turbot",
+            "mean": 0.12000193065057718,
+            "variance": 0.4328859418190126,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 18915,
+            "topic_name": "Open science",
+            "topic_url": "https://en.wikipedia.org/wiki/Open_science",
+            "mean": 0.12000193065057718,
+            "variance": 0.4328859418190126,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 24471,
+            "topic_name": "Shared memory",
+            "topic_url": "https://en.wikipedia.org/wiki/Shared_memory",
+            "mean": 0.12000193065057718,
+            "variance": 0.4328859418190126,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 21499,
+            "topic_name": "Program optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Program_optimization",
+            "mean": 0.12000193065057718,
+            "variance": 0.4328859418190126,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 7733,
+            "topic_name": "Distributed memory",
+            "topic_url": "https://en.wikipedia.org/wiki/Distributed_memory",
+            "mean": 0.12000193065057715,
+            "variance": 0.4328859418190126,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 26606,
+            "topic_name": "Supercomputer",
+            "topic_url": "https://en.wikipedia.org/wiki/Supercomputer",
+            "mean": -0.3364031972064336,
+            "variance": 0.3419346073125667,
+            "interest_mean": 2.7600880296695287,
+            "interest_var": 0.24937419146574596,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 4734,
+            "topic_name": "Cloud computing",
+            "topic_url": "https://en.wikipedia.org/wiki/Cloud_computing",
+            "mean": -0.02444090736195897,
+            "variance": 0.4045842578728028,
+            "interest_mean": 1.8313130908597424,
+            "interest_var": 0.34392685402073503,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 29204,
+            "topic_name": "Vestment",
+            "topic_url": "https://en.wikipedia.org/wiki/Vestment",
+            "mean": 0.10945448586746545,
+            "variance": 0.433001977280655,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 933,
+            "topic_name": "Analytics",
+            "topic_url": "https://en.wikipedia.org/wiki/Analytics",
+            "mean": 0.10945448586746545,
+            "variance": 0.433001977280655,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 23769,
+            "topic_name": "Science",
+            "topic_url": "https://en.wikipedia.org/wiki/Science",
+            "mean": -0.0799970930856501,
+            "variance": 0.3865117072226168,
+            "interest_mean": 1.6764933769613908,
+            "interest_var": 0.3174635202186522,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 16251,
+            "topic_name": "Massive open online course",
+            "topic_url": "https://en.wikipedia.org/wiki/Massive_open_online_course",
+            "mean": -0.17516403057285354,
+            "variance": 0.4597677932095793,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 25254,
+            "topic_name": "Software engineering",
+            "topic_url": "https://en.wikipedia.org/wiki/Software_engineering",
+            "mean": -0.17516403057285354,
+            "variance": 0.4597677932095793,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 5374,
+            "topic_name": "Computational science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computational_science",
+            "mean": -0.17516403057285354,
+            "variance": 0.4597677932095793,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 6838,
+            "topic_name": "Data science",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_science",
+            "mean": -0.17516403057285354,
+            "variance": 0.4597677932095793,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": -0.21792624715392273,
+            "variance": 0.43853897978418055,
+            "interest_mean": 0.7215653291841221,
+            "interest_var": 0.3685699901067147,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 2530,
+            "topic_name": "Biogeochemistry",
+            "topic_url": "https://en.wikipedia.org/wiki/Biogeochemistry",
+            "mean": -0.21792624715392273,
+            "variance": 0.43853897978418055,
+            "interest_mean": 0.7215653291841221,
+            "interest_var": 0.3685699901067147,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 2407,
+            "topic_name": "Big science",
+            "topic_url": "https://en.wikipedia.org/wiki/Big_Science",
+            "mean": -0.21792624715392273,
+            "variance": 0.43853897978418055,
+            "interest_mean": 0.7215653291841222,
+            "interest_var": 0.3685699901067147,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 2744,
+            "topic_name": "Blockship",
+            "topic_url": "https://en.wikipedia.org/wiki/Blockship",
+            "mean": -0.16018458053340265,
+            "variance": 0.4610098912961509,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 20273,
+            "topic_name": "Physics",
+            "topic_url": "https://en.wikipedia.org/wiki/Physics",
+            "mean": -0.16018458053340265,
+            "variance": 0.4610098912961509,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 19617,
+            "topic_name": "Particle physics",
+            "topic_url": "https://en.wikipedia.org/wiki/Particle_physics",
+            "mean": -0.1601845805334027,
+            "variance": 0.4610098912961509,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 22050,
+            "topic_name": "Quantum chemistry",
+            "topic_url": "https://en.wikipedia.org/wiki/Quantum_chemistry",
+            "mean": -0.1601845805334027,
+            "variance": 0.4610098912961509,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 69601.0
+        },
+        {
+            "topic_id": 11643,
+            "topic_name": "Gravitational wave",
+            "topic_url": "https://en.wikipedia.org/wiki/Gravitational_wave",
+            "mean": -0.15461291201291527,
+            "variance": 0.462107830496168,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 5438,
+            "topic_name": "Computing",
+            "topic_url": "https://en.wikipedia.org/wiki/Computing",
+            "mean": -0.15461291201291527,
+            "variance": 0.462107830496168,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 26083,
+            "topic_name": "Steinberg Cubase",
+            "topic_url": "https://en.wikipedia.org/wiki/Steinberg_Cubase",
+            "mean": -0.15461291201291527,
+            "variance": 0.462107830496168,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 69705.0
+        },
+        {
+            "topic_id": 4732,
+            "topic_name": "Cloud base",
+            "topic_url": "https://en.wikipedia.org/wiki/Cloud_base",
+            "mean": -0.15461291201291527,
+            "variance": 0.462107830496168,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 69705.0
+        }
+    ]
+}

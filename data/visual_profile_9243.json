@@ -1,0 +1,478 @@
+{
+    "user_id": 9243,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.2681022527173639,
+            "variance": 0.4559743641654505
+        },
+        "interest": {
+            "mean": 0.0620187866172542,
+            "variance": 0.40766137761786975
+        },
+        "bias": {
+            "mean": -0.5796645262831119,
+            "variance": 0.31123581472774176
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 8833.0,
+            "means": {
+                "Reinforcement learning": 0.18475938024423327,
+                "Supervised learning": 0.18475938024423327,
+                "Loss function": 0.18475938024423327,
+                "Regression analysis": 0.18475938024423327,
+                "Ridge regression": 0.18475938024423327
+            },
+            "variances": {
+                "Reinforcement learning": 0.4328859225046677,
+                "Supervised learning": 0.4328859225046677,
+                "Loss function": 0.4328859225046677,
+                "Regression analysis": 0.4328859225046677,
+                "Ridge regression": 0.4328859225046677
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 167323.0,
+            "means": {
+                "Reinforcement learning": 0.18475938024423327,
+                "Supervised learning": 0.18475938024423327,
+                "Loss function": 0.18475938024423327,
+                "Regression analysis": 0.18475938024423327,
+                "Ridge regression": 0.18475938024423327,
+                "Rejection sampling": -0.13197713279406134,
+                "Machine learning": -0.13197713279406134,
+                "Importance sampling": -0.13197713279406137,
+                "Visual cortex": -0.13197713279406137,
+                "Change blindness": -0.13197713279406137,
+                "Student's t-distribution": -0.12513105122764087,
+                "Computer science": -0.12513105122764087,
+                "Monte Carlo method": -0.1251310512276409,
+                "Computer architecture": -0.1251310512276409,
+                "Game theory": -0.1251310512276409
+            },
+            "variances": {
+                "Reinforcement learning": 0.4328859225046677,
+                "Supervised learning": 0.4328859225046677,
+                "Loss function": 0.4328859225046677,
+                "Regression analysis": 0.4328859225046677,
+                "Ridge regression": 0.4328859225046677,
+                "Rejection sampling": 0.465505287326837,
+                "Machine learning": 0.465505287326837,
+                "Importance sampling": 0.465505287326837,
+                "Visual cortex": 0.465505287326837,
+                "Change blindness": 0.465505287326837,
+                "Student's t-distribution": 0.46646120090696175,
+                "Computer science": 0.46646120090696175,
+                "Monte Carlo method": 0.46646120090696175,
+                "Computer architecture": 0.46646120090696175,
+                "Game theory": 0.46646120090696175
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 167613.0,
+            "means": {
+                "Reinforcement learning": 0.18475938024423327,
+                "Supervised learning": 0.18475938024423327,
+                "Loss function": 0.18475938024423327,
+                "Regression analysis": 0.18475938024423327,
+                "Ridge regression": 0.18475938024423327,
+                "Rejection sampling": -0.13197713279406134,
+                "Machine learning": -0.24059088294912084,
+                "Importance sampling": -0.2452637667067876,
+                "Visual cortex": -0.13197713279406137,
+                "Change blindness": -0.13197713279406137,
+                "Student's t-distribution": -0.12513105122764087,
+                "Computer science": -0.12513105122764087,
+                "Monte Carlo method": -0.1251310512276409,
+                "Computer architecture": -0.1251310512276409,
+                "Game theory": -0.1251310512276409,
+                "Marginal likelihood": -0.12168136108966071,
+                "Posterior probability": -0.12168136108966071,
+                "Normalizing constant": -0.12168136108966071,
+                "Artificial intelligence": -0.12168136108966071,
+                "Particle filter": -0.11666220890720033,
+                "Ketamine": -0.11666220890720033,
+                "Computer vision": -0.11666220890720033,
+                "Probability distribution": -0.11666220890720033
+            },
+            "variances": {
+                "Reinforcement learning": 0.4328859225046677,
+                "Supervised learning": 0.4328859225046677,
+                "Loss function": 0.4328859225046677,
+                "Regression analysis": 0.4328859225046677,
+                "Ridge regression": 0.4328859225046677,
+                "Rejection sampling": 0.465505287326837,
+                "Machine learning": 0.43732246723733686,
+                "Importance sampling": 0.43667087401488075,
+                "Visual cortex": 0.465505287326837,
+                "Change blindness": 0.465505287326837,
+                "Student's t-distribution": 0.46646120090696175,
+                "Computer science": 0.46646120090696175,
+                "Monte Carlo method": 0.46646120090696175,
+                "Computer architecture": 0.46646120090696175,
+                "Game theory": 0.46646120090696175,
+                "Marginal likelihood": 0.4667338997733495,
+                "Posterior probability": 0.4667338997733495,
+                "Normalizing constant": 0.4667338997733495,
+                "Artificial intelligence": 0.4667338997733495,
+                "Particle filter": 0.467485639203964,
+                "Ketamine": 0.467485639203964,
+                "Computer vision": 0.467485639203964,
+                "Probability distribution": 0.467485639203964
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 169485.0,
+            "means": {
+                "Reinforcement learning": 0.18475938024423327,
+                "Supervised learning": 0.18475938024423327,
+                "Loss function": 0.18475938024423327,
+                "Regression analysis": 0.18475938024423327,
+                "Ridge regression": 0.18475938024423327,
+                "Rejection sampling": -0.13197713279406134,
+                "Machine learning": -0.24059088294912084,
+                "Importance sampling": -0.2452637667067876,
+                "Visual cortex": -0.13197713279406137,
+                "Change blindness": -0.13197713279406137,
+                "Student's t-distribution": -0.12513105122764087,
+                "Computer science": -0.12513105122764087,
+                "Monte Carlo method": -0.1251310512276409,
+                "Computer architecture": -0.1251310512276409,
+                "Game theory": -0.1251310512276409,
+                "Marginal likelihood": -0.12168136108966071,
+                "Posterior probability": -0.12168136108966071,
+                "Normalizing constant": -0.12168136108966071,
+                "Artificial intelligence": -0.12168136108966071,
+                "Particle filter": -0.11666220890720033,
+                "Ketamine": -0.11666220890720033,
+                "Computer vision": -0.11666220890720033,
+                "Probability distribution": -0.11666220890720033,
+                "Estimating equations": -0.10278724013130151,
+                "Instrumental variables estimation": -0.10278724013130151,
+                "Bias of an estimator": -0.10278724013130153,
+                "Temporal difference learning": -0.10278724013130153,
+                "Estimator": -0.10278724013130153
+            },
+            "variances": {
+                "Reinforcement learning": 0.4328859225046677,
+                "Supervised learning": 0.4328859225046677,
+                "Loss function": 0.4328859225046677,
+                "Regression analysis": 0.4328859225046677,
+                "Ridge regression": 0.4328859225046677,
+                "Rejection sampling": 0.465505287326837,
+                "Machine learning": 0.43732246723733686,
+                "Importance sampling": 0.43667087401488075,
+                "Visual cortex": 0.465505287326837,
+                "Change blindness": 0.465505287326837,
+                "Student's t-distribution": 0.46646120090696175,
+                "Computer science": 0.46646120090696175,
+                "Monte Carlo method": 0.46646120090696175,
+                "Computer architecture": 0.46646120090696175,
+                "Game theory": 0.46646120090696175,
+                "Marginal likelihood": 0.4667338997733495,
+                "Posterior probability": 0.4667338997733495,
+                "Normalizing constant": 0.4667338997733495,
+                "Artificial intelligence": 0.4667338997733495,
+                "Particle filter": 0.467485639203964,
+                "Ketamine": 0.467485639203964,
+                "Computer vision": 0.467485639203964,
+                "Probability distribution": 0.467485639203964,
+                "Estimating equations": 0.4699041387908727,
+                "Instrumental variables estimation": 0.4699041387908727,
+                "Bias of an estimator": 0.4699041387908727,
+                "Temporal difference learning": 0.4699041387908727,
+                "Estimator": 0.4699041387908727
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 22732,
+            "topic_name": "Reinforcement learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "mean": 0.18475938024423327,
+            "variance": 0.4328859225046677,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8833.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.18475938024423327,
+            "variance": 0.4328859225046677,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8833.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.18475938024423327,
+            "variance": 0.4328859225046677,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8833.0
+        },
+        {
+            "topic_id": 22701,
+            "topic_name": "Regression analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Regression_analysis",
+            "mean": 0.18475938024423327,
+            "variance": 0.4328859225046677,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8833.0
+        },
+        {
+            "topic_id": 27718,
+            "topic_name": "Ridge regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Tikhonov_regularization",
+            "mean": 0.18475938024423327,
+            "variance": 0.4328859225046677,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8833.0
+        },
+        {
+            "topic_id": 22737,
+            "topic_name": "Rejection sampling",
+            "topic_url": "https://en.wikipedia.org/wiki/Rejection_sampling",
+            "mean": -0.13197713279406134,
+            "variance": 0.465505287326837,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 167323.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.24059088294912084,
+            "variance": 0.43732246723733686,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 13142,
+            "topic_name": "Importance sampling",
+            "topic_url": "https://en.wikipedia.org/wiki/Importance_sampling",
+            "mean": -0.2452637667067876,
+            "variance": 0.43667087401488075,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 29373,
+            "topic_name": "Visual cortex",
+            "topic_url": "https://en.wikipedia.org/wiki/Visual_cortex",
+            "mean": -0.13197713279406137,
+            "variance": 0.465505287326837,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 167323.0
+        },
+        {
+            "topic_id": 4077,
+            "topic_name": "Change blindness",
+            "topic_url": "https://en.wikipedia.org/wiki/Change_blindness",
+            "mean": -0.13197713279406137,
+            "variance": 0.465505287326837,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 167323.0
+        },
+        {
+            "topic_id": 26411,
+            "topic_name": "Student's t-distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Student's_t-distribution",
+            "mean": -0.12513105122764087,
+            "variance": 0.46646120090696175,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 167323.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": -0.12513105122764087,
+            "variance": 0.46646120090696175,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 167323.0
+        },
+        {
+            "topic_id": 17347,
+            "topic_name": "Monte Carlo method",
+            "topic_url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+            "mean": -0.1251310512276409,
+            "variance": 0.46646120090696175,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 167323.0
+        },
+        {
+            "topic_id": 5391,
+            "topic_name": "Computer architecture",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_architecture",
+            "mean": -0.1251310512276409,
+            "variance": 0.46646120090696175,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 167323.0
+        },
+        {
+            "topic_id": 10845,
+            "topic_name": "Game theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Game_theory",
+            "mean": -0.1251310512276409,
+            "variance": 0.46646120090696175,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 167323.0
+        },
+        {
+            "topic_id": 16086,
+            "topic_name": "Marginal likelihood",
+            "topic_url": "https://en.wikipedia.org/wiki/Marginal_likelihood",
+            "mean": -0.12168136108966071,
+            "variance": 0.4667338997733495,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": -0.12168136108966071,
+            "variance": 0.4667338997733495,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 18462,
+            "topic_name": "Normalizing constant",
+            "topic_url": "https://en.wikipedia.org/wiki/Normalizing_constant",
+            "mean": -0.12168136108966071,
+            "variance": 0.4667338997733495,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": -0.12168136108966071,
+            "variance": 0.4667338997733495,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 19611,
+            "topic_name": "Particle filter",
+            "topic_url": "https://en.wikipedia.org/wiki/Particle_filter",
+            "mean": -0.11666220890720033,
+            "variance": 0.467485639203964,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 14355,
+            "topic_name": "Ketamine",
+            "topic_url": "https://en.wikipedia.org/wiki/Ketamine",
+            "mean": -0.11666220890720033,
+            "variance": 0.467485639203964,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 5427,
+            "topic_name": "Computer vision",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_vision",
+            "mean": -0.11666220890720033,
+            "variance": 0.467485639203964,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": -0.11666220890720033,
+            "variance": 0.467485639203964,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 167613.0
+        },
+        {
+            "topic_id": 9067,
+            "topic_name": "Estimating equations",
+            "topic_url": "https://en.wikipedia.org/wiki/Estimating_equations",
+            "mean": -0.10278724013130151,
+            "variance": 0.4699041387908727,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 169485.0
+        },
+        {
+            "topic_id": 13563,
+            "topic_name": "Instrumental variables estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Instrumental_variables_estimation",
+            "mean": -0.10278724013130151,
+            "variance": 0.4699041387908727,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 169485.0
+        },
+        {
+            "topic_id": 2358,
+            "topic_name": "Bias of an estimator",
+            "topic_url": "https://en.wikipedia.org/wiki/Bias_of_an_estimator",
+            "mean": -0.10278724013130153,
+            "variance": 0.4699041387908727,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 169485.0
+        },
+        {
+            "topic_id": 27296,
+            "topic_name": "Temporal difference learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Temporal_difference_learning",
+            "mean": -0.10278724013130153,
+            "variance": 0.4699041387908727,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 169485.0
+        },
+        {
+            "topic_id": 9072,
+            "topic_name": "Estimator",
+            "topic_url": "https://en.wikipedia.org/wiki/Estimator",
+            "mean": -0.10278724013130153,
+            "variance": 0.4699041387908727,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 169485.0
+        }
+    ]
+}

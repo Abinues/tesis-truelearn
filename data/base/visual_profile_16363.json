@@ -1,0 +1,404 @@
+{
+    "user_id": 16363,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 2,
+    "weights": {
+        "novelty": {
+            "mean": 0.6679793845205628,
+            "variance": 0.446693752499229
+        },
+        "interest": {
+            "mean": 0.4955072883272954,
+            "variance": 0.4101137452482745
+        },
+        "bias": {
+            "mean": 0.08551700984820167,
+            "variance": 0.3320048150348429
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 13194.0,
+            "means": {
+                "Computer science": 0.12282440670995184,
+                "Return statement": 0.12282440670995184,
+                "Intrusion detection system": 0.12282440670995184,
+                "Operating system": 0.12282440670995184,
+                "Binary code": 0.12282440670995184
+            },
+            "variances": {
+                "Computer science": 0.4328858400773419,
+                "Return statement": 0.4328858400773419,
+                "Intrusion detection system": 0.4328858400773419,
+                "Operating system": 0.4328858400773419,
+                "Binary code": 0.4328858400773419
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 13435.0,
+            "means": {
+                "Computer science": 0.12282440670995184,
+                "Return statement": 0.12282440670995184,
+                "Intrusion detection system": 0.12282440670995184,
+                "Operating system": 0.12282440670995184,
+                "Binary code": 0.12282440670995184,
+                "Eigenvalues and eigenvectors": -0.1335499349864168,
+                "Assignment problem": -0.1335499349864168,
+                "Gene": -0.1335499349864168,
+                "Sleep spindle": -0.1335499349864168,
+                "Linear algebra": -0.1335499349864168
+            },
+            "variances": {
+                "Computer science": 0.4328858400773419,
+                "Return statement": 0.4328858400773419,
+                "Intrusion detection system": 0.4328858400773419,
+                "Operating system": 0.4328858400773419,
+                "Binary code": 0.4328858400773419,
+                "Eigenvalues and eigenvectors": 0.46529157113951336,
+                "Assignment problem": 0.46529157113951336,
+                "Gene": 0.46529157113951336,
+                "Sleep spindle": 0.46529157113951336,
+                "Linear algebra": 0.46529157113951336
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 13490.0,
+            "means": {
+                "Computer science": 0.12282440670995184,
+                "Return statement": 0.12282440670995184,
+                "Intrusion detection system": 0.12282440670995184,
+                "Operating system": 0.12282440670995184,
+                "Binary code": 0.12282440670995184,
+                "Eigenvalues and eigenvectors": -0.1335499349864168,
+                "Assignment problem": -0.1335499349864168,
+                "Gene": -0.1335499349864168,
+                "Sleep spindle": -0.1335499349864168,
+                "Linear algebra": -0.1335499349864168,
+                "Mutual information": 0.147239838339486,
+                "Data compression": 0.147239838339486,
+                "Loss function": 0.147239838339486,
+                "Generative model": 0.147239838339486,
+                "Salaries tax": 0.147239838339486
+            },
+            "variances": {
+                "Computer science": 0.4328858400773419,
+                "Return statement": 0.4328858400773419,
+                "Intrusion detection system": 0.4328858400773419,
+                "Operating system": 0.4328858400773419,
+                "Binary code": 0.4328858400773419,
+                "Eigenvalues and eigenvectors": 0.46529157113951336,
+                "Assignment problem": 0.46529157113951336,
+                "Gene": 0.46529157113951336,
+                "Sleep spindle": 0.46529157113951336,
+                "Linear algebra": 0.46529157113951336,
+                "Mutual information": 0.4329148275813329,
+                "Data compression": 0.4329148275813329,
+                "Loss function": 0.4329148275813329,
+                "Generative model": 0.4329148275813329,
+                "Salaries tax": 0.4329148275813329
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 13656.0,
+            "means": {
+                "Computer science": 0.12282440670995184,
+                "Return statement": 0.12282440670995184,
+                "Intrusion detection system": 0.12282440670995184,
+                "Operating system": 0.12282440670995184,
+                "Binary code": 0.12282440670995184,
+                "Eigenvalues and eigenvectors": -0.1335499349864168,
+                "Assignment problem": -0.1335499349864168,
+                "Gene": -0.1335499349864168,
+                "Sleep spindle": -0.1335499349864168,
+                "Linear algebra": -0.1335499349864168,
+                "Mutual information": 0.147239838339486,
+                "Data compression": 0.147239838339486,
+                "Loss function": 0.147239838339486,
+                "Generative model": 0.147239838339486,
+                "Salaries tax": 0.147239838339486,
+                "Anti-communism": 0.10991781182238927,
+                "False discovery rate": 0.10991781182238927,
+                "Telescope": 0.10991781182238927,
+                "Ant": 0.10991781182238927,
+                "United Kingdom": 0.10991781182238929
+            },
+            "variances": {
+                "Computer science": 0.4328858400773419,
+                "Return statement": 0.4328858400773419,
+                "Intrusion detection system": 0.4328858400773419,
+                "Operating system": 0.4328858400773419,
+                "Binary code": 0.4328858400773419,
+                "Eigenvalues and eigenvectors": 0.46529157113951336,
+                "Assignment problem": 0.46529157113951336,
+                "Gene": 0.46529157113951336,
+                "Sleep spindle": 0.46529157113951336,
+                "Linear algebra": 0.46529157113951336,
+                "Mutual information": 0.4329148275813329,
+                "Data compression": 0.4329148275813329,
+                "Loss function": 0.4329148275813329,
+                "Generative model": 0.4329148275813329,
+                "Salaries tax": 0.4329148275813329,
+                "Anti-communism": 0.4329373676853008,
+                "False discovery rate": 0.4329373676853008,
+                "Telescope": 0.4329373676853008,
+                "Ant": 0.4329373676853008,
+                "United Kingdom": 0.4329373676853008
+            }
+        },
+        {
+            "session_id": 5,
+            "timestamp": 15519.0,
+            "means": {
+                "Computer science": 0.12282440670995184,
+                "Return statement": 0.12282440670995184,
+                "Intrusion detection system": 0.12282440670995184,
+                "Operating system": 0.12282440670995184,
+                "Binary code": 0.12282440670995184,
+                "Eigenvalues and eigenvectors": -0.2168285809662434,
+                "Assignment problem": -0.2168285809662434,
+                "Gene": -0.2168285809662434,
+                "Sleep spindle": -0.2168285809662434,
+                "Linear algebra": -0.2168285809662434,
+                "Mutual information": 0.147239838339486,
+                "Data compression": 0.147239838339486,
+                "Loss function": 0.147239838339486,
+                "Generative model": 0.147239838339486,
+                "Salaries tax": 0.147239838339486,
+                "Anti-communism": 0.10991781182238927,
+                "False discovery rate": 0.10991781182238927,
+                "Telescope": 0.10991781182238927,
+                "Ant": 0.10991781182238927,
+                "United Kingdom": 0.10991781182238929
+            },
+            "variances": {
+                "Computer science": 0.4328858400773419,
+                "Return statement": 0.4328858400773419,
+                "Intrusion detection system": 0.4328858400773419,
+                "Operating system": 0.4328858400773419,
+                "Binary code": 0.4328858400773419,
+                "Eigenvalues and eigenvectors": 0.4404203600650457,
+                "Assignment problem": 0.4404203600650457,
+                "Gene": 0.4404203600650457,
+                "Sleep spindle": 0.4404203600650457,
+                "Linear algebra": 0.4404203600650457,
+                "Mutual information": 0.4329148275813329,
+                "Data compression": 0.4329148275813329,
+                "Loss function": 0.4329148275813329,
+                "Generative model": 0.4329148275813329,
+                "Salaries tax": 0.4329148275813329,
+                "Anti-communism": 0.4329373676853008,
+                "False discovery rate": 0.4329373676853008,
+                "Telescope": 0.4329373676853008,
+                "Ant": 0.4329373676853008,
+                "United Kingdom": 0.4329373676853008
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": 0.12282440670995184,
+            "variance": 0.4328858400773419,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13194.0
+        },
+        {
+            "topic_id": 22967,
+            "topic_name": "Return statement",
+            "topic_url": "https://en.wikipedia.org/wiki/Return_statement",
+            "mean": 0.12282440670995184,
+            "variance": 0.4328858400773419,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13194.0
+        },
+        {
+            "topic_id": 13860,
+            "topic_name": "Intrusion detection system",
+            "topic_url": "https://en.wikipedia.org/wiki/Intrusion_detection_system",
+            "mean": 0.12282440670995184,
+            "variance": 0.4328858400773419,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13194.0
+        },
+        {
+            "topic_id": 18949,
+            "topic_name": "Operating system",
+            "topic_url": "https://en.wikipedia.org/wiki/Operating_system",
+            "mean": 0.12282440670995184,
+            "variance": 0.4328858400773419,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13194.0
+        },
+        {
+            "topic_id": 2454,
+            "topic_name": "Binary code",
+            "topic_url": "https://en.wikipedia.org/wiki/Binary_code",
+            "mean": 0.12282440670995184,
+            "variance": 0.4328858400773419,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13194.0
+        },
+        {
+            "topic_id": 8400,
+            "topic_name": "Eigenvalues and eigenvectors",
+            "topic_url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+            "mean": -0.2168285809662434,
+            "variance": 0.4404203600650457,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 15519.0
+        },
+        {
+            "topic_id": 1540,
+            "topic_name": "Assignment problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Assignment_problem",
+            "mean": -0.2168285809662434,
+            "variance": 0.4404203600650457,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 15519.0
+        },
+        {
+            "topic_id": 10985,
+            "topic_name": "Gene",
+            "topic_url": "https://en.wikipedia.org/wiki/Gene",
+            "mean": -0.2168285809662434,
+            "variance": 0.4404203600650457,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 15519.0
+        },
+        {
+            "topic_id": 24924,
+            "topic_name": "Sleep spindle",
+            "topic_url": "https://en.wikipedia.org/wiki/Sleep_spindle",
+            "mean": -0.2168285809662434,
+            "variance": 0.4404203600650457,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 15519.0
+        },
+        {
+            "topic_id": 15207,
+            "topic_name": "Linear algebra",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+            "mean": -0.2168285809662434,
+            "variance": 0.4404203600650457,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 15519.0
+        },
+        {
+            "topic_id": 17743,
+            "topic_name": "Mutual information",
+            "topic_url": "https://en.wikipedia.org/wiki/Mutual_information",
+            "mean": 0.147239838339486,
+            "variance": 0.4329148275813329,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13490.0
+        },
+        {
+            "topic_id": 6789,
+            "topic_name": "Data compression",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_compression",
+            "mean": 0.147239838339486,
+            "variance": 0.4329148275813329,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13490.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.147239838339486,
+            "variance": 0.4329148275813329,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13490.0
+        },
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": 0.147239838339486,
+            "variance": 0.4329148275813329,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13490.0
+        },
+        {
+            "topic_id": 23521,
+            "topic_name": "Salaries tax",
+            "topic_url": "https://en.wikipedia.org/wiki/Salaries_tax",
+            "mean": 0.147239838339486,
+            "variance": 0.4329148275813329,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13490.0
+        },
+        {
+            "topic_id": 1122,
+            "topic_name": "Anti-communism",
+            "topic_url": "https://en.wikipedia.org/wiki/Anti-communism",
+            "mean": 0.10991781182238927,
+            "variance": 0.4329373676853008,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13656.0
+        },
+        {
+            "topic_id": 9585,
+            "topic_name": "False discovery rate",
+            "topic_url": "https://en.wikipedia.org/wiki/False_discovery_rate",
+            "mean": 0.10991781182238927,
+            "variance": 0.4329373676853008,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13656.0
+        },
+        {
+            "topic_id": 27257,
+            "topic_name": "Telescope",
+            "topic_url": "https://en.wikipedia.org/wiki/Telescope",
+            "mean": 0.10991781182238927,
+            "variance": 0.4329373676853008,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13656.0
+        },
+        {
+            "topic_id": 1085,
+            "topic_name": "Ant",
+            "topic_url": "https://en.wikipedia.org/wiki/Ant",
+            "mean": 0.10991781182238927,
+            "variance": 0.4329373676853008,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13656.0
+        },
+        {
+            "topic_id": 28773,
+            "topic_name": "United Kingdom",
+            "topic_url": "https://en.wikipedia.org/wiki/United_Kingdom",
+            "mean": 0.10991781182238929,
+            "variance": 0.4329373676853008,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 13656.0
+        }
+    ]
+}

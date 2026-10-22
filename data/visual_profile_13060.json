@@ -1,0 +1,352 @@
+{
+    "user_id": 13060,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 4,
+    "weights": {
+        "novelty": {
+            "mean": 0.28627304550097454,
+            "variance": 0.4548525072182034
+        },
+        "interest": {
+            "mean": 0.13723546454384078,
+            "variance": 0.4192663788468695
+        },
+        "bias": {
+            "mean": -0.4790618340233886,
+            "variance": 0.3318212390372501
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 80566.0,
+            "means": {
+                "Machine learning": 0.14061246964822033,
+                "Mixture model": 0.14061246964822033,
+                "Algorithm": 0.14061246964822033,
+                "Regression analysis": 0.14061246964822033,
+                "Logistic regression": 0.14061246964822036
+            },
+            "variances": {
+                "Machine learning": 0.43288599842724523,
+                "Mixture model": 0.43288599842724523,
+                "Algorithm": 0.43288599842724523,
+                "Regression analysis": 0.43288599842724523,
+                "Logistic regression": 0.43288599842724523
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 83476.0,
+            "means": {
+                "Machine learning": 0.009725240750234941,
+                "Mixture model": 0.14061246964822033,
+                "Algorithm": 0.14061246964822033,
+                "Regression analysis": 0.14061246964822033,
+                "Logistic regression": 0.14061246964822036,
+                "Speech recognition": -0.15117979026062617,
+                "Loss function": -0.15117979026062622,
+                "Handwriting recognition": -0.15117979026062622,
+                "Graphical model": -0.15117979026062622
+            },
+            "variances": {
+                "Machine learning": 0.4047969625632909,
+                "Mixture model": 0.43288599842724523,
+                "Algorithm": 0.43288599842724523,
+                "Regression analysis": 0.43288599842724523,
+                "Logistic regression": 0.43288599842724523,
+                "Speech recognition": 0.46252602493630385,
+                "Loss function": 0.46252602493630385,
+                "Handwriting recognition": 0.46252602493630385,
+                "Graphical model": 0.46252602493630385
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 83733.0,
+            "means": {
+                "Machine learning": -0.12019353526942682,
+                "Mixture model": 0.14061246964822033,
+                "Algorithm": 0.14061246964822033,
+                "Regression analysis": 0.14061246964822033,
+                "Logistic regression": 0.14061246964822036,
+                "Speech recognition": -0.15117979026062617,
+                "Loss function": -0.15117979026062622,
+                "Handwriting recognition": -0.15117979026062622,
+                "Graphical model": -0.15117979026062622,
+                "Deep learning": -0.16047400059152955,
+                "Expression (mathematics)": -0.16047400059152955,
+                "Numerical stability": -0.16047400059152955,
+                "Banjo": -0.16047400059152955,
+                "Dot product": -0.13941994717606532,
+                "Euclidean vector": -0.13941994717606532,
+                "Graph (discrete mathematics)": -0.13941994717606532,
+                "Floating-point arithmetic": -0.13941994717606532,
+                "Transpose": -0.13941994717606532,
+                "Backpropagation": -0.1393005789543073,
+                "Backpropagation through time": -0.1393005789543073,
+                "Random number generation": -0.1393005789543073,
+                "Control flow": -0.13930057895430734,
+                "Matrix (mathematics)": -0.13930057895430734
+            },
+            "variances": {
+                "Machine learning": 0.37935595684137347,
+                "Mixture model": 0.43288599842724523,
+                "Algorithm": 0.43288599842724523,
+                "Regression analysis": 0.43288599842724523,
+                "Logistic regression": 0.43288599842724523,
+                "Speech recognition": 0.46252602493630385,
+                "Loss function": 0.46252602493630385,
+                "Handwriting recognition": 0.46252602493630385,
+                "Graphical model": 0.46252602493630385,
+                "Deep learning": 0.4611849817965511,
+                "Expression (mathematics)": 0.4611849817965511,
+                "Numerical stability": 0.4611849817965511,
+                "Banjo": 0.4611849817965511,
+                "Dot product": 0.46451250083585965,
+                "Euclidean vector": 0.46451250083585965,
+                "Graph (discrete mathematics)": 0.46451250083585965,
+                "Floating-point arithmetic": 0.46451250083585965,
+                "Transpose": 0.46451250083585965,
+                "Backpropagation": 0.46452805854713297,
+                "Backpropagation through time": 0.46452805854713297,
+                "Random number generation": 0.46452805854713297,
+                "Control flow": 0.46452805854713297,
+                "Matrix (mathematics)": 0.46452805854713297
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.12019353526942682,
+            "variance": 0.37935595684137347,
+            "interest_mean": 2.3783409009634093,
+            "interest_var": 0.29902514500254407,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 17125,
+            "topic_name": "Mixture model",
+            "topic_url": "https://en.wikipedia.org/wiki/Mixture_model",
+            "mean": 0.14061246964822033,
+            "variance": 0.43288599842724523,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 80566.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.14061246964822033,
+            "variance": 0.43288599842724523,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 80566.0
+        },
+        {
+            "topic_id": 22701,
+            "topic_name": "Regression analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Regression_analysis",
+            "mean": 0.14061246964822033,
+            "variance": 0.43288599842724523,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 80566.0
+        },
+        {
+            "topic_id": 15593,
+            "topic_name": "Logistic regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_regression",
+            "mean": 0.14061246964822036,
+            "variance": 0.43288599842724523,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 80566.0
+        },
+        {
+            "topic_id": 25630,
+            "topic_name": "Speech recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Speech_recognition",
+            "mean": -0.15117979026062617,
+            "variance": 0.46252602493630385,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 83476.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": -0.15117979026062622,
+            "variance": 0.46252602493630385,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 83476.0
+        },
+        {
+            "topic_id": 11972,
+            "topic_name": "Handwriting recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Handwriting_recognition",
+            "mean": -0.15117979026062622,
+            "variance": 0.46252602493630385,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 83476.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": -0.15117979026062622,
+            "variance": 0.46252602493630385,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 83476.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": -0.16047400059152955,
+            "variance": 0.4611849817965511,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 9401,
+            "topic_name": "Expression (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Expression_(mathematics)",
+            "mean": -0.16047400059152955,
+            "variance": 0.4611849817965511,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 18606,
+            "topic_name": "Numerical stability",
+            "topic_url": "https://en.wikipedia.org/wiki/Numerical_stability",
+            "mean": -0.16047400059152955,
+            "variance": 0.4611849817965511,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 2026,
+            "topic_name": "Banjo",
+            "topic_url": "https://en.wikipedia.org/wiki/Banjo",
+            "mean": -0.16047400059152955,
+            "variance": 0.4611849817965511,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 7925,
+            "topic_name": "Dot product",
+            "topic_url": "https://en.wikipedia.org/wiki/Dot_product",
+            "mean": -0.13941994717606532,
+            "variance": 0.46451250083585965,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 9123,
+            "topic_name": "Euclidean vector",
+            "topic_url": "https://en.wikipedia.org/wiki/Euclidean_vector",
+            "mean": -0.13941994717606532,
+            "variance": 0.46451250083585965,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 11574,
+            "topic_name": "Graph (discrete mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "mean": -0.13941994717606532,
+            "variance": 0.46451250083585965,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 10126,
+            "topic_name": "Floating-point arithmetic",
+            "topic_url": "https://en.wikipedia.org/wiki/Floating-point_arithmetic",
+            "mean": -0.13941994717606532,
+            "variance": 0.46451250083585965,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 28211,
+            "topic_name": "Transpose",
+            "topic_url": "https://en.wikipedia.org/wiki/Transpose",
+            "mean": -0.13941994717606532,
+            "variance": 0.46451250083585965,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 1910,
+            "topic_name": "Backpropagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "mean": -0.1393005789543073,
+            "variance": 0.46452805854713297,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 1911,
+            "topic_name": "Backpropagation through time",
+            "topic_url": "https://en.wikipedia.org/wiki/Backpropagation_through_time",
+            "mean": -0.1393005789543073,
+            "variance": 0.46452805854713297,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 22331,
+            "topic_name": "Random number generation",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_number_generation",
+            "mean": -0.1393005789543073,
+            "variance": 0.46452805854713297,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 5867,
+            "topic_name": "Control flow",
+            "topic_url": "https://en.wikipedia.org/wiki/Control_flow",
+            "mean": -0.13930057895430734,
+            "variance": 0.46452805854713297,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        },
+        {
+            "topic_id": 16334,
+            "topic_name": "Matrix (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+            "mean": -0.13930057895430734,
+            "variance": 0.46452805854713297,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 83733.0
+        }
+    ]
+}

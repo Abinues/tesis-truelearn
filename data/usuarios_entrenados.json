@@ -1,0 +1,2102 @@
+[
+    {
+        "user_id": 34953,
+        "tipo": "muchas",
+        "interacciones": 118,
+        "engagements": 23,
+        "sesiones": 26,
+        "weights": {
+            "novelty": {
+                "mean": 0.9608412057527068,
+                "variance": 0.173565424002574
+            },
+            "interest": {
+                "mean": -0.47623475602556753,
+                "variance": 0.07147373989978374
+            },
+            "bias": {
+                "mean": -1.1687958080213658,
+                "variance": 0.04589509071776448
+            }
+        }
+    },
+    {
+        "user_id": 24689,
+        "tipo": "muchas",
+        "interacciones": 51,
+        "engagements": 49,
+        "sesiones": 7,
+        "weights": {
+            "novelty": {
+                "mean": 1.7561008836365612,
+                "variance": 0.262962411928005
+            },
+            "interest": {
+                "mean": 1.687640628000698,
+                "variance": 0.22696922418930257
+            },
+            "bias": {
+                "mean": 1.3226533059111314,
+                "variance": 0.13886211431896037
+            }
+        }
+    },
+    {
+        "user_id": 26326,
+        "tipo": "muchas",
+        "interacciones": 109,
+        "engagements": 107,
+        "sesiones": 17,
+        "weights": {
+            "novelty": {
+                "mean": 2.072656796619221,
+                "variance": 0.21736075397392007
+            },
+            "interest": {
+                "mean": 2.0445268098506864,
+                "variance": 0.17573451868551956
+            },
+            "bias": {
+                "mean": 1.5265440875562204,
+                "variance": 0.10983556149591496
+            }
+        }
+    },
+    {
+        "user_id": 19082,
+        "tipo": "muchas",
+        "interacciones": 52,
+        "engagements": 28,
+        "sesiones": 18,
+        "weights": {
+            "novelty": {
+                "mean": 0.9558679281231753,
+                "variance": 0.20573688670987264
+            },
+            "interest": {
+                "mean": 0.2489455296935815,
+                "variance": 0.1199391539406767
+            },
+            "bias": {
+                "mean": -0.11852378237066735,
+                "variance": 0.08207646802610127
+            }
+        }
+    },
+    {
+        "user_id": 32489,
+        "tipo": "muchas",
+        "interacciones": 46,
+        "engagements": 41,
+        "sesiones": 8,
+        "weights": {
+            "novelty": {
+                "mean": 1.6829761878562364,
+                "variance": 0.2584581154288707
+            },
+            "interest": {
+                "mean": 1.555568376706175,
+                "variance": 0.21256091668329855
+            },
+            "bias": {
+                "mean": 0.9020198596078572,
+                "variance": 0.130739355935361
+            }
+        }
+    },
+    {
+        "user_id": 29378,
+        "tipo": "muchas",
+        "interacciones": 46,
+        "engagements": 42,
+        "sesiones": 6,
+        "weights": {
+            "novelty": {
+                "mean": 1.345638531821965,
+                "variance": 0.2540031804989457
+            },
+            "interest": {
+                "mean": 1.2617017367479748,
+                "variance": 0.1812531525070555
+            },
+            "bias": {
+                "mean": 0.9100897563836672,
+                "variance": 0.14238738760133635
+            }
+        }
+    },
+    {
+        "user_id": 5078,
+        "tipo": "muchas",
+        "interacciones": 160,
+        "engagements": 7,
+        "sesiones": 36,
+        "weights": {
+            "novelty": {
+                "mean": 0.3979764932444022,
+                "variance": 0.2732637423247035
+            },
+            "interest": {
+                "mean": -0.9905534552974345,
+                "variance": 0.09013814250537942
+            },
+            "bias": {
+                "mean": -1.5922603244989075,
+                "variance": 0.06312829486006859
+            }
+        }
+    },
+    {
+        "user_id": 13556,
+        "tipo": "muchas",
+        "interacciones": 112,
+        "engagements": 66,
+        "sesiones": 40,
+        "weights": {
+            "novelty": {
+                "mean": 1.3976583911424871,
+                "variance": 0.1186243422645096
+            },
+            "interest": {
+                "mean": 0.12892383406641714,
+                "variance": 0.06240502676524135
+            },
+            "bias": {
+                "mean": -0.030694241011546636,
+                "variance": 0.042244747877014696
+            }
+        }
+    },
+    {
+        "user_id": 12943,
+        "tipo": "muchas",
+        "interacciones": 110,
+        "engagements": 12,
+        "sesiones": 70,
+        "weights": {
+            "novelty": {
+                "mean": 0.4338692115179851,
+                "variance": 0.2336770943628257
+            },
+            "interest": {
+                "mean": -0.8316542623224713,
+                "variance": 0.08945631000760393
+            },
+            "bias": {
+                "mean": -1.3379650799738763,
+                "variance": 0.05809976556527508
+            }
+        }
+    },
+    {
+        "user_id": 29616,
+        "tipo": "muchas",
+        "interacciones": 69,
+        "engagements": 51,
+        "sesiones": 14,
+        "weights": {
+            "novelty": {
+                "mean": 1.1661276398567841,
+                "variance": 0.17208920471121655
+            },
+            "interest": {
+                "mean": 0.7274817252907367,
+                "variance": 0.10825922119637048
+            },
+            "bias": {
+                "mean": 0.28090358811678595,
+                "variance": 0.07727569297818523
+            }
+        }
+    },
+    {
+        "user_id": 6961,
+        "tipo": "muchas",
+        "interacciones": 704,
+        "engagements": 657,
+        "sesiones": 74,
+        "weights": {
+            "novelty": {
+                "mean": 2.073164065735534,
+                "variance": 0.03681771280102525
+            },
+            "interest": {
+                "mean": 1.1412794967687476,
+                "variance": 0.022246718574113863
+            },
+            "bias": {
+                "mean": 1.1873876926675349,
+                "variance": 0.01701654208564295
+            }
+        }
+    },
+    {
+        "user_id": 19616,
+        "tipo": "muchas",
+        "interacciones": 68,
+        "engagements": 61,
+        "sesiones": 15,
+        "weights": {
+            "novelty": {
+                "mean": 1.4545405688275874,
+                "variance": 0.21127571434096168
+            },
+            "interest": {
+                "mean": 1.232216498016936,
+                "variance": 0.15815152427917528
+            },
+            "bias": {
+                "mean": 0.8566451445514076,
+                "variance": 0.09958891573768575
+            }
+        }
+    },
+    {
+        "user_id": 6955,
+        "tipo": "muchas",
+        "interacciones": 291,
+        "engagements": 88,
+        "sesiones": 106,
+        "weights": {
+            "novelty": {
+                "mean": 2.5755025804628917,
+                "variance": 0.07349155662856564
+            },
+            "interest": {
+                "mean": -0.20337152636307348,
+                "variance": 0.025208248374930166
+            },
+            "bias": {
+                "mean": -1.0501548885786707,
+                "variance": 0.0202049980237087
+            }
+        }
+    },
+    {
+        "user_id": 17603,
+        "tipo": "muchas",
+        "interacciones": 125,
+        "engagements": 6,
+        "sesiones": 125,
+        "weights": {
+            "novelty": {
+                "mean": 0.30441353173633584,
+                "variance": 0.267275022466985
+            },
+            "interest": {
+                "mean": -0.7079701734067659,
+                "variance": 0.13299994643065755
+            },
+            "bias": {
+                "mean": -1.5026484180771875,
+                "variance": 0.07592505658220021
+            }
+        }
+    },
+    {
+        "user_id": 23137,
+        "tipo": "muchas",
+        "interacciones": 63,
+        "engagements": 27,
+        "sesiones": 10,
+        "weights": {
+            "novelty": {
+                "mean": 0.48969697970152654,
+                "variance": 0.19244612838810962
+            },
+            "interest": {
+                "mean": -0.1393159591694701,
+                "variance": 0.10227102631345011
+            },
+            "bias": {
+                "mean": -0.4939630709198128,
+                "variance": 0.07642526144430331
+            }
+        }
+    },
+    {
+        "user_id": 34685,
+        "tipo": "muchas",
+        "interacciones": 145,
+        "engagements": 117,
+        "sesiones": 28,
+        "weights": {
+            "novelty": {
+                "mean": 1.4311863247807293,
+                "variance": 0.11076038158094563
+            },
+            "interest": {
+                "mean": 0.8084728832316785,
+                "variance": 0.06686732215370193
+            },
+            "bias": {
+                "mean": 0.38411831523219986,
+                "variance": 0.043598568570633385
+            }
+        }
+    },
+    {
+        "user_id": 17071,
+        "tipo": "muchas",
+        "interacciones": 60,
+        "engagements": 49,
+        "sesiones": 10,
+        "weights": {
+            "novelty": {
+                "mean": 1.3717188066582893,
+                "variance": 0.19746512667247898
+            },
+            "interest": {
+                "mean": 1.0026244130351563,
+                "variance": 0.14295262899418548
+            },
+            "bias": {
+                "mean": 0.6300806677619637,
+                "variance": 0.08782883837439388
+            }
+        }
+    },
+    {
+        "user_id": 5071,
+        "tipo": "muchas",
+        "interacciones": 53,
+        "engagements": 43,
+        "sesiones": 12,
+        "weights": {
+            "novelty": {
+                "mean": 0.9628497097402261,
+                "variance": 0.2219909298135403
+            },
+            "interest": {
+                "mean": 0.6933234109884583,
+                "variance": 0.152444215688198
+            },
+            "bias": {
+                "mean": 0.49750345529116324,
+                "variance": 0.10544394611909962
+            }
+        }
+    },
+    {
+        "user_id": 31568,
+        "tipo": "muchas",
+        "interacciones": 52,
+        "engagements": 45,
+        "sesiones": 6,
+        "weights": {
+            "novelty": {
+                "mean": 1.2388192336467128,
+                "variance": 0.22512169163531268
+            },
+            "interest": {
+                "mean": 0.9173111089712452,
+                "variance": 0.15877056159509892
+            },
+            "bias": {
+                "mean": 0.7984526880626394,
+                "variance": 0.11369610158756514
+            }
+        }
+    },
+    {
+        "user_id": 9829,
+        "tipo": "muchas",
+        "interacciones": 51,
+        "engagements": 9,
+        "sesiones": 8,
+        "weights": {
+            "novelty": {
+                "mean": 0.3295016325073763,
+                "variance": 0.2910995901044225
+            },
+            "interest": {
+                "mean": -0.5102829833057765,
+                "variance": 0.1342791735337141
+            },
+            "bias": {
+                "mean": -1.0034211602779832,
+                "variance": 0.09644060315116168
+            }
+        }
+    },
+    {
+        "user_id": 59,
+        "tipo": "muchas",
+        "interacciones": 81,
+        "engagements": 56,
+        "sesiones": 33,
+        "weights": {
+            "novelty": {
+                "mean": 1.063722857993125,
+                "variance": 0.1547330558581376
+            },
+            "interest": {
+                "mean": 0.38300461952268705,
+                "variance": 0.08434210042308428
+            },
+            "bias": {
+                "mean": 0.07165634320429357,
+                "variance": 0.06603778018946939
+            }
+        }
+    },
+    {
+        "user_id": 16734,
+        "tipo": "muchas",
+        "interacciones": 46,
+        "engagements": 39,
+        "sesiones": 4,
+        "weights": {
+            "novelty": {
+                "mean": 0.9645135538144087,
+                "variance": 0.2562508954241624
+            },
+            "interest": {
+                "mean": 0.6535296729762748,
+                "variance": 0.1935809881680258
+            },
+            "bias": {
+                "mean": 0.603627618335633,
+                "variance": 0.12724569704630237
+            }
+        }
+    },
+    {
+        "user_id": 7972,
+        "tipo": "muchas",
+        "interacciones": 57,
+        "engagements": 55,
+        "sesiones": 10,
+        "weights": {
+            "novelty": {
+                "mean": 1.7806595358944184,
+                "variance": 0.25195465450707466
+            },
+            "interest": {
+                "mean": 1.6333521237622217,
+                "variance": 0.19585236389016664
+            },
+            "bias": {
+                "mean": 1.336279797408346,
+                "variance": 0.13855257296745407
+            }
+        }
+    },
+    {
+        "user_id": 13767,
+        "tipo": "muchas",
+        "interacciones": 90,
+        "engagements": 41,
+        "sesiones": 29,
+        "weights": {
+            "novelty": {
+                "mean": 1.5130606222332776,
+                "variance": 0.1484245363069641
+            },
+            "interest": {
+                "mean": 0.31298924952891,
+                "variance": 0.07173192958789257
+            },
+            "bias": {
+                "mean": -0.41792049366067974,
+                "variance": 0.05525842259696889
+            }
+        }
+    },
+    {
+        "user_id": 22766,
+        "tipo": "muchas",
+        "interacciones": 50,
+        "engagements": 18,
+        "sesiones": 28,
+        "weights": {
+            "novelty": {
+                "mean": 1.2445885592622583,
+                "variance": 0.24334633648191978
+            },
+            "interest": {
+                "mean": -0.11048299179730323,
+                "variance": 0.1282074505785397
+            },
+            "bias": {
+                "mean": -0.25796682548292316,
+                "variance": 0.0907292649598454
+            }
+        }
+    },
+    {
+        "user_id": 34003,
+        "tipo": "muchas",
+        "interacciones": 69,
+        "engagements": 56,
+        "sesiones": 16,
+        "weights": {
+            "novelty": {
+                "mean": 1.8221173118215948,
+                "variance": 0.1916179999062787
+            },
+            "interest": {
+                "mean": 1.1508061317451548,
+                "variance": 0.13288464657742333
+            },
+            "bias": {
+                "mean": 0.5716435654699527,
+                "variance": 0.08444507567377765
+            }
+        }
+    },
+    {
+        "user_id": 4869,
+        "tipo": "muchas",
+        "interacciones": 124,
+        "engagements": 4,
+        "sesiones": 123,
+        "weights": {
+            "novelty": {
+                "mean": 0.28060724972118917,
+                "variance": 0.4196934327789976
+            },
+            "interest": {
+                "mean": -1.505184201189143,
+                "variance": 0.09979089894868232
+            },
+            "bias": {
+                "mean": -1.6199348245054352,
+                "variance": 0.09050609731958434
+            }
+        }
+    },
+    {
+        "user_id": 23434,
+        "tipo": "muchas",
+        "interacciones": 50,
+        "engagements": 36,
+        "sesiones": 16,
+        "weights": {
+            "novelty": {
+                "mean": 0.770731827353461,
+                "variance": 0.22921913009447786
+            },
+            "interest": {
+                "mean": 0.44758187205949534,
+                "variance": 0.14784791722126125
+            },
+            "bias": {
+                "mean": 0.13263659234635067,
+                "variance": 0.10151555162831162
+            }
+        }
+    },
+    {
+        "user_id": 13492,
+        "tipo": "muchas",
+        "interacciones": 41,
+        "engagements": 39,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 1.6722370936043014,
+                "variance": 0.28553713357654803
+            },
+            "interest": {
+                "mean": 1.6689830517990925,
+                "variance": 0.2204046438544073
+            },
+            "bias": {
+                "mean": 1.1542794765947364,
+                "variance": 0.16315750437952078
+            }
+        }
+    },
+    {
+        "user_id": 20442,
+        "tipo": "muchas",
+        "interacciones": 62,
+        "engagements": 54,
+        "sesiones": 13,
+        "weights": {
+            "novelty": {
+                "mean": 1.4991629565536806,
+                "variance": 0.21771703036098267
+            },
+            "interest": {
+                "mean": 1.1052685534663544,
+                "variance": 0.14803773395897726
+            },
+            "bias": {
+                "mean": 0.7666974293010083,
+                "variance": 0.09997259112739526
+            }
+        }
+    },
+    {
+        "user_id": 26941,
+        "tipo": "muchas",
+        "interacciones": 63,
+        "engagements": 42,
+        "sesiones": 14,
+        "weights": {
+            "novelty": {
+                "mean": 1.0741446434568551,
+                "variance": 0.17967616738608028
+            },
+            "interest": {
+                "mean": 0.4468654309605331,
+                "variance": 0.10997825231374632
+            },
+            "bias": {
+                "mean": 0.24882415068936983,
+                "variance": 0.07560921955214886
+            }
+        }
+    },
+    {
+        "user_id": 15867,
+        "tipo": "muchas",
+        "interacciones": 74,
+        "engagements": 51,
+        "sesiones": 12,
+        "weights": {
+            "novelty": {
+                "mean": 1.1241931864128207,
+                "variance": 0.1622937743099613
+            },
+            "interest": {
+                "mean": 0.5028362954750436,
+                "variance": 0.10026448104756278
+            },
+            "bias": {
+                "mean": 0.11679952093368672,
+                "variance": 0.06634888408055051
+            }
+        }
+    },
+    {
+        "user_id": 20212,
+        "tipo": "muchas",
+        "interacciones": 74,
+        "engagements": 71,
+        "sesiones": 7,
+        "weights": {
+            "novelty": {
+                "mean": 1.3522689827204444,
+                "variance": 0.24545742958740613
+            },
+            "interest": {
+                "mean": 1.2638201740550767,
+                "variance": 0.19267905868569674
+            },
+            "bias": {
+                "mean": 1.185757525007884,
+                "variance": 0.13379233561385162
+            }
+        }
+    },
+    {
+        "user_id": 26672,
+        "tipo": "muchas",
+        "interacciones": 134,
+        "engagements": 78,
+        "sesiones": 38,
+        "weights": {
+            "novelty": {
+                "mean": 1.5244995838983701,
+                "variance": 0.11106619674397142
+            },
+            "interest": {
+                "mean": 0.28076464351601854,
+                "variance": 0.06282230699302783
+            },
+            "bias": {
+                "mean": 0.0011867464734453689,
+                "variance": 0.03557478273294403
+            }
+        }
+    },
+    {
+        "user_id": 4927,
+        "tipo": "muchas",
+        "interacciones": 51,
+        "engagements": 0,
+        "sesiones": 24,
+        "weights": {
+            "novelty": {
+                "mean": -0.5273344850000616,
+                "variance": 0.37457698660543176
+            },
+            "interest": {
+                "mean": -0.9847143754891572,
+                "variance": 0.24204410861395106
+            },
+            "bias": {
+                "mean": -1.7480387902835062,
+                "variance": 0.14733108601796377
+            }
+        }
+    },
+    {
+        "user_id": 29986,
+        "tipo": "muchas",
+        "interacciones": 45,
+        "engagements": 41,
+        "sesiones": 7,
+        "weights": {
+            "novelty": {
+                "mean": 1.4095920973353835,
+                "variance": 0.2538021273100574
+            },
+            "interest": {
+                "mean": 1.187344239203511,
+                "variance": 0.20371272574156263
+            },
+            "bias": {
+                "mean": 1.0234962105418925,
+                "variance": 0.13377331040113621
+            }
+        }
+    },
+    {
+        "user_id": 8730,
+        "tipo": "muchas",
+        "interacciones": 59,
+        "engagements": 0,
+        "sesiones": 19,
+        "weights": {
+            "novelty": {
+                "mean": -0.4797389523179657,
+                "variance": 0.38674915312359004
+            },
+            "interest": {
+                "mean": -1.0705576239924575,
+                "variance": 0.22169133615065947
+            },
+            "bias": {
+                "mean": -1.7984796690339413,
+                "variance": 0.1392279817655795
+            }
+        }
+    },
+    {
+        "user_id": 11419,
+        "tipo": "muchas",
+        "interacciones": 55,
+        "engagements": 36,
+        "sesiones": 15,
+        "weights": {
+            "novelty": {
+                "mean": 1.7090087749402247,
+                "variance": 0.1988817938432408
+            },
+            "interest": {
+                "mean": 0.7648438380424922,
+                "variance": 0.12054079588847542
+            },
+            "bias": {
+                "mean": 0.2370536715522339,
+                "variance": 0.08605869693073351
+            }
+        }
+    },
+    {
+        "user_id": 12504,
+        "tipo": "muchas",
+        "interacciones": 142,
+        "engagements": 111,
+        "sesiones": 42,
+        "weights": {
+            "novelty": {
+                "mean": 1.3450610440519852,
+                "variance": 0.10754286281986088
+            },
+            "interest": {
+                "mean": 0.5949702093663416,
+                "variance": 0.06210104222294467
+            },
+            "bias": {
+                "mean": 0.3284584113520418,
+                "variance": 0.04299802573599298
+            }
+        }
+    },
+    {
+        "user_id": 34699,
+        "tipo": "muchas",
+        "interacciones": 54,
+        "engagements": 51,
+        "sesiones": 5,
+        "weights": {
+            "novelty": {
+                "mean": 1.5203800911127725,
+                "variance": 0.2572703523798692
+            },
+            "interest": {
+                "mean": 1.5120129742466077,
+                "variance": 0.20564244059725797
+            },
+            "bias": {
+                "mean": 1.1160092755362765,
+                "variance": 0.13481079568080603
+            }
+        }
+    },
+    {
+        "user_id": 7205,
+        "tipo": "muchas",
+        "interacciones": 49,
+        "engagements": 29,
+        "sesiones": 12,
+        "weights": {
+            "novelty": {
+                "mean": 1.008795235484861,
+                "variance": 0.21077953370898864
+            },
+            "interest": {
+                "mean": 0.5155311528169693,
+                "variance": 0.11675959649822333
+            },
+            "bias": {
+                "mean": -0.12009098421780545,
+                "variance": 0.10091091868307436
+            }
+        }
+    },
+    {
+        "user_id": 5369,
+        "tipo": "muchas",
+        "interacciones": 97,
+        "engagements": 58,
+        "sesiones": 31,
+        "weights": {
+            "novelty": {
+                "mean": 0.9294159741250898,
+                "variance": 0.12564444495204227
+            },
+            "interest": {
+                "mean": 0.23283243907235796,
+                "variance": 0.06633133339161755
+            },
+            "bias": {
+                "mean": -0.20144787801199623,
+                "variance": 0.052032149606506754
+            }
+        }
+    },
+    {
+        "user_id": 31892,
+        "tipo": "muchas",
+        "interacciones": 77,
+        "engagements": 38,
+        "sesiones": 14,
+        "weights": {
+            "novelty": {
+                "mean": 0.8565641655879475,
+                "variance": 0.15712583419460624
+            },
+            "interest": {
+                "mean": -0.04607568757593616,
+                "variance": 0.08002188619555806
+            },
+            "bias": {
+                "mean": -0.29323437238301026,
+                "variance": 0.06076351232890725
+            }
+        }
+    },
+    {
+        "user_id": 20274,
+        "tipo": "muchas",
+        "interacciones": 106,
+        "engagements": 96,
+        "sesiones": 15,
+        "weights": {
+            "novelty": {
+                "mean": 1.2713190163112804,
+                "variance": 0.16526542151334478
+            },
+            "interest": {
+                "mean": 0.9838222109020458,
+                "variance": 0.11234268591609768
+            },
+            "bias": {
+                "mean": 0.8680987679661324,
+                "variance": 0.07984902600527888
+            }
+        }
+    },
+    {
+        "user_id": 5591,
+        "tipo": "muchas",
+        "interacciones": 71,
+        "engagements": 44,
+        "sesiones": 12,
+        "weights": {
+            "novelty": {
+                "mean": 2.0545775281422327,
+                "variance": 0.1866314123622216
+            },
+            "interest": {
+                "mean": 1.128023674304185,
+                "variance": 0.11411867156081812
+            },
+            "bias": {
+                "mean": 0.13756859815344497,
+                "variance": 0.07347361156685667
+            }
+        }
+    },
+    {
+        "user_id": 24734,
+        "tipo": "muchas",
+        "interacciones": 43,
+        "engagements": 4,
+        "sesiones": 5,
+        "weights": {
+            "novelty": {
+                "mean": 0.4545566612601703,
+                "variance": 0.3504381837940538
+            },
+            "interest": {
+                "mean": -0.3070991998282568,
+                "variance": 0.20665597494721327
+            },
+            "bias": {
+                "mean": -1.11682272911975,
+                "variance": 0.13354465488663228
+            }
+        }
+    },
+    {
+        "user_id": 7034,
+        "tipo": "muchas",
+        "interacciones": 45,
+        "engagements": 20,
+        "sesiones": 10,
+        "weights": {
+            "novelty": {
+                "mean": 0.483780822058262,
+                "variance": 0.24363330446867917
+            },
+            "interest": {
+                "mean": -0.11400267889412795,
+                "variance": 0.1392451634519816
+            },
+            "bias": {
+                "mean": -0.33517288416620933,
+                "variance": 0.09791210837002844
+            }
+        }
+    },
+    {
+        "user_id": 27665,
+        "tipo": "muchas",
+        "interacciones": 51,
+        "engagements": 28,
+        "sesiones": 18,
+        "weights": {
+            "novelty": {
+                "mean": 0.5281951693262995,
+                "variance": 0.2378601910541615
+            },
+            "interest": {
+                "mean": -0.20973961020725743,
+                "variance": 0.12757218458342268
+            },
+            "bias": {
+                "mean": -0.20031247410846886,
+                "variance": 0.09293419679631287
+            }
+        }
+    },
+    {
+        "user_id": 9431,
+        "tipo": "muchas",
+        "interacciones": 44,
+        "engagements": 41,
+        "sesiones": 13,
+        "weights": {
+            "novelty": {
+                "mean": 1.290771156780179,
+                "variance": 0.28161836820925246
+            },
+            "interest": {
+                "mean": 1.2311690035862481,
+                "variance": 0.23824637976727409
+            },
+            "bias": {
+                "mean": 0.9759092145442466,
+                "variance": 0.1521453494921352
+            }
+        }
+    },
+    {
+        "user_id": 11441,
+        "tipo": "muchas",
+        "interacciones": 52,
+        "engagements": 47,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 1.30550620898953,
+                "variance": 0.24439100072242234
+            },
+            "interest": {
+                "mean": 0.9428615565694388,
+                "variance": 0.18392612055023586
+            },
+            "bias": {
+                "mean": 0.9986878567894631,
+                "variance": 0.12523488992728868
+            }
+        }
+    },
+    {
+        "user_id": 23373,
+        "tipo": "muchas",
+        "interacciones": 128,
+        "engagements": 109,
+        "sesiones": 26,
+        "weights": {
+            "novelty": {
+                "mean": 1.6447114088826502,
+                "variance": 0.12357729811178043
+            },
+            "interest": {
+                "mean": 1.0326206683241497,
+                "variance": 0.07797965165456382
+            },
+            "bias": {
+                "mean": 0.722508894751602,
+                "variance": 0.05098380963942607
+            }
+        }
+    },
+    {
+        "user_id": 21363,
+        "tipo": "muchas",
+        "interacciones": 88,
+        "engagements": 72,
+        "sesiones": 18,
+        "weights": {
+            "novelty": {
+                "mean": 1.3496327465904687,
+                "variance": 0.15468432520439857
+            },
+            "interest": {
+                "mean": 0.7700843869383694,
+                "variance": 0.10631646204445137
+            },
+            "bias": {
+                "mean": 0.6910281618453425,
+                "variance": 0.06507031249776316
+            }
+        }
+    },
+    {
+        "user_id": 8906,
+        "tipo": "muchas",
+        "interacciones": 124,
+        "engagements": 110,
+        "sesiones": 23,
+        "weights": {
+            "novelty": {
+                "mean": 1.5212572327423528,
+                "variance": 0.14088271329976193
+            },
+            "interest": {
+                "mean": 1.0050544452062506,
+                "variance": 0.09280383004241752
+            },
+            "bias": {
+                "mean": 0.9013862785269025,
+                "variance": 0.0609614392560872
+            }
+        }
+    },
+    {
+        "user_id": 1156,
+        "tipo": "muchas",
+        "interacciones": 377,
+        "engagements": 358,
+        "sesiones": 83,
+        "weights": {
+            "novelty": {
+                "mean": 1.6983605767036198,
+                "variance": 0.05494714168597532
+            },
+            "interest": {
+                "mean": 1.3484492593337079,
+                "variance": 0.04221936331744345
+            },
+            "bias": {
+                "mean": 1.1030980806431376,
+                "variance": 0.03934048936721684
+            }
+        }
+    },
+    {
+        "user_id": 32982,
+        "tipo": "muchas",
+        "interacciones": 54,
+        "engagements": 40,
+        "sesiones": 8,
+        "weights": {
+            "novelty": {
+                "mean": 0.8507085782803868,
+                "variance": 0.22358790837773512
+            },
+            "interest": {
+                "mean": 0.44875386529727235,
+                "variance": 0.1480318298512531
+            },
+            "bias": {
+                "mean": 0.24749416201506858,
+                "variance": 0.09750965980005037
+            }
+        }
+    },
+    {
+        "user_id": 195,
+        "tipo": "muchas",
+        "interacciones": 40,
+        "engagements": 29,
+        "sesiones": 7,
+        "weights": {
+            "novelty": {
+                "mean": 0.7296659122349652,
+                "variance": 0.25721815106070783
+            },
+            "interest": {
+                "mean": 0.312475120306884,
+                "variance": 0.1775346143873402
+            },
+            "bias": {
+                "mean": 0.1863568009448871,
+                "variance": 0.12190849750367751
+            }
+        }
+    },
+    {
+        "user_id": 3060,
+        "tipo": "muchas",
+        "interacciones": 101,
+        "engagements": 94,
+        "sesiones": 18,
+        "weights": {
+            "novelty": {
+                "mean": 1.518908436966366,
+                "variance": 0.17283227194823902
+            },
+            "interest": {
+                "mean": 1.2319864759620434,
+                "variance": 0.11924877870808193
+            },
+            "bias": {
+                "mean": 1.1226279745345809,
+                "variance": 0.08695194437256694
+            }
+        }
+    },
+    {
+        "user_id": 12889,
+        "tipo": "muchas",
+        "interacciones": 50,
+        "engagements": 37,
+        "sesiones": 7,
+        "weights": {
+            "novelty": {
+                "mean": 0.631571221838342,
+                "variance": 0.22213355685741032
+            },
+            "interest": {
+                "mean": 0.37652564401686966,
+                "variance": 0.1467631198327831
+            },
+            "bias": {
+                "mean": 0.14128392013538202,
+                "variance": 0.10923731624769027
+            }
+        }
+    },
+    {
+        "user_id": 7432,
+        "tipo": "muchas",
+        "interacciones": 44,
+        "engagements": 14,
+        "sesiones": 11,
+        "weights": {
+            "novelty": {
+                "mean": 0.8835006940610021,
+                "variance": 0.26013842440070656
+            },
+            "interest": {
+                "mean": 0.13130948022062724,
+                "variance": 0.16498628528292694
+            },
+            "bias": {
+                "mean": -0.5102611073646841,
+                "variance": 0.09586592593727354
+            }
+        }
+    },
+    {
+        "user_id": 714,
+        "tipo": "muchas",
+        "interacciones": 63,
+        "engagements": 61,
+        "sesiones": 9,
+        "weights": {
+            "novelty": {
+                "mean": 1.7541106491310383,
+                "variance": 0.24625012336445795
+            },
+            "interest": {
+                "mean": 1.7275003625310728,
+                "variance": 0.20312414800922668
+            },
+            "bias": {
+                "mean": 1.3470627908615378,
+                "variance": 0.13008471704808708
+            }
+        }
+    },
+    {
+        "user_id": 23128,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 3,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.5955033180661242,
+                "variance": 0.4422728547542051
+            },
+            "interest": {
+                "mean": 0.5767226129929481,
+                "variance": 0.3979987294177411
+            },
+            "bias": {
+                "mean": 0.037886332264168515,
+                "variance": 0.3403160163424419
+            }
+        }
+    },
+    {
+        "user_id": 30973,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 3,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.6050765943146871,
+                "variance": 0.44050884972427856
+            },
+            "interest": {
+                "mean": 0.4739403710505043,
+                "variance": 0.39693800993859535
+            },
+            "bias": {
+                "mean": 0.08712762138572046,
+                "variance": 0.3393601351735536
+            }
+        }
+    },
+    {
+        "user_id": 21019,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 1,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 0.37791869607743794,
+                "variance": 0.46271105319075795
+            },
+            "interest": {
+                "mean": 0.1295965373439297,
+                "variance": 0.39776876749061524
+            },
+            "bias": {
+                "mean": -0.44814500984280814,
+                "variance": 0.33630717236036467
+            }
+        }
+    },
+    {
+        "user_id": 1399,
+        "tipo": "pocas",
+        "interacciones": 6,
+        "engagements": 1,
+        "sesiones": 5,
+        "weights": {
+            "novelty": {
+                "mean": 0.4157611852955891,
+                "variance": 0.461820000146465
+            },
+            "interest": {
+                "mean": 0.09343909801405145,
+                "variance": 0.38620528850693114
+            },
+            "bias": {
+                "mean": -0.4993166259897406,
+                "variance": 0.3198469837283594
+            }
+        }
+    },
+    {
+        "user_id": 16733,
+        "tipo": "pocas",
+        "interacciones": 10,
+        "engagements": 4,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.7207087869471177,
+                "variance": 0.4198225964561403
+            },
+            "interest": {
+                "mean": 0.43223569544655,
+                "variance": 0.31479191236240245
+            },
+            "bias": {
+                "mean": -0.19795158257935408,
+                "variance": 0.25827114167379406
+            }
+        }
+    },
+    {
+        "user_id": 27050,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 4,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.717884943277473,
+                "variance": 0.43677754945808234
+            },
+            "interest": {
+                "mean": 0.6332019806210833,
+                "variance": 0.406285481983907
+            },
+            "bias": {
+                "mean": 0.34250751887771175,
+                "variance": 0.3493683628542125
+            }
+        }
+    },
+    {
+        "user_id": 17551,
+        "tipo": "pocas",
+        "interacciones": 6,
+        "engagements": 0,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 0.15725092493752785,
+                "variance": 0.4691409907947683
+            },
+            "interest": {
+                "mean": -0.09906248407306169,
+                "variance": 0.4046789136428321
+            },
+            "bias": {
+                "mean": -0.818280734378708,
+                "variance": 0.32459029205843365
+            }
+        }
+    },
+    {
+        "user_id": 9243,
+        "tipo": "pocas",
+        "interacciones": 6,
+        "engagements": 1,
+        "sesiones": 4,
+        "weights": {
+            "novelty": {
+                "mean": 0.2681022527173639,
+                "variance": 0.4559743641654505
+            },
+            "interest": {
+                "mean": 0.0620187866172542,
+                "variance": 0.40766137761786975
+            },
+            "bias": {
+                "mean": -0.5796645262831119,
+                "variance": 0.31123581472774176
+            }
+        }
+    },
+    {
+        "user_id": 15870,
+        "tipo": "pocas",
+        "interacciones": 10,
+        "engagements": 8,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.9617691696290671,
+                "variance": 0.39683999337546993
+            },
+            "interest": {
+                "mean": 0.8668342615233352,
+                "variance": 0.3627401678676132
+            },
+            "bias": {
+                "mean": 0.48961083946044415,
+                "variance": 0.26240634865696316
+            }
+        }
+    },
+    {
+        "user_id": 29755,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 5,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.9369784162412296,
+                "variance": 0.4379873184221053
+            },
+            "interest": {
+                "mean": 0.9729279552744324,
+                "variance": 0.4271840221552361
+            },
+            "bias": {
+                "mean": 0.6654649281006215,
+                "variance": 0.3568725970112058
+            }
+        }
+    },
+    {
+        "user_id": 16363,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 3,
+        "sesiones": 5,
+        "weights": {
+            "novelty": {
+                "mean": 0.6679793845205628,
+                "variance": 0.446693752499229
+            },
+            "interest": {
+                "mean": 0.4955072883272954,
+                "variance": 0.4101137452482745
+            },
+            "bias": {
+                "mean": 0.08551700984820167,
+                "variance": 0.3320048150348429
+            }
+        }
+    },
+    {
+        "user_id": 34536,
+        "tipo": "pocas",
+        "interacciones": 7,
+        "engagements": 7,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 1.0447936967793312,
+                "variance": 0.4211984220418054
+            },
+            "interest": {
+                "mean": 1.0756078056394955,
+                "variance": 0.41197781751349166
+            },
+            "bias": {
+                "mean": 0.8174632255578599,
+                "variance": 0.3238939477849421
+            }
+        }
+    },
+    {
+        "user_id": 5482,
+        "tipo": "pocas",
+        "interacciones": 7,
+        "engagements": 2,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.39503923649821415,
+                "variance": 0.44116308619415134
+            },
+            "interest": {
+                "mean": 0.20661237979099495,
+                "variance": 0.366426989106541
+            },
+            "bias": {
+                "mean": -0.3991232147559858,
+                "variance": 0.29983822150329104
+            }
+        }
+    },
+    {
+        "user_id": 5664,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 3,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.6050765943146871,
+                "variance": 0.44050884972427856
+            },
+            "interest": {
+                "mean": 0.4739403710505043,
+                "variance": 0.39693800993859535
+            },
+            "bias": {
+                "mean": 0.08712762138572046,
+                "variance": 0.3393601351735536
+            }
+        }
+    },
+    {
+        "user_id": 8764,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 5,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.9369076547915327,
+                "variance": 0.43879923970546786
+            },
+            "interest": {
+                "mean": 0.9629304694935396,
+                "variance": 0.43111180297868945
+            },
+            "bias": {
+                "mean": 0.6764537530853859,
+                "variance": 0.3541084073856488
+            }
+        }
+    },
+    {
+        "user_id": 11364,
+        "tipo": "pocas",
+        "interacciones": 7,
+        "engagements": 0,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 0.1795577815245711,
+                "variance": 0.47498466446266147
+            },
+            "interest": {
+                "mean": -0.2297292252321594,
+                "variance": 0.36888847989694845
+            },
+            "bias": {
+                "mean": -0.8772327215046722,
+                "variance": 0.3163787005669366
+            }
+        }
+    },
+    {
+        "user_id": 16712,
+        "tipo": "pocas",
+        "interacciones": 10,
+        "engagements": 9,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 1.1071180567179162,
+                "variance": 0.39532061039509897
+            },
+            "interest": {
+                "mean": 1.149043842583876,
+                "variance": 0.35918005794960123
+            },
+            "bias": {
+                "mean": 0.7151155302063718,
+                "variance": 0.28246965923704437
+            }
+        }
+    },
+    {
+        "user_id": 29833,
+        "tipo": "pocas",
+        "interacciones": 6,
+        "engagements": 2,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 0.5574029451315152,
+                "variance": 0.4517451150764041
+            },
+            "interest": {
+                "mean": 0.3951268089480797,
+                "variance": 0.38081347796285825
+            },
+            "bias": {
+                "mean": -0.26084523915572155,
+                "variance": 0.3176769384893224
+            }
+        }
+    },
+    {
+        "user_id": 19462,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 1,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.3819441382886143,
+                "variance": 0.4576342190109933
+            },
+            "interest": {
+                "mean": 0.18358609432552905,
+                "variance": 0.41246243763816604
+            },
+            "bias": {
+                "mean": -0.4298086232119074,
+                "variance": 0.33334980646328055
+            }
+        }
+    },
+    {
+        "user_id": 31182,
+        "tipo": "pocas",
+        "interacciones": 8,
+        "engagements": 3,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.5698029839938985,
+                "variance": 0.42239801949633377
+            },
+            "interest": {
+                "mean": 0.4194310014983907,
+                "variance": 0.3753134952190963
+            },
+            "bias": {
+                "mean": -0.23979220652821562,
+                "variance": 0.2760139678050746
+            }
+        }
+    },
+    {
+        "user_id": 13636,
+        "tipo": "pocas",
+        "interacciones": 6,
+        "engagements": 5,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.830390734428506,
+                "variance": 0.4276688601745849
+            },
+            "interest": {
+                "mean": 0.8548869960328518,
+                "variance": 0.38095268399776033
+            },
+            "bias": {
+                "mean": 0.429068816481928,
+                "variance": 0.33586137386032683
+            }
+        }
+    },
+    {
+        "user_id": 17326,
+        "tipo": "pocas",
+        "interacciones": 8,
+        "engagements": 3,
+        "sesiones": 5,
+        "weights": {
+            "novelty": {
+                "mean": 0.5258043433482072,
+                "variance": 0.4330624450591012
+            },
+            "interest": {
+                "mean": 0.1796050414327311,
+                "variance": 0.3406347934270655
+            },
+            "bias": {
+                "mean": -0.2850524748886261,
+                "variance": 0.28095801970254897
+            }
+        }
+    },
+    {
+        "user_id": 20960,
+        "tipo": "pocas",
+        "interacciones": 8,
+        "engagements": 7,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 1.021117541242438,
+                "variance": 0.41125931217058426
+            },
+            "interest": {
+                "mean": 1.0359988511095837,
+                "variance": 0.3835571149539812
+            },
+            "bias": {
+                "mean": 0.6254403396742019,
+                "variance": 0.29811998920971217
+            }
+        }
+    },
+    {
+        "user_id": 23057,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 0,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.23963328899987835,
+                "variance": 0.4786939146970285
+            },
+            "interest": {
+                "mean": -0.03685065883864129,
+                "variance": 0.41429119556413585
+            },
+            "bias": {
+                "mean": -0.7343665280588385,
+                "variance": 0.34107929419698885
+            }
+        }
+    },
+    {
+        "user_id": 6666,
+        "tipo": "pocas",
+        "interacciones": 9,
+        "engagements": 7,
+        "sesiones": 4,
+        "weights": {
+            "novelty": {
+                "mean": 0.8153856979752931,
+                "variance": 0.40516273132708636
+            },
+            "interest": {
+                "mean": 0.7039066106139058,
+                "variance": 0.3799955526661426
+            },
+            "bias": {
+                "mean": 0.38477105214081503,
+                "variance": 0.27448129869738563
+            }
+        }
+    },
+    {
+        "user_id": 12254,
+        "tipo": "pocas",
+        "interacciones": 6,
+        "engagements": 1,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 0.25123671687353766,
+                "variance": 0.4513472413165224
+            },
+            "interest": {
+                "mean": 0.01697505181888446,
+                "variance": 0.3966124411743192
+            },
+            "bias": {
+                "mean": -0.5764317992917454,
+                "variance": 0.31596827066335775
+            }
+        }
+    },
+    {
+        "user_id": 22412,
+        "tipo": "pocas",
+        "interacciones": 6,
+        "engagements": 4,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.6749976257268804,
+                "variance": 0.4317436317500133
+            },
+            "interest": {
+                "mean": 0.571822953452135,
+                "variance": 0.3952250446450647
+            },
+            "bias": {
+                "mean": 0.17555508846750661,
+                "variance": 0.316696265915574
+            }
+        }
+    },
+    {
+        "user_id": 7656,
+        "tipo": "pocas",
+        "interacciones": 10,
+        "engagements": 0,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 0.027042085863455172,
+                "variance": 0.45246974896067793
+            },
+            "interest": {
+                "mean": -0.30983797907780586,
+                "variance": 0.3674272177008244
+            },
+            "bias": {
+                "mean": -1.058311321985372,
+                "variance": 0.2755941566812974
+            }
+        }
+    },
+    {
+        "user_id": 15479,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 0,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.23083034628772942,
+                "variance": 0.47867924288880626
+            },
+            "interest": {
+                "mean": -0.04320314904331264,
+                "variance": 0.41258638817761545
+            },
+            "bias": {
+                "mean": -0.7339410257132724,
+                "variance": 0.34183335348690763
+            }
+        }
+    },
+    {
+        "user_id": 14801,
+        "tipo": "pocas",
+        "interacciones": 6,
+        "engagements": 3,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.6897070564901897,
+                "variance": 0.4383013326117589
+            },
+            "interest": {
+                "mean": 0.5607252066048505,
+                "variance": 0.3950306521616242
+            },
+            "bias": {
+                "mean": 0.009129207566806614,
+                "variance": 0.31235076605485107
+            }
+        }
+    },
+    {
+        "user_id": 7909,
+        "tipo": "pocas",
+        "interacciones": 8,
+        "engagements": 3,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.5806982304489313,
+                "variance": 0.42832444765657685
+            },
+            "interest": {
+                "mean": 0.4050174552844486,
+                "variance": 0.3651314364219181
+            },
+            "bias": {
+                "mean": -0.2623657244993244,
+                "variance": 0.2768394538695127
+            }
+        }
+    },
+    {
+        "user_id": 21405,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 0,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.2278376885798946,
+                "variance": 0.4781053437114505
+            },
+            "interest": {
+                "mean": -0.04071259008502403,
+                "variance": 0.4127813415904745
+            },
+            "bias": {
+                "mean": -0.734418502347361,
+                "variance": 0.3416813252406736
+            }
+        }
+    },
+    {
+        "user_id": 21986,
+        "tipo": "pocas",
+        "interacciones": 8,
+        "engagements": 2,
+        "sesiones": 5,
+        "weights": {
+            "novelty": {
+                "mean": 0.3252849186395565,
+                "variance": 0.42912451848848265
+            },
+            "interest": {
+                "mean": 0.10952032381411639,
+                "variance": 0.3816216419216019
+            },
+            "bias": {
+                "mean": -0.497289809307532,
+                "variance": 0.27555791027846066
+            }
+        }
+    },
+    {
+        "user_id": 812,
+        "tipo": "pocas",
+        "interacciones": 7,
+        "engagements": 2,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.3036265740564796,
+                "variance": 0.436869165451477
+            },
+            "interest": {
+                "mean": 0.06627639645542895,
+                "variance": 0.3810996584021558
+            },
+            "bias": {
+                "mean": -0.44651747699485617,
+                "variance": 0.2951969399491755
+            }
+        }
+    },
+    {
+        "user_id": 26658,
+        "tipo": "pocas",
+        "interacciones": 7,
+        "engagements": 0,
+        "sesiones": 5,
+        "weights": {
+            "novelty": {
+                "mean": 0.13833772840376404,
+                "variance": 0.4672426637931719
+            },
+            "interest": {
+                "mean": -0.19715991939675767,
+                "variance": 0.3819468541827679
+            },
+            "bias": {
+                "mean": -0.8838883279034697,
+                "variance": 0.31364435767594223
+            }
+        }
+    },
+    {
+        "user_id": 18898,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 0,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.17949843600208387,
+                "variance": 0.46914571420344875
+            },
+            "interest": {
+                "mean": -0.013027239762935612,
+                "variance": 0.42288908471218273
+            },
+            "bias": {
+                "mean": -0.7390680049230732,
+                "variance": 0.34050506135557057
+            }
+        }
+    },
+    {
+        "user_id": 31912,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 3,
+        "sesiones": 1,
+        "weights": {
+            "novelty": {
+                "mean": 0.6922212238342134,
+                "variance": 0.4447701491603437
+            },
+            "interest": {
+                "mean": 0.6403216788072137,
+                "variance": 0.4070704769369851
+            },
+            "bias": {
+                "mean": 0.10370793268542194,
+                "variance": 0.334684802601698
+            }
+        }
+    },
+    {
+        "user_id": 26985,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 3,
+        "sesiones": 2,
+        "weights": {
+            "novelty": {
+                "mean": 0.5748643589434762,
+                "variance": 0.4425257366656596
+            },
+            "interest": {
+                "mean": 0.444175371482229,
+                "variance": 0.4072677185537972
+            },
+            "bias": {
+                "mean": 0.04588812804988601,
+                "variance": 0.3376085515906391
+            }
+        }
+    },
+    {
+        "user_id": 3051,
+        "tipo": "pocas",
+        "interacciones": 10,
+        "engagements": 5,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 0.735049140433258,
+                "variance": 0.40296874159061796
+            },
+            "interest": {
+                "mean": 0.5864468069691343,
+                "variance": 0.3255778354808321
+            },
+            "bias": {
+                "mean": -0.05189937115109826,
+                "variance": 0.25419283826175065
+            }
+        }
+    },
+    {
+        "user_id": 13060,
+        "tipo": "pocas",
+        "interacciones": 5,
+        "engagements": 1,
+        "sesiones": 3,
+        "weights": {
+            "novelty": {
+                "mean": 0.28627304550097454,
+                "variance": 0.4548525072182034
+            },
+            "interest": {
+                "mean": 0.13723546454384078,
+                "variance": 0.4192663788468695
+            },
+            "bias": {
+                "mean": -0.4790618340233886,
+                "variance": 0.3318212390372501
+            }
+        }
+    }
+]

@@ -1,0 +1,332 @@
+{
+    "user_id": 16712,
+    "number_of_engagements": 9,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 1.1071180567179162,
+            "variance": 0.39532061039509897
+        },
+        "interest": {
+            "mean": 1.149043842583876,
+            "variance": 0.35918005794960123
+        },
+        "bias": {
+            "mean": 0.7151155302063718,
+            "variance": 0.28246965923704437
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 24393.0,
+            "means": {
+                "Black kite": 0.29483632105544444,
+                "Tree": -0.017567503742938775,
+                "Black-eyed pea": -0.1412034633142553,
+                "Kite (bird)": -0.05544155225327897,
+                "Rotation": -0.14120346331425532,
+                "Binary tree": 0.3776680899472053,
+                "Tree traversal": 0.12704499549817314,
+                "Tree (data structure)": 0.47261957593348153,
+                "Programming language": 0.12704499549817314,
+                "Cholera": 0.11557219468714999,
+                "Triangle": 0.11557219468714998,
+                "Black people": 0.11557219468714998,
+                "Binary search tree": 0.3621068643594258,
+                "Binary search algorithm": 0.3621068643594258,
+                "Red herring": 0.08666683582821186,
+                "Algorithm": 0.08666683582821186,
+                "Color field": 0.08666683582821186,
+                "Self-balancing binary search tree": 0.08666683582821186,
+                "Data structure": 0.2531712344134643,
+                "Mathematical induction": 0.13314764859107442,
+                "Leaf": 0.13314764859107442,
+                "Null pointer": 0.048008720283990086,
+                "Defender (association football)": 0.04800872028399007,
+                "Search tree": 0.17457278616354602,
+                "Aronszajn tree": 0.04501043671171778
+            },
+            "variances": {
+                "Black kite": 0.2435310881043251,
+                "Tree": 0.40018543814636093,
+                "Black-eyed pea": 0.46428142321547705,
+                "Kite (bird)": 0.40146624980341583,
+                "Rotation": 0.46428142321547705,
+                "Binary tree": 0.3005869635319156,
+                "Tree traversal": 0.43223607225149463,
+                "Tree (data structure)": 0.2741928290631678,
+                "Programming language": 0.43223607225149463,
+                "Cholera": 0.42986778164698136,
+                "Triangle": 0.42986778164698136,
+                "Black people": 0.42986778164698136,
+                "Binary search tree": 0.26663984989437783,
+                "Binary search algorithm": 0.26663984989437783,
+                "Red herring": 0.4295888480638072,
+                "Algorithm": 0.4295888480638072,
+                "Color field": 0.4295888480638072,
+                "Self-balancing binary search tree": 0.4295888480638072,
+                "Data structure": 0.36744679181065676,
+                "Mathematical induction": 0.42566245387296153,
+                "Leaf": 0.4256624538729614,
+                "Null pointer": 0.4244617557095668,
+                "Defender (association football)": 0.4244617557095668,
+                "Search tree": 0.3612891712829109,
+                "Aronszajn tree": 0.41690659924678053
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 2660,
+            "topic_name": "Black kite",
+            "topic_url": "https://en.wikipedia.org/wiki/Black_kite",
+            "mean": 0.29483632105544444,
+            "variance": 0.2435310881043251,
+            "interest_mean": 3.012877741745032,
+            "interest_var": 0.21225522159568977,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 28256,
+            "topic_name": "Tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Tree",
+            "mean": -0.017567503742938775,
+            "variance": 0.40018543814636093,
+            "interest_mean": 1.2745457367830666,
+            "interest_var": 0.35817691937916446,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 2684,
+            "topic_name": "Black-eyed pea",
+            "topic_url": "https://en.wikipedia.org/wiki/Black-eyed_pea",
+            "mean": -0.1412034633142553,
+            "variance": 0.46428142321547705,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 14449,
+            "topic_name": "Kite (bird)",
+            "topic_url": "https://en.wikipedia.org/wiki/Kite_(bird)",
+            "mean": -0.05544155225327897,
+            "variance": 0.40146624980341583,
+            "interest_mean": 1.3381057429769554,
+            "interest_var": 0.35287698548059904,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 23320,
+            "topic_name": "Rotation",
+            "topic_url": "https://en.wikipedia.org/wiki/Rotation",
+            "mean": -0.14120346331425532,
+            "variance": 0.46428142321547705,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 2476,
+            "topic_name": "Binary tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Binary_tree",
+            "mean": 0.3776680899472053,
+            "variance": 0.3005869635319156,
+            "interest_mean": 1.942971395005205,
+            "interest_var": 0.2665442969491512,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 28272,
+            "topic_name": "Tree traversal",
+            "topic_url": "https://en.wikipedia.org/wiki/Tree_traversal",
+            "mean": 0.12704499549817314,
+            "variance": 0.43223607225149463,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 28257,
+            "topic_name": "Tree (data structure)",
+            "topic_url": "https://en.wikipedia.org/wiki/Tree_(data_structure)",
+            "mean": 0.47261957593348153,
+            "variance": 0.2741928290631678,
+            "interest_mean": 2.1729019723629865,
+            "interest_var": 0.24232330984673928,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 21507,
+            "topic_name": "Programming language",
+            "topic_url": "https://en.wikipedia.org/wiki/Programming_language",
+            "mean": 0.12704499549817314,
+            "variance": 0.43223607225149463,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 4338,
+            "topic_name": "Cholera",
+            "topic_url": "https://en.wikipedia.org/wiki/Cholera",
+            "mean": 0.11557219468714999,
+            "variance": 0.42986778164698136,
+            "interest_mean": 0.6468234122415922,
+            "interest_var": 0.4054553027757717,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 28299,
+            "topic_name": "Triangle",
+            "topic_url": "https://en.wikipedia.org/wiki/Triangle",
+            "mean": 0.11557219468714998,
+            "variance": 0.42986778164698136,
+            "interest_mean": 0.6468234122415922,
+            "interest_var": 0.4054553027757717,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 2670,
+            "topic_name": "Black people",
+            "topic_url": "https://en.wikipedia.org/wiki/Black_people",
+            "mean": 0.11557219468714998,
+            "variance": 0.42986778164698136,
+            "interest_mean": 0.6468234122415923,
+            "interest_var": 0.4054553027757717,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 2472,
+            "topic_name": "Binary search tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Binary_search_tree",
+            "mean": 0.3621068643594258,
+            "variance": 0.26663984989437783,
+            "interest_mean": 1.4880215081768964,
+            "interest_var": 0.2486349349545958,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 2471,
+            "topic_name": "Binary search algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Binary_search_algorithm",
+            "mean": 0.3621068643594258,
+            "variance": 0.26663984989437783,
+            "interest_mean": 1.4880215081768962,
+            "interest_var": 0.2486349349545958,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 22586,
+            "topic_name": "Red herring",
+            "topic_url": "https://en.wikipedia.org/wiki/Red_herring",
+            "mean": 0.08666683582821186,
+            "variance": 0.4295888480638072,
+            "interest_mean": 0.6959237763630738,
+            "interest_var": 0.4047534775566434,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.08666683582821186,
+            "variance": 0.4295888480638072,
+            "interest_mean": 0.6959237763630738,
+            "interest_var": 0.4047534775566434,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 4998,
+            "topic_name": "Color field",
+            "topic_url": "https://en.wikipedia.org/wiki/Color_field",
+            "mean": 0.08666683582821186,
+            "variance": 0.4295888480638072,
+            "interest_mean": 0.6959237763630738,
+            "interest_var": 0.4047534775566434,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 24077,
+            "topic_name": "Self-balancing binary search tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree",
+            "mean": 0.08666683582821186,
+            "variance": 0.4295888480638072,
+            "interest_mean": 0.6959237763630738,
+            "interest_var": 0.4047534775566434,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 6851,
+            "topic_name": "Data structure",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_structure",
+            "mean": 0.2531712344134643,
+            "variance": 0.36744679181065676,
+            "interest_mean": 0.8297132234911279,
+            "interest_var": 0.3432582203963843,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 16310,
+            "topic_name": "Mathematical induction",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematical_induction",
+            "mean": 0.13314764859107442,
+            "variance": 0.42566245387296153,
+            "interest_mean": 0.2318375937663139,
+            "interest_var": 0.426810764687284,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 14864,
+            "topic_name": "Leaf",
+            "topic_url": "https://en.wikipedia.org/wiki/Leaf",
+            "mean": 0.13314764859107442,
+            "variance": 0.4256624538729614,
+            "interest_mean": 0.2318375937663139,
+            "interest_var": 0.426810764687284,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 18580,
+            "topic_name": "Null pointer",
+            "topic_url": "https://en.wikipedia.org/wiki/Null_pointer",
+            "mean": 0.048008720283990086,
+            "variance": 0.4244617557095668,
+            "interest_mean": 0.6165393157625273,
+            "interest_var": 0.3963364418771544,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 7038,
+            "topic_name": "Defender (association football)",
+            "topic_url": "https://en.wikipedia.org/wiki/Defender_(association_football)",
+            "mean": 0.04800872028399007,
+            "variance": 0.4244617557095668,
+            "interest_mean": 0.6165393157625273,
+            "interest_var": 0.3963364418771544,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 23927,
+            "topic_name": "Search tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Search_tree",
+            "mean": 0.17457278616354602,
+            "variance": 0.3612891712829109,
+            "interest_mean": 0.3927583214141892,
+            "interest_var": 0.3694662439357954,
+            "timestamp": 24393.0
+        },
+        {
+            "topic_id": 1410,
+            "topic_name": "Aronszajn tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Aronszajn_tree",
+            "mean": 0.04501043671171778,
+            "variance": 0.41690659924678053,
+            "interest_mean": 0.1395281165365402,
+            "interest_var": 0.43649995384287316,
+            "timestamp": 24393.0
+        }
+    ]
+}

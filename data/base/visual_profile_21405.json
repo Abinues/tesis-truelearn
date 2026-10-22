@@ -1,0 +1,224 @@
+{
+    "user_id": 21405,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.2278376885798946,
+            "variance": 0.4781053437114505
+        },
+        "interest": {
+            "mean": -0.04071259008502403,
+            "variance": 0.4127813415904745
+        },
+        "bias": {
+            "mean": -0.734418502347361,
+            "variance": 0.3416813252406736
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 62632.0,
+            "means": {
+                "Cloud chamber": -0.18076079703835546,
+                "Bubble chamber": -0.08998962499326578,
+                "Electron": -0.0899896249932658,
+                "Positron": -0.0899896249932658,
+                "Kinetic energy": -0.236419100203328,
+                "Proton": -0.3390120485849088,
+                "Electronvolt": -0.11140486353090895,
+                "Cyclotron": -0.19589639667303865,
+                "Magnetic field": -0.17568230845063498,
+                "Antiproton": -0.11140486353090899,
+                "Alpha particle": -0.09612818289319358,
+                "Large Hadron Collider": -0.09612818289319358,
+                "Speed of light": -0.1607066006765805,
+                "Uranium": -0.0901698320626641,
+                "Mass spectrometry": -0.0901698320626641,
+                "Special relativity": -0.06859724517105319
+            },
+            "variances": {
+                "Cloud chamber": 0.4460170732433974,
+                "Bubble chamber": 0.47213610677497186,
+                "Electron": 0.47213610677497186,
+                "Positron": 0.47213610677497186,
+                "Kinetic energy": 0.4271630624792241,
+                "Proton": 0.40311499663671196,
+                "Electronvolt": 0.4685133109897096,
+                "Cyclotron": 0.443464835293643,
+                "Magnetic field": 0.447022973565471,
+                "Antiproton": 0.4685133109897096,
+                "Alpha particle": 0.47070707885101676,
+                "Large Hadron Collider": 0.47070707885101676,
+                "Speed of light": 0.44901501743750677,
+                "Uranium": 0.4714715981935646,
+                "Mass spectrometry": 0.4714715981935646,
+                "Special relativity": 0.4755240602887933
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 4733,
+            "topic_name": "Cloud chamber",
+            "topic_url": "https://en.wikipedia.org/wiki/Cloud_chamber",
+            "mean": -0.18076079703835546,
+            "variance": 0.4460170732433974,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 3170,
+            "topic_name": "Bubble chamber",
+            "topic_url": "https://en.wikipedia.org/wiki/Bubble_chamber",
+            "mean": -0.08998962499326578,
+            "variance": 0.47213610677497186,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 8504,
+            "topic_name": "Electron",
+            "topic_url": "https://en.wikipedia.org/wiki/Electron",
+            "mean": -0.0899896249932658,
+            "variance": 0.47213610677497186,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 20901,
+            "topic_name": "Positron",
+            "topic_url": "https://en.wikipedia.org/wiki/Positron",
+            "mean": -0.0899896249932658,
+            "variance": 0.47213610677497186,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 14425,
+            "topic_name": "Kinetic energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Kinetic_energy",
+            "mean": -0.236419100203328,
+            "variance": 0.4271630624792241,
+            "interest_mean": 1.6261542790824706,
+            "interest_var": 0.31108899727213857,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 21684,
+            "topic_name": "Proton",
+            "topic_url": "https://en.wikipedia.org/wiki/Proton",
+            "mean": -0.3390120485849088,
+            "variance": 0.40311499663671196,
+            "interest_mean": 2.1478814943098197,
+            "interest_var": 0.27420475443306647,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 8560,
+            "topic_name": "Electronvolt",
+            "topic_url": "https://en.wikipedia.org/wiki/Electronvolt",
+            "mean": -0.11140486353090895,
+            "variance": 0.4685133109897096,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 6672,
+            "topic_name": "Cyclotron",
+            "topic_url": "https://en.wikipedia.org/wiki/Cyclotron",
+            "mean": -0.19589639667303865,
+            "variance": 0.443464835293643,
+            "interest_mean": 1.4595526081036096,
+            "interest_var": 0.3473541969301543,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 15885,
+            "topic_name": "Magnetic field",
+            "topic_url": "https://en.wikipedia.org/wiki/Magnetic_field",
+            "mean": -0.17568230845063498,
+            "variance": 0.447022973565471,
+            "interest_mean": 1.281032680032764,
+            "interest_var": 0.35688550779767436,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 1165,
+            "topic_name": "Antiproton",
+            "topic_url": "https://en.wikipedia.org/wiki/Antiproton",
+            "mean": -0.11140486353090899,
+            "variance": 0.4685133109897096,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 773,
+            "topic_name": "Alpha particle",
+            "topic_url": "https://en.wikipedia.org/wiki/Alpha_particle",
+            "mean": -0.09612818289319358,
+            "variance": 0.47070707885101676,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 14717,
+            "topic_name": "Large Hadron Collider",
+            "topic_url": "https://en.wikipedia.org/wiki/Large_Hadron_Collider",
+            "mean": -0.09612818289319358,
+            "variance": 0.47070707885101676,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 25644,
+            "topic_name": "Speed of light",
+            "topic_url": "https://en.wikipedia.org/wiki/Speed_of_light",
+            "mean": -0.1607066006765805,
+            "variance": 0.44901501743750677,
+            "interest_mean": 0.9338104855281787,
+            "interest_var": 0.3558643585756199,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 28872,
+            "topic_name": "Uranium",
+            "topic_url": "https://en.wikipedia.org/wiki/Uranium",
+            "mean": -0.0901698320626641,
+            "variance": 0.4714715981935646,
+            "interest_mean": 0.45935958415896394,
+            "interest_var": 0.41044231453700913,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 16245,
+            "topic_name": "Mass spectrometry",
+            "topic_url": "https://en.wikipedia.org/wiki/Mass_spectrometry",
+            "mean": -0.0901698320626641,
+            "variance": 0.4714715981935646,
+            "interest_mean": 0.45935958415896394,
+            "interest_var": 0.41044231453700913,
+            "timestamp": 62632.0
+        },
+        {
+            "topic_id": 25554,
+            "topic_name": "Special relativity",
+            "topic_url": "https://en.wikipedia.org/wiki/Special_relativity",
+            "mean": -0.06859724517105319,
+            "variance": 0.4755240602887933,
+            "interest_mean": 0.23981525551044544,
+            "interest_var": 0.42485761415656514,
+            "timestamp": 62632.0
+        }
+    ]
+}

@@ -1,0 +1,378 @@
+{
+    "user_id": 34536,
+    "number_of_engagements": 7,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 1.0447936967793312,
+            "variance": 0.4211984220418054
+        },
+        "interest": {
+            "mean": 1.0756078056394955,
+            "variance": 0.41197781751349166
+        },
+        "bias": {
+            "mean": 0.8174632255578599,
+            "variance": 0.3238939477849421
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 14156.0,
+            "means": {
+                "Email": 0.12384635940157034,
+                "Ancient Greek": 0.12384635940157034,
+                "Leaderless resistance": 0.12384635940157034,
+                "Internet café": 0.12384635940157034,
+                "Web hosting service": 0.12384635940157034,
+                "Open-source intelligence": 0.27307026977147975,
+                "Data mining": 0.30558110547736456,
+                "Open-source software": 0.27307026977147975,
+                "Text mining": 0.15188279786199557,
+                "Trade secret": 0.1399387114297814,
+                "Business intelligence": 0.1399387114297814,
+                "Intelligence": 0.1399387114297814,
+                "Link analysis": 0.10583376449645787,
+                "Search engine": 0.19358980851235957,
+                "Machine translation": 0.10583376449645787,
+                "Pharmaceutical industry": 0.10583376449645789,
+                "Uranium": 0.08124645875309185,
+                "Counting house": 0.08124645875309185,
+                "Enriched uranium": 0.08124645875309185,
+                "Internet": 0.08124645875309185,
+                "Dot-com bubble": 0.09584257107756738,
+                "Pattern recognition": 0.09584257107756738,
+                "E-commerce": 0.09584257107756738,
+                "Buzzword": 0.0958425710775674,
+                "Web service": 0.1016219432622266,
+                "Web server": 0.1016219432622266,
+                "Dark web": 0.1016219432622266,
+                "Hydrogen": 0.1016219432622266
+            },
+            "variances": {
+                "Email": 0.43288595356119813,
+                "Ancient Greek": 0.43288595356119813,
+                "Leaderless resistance": 0.43288595356119813,
+                "Internet café": 0.43288595356119813,
+                "Web hosting service": 0.43288595356119813,
+                "Open-source intelligence": 0.3808843906434746,
+                "Data mining": 0.3414863375324945,
+                "Open-source software": 0.3808843906434746,
+                "Text mining": 0.43300195732577446,
+                "Trade secret": 0.4305064623754121,
+                "Business intelligence": 0.4305064623754121,
+                "Intelligence": 0.4305064623754121,
+                "Link analysis": 0.4317770414479031,
+                "Search engine": 0.3808844204532982,
+                "Machine translation": 0.4317770414479031,
+                "Pharmaceutical industry": 0.4317770414479031,
+                "Uranium": 0.43081100596286165,
+                "Counting house": 0.43081100596286165,
+                "Enriched uranium": 0.43081100596286165,
+                "Internet": 0.43081100596286165,
+                "Dot-com bubble": 0.43177704520904137,
+                "Pattern recognition": 0.43177704520904137,
+                "E-commerce": 0.43177704520904137,
+                "Buzzword": 0.43177704520904137,
+                "Web service": 0.43175423063997936,
+                "Web server": 0.43175423063997936,
+                "Dark web": 0.43175423063997936,
+                "Hydrogen": 0.43175423063997936
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 8626,
+            "topic_name": "Email",
+            "topic_url": "https://en.wikipedia.org/wiki/Email",
+            "mean": 0.12384635940157034,
+            "variance": 0.43288595356119813,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 962,
+            "topic_name": "Ancient Greek",
+            "topic_url": "https://en.wikipedia.org/wiki/Ancient_Greek",
+            "mean": 0.12384635940157034,
+            "variance": 0.43288595356119813,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 14855,
+            "topic_name": "Leaderless resistance",
+            "topic_url": "https://en.wikipedia.org/wiki/Leaderless_resistance",
+            "mean": 0.12384635940157034,
+            "variance": 0.43288595356119813,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 13766,
+            "topic_name": "Internet café",
+            "topic_url": "https://en.wikipedia.org/wiki/Internet_café",
+            "mean": 0.12384635940157034,
+            "variance": 0.43288595356119813,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 29743,
+            "topic_name": "Web hosting service",
+            "topic_url": "https://en.wikipedia.org/wiki/Web_hosting_service",
+            "mean": 0.12384635940157034,
+            "variance": 0.43288595356119813,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 18933,
+            "topic_name": "Open-source intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Open-source_intelligence",
+            "mean": 0.27307026977147975,
+            "variance": 0.3808843906434746,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 29746,
+            "topic_name": "Data mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Web_mining",
+            "mean": 0.2348828396054382,
+            "variance": 0.381837280477847,
+            "interest_mean": 1.8313130908597424,
+            "interest_var": 0.34392685402073503,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 18936,
+            "topic_name": "Open-source software",
+            "topic_url": "https://en.wikipedia.org/wiki/Open-source_software",
+            "mean": 0.27307026977147975,
+            "variance": 0.3808843906434746,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 27434,
+            "topic_name": "Text mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Text_mining",
+            "mean": 0.15188279786199557,
+            "variance": 0.43300195732577446,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 6823,
+            "topic_name": "Data mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_mining",
+            "mean": 0.30558110547736456,
+            "variance": 0.3414863375324945,
+            "interest_mean": 2.3783409009634093,
+            "interest_var": 0.2990251450025443,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 28031,
+            "topic_name": "Trade secret",
+            "topic_url": "https://en.wikipedia.org/wiki/Trade_secret",
+            "mean": 0.1399387114297814,
+            "variance": 0.4305064623754121,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 3303,
+            "topic_name": "Business intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Business_intelligence",
+            "mean": 0.1399387114297814,
+            "variance": 0.4305064623754121,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 13604,
+            "topic_name": "Intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Intelligence",
+            "mean": 0.1399387114297814,
+            "variance": 0.4305064623754121,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 15274,
+            "topic_name": "Link analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Link_analysis",
+            "mean": 0.10583376449645787,
+            "variance": 0.4317770414479031,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 29757,
+            "topic_name": "Search engine",
+            "topic_url": "https://en.wikipedia.org/wiki/Web_search_engine",
+            "mean": 0.19358980851235957,
+            "variance": 0.3808844204532982,
+            "interest_mean": 1.6859066884922465,
+            "interest_var": 0.3426791264591452,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 15814,
+            "topic_name": "Machine translation",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_translation",
+            "mean": 0.10583376449645787,
+            "variance": 0.4317770414479031,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 20074,
+            "topic_name": "Pharmaceutical industry",
+            "topic_url": "https://en.wikipedia.org/wiki/Pharmaceutical_industry",
+            "mean": 0.10583376449645789,
+            "variance": 0.4317770414479031,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 28872,
+            "topic_name": "Uranium",
+            "topic_url": "https://en.wikipedia.org/wiki/Uranium",
+            "mean": 0.08124645875309185,
+            "variance": 0.43081100596286165,
+            "interest_mean": 0.7952676618713341,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 6172,
+            "topic_name": "Counting house",
+            "topic_url": "https://en.wikipedia.org/wiki/Counting_house",
+            "mean": 0.08124645875309185,
+            "variance": 0.43081100596286165,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 8833,
+            "topic_name": "Enriched uranium",
+            "topic_url": "https://en.wikipedia.org/wiki/Enriched_uranium",
+            "mean": 0.08124645875309185,
+            "variance": 0.43081100596286165,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 13758,
+            "topic_name": "Internet",
+            "topic_url": "https://en.wikipedia.org/wiki/Internet",
+            "mean": 0.08124645875309185,
+            "variance": 0.43081100596286165,
+            "interest_mean": 0.7952676618713338,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 7926,
+            "topic_name": "Dot-com bubble",
+            "topic_url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+            "mean": 0.09584257107756738,
+            "variance": 0.43177704520904137,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 19738,
+            "topic_name": "Pattern recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Pattern_recognition",
+            "mean": 0.09584257107756738,
+            "variance": 0.43177704520904137,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 8209,
+            "topic_name": "E-commerce",
+            "topic_url": "https://en.wikipedia.org/wiki/E-commerce",
+            "mean": 0.09584257107756738,
+            "variance": 0.43177704520904137,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 3353,
+            "topic_name": "Buzzword",
+            "topic_url": "https://en.wikipedia.org/wiki/Buzzword",
+            "mean": 0.0958425710775674,
+            "variance": 0.43177704520904137,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 29760,
+            "topic_name": "Web service",
+            "topic_url": "https://en.wikipedia.org/wiki/Web_service",
+            "mean": 0.1016219432622266,
+            "variance": 0.43175423063997936,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 29759,
+            "topic_name": "Web server",
+            "topic_url": "https://en.wikipedia.org/wiki/Web_server",
+            "mean": 0.1016219432622266,
+            "variance": 0.43175423063997936,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 6766,
+            "topic_name": "Dark web",
+            "topic_url": "https://en.wikipedia.org/wiki/Dark_web",
+            "mean": 0.1016219432622266,
+            "variance": 0.43175423063997936,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 14156.0
+        },
+        {
+            "topic_id": 12821,
+            "topic_name": "Hydrogen",
+            "topic_url": "https://en.wikipedia.org/wiki/Hydrogen",
+            "mean": 0.1016219432622266,
+            "variance": 0.43175423063997936,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 14156.0
+        }
+    ]
+}

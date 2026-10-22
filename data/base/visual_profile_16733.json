@@ -1,0 +1,322 @@
+{
+    "user_id": 16733,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.7207087869471177,
+            "variance": 0.4198225964561403
+        },
+        "interest": {
+            "mean": 0.43223569544655,
+            "variance": 0.31479191236240245
+        },
+        "bias": {
+            "mean": -0.19795158257935408,
+            "variance": 0.25827114167379406
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 3191.0,
+            "means": {
+                "Fuzzy set": -0.21260972206102044,
+                "Fuzzy rule": -0.12126166456115188,
+                "Pollen": -0.12126166456115191,
+                "Celsius": -0.12126166456115191,
+                "Linear function": -0.12126166456115191,
+                "Center of mass": -0.09779872331803169,
+                "Membership function (mathematics)": -0.0977987233180317,
+                "Gravity": -0.0977987233180317,
+                "Insurance": -0.0977987233180317
+            },
+            "variances": {
+                "Fuzzy set": 0.44133936978802213,
+                "Fuzzy rule": 0.4670207053869905,
+                "Pollen": 0.4670207053869905,
+                "Celsius": 0.4670207053869905,
+                "Linear function": 0.4670207053869905,
+                "Center of mass": 0.47056355606796024,
+                "Membership function (mathematics)": 0.47056355606796024,
+                "Gravity": 0.47056355606796024,
+                "Insurance": 0.47056355606796024
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 5913.0,
+            "means": {
+                "Fuzzy set": 0.05078927044809156,
+                "Fuzzy rule": 0.19644979133033136,
+                "Pollen": -0.21066156766796756,
+                "Celsius": -0.21066156766796756,
+                "Linear function": -0.2106615676679676,
+                "Center of mass": 0.38954457215490745,
+                "Membership function (mathematics)": -0.14144179381345767,
+                "Gravity": 0.38954457215490745,
+                "Insurance": 0.12093150332864139,
+                "Feature (machine learning)": -0.10568086494984491,
+                "Function (mathematics)": 0.13549235402598966,
+                "Algorithm": -0.18098918408234424,
+                "Outlier": -0.08030353642951008,
+                "Coffee": 0.12489850255501309,
+                "Equation": 0.12489850255501309,
+                "Mathematics": 0.12489850255501309,
+                "Fuzzy logic": 0.12489850255501311,
+                "Probability": -0.07182606852258452,
+                "Stock market prediction": -0.07182606852258454,
+                "Temperature": 0.3173711955006182,
+                "Automatic transmission": 0.2571702913960043,
+                "Set (mathematics)": 0.2571702913960043
+            },
+            "variances": {
+                "Fuzzy set": 0.26640561629522375,
+                "Fuzzy rule": 0.2887629188103095,
+                "Pollen": 0.4395553055760035,
+                "Celsius": 0.4395553055760035,
+                "Linear function": 0.4395553055760035,
+                "Center of mass": 0.3544641619263052,
+                "Membership function (mathematics)": 0.3526939035715401,
+                "Gravity": 0.3544641619263052,
+                "Insurance": 0.40146901858681977,
+                "Feature (machine learning)": 0.468897899649815,
+                "Function (mathematics)": 0.4030393668893027,
+                "Algorithm": 0.4450977068927301,
+                "Outlier": 0.47293774959033735,
+                "Coffee": 0.4318506616480864,
+                "Equation": 0.4318506616480864,
+                "Mathematics": 0.4318506616480864,
+                "Fuzzy logic": 0.4318506616480864,
+                "Probability": 0.47431859016247524,
+                "Stock market prediction": 0.47431859016247524,
+                "Temperature": 0.4269537590408205,
+                "Automatic transmission": 0.42511488779235185,
+                "Set (mathematics)": 0.42511488779235185
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 10776,
+            "topic_name": "Fuzzy set",
+            "topic_url": "https://en.wikipedia.org/wiki/Fuzzy_set",
+            "mean": 0.05078927044809156,
+            "variance": 0.26640561629522375,
+            "interest_mean": 2.6854616192241836,
+            "interest_var": 0.21650763193892522,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 10775,
+            "topic_name": "Fuzzy rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Fuzzy_rule",
+            "mean": 0.19644979133033136,
+            "variance": 0.2887629188103095,
+            "interest_mean": 2.204722301430452,
+            "interest_var": 0.24377466868192232,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 20711,
+            "topic_name": "Pollen",
+            "topic_url": "https://en.wikipedia.org/wiki/Pollen",
+            "mean": -0.21066156766796756,
+            "variance": 0.4395553055760035,
+            "interest_mean": 1.0975617469967125,
+            "interest_var": 0.39865338353564633,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 3942,
+            "topic_name": "Celsius",
+            "topic_url": "https://en.wikipedia.org/wiki/Celsius",
+            "mean": -0.21066156766796756,
+            "variance": 0.4395553055760035,
+            "interest_mean": 1.0975617469967125,
+            "interest_var": 0.39865338353564633,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 15226,
+            "topic_name": "Linear function",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_function",
+            "mean": -0.2106615676679676,
+            "variance": 0.4395553055760035,
+            "interest_mean": 1.0975617469967125,
+            "interest_var": 0.39865338353564633,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 3957,
+            "topic_name": "Center of mass",
+            "topic_url": "https://en.wikipedia.org/wiki/Center_of_mass",
+            "mean": 0.38954457215490745,
+            "variance": 0.3544641619263052,
+            "interest_mean": 1.029551537940428,
+            "interest_var": 0.35846777110327077,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 16570,
+            "topic_name": "Membership function (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Membership_function_(mathematics)",
+            "mean": -0.14144179381345767,
+            "variance": 0.3526939035715401,
+            "interest_mean": 1.7055620065811712,
+            "interest_var": 0.2777051007099953,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 11647,
+            "topic_name": "Gravity",
+            "topic_url": "https://en.wikipedia.org/wiki/Gravity",
+            "mean": 0.38954457215490745,
+            "variance": 0.3544641619263052,
+            "interest_mean": 1.029551537940428,
+            "interest_var": 0.35846777110327077,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 13569,
+            "topic_name": "Insurance",
+            "topic_url": "https://en.wikipedia.org/wiki/Insurance",
+            "mean": 0.12093150332864139,
+            "variance": 0.40146901858681977,
+            "interest_mean": 0.9436091105144091,
+            "interest_var": 0.3894056186503068,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 9689,
+            "topic_name": "Feature (machine learning)",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_(machine_learning)",
+            "mean": -0.10568086494984491,
+            "variance": 0.468897899649815,
+            "interest_mean": 0.6468234122415923,
+            "interest_var": 0.4054553027757717,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 10663,
+            "topic_name": "Function (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_(mathematics)",
+            "mean": 0.13549235402598966,
+            "variance": 0.4030393668893027,
+            "interest_mean": 0.8449655251277663,
+            "interest_var": 0.3545982282565568,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.18098918408234424,
+            "variance": 0.4450977068927301,
+            "interest_mean": 0.8222695414480394,
+            "interest_var": 0.3582983986713787,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 19235,
+            "topic_name": "Outlier",
+            "topic_url": "https://en.wikipedia.org/wiki/Outlier",
+            "mean": -0.08030353642951008,
+            "variance": 0.47293774959033735,
+            "interest_mean": 0.21635693010466542,
+            "interest_var": 0.42828676324378184,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 4842,
+            "topic_name": "Coffee",
+            "topic_url": "https://en.wikipedia.org/wiki/Coffee",
+            "mean": 0.12489850255501309,
+            "variance": 0.4318506616480864,
+            "interest_mean": 0.8992573752748562,
+            "interest_var": 0.40376606290287265,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 8983,
+            "topic_name": "Equation",
+            "topic_url": "https://en.wikipedia.org/wiki/Equation",
+            "mean": 0.12489850255501309,
+            "variance": 0.4318506616480864,
+            "interest_mean": 0.8992573752748562,
+            "interest_var": 0.40376606290287265,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 16327,
+            "topic_name": "Mathematics",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematics",
+            "mean": 0.12489850255501309,
+            "variance": 0.4318506616480864,
+            "interest_mean": 0.8992573752748562,
+            "interest_var": 0.40376606290287265,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 10771,
+            "topic_name": "Fuzzy logic",
+            "topic_url": "https://en.wikipedia.org/wiki/Fuzzy_logic",
+            "mean": 0.12489850255501311,
+            "variance": 0.4318506616480864,
+            "interest_mean": 0.8992573752748562,
+            "interest_var": 0.40376606290287265,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": -0.07182606852258452,
+            "variance": 0.47431859016247524,
+            "interest_mean": 0.15708725716298821,
+            "interest_var": 0.43784882434516303,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 26183,
+            "topic_name": "Stock market prediction",
+            "topic_url": "https://en.wikipedia.org/wiki/Stock_market_prediction",
+            "mean": -0.07182606852258454,
+            "variance": 0.47431859016247524,
+            "interest_mean": 0.15708725716298821,
+            "interest_var": 0.43784882434516303,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 27283,
+            "topic_name": "Temperature",
+            "topic_url": "https://en.wikipedia.org/wiki/Temperature",
+            "mean": 0.3173711955006182,
+            "variance": 0.4269537590408205,
+            "interest_mean": 0.1087891583857679,
+            "interest_var": 0.44908712832677117,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 1776,
+            "topic_name": "Automatic transmission",
+            "topic_url": "https://en.wikipedia.org/wiki/Automatic_transmission",
+            "mean": 0.2571702913960043,
+            "variance": 0.42511488779235185,
+            "interest_mean": 0.24434519850854222,
+            "interest_var": 0.42265977813871525,
+            "timestamp": 5913.0
+        },
+        {
+            "topic_id": 24351,
+            "topic_name": "Set (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Set_(mathematics)",
+            "mean": 0.2571702913960043,
+            "variance": 0.42511488779235185,
+            "interest_mean": 0.24434519850854222,
+            "interest_var": 0.42265977813871525,
+            "timestamp": 5913.0
+        }
+    ]
+}

@@ -1,0 +1,264 @@
+{
+    "user_id": 26985,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 2,
+    "weights": {
+        "novelty": {
+            "mean": 0.5748643589434762,
+            "variance": 0.4425257366656596
+        },
+        "interest": {
+            "mean": 0.444175371482229,
+            "variance": 0.4072677185537972
+        },
+        "bias": {
+            "mean": 0.04588812804988601,
+            "variance": 0.3376085515906391
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 79572.0,
+            "means": {
+                "Gladiator": 0.20675858700201308,
+                "Metaphor": 0.14042995768512212,
+                "Irony": 0.1302366331269424,
+                "Caveat emptor": 0.1302366331269424,
+                "Conceptual blending": 0.1302366331269424,
+                "Capacitor": 0.08838582999639014,
+                "DeLorean time machine": 0.08838582999639014,
+                "Chemistry": 0.08838582999639014,
+                "Rosary": 0.09115076219134212,
+                "Tabloid (newspaper format)": 0.09115076219134212,
+                "Workhouse": 0.09115076219134212,
+                "Millionaire": 0.0911507621913421,
+                "Web service": -0.199247677799083,
+                "Twitter": -0.199247677799083,
+                "Tacit assumption": -0.199247677799083,
+                "Mathematics": -0.19924767779908306
+            },
+            "variances": {
+                "Gladiator": 0.3807929001944645,
+                "Metaphor": 0.3204544292674722,
+                "Irony": 0.4328858702701325,
+                "Caveat emptor": 0.4328858702701325,
+                "Conceptual blending": 0.4328858702701325,
+                "Capacitor": 0.4305019998930411,
+                "DeLorean time machine": 0.4305019998930411,
+                "Chemistry": 0.4305019998930411,
+                "Rosary": 0.4307909987109832,
+                "Tabloid (newspaper format)": 0.4307909987109832,
+                "Workhouse": 0.4307909987109832,
+                "Millionaire": 0.4307909987109832,
+                "Web service": 0.4564894851418084,
+                "Twitter": 0.4564894851418084,
+                "Tacit assumption": 0.4564894851418084,
+                "Mathematics": 0.4564894851418084
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 79832.0,
+            "means": {
+                "Gladiator": 0.20675858700201308,
+                "Metaphor": 0.060404946362426604,
+                "Irony": 0.1302366331269424,
+                "Caveat emptor": 0.1302366331269424,
+                "Conceptual blending": 0.1302366331269424,
+                "Capacitor": 0.08838582999639014,
+                "DeLorean time machine": 0.08838582999639014,
+                "Chemistry": 0.08838582999639014,
+                "Rosary": 0.09115076219134212,
+                "Tabloid (newspaper format)": 0.09115076219134212,
+                "Workhouse": 0.09115076219134212,
+                "Millionaire": 0.0911507621913421,
+                "Web service": -0.31324384349624634,
+                "Twitter": -0.31324384349624634,
+                "Tacit assumption": -0.31324384349624634,
+                "Mathematics": -0.31324384349624645
+            },
+            "variances": {
+                "Gladiator": 0.3807929001944645,
+                "Metaphor": 0.30565275408037174,
+                "Irony": 0.4328858702701325,
+                "Caveat emptor": 0.4328858702701325,
+                "Conceptual blending": 0.4328858702701325,
+                "Capacitor": 0.4305019998930411,
+                "DeLorean time machine": 0.4305019998930411,
+                "Chemistry": 0.4305019998930411,
+                "Rosary": 0.4307909987109832,
+                "Tabloid (newspaper format)": 0.4307909987109832,
+                "Workhouse": 0.4307909987109832,
+                "Millionaire": 0.4307909987109832,
+                "Web service": 0.42645363913776374,
+                "Twitter": 0.42645363913776374,
+                "Tacit assumption": 0.42645363913776374,
+                "Mathematics": 0.42645363913776374
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 11271,
+            "topic_name": "Gladiator",
+            "topic_url": "https://en.wikipedia.org/wiki/Gladiator",
+            "mean": 0.20675858700201308,
+            "variance": 0.3807929001944645,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 16740,
+            "topic_name": "Metaphor",
+            "topic_url": "https://en.wikipedia.org/wiki/Metaphor",
+            "mean": 0.060404946362426604,
+            "variance": 0.30565275408037174,
+            "interest_mean": 2.792675959281582,
+            "interest_var": 0.2450722664991794,
+            "timestamp": 79832.0
+        },
+        {
+            "topic_id": 13972,
+            "topic_name": "Irony",
+            "topic_url": "https://en.wikipedia.org/wiki/Irony",
+            "mean": 0.1302366331269424,
+            "variance": 0.4328858702701325,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 3891,
+            "topic_name": "Caveat emptor",
+            "topic_url": "https://en.wikipedia.org/wiki/Caveat_emptor",
+            "mean": 0.1302366331269424,
+            "variance": 0.4328858702701325,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 5466,
+            "topic_name": "Conceptual blending",
+            "topic_url": "https://en.wikipedia.org/wiki/Conceptual_blending",
+            "mean": 0.1302366331269424,
+            "variance": 0.4328858702701325,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 3591,
+            "topic_name": "Capacitor",
+            "topic_url": "https://en.wikipedia.org/wiki/Capacitor",
+            "mean": 0.08838582999639014,
+            "variance": 0.4305019998930411,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 6898,
+            "topic_name": "DeLorean time machine",
+            "topic_url": "https://en.wikipedia.org/wiki/DeLorean_time_machine",
+            "mean": 0.08838582999639014,
+            "variance": 0.4305019998930411,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 4195,
+            "topic_name": "Chemistry",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemistry",
+            "mean": 0.08838582999639014,
+            "variance": 0.4305019998930411,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 23305,
+            "topic_name": "Rosary",
+            "topic_url": "https://en.wikipedia.org/wiki/Rosary",
+            "mean": 0.09115076219134212,
+            "variance": 0.4307909987109832,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 26992,
+            "topic_name": "Tabloid (newspaper format)",
+            "topic_url": "https://en.wikipedia.org/wiki/Tabloid_(newspaper_format)",
+            "mean": 0.09115076219134212,
+            "variance": 0.4307909987109832,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 30118,
+            "topic_name": "Workhouse",
+            "topic_url": "https://en.wikipedia.org/wiki/Workhouse",
+            "mean": 0.09115076219134212,
+            "variance": 0.4307909987109832,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 16973,
+            "topic_name": "Millionaire",
+            "topic_url": "https://en.wikipedia.org/wiki/Millionaire",
+            "mean": 0.0911507621913421,
+            "variance": 0.4307909987109832,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 79572.0
+        },
+        {
+            "topic_id": 29760,
+            "topic_name": "Web service",
+            "topic_url": "https://en.wikipedia.org/wiki/Web_service",
+            "mean": -0.31324384349624634,
+            "variance": 0.42645363913776374,
+            "interest_mean": 0.8878811116649972,
+            "interest_var": 0.3587908230026332,
+            "timestamp": 79832.0
+        },
+        {
+            "topic_id": 28540,
+            "topic_name": "Twitter",
+            "topic_url": "https://en.wikipedia.org/wiki/Twitter",
+            "mean": -0.31324384349624634,
+            "variance": 0.42645363913776374,
+            "interest_mean": 0.8878811116649972,
+            "interest_var": 0.3587908230026332,
+            "timestamp": 79832.0
+        },
+        {
+            "topic_id": 27001,
+            "topic_name": "Tacit assumption",
+            "topic_url": "https://en.wikipedia.org/wiki/Tacit_assumption",
+            "mean": -0.31324384349624634,
+            "variance": 0.42645363913776374,
+            "interest_mean": 0.8878811116649972,
+            "interest_var": 0.3587908230026332,
+            "timestamp": 79832.0
+        },
+        {
+            "topic_id": 16327,
+            "topic_name": "Mathematics",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematics",
+            "mean": -0.31324384349624645,
+            "variance": 0.42645363913776374,
+            "interest_mean": 0.8878811116649972,
+            "interest_var": 0.3587908230026332,
+            "timestamp": 79832.0
+        }
+    ]
+}

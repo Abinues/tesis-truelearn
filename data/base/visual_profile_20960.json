@@ -1,0 +1,386 @@
+{
+    "user_id": 20960,
+    "number_of_engagements": 7,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 1.021117541242438,
+            "variance": 0.41125931217058426
+        },
+        "interest": {
+            "mean": 1.0359988511095837,
+            "variance": 0.3835571149539812
+        },
+        "bias": {
+            "mean": 0.6254403396742019,
+            "variance": 0.29811998920971217
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 38039.0,
+            "means": {
+                "Species": -0.13107147543887943,
+                "Forest": -0.13107147543887943,
+                "Common nightingale": -0.13107147543887943,
+                "Bird": -0.13107147543887943,
+                "Himalayas": -0.13107147543887945
+            },
+            "variances": {
+                "Species": 0.4656293297895615,
+                "Forest": 0.4656293297895615,
+                "Common nightingale": 0.4656293297895615,
+                "Bird": 0.4656293297895615,
+                "Himalayas": 0.4656293297895615
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 45559.0,
+            "means": {
+                "Species": 0.16004523159850143,
+                "Forest": 0.10597292554556516,
+                "Common nightingale": 0.0828596334726476,
+                "Bird": 0.17787176392259824,
+                "Himalayas": 0.08285963347264755,
+                "Science fiction": 0.09538270948385764,
+                "Wallcreeper": 0.09538270948385763,
+                "Stomach": 0.09538270948385763,
+                "Copper": 0.09538270948385763,
+                "Little owl": 0.21380711276852027,
+                "Owl": 0.1921356023139975,
+                "Dill": 0.11234325596528028,
+                "Coke (fuel)": 0.11234325596528028,
+                "Don (honorific)": 0.11234325596528028,
+                "Frog": 0.09215229769888202,
+                "Braille": 0.09215229769888202,
+                "Natural selection": 0.08041730085329912,
+                "Beetle": 0.08041730085329912,
+                "Tree line": 0.08041730085329912,
+                "Maize": 0.08041730085329912,
+                "Crow": 0.08041730085329912,
+                "Intensive gathering": 0.028562432325936696,
+                "Beech": 0.02856243232593669,
+                "Mediterranean climate": 0.09245188142388898,
+                "Snow": 0.09245188142388898,
+                "Naval drifter": 0.09245188142388898,
+                "Tunnel": 0.09245188142388898,
+                "Bone": 0.09245188142388898
+            },
+            "variances": {
+                "Species": 0.35952614303848135,
+                "Forest": 0.3560500230026044,
+                "Common nightingale": 0.40461001026038446,
+                "Bird": 0.31984491795278913,
+                "Himalayas": 0.40461001026038446,
+                "Science fiction": 0.43115253970522766,
+                "Wallcreeper": 0.43115253970522766,
+                "Stomach": 0.43115253970522766,
+                "Copper": 0.43115253970522766,
+                "Little owl": 0.33668018130662414,
+                "Owl": 0.37937088493061366,
+                "Dill": 0.4329373674948818,
+                "Coke (fuel)": 0.4329373674948818,
+                "Don (honorific)": 0.4329373674948818,
+                "Frog": 0.42855316514988506,
+                "Braille": 0.42855316514988506,
+                "Natural selection": 0.43296007838693823,
+                "Beetle": 0.43296007838693823,
+                "Tree line": 0.43296007838693823,
+                "Maize": 0.43296007838693823,
+                "Crow": 0.43296007838693823,
+                "Intensive gathering": 0.42584416553732507,
+                "Beech": 0.42584416553732507,
+                "Mediterranean climate": 0.432971086902467,
+                "Snow": 0.432971086902467,
+                "Naval drifter": 0.432971086902467,
+                "Tunnel": 0.432971086902467,
+                "Bone": 0.432971086902467
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 25562,
+            "topic_name": "Species",
+            "topic_url": "https://en.wikipedia.org/wiki/Species",
+            "mean": 0.16004523159850143,
+            "variance": 0.35952614303848135,
+            "interest_mean": 1.9099276573026445,
+            "interest_var": 0.3105556205529199,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 10325,
+            "topic_name": "Forest",
+            "topic_url": "https://en.wikipedia.org/wiki/Forest",
+            "mean": 0.10597292554556516,
+            "variance": 0.3560500230026044,
+            "interest_mean": 1.5333702896447794,
+            "interest_var": 0.3145006378808547,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 5136,
+            "topic_name": "Common nightingale",
+            "topic_url": "https://en.wikipedia.org/wiki/Common_nightingale",
+            "mean": 0.0828596334726476,
+            "variance": 0.40461001026038446,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 2599,
+            "topic_name": "Bird",
+            "topic_url": "https://en.wikipedia.org/wiki/Bird",
+            "mean": 0.17787176392259824,
+            "variance": 0.31984491795278913,
+            "interest_mean": 1.8822095459055854,
+            "interest_var": 0.277693827427896,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 12384,
+            "topic_name": "Himalayas",
+            "topic_url": "https://en.wikipedia.org/wiki/Himalayas",
+            "mean": 0.08285963347264755,
+            "variance": 0.40461001026038446,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 23777,
+            "topic_name": "Science fiction",
+            "topic_url": "https://en.wikipedia.org/wiki/Science_fiction",
+            "mean": 0.09538270948385764,
+            "variance": 0.43115253970522766,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 29545,
+            "topic_name": "Wallcreeper",
+            "topic_url": "https://en.wikipedia.org/wiki/Wallcreeper",
+            "mean": 0.09538270948385763,
+            "variance": 0.43115253970522766,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 26193,
+            "topic_name": "Stomach",
+            "topic_url": "https://en.wikipedia.org/wiki/Stomach",
+            "mean": 0.09538270948385763,
+            "variance": 0.43115253970522766,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 5965,
+            "topic_name": "Copper",
+            "topic_url": "https://en.wikipedia.org/wiki/Copper",
+            "mean": 0.09538270948385763,
+            "variance": 0.43115253970522766,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 15455,
+            "topic_name": "Little owl",
+            "topic_url": "https://en.wikipedia.org/wiki/Little_owl",
+            "mean": 0.21380711276852027,
+            "variance": 0.33668018130662414,
+            "interest_mean": 1.7803951261385549,
+            "interest_var": 0.30291624776919157,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 19288,
+            "topic_name": "Owl",
+            "topic_url": "https://en.wikipedia.org/wiki/Owl",
+            "mean": 0.1921356023139975,
+            "variance": 0.37937088493061366,
+            "interest_mean": 1.5204213368877662,
+            "interest_var": 0.34512269675657203,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 7520,
+            "topic_name": "Dill",
+            "topic_url": "https://en.wikipedia.org/wiki/Dill",
+            "mean": 0.11234325596528028,
+            "variance": 0.4329373674948818,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 4894,
+            "topic_name": "Coke (fuel)",
+            "topic_url": "https://en.wikipedia.org/wiki/Coke_(fuel)",
+            "mean": 0.11234325596528028,
+            "variance": 0.4329373674948818,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 7885,
+            "topic_name": "Don (honorific)",
+            "topic_url": "https://en.wikipedia.org/wiki/Don_(honorific)",
+            "mean": 0.11234325596528028,
+            "variance": 0.4329373674948818,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 10613,
+            "topic_name": "Frog",
+            "topic_url": "https://en.wikipedia.org/wiki/Frog",
+            "mean": 0.09215229769888202,
+            "variance": 0.42855316514988506,
+            "interest_mean": 0.5342161244960363,
+            "interest_var": 0.4070673597117606,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 3007,
+            "topic_name": "Braille",
+            "topic_url": "https://en.wikipedia.org/wiki/Braille",
+            "mean": 0.09215229769888202,
+            "variance": 0.42855316514988506,
+            "interest_mean": 0.5342161244960363,
+            "interest_var": 0.4070673597117606,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 17931,
+            "topic_name": "Natural selection",
+            "topic_url": "https://en.wikipedia.org/wiki/Natural_selection",
+            "mean": 0.08041730085329912,
+            "variance": 0.43296007838693823,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 2252,
+            "topic_name": "Beetle",
+            "topic_url": "https://en.wikipedia.org/wiki/Beetle",
+            "mean": 0.08041730085329912,
+            "variance": 0.43296007838693823,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 28261,
+            "topic_name": "Tree line",
+            "topic_url": "https://en.wikipedia.org/wiki/Tree_line",
+            "mean": 0.08041730085329912,
+            "variance": 0.43296007838693823,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 15937,
+            "topic_name": "Maize",
+            "topic_url": "https://en.wikipedia.org/wiki/Maize",
+            "mean": 0.08041730085329912,
+            "variance": 0.43296007838693823,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 6425,
+            "topic_name": "Crow",
+            "topic_url": "https://en.wikipedia.org/wiki/Crow",
+            "mean": 0.08041730085329912,
+            "variance": 0.43296007838693823,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 13629,
+            "topic_name": "Intensive gathering",
+            "topic_url": "https://en.wikipedia.org/wiki/Intensive_gathering",
+            "mean": 0.028562432325936696,
+            "variance": 0.42584416553732507,
+            "interest_mean": 0.3766396584374131,
+            "interest_var": 0.4114126356695123,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 2242,
+            "topic_name": "Beech",
+            "topic_url": "https://en.wikipedia.org/wiki/Beech",
+            "mean": 0.02856243232593669,
+            "variance": 0.42584416553732507,
+            "interest_mean": 0.37663965843741315,
+            "interest_var": 0.4114126356695123,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 16532,
+            "topic_name": "Mediterranean climate",
+            "topic_url": "https://en.wikipedia.org/wiki/Mediterranean_climate",
+            "mean": 0.09245188142388898,
+            "variance": 0.432971086902467,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 25047,
+            "topic_name": "Snow",
+            "topic_url": "https://en.wikipedia.org/wiki/Snow",
+            "mean": 0.09245188142388898,
+            "variance": 0.432971086902467,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 17957,
+            "topic_name": "Naval drifter",
+            "topic_url": "https://en.wikipedia.org/wiki/Naval_drifter",
+            "mean": 0.09245188142388898,
+            "variance": 0.432971086902467,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 28479,
+            "topic_name": "Tunnel",
+            "topic_url": "https://en.wikipedia.org/wiki/Tunnel",
+            "mean": 0.09245188142388898,
+            "variance": 0.432971086902467,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        },
+        {
+            "topic_id": 2869,
+            "topic_name": "Bone",
+            "topic_url": "https://en.wikipedia.org/wiki/Bone",
+            "mean": 0.09245188142388898,
+            "variance": 0.432971086902467,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 45559.0
+        }
+    ]
+}

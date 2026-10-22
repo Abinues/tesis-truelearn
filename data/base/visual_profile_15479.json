@@ -1,0 +1,224 @@
+{
+    "user_id": 15479,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.23083034628772942,
+            "variance": 0.47867924288880626
+        },
+        "interest": {
+            "mean": -0.04320314904331264,
+            "variance": 0.41258638817761545
+        },
+        "bias": {
+            "mean": -0.7339410257132724,
+            "variance": 0.34183335348690763
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 58974.0,
+            "means": {
+                "Latent and observable variables": -0.4041533030158765,
+                "Causal inference": -0.19008985553969865,
+                "Bayesian network": -0.255184811418216,
+                "Graphical model": -0.10084382295977969,
+                "Ancestral graph": -0.265098129001568,
+                "Bayesian inference": -0.09489620348115464,
+                "Probability": -0.09489620348115464,
+                "Joint probability distribution": -0.07999747560363843,
+                "Selection bias": -0.07999747560363843,
+                "Probability distribution": -0.07999747560363842,
+                "Directed acyclic graph": -0.0843993763287985,
+                "Complete graph": -0.0843993763287985,
+                "Directed graph": -0.0843993763287985,
+                "Decision theory": -0.08850741535159255,
+                "Confounding": -0.08850741535159255,
+                "Causality": -0.08850741535159255
+            },
+            "variances": {
+                "Latent and observable variables": 0.38527087049277414,
+                "Causal inference": 0.4443650932304057,
+                "Bayesian network": 0.4242085038808918,
+                "Graphical model": 0.4702297315700427,
+                "Ancestral graph": 0.42264079252147957,
+                "Bayesian inference": 0.4707567088239722,
+                "Probability": 0.4707567088239722,
+                "Joint probability distribution": 0.4736143000136429,
+                "Selection bias": 0.4736143000136429,
+                "Probability distribution": 0.4736143000136429,
+                "Directed acyclic graph": 0.4724953614229378,
+                "Complete graph": 0.4724953614229378,
+                "Directed graph": 0.47249536142293763,
+                "Decision theory": 0.4716042101914634,
+                "Confounding": 0.4716042101914634,
+                "Causality": 0.4716042101914634
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 14765,
+            "topic_name": "Latent and observable variables",
+            "topic_url": "https://en.wikipedia.org/wiki/Latent_variable",
+            "mean": -0.4041533030158765,
+            "variance": 0.38527087049277414,
+            "interest_mean": 2.554404353526893,
+            "interest_var": 0.24072612778510194,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 3878,
+            "topic_name": "Causal inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Causal_inference",
+            "mean": -0.19008985553969865,
+            "variance": 0.4443650932304057,
+            "interest_mean": 1.539636131693272,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 2202,
+            "topic_name": "Bayesian network",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_network",
+            "mean": -0.255184811418216,
+            "variance": 0.4242085038808918,
+            "interest_mean": 1.9404126825006347,
+            "interest_var": 0.30079754333341907,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": -0.10084382295977969,
+            "variance": 0.4702297315700427,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 953,
+            "topic_name": "Ancestral graph",
+            "topic_url": "https://en.wikipedia.org/wiki/Ancestral_graph",
+            "mean": -0.265098129001568,
+            "variance": 0.42264079252147957,
+            "interest_mean": 1.89855403973585,
+            "interest_var": 0.30099824873685693,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": -0.09489620348115464,
+            "variance": 0.4707567088239722,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": -0.09489620348115464,
+            "variance": 0.4707567088239722,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 14202,
+            "topic_name": "Joint probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Joint_probability_distribution",
+            "mean": -0.07999747560363843,
+            "variance": 0.4736143000136429,
+            "interest_mean": 0.669292707607333,
+            "interest_var": 0.40485603354839517,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 24055,
+            "topic_name": "Selection bias",
+            "topic_url": "https://en.wikipedia.org/wiki/Selection_bias",
+            "mean": -0.07999747560363843,
+            "variance": 0.4736143000136429,
+            "interest_mean": 0.669292707607333,
+            "interest_var": 0.40485603354839517,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": -0.07999747560363842,
+            "variance": 0.4736143000136429,
+            "interest_mean": 0.669292707607333,
+            "interest_var": 0.40485603354839517,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 7580,
+            "topic_name": "Directed acyclic graph",
+            "topic_url": "https://en.wikipedia.org/wiki/Directed_acyclic_graph",
+            "mean": -0.0843993763287985,
+            "variance": 0.4724953614229378,
+            "interest_mean": 0.5193647286238078,
+            "interest_var": 0.40674371472440374,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 5268,
+            "topic_name": "Complete graph",
+            "topic_url": "https://en.wikipedia.org/wiki/Complete_graph",
+            "mean": -0.0843993763287985,
+            "variance": 0.4724953614229378,
+            "interest_mean": 0.5193647286238078,
+            "interest_var": 0.40674371472440374,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 7581,
+            "topic_name": "Directed graph",
+            "topic_url": "https://en.wikipedia.org/wiki/Directed_graph",
+            "mean": -0.0843993763287985,
+            "variance": 0.47249536142293763,
+            "interest_mean": 0.5193647286238078,
+            "interest_var": 0.40674371472440374,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 6975,
+            "topic_name": "Decision theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_theory",
+            "mean": -0.08850741535159255,
+            "variance": 0.4716042101914634,
+            "interest_mean": 0.4512524911045387,
+            "interest_var": 0.4092673669218286,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 5583,
+            "topic_name": "Confounding",
+            "topic_url": "https://en.wikipedia.org/wiki/Confounding",
+            "mean": -0.08850741535159255,
+            "variance": 0.4716042101914634,
+            "interest_mean": 0.4512524911045387,
+            "interest_var": 0.4092673669218286,
+            "timestamp": 58974.0
+        },
+        {
+            "topic_id": 3883,
+            "topic_name": "Causality",
+            "topic_url": "https://en.wikipedia.org/wiki/Causality",
+            "mean": -0.08850741535159255,
+            "variance": 0.4716042101914634,
+            "interest_mean": 0.4512524911045387,
+            "interest_var": 0.4092673669218286,
+            "timestamp": 58974.0
+        }
+    ]
+}

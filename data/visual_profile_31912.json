@@ -1,0 +1,236 @@
+{
+    "user_id": 31912,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 2,
+    "weights": {
+        "novelty": {
+            "mean": 0.6922212238342134,
+            "variance": 0.4447701491603437
+        },
+        "interest": {
+            "mean": 0.6403216788072137,
+            "variance": 0.4070704769369851
+        },
+        "bias": {
+            "mean": 0.10370793268542194,
+            "variance": 0.334684802601698
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 76543.0,
+            "means": {
+                "Machine learning": 0.07317419617212043,
+                "Training, validation, and test data sets": 0.08953281285530607,
+                "Supervised learning": -0.11520052823790357,
+                "Least squares": 0.033037720649698656,
+                "Early stopping": -0.1152005282379036,
+                "Decision boundary": 0.1711281671339909,
+                "Monotonic function": 0.1711281671339909,
+                "Loss function": 0.34804110952527234,
+                "Logistic regression": 0.1711281671339909,
+                "Hinge loss": 0.1711281671339909,
+                "Regularization (mathematics)": -0.13268930654295596,
+                "Lambda": -0.132689306542956,
+                "Euclidean vector": -0.13268930654295602,
+                "Algorithm": 0.21876647373461644,
+                "Perceptron": 0.21876647373461644,
+                "Ultimate tensile strength": 0.15839901214219354,
+                "Outlier": 0.15839901214219357
+            },
+            "variances": {
+                "Machine learning": 0.340343740822746,
+                "Training, validation, and test data sets": 0.40602409341971385,
+                "Supervised learning": 0.4679266836415934,
+                "Least squares": 0.40422669896243557,
+                "Early stopping": 0.4679266836415934,
+                "Decision boundary": 0.43288600553567685,
+                "Monotonic function": 0.43288600553567685,
+                "Loss function": 0.32208499963039156,
+                "Logistic regression": 0.43288600553567685,
+                "Hinge loss": 0.43288600553567685,
+                "Regularization (mathematics)": 0.46471177634320326,
+                "Lambda": 0.46471177634320326,
+                "Euclidean vector": 0.46471177634320326,
+                "Algorithm": 0.42932054254093327,
+                "Perceptron": 0.42932054254093327,
+                "Ultimate tensile strength": 0.4272683042642309,
+                "Outlier": 0.4272683042642309
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.07317419617212043,
+            "variance": 0.340343740822746,
+            "interest_mean": 2.11138114899948,
+            "interest_var": 0.2743517947460646,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 28085,
+            "topic_name": "Training, validation, and test data sets",
+            "topic_url": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets",
+            "mean": 0.08953281285530607,
+            "variance": 0.40602409341971385,
+            "interest_mean": 1.3808161853834506,
+            "interest_var": 0.35053474606402346,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": -0.11520052823790357,
+            "variance": 0.4679266836415934,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 14907,
+            "topic_name": "Least squares",
+            "topic_url": "https://en.wikipedia.org/wiki/Least_squares",
+            "mean": 0.033037720649698656,
+            "variance": 0.40422669896243557,
+            "interest_mean": 1.3198525071643261,
+            "interest_var": 0.3538149794232598,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 8229,
+            "topic_name": "Early stopping",
+            "topic_url": "https://en.wikipedia.org/wiki/Early_stopping",
+            "mean": -0.1152005282379036,
+            "variance": 0.4679266836415934,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 6966,
+            "topic_name": "Decision boundary",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_boundary",
+            "mean": 0.1711281671339909,
+            "variance": 0.43288600553567685,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 17336,
+            "topic_name": "Monotonic function",
+            "topic_url": "https://en.wikipedia.org/wiki/Monotonic_function",
+            "mean": 0.1711281671339909,
+            "variance": 0.43288600553567685,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.34804110952527234,
+            "variance": 0.32208499963039156,
+            "interest_mean": 2.11138114899948,
+            "interest_var": 0.2743517947460646,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 15593,
+            "topic_name": "Logistic regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_regression",
+            "mean": 0.1711281671339909,
+            "variance": 0.43288600553567685,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 12390,
+            "topic_name": "Hinge loss",
+            "topic_url": "https://en.wikipedia.org/wiki/Hinge_loss",
+            "mean": 0.1711281671339909,
+            "variance": 0.43288600553567685,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 22716,
+            "topic_name": "Regularization (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)",
+            "mean": -0.13268930654295596,
+            "variance": 0.46471177634320326,
+            "interest_mean": 0.7394553365406401,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 14622,
+            "topic_name": "Lambda",
+            "topic_url": "https://en.wikipedia.org/wiki/Lambda",
+            "mean": -0.132689306542956,
+            "variance": 0.46471177634320326,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 9123,
+            "topic_name": "Euclidean vector",
+            "topic_url": "https://en.wikipedia.org/wiki/Euclidean_vector",
+            "mean": -0.13268930654295602,
+            "variance": 0.46471177634320326,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.21876647373461644,
+            "variance": 0.42932054254093327,
+            "interest_mean": 0.3625293016628652,
+            "interest_var": 0.41525262545401864,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 19892,
+            "topic_name": "Perceptron",
+            "topic_url": "https://en.wikipedia.org/wiki/Perceptron",
+            "mean": 0.21876647373461644,
+            "variance": 0.42932054254093327,
+            "interest_mean": 0.36252930166286507,
+            "interest_var": 0.41525262545401864,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 28623,
+            "topic_name": "Ultimate tensile strength",
+            "topic_url": "https://en.wikipedia.org/wiki/Ultimate_tensile_strength",
+            "mean": 0.15839901214219354,
+            "variance": 0.4272683042642309,
+            "interest_mean": 0.28755599223350803,
+            "interest_var": 0.4202137003106356,
+            "timestamp": 76543.0
+        },
+        {
+            "topic_id": 19235,
+            "topic_name": "Outlier",
+            "topic_url": "https://en.wikipedia.org/wiki/Outlier",
+            "mean": 0.15839901214219357,
+            "variance": 0.4272683042642309,
+            "interest_mean": 0.2875559922335081,
+            "interest_var": 0.4202137003106356,
+            "timestamp": 76543.0
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "user_id": 14801,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 3,
+    "weights": {
+        "novelty": {
+            "mean": 0.6897070564901897,
+            "variance": 0.4383013326117589
+        },
+        "interest": {
+            "mean": 0.5607252066048505,
+            "variance": 0.3950306521616242
+        },
+        "bias": {
+            "mean": 0.009129207566806614,
+            "variance": 0.31235076605485107
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 59916.0,
+            "means": {
+                "Joule": -0.11232275073388749,
+                "Watt": -0.11232275073388749,
+                "Copper": -0.14240657362522463,
+                "Solar energy": -0.14240657362522463,
+                "Zinc": -0.2423929492711855,
+                "Sulfuric acid": -0.10771446028480114,
+                "Mechanical energy": -0.10771446028480114,
+                "Calorie": 0.14679563736376391,
+                "Work (physics)": -0.10176623934001526,
+                "Chemical reaction": -0.10176623934001529,
+                "Square root of 2": 0.19104112863843353,
+                "Orbital period": 0.19104112863843353,
+                "Kinetic energy": 0.3434284691584628,
+                "Orbital speed": 0.19104112863843353,
+                "Potential energy": 0.34342846915846276,
+                "Escape velocity": 0.17601327786029491,
+                "Gravity": 0.17601327786029491,
+                "Centripetal force": 0.17601327786029486,
+                "Dot product": 0.2648054967664549,
+                "Drag (physics)": 0.2648054967664549
+            },
+            "variances": {
+                "Joule": 0.36496718315424775,
+                "Watt": 0.36496718315424775,
+                "Copper": 0.4641269862077621,
+                "Solar energy": 0.4641269862077621,
+                "Zinc": 0.43693315537397925,
+                "Sulfuric acid": 0.4684400171386018,
+                "Mechanical energy": 0.4684400171386018,
+                "Calorie": 0.4067947589558726,
+                "Work (physics)": 0.4693291486373453,
+                "Chemical reaction": 0.4693291486373453,
+                "Square root of 2": 0.43288592307502494,
+                "Orbital period": 0.43288592307502494,
+                "Kinetic energy": 0.3807051373589043,
+                "Orbital speed": 0.43288592307502494,
+                "Potential energy": 0.3807051373589043,
+                "Escape velocity": 0.43038486073501414,
+                "Gravity": 0.43038486073501414,
+                "Centripetal force": 0.43038486073501414,
+                "Dot product": 0.4290252504491394,
+                "Drag (physics)": 0.4290252504491394
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 14210,
+            "topic_name": "Joule",
+            "topic_url": "https://en.wikipedia.org/wiki/Joule",
+            "mean": -0.11232275073388749,
+            "variance": 0.36496718315424775,
+            "interest_mean": 2.171673064587795,
+            "interest_var": 0.2684443009444488,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 29655,
+            "topic_name": "Watt",
+            "topic_url": "https://en.wikipedia.org/wiki/Watt",
+            "mean": -0.11232275073388749,
+            "variance": 0.36496718315424775,
+            "interest_mean": 2.171673064587795,
+            "interest_var": 0.2684443009444488,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 5965,
+            "topic_name": "Copper",
+            "topic_url": "https://en.wikipedia.org/wiki/Copper",
+            "mean": -0.14240657362522463,
+            "variance": 0.4641269862077621,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 25283,
+            "topic_name": "Solar energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Solar_energy",
+            "mean": -0.14240657362522463,
+            "variance": 0.4641269862077621,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 30332,
+            "topic_name": "Zinc",
+            "topic_url": "https://en.wikipedia.org/wiki/Zinc",
+            "mean": -0.2423929492711855,
+            "variance": 0.43693315537397925,
+            "interest_mean": 1.5396361316932716,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 26561,
+            "topic_name": "Sulfuric acid",
+            "topic_url": "https://en.wikipedia.org/wiki/Sulfuric_acid",
+            "mean": -0.10771446028480114,
+            "variance": 0.4684400171386018,
+            "interest_mean": 0.5578465352366205,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 16459,
+            "topic_name": "Mechanical energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Mechanical_energy",
+            "mean": -0.10771446028480114,
+            "variance": 0.4684400171386018,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 3479,
+            "topic_name": "Calorie",
+            "topic_url": "https://en.wikipedia.org/wiki/Calorie",
+            "mean": 0.14679563736376391,
+            "variance": 0.4067947589558726,
+            "interest_mean": 0.8931450814105556,
+            "interest_var": 0.34725253911517207,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 30095,
+            "topic_name": "Work (physics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Work_(physics)",
+            "mean": -0.10176623934001526,
+            "variance": 0.4693291486373453,
+            "interest_mean": 0.5973144903720384,
+            "interest_var": 0.40502309564672845,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 4177,
+            "topic_name": "Chemical reaction",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemical_reaction",
+            "mean": -0.10176623934001529,
+            "variance": 0.4693291486373453,
+            "interest_mean": 0.5973144903720384,
+            "interest_var": 0.40502309564672845,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 25832,
+            "topic_name": "Square root of 2",
+            "topic_url": "https://en.wikipedia.org/wiki/Square_root_of_2",
+            "mean": 0.19104112863843353,
+            "variance": 0.43288592307502494,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 19059,
+            "topic_name": "Orbital period",
+            "topic_url": "https://en.wikipedia.org/wiki/Orbital_period",
+            "mean": 0.19104112863843353,
+            "variance": 0.43288592307502494,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 14425,
+            "topic_name": "Kinetic energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Kinetic_energy",
+            "mean": 0.3434284691584628,
+            "variance": 0.3807051373589043,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 19060,
+            "topic_name": "Orbital speed",
+            "topic_url": "https://en.wikipedia.org/wiki/Orbital_speed",
+            "mean": 0.19104112863843353,
+            "variance": 0.43288592307502494,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 20968,
+            "topic_name": "Potential energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Potential_energy",
+            "mean": 0.34342846915846276,
+            "variance": 0.3807051373589043,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 9040,
+            "topic_name": "Escape velocity",
+            "topic_url": "https://en.wikipedia.org/wiki/Escape_velocity",
+            "mean": 0.17601327786029491,
+            "variance": 0.43038486073501414,
+            "interest_mean": 0.7394553365406401,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 11647,
+            "topic_name": "Gravity",
+            "topic_url": "https://en.wikipedia.org/wiki/Gravity",
+            "mean": 0.17601327786029491,
+            "variance": 0.43038486073501414,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 3995,
+            "topic_name": "Centripetal force",
+            "topic_url": "https://en.wikipedia.org/wiki/Centripetal_force",
+            "mean": 0.17601327786029486,
+            "variance": 0.43038486073501414,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 7925,
+            "topic_name": "Dot product",
+            "topic_url": "https://en.wikipedia.org/wiki/Dot_product",
+            "mean": 0.2648054967664549,
+            "variance": 0.4290252504491394,
+            "interest_mean": 0.36520212577772154,
+            "interest_var": 0.4119585913514586,
+            "timestamp": 59916.0
+        },
+        {
+            "topic_id": 7990,
+            "topic_name": "Drag (physics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Drag_(physics)",
+            "mean": 0.2648054967664549,
+            "variance": 0.4290252504491394,
+            "interest_mean": 0.36520212577772154,
+            "interest_var": 0.4119585913514586,
+            "timestamp": 59916.0
+        }
+    ]
+}

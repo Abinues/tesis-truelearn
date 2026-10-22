@@ -1,0 +1,308 @@
+{
+    "user_id": 18898,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.17949843600208387,
+            "variance": 0.46914571420344875
+        },
+        "interest": {
+            "mean": -0.013027239762935612,
+            "variance": 0.42288908471218273
+        },
+        "bias": {
+            "mean": -0.7390680049230732,
+            "variance": 0.34050506135557057
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 72947.0,
+            "means": {
+                "Stopping time": -0.11245285258983102,
+                "Confidence interval": -0.20133826021483023,
+                "Sample mean and covariance": -0.11245285258983104,
+                "Random variable": -0.20133826021483023,
+                "Approximation error": -0.11245285258983104,
+                "Variance": -0.09489211426007392,
+                "Algorithm": -0.0948921142600739,
+                "Bernoulli distribution": -0.09489211426007389
+            },
+            "variances": {
+                "Stopping time": 0.4683498113520164,
+                "Confidence interval": 0.4428214241425437,
+                "Sample mean and covariance": 0.4683498113520164,
+                "Random variable": 0.4428214241425437,
+                "Approximation error": 0.4683498113520164,
+                "Variance": 0.4709047101570133,
+                "Algorithm": 0.4709047101570133,
+                "Bernoulli distribution": 0.4709047101570133
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 73043.0,
+            "means": {
+                "Stopping time": -0.11245285258983102,
+                "Confidence interval": -0.20133826021483023,
+                "Sample mean and covariance": -0.11245285258983104,
+                "Random variable": -0.20133826021483023,
+                "Approximation error": -0.11245285258983104,
+                "Variance": -0.09489211426007392,
+                "Algorithm": -0.0948921142600739,
+                "Bernoulli distribution": -0.09489211426007389,
+                "Feature (machine learning)": -0.2416308978371768,
+                "Conjugate prior": -0.11830637991529849,
+                "Markov chain": -0.11830637991529855,
+                "Posterior probability": -0.24163089783717684,
+                "Hyperparameter": -0.11830637991529855,
+                "Bayesian inference": -0.131909779505561,
+                "Mean squared error": -0.131909779505561,
+                "Root-mean-square deviation": -0.13190977950556101,
+                "Hamiltonian Monte Carlo": -0.16097712713397547,
+                "Stochastic gradient descent": -0.16097712713397547,
+                "Gradient descent": -0.1609771271339755,
+                "Calculus of variations": -0.1609771271339755,
+                "Local optimum": -0.1609771271339755
+            },
+            "variances": {
+                "Stopping time": 0.4683498113520164,
+                "Confidence interval": 0.4428214241425437,
+                "Sample mean and covariance": 0.4683498113520164,
+                "Random variable": 0.4428214241425437,
+                "Approximation error": 0.4683498113520164,
+                "Variance": 0.4709047101570133,
+                "Algorithm": 0.4709047101570133,
+                "Bernoulli distribution": 0.4709047101570133,
+                "Feature (machine learning)": 0.4369203477638232,
+                "Conjugate prior": 0.46745782755508014,
+                "Markov chain": 0.46745782755508014,
+                "Posterior probability": 0.4369203477638232,
+                "Hyperparameter": 0.46745782755508014,
+                "Bayesian inference": 0.46506278130507184,
+                "Mean squared error": 0.46506278130507184,
+                "Root-mean-square deviation": 0.46506278130507184,
+                "Hamiltonian Monte Carlo": 0.4618812430619537,
+                "Stochastic gradient descent": 0.4618812430619537,
+                "Gradient descent": 0.4618812430619537,
+                "Calculus of variations": 0.4618812430619537,
+                "Local optimum": 0.4618812430619537
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 26215,
+            "topic_name": "Stopping time",
+            "topic_url": "https://en.wikipedia.org/wiki/Stopping_time",
+            "mean": -0.11245285258983102,
+            "variance": 0.4683498113520164,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 72947.0
+        },
+        {
+            "topic_id": 5554,
+            "topic_name": "Confidence interval",
+            "topic_url": "https://en.wikipedia.org/wiki/Confidence_interval",
+            "mean": -0.20133826021483023,
+            "variance": 0.4428214241425437,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 72947.0
+        },
+        {
+            "topic_id": 23569,
+            "topic_name": "Sample mean and covariance",
+            "topic_url": "https://en.wikipedia.org/wiki/Sample_mean_and_covariance",
+            "mean": -0.11245285258983104,
+            "variance": 0.4683498113520164,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 72947.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": -0.20133826021483023,
+            "variance": 0.4428214241425437,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 72947.0
+        },
+        {
+            "topic_id": 1277,
+            "topic_name": "Approximation error",
+            "topic_url": "https://en.wikipedia.org/wiki/Approximation_error",
+            "mean": -0.11245285258983104,
+            "variance": 0.4683498113520164,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 72947.0
+        },
+        {
+            "topic_id": 29054,
+            "topic_name": "Variance",
+            "topic_url": "https://en.wikipedia.org/wiki/Variance",
+            "mean": -0.09489211426007392,
+            "variance": 0.4709047101570133,
+            "interest_mean": 0.7394553365406401,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 72947.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.0948921142600739,
+            "variance": 0.4709047101570133,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 72947.0
+        },
+        {
+            "topic_id": 2317,
+            "topic_name": "Bernoulli distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Bernoulli_distribution",
+            "mean": -0.09489211426007389,
+            "variance": 0.4709047101570133,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 72947.0
+        },
+        {
+            "topic_id": 9689,
+            "topic_name": "Feature (machine learning)",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_(machine_learning)",
+            "mean": -0.2416308978371768,
+            "variance": 0.4369203477638232,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 5609,
+            "topic_name": "Conjugate prior",
+            "topic_url": "https://en.wikipedia.org/wiki/Conjugate_prior",
+            "mean": -0.11830637991529849,
+            "variance": 0.46745782755508014,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 16167,
+            "topic_name": "Markov chain",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "mean": -0.11830637991529855,
+            "variance": 0.46745782755508014,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": -0.24163089783717684,
+            "variance": 0.4369203477638232,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 12891,
+            "topic_name": "Hyperparameter",
+            "topic_url": "https://en.wikipedia.org/wiki/Hyperparameter",
+            "mean": -0.11830637991529855,
+            "variance": 0.46745782755508014,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": -0.131909779505561,
+            "variance": 0.46506278130507184,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 16429,
+            "topic_name": "Mean squared error",
+            "topic_url": "https://en.wikipedia.org/wiki/Mean_squared_error",
+            "mean": -0.131909779505561,
+            "variance": 0.46506278130507184,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 23298,
+            "topic_name": "Root-mean-square deviation",
+            "topic_url": "https://en.wikipedia.org/wiki/Root-mean-square_deviation",
+            "mean": -0.13190977950556101,
+            "variance": 0.46506278130507184,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 11932,
+            "topic_name": "Hamiltonian Monte Carlo",
+            "topic_url": "https://en.wikipedia.org/wiki/Hamiltonian_Monte_Carlo",
+            "mean": -0.16097712713397547,
+            "variance": 0.4618812430619537,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 26161,
+            "topic_name": "Stochastic gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_gradient_descent",
+            "mean": -0.16097712713397547,
+            "variance": 0.4618812430619537,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 11511,
+            "topic_name": "Gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+            "mean": -0.1609771271339755,
+            "variance": 0.4618812430619537,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 3441,
+            "topic_name": "Calculus of variations",
+            "topic_url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+            "mean": -0.1609771271339755,
+            "variance": 0.4618812430619537,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 73043.0
+        },
+        {
+            "topic_id": 15507,
+            "topic_name": "Local optimum",
+            "topic_url": "https://en.wikipedia.org/wiki/Local_optimum",
+            "mean": -0.1609771271339755,
+            "variance": 0.4618812430619537,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 73043.0
+        }
+    ]
+}

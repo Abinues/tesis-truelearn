@@ -1,0 +1,302 @@
+{
+    "user_id": 1399,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.4157611852955891,
+            "variance": 0.461820000146465
+        },
+        "interest": {
+            "mean": 0.09343909801405145,
+            "variance": 0.38620528850693114
+        },
+        "bias": {
+            "mean": -0.4993166259897406,
+            "variance": 0.3198469837283594
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 2930.0,
+            "means": {
+                "Fuzzy logic": -0.10272715821933079,
+                "Fuzzy set": -0.10272715821933079,
+                "Characteristic function (probability theory)": -0.10272715821933082,
+                "Fuzzy number": -0.10272715821933082,
+                "Body mass index": -0.10272715821933082
+            },
+            "variances": {
+                "Fuzzy logic": 0.46991413666579646,
+                "Fuzzy set": 0.46991413666579646,
+                "Characteristic function (probability theory)": 0.46991413666579646,
+                "Fuzzy number": 0.46991413666579646,
+                "Body mass index": 0.46991413666579646
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 3007.0,
+            "means": {
+                "Fuzzy logic": -0.10272715821933079,
+                "Fuzzy set": -0.10272715821933079,
+                "Characteristic function (probability theory)": -0.10272715821933082,
+                "Fuzzy number": -0.10272715821933082,
+                "Body mass index": -0.10272715821933082,
+                "Machine learning": -0.12364384336237427,
+                "Churn rate": -0.12364384336237427,
+                "Time series": -0.1236438433623743,
+                "DNA profiling": -0.1236438433623743,
+                "Document classification": -0.1236438433623743
+            },
+            "variances": {
+                "Fuzzy logic": 0.46991413666579646,
+                "Fuzzy set": 0.46991413666579646,
+                "Characteristic function (probability theory)": 0.46991413666579646,
+                "Fuzzy number": 0.46991413666579646,
+                "Body mass index": 0.46991413666579646,
+                "Machine learning": 0.46667455864250107,
+                "Churn rate": 0.46667455864250107,
+                "Time series": 0.46667455864250107,
+                "DNA profiling": 0.46667455864250107,
+                "Document classification": 0.46667455864250107
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 3073.0,
+            "means": {
+                "Fuzzy logic": -0.17229928377851356,
+                "Fuzzy set": -0.17229928377851356,
+                "Characteristic function (probability theory)": -0.17229928377851358,
+                "Fuzzy number": -0.17229928377851358,
+                "Body mass index": -0.1722992837785136,
+                "Machine learning": -0.12364384336237427,
+                "Churn rate": -0.12364384336237427,
+                "Time series": -0.1236438433623743,
+                "DNA profiling": -0.1236438433623743,
+                "Document classification": -0.1236438433623743
+            },
+            "variances": {
+                "Fuzzy logic": 0.4474201937007532,
+                "Fuzzy set": 0.4474201937007532,
+                "Characteristic function (probability theory)": 0.4474201937007532,
+                "Fuzzy number": 0.4474201937007532,
+                "Body mass index": 0.4474201937007532,
+                "Machine learning": 0.46667455864250107,
+                "Churn rate": 0.46667455864250107,
+                "Time series": 0.46667455864250107,
+                "DNA profiling": 0.46667455864250107,
+                "Document classification": 0.46667455864250107
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 3204.0,
+            "means": {
+                "Fuzzy logic": -0.17229928377851356,
+                "Fuzzy set": -0.17229928377851356,
+                "Characteristic function (probability theory)": -0.17229928377851358,
+                "Fuzzy number": -0.17229928377851358,
+                "Body mass index": -0.1722992837785136,
+                "Machine learning": -0.20393749264550853,
+                "Churn rate": -0.20393749264550853,
+                "Time series": -0.20393749264550856,
+                "DNA profiling": -0.20393749264550856,
+                "Document classification": -0.20393749264550856
+            },
+            "variances": {
+                "Fuzzy logic": 0.4474201937007532,
+                "Fuzzy set": 0.4474201937007532,
+                "Characteristic function (probability theory)": 0.4474201937007532,
+                "Fuzzy number": 0.4474201937007532,
+                "Body mass index": 0.4474201937007532,
+                "Machine learning": 0.44227262900967323,
+                "Churn rate": 0.44227262900967323,
+                "Time series": 0.44227262900967323,
+                "DNA profiling": 0.44227262900967323,
+                "Document classification": 0.44227262900967323
+            }
+        },
+        {
+            "session_id": 5,
+            "timestamp": 3773.0,
+            "means": {
+                "Fuzzy logic": -0.17229928377851356,
+                "Fuzzy set": -0.17229928377851356,
+                "Characteristic function (probability theory)": -0.17229928377851358,
+                "Fuzzy number": -0.17229928377851358,
+                "Body mass index": -0.1722992837785136,
+                "Machine learning": -0.07581105799104554,
+                "Churn rate": -0.26116167518342,
+                "Time series": -0.26116167518342004,
+                "DNA profiling": -0.26116167518342004,
+                "Document classification": -0.26116167518342004,
+                "Unsupervised learning": 0.21884039158064528,
+                "Kernel method": 0.21884039158064528,
+                "Decision tree": 0.21884039158064528,
+                "Supervised learning": 0.21884039158064528
+            },
+            "variances": {
+                "Fuzzy logic": 0.4474201937007532,
+                "Fuzzy set": 0.4474201937007532,
+                "Characteristic function (probability theory)": 0.4474201937007532,
+                "Fuzzy number": 0.4474201937007532,
+                "Body mass index": 0.4474201937007532,
+                "Machine learning": 0.3743292948782267,
+                "Churn rate": 0.42348356227481576,
+                "Time series": 0.42348356227481576,
+                "DNA profiling": 0.42348356227481576,
+                "Document classification": 0.42348356227481576,
+                "Unsupervised learning": 0.4314783012683967,
+                "Kernel method": 0.4314783012683967,
+                "Decision tree": 0.4314783012683967,
+                "Supervised learning": 0.4314783012683967
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 10771,
+            "topic_name": "Fuzzy logic",
+            "topic_url": "https://en.wikipedia.org/wiki/Fuzzy_logic",
+            "mean": -0.17229928377851356,
+            "variance": 0.4474201937007532,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 3073.0
+        },
+        {
+            "topic_id": 10776,
+            "topic_name": "Fuzzy set",
+            "topic_url": "https://en.wikipedia.org/wiki/Fuzzy_set",
+            "mean": -0.17229928377851356,
+            "variance": 0.4474201937007532,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 3073.0
+        },
+        {
+            "topic_id": 4104,
+            "topic_name": "Characteristic function (probability theory)",
+            "topic_url": "https://en.wikipedia.org/wiki/Characteristic_function_(probability_theory)",
+            "mean": -0.17229928377851358,
+            "variance": 0.4474201937007532,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 3073.0
+        },
+        {
+            "topic_id": 10774,
+            "topic_name": "Fuzzy number",
+            "topic_url": "https://en.wikipedia.org/wiki/Fuzzy_number",
+            "mean": -0.17229928377851358,
+            "variance": 0.4474201937007532,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 3073.0
+        },
+        {
+            "topic_id": 2823,
+            "topic_name": "Body mass index",
+            "topic_url": "https://en.wikipedia.org/wiki/Body_mass_index",
+            "mean": -0.1722992837785136,
+            "variance": 0.4474201937007532,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 3073.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.07581105799104554,
+            "variance": 0.3743292948782267,
+            "interest_mean": 1.9366765642238504,
+            "interest_var": 0.29016773492383213,
+            "timestamp": 3773.0
+        },
+        {
+            "topic_id": 4430,
+            "topic_name": "Churn rate",
+            "topic_url": "https://en.wikipedia.org/wiki/Churn_rate",
+            "mean": -0.26116167518342,
+            "variance": 0.42348356227481576,
+            "interest_mean": 1.3415287318242244,
+            "interest_var": 0.3333266793637935,
+            "timestamp": 3773.0
+        },
+        {
+            "topic_id": 27756,
+            "topic_name": "Time series",
+            "topic_url": "https://en.wikipedia.org/wiki/Time_series",
+            "mean": -0.26116167518342004,
+            "variance": 0.42348356227481576,
+            "interest_mean": 1.3415287318242244,
+            "interest_var": 0.3333266793637935,
+            "timestamp": 3773.0
+        },
+        {
+            "topic_id": 6709,
+            "topic_name": "DNA profiling",
+            "topic_url": "https://en.wikipedia.org/wiki/DNA_profiling",
+            "mean": -0.26116167518342004,
+            "variance": 0.42348356227481576,
+            "interest_mean": 1.3415287318242244,
+            "interest_var": 0.3333266793637935,
+            "timestamp": 3773.0
+        },
+        {
+            "topic_id": 7811,
+            "topic_name": "Document classification",
+            "topic_url": "https://en.wikipedia.org/wiki/Document_classification",
+            "mean": -0.26116167518342004,
+            "variance": 0.42348356227481576,
+            "interest_mean": 1.3415287318242244,
+            "interest_var": 0.3333266793637935,
+            "timestamp": 3773.0
+        },
+        {
+            "topic_id": 28855,
+            "topic_name": "Unsupervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+            "mean": 0.21884039158064528,
+            "variance": 0.4314783012683967,
+            "interest_mean": 0.892739569385144,
+            "interest_var": 0.4028884979869256,
+            "timestamp": 3773.0
+        },
+        {
+            "topic_id": 14346,
+            "topic_name": "Kernel method",
+            "topic_url": "https://en.wikipedia.org/wiki/Kernel_method",
+            "mean": 0.21884039158064528,
+            "variance": 0.4314783012683967,
+            "interest_mean": 0.8927395693851443,
+            "interest_var": 0.4028884979869256,
+            "timestamp": 3773.0
+        },
+        {
+            "topic_id": 6976,
+            "topic_name": "Decision tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_tree",
+            "mean": 0.21884039158064528,
+            "variance": 0.4314783012683967,
+            "interest_mean": 0.892739569385144,
+            "interest_var": 0.4028884979869256,
+            "timestamp": 3773.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.21884039158064528,
+            "variance": 0.4314783012683967,
+            "interest_mean": 0.892739569385144,
+            "interest_var": 0.4028884979869256,
+            "timestamp": 3773.0
+        }
+    ]
+}

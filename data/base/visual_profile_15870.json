@@ -1,0 +1,476 @@
+{
+    "user_id": 15870,
+    "number_of_engagements": 8,
+    "number_of_non_engagements": 2,
+    "weights": {
+        "novelty": {
+            "mean": 0.9617691696290671,
+            "variance": 0.39683999337546993
+        },
+        "interest": {
+            "mean": 0.8668342615233352,
+            "variance": 0.3627401678676132
+        },
+        "bias": {
+            "mean": 0.48961083946044415,
+            "variance": 0.26240634865696316
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 8922.0,
+            "means": {
+                "Machine learning": 0.2754601688201421,
+                "Bayesian inference": 0.32098081148261803,
+                "Scientific method": 0.19909791457762846,
+                "Pattern recognition": 0.06526676828643294,
+                "Hypothesis": 0.19909791457762846,
+                "Statistical mechanics": -0.11283119128325722,
+                "Neural network": 0.1555152204804333,
+                "Backpropagation": 0.05294756529751222,
+                "Kinetic energy": -0.11283119128325725,
+                "Conservative vector field": -0.11283119128325725,
+                "Spectrogram": 0.08820135437239217,
+                "Wicket-keeper": 0.08820135437239217,
+                "Feature selection": 0.08820135437239217,
+                "Kamizumo": 0.08820135437239217,
+                "Fourier series": 0.10517241948285048,
+                "Support vector machine": 0.22959108321616478,
+                "Probability density function": 0.3870344351740361,
+                "Mean squared error": 0.10517241948285048,
+                "Linear regression": 0.2185722817401303,
+                "Multivariate normal distribution": 0.2185722817401303,
+                "Posterior probability": 0.37184038923587515,
+                "Random variable": 0.2185722817401303,
+                "Regression analysis": 0.2185722817401303,
+                "Log probability": 0.1770039676278004,
+                "Speech recognition": 0.2854073776207402,
+                "Place of articulation": 0.14410052448426605,
+                "Minimum description length": 0.14410052448426605,
+                "Dot product": 0.14410052448426605,
+                "Pitch-accent language": 0.1258954281941937,
+                "Taxicab geometry": 0.1258954281941937,
+                "Recursive neural network": 0.1258954281941937,
+                "Empirical risk minimization": -0.154580145350416,
+                "Algorithm": -0.15458014535041603,
+                "Statistical classification": -0.15458014535041603,
+                "Entropy": 0.20725202530685963,
+                "Probability": 0.20725202530685963,
+                "Vocal cords": 0.20725202530685963
+            },
+            "variances": {
+                "Machine learning": 0.38167932167188345,
+                "Bayesian inference": 0.32188482713777566,
+                "Scientific method": 0.4328859504815937,
+                "Pattern recognition": 0.4037742442274015,
+                "Hypothesis": 0.4328859504815937,
+                "Statistical mechanics": 0.468291075060433,
+                "Neural network": 0.3608408094448727,
+                "Backpropagation": 0.4073525808447566,
+                "Kinetic energy": 0.468291075060433,
+                "Conservative vector field": 0.468291075060433,
+                "Spectrogram": 0.43168450617257675,
+                "Wicket-keeper": 0.43168450617257675,
+                "Feature selection": 0.43168450617257675,
+                "Kamizumo": 0.43168450617257675,
+                "Fourier series": 0.4317078795466119,
+                "Support vector machine": 0.3798354967213444,
+                "Probability density function": 0.338231212947737,
+                "Mean squared error": 0.4317078795466119,
+                "Linear regression": 0.43295105061721906,
+                "Multivariate normal distribution": 0.43295105061721906,
+                "Posterior probability": 0.38086306616963994,
+                "Random variable": 0.43295105061721906,
+                "Regression analysis": 0.43295105061721906,
+                "Log probability": 0.4305295734239353,
+                "Speech recognition": 0.37857450594239306,
+                "Place of articulation": 0.43041810438432604,
+                "Minimum description length": 0.43041810438432604,
+                "Dot product": 0.43041810438432604,
+                "Pitch-accent language": 0.4299251875292373,
+                "Taxicab geometry": 0.4299251875292373,
+                "Recursive neural network": 0.4299251875292373,
+                "Empirical risk minimization": 0.4611616574817968,
+                "Algorithm": 0.4611616574817968,
+                "Statistical classification": 0.4611616574817968,
+                "Entropy": 0.4279080186174049,
+                "Probability": 0.4279080186174049,
+                "Vocal cords": 0.4279080186174049
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.2754601688201421,
+            "variance": 0.38167932167188345,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": 0.32098081148261803,
+            "variance": 0.32188482713777566,
+            "interest_mean": 2.53483730741321,
+            "interest_var": 0.26716472300165683,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 23797,
+            "topic_name": "Scientific method",
+            "topic_url": "https://en.wikipedia.org/wiki/Scientific_method",
+            "mean": 0.19909791457762846,
+            "variance": 0.4328859504815937,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 19738,
+            "topic_name": "Pattern recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Pattern_recognition",
+            "mean": 0.06526676828643294,
+            "variance": 0.4037742442274015,
+            "interest_mean": 1.585838197213189,
+            "interest_var": 0.3448125354211596,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 12930,
+            "topic_name": "Hypothesis",
+            "topic_url": "https://en.wikipedia.org/wiki/Hypothesis",
+            "mean": 0.19909791457762846,
+            "variance": 0.4328859504815937,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 26034,
+            "topic_name": "Statistical mechanics",
+            "topic_url": "https://en.wikipedia.org/wiki/Statistical_mechanics",
+            "mean": -0.11283119128325722,
+            "variance": 0.468291075060433,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 18126,
+            "topic_name": "Neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Neural_network",
+            "mean": 0.1555152204804333,
+            "variance": 0.3608408094448727,
+            "interest_mean": 2.07242900261969,
+            "interest_var": 0.29881605594747623,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 1910,
+            "topic_name": "Backpropagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "mean": 0.05294756529751222,
+            "variance": 0.4073525808447566,
+            "interest_mean": 1.5396361316932716,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 14425,
+            "topic_name": "Kinetic energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Kinetic_energy",
+            "mean": -0.11283119128325725,
+            "variance": 0.468291075060433,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 5667,
+            "topic_name": "Conservative vector field",
+            "topic_url": "https://en.wikipedia.org/wiki/Conservative_vector_field",
+            "mean": -0.11283119128325725,
+            "variance": 0.468291075060433,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 25608,
+            "topic_name": "Spectrogram",
+            "topic_url": "https://en.wikipedia.org/wiki/Spectrogram",
+            "mean": 0.08820135437239217,
+            "variance": 0.43168450617257675,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 29928,
+            "topic_name": "Wicket-keeper",
+            "topic_url": "https://en.wikipedia.org/wiki/Wicket-keeper",
+            "mean": 0.08820135437239217,
+            "variance": 0.43168450617257675,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 9699,
+            "topic_name": "Feature selection",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_selection",
+            "mean": 0.08820135437239217,
+            "variance": 0.43168450617257675,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 14296,
+            "topic_name": "Kamizumo",
+            "topic_url": "https://en.wikipedia.org/wiki/Kamizumo",
+            "mean": 0.08820135437239217,
+            "variance": 0.43168450617257675,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 10411,
+            "topic_name": "Fourier series",
+            "topic_url": "https://en.wikipedia.org/wiki/Fourier_series",
+            "mean": 0.10517241948285048,
+            "variance": 0.4317078795466119,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 26678,
+            "topic_name": "Support vector machine",
+            "topic_url": "https://en.wikipedia.org/wiki/Support-vector_machine",
+            "mean": 0.22959108321616478,
+            "variance": 0.3798354967213444,
+            "interest_mean": 1.5690324941400828,
+            "interest_var": 0.34195808041614195,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 21372,
+            "topic_name": "Probability density function",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_density_function",
+            "mean": 0.3870344351740361,
+            "variance": 0.338231212947737,
+            "interest_mean": 1.8893020052847043,
+            "interest_var": 0.299565769042041,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 16429,
+            "topic_name": "Mean squared error",
+            "topic_url": "https://en.wikipedia.org/wiki/Mean_squared_error",
+            "mean": 0.10517241948285048,
+            "variance": 0.4317078795466119,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 15247,
+            "topic_name": "Linear regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_regression",
+            "mean": 0.2185722817401303,
+            "variance": 0.43295105061721906,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 17652,
+            "topic_name": "Multivariate normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Multivariate_normal_distribution",
+            "mean": 0.2185722817401303,
+            "variance": 0.43295105061721906,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": 0.37184038923587515,
+            "variance": 0.38086306616963994,
+            "interest_mean": 1.5396361316932714,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": 0.2185722817401303,
+            "variance": 0.43295105061721906,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 22701,
+            "topic_name": "Regression analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Regression_analysis",
+            "mean": 0.2185722817401303,
+            "variance": 0.43295105061721906,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 15552,
+            "topic_name": "Log probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Log_probability",
+            "mean": 0.1770039676278004,
+            "variance": 0.4305295734239353,
+            "interest_mean": 0.5578465352366205,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 25630,
+            "topic_name": "Speech recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Speech_recognition",
+            "mean": 0.2854073776207402,
+            "variance": 0.37857450594239306,
+            "interest_mean": 1.1864801394021245,
+            "interest_var": 0.34265236281778805,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 20420,
+            "topic_name": "Place of articulation",
+            "topic_url": "https://en.wikipedia.org/wiki/Place_of_articulation",
+            "mean": 0.14410052448426605,
+            "variance": 0.43041810438432604,
+            "interest_mean": 0.8050175163171822,
+            "interest_var": 0.4036429475274632,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 17022,
+            "topic_name": "Minimum description length",
+            "topic_url": "https://en.wikipedia.org/wiki/Minimum_description_length",
+            "mean": 0.14410052448426605,
+            "variance": 0.43041810438432604,
+            "interest_mean": 0.8050175163171822,
+            "interest_var": 0.4036429475274632,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 7925,
+            "topic_name": "Dot product",
+            "topic_url": "https://en.wikipedia.org/wiki/Dot_product",
+            "mean": 0.14410052448426605,
+            "variance": 0.43041810438432604,
+            "interest_mean": 0.8050175163171822,
+            "interest_var": 0.4036429475274632,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 20402,
+            "topic_name": "Pitch-accent language",
+            "topic_url": "https://en.wikipedia.org/wiki/Pitch-accent_language",
+            "mean": 0.1258954281941937,
+            "variance": 0.4299251875292373,
+            "interest_mean": 0.7709668941583493,
+            "interest_var": 0.4021744347938053,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 27147,
+            "topic_name": "Taxicab geometry",
+            "topic_url": "https://en.wikipedia.org/wiki/Taxicab_geometry",
+            "mean": 0.1258954281941937,
+            "variance": 0.4299251875292373,
+            "interest_mean": 0.7709668941583493,
+            "interest_var": 0.4021744347938053,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 22564,
+            "topic_name": "Recursive neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Recursive_neural_network",
+            "mean": 0.1258954281941937,
+            "variance": 0.4299251875292373,
+            "interest_mean": 0.7709668941583493,
+            "interest_var": 0.4021744347938053,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 8702,
+            "topic_name": "Empirical risk minimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Empirical_risk_minimization",
+            "mean": -0.154580145350416,
+            "variance": 0.4611616574817968,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.15458014535041603,
+            "variance": 0.4611616574817968,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 26021,
+            "topic_name": "Statistical classification",
+            "topic_url": "https://en.wikipedia.org/wiki/Statistical_classification",
+            "mean": -0.15458014535041603,
+            "variance": 0.4611616574817968,
+            "interest_mean": 0.6146659702787394,
+            "interest_var": 0.406598266987526,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 8872,
+            "topic_name": "Entropy",
+            "topic_url": "https://en.wikipedia.org/wiki/Entropy",
+            "mean": 0.20725202530685963,
+            "variance": 0.4279080186174049,
+            "interest_mean": 0.4682876783535475,
+            "interest_var": 0.4093680416710901,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.20725202530685963,
+            "variance": 0.4279080186174049,
+            "interest_mean": 0.4682876783535475,
+            "interest_var": 0.4093680416710901,
+            "timestamp": 8922.0
+        },
+        {
+            "topic_id": 29414,
+            "topic_name": "Vocal cords",
+            "topic_url": "https://en.wikipedia.org/wiki/Vocal_cords",
+            "mean": 0.20725202530685963,
+            "variance": 0.4279080186174049,
+            "interest_mean": 0.4682876783535475,
+            "interest_var": 0.4093680416710901,
+            "timestamp": 8922.0
+        }
+    ]
+}

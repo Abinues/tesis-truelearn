@@ -1,0 +1,340 @@
+{
+    "user_id": 17551,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.15725092493752785,
+            "variance": 0.4691409907947683
+        },
+        "interest": {
+            "mean": -0.09906248407306169,
+            "variance": 0.4046789136428321
+        },
+        "bias": {
+            "mean": -0.818280734378708,
+            "variance": 0.32459029205843365
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 8401.0,
+            "means": {
+                "Rejection sampling": -0.12256561332710103,
+                "Machine learning": -0.12256561332710103,
+                "Importance sampling": -0.12256561332710103,
+                "Visual cortex": -0.12256561332710103,
+                "Change blindness": -0.12256561332710103
+            },
+            "variances": {
+                "Rejection sampling": 0.46683055656824124,
+                "Machine learning": 0.46683055656824124,
+                "Importance sampling": 0.46683055656824124,
+                "Visual cortex": 0.46683055656824124,
+                "Change blindness": 0.46683055656824124
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 8469.0,
+            "means": {
+                "Rejection sampling": -0.12256561332710103,
+                "Machine learning": -0.12256561332710103,
+                "Importance sampling": -0.22992478841193797,
+                "Visual cortex": -0.12256561332710103,
+                "Change blindness": -0.12256561332710103,
+                "Mixture model": -0.11498730489500761,
+                "Markov chain": -0.11498730489500761,
+                "Probability distribution": -0.11498730489500761,
+                "Convolution": -0.11498730489500761
+            },
+            "variances": {
+                "Rejection sampling": 0.46683055656824124,
+                "Machine learning": 0.46683055656824124,
+                "Importance sampling": 0.43871800638041125,
+                "Visual cortex": 0.46683055656824124,
+                "Change blindness": 0.46683055656824124,
+                "Mixture model": 0.4677505953204582,
+                "Markov chain": 0.4677505953204582,
+                "Probability distribution": 0.4677505953204582,
+                "Convolution": 0.4677505953204582
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 9500.0,
+            "means": {
+                "Rejection sampling": -0.12256561332710103,
+                "Machine learning": -0.2071334020888752,
+                "Importance sampling": -0.30939990238542064,
+                "Visual cortex": -0.12256561332710103,
+                "Change blindness": -0.12256561332710103,
+                "Mixture model": -0.11498730489500761,
+                "Markov chain": -0.4623363300934498,
+                "Probability distribution": -0.11498730489500761,
+                "Convolution": -0.11498730489500761,
+                "Standing wave": -0.11845276079822543,
+                "Absolute value": -0.11845276079822543,
+                "Precision (statistics)": -0.11845276079822543,
+                "Matrix (mathematics)": -0.20542235117751348,
+                "Matrix multiplication": -0.09306954014054945,
+                "Particle filter": -0.09306954014054945,
+                "Stochastic matrix": -0.09306954014054945,
+                "Pi": -0.09057653528878641,
+                "Coin flipping": -0.09057653528878641,
+                "Conditional probability": -0.09997828691434744,
+                "Probability": -0.09997828691434744,
+                "Indicator function": -0.09997828691434744,
+                "Random walk": -0.09997828691434744
+            },
+            "variances": {
+                "Rejection sampling": 0.46683055656824124,
+                "Machine learning": 0.4415936847374805,
+                "Importance sampling": 0.41642914460924624,
+                "Visual cortex": 0.46683055656824124,
+                "Change blindness": 0.46683055656824124,
+                "Mixture model": 0.4677505953204582,
+                "Markov chain": 0.37762307595220695,
+                "Probability distribution": 0.4677505953204582,
+                "Convolution": 0.4677505953204582,
+                "Standing wave": 0.46722907542011327,
+                "Absolute value": 0.46722907542011327,
+                "Precision (statistics)": 0.46722907542011327,
+                "Matrix (mathematics)": 0.44196085934454193,
+                "Matrix multiplication": 0.4710629090720982,
+                "Particle filter": 0.4710629090720982,
+                "Stochastic matrix": 0.4710629090720982,
+                "Pi": 0.47104943923343323,
+                "Coin flipping": 0.47104943923343323,
+                "Conditional probability": 0.4697759471751733,
+                "Probability": 0.4697759471751733,
+                "Indicator function": 0.4697759471751733,
+                "Random walk": 0.4697759471751733
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 22737,
+            "topic_name": "Rejection sampling",
+            "topic_url": "https://en.wikipedia.org/wiki/Rejection_sampling",
+            "mean": -0.12256561332710103,
+            "variance": 0.46683055656824124,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8401.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.2071334020888752,
+            "variance": 0.4415936847374805,
+            "interest_mean": 1.304969256850086,
+            "interest_var": 0.35596130669822657,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 13142,
+            "topic_name": "Importance sampling",
+            "topic_url": "https://en.wikipedia.org/wiki/Importance_sampling",
+            "mean": -0.30939990238542064,
+            "variance": 0.41642914460924624,
+            "interest_mean": 2.016519440336087,
+            "interest_var": 0.3077124334667057,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 29373,
+            "topic_name": "Visual cortex",
+            "topic_url": "https://en.wikipedia.org/wiki/Visual_cortex",
+            "mean": -0.12256561332710103,
+            "variance": 0.46683055656824124,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8401.0
+        },
+        {
+            "topic_id": 4077,
+            "topic_name": "Change blindness",
+            "topic_url": "https://en.wikipedia.org/wiki/Change_blindness",
+            "mean": -0.12256561332710103,
+            "variance": 0.46683055656824124,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 8401.0
+        },
+        {
+            "topic_id": 17125,
+            "topic_name": "Mixture model",
+            "topic_url": "https://en.wikipedia.org/wiki/Mixture_model",
+            "mean": -0.11498730489500761,
+            "variance": 0.4677505953204582,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 8469.0
+        },
+        {
+            "topic_id": 16167,
+            "topic_name": "Markov chain",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "mean": -0.4623363300934498,
+            "variance": 0.37762307595220695,
+            "interest_mean": 2.697622120202322,
+            "interest_var": 0.2425849138975475,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": -0.11498730489500761,
+            "variance": 0.4677505953204582,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 8469.0
+        },
+        {
+            "topic_id": 5927,
+            "topic_name": "Convolution",
+            "topic_url": "https://en.wikipedia.org/wiki/Convolution",
+            "mean": -0.11498730489500761,
+            "variance": 0.4677505953204582,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 8469.0
+        },
+        {
+            "topic_id": 25929,
+            "topic_name": "Standing wave",
+            "topic_url": "https://en.wikipedia.org/wiki/Standing_wave",
+            "mean": -0.11845276079822543,
+            "variance": 0.46722907542011327,
+            "interest_mean": 0.9492145196548609,
+            "interest_var": 0.40474053263993504,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 130,
+            "topic_name": "Absolute value",
+            "topic_url": "https://en.wikipedia.org/wiki/Absolute_value",
+            "mean": -0.11845276079822543,
+            "variance": 0.46722907542011327,
+            "interest_mean": 0.9492145196548609,
+            "interest_var": 0.40474053263993504,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 21074,
+            "topic_name": "Precision (statistics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Precision_(statistics)",
+            "mean": -0.11845276079822543,
+            "variance": 0.46722907542011327,
+            "interest_mean": 0.9492145196548609,
+            "interest_var": 0.40474053263993504,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 16334,
+            "topic_name": "Matrix (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+            "mean": -0.20542235117751348,
+            "variance": 0.44196085934454193,
+            "interest_mean": 1.4904808496003046,
+            "interest_var": 0.3422933151657367,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 16343,
+            "topic_name": "Matrix multiplication",
+            "topic_url": "https://en.wikipedia.org/wiki/Matrix_multiplication",
+            "mean": -0.09306954014054945,
+            "variance": 0.4710629090720982,
+            "interest_mean": 0.6686584197720624,
+            "interest_var": 0.4046985073606528,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 19611,
+            "topic_name": "Particle filter",
+            "topic_url": "https://en.wikipedia.org/wiki/Particle_filter",
+            "mean": -0.09306954014054945,
+            "variance": 0.4710629090720982,
+            "interest_mean": 0.6686584197720625,
+            "interest_var": 0.4046985073606528,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 26163,
+            "topic_name": "Stochastic matrix",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_matrix",
+            "mean": -0.09306954014054945,
+            "variance": 0.4710629090720982,
+            "interest_mean": 0.6686584197720625,
+            "interest_var": 0.4046985073606528,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 20284,
+            "topic_name": "Pi",
+            "topic_url": "https://en.wikipedia.org/wiki/Pi",
+            "mean": -0.09057653528878641,
+            "variance": 0.47104943923343323,
+            "interest_mean": 0.2692525275522374,
+            "interest_var": 0.4234598383477136,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 4890,
+            "topic_name": "Coin flipping",
+            "topic_url": "https://en.wikipedia.org/wiki/Coin_flipping",
+            "mean": -0.09057653528878641,
+            "variance": 0.47104943923343323,
+            "interest_mean": 0.26925252755223744,
+            "interest_var": 0.4234598383477136,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 5518,
+            "topic_name": "Conditional probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability",
+            "mean": -0.09997828691434744,
+            "variance": 0.4697759471751733,
+            "interest_mean": 0.7258140294291859,
+            "interest_var": 0.4039684172496235,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": -0.09997828691434744,
+            "variance": 0.4697759471751733,
+            "interest_mean": 0.7258140294291859,
+            "interest_var": 0.4039684172496235,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 13260,
+            "topic_name": "Indicator function",
+            "topic_url": "https://en.wikipedia.org/wiki/Indicator_function",
+            "mean": -0.09997828691434744,
+            "variance": 0.4697759471751733,
+            "interest_mean": 0.7258140294291859,
+            "interest_var": 0.4039684172496235,
+            "timestamp": 9500.0
+        },
+        {
+            "topic_id": 22342,
+            "topic_name": "Random walk",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_walk",
+            "mean": -0.09997828691434744,
+            "variance": 0.4697759471751733,
+            "interest_mean": 0.7258140294291859,
+            "interest_var": 0.4039684172496235,
+            "timestamp": 9500.0
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "user_id": 22412,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 2,
+    "weights": {
+        "novelty": {
+            "mean": 0.6749976257268804,
+            "variance": 0.4317436317500133
+        },
+        "interest": {
+            "mean": 0.571822953452135,
+            "variance": 0.3952250446450647
+        },
+        "bias": {
+            "mean": 0.17555508846750661,
+            "variance": 0.316696265915574
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 51832.0,
+            "means": {
+                "Standard deviation": 0.26264920520985835,
+                "Activation function": 0.14647967024873407,
+                "Artificial neural network": 0.008516673349387932,
+                "Deep learning": 0.136442711224314,
+                "Stochastic gradient descent": 0.146479670248734,
+                "Unsupervised learning": 0.33712332532913153,
+                "Autoencoder": 0.19505549484196683,
+                "Backpropagation": 0.06661066185008972,
+                "Supervised learning": 0.19505549484196683,
+                "Feedforward neural network": 0.1950554948419668,
+                "Regularization (mathematics)": 0.006099464096248718,
+                "Training, validation, and test data sets": 0.13418030397691233,
+                "Gradient descent": 0.006099464096248762,
+                "Variance": 0.13418030397691233,
+                "Computer vision": -0.16439574047514038,
+                "Retina": -0.16439574047514038,
+                "Visual cortex": -0.1643957404751404,
+                "Gradient": -0.1483190073535955,
+                "Overfitting": 0.16404988121295377,
+                "Vanishing gradient problem": 0.16404988121295375
+            },
+            "variances": {
+                "Standard deviation": 0.38174704860634284,
+                "Activation function": 0.43288594345826253,
+                "Artificial neural network": 0.3363643449628281,
+                "Deep learning": 0.3559657482713422,
+                "Stochastic gradient descent": 0.43288594345826253,
+                "Unsupervised learning": 0.3785205961650096,
+                "Autoencoder": 0.43300193037855933,
+                "Backpropagation": 0.4037598304211661,
+                "Supervised learning": 0.43300193037855933,
+                "Feedforward neural network": 0.43300193037855933,
+                "Regularization (mathematics)": 0.4026982693291548,
+                "Training, validation, and test data sets": 0.431774868797889,
+                "Gradient descent": 0.4026982693291548,
+                "Variance": 0.431774868797889,
+                "Computer vision": 0.46040542758719466,
+                "Retina": 0.46040542758719466,
+                "Visual cortex": 0.46040542758719466,
+                "Gradient": 0.46100859353368234,
+                "Overfitting": 0.42735460687696847,
+                "Vanishing gradient problem": 0.42735460687696847
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 25899,
+            "topic_name": "Standard deviation",
+            "topic_url": "https://en.wikipedia.org/wiki/Standard_deviation",
+            "mean": 0.26264920520985835,
+            "variance": 0.38174704860634284,
+            "interest_mean": 1.8313130908597424,
+            "interest_var": 0.34392685402073503,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 289,
+            "topic_name": "Activation function",
+            "topic_url": "https://en.wikipedia.org/wiki/Activation_function",
+            "mean": 0.14647967024873407,
+            "variance": 0.43288594345826253,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 1478,
+            "topic_name": "Artificial neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
+            "mean": 0.008516673349387932,
+            "variance": 0.3363643449628281,
+            "interest_mean": 2.1211455456183623,
+            "interest_var": 0.273546539805105,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.136442711224314,
+            "variance": 0.3559657482713422,
+            "interest_mean": 1.9123234464396355,
+            "interest_var": 0.3047385849715952,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 26161,
+            "topic_name": "Stochastic gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_gradient_descent",
+            "mean": 0.146479670248734,
+            "variance": 0.43288594345826253,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 28855,
+            "topic_name": "Unsupervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+            "mean": 0.33712332532913153,
+            "variance": 0.3785205961650096,
+            "interest_mean": 1.3520482704185213,
+            "interest_var": 0.35183422720871976,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 1749,
+            "topic_name": "Autoencoder",
+            "topic_url": "https://en.wikipedia.org/wiki/Autoencoder",
+            "mean": 0.19505549484196683,
+            "variance": 0.43300193037855933,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 1910,
+            "topic_name": "Backpropagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "mean": 0.06661066185008972,
+            "variance": 0.4037598304211661,
+            "interest_mean": 1.3636262270781714,
+            "interest_var": 0.3510610748043288,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.19505549484196683,
+            "variance": 0.43300193037855933,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 9726,
+            "topic_name": "Feedforward neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Feedforward_neural_network",
+            "mean": 0.1950554948419668,
+            "variance": 0.43300193037855933,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 22716,
+            "topic_name": "Regularization (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)",
+            "mean": 0.006099464096248718,
+            "variance": 0.4026982693291548,
+            "interest_mean": 1.193253502169792,
+            "interest_var": 0.35010786741403627,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 28085,
+            "topic_name": "Training, validation, and test data sets",
+            "topic_url": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets",
+            "mean": 0.13418030397691233,
+            "variance": 0.431774868797889,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 11511,
+            "topic_name": "Gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+            "mean": 0.006099464096248762,
+            "variance": 0.4026982693291548,
+            "interest_mean": 1.193253502169792,
+            "interest_var": 0.35010786741403627,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 29054,
+            "topic_name": "Variance",
+            "topic_url": "https://en.wikipedia.org/wiki/Variance",
+            "mean": 0.13418030397691233,
+            "variance": 0.431774868797889,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 5427,
+            "topic_name": "Computer vision",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_vision",
+            "mean": -0.16439574047514038,
+            "variance": 0.46040542758719466,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 22949,
+            "topic_name": "Retina",
+            "topic_url": "https://en.wikipedia.org/wiki/Retina",
+            "mean": -0.16439574047514038,
+            "variance": 0.46040542758719466,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 29373,
+            "topic_name": "Visual cortex",
+            "topic_url": "https://en.wikipedia.org/wiki/Visual_cortex",
+            "mean": -0.1643957404751404,
+            "variance": 0.46040542758719466,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 11509,
+            "topic_name": "Gradient",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient",
+            "mean": -0.1483190073535955,
+            "variance": 0.46100859353368234,
+            "interest_mean": 0.3413890407608391,
+            "interest_var": 0.41604865305141225,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 19264,
+            "topic_name": "Overfitting",
+            "topic_url": "https://en.wikipedia.org/wiki/Overfitting",
+            "mean": 0.16404988121295377,
+            "variance": 0.42735460687696847,
+            "interest_mean": 0.32715043586427056,
+            "interest_var": 0.41721798051494685,
+            "timestamp": 51832.0
+        },
+        {
+            "topic_id": 29034,
+            "topic_name": "Vanishing gradient problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem",
+            "mean": 0.16404988121295375,
+            "variance": 0.42735460687696847,
+            "interest_mean": 0.3271504358642706,
+            "interest_var": 0.41721798051494685,
+            "timestamp": 51832.0
+        }
+    ]
+}

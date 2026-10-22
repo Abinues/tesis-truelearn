@@ -1,0 +1,30 @@
+# Entorno virtual y cachés
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Copias de seguridad, paquetes y scripts de parche ya aplicados
+*.bak
+*.zip
+ajustar_*.py
+quitar_valor_manual.py
+parchar_calibrar.py
+
+# Dataset PEEK (se descarga solo) y calibración a gran escala (miles de archivos)
+data/*.csv
+data_calibracion/
+
+# Copias de seguridad y datos de PEEK en cualquier carpeta
+backup_*/
+peek.*.csv
+
+id_to_wiki_metadata_mapping.csv
+# Salidas de pruebas y secretos
+tests/_e2e_failures/
+.env

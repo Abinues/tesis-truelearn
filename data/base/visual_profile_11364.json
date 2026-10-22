@@ -1,0 +1,246 @@
+{
+    "user_id": 11364,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 7,
+    "weights": {
+        "novelty": {
+            "mean": 0.1795577815245711,
+            "variance": 0.47498466446266147
+        },
+        "interest": {
+            "mean": -0.2297292252321594,
+            "variance": 0.36888847989694845
+        },
+        "bias": {
+            "mean": -0.8772327215046722,
+            "variance": 0.3163787005669366
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 21801.0,
+            "means": {
+                "Decision tree": -0.21287770991636293,
+                "Importance sampling": -0.11327107088160816,
+                "Data mining": -0.21287770991636296,
+                "Ensemble learning": -0.11327107088160819,
+                "Overfitting": -0.11327107088160819,
+                "Machine learning": -0.10636667150466385,
+                "Conditional expectation": -0.10636667150466386,
+                "Diabetes": -0.10636667150466386
+            },
+            "variances": {
+                "Decision tree": 0.4409806079013367,
+                "Importance sampling": 0.4682229763595985,
+                "Data mining": 0.4409806079013367,
+                "Ensemble learning": 0.4682229763595985,
+                "Overfitting": 0.4682229763595985,
+                "Machine learning": 0.4689344227042879,
+                "Conditional expectation": 0.4689344227042879,
+                "Diabetes": 0.4689344227042879
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 30206.0,
+            "means": {
+                "Decision tree": -0.4630999905780966,
+                "Importance sampling": -0.25042458347197377,
+                "Data mining": -0.3102391226057682,
+                "Ensemble learning": -0.16279866064250317,
+                "Overfitting": -0.1627986606425032,
+                "Machine learning": -0.32873775920323567,
+                "Conditional expectation": -0.1622953291550302,
+                "Diabetes": -0.1622953291550302,
+                "Decision boundary": -0.09651699086187228,
+                "Linear regression": -0.09651699086187228,
+                "Stepwise regression": -0.09232149946019627,
+                "Algorithm": -0.09232149946019627,
+                "Perceptron": -0.09232149946019627
+            },
+            "variances": {
+                "Decision tree": 0.37071774863622975,
+                "Importance sampling": 0.4256320655720021,
+                "Data mining": 0.4080740943259661,
+                "Ensemble learning": 0.44969050912175956,
+                "Overfitting": 0.44969050912175956,
+                "Machine learning": 0.40388618136209675,
+                "Conditional expectation": 0.4488450161357179,
+                "Diabetes": 0.4488450161357179,
+                "Decision boundary": 0.47027783609823726,
+                "Linear regression": 0.47027783609823726,
+                "Stepwise regression": 0.47094167125330083,
+                "Algorithm": 0.47094167125330083,
+                "Perceptron": 0.47094167125330083
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 30288.0,
+            "means": {
+                "Decision tree": -0.49589620119238376,
+                "Importance sampling": -0.25042458347197377,
+                "Data mining": -0.34634012935006997,
+                "Ensemble learning": -0.16279866064250317,
+                "Overfitting": -0.1627986606425032,
+                "Machine learning": -0.36446827471504967,
+                "Conditional expectation": -0.20200320863075694,
+                "Diabetes": -0.20200320863075696,
+                "Decision boundary": -0.09651699086187228,
+                "Linear regression": -0.09651699086187228,
+                "Stepwise regression": -0.09232149946019627,
+                "Algorithm": -0.09232149946019627,
+                "Perceptron": -0.09232149946019627
+            },
+            "variances": {
+                "Decision tree": 0.3602259050864622,
+                "Importance sampling": 0.4256320655720021,
+                "Data mining": 0.3953612391716946,
+                "Ensemble learning": 0.44969050912175956,
+                "Overfitting": 0.44969050912175956,
+                "Machine learning": 0.39143292189776224,
+                "Conditional expectation": 0.4334649620591977,
+                "Diabetes": 0.4334649620591977,
+                "Decision boundary": 0.47027783609823726,
+                "Linear regression": 0.47027783609823726,
+                "Stepwise regression": 0.47094167125330083,
+                "Algorithm": 0.47094167125330083,
+                "Perceptron": 0.47094167125330083
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 6976,
+            "topic_name": "Decision tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_tree",
+            "mean": -0.49589620119238376,
+            "variance": 0.3602259050864622,
+            "interest_mean": 2.4438175827638497,
+            "interest_var": 0.2476817403447399,
+            "timestamp": 30288.0
+        },
+        {
+            "topic_id": 13142,
+            "topic_name": "Importance sampling",
+            "topic_url": "https://en.wikipedia.org/wiki/Importance_sampling",
+            "mean": -0.25042458347197377,
+            "variance": 0.4256320655720021,
+            "interest_mean": 1.5220983705214373,
+            "interest_var": 0.33886479777162365,
+            "timestamp": 30206.0
+        },
+        {
+            "topic_id": 6823,
+            "topic_name": "Data mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_mining",
+            "mean": -0.34634012935006997,
+            "variance": 0.3953612391716946,
+            "interest_mean": 1.748468733894265,
+            "interest_var": 0.31470939778579643,
+            "timestamp": 30288.0
+        },
+        {
+            "topic_id": 8837,
+            "topic_name": "Ensemble learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Ensemble_learning",
+            "mean": -0.16279866064250317,
+            "variance": 0.44969050912175956,
+            "interest_mean": 1.0988392784691183,
+            "interest_var": 0.39799461104295986,
+            "timestamp": 30206.0
+        },
+        {
+            "topic_id": 19264,
+            "topic_name": "Overfitting",
+            "topic_url": "https://en.wikipedia.org/wiki/Overfitting",
+            "mean": -0.1627986606425032,
+            "variance": 0.44969050912175956,
+            "interest_mean": 1.0988392784691183,
+            "interest_var": 0.39799461104295986,
+            "timestamp": 30206.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.36446827471504967,
+            "variance": 0.39143292189776224,
+            "interest_mean": 1.6086199445068923,
+            "interest_var": 0.2804540545013926,
+            "timestamp": 30288.0
+        },
+        {
+            "topic_id": 5514,
+            "topic_name": "Conditional expectation",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_expectation",
+            "mean": -0.20200320863075694,
+            "variance": 0.4334649620591977,
+            "interest_mean": 0.7995031754078573,
+            "interest_var": 0.3722716156988825,
+            "timestamp": 30288.0
+        },
+        {
+            "topic_id": 7348,
+            "topic_name": "Diabetes",
+            "topic_url": "https://en.wikipedia.org/wiki/Diabetes",
+            "mean": -0.20200320863075696,
+            "variance": 0.4334649620591977,
+            "interest_mean": 0.7995031754078573,
+            "interest_var": 0.3722716156988825,
+            "timestamp": 30288.0
+        },
+        {
+            "topic_id": 6966,
+            "topic_name": "Decision boundary",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_boundary",
+            "mean": -0.09651699086187228,
+            "variance": 0.47027783609823726,
+            "interest_mean": 0.5229093117213691,
+            "interest_var": 0.406943012793268,
+            "timestamp": 30206.0
+        },
+        {
+            "topic_id": 15247,
+            "topic_name": "Linear regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_regression",
+            "mean": -0.09651699086187228,
+            "variance": 0.47027783609823726,
+            "interest_mean": 0.5229093117213691,
+            "interest_var": 0.406943012793268,
+            "timestamp": 30206.0
+        },
+        {
+            "topic_id": 26108,
+            "topic_name": "Stepwise regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Stepwise_regression",
+            "mean": -0.09232149946019627,
+            "variance": 0.47094167125330083,
+            "interest_mean": 0.5825442733942986,
+            "interest_var": 0.4037964484594067,
+            "timestamp": 30206.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.09232149946019627,
+            "variance": 0.47094167125330083,
+            "interest_mean": 0.5825442733942984,
+            "interest_var": 0.4037964484594067,
+            "timestamp": 30206.0
+        },
+        {
+            "topic_id": 19892,
+            "topic_name": "Perceptron",
+            "topic_url": "https://en.wikipedia.org/wiki/Perceptron",
+            "mean": -0.09232149946019627,
+            "variance": 0.47094167125330083,
+            "interest_mean": 0.5825442733942984,
+            "interest_var": 0.4037964484594067,
+            "timestamp": 30206.0
+        }
+    ]
+}

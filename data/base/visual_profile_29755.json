@@ -1,0 +1,248 @@
+{
+    "user_id": 29755,
+    "number_of_engagements": 5,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 0.9369784162412296,
+            "variance": 0.4379873184221053
+        },
+        "interest": {
+            "mean": 0.9729279552744324,
+            "variance": 0.4271840221552361
+        },
+        "bias": {
+            "mean": 0.6654649281006215,
+            "variance": 0.3568725970112058
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 11998.0,
+            "means": {
+                "Cisplatin": 0.13664623291677153,
+                "Pemetrexed": 0.13664623291677153,
+                "Gene": 0.309394650269629,
+                "Clinical trial": 0.10304200750720872,
+                "Doxorubicin": 0.18125968562157005,
+                "Data compression": 0.03881418751303454,
+                "Main diagonal": 0.03881418751303454,
+                "Cyclophosphamide": 0.05873243496781524,
+                "Leukemia": 0.05873243496781525,
+                "Etoposide": 0.05873243496781525,
+                "Student's t-test": 0.08961405694408782,
+                "Paclitaxel": 0.08961405694408782,
+                "Heat map": 0.08961405694408782,
+                "Knowledge worker": 0.08961405694408782,
+                "High throughput biology": 0.1285118615759982,
+                "Bioinformatics": 0.1285118615759982,
+                "Cancer": 0.1285118615759982,
+                "Biology": 0.1285118615759982
+            },
+            "variances": {
+                "Cisplatin": 0.3798025122681041,
+                "Pemetrexed": 0.3798025122681041,
+                "Gene": 0.3076537050482428,
+                "Clinical trial": 0.43288585389399065,
+                "Doxorubicin": 0.3391015729768094,
+                "Data compression": 0.429180725234905,
+                "Main diagonal": 0.429180725234905,
+                "Cyclophosphamide": 0.4294610851444674,
+                "Leukemia": 0.4294610851444674,
+                "Etoposide": 0.4294610851444674,
+                "Student's t-test": 0.4307760469793333,
+                "Paclitaxel": 0.4307760469793333,
+                "Heat map": 0.4307760469793333,
+                "Knowledge worker": 0.4307760469793333,
+                "High throughput biology": 0.43000099800296926,
+                "Bioinformatics": 0.43000099800296926,
+                "Cancer": 0.43000099800296926,
+                "Biology": 0.43000099800296926
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 4498,
+            "topic_name": "Cisplatin",
+            "topic_url": "https://en.wikipedia.org/wiki/Cisplatin",
+            "mean": 0.13664623291677153,
+            "variance": 0.3798025122681041,
+            "interest_mean": 1.539636131693272,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 19838,
+            "topic_name": "Pemetrexed",
+            "topic_url": "https://en.wikipedia.org/wiki/Pemetrexed",
+            "mean": 0.13664623291677153,
+            "variance": 0.3798025122681041,
+            "interest_mean": 1.5396361316932716,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 10985,
+            "topic_name": "Gene",
+            "topic_url": "https://en.wikipedia.org/wiki/Gene",
+            "mean": 0.309394650269629,
+            "variance": 0.3076537050482428,
+            "interest_mean": 2.6435346086763274,
+            "interest_var": 0.2645124503217858,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 4672,
+            "topic_name": "Clinical trial",
+            "topic_url": "https://en.wikipedia.org/wiki/Clinical_trial",
+            "mean": 0.10304200750720872,
+            "variance": 0.43288585389399065,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 7982,
+            "topic_name": "Doxorubicin",
+            "topic_url": "https://en.wikipedia.org/wiki/Doxorubicin",
+            "mean": 0.18125968562157005,
+            "variance": 0.3391015729768094,
+            "interest_mean": 2.0021649197361278,
+            "interest_var": 0.30009673158021466,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 6789,
+            "topic_name": "Data compression",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_compression",
+            "mean": 0.03881418751303454,
+            "variance": 0.429180725234905,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 15929,
+            "topic_name": "Main diagonal",
+            "topic_url": "https://en.wikipedia.org/wiki/Main_diagonal",
+            "mean": 0.03881418751303454,
+            "variance": 0.429180725234905,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 6669,
+            "topic_name": "Cyclophosphamide",
+            "topic_url": "https://en.wikipedia.org/wiki/Cyclophosphamide",
+            "mean": 0.05873243496781524,
+            "variance": 0.4294610851444674,
+            "interest_mean": 0.669292707607333,
+            "interest_var": 0.40485603354839517,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 15019,
+            "topic_name": "Leukemia",
+            "topic_url": "https://en.wikipedia.org/wiki/Leukemia",
+            "mean": 0.05873243496781525,
+            "variance": 0.4294610851444674,
+            "interest_mean": 0.669292707607333,
+            "interest_var": 0.40485603354839517,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 9108,
+            "topic_name": "Etoposide",
+            "topic_url": "https://en.wikipedia.org/wiki/Etoposide",
+            "mean": 0.05873243496781525,
+            "variance": 0.4294610851444674,
+            "interest_mean": 0.669292707607333,
+            "interest_var": 0.40485603354839517,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 26412,
+            "topic_name": "Student's t-test",
+            "topic_url": "https://en.wikipedia.org/wiki/Student's_t-test",
+            "mean": 0.08961405694408782,
+            "variance": 0.4307760469793333,
+            "interest_mean": 0.833667531334572,
+            "interest_var": 0.40432692891284727,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 19340,
+            "topic_name": "Paclitaxel",
+            "topic_url": "https://en.wikipedia.org/wiki/Paclitaxel",
+            "mean": 0.08961405694408782,
+            "variance": 0.4307760469793333,
+            "interest_mean": 0.8336675313345723,
+            "interest_var": 0.40432692891284727,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 12149,
+            "topic_name": "Heat map",
+            "topic_url": "https://en.wikipedia.org/wiki/Heat_map",
+            "mean": 0.08961405694408782,
+            "variance": 0.4307760469793333,
+            "interest_mean": 0.8336675313345723,
+            "interest_var": 0.40432692891284727,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 14507,
+            "topic_name": "Knowledge worker",
+            "topic_url": "https://en.wikipedia.org/wiki/Knowledge_worker",
+            "mean": 0.08961405694408782,
+            "variance": 0.4307760469793333,
+            "interest_mean": 0.8336675313345723,
+            "interest_var": 0.40432692891284727,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 12337,
+            "topic_name": "High throughput biology",
+            "topic_url": "https://en.wikipedia.org/wiki/High_throughput_biology",
+            "mean": 0.1285118615759982,
+            "variance": 0.43000099800296926,
+            "interest_mean": 0.7375772680419208,
+            "interest_var": 0.4047177430402615,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 2532,
+            "topic_name": "Bioinformatics",
+            "topic_url": "https://en.wikipedia.org/wiki/Bioinformatics",
+            "mean": 0.1285118615759982,
+            "variance": 0.43000099800296926,
+            "interest_mean": 0.7375772680419208,
+            "interest_var": 0.4047177430402615,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 3524,
+            "topic_name": "Cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Cancer",
+            "mean": 0.1285118615759982,
+            "variance": 0.43000099800296926,
+            "interest_mean": 0.7375772680419208,
+            "interest_var": 0.4047177430402615,
+            "timestamp": 11998.0
+        },
+        {
+            "topic_id": 2550,
+            "topic_name": "Biology",
+            "topic_url": "https://en.wikipedia.org/wiki/Biology",
+            "mean": 0.1285118615759982,
+            "variance": 0.43000099800296926,
+            "interest_mean": 0.7375772680419208,
+            "interest_var": 0.4047177430402615,
+            "timestamp": 11998.0
+        }
+    ]
+}

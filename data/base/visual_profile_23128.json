@@ -1,0 +1,186 @@
+{
+    "user_id": 23128,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 2,
+    "weights": {
+        "novelty": {
+            "mean": 0.5955033180661242,
+            "variance": 0.4422728547542051
+        },
+        "interest": {
+            "mean": 0.5767226129929481,
+            "variance": 0.3979987294177411
+        },
+        "bias": {
+            "mean": 0.037886332264168515,
+            "variance": 0.3403160163424419
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 172.0,
+            "means": {
+                "PageRank": -0.029233362618839905,
+                "Yuri (genre)": 0.11685409654998659,
+                "Markov chain": -0.029233362618839905,
+                "Algorithm": -0.029233362618839905,
+                "Community structure": 0.11685409654998659,
+                "Random walk": -0.16873665557803771,
+                "Linear algebra": -0.16873665557803771
+            },
+            "variances": {
+                "PageRank": 0.4023994526531862,
+                "Yuri (genre)": 0.43288596265102475,
+                "Markov chain": 0.4023994526531862,
+                "Algorithm": 0.4023994526531862,
+                "Community structure": 0.43288596265102475,
+                "Random walk": 0.45932751448611403,
+                "Linear algebra": 0.45932751448611403
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 55932.0,
+            "means": {
+                "PageRank": 0.0824452864465917,
+                "Yuri (genre)": 0.21191174216807618,
+                "Markov chain": 0.18687159965558287,
+                "Algorithm": 0.1868715996555828,
+                "Community structure": 0.21191174216807623,
+                "Random walk": -0.002670358972807696,
+                "Linear algebra": -0.002670358972807696,
+                "Electrical resistance and conductance": -0.16607671880289251,
+                "Hash table": -0.16607671880289251,
+                "Seed": -0.16607671880289251,
+                "Graph (discrete mathematics)": -0.16607671880289251
+            },
+            "variances": {
+                "PageRank": 0.298487348640563,
+                "Yuri (genre)": 0.37609374472603535,
+                "Markov chain": 0.31439178821002917,
+                "Algorithm": 0.31439178821002917,
+                "Community structure": 0.37609374472603535,
+                "Random walk": 0.3935291169423123,
+                "Linear algebra": 0.3935291169423123,
+                "Electrical resistance and conductance": 0.4597731532340853,
+                "Hash table": 0.4597731532340853,
+                "Seed": 0.4597731532340853,
+                "Graph (discrete mathematics)": 0.4597731532340853
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 19352,
+            "topic_name": "PageRank",
+            "topic_url": "https://en.wikipedia.org/wiki/PageRank",
+            "mean": 0.0824452864465917,
+            "variance": 0.298487348640563,
+            "interest_mean": 2.1931451701210296,
+            "interest_var": 0.26452653040631446,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 30287,
+            "topic_name": "Yuri (genre)",
+            "topic_url": "https://en.wikipedia.org/wiki/Yuri_(genre)",
+            "mean": 0.21191174216807618,
+            "variance": 0.37609374472603535,
+            "interest_mean": 1.1413378057545651,
+            "interest_var": 0.3817381703164927,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 16167,
+            "topic_name": "Markov chain",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "mean": 0.18687159965558287,
+            "variance": 0.31439178821002917,
+            "interest_mean": 1.6926143323916893,
+            "interest_var": 0.2994646959670323,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.1868715996555828,
+            "variance": 0.31439178821002917,
+            "interest_mean": 1.692614332391689,
+            "interest_var": 0.2994646959670323,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 5186,
+            "topic_name": "Community structure",
+            "topic_url": "https://en.wikipedia.org/wiki/Community_structure",
+            "mean": 0.21191174216807623,
+            "variance": 0.37609374472603535,
+            "interest_mean": 1.1413378057545651,
+            "interest_var": 0.3817381703164927,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 22342,
+            "topic_name": "Random walk",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_walk",
+            "mean": -0.002670358972807696,
+            "variance": 0.3935291169423123,
+            "interest_mean": 0.6897276290969044,
+            "interest_var": 0.3641175603897507,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 15207,
+            "topic_name": "Linear algebra",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+            "mean": -0.002670358972807696,
+            "variance": 0.3935291169423123,
+            "interest_mean": 0.6897276290969044,
+            "interest_var": 0.3641175603897507,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 8465,
+            "topic_name": "Electrical resistance and conductance",
+            "topic_url": "https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance",
+            "mean": -0.16607671880289251,
+            "variance": 0.4597731532340853,
+            "interest_mean": 0.8357092580028918,
+            "interest_var": 0.4026022675532454,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 12054,
+            "topic_name": "Hash table",
+            "topic_url": "https://en.wikipedia.org/wiki/Hash_table",
+            "mean": -0.16607671880289251,
+            "variance": 0.4597731532340853,
+            "interest_mean": 0.8357092580028918,
+            "interest_var": 0.4026022675532454,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 24028,
+            "topic_name": "Seed",
+            "topic_url": "https://en.wikipedia.org/wiki/Seed",
+            "mean": -0.16607671880289251,
+            "variance": 0.4597731532340853,
+            "interest_mean": 0.8357092580028918,
+            "interest_var": 0.4026022675532454,
+            "timestamp": 55932.0
+        },
+        {
+            "topic_id": 11574,
+            "topic_name": "Graph (discrete mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "mean": -0.16607671880289251,
+            "variance": 0.4597731532340853,
+            "interest_mean": 0.8357092580028918,
+            "interest_var": 0.4026022675532454,
+            "timestamp": 55932.0
+        }
+    ]
+}

@@ -1,0 +1,254 @@
+{
+    "user_id": 23057,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.23963328899987835,
+            "variance": 0.4786939146970285
+        },
+        "interest": {
+            "mean": -0.03685065883864129,
+            "variance": 0.41429119556413585
+        },
+        "bias": {
+            "mean": -0.7343665280588385,
+            "variance": 0.34107929419698885
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 40419.0,
+            "means": {
+                "Kernel (operating system)": -0.07786917651888943,
+                "Kernel method": -0.07786917651888943,
+                "Probability distribution": -0.07786917651888946,
+                "Characteristic function (probability theory)": -0.07786917651888946,
+                "Nonparametric statistics": -0.07786917651888946
+            },
+            "variances": {
+                "Kernel (operating system)": 0.4744607187516207,
+                "Kernel method": 0.4744607187516207,
+                "Probability distribution": 0.4744607187516207,
+                "Characteristic function (probability theory)": 0.4744607187516207,
+                "Nonparametric statistics": 0.4744607187516207
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 40687.0,
+            "means": {
+                "Kernel (operating system)": -0.13372699097819085,
+                "Kernel method": -0.13372699097819085,
+                "Probability distribution": -0.13372699097819088,
+                "Characteristic function (probability theory)": -0.13372699097819088,
+                "Nonparametric statistics": -0.2532134268028967,
+                "Conditional probability": -0.18211089532523983,
+                "Covariance": -0.18211089532523986,
+                "Conditional expectation": -0.09261017609091614,
+                "Bayesian inference": -0.09261017609091614,
+                "Covariance operator": -0.09261017609091617,
+                "Ridge regression": -0.09487810295304147,
+                "Kernel regression": -0.09487810295304147,
+                "Chain rule": -0.09487810295304147,
+                "Likelihood function": -0.131377479515626,
+                "Reinforcement learning": -0.131377479515626,
+                "Point estimation": -0.131377479515626,
+                "Feature (machine learning)": -0.131377479515626
+            },
+            "variances": {
+                "Kernel (operating system)": 0.454744741127775,
+                "Kernel method": 0.454744741127775,
+                "Probability distribution": 0.454744741127775,
+                "Characteristic function (probability theory)": 0.454744741127775,
+                "Nonparametric statistics": 0.42602163114021224,
+                "Conditional probability": 0.4458062734971239,
+                "Covariance": 0.4458062734971239,
+                "Conditional expectation": 0.4716616186909891,
+                "Bayesian inference": 0.4716616186909891,
+                "Covariance operator": 0.4716616186909891,
+                "Ridge regression": 0.4709444383509107,
+                "Kernel regression": 0.4709444383509107,
+                "Chain rule": 0.4709444383509107,
+                "Likelihood function": 0.4652754921551999,
+                "Reinforcement learning": 0.4652754921551999,
+                "Point estimation": 0.4652754921551999,
+                "Feature (machine learning)": 0.4652754921551999
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 14342,
+            "topic_name": "Kernel (operating system)",
+            "topic_url": "https://en.wikipedia.org/wiki/Kernel_(operating_system)",
+            "mean": -0.13372699097819085,
+            "variance": 0.454744741127775,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 14346,
+            "topic_name": "Kernel method",
+            "topic_url": "https://en.wikipedia.org/wiki/Kernel_method",
+            "mean": -0.13372699097819085,
+            "variance": 0.454744741127775,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": -0.13372699097819088,
+            "variance": 0.454744741127775,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 4104,
+            "topic_name": "Characteristic function (probability theory)",
+            "topic_url": "https://en.wikipedia.org/wiki/Characteristic_function_(probability_theory)",
+            "mean": -0.13372699097819088,
+            "variance": 0.454744741127775,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 18415,
+            "topic_name": "Nonparametric statistics",
+            "topic_url": "https://en.wikipedia.org/wiki/Nonparametric_statistics",
+            "mean": -0.2532134268028967,
+            "variance": 0.42602163114021224,
+            "interest_mean": 1.9099276573026445,
+            "interest_var": 0.3105556205529199,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 5518,
+            "topic_name": "Conditional probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability",
+            "mean": -0.18211089532523983,
+            "variance": 0.4458062734971239,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 6218,
+            "topic_name": "Covariance",
+            "topic_url": "https://en.wikipedia.org/wiki/Covariance",
+            "mean": -0.18211089532523986,
+            "variance": 0.4458062734971239,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 5514,
+            "topic_name": "Conditional expectation",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_expectation",
+            "mean": -0.09261017609091614,
+            "variance": 0.4716616186909891,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": -0.09261017609091614,
+            "variance": 0.4716616186909891,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 6222,
+            "topic_name": "Covariance operator",
+            "topic_url": "https://en.wikipedia.org/wiki/Covariance_operator",
+            "mean": -0.09261017609091617,
+            "variance": 0.4716616186909891,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 27718,
+            "topic_name": "Ridge regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Tikhonov_regularization",
+            "mean": -0.09487810295304147,
+            "variance": 0.4709444383509107,
+            "interest_mean": 0.7394553365406401,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 14350,
+            "topic_name": "Kernel regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Kernel_regression",
+            "mean": -0.09487810295304147,
+            "variance": 0.4709444383509107,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 4044,
+            "topic_name": "Chain rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Chain_rule",
+            "mean": -0.09487810295304147,
+            "variance": 0.4709444383509107,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 15160,
+            "topic_name": "Likelihood function",
+            "topic_url": "https://en.wikipedia.org/wiki/Likelihood_function",
+            "mean": -0.131377479515626,
+            "variance": 0.4652754921551999,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 22732,
+            "topic_name": "Reinforcement learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "mean": -0.131377479515626,
+            "variance": 0.4652754921551999,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 20599,
+            "topic_name": "Point estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Point_estimation",
+            "mean": -0.131377479515626,
+            "variance": 0.4652754921551999,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 40687.0
+        },
+        {
+            "topic_id": 9689,
+            "topic_name": "Feature (machine learning)",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_(machine_learning)",
+            "mean": -0.131377479515626,
+            "variance": 0.4652754921551999,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 40687.0
+        }
+    ]
+}

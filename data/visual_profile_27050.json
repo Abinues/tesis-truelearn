@@ -1,0 +1,236 @@
+{
+    "user_id": 27050,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.717884943277473,
+            "variance": 0.43677754945808234
+        },
+        "interest": {
+            "mean": 0.6332019806210833,
+            "variance": 0.406285481983907
+        },
+        "bias": {
+            "mean": 0.34250751887771175,
+            "variance": 0.3493683628542125
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 5462.0,
+            "means": {
+                "False positives and false negatives": 0.2529340469329897,
+                "Pascal (unit)": 0.1171297816988798,
+                "Type I and type II errors": 0.19029802066270052,
+                "Annotation": 0.1171297816988798,
+                "Data set": 0.1902980206627005,
+                "Face detection": 0.2514938696799909,
+                "Vanilla": 0.08451214216100532,
+                "Minimum bounding box": 0.0824586622451993,
+                "Grayscale": 0.0824586622451993,
+                "Sanity check": 0.0824586622451993,
+                "Pedestrian detection": 0.12753716028764617,
+                "Pixel": 0.12753716028764617,
+                "Algorithm": 0.12753716028764617,
+                "Pedestrian": 0.12753716028764617
+            },
+            "variances": {
+                "False positives and false negatives": 0.3390590334405544,
+                "Pascal (unit)": 0.4328859563423845,
+                "Type I and type II errors": 0.3798025857127935,
+                "Annotation": 0.4328859563423845,
+                "Data set": 0.3798025857127935,
+                "Face detection": 0.33773599251963443,
+                "Vanilla": 0.4291807200613501,
+                "Minimum bounding box": 0.42938725977434855,
+                "Grayscale": 0.42938725977434855,
+                "Sanity check": 0.42938725977434855,
+                "Pedestrian detection": 0.43072120041718404,
+                "Pixel": 0.43072120041718404,
+                "Algorithm": 0.43072120041718404,
+                "Pedestrian": 0.43072120041718404
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 5765.0,
+            "means": {
+                "False positives and false negatives": 0.09225168200216174,
+                "Pascal (unit)": -0.08801779541952368,
+                "Type I and type II errors": 0.01030701125083994,
+                "Annotation": -0.08801779541952368,
+                "Data set": 0.01030701125083996,
+                "Face detection": 0.2514938696799909,
+                "Vanilla": 0.08451214216100532,
+                "Minimum bounding box": 0.0824586622451993,
+                "Grayscale": 0.0824586622451993,
+                "Sanity check": 0.0824586622451993,
+                "Pedestrian detection": 0.12753716028764617,
+                "Pixel": 0.12753716028764617,
+                "Algorithm": 0.12753716028764617,
+                "Pedestrian": 0.12753716028764617
+            },
+            "variances": {
+                "False positives and false negatives": 0.3155334765776187,
+                "Pascal (unit)": 0.39453852608033085,
+                "Type I and type II errors": 0.3502833501192145,
+                "Annotation": 0.39453852608033085,
+                "Data set": 0.3502833501192145,
+                "Face detection": 0.33773599251963443,
+                "Vanilla": 0.4291807200613501,
+                "Minimum bounding box": 0.42938725977434855,
+                "Grayscale": 0.42938725977434855,
+                "Sanity check": 0.42938725977434855,
+                "Pedestrian detection": 0.43072120041718404,
+                "Pixel": 0.43072120041718404,
+                "Algorithm": 0.43072120041718404,
+                "Pedestrian": 0.43072120041718404
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 9591,
+            "topic_name": "False positives and false negatives",
+            "topic_url": "https://en.wikipedia.org/wiki/False_positives_and_false_negatives",
+            "mean": 0.09225168200216174,
+            "variance": 0.3155334765776187,
+            "interest_mean": 2.0931546605444615,
+            "interest_var": 0.29040468583348183,
+            "timestamp": 5765.0
+        },
+        {
+            "topic_id": 19643,
+            "topic_name": "Pascal (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Pascal_(unit)",
+            "mean": -0.08801779541952368,
+            "variance": 0.39453852608033085,
+            "interest_mean": 1.1142290185100758,
+            "interest_var": 0.39099780205871637,
+            "timestamp": 5765.0
+        },
+        {
+            "topic_id": 28561,
+            "topic_name": "Type I and type II errors",
+            "topic_url": "https://en.wikipedia.org/wiki/Type_I_and_type_II_errors",
+            "mean": 0.01030701125083994,
+            "variance": 0.3502833501192145,
+            "interest_mean": 1.563602215658361,
+            "interest_var": 0.3342883099513602,
+            "timestamp": 5765.0
+        },
+        {
+            "topic_id": 1060,
+            "topic_name": "Annotation",
+            "topic_url": "https://en.wikipedia.org/wiki/Annotation",
+            "mean": -0.08801779541952368,
+            "variance": 0.39453852608033085,
+            "interest_mean": 1.1142290185100756,
+            "interest_var": 0.39099780205871637,
+            "timestamp": 5765.0
+        },
+        {
+            "topic_id": 6842,
+            "topic_name": "Data set",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_set",
+            "mean": 0.01030701125083996,
+            "variance": 0.3502833501192145,
+            "interest_mean": 1.5636022156583613,
+            "interest_var": 0.3342883099513602,
+            "timestamp": 5765.0
+        },
+        {
+            "topic_id": 9499,
+            "topic_name": "Face detection",
+            "topic_url": "https://en.wikipedia.org/wiki/Face_detection",
+            "mean": 0.2514938696799909,
+            "variance": 0.33773599251963443,
+            "interest_mean": 1.816693544764887,
+            "interest_var": 0.29701111062276786,
+            "timestamp": 5462.0
+        },
+        {
+            "topic_id": 29030,
+            "topic_name": "Vanilla",
+            "topic_url": "https://en.wikipedia.org/wiki/Vanilla",
+            "mean": 0.08451214216100532,
+            "variance": 0.4291807200613501,
+            "interest_mean": 0.5578465352366205,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 5462.0
+        },
+        {
+            "topic_id": 17019,
+            "topic_name": "Minimum bounding box",
+            "topic_url": "https://en.wikipedia.org/wiki/Minimum_bounding_box",
+            "mean": 0.0824586622451993,
+            "variance": 0.42938725977434855,
+            "interest_mean": 0.7709668941583494,
+            "interest_var": 0.4021744347938053,
+            "timestamp": 5462.0
+        },
+        {
+            "topic_id": 11653,
+            "topic_name": "Grayscale",
+            "topic_url": "https://en.wikipedia.org/wiki/Grayscale",
+            "mean": 0.0824586622451993,
+            "variance": 0.42938725977434855,
+            "interest_mean": 0.7709668941583494,
+            "interest_var": 0.4021744347938053,
+            "timestamp": 5462.0
+        },
+        {
+            "topic_id": 23611,
+            "topic_name": "Sanity check",
+            "topic_url": "https://en.wikipedia.org/wiki/Sanity_check",
+            "mean": 0.0824586622451993,
+            "variance": 0.42938725977434855,
+            "interest_mean": 0.7709668941583495,
+            "interest_var": 0.4021744347938053,
+            "timestamp": 5462.0
+        },
+        {
+            "topic_id": 19804,
+            "topic_name": "Pedestrian detection",
+            "topic_url": "https://en.wikipedia.org/wiki/Pedestrian_detection",
+            "mean": 0.12753716028764617,
+            "variance": 0.43072120041718404,
+            "interest_mean": 0.9196104766070009,
+            "interest_var": 0.4028170455487815,
+            "timestamp": 5462.0
+        },
+        {
+            "topic_id": 20410,
+            "topic_name": "Pixel",
+            "topic_url": "https://en.wikipedia.org/wiki/Pixel",
+            "mean": 0.12753716028764617,
+            "variance": 0.43072120041718404,
+            "interest_mean": 0.9196104766070009,
+            "interest_var": 0.4028170455487815,
+            "timestamp": 5462.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.12753716028764617,
+            "variance": 0.43072120041718404,
+            "interest_mean": 0.9196104766070009,
+            "interest_var": 0.4028170455487815,
+            "timestamp": 5462.0
+        },
+        {
+            "topic_id": 19803,
+            "topic_name": "Pedestrian",
+            "topic_url": "https://en.wikipedia.org/wiki/Pedestrian",
+            "mean": 0.12753716028764617,
+            "variance": 0.43072120041718404,
+            "interest_mean": 0.9196104766070009,
+            "interest_var": 0.4028170455487815,
+            "timestamp": 5462.0
+        }
+    ]
+}

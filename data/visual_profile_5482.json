@@ -1,0 +1,224 @@
+{
+    "user_id": 5482,
+    "number_of_engagements": 2,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.39503923649821415,
+            "variance": 0.44116308619415134
+        },
+        "interest": {
+            "mean": 0.20661237979099495,
+            "variance": 0.366426989106541
+        },
+        "bias": {
+            "mean": -0.3991232147559858,
+            "variance": 0.29983822150329104
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 17408.0,
+            "means": {
+                "Omega": -0.1252298665790651,
+                "Double pendulum": 0.01471459201072772,
+                "Trigonometric functions": -0.05602536068006056,
+                "Small-angle approximation": 0.09063283461465703,
+                "Differential equation": -0.029481703457698846,
+                "Superposition principle": -0.16939588063530092,
+                "Steady state": -0.16939588063530098,
+                "Normal mode": -0.28228785984645977,
+                "Pendulum": 0.04791230602832625,
+                "Amplitude": -0.32326616710088885,
+                "Hooke's law": -0.12001785006952376,
+                "Resonance": 0.04983324703912209,
+                "Squid": -0.13873693122284023,
+                "Phase (waves)": 0.20251706300955272,
+                "Public domain": -0.10199399221517631,
+                "Square root": -0.1019939922151763
+            },
+            "variances": {
+                "Omega": 0.30508912514629355,
+                "Double pendulum": 0.3216095985072663,
+                "Trigonometric functions": 0.40277818420067535,
+                "Small-angle approximation": 0.43288595550462006,
+                "Differential equation": 0.4045075608415902,
+                "Superposition principle": 0.45983279382475273,
+                "Steady state": 0.45983279382475273,
+                "Normal mode": 0.43057310165905094,
+                "Pendulum": 0.3773313916938971,
+                "Amplitude": 0.4121449696909583,
+                "Hooke's law": 0.4652698921515842,
+                "Resonance": 0.3778533828765754,
+                "Squid": 0.46213997981301547,
+                "Phase (waves)": 0.40200420854394897,
+                "Public domain": 0.4694327500996078,
+                "Square root": 0.4694327500996078
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 18798,
+            "topic_name": "Omega",
+            "topic_url": "https://en.wikipedia.org/wiki/Omega",
+            "mean": -0.1252298665790651,
+            "variance": 0.30508912514629355,
+            "interest_mean": 2.4204559582929623,
+            "interest_var": 0.23900217562912943,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 7945,
+            "topic_name": "Double pendulum",
+            "topic_url": "https://en.wikipedia.org/wiki/Double_pendulum",
+            "mean": 0.01471459201072772,
+            "variance": 0.3216095985072663,
+            "interest_mean": 1.9373769051598706,
+            "interest_var": 0.26600715053994106,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 28340,
+            "topic_name": "Trigonometric functions",
+            "topic_url": "https://en.wikipedia.org/wiki/Trigonometric_functions",
+            "mean": -0.05602536068006056,
+            "variance": 0.40277818420067535,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 24974,
+            "topic_name": "Small-angle approximation",
+            "topic_url": "https://en.wikipedia.org/wiki/Small-angle_approximation",
+            "mean": 0.09063283461465703,
+            "variance": 0.43288595550462006,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 7436,
+            "topic_name": "Differential equation",
+            "topic_url": "https://en.wikipedia.org/wiki/Differential_equation",
+            "mean": -0.029481703457698846,
+            "variance": 0.4045075608415902,
+            "interest_mean": 1.3039519946777942,
+            "interest_var": 0.3546565135672542,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 26644,
+            "topic_name": "Superposition principle",
+            "topic_url": "https://en.wikipedia.org/wiki/Superposition_principle",
+            "mean": -0.16939588063530092,
+            "variance": 0.45983279382475273,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 26063,
+            "topic_name": "Steady state",
+            "topic_url": "https://en.wikipedia.org/wiki/Steady_state",
+            "mean": -0.16939588063530098,
+            "variance": 0.45983279382475273,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 18449,
+            "topic_name": "Normal mode",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_mode",
+            "mean": -0.28228785984645977,
+            "variance": 0.43057310165905094,
+            "interest_mean": 1.1632403746119622,
+            "interest_var": 0.34409790361408416,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 19848,
+            "topic_name": "Pendulum",
+            "topic_url": "https://en.wikipedia.org/wiki/Pendulum",
+            "mean": 0.04791230602832625,
+            "variance": 0.3773313916938971,
+            "interest_mean": 0.8359327852374223,
+            "interest_var": 0.33527618402166,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 887,
+            "topic_name": "Amplitude",
+            "topic_url": "https://en.wikipedia.org/wiki/Amplitude",
+            "mean": -0.32326616710088885,
+            "variance": 0.4121449696909583,
+            "interest_mean": 1.4840955855752451,
+            "interest_var": 0.29937403089514164,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 12584,
+            "topic_name": "Hooke's law",
+            "topic_url": "https://en.wikipedia.org/wiki/Hooke's_law",
+            "mean": -0.12001785006952376,
+            "variance": 0.4652698921515842,
+            "interest_mean": 0.352357562758526,
+            "interest_var": 0.4114600609599574,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 22907,
+            "topic_name": "Resonance",
+            "topic_url": "https://en.wikipedia.org/wiki/Resonance",
+            "mean": 0.04983324703912209,
+            "variance": 0.3778533828765754,
+            "interest_mean": 1.1104960177303167,
+            "interest_var": 0.3367129017832527,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 25843,
+            "topic_name": "Squid",
+            "topic_url": "https://en.wikipedia.org/wiki/Squid",
+            "mean": -0.13873693122284023,
+            "variance": 0.46213997981301547,
+            "interest_mean": 0.26800149556332303,
+            "interest_var": 0.4214864493578947,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 20087,
+            "topic_name": "Phase (waves)",
+            "topic_url": "https://en.wikipedia.org/wiki/Phase_(waves)",
+            "mean": 0.20251706300955272,
+            "variance": 0.40200420854394897,
+            "interest_mean": 0.9982396279005391,
+            "interest_var": 0.38208511855967003,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 21816,
+            "topic_name": "Public domain",
+            "topic_url": "https://en.wikipedia.org/wiki/Public_domain",
+            "mean": -0.10199399221517631,
+            "variance": 0.4694327500996078,
+            "interest_mean": 0.9681603285028808,
+            "interest_var": 0.39918404084122916,
+            "timestamp": 17408.0
+        },
+        {
+            "topic_id": 25831,
+            "topic_name": "Square root",
+            "topic_url": "https://en.wikipedia.org/wiki/Square_root",
+            "mean": -0.1019939922151763,
+            "variance": 0.4694327500996078,
+            "interest_mean": 0.9681603285028808,
+            "interest_var": 0.39918404084122916,
+            "timestamp": 17408.0
+        }
+    ]
+}

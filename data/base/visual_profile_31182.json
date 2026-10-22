@@ -1,0 +1,404 @@
+{
+    "user_id": 31182,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.5698029839938985,
+            "variance": 0.42239801949633377
+        },
+        "interest": {
+            "mean": 0.4194310014983907,
+            "variance": 0.3753134952190963
+        },
+        "bias": {
+            "mean": -0.23979220652821562,
+            "variance": 0.2760139678050746
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 36242.0,
+            "means": {
+                "Posterior probability": -0.11642260040057482,
+                "Rejection sampling": -0.04611745253527913,
+                "Gauss (unit)": -0.11642260040057482,
+                "Importance sampling": 0.09053303968525545,
+                "Standard deviation": -0.11642260040057482,
+                "Random number generation": -0.1317198590163918,
+                "Simulated annealing": -0.1317198590163918,
+                "Machine learning": 0.18050918258644388,
+                "Econometrics": -0.1317198590163918,
+                "Graphical model": -0.26116639214535003,
+                "Polar bear": -0.13971907260894317,
+                "Causality": -0.13971907260894317,
+                "Earthquake": -0.13971907260894317,
+                "Frog": -0.13971907260894317,
+                "Nash equilibrium": -0.13073652466193442,
+                "Maximum likelihood estimation": -0.13073652466193442,
+                "Game theory": 0.10650479137516528,
+                "Best, worst and average case": -0.13073652466193444,
+                "Visual cortex": 0.22122887403567446,
+                "Change blindness": 0.22122887403567446,
+                "Monte Carlo method": 0.25349654037075836,
+                "Particle in a box": 0.13125886475406362,
+                "Alpha particle": 0.13125886475406362,
+                "Student's t-distribution": 0.14198026629688507,
+                "Computer science": 0.14198026629688507,
+                "Computer architecture": 0.14198026629688507,
+                "Computer vision": -0.14174272036030575,
+                "Bayesian inference": -0.14174272036030575,
+                "Speech synthesis": -0.14174272036030575,
+                "Speech recognition": -0.14174272036030575,
+                "Loss function": -0.14174272036030575
+            },
+            "variances": {
+                "Posterior probability": 0.4677410238332123,
+                "Rejection sampling": 0.38418130859145977,
+                "Gauss (unit)": 0.4677410238332123,
+                "Importance sampling": 0.40689146494909234,
+                "Standard deviation": 0.4677410238332123,
+                "Random number generation": 0.4653184378490565,
+                "Simulated annealing": 0.4653184378490565,
+                "Machine learning": 0.359459691198215,
+                "Econometrics": 0.4653184378490565,
+                "Graphical model": 0.43464327612182113,
+                "Polar bear": 0.4644735656330622,
+                "Causality": 0.4644735656330622,
+                "Earthquake": 0.4644735656330622,
+                "Frog": 0.4644735656330622,
+                "Nash equilibrium": 0.4654319029541935,
+                "Maximum likelihood estimation": 0.4654319029541935,
+                "Game theory": 0.3590880034984808,
+                "Best, worst and average case": 0.4654319029541935,
+                "Visual cortex": 0.43046771220591923,
+                "Change blindness": 0.43046771220591923,
+                "Monte Carlo method": 0.37844145157619985,
+                "Particle in a box": 0.4304741736471042,
+                "Alpha particle": 0.4304741736471042,
+                "Student's t-distribution": 0.4298023856362194,
+                "Computer science": 0.4298023856362194,
+                "Computer architecture": 0.4298023856362194,
+                "Computer vision": 0.46421205901675777,
+                "Bayesian inference": 0.46421205901675777,
+                "Speech synthesis": 0.46421205901675777,
+                "Speech recognition": 0.46421205901675777,
+                "Loss function": 0.46421205901675777
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": -0.11642260040057482,
+            "variance": 0.4677410238332123,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 22737,
+            "topic_name": "Rejection sampling",
+            "topic_url": "https://en.wikipedia.org/wiki/Rejection_sampling",
+            "mean": -0.04611745253527913,
+            "variance": 0.38418130859145977,
+            "interest_mean": 2.1505665188827785,
+            "interest_var": 0.3013977698534156,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 10942,
+            "topic_name": "Gauss (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Gauss_(unit)",
+            "mean": -0.11642260040057482,
+            "variance": 0.4677410238332123,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 13142,
+            "topic_name": "Importance sampling",
+            "topic_url": "https://en.wikipedia.org/wiki/Importance_sampling",
+            "mean": 0.09053303968525545,
+            "variance": 0.40689146494909234,
+            "interest_mean": 1.4634314823324268,
+            "interest_var": 0.3471368695205438,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 25899,
+            "topic_name": "Standard deviation",
+            "topic_url": "https://en.wikipedia.org/wiki/Standard_deviation",
+            "mean": -0.11642260040057482,
+            "variance": 0.4677410238332123,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 22331,
+            "topic_name": "Random number generation",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_number_generation",
+            "mean": -0.1317198590163918,
+            "variance": 0.4653184378490565,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 24761,
+            "topic_name": "Simulated annealing",
+            "topic_url": "https://en.wikipedia.org/wiki/Simulated_annealing",
+            "mean": -0.1317198590163918,
+            "variance": 0.4653184378490565,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.18050918258644388,
+            "variance": 0.359459691198215,
+            "interest_mean": 1.8118116382314455,
+            "interest_var": 0.2995202372594844,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 8278,
+            "topic_name": "Econometrics",
+            "topic_url": "https://en.wikipedia.org/wiki/Econometrics",
+            "mean": -0.1317198590163918,
+            "variance": 0.4653184378490565,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": -0.26116639214535003,
+            "variance": 0.43464327612182113,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 20635,
+            "topic_name": "Polar bear",
+            "topic_url": "https://en.wikipedia.org/wiki/Polar_bear",
+            "mean": -0.13971907260894317,
+            "variance": 0.4644735656330622,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 3883,
+            "topic_name": "Causality",
+            "topic_url": "https://en.wikipedia.org/wiki/Causality",
+            "mean": -0.13971907260894317,
+            "variance": 0.4644735656330622,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 8242,
+            "topic_name": "Earthquake",
+            "topic_url": "https://en.wikipedia.org/wiki/Earthquake",
+            "mean": -0.13971907260894317,
+            "variance": 0.4644735656330622,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 10613,
+            "topic_name": "Frog",
+            "topic_url": "https://en.wikipedia.org/wiki/Frog",
+            "mean": -0.13971907260894317,
+            "variance": 0.4644735656330622,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 17846,
+            "topic_name": "Nash equilibrium",
+            "topic_url": "https://en.wikipedia.org/wiki/Nash_equilibrium",
+            "mean": -0.13073652466193442,
+            "variance": 0.4654319029541935,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": -0.13073652466193442,
+            "variance": 0.4654319029541935,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 10845,
+            "topic_name": "Game theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Game_theory",
+            "mean": 0.10650479137516528,
+            "variance": 0.3590880034984808,
+            "interest_mean": 2.028745187858488,
+            "interest_var": 0.2958991620892102,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 2328,
+            "topic_name": "Best, worst and average case",
+            "topic_url": "https://en.wikipedia.org/wiki/Best,_worst_and_average_case",
+            "mean": -0.13073652466193444,
+            "variance": 0.4654319029541935,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 29373,
+            "topic_name": "Visual cortex",
+            "topic_url": "https://en.wikipedia.org/wiki/Visual_cortex",
+            "mean": 0.22122887403567446,
+            "variance": 0.43046771220591923,
+            "interest_mean": 0.46412983500815636,
+            "interest_var": 0.4101136252550602,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 4077,
+            "topic_name": "Change blindness",
+            "topic_url": "https://en.wikipedia.org/wiki/Change_blindness",
+            "mean": 0.22122887403567446,
+            "variance": 0.43046771220591923,
+            "interest_mean": 0.46412983500815647,
+            "interest_var": 0.4101136252550602,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 17347,
+            "topic_name": "Monte Carlo method",
+            "topic_url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+            "mean": 0.25349654037075836,
+            "variance": 0.37844145157619985,
+            "interest_mean": 1.3449206466005936,
+            "interest_var": 0.33945387114110676,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 19614,
+            "topic_name": "Particle in a box",
+            "topic_url": "https://en.wikipedia.org/wiki/Particle_in_a_box",
+            "mean": 0.13125886475406362,
+            "variance": 0.4304741736471042,
+            "interest_mean": 0.7496551170601532,
+            "interest_var": 0.4026188020003731,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 773,
+            "topic_name": "Alpha particle",
+            "topic_url": "https://en.wikipedia.org/wiki/Alpha_particle",
+            "mean": 0.13125886475406362,
+            "variance": 0.4304741736471042,
+            "interest_mean": 0.7496551170601532,
+            "interest_var": 0.4026188020003731,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 26411,
+            "topic_name": "Student's t-distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Student's_t-distribution",
+            "mean": 0.14198026629688507,
+            "variance": 0.4298023856362194,
+            "interest_mean": 0.7392420902636941,
+            "interest_var": 0.4025845302141293,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": 0.14198026629688507,
+            "variance": 0.4298023856362194,
+            "interest_mean": 0.7392420902636941,
+            "interest_var": 0.4025845302141293,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 5391,
+            "topic_name": "Computer architecture",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_architecture",
+            "mean": 0.14198026629688507,
+            "variance": 0.4298023856362194,
+            "interest_mean": 0.7392420902636941,
+            "interest_var": 0.4025845302141293,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 5427,
+            "topic_name": "Computer vision",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_vision",
+            "mean": -0.14174272036030575,
+            "variance": 0.46421205901675777,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": -0.14174272036030575,
+            "variance": 0.46421205901675777,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 25633,
+            "topic_name": "Speech synthesis",
+            "topic_url": "https://en.wikipedia.org/wiki/Speech_synthesis",
+            "mean": -0.14174272036030575,
+            "variance": 0.46421205901675777,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 25630,
+            "topic_name": "Speech recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Speech_recognition",
+            "mean": -0.14174272036030575,
+            "variance": 0.46421205901675777,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": -0.14174272036030575,
+            "variance": 0.46421205901675777,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36242.0
+        }
+    ]
+}

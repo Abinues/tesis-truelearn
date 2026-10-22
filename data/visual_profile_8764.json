@@ -1,0 +1,332 @@
+{
+    "user_id": 8764,
+    "number_of_engagements": 5,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 0.9369076547915327,
+            "variance": 0.43879923970546786
+        },
+        "interest": {
+            "mean": 0.9629304694935396,
+            "variance": 0.43111180297868945
+        },
+        "bias": {
+            "mean": 0.6764537530853859,
+            "variance": 0.3541084073856488
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 19974.0,
+            "means": {
+                "Latent and observable variables": 0.177057025387199,
+                "Graphical model": 0.177057025387199,
+                "Random variable": 0.177057025387199,
+                "Probability distribution": 0.177057025387199,
+                "Joint probability distribution": 0.177057025387199,
+                "Machine learning": 0.11193131748214152,
+                "Deep learning": 0.21315771441502063,
+                "Dynamical system": 0.11193131748214152,
+                "Gross tonnage": 0.11193131748214152,
+                "Phoneme": 0.11193131748214152,
+                "Maximum likelihood estimation": 0.11688907034481644,
+                "Machine translation": 0.11688907034481644,
+                "Ground truth": 0.11688907034481644,
+                "Conditional probability distribution": 0.11688907034481644
+            },
+            "variances": {
+                "Latent and observable variables": 0.43288585803335716,
+                "Graphical model": 0.43288585803335716,
+                "Random variable": 0.43288585803335716,
+                "Probability distribution": 0.43288585803335716,
+                "Joint probability distribution": 0.43288585803335716,
+                "Machine learning": 0.4330019762937061,
+                "Deep learning": 0.38183728896064023,
+                "Dynamical system": 0.4330019762937061,
+                "Gross tonnage": 0.4330019762937061,
+                "Phoneme": 0.4330019762937061,
+                "Maximum likelihood estimation": 0.4317770372052652,
+                "Machine translation": 0.4317770372052652,
+                "Ground truth": 0.4317770372052652,
+                "Conditional probability distribution": 0.4317770372052652
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 20558.0,
+            "means": {
+                "Latent and observable variables": 0.177057025387199,
+                "Graphical model": 0.177057025387199,
+                "Random variable": 0.177057025387199,
+                "Probability distribution": 0.177057025387199,
+                "Joint probability distribution": 0.177057025387199,
+                "Machine learning": 0.11193131748214152,
+                "Deep learning": 0.2785554493568093,
+                "Dynamical system": 0.11193131748214152,
+                "Gross tonnage": 0.11193131748214152,
+                "Phoneme": 0.11193131748214152,
+                "Maximum likelihood estimation": 0.11688907034481644,
+                "Machine translation": 0.11688907034481644,
+                "Ground truth": 0.11688907034481644,
+                "Conditional probability distribution": 0.11688907034481644,
+                "Speech recognition": 0.22952298765223605,
+                "Language model": 0.1553622183210212,
+                "Decision tree": 0.1553622183210212,
+                "Acoustic model": 0.1553622183210212,
+                "Dynamic time warping": 0.1553622183210212,
+                "Long short-term memory": 0.08563560557404055,
+                "Finite-state transducer": 0.08563560557404055,
+                "Neural network": 0.08563560557404054
+            },
+            "variances": {
+                "Latent and observable variables": 0.43288585803335716,
+                "Graphical model": 0.43288585803335716,
+                "Random variable": 0.43288585803335716,
+                "Probability distribution": 0.43288585803335716,
+                "Joint probability distribution": 0.43288585803335716,
+                "Machine learning": 0.4330019762937061,
+                "Deep learning": 0.34072402051639905,
+                "Dynamical system": 0.4330019762937061,
+                "Gross tonnage": 0.4330019762937061,
+                "Phoneme": 0.4330019762937061,
+                "Maximum likelihood estimation": 0.4317770372052652,
+                "Machine translation": 0.4317770372052652,
+                "Ground truth": 0.4317770372052652,
+                "Conditional probability distribution": 0.4317770372052652,
+                "Speech recognition": 0.38013247486110624,
+                "Language model": 0.4330019554021571,
+                "Decision tree": 0.4330019554021571,
+                "Acoustic model": 0.4330019554021571,
+                "Dynamic time warping": 0.4330019554021571,
+                "Long short-term memory": 0.42950386018186676,
+                "Finite-state transducer": 0.42950386018186676,
+                "Neural network": 0.42950386018186676
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 14765,
+            "topic_name": "Latent and observable variables",
+            "topic_url": "https://en.wikipedia.org/wiki/Latent_variable",
+            "mean": 0.177057025387199,
+            "variance": 0.43288585803335716,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": 0.177057025387199,
+            "variance": 0.43288585803335716,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": 0.177057025387199,
+            "variance": 0.43288585803335716,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": 0.177057025387199,
+            "variance": 0.43288585803335716,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 14202,
+            "topic_name": "Joint probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Joint_probability_distribution",
+            "mean": 0.177057025387199,
+            "variance": 0.43288585803335716,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.11193131748214152,
+            "variance": 0.4330019762937061,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.2785554493568093,
+            "variance": 0.34072402051639905,
+            "interest_mean": 2.2541133577228814,
+            "interest_var": 0.29973450366805116,
+            "timestamp": 20558.0
+        },
+        {
+            "topic_id": 8186,
+            "topic_name": "Dynamical system",
+            "topic_url": "https://en.wikipedia.org/wiki/Dynamical_system",
+            "mean": 0.11193131748214152,
+            "variance": 0.4330019762937061,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 11759,
+            "topic_name": "Gross tonnage",
+            "topic_url": "https://en.wikipedia.org/wiki/Gross_tonnage",
+            "mean": 0.11193131748214152,
+            "variance": 0.4330019762937061,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 20161,
+            "topic_name": "Phoneme",
+            "topic_url": "https://en.wikipedia.org/wiki/Phoneme",
+            "mean": 0.11193131748214152,
+            "variance": 0.4330019762937061,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": 0.11688907034481644,
+            "variance": 0.4317770372052652,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 15814,
+            "topic_name": "Machine translation",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_translation",
+            "mean": 0.11688907034481644,
+            "variance": 0.4317770372052652,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 11772,
+            "topic_name": "Ground truth",
+            "topic_url": "https://en.wikipedia.org/wiki/Ground_truth",
+            "mean": 0.11688907034481644,
+            "variance": 0.4317770372052652,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 5519,
+            "topic_name": "Conditional probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability_distribution",
+            "mean": 0.11688907034481644,
+            "variance": 0.4317770372052652,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 19974.0
+        },
+        {
+            "topic_id": 25630,
+            "topic_name": "Speech recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Speech_recognition",
+            "mean": 0.22952298765223605,
+            "variance": 0.38013247486110624,
+            "interest_mean": 1.585838197213189,
+            "interest_var": 0.3448125354211596,
+            "timestamp": 20558.0
+        },
+        {
+            "topic_id": 14688,
+            "topic_name": "Language model",
+            "topic_url": "https://en.wikipedia.org/wiki/Language_model",
+            "mean": 0.1553622183210212,
+            "variance": 0.4330019554021571,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 20558.0
+        },
+        {
+            "topic_id": 6976,
+            "topic_name": "Decision tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_tree",
+            "mean": 0.1553622183210212,
+            "variance": 0.4330019554021571,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 20558.0
+        },
+        {
+            "topic_id": 253,
+            "topic_name": "Acoustic model",
+            "topic_url": "https://en.wikipedia.org/wiki/Acoustic_model",
+            "mean": 0.1553622183210212,
+            "variance": 0.4330019554021571,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 20558.0
+        },
+        {
+            "topic_id": 8182,
+            "topic_name": "Dynamic time warping",
+            "topic_url": "https://en.wikipedia.org/wiki/Dynamic_time_warping",
+            "mean": 0.1553622183210212,
+            "variance": 0.4330019554021571,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 20558.0
+        },
+        {
+            "topic_id": 15622,
+            "topic_name": "Long short-term memory",
+            "topic_url": "https://en.wikipedia.org/wiki/Long_short-term_memory",
+            "mean": 0.08563560557404055,
+            "variance": 0.42950386018186676,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 20558.0
+        },
+        {
+            "topic_id": 9931,
+            "topic_name": "Finite-state transducer",
+            "topic_url": "https://en.wikipedia.org/wiki/Finite-state_transducer",
+            "mean": 0.08563560557404055,
+            "variance": 0.42950386018186676,
+            "interest_mean": 0.6146659702787394,
+            "interest_var": 0.406598266987526,
+            "timestamp": 20558.0
+        },
+        {
+            "topic_id": 18126,
+            "topic_name": "Neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Neural_network",
+            "mean": 0.08563560557404054,
+            "variance": 0.42950386018186676,
+            "interest_mean": 0.6146659702787394,
+            "interest_var": 0.406598266987526,
+            "timestamp": 20558.0
+        }
+    ]
+}

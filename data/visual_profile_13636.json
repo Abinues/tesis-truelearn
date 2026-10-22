@@ -1,0 +1,166 @@
+{
+    "user_id": 13636,
+    "number_of_engagements": 5,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.830390734428506,
+            "variance": 0.4276688601745849
+        },
+        "interest": {
+            "mean": 0.8548869960328518,
+            "variance": 0.38095268399776033
+        },
+        "bias": {
+            "mean": 0.429068816481928,
+            "variance": 0.33586137386032683
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 36439.0,
+            "means": {
+                "Mutual information": 0.13380102393182208,
+                "Anomaly detection": 0.04995232236042564,
+                "Optical flow": 0.04995232236042564,
+                "Salience (neuroscience)": 0.13380102393182208,
+                "Mixture model": 0.13380102393182208,
+                "Crowd simulation": -0.09309310625592428,
+                "Pixel": 0.08021389128079774,
+                "List of Star Trek regions of space": -0.09309310625592429,
+                "Online algorithm": -0.20128477580241103
+            },
+            "variances": {
+                "Mutual information": 0.43288583171378875,
+                "Anomaly detection": 0.35416654915285317,
+                "Optical flow": 0.35416654915285317,
+                "Salience (neuroscience)": 0.43288583171378875,
+                "Mixture model": 0.43288583171378875,
+                "Crowd simulation": 0.39647027951965885,
+                "Pixel": 0.43050200107246794,
+                "List of Star Trek regions of space": 0.39647027951965885,
+                "Online algorithm": 0.4540935638151595
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 77468.0,
+            "means": {
+                "Mutual information": 0.15395619504569655,
+                "Anomaly detection": 0.2388601981913063,
+                "Optical flow": 0.23886019819130636,
+                "Salience (neuroscience)": 0.15395619504569655,
+                "Mixture model": 0.15395619504569655,
+                "Crowd simulation": 0.10234595525412224,
+                "Pixel": 0.1961310767771478,
+                "List of Star Trek regions of space": 0.10234595525412224,
+                "Online algorithm": -0.08513553376593871
+            },
+            "variances": {
+                "Mutual information": 0.372259431484983,
+                "Anomaly detection": 0.2559119757808579,
+                "Optical flow": 0.2559119757808579,
+                "Salience (neuroscience)": 0.372259431484983,
+                "Mixture model": 0.372259431484983,
+                "Crowd simulation": 0.3067172897697043,
+                "Pixel": 0.3718458528838899,
+                "List of Star Trek regions of space": 0.3067172897697043,
+                "Online algorithm": 0.385476378147126
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 17743,
+            "topic_name": "Mutual information",
+            "topic_url": "https://en.wikipedia.org/wiki/Mutual_information",
+            "mean": 0.15395619504569655,
+            "variance": 0.372259431484983,
+            "interest_mean": 1.114843643007895,
+            "interest_var": 0.39049092541127917,
+            "timestamp": 77468.0
+        },
+        {
+            "topic_id": 1070,
+            "topic_name": "Anomaly detection",
+            "topic_url": "https://en.wikipedia.org/wiki/Anomaly_detection",
+            "mean": 0.2388601981913063,
+            "variance": 0.2559119757808579,
+            "interest_mean": 2.034025767214514,
+            "interest_var": 0.2620254118872927,
+            "timestamp": 77468.0
+        },
+        {
+            "topic_id": 18999,
+            "topic_name": "Optical flow",
+            "topic_url": "https://en.wikipedia.org/wiki/Optical_flow",
+            "mean": 0.23886019819130636,
+            "variance": 0.2559119757808579,
+            "interest_mean": 2.0340257672145143,
+            "interest_var": 0.2620254118872927,
+            "timestamp": 77468.0
+        },
+        {
+            "topic_id": 23530,
+            "topic_name": "Salience (neuroscience)",
+            "topic_url": "https://en.wikipedia.org/wiki/Salience_(neuroscience)",
+            "mean": 0.15395619504569655,
+            "variance": 0.372259431484983,
+            "interest_mean": 1.114843643007895,
+            "interest_var": 0.39049092541127917,
+            "timestamp": 77468.0
+        },
+        {
+            "topic_id": 17125,
+            "topic_name": "Mixture model",
+            "topic_url": "https://en.wikipedia.org/wiki/Mixture_model",
+            "mean": 0.15395619504569655,
+            "variance": 0.372259431484983,
+            "interest_mean": 1.114843643007895,
+            "interest_var": 0.39049092541127917,
+            "timestamp": 77468.0
+        },
+        {
+            "topic_id": 6426,
+            "topic_name": "Crowd simulation",
+            "topic_url": "https://en.wikipedia.org/wiki/Crowd_simulation",
+            "mean": 0.10234595525412224,
+            "variance": 0.3067172897697043,
+            "interest_mean": 1.1217056655268727,
+            "interest_var": 0.30401113494423715,
+            "timestamp": 77468.0
+        },
+        {
+            "topic_id": 20410,
+            "topic_name": "Pixel",
+            "topic_url": "https://en.wikipedia.org/wiki/Pixel",
+            "mean": 0.1961310767771478,
+            "variance": 0.3718458528838899,
+            "interest_mean": 0.8120256856860824,
+            "interest_var": 0.37409813469898584,
+            "timestamp": 77468.0
+        },
+        {
+            "topic_id": 15343,
+            "topic_name": "List of Star Trek regions of space",
+            "topic_url": "https://en.wikipedia.org/wiki/List_of_Star_Trek_regions_of_space",
+            "mean": 0.10234595525412224,
+            "variance": 0.3067172897697043,
+            "interest_mean": 1.1217056655268727,
+            "interest_var": 0.30401113494423715,
+            "timestamp": 77468.0
+        },
+        {
+            "topic_id": 18840,
+            "topic_name": "Online algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Online_algorithm",
+            "mean": -0.08513553376593871,
+            "variance": 0.385476378147126,
+            "interest_mean": 0.396951956914005,
+            "interest_var": 0.3790825030075628,
+            "timestamp": 77468.0
+        }
+    ]
+}

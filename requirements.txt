@@ -1,0 +1,26 @@
+# FIX (ver CAMBIOS.md, punto 29): antes estas dependencias usaban RANGOS
+# abiertos (ej. "streamlit>=1.38,<2.0"). Eso permitió que el entorno del
+# autor y el del asistente terminaran con versiones distintas de
+# streamlit (1.56.0 vs 1.63.0) sin que nadie lo notara, hasta que
+# streamlit-echarts empezó a tirar
+# "Component 'streamlit-echarts.streamlit_echarts' must be declared in
+# pyproject.toml with asset_dir to use file-backed js." — un error real
+# de incompatibilidad entre versiones de Streamlit, no un bug del
+# proyecto, pero invisible hasta que alguien lo pisaba. Para una tesis,
+# la reproducibilidad del entorno importa tanto como el código: se fijan
+# versiones EXACTAS, verificadas por partida doble.
+#
+# NOTA (ver CAMBIOS.md, punto 30): la primera versión de este archivo
+# fijó pandas==3.0.2, que requiere Python >=3.11 y falló instalar en un
+# entorno con una versión de Python más vieja. Se corrigió a pandas
+# 2.3.3, que soporta Python >=3.9 (rango mucho más amplio) y pasa la
+# misma suite de tests sin cambios.
+flask==3.1.3
+streamlit==1.63.0
+streamlit-echarts==0.7.0
+pandas==2.3.3
+requests==2.33.1
+
+# TrueLearn: librería de modelado bayesiano y el dataset PEEK.
+# Versión verificada y usada durante toda esta refactorización.
+truelearn==1.1.0

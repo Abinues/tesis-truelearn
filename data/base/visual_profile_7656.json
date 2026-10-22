@@ -1,0 +1,514 @@
+{
+    "user_id": 7656,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 10,
+    "weights": {
+        "novelty": {
+            "mean": 0.027042085863455172,
+            "variance": 0.45246974896067793
+        },
+        "interest": {
+            "mean": -0.30983797907780586,
+            "variance": 0.3674272177008244
+        },
+        "bias": {
+            "mean": -1.058311321985372,
+            "variance": 0.2755941566812974
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 54596.0,
+            "means": {
+                "Valence and conduction bands": -0.09822959638876674,
+                "Electronvolt": -0.09822959638876674,
+                "Electron": -0.09822959638876674,
+                "Photon": -0.09822959638876674,
+                "OpenCourseWare": -0.09822959638876674
+            },
+            "variances": {
+                "Valence and conduction bands": 0.47067499960555653,
+                "Electronvolt": 0.47067499960555653,
+                "Electron": 0.47067499960555653,
+                "Photon": 0.47067499960555653,
+                "OpenCourseWare": 0.47067499960555653
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 64909.0,
+            "means": {
+                "Valence and conduction bands": -0.23903014153326255,
+                "Electronvolt": -0.27038038254708074,
+                "Electron": -0.23903014153326255,
+                "Photon": -0.16540583225199024,
+                "OpenCourseWare": -0.16540583225199024,
+                "Kelvin": -0.11699274758262913,
+                "Standard deviation": -0.11699274758262913,
+                "Volt": -0.11699274758262913,
+                "Maxwell (unit)": -0.11699274758262916,
+                "Boron": -0.08205331870892661,
+                "Silicon": -0.08205331870892661,
+                "Dopant": -0.08205331870892663
+            },
+            "variances": {
+                "Valence and conduction bands": 0.4269911597073703,
+                "Electronvolt": 0.4223317255313614,
+                "Electron": 0.4269911597073703,
+                "Photon": 0.44863699872058127,
+                "OpenCourseWare": 0.44863699872058127,
+                "Kelvin": 0.46732672622042587,
+                "Standard deviation": 0.46732672622042587,
+                "Volt": 0.46732672622042587,
+                "Maxwell (unit)": 0.46732672622042587,
+                "Boron": 0.47311411977439327,
+                "Silicon": 0.47311411977439327,
+                "Dopant": 0.47311411977439327
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 65018.0,
+            "means": {
+                "Valence and conduction bands": -0.23903014153326255,
+                "Electronvolt": -0.27038038254708074,
+                "Electron": -0.23903014153326255,
+                "Photon": -0.29140715187289,
+                "OpenCourseWare": -0.2622055897664931,
+                "Kelvin": -0.11699274758262913,
+                "Standard deviation": -0.11699274758262913,
+                "Volt": -0.11699274758262913,
+                "Maxwell (unit)": -0.11699274758262916,
+                "Boron": -0.08205331870892661,
+                "Silicon": -0.08205331870892661,
+                "Dopant": -0.08205331870892663,
+                "Periodic table": -0.1342579960485094,
+                "Transcendental number": -0.1342579960485094,
+                "Speed of light": -0.13425799604850944,
+                "Chemistry": -0.5535555253114702,
+                "Playoff format": -0.13425799604850944,
+                "Free will": -0.14042680383052356,
+                "Text messaging": -0.14042680383052356,
+                "Mobile phone": -0.14042680383052356,
+                "Euro": -0.14042680383052356,
+                "Academic dishonesty": -0.15141612472175564,
+                "Protein–protein interaction": -0.15141612472175564,
+                "Philosopher": -0.15141612472175567,
+                "Secondary school": -0.15141612472175567,
+                "Homework": -0.11437506108941019,
+                "Solid-state chemistry": -0.11437506108941019,
+                "Humanities": -0.1143750610894102,
+                "Thursday": -0.11437506108941023,
+                "Electrochemistry": -0.10788204917400429,
+                "Photodetector": -0.10788204917400429,
+                "Internal combustion engine": -0.10788204917400429,
+                "Plywood": -0.11770942676835162,
+                "Chemical engineering": -0.11770942676835162,
+                "Pine": -0.11770942676835162,
+                "Chemical bond": -0.11770942676835162
+            },
+            "variances": {
+                "Valence and conduction bands": 0.4269911597073703,
+                "Electronvolt": 0.4223317255313614,
+                "Electron": 0.4269911597073703,
+                "Photon": 0.4196627664001856,
+                "OpenCourseWare": 0.42302714937532665,
+                "Kelvin": 0.46732672622042587,
+                "Standard deviation": 0.46732672622042587,
+                "Volt": 0.46732672622042587,
+                "Maxwell (unit)": 0.46732672622042587,
+                "Boron": 0.47311411977439327,
+                "Silicon": 0.47311411977439327,
+                "Dopant": 0.47311411977439327,
+                "Periodic table": 0.4651960555953706,
+                "Transcendental number": 0.4651960555953706,
+                "Speed of light": 0.4651960555953706,
+                "Chemistry": 0.36750075689858225,
+                "Playoff format": 0.4651960555953706,
+                "Free will": 0.4640116634278014,
+                "Text messaging": 0.4640116634278014,
+                "Mobile phone": 0.4640116634278014,
+                "Euro": 0.4640116634278014,
+                "Academic dishonesty": 0.46274396542965146,
+                "Protein–protein interaction": 0.46274396542965146,
+                "Philosopher": 0.46274396542965146,
+                "Secondary school": 0.46274396542965146,
+                "Homework": 0.46762947386768927,
+                "Solid-state chemistry": 0.46762947386768927,
+                "Humanities": 0.46762947386768927,
+                "Thursday": 0.46762947386768927,
+                "Electrochemistry": 0.46819049879877084,
+                "Photodetector": 0.46819049879877084,
+                "Internal combustion engine": 0.46819049879877084,
+                "Plywood": 0.4668147246119498,
+                "Chemical engineering": 0.4668147246119498,
+                "Pine": 0.4668147246119498,
+                "Chemical bond": 0.4668147246119498
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 28988,
+            "topic_name": "Valence and conduction bands",
+            "topic_url": "https://en.wikipedia.org/wiki/Valence_and_conduction_bands",
+            "mean": -0.23903014153326255,
+            "variance": 0.4269911597073703,
+            "interest_mean": 1.7643169223898365,
+            "interest_var": 0.31004483090132495,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 8560,
+            "topic_name": "Electronvolt",
+            "topic_url": "https://en.wikipedia.org/wiki/Electronvolt",
+            "mean": -0.27038038254708074,
+            "variance": 0.4223317255313614,
+            "interest_mean": 1.9099276573026445,
+            "interest_var": 0.3105556205529199,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 8504,
+            "topic_name": "Electron",
+            "topic_url": "https://en.wikipedia.org/wiki/Electron",
+            "mean": -0.23903014153326255,
+            "variance": 0.4269911597073703,
+            "interest_mean": 1.7643169223898365,
+            "interest_var": 0.31004483090132495,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 20211,
+            "topic_name": "Photon",
+            "topic_url": "https://en.wikipedia.org/wiki/Photon",
+            "mean": -0.29140715187289,
+            "variance": 0.4196627664001856,
+            "interest_mean": 1.9099276573026445,
+            "interest_var": 0.3105556205529199,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 18939,
+            "topic_name": "OpenCourseWare",
+            "topic_url": "https://en.wikipedia.org/wiki/OpenCourseWare",
+            "mean": -0.2622055897664931,
+            "variance": 0.42302714937532665,
+            "interest_mean": 1.6213850579549676,
+            "interest_var": 0.31289314819789577,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 14332,
+            "topic_name": "Kelvin",
+            "topic_url": "https://en.wikipedia.org/wiki/Kelvin",
+            "mean": -0.11699274758262913,
+            "variance": 0.46732672622042587,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 25899,
+            "topic_name": "Standard deviation",
+            "topic_url": "https://en.wikipedia.org/wiki/Standard_deviation",
+            "mean": -0.11699274758262913,
+            "variance": 0.46732672622042587,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 29466,
+            "topic_name": "Volt",
+            "topic_url": "https://en.wikipedia.org/wiki/Volt",
+            "mean": -0.11699274758262913,
+            "variance": 0.46732672622042587,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 16394,
+            "topic_name": "Maxwell (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Maxwell_(unit)",
+            "mean": -0.11699274758262916,
+            "variance": 0.46732672622042587,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 2925,
+            "topic_name": "Boron",
+            "topic_url": "https://en.wikipedia.org/wiki/Boron",
+            "mean": -0.08205331870892661,
+            "variance": 0.47311411977439327,
+            "interest_mean": 0.696891962531352,
+            "interest_var": 0.40284447451333677,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 24703,
+            "topic_name": "Silicon",
+            "topic_url": "https://en.wikipedia.org/wiki/Silicon",
+            "mean": -0.08205331870892661,
+            "variance": 0.47311411977439327,
+            "interest_mean": 0.696891962531352,
+            "interest_var": 0.40284447451333677,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 7906,
+            "topic_name": "Dopant",
+            "topic_url": "https://en.wikipedia.org/wiki/Dopant",
+            "mean": -0.08205331870892663,
+            "variance": 0.47311411977439327,
+            "interest_mean": 0.696891962531352,
+            "interest_var": 0.40284447451333677,
+            "timestamp": 64909.0
+        },
+        {
+            "topic_id": 19940,
+            "topic_name": "Periodic table",
+            "topic_url": "https://en.wikipedia.org/wiki/Periodic_table",
+            "mean": -0.1342579960485094,
+            "variance": 0.4651960555953706,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 28108,
+            "topic_name": "Transcendental number",
+            "topic_url": "https://en.wikipedia.org/wiki/Transcendental_number",
+            "mean": -0.1342579960485094,
+            "variance": 0.4651960555953706,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 25644,
+            "topic_name": "Speed of light",
+            "topic_url": "https://en.wikipedia.org/wiki/Speed_of_light",
+            "mean": -0.13425799604850944,
+            "variance": 0.4651960555953706,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 4195,
+            "topic_name": "Chemistry",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemistry",
+            "mean": -0.5535555253114702,
+            "variance": 0.36750075689858225,
+            "interest_mean": 3.0259826072355915,
+            "interest_var": 0.23952420976116984,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 20520,
+            "topic_name": "Playoff format",
+            "topic_url": "https://en.wikipedia.org/wiki/Playoff_format",
+            "mean": -0.13425799604850944,
+            "variance": 0.4651960555953706,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 10515,
+            "topic_name": "Free will",
+            "topic_url": "https://en.wikipedia.org/wiki/Free_will",
+            "mean": -0.14042680383052356,
+            "variance": 0.4640116634278014,
+            "interest_mean": 0.8988094912797188,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 27433,
+            "topic_name": "Text messaging",
+            "topic_url": "https://en.wikipedia.org/wiki/Text_messaging",
+            "mean": -0.14042680383052356,
+            "variance": 0.4640116634278014,
+            "interest_mean": 0.8988094912797188,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 17141,
+            "topic_name": "Mobile phone",
+            "topic_url": "https://en.wikipedia.org/wiki/Mobile_phone",
+            "mean": -0.14042680383052356,
+            "variance": 0.4640116634278014,
+            "interest_mean": 0.8988094912797188,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 9137,
+            "topic_name": "Euro",
+            "topic_url": "https://en.wikipedia.org/wiki/Euro",
+            "mean": -0.14042680383052356,
+            "variance": 0.4640116634278014,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 164,
+            "topic_name": "Academic dishonesty",
+            "topic_url": "https://en.wikipedia.org/wiki/Academic_dishonesty",
+            "mean": -0.15141612472175564,
+            "variance": 0.46274396542965146,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 21671,
+            "topic_name": "Protein–protein interaction",
+            "topic_url": "https://en.wikipedia.org/wiki/Protein–protein_interaction",
+            "mean": -0.15141612472175564,
+            "variance": 0.46274396542965146,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 20128,
+            "topic_name": "Philosopher",
+            "topic_url": "https://en.wikipedia.org/wiki/Philosopher",
+            "mean": -0.15141612472175567,
+            "variance": 0.46274396542965146,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 23970,
+            "topic_name": "Secondary school",
+            "topic_url": "https://en.wikipedia.org/wiki/Secondary_school",
+            "mean": -0.15141612472175567,
+            "variance": 0.46274396542965146,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 12531,
+            "topic_name": "Homework",
+            "topic_url": "https://en.wikipedia.org/wiki/Homework",
+            "mean": -0.11437506108941019,
+            "variance": 0.46762947386768927,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 25321,
+            "topic_name": "Solid-state chemistry",
+            "topic_url": "https://en.wikipedia.org/wiki/Solid-state_chemistry",
+            "mean": -0.11437506108941019,
+            "variance": 0.46762947386768927,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 12751,
+            "topic_name": "Humanities",
+            "topic_url": "https://en.wikipedia.org/wiki/Humanities",
+            "mean": -0.1143750610894102,
+            "variance": 0.46762947386768927,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 27682,
+            "topic_name": "Thursday",
+            "topic_url": "https://en.wikipedia.org/wiki/Thursday",
+            "mean": -0.11437506108941023,
+            "variance": 0.46762947386768927,
+            "interest_mean": 0.7952676618713339,
+            "interest_var": 0.40509901817733585,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 8479,
+            "topic_name": "Electrochemistry",
+            "topic_url": "https://en.wikipedia.org/wiki/Electrochemistry",
+            "mean": -0.10788204917400429,
+            "variance": 0.46819049879877084,
+            "interest_mean": 0.4986892073336187,
+            "interest_var": 0.40832156132007197,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 20194,
+            "topic_name": "Photodetector",
+            "topic_url": "https://en.wikipedia.org/wiki/Photodetector",
+            "mean": -0.10788204917400429,
+            "variance": 0.46819049879877084,
+            "interest_mean": 0.4986892073336186,
+            "interest_var": 0.40832156132007197,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 13714,
+            "topic_name": "Internal combustion engine",
+            "topic_url": "https://en.wikipedia.org/wiki/Internal_combustion_engine",
+            "mean": -0.10788204917400429,
+            "variance": 0.46819049879877084,
+            "interest_mean": 0.4986892073336186,
+            "interest_var": 0.40832156132007197,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 20567,
+            "topic_name": "Plywood",
+            "topic_url": "https://en.wikipedia.org/wiki/Plywood",
+            "mean": -0.11770942676835162,
+            "variance": 0.4668147246119498,
+            "interest_mean": 0.6561879731291375,
+            "interest_var": 0.40578996759252745,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 4167,
+            "topic_name": "Chemical engineering",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemical_engineering",
+            "mean": -0.11770942676835162,
+            "variance": 0.4668147246119498,
+            "interest_mean": 0.6561879731291375,
+            "interest_var": 0.40578996759252745,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 20355,
+            "topic_name": "Pine",
+            "topic_url": "https://en.wikipedia.org/wiki/Pine",
+            "mean": -0.11770942676835162,
+            "variance": 0.4668147246119498,
+            "interest_mean": 0.6561879731291377,
+            "interest_var": 0.40578996759252745,
+            "timestamp": 65018.0
+        },
+        {
+            "topic_id": 4162,
+            "topic_name": "Chemical bond",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemical_bond",
+            "mean": -0.11770942676835162,
+            "variance": 0.4668147246119498,
+            "interest_mean": 0.6561879731291378,
+            "interest_var": 0.40578996759252745,
+            "timestamp": 65018.0
+        }
+    ]
+}

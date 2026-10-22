@@ -1,0 +1,380 @@
+{
+    "user_id": 17326,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.5258043433482072,
+            "variance": 0.4330624450591012
+        },
+        "interest": {
+            "mean": 0.1796050414327311,
+            "variance": 0.3406347934270655
+        },
+        "bias": {
+            "mean": -0.2850524748886261,
+            "variance": 0.28095801970254897
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 37284.0,
+            "means": {
+                "Conservation of energy": -0.10628892808926571,
+                "Heat engine": -0.10628892808926571,
+                "Reservoir": -0.10628892808926571,
+                "Internal energy": -0.10628892808926571,
+                "Temperature": -0.10628892808926571
+            },
+            "variances": {
+                "Conservation of energy": 0.46932878509107634,
+                "Heat engine": 0.46932878509107634,
+                "Reservoir": 0.46932878509107634,
+                "Internal energy": 0.46932878509107634,
+                "Temperature": 0.46932878509107634
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 37688.0,
+            "means": {
+                "Conservation of energy": -0.10628892808926571,
+                "Heat engine": -0.10628892808926571,
+                "Reservoir": -0.10628892808926571,
+                "Internal energy": -0.10628892808926571,
+                "Temperature": 0.14502025037735036,
+                "Mechanical equilibrium": 0.2677325432083266,
+                "Thermal equilibrium": 0.2677325432083266,
+                "Thermodynamic equilibrium": 0.2677325432083266,
+                "Problem set": 0.26773254320832657
+            },
+            "variances": {
+                "Conservation of energy": 0.46932878509107634,
+                "Heat engine": 0.46932878509107634,
+                "Reservoir": 0.46932878509107634,
+                "Internal energy": 0.46932878509107634,
+                "Temperature": 0.4097050741110124,
+                "Mechanical equilibrium": 0.4323286829597822,
+                "Thermal equilibrium": 0.4323286829597822,
+                "Thermodynamic equilibrium": 0.4323286829597822,
+                "Problem set": 0.4323286829597822
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 38880.0,
+            "means": {
+                "Conservation of energy": -0.10628892808926571,
+                "Heat engine": -0.10628892808926571,
+                "Reservoir": -0.10628892808926571,
+                "Internal energy": -0.10628892808926571,
+                "Temperature": 0.21298133882854053,
+                "Mechanical equilibrium": 0.11613990945327204,
+                "Thermal equilibrium": 0.11613990945327204,
+                "Thermodynamic equilibrium": 0.11613990945327202,
+                "Problem set": 0.11613990945327202,
+                "Gas thermometer": 0.1261239562134864,
+                "Thermometer": 0.23267849909615648,
+                "Absolute zero": -0.08323457576244446,
+                "Gas": -0.08323457576244446,
+                "Boiling point": 0.22133507722350126,
+                "Celsius": 0.22133507722350132,
+                "Melting point": 0.1298908276576675,
+                "Alcoholism": 0.1298908276576675,
+                "Round shot": 0.1298908276576675
+            },
+            "variances": {
+                "Conservation of energy": 0.46932878509107634,
+                "Heat engine": 0.46932878509107634,
+                "Reservoir": 0.46932878509107634,
+                "Internal energy": 0.46932878509107634,
+                "Temperature": 0.29642998383812347,
+                "Mechanical equilibrium": 0.3997955432141297,
+                "Thermal equilibrium": 0.3997955432141297,
+                "Thermodynamic equilibrium": 0.3997955432141297,
+                "Problem set": 0.3997955432141297,
+                "Gas thermometer": 0.41016962015015745,
+                "Thermometer": 0.36159571320762696,
+                "Absolute zero": 0.4729447645673518,
+                "Gas": 0.4729447645673518,
+                "Boiling point": 0.42983720444334134,
+                "Celsius": 0.42983720444334134,
+                "Melting point": 0.42782013522810663,
+                "Alcoholism": 0.42782013522810663,
+                "Round shot": 0.42782013522810663
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 39013.0,
+            "means": {
+                "Conservation of energy": -0.10628892808926571,
+                "Heat engine": -0.10628892808926571,
+                "Reservoir": -0.10628892808926571,
+                "Internal energy": -0.10628892808926571,
+                "Temperature": 0.15468492298106634,
+                "Mechanical equilibrium": 0.11613990945327204,
+                "Thermal equilibrium": 0.11613990945327204,
+                "Thermodynamic equilibrium": 0.11613990945327202,
+                "Problem set": 0.11613990945327202,
+                "Gas thermometer": 0.045459313471638015,
+                "Thermometer": 0.16156648204282348,
+                "Absolute zero": -0.1762446832796391,
+                "Gas": -0.1762446832796391,
+                "Boiling point": 0.22133507722350126,
+                "Celsius": 0.22133507722350132,
+                "Melting point": 0.1298908276576675,
+                "Alcoholism": 0.1298908276576675,
+                "Round shot": 0.1298908276576675
+            },
+            "variances": {
+                "Conservation of energy": 0.46932878509107634,
+                "Heat engine": 0.46932878509107634,
+                "Reservoir": 0.46932878509107634,
+                "Internal energy": 0.46932878509107634,
+                "Temperature": 0.28504196624513123,
+                "Mechanical equilibrium": 0.3997955432141297,
+                "Thermal equilibrium": 0.3997955432141297,
+                "Thermodynamic equilibrium": 0.3997955432141297,
+                "Problem set": 0.3997955432141297,
+                "Gas thermometer": 0.3883658874212175,
+                "Thermometer": 0.34465036821610034,
+                "Absolute zero": 0.44395633333715634,
+                "Gas": 0.44395633333715634,
+                "Boiling point": 0.42983720444334134,
+                "Celsius": 0.42983720444334134,
+                "Melting point": 0.42782013522810663,
+                "Alcoholism": 0.42782013522810663,
+                "Round shot": 0.42782013522810663
+            }
+        },
+        {
+            "session_id": 5,
+            "timestamp": 39116.0,
+            "means": {
+                "Conservation of energy": -0.10628892808926571,
+                "Heat engine": -0.10628892808926571,
+                "Reservoir": -0.10628892808926571,
+                "Internal energy": -0.10628892808926571,
+                "Temperature": 0.11273987293263713,
+                "Mechanical equilibrium": 0.11613990945327204,
+                "Thermal equilibrium": 0.11613990945327204,
+                "Thermodynamic equilibrium": 0.11613990945327202,
+                "Problem set": 0.11613990945327202,
+                "Gas thermometer": -0.011690259272245046,
+                "Thermometer": 0.11084982044218869,
+                "Absolute zero": -0.2415746094882232,
+                "Gas": -0.2415746094882232,
+                "Boiling point": 0.22133507722350126,
+                "Celsius": 0.22133507722350132,
+                "Melting point": 0.1298908276576675,
+                "Alcoholism": 0.1298908276576675,
+                "Round shot": 0.1298908276576675
+            },
+            "variances": {
+                "Conservation of energy": 0.46932878509107634,
+                "Heat engine": 0.46932878509107634,
+                "Reservoir": 0.46932878509107634,
+                "Internal energy": 0.46932878509107634,
+                "Temperature": 0.2760135187751253,
+                "Mechanical equilibrium": 0.3997955432141297,
+                "Thermal equilibrium": 0.3997955432141297,
+                "Thermodynamic equilibrium": 0.3997955432141297,
+                "Problem set": 0.3997955432141297,
+                "Gas thermometer": 0.3716057483677246,
+                "Thermometer": 0.3314510056364149,
+                "Absolute zero": 0.4220547265785395,
+                "Gas": 0.4220547265785395,
+                "Boiling point": 0.42983720444334134,
+                "Celsius": 0.42983720444334134,
+                "Melting point": 0.42782013522810663,
+                "Alcoholism": 0.42782013522810663,
+                "Round shot": 0.42782013522810663
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 5661,
+            "topic_name": "Conservation of energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Conservation_of_energy",
+            "mean": -0.10628892808926571,
+            "variance": 0.46932878509107634,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 37284.0
+        },
+        {
+            "topic_id": 12143,
+            "topic_name": "Heat engine",
+            "topic_url": "https://en.wikipedia.org/wiki/Heat_engine",
+            "mean": -0.10628892808926571,
+            "variance": 0.46932878509107634,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 37284.0
+        },
+        {
+            "topic_id": 22895,
+            "topic_name": "Reservoir",
+            "topic_url": "https://en.wikipedia.org/wiki/Reservoir",
+            "mean": -0.10628892808926571,
+            "variance": 0.46932878509107634,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 37284.0
+        },
+        {
+            "topic_id": 13717,
+            "topic_name": "Internal energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Internal_energy",
+            "mean": -0.10628892808926571,
+            "variance": 0.46932878509107634,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 37284.0
+        },
+        {
+            "topic_id": 27283,
+            "topic_name": "Temperature",
+            "topic_url": "https://en.wikipedia.org/wiki/Temperature",
+            "mean": 0.11273987293263713,
+            "variance": 0.2760135187751253,
+            "interest_mean": 2.9732513217417242,
+            "interest_var": 0.21837012807499562,
+            "timestamp": 39116.0
+        },
+        {
+            "topic_id": 16461,
+            "topic_name": "Mechanical equilibrium",
+            "topic_url": "https://en.wikipedia.org/wiki/Mechanical_equilibrium",
+            "mean": 0.11613990945327204,
+            "variance": 0.3997955432141297,
+            "interest_mean": 1.006409783533165,
+            "interest_var": 0.37187771158926075,
+            "timestamp": 38880.0
+        },
+        {
+            "topic_id": 27556,
+            "topic_name": "Thermal equilibrium",
+            "topic_url": "https://en.wikipedia.org/wiki/Thermal_equilibrium",
+            "mean": 0.11613990945327204,
+            "variance": 0.3997955432141297,
+            "interest_mean": 1.006409783533165,
+            "interest_var": 0.37187771158926075,
+            "timestamp": 38880.0
+        },
+        {
+            "topic_id": 27575,
+            "topic_name": "Thermodynamic equilibrium",
+            "topic_url": "https://en.wikipedia.org/wiki/Thermodynamic_equilibrium",
+            "mean": 0.11613990945327202,
+            "variance": 0.3997955432141297,
+            "interest_mean": 1.0064097835331647,
+            "interest_var": 0.37187771158926075,
+            "timestamp": 38880.0
+        },
+        {
+            "topic_id": 21398,
+            "topic_name": "Problem set",
+            "topic_url": "https://en.wikipedia.org/wiki/Problem_set",
+            "mean": 0.11613990945327202,
+            "variance": 0.3997955432141297,
+            "interest_mean": 1.0064097835331647,
+            "interest_var": 0.37187771158926075,
+            "timestamp": 38880.0
+        },
+        {
+            "topic_id": 10909,
+            "topic_name": "Gas thermometer",
+            "topic_url": "https://en.wikipedia.org/wiki/Gas_thermometer",
+            "mean": -0.011690259272245046,
+            "variance": 0.3716057483677246,
+            "interest_mean": 1.2059639695122313,
+            "interest_var": 0.32228726672723246,
+            "timestamp": 39116.0
+        },
+        {
+            "topic_id": 27584,
+            "topic_name": "Thermometer",
+            "topic_url": "https://en.wikipedia.org/wiki/Thermometer",
+            "mean": 0.11084982044218869,
+            "variance": 0.3314510056364149,
+            "interest_mean": 1.523559927022976,
+            "interest_var": 0.28371142273803257,
+            "timestamp": 39116.0
+        },
+        {
+            "topic_id": 131,
+            "topic_name": "Absolute zero",
+            "topic_url": "https://en.wikipedia.org/wiki/Absolute_zero",
+            "mean": -0.2415746094882232,
+            "variance": 0.4220547265785395,
+            "interest_mean": 0.8520630652996983,
+            "interest_var": 0.37314184438590314,
+            "timestamp": 39116.0
+        },
+        {
+            "topic_id": 10901,
+            "topic_name": "Gas",
+            "topic_url": "https://en.wikipedia.org/wiki/Gas",
+            "mean": -0.2415746094882232,
+            "variance": 0.4220547265785395,
+            "interest_mean": 0.8520630652996987,
+            "interest_var": 0.37314184438590314,
+            "timestamp": 39116.0
+        },
+        {
+            "topic_id": 2846,
+            "topic_name": "Boiling point",
+            "topic_url": "https://en.wikipedia.org/wiki/Boiling_point",
+            "mean": 0.22133507722350126,
+            "variance": 0.42983720444334134,
+            "interest_mean": 0.44691217925142407,
+            "interest_var": 0.40950919390816815,
+            "timestamp": 38880.0
+        },
+        {
+            "topic_id": 3942,
+            "topic_name": "Celsius",
+            "topic_url": "https://en.wikipedia.org/wiki/Celsius",
+            "mean": 0.22133507722350132,
+            "variance": 0.42983720444334134,
+            "interest_mean": 0.4469121792514239,
+            "interest_var": 0.40950919390816815,
+            "timestamp": 38880.0
+        },
+        {
+            "topic_id": 16565,
+            "topic_name": "Melting point",
+            "topic_url": "https://en.wikipedia.org/wiki/Melting_point",
+            "mean": 0.1298908276576675,
+            "variance": 0.42782013522810663,
+            "interest_mean": 0.46818694074999007,
+            "interest_var": 0.4077729907607591,
+            "timestamp": 38880.0
+        },
+        {
+            "topic_id": 657,
+            "topic_name": "Alcoholism",
+            "topic_url": "https://en.wikipedia.org/wiki/Alcoholism",
+            "mean": 0.1298908276576675,
+            "variance": 0.42782013522810663,
+            "interest_mean": 0.46818694074998995,
+            "interest_var": 0.4077729907607591,
+            "timestamp": 38880.0
+        },
+        {
+            "topic_id": 23350,
+            "topic_name": "Round shot",
+            "topic_url": "https://en.wikipedia.org/wiki/Round_shot",
+            "mean": 0.1298908276576675,
+            "variance": 0.42782013522810663,
+            "interest_mean": 0.46818694074998995,
+            "interest_var": 0.4077729907607591,
+            "timestamp": 38880.0
+        }
+    ]
+}
