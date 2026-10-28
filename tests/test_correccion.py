@@ -215,12 +215,13 @@ def test_me_interesa_sube_interes_y_baja_varianza():
     assert kc_int.variance < 0.3
 
 
-def test_no_me_interesa_baja_interes_y_sube_varianza():
-    """"no me interesa" reduce la media y aumenta la varianza de interés."""
-    clf, _, kc_int = _classifier_con_topic(mean_int=0.0, var_int=0.1)
+def test_no_me_interesa_baja_interes_y_baja_varianza():
+    """"no me interesa" reduce la media de interés y, como toda corrección
+    explícita, también la varianza (sube la confianza del sistema)."""
+    clf, _, kc_int = _classifier_con_topic(mean_int=0.0, var_int=0.3)
     aplicar_correccion_directa(clf, TOPIC, "no me interesa")
     assert kc_int.mean < 0.0
-    assert kc_int.variance > 0.1
+    assert kc_int.variance < 0.3
 
 
 @pytest.mark.parametrize("tipo", ["me interesa", "no me interesa"])

@@ -9486,6 +9486,62 @@
             "tipo": "sé menos",
             "mean_resultante": -0.379,
             "interest_mean_resultante": 0.6264076123590004
+        },
+        {
+            "timestamp": 1792783210.0181293,
+            "topic_id": 10419,
+            "topic_name": "Fractal",
+            "tipo": "sé más",
+            "mean_resultante": 0.12652174888091464,
+            "interest_mean_resultante": 1.2749048520741288
+        },
+        {
+            "timestamp": 1793072700.8078604,
+            "topic_id": 9692,
+            "topic_name": "Feature extraction",
+            "tipo": "me interesa",
+            "mean_resultante": -0.14378686600728144,
+            "interest_mean_resultante": 1.8360296825626903
+        },
+        {
+            "timestamp": 1793131103.4907243,
+            "topic_id": 9692,
+            "topic_name": "Feature extraction",
+            "tipo": "sé más",
+            "mean_resultante": 0.10621313399271856,
+            "interest_mean_resultante": 1.8360296825626903
+        },
+        {
+            "timestamp": 1793146575.4616125,
+            "topic_id": 9692,
+            "topic_name": "Feature extraction",
+            "tipo": "sé más",
+            "mean_resultante": 0.3562131339927186,
+            "interest_mean_resultante": 1.8360296825626903
+        },
+        {
+            "timestamp": 1793150775.4059064,
+            "topic_id": 9692,
+            "topic_name": "Feature extraction",
+            "tipo": "sé más",
+            "mean_resultante": 0.398,
+            "interest_mean_resultante": 1.8360296825626903
+        },
+        {
+            "timestamp": 1793153478.204531,
+            "topic_id": 499,
+            "topic_name": "Affine transformation",
+            "tipo": "me interesa",
+            "mean_resultante": 0.044918635448001,
+            "interest_mean_resultante": 2.276587815977015
+        },
+        {
+            "timestamp": 1793155240.6896875,
+            "topic_id": 499,
+            "topic_name": "Affine transformation",
+            "tipo": "sé más",
+            "mean_resultante": 0.294918635448001,
+            "interest_mean_resultante": 2.276587815977015
         }
     ],
     "knowledge_components": [
@@ -9493,21 +9549,21 @@
             "topic_id": 9692,
             "topic_name": "Feature extraction",
             "topic_url": "https://en.wikipedia.org/wiki/Feature_extraction",
-            "mean": -0.14378686600728144,
-            "variance": 0.46395121651220567,
-            "interest_mean": 1.0860296825626903,
-            "interest_var": 0.40656920898341337,
-            "timestamp": 79729.0
+            "mean": 0.398,
+            "variance": 0.01395121651220571,
+            "interest_mean": 1.8360296825626903,
+            "interest_var": 0.2565692089834134,
+            "timestamp": 1793150775.4007657
         },
         {
             "topic_id": 499,
             "topic_name": "Affine transformation",
             "topic_url": "https://en.wikipedia.org/wiki/Affine_transformation",
-            "mean": 0.044918635448001,
-            "variance": 0.4020897010342869,
-            "interest_mean": 1.5265878159770152,
-            "interest_var": 0.34429271854255006,
-            "timestamp": 4732765.0
+            "mean": 0.294918635448001,
+            "variance": 0.25208970103428685,
+            "interest_mean": 2.276587815977015,
+            "interest_var": 0.19429271854255006,
+            "timestamp": 1793155240.6856828
         },
         {
             "topic_id": 25630,
@@ -9583,11 +9639,11 @@
             "topic_id": 10419,
             "topic_name": "Fractal",
             "topic_url": "https://en.wikipedia.org/wiki/Fractal",
-            "mean": -0.12347825111908536,
-            "variance": 0.3729368893334874,
+            "mean": 0.12652174888091464,
+            "variance": 0.2229368893334874,
             "interest_mean": 1.2749048520741288,
             "interest_var": 0.35272366460407795,
-            "timestamp": 81049.0
+            "timestamp": 1792783209.99951
         },
         {
             "topic_id": 11509,

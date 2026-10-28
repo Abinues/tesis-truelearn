@@ -1,0 +1,5 @@
+[theme]
+primaryColor = "#3b598d"
+baseFontSize = 19
+metricValueFontSize = "1.9rem"
+headingFontSizes = ["44px", "2.25rem", "1.75rem", "1.5rem", "1.25rem", "1rem"]

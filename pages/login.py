@@ -21,9 +21,11 @@ import re
 import requests
 import streamlit as st
 
+from ajuste_letras import aplicar_letras_grandes
 from shared import BACKEND, get_usuarios, inject_css
 
 inject_css()
+aplicar_letras_grandes()
 
 
 def _pedir(metodo, ruta, **kwargs):
@@ -134,19 +136,20 @@ with col_brand:
     st.markdown("""
     <div style="position:sticky;top:2rem;padding:2rem 1rem;
                 min-height:92vh;display:flex;flex-direction:column;
-                align-items:center;justify-content:center;text-align:center">
-        <div style="font-size:1.7rem;font-weight:800;color:#0f172a;
+                align-items:center;justify-content:center;text-align:center;
+                background:#3b598d;border-radius:16px">
+        <div style="font-size:1.432rem;font-weight:800;color:#ffffff;
                     letter-spacing:-.03em;line-height:1.2;margin-bottom:.6rem">
             TrueLearn
         </div>
-        <div style="font-size:.85rem;color:#64748b;line-height:1.9;
+        <div style="font-size:1.05rem;color:#ffffff;line-height:1.9;
                     margin-bottom:2rem">
             Visualización del perfil<br>del aprendiz y corrección<br>
             del modelo en tiempo real
         </div>
-        <div style="width:40px;height:2px;background:#0ea5e9;
+        <div style="width:40px;height:2px;background:#ffffff;
                     border-radius:2px;margin:0 auto 1.8rem"></div>
-        <div style="font-size:.75rem;color:#94a3b8;line-height:2.1;
+        <div style="font-size:.95rem;color:#ffffff;line-height:2.1;
                     text-align:center">
             Dataset PEEK<br>
             VideoLectures.net<br>
@@ -160,11 +163,11 @@ with col_brand:
 with col_main:
     st.markdown("""
     <div style="padding:2rem 0 1rem">
-        <div style="font-size:1.4rem;font-weight:700;color:#0f172a;
+        <div style="font-size:1.178rem;font-weight:700;color:#0f172a;
                     letter-spacing:-.02em;margin-bottom:.3rem">
             Seleccioná un aprendiz
         </div>
-        <div style="font-size:.83rem;color:#64748b;margin-bottom:1.5rem">
+        <div style="font-size:1.05rem;color:#64748b;margin-bottom:1.5rem">
             Elegí un perfil del menú para visualizar su conocimiento estimado.
         </div>
     </div>
@@ -215,15 +218,15 @@ with col_main:
         st.markdown(f"""
         <div style="background:#f8fafc;border:1px solid #e2e8f0;
                     border-radius:14px;padding:1.2rem 1.4rem;margin:.8rem 0 1rem">
-            <div style="font-size:1rem;font-weight:700;color:#0f172a;
+            <div style="font-size:1.25rem;font-weight:700;color:#0f172a;
                         margin-bottom:.6rem">
                 Aprendiz #{u_sel['user_id']}
-                <span style="font-size:.72rem;font-weight:500;color:#64748b;
+                <span style="font-size:.95rem;font-weight:500;color:#64748b;
                              margin-left:.5rem">
                     {'Activo' if u_sel.get('tipo')=='muchas' else 'Pocas interacciones'}
                 </span>
             </div>
-            <div style="display:flex;gap:1.5rem;font-size:.82rem;color:#475569">
+            <div style="display:flex;gap:1.5rem;font-size:1.02rem;color:#475569">
                 <span><b>{u_sel['interacciones']}</b> eventos</span>
                 <span><b>{tasa_sel}%</b> enganche</span>
                 <span><b>{u_sel.get('sesiones',0)}</b> sesiones</span>
@@ -241,7 +244,7 @@ with col_main:
 
     st.markdown("""
     <div style="background:#fff8ed;border:1px solid #fed7aa;border-radius:10px;
-                padding:.7rem 1rem;font-size:.77rem;color:#92400e;margin-bottom:1rem">
+                padding:.7rem 1rem;font-size:1rem;color:#92400e;margin-bottom:1rem">
         <b>Nota sobre el dataset:</b> PEEK proviene de VideoLectures.net y está
         dominado por Ciencias de la Computación e IA. Los perfiles reflejan ese
         sesgo temático y no representan aprendices de otras disciplinas.

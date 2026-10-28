@@ -1,14 +1,21 @@
 """
-Página «¿Cómo avanzó el aprendizaje con el tiempo?» (Evolución del aprendizaje).
+Página «Análisis de sesiones».
 
-Muestra cómo cambió el conocimiento estimado sesión a sesión:
+Muestra cómo cambió el conocimiento estimado sesión a sesión. Debajo del
+título hay un selector de vistas y un control deslizante para elegir el rango
+de sesiones; la página muestra solo la vista elegida:
 
-    - Conocimiento promedio en la primera y en la última sesión.
-    - Gráfico de ríos con los 5 temas cuyo conocimiento más cambió.
-    - Línea de evolución del conocimiento, con filtro por cantidad de
-      sesiones, y marcas del mejor momento, del punto más bajo y del promedio.
-    - Tabla desplegable con el conocimiento promedio y los temas activos de
-      cada sesión.
+    - DETALLE DE SESIONES: conocimiento promedio en la primera y en la última
+      sesión del rango (tarjetas AL INICIO y AL FINAL) y una tabla con el
+      conocimiento promedio y los temas activos de cada sesión.
+    - ¿QUÉ 5 TEMAS CAMBIARON MÁS CON EL TIEMPO?: gráfico de ríos con los 5
+      temas cuyo conocimiento más cambió dentro del rango.
+    - EVOLUCIÓN DEL CONOCIMIENTO PROMEDIO DEL ESTUDIANTE: línea de evolución
+      del conocimiento, con marcas del mejor momento, del punto más bajo y del
+      promedio.
+
+El control deslizante es único para las tres vistas: al cambiar de vista se
+conserva el rango elegido.
 
 El conocimiento de cada sesión es el promedio del nivel de conocimiento de los
 temas activos en esa sesión (los que el estudiante ya había visto hasta ese
@@ -18,16 +25,29 @@ conocimiento» de la página Resumen: porcentaje del promedio de los ``mean``.
 Estado de sesión que usa:
     uid_seleccionado: Identificador del aprendiz elegido.
     perfil_actual: Perfil del aprendiz (si falta, se pide al backend).
+    sesiones_vista: Vista elegida en el selector.
+    ses_rango_<uid>: Rango de sesiones elegido en el control deslizante.
     popup_open, popup_topic: Control del popup de corrección.
 """
+import json
+
 import pandas as pd
 import streamlit as st
 from streamlit_echarts import JsCode, st_echarts
 
-from logic.dominio import pct_certeza, pct_conocimiento
+from logic.dominio import pct_conocimiento
+from ajuste_letras import aplicar_letras_grandes
 from shared import GRID_COL, TEAL, get_perfil, inject_css, popup_editar
 
+# Los tooltips con nombres de tema largos se mantienen dentro del gráfico y
+# pasan a varias líneas, en vez de salirse de la pantalla.
+TOOLTIP_AJUSTE = {
+    "confine": True,
+    "extraCssText": "max-width:340px;white-space:normal;word-break:break-word;",
+}
+
 inject_css()
+aplicar_letras_grandes()
 
 uid    = st.session_state.get("uid_seleccionado")
 perfil = st.session_state.get("perfil_actual") or get_perfil(uid)
@@ -35,19 +55,12 @@ if not perfil or not uid:
     st.info("Seleccioná un aprendiz para comenzar.")
     st.stop()
 
-kcs       = perfil.get("knowledge_components", [])
 historial = perfil.get("session_history", [])
-df_kcs    = pd.DataFrame(kcs) if kcs else pd.DataFrame()
 
 if st.session_state.get("popup_open") and st.session_state.get("popup_topic"):
     popup_editar(st.session_state["popup_topic"], uid)
 
-st.title(":material/show_chart: ¿Cómo avanzó el aprendizaje con el tiempo?")
-st.markdown(
-    "Acá podés ver cómo fue creciendo el conocimiento del estudiante sesión a sesión, "
-    "qué temas ganaron o perdieron protagonismo, y cómo el sistema fue ganando confianza "
-    "en sus estimaciones a medida que el estudiante interactuó más."
-)
+st.title(":material/show_chart: Análisis de sesiones")
 
 if not historial:
     st.warning("Todavía no hay historial de sesiones para este estudiante.")
@@ -56,72 +69,122 @@ if not historial:
 rows = []
 for s in historial:
     means = s.get("means", {})
-    vars_ = s.get("variances", {})
     promedio_sesion = pct_conocimiento(sum(means.values()) / len(means)) if means else 0.0
     rows.append({
-        "Sesión":     s["session_id"],
-        "timestamp":  s.get("timestamp", 0),
-        "promedio":   promedio_sesion,
-        "n_temas":    len(means),
-        "mean_var":   (sum(vars_.values()) / len(vars_)) if vars_ else 0.5,
-        "_means":     means,
+        "Sesión":   s["session_id"],
+        "promedio": promedio_sesion,
+        "n_temas":  len(means),
     })
 df_hist = pd.DataFrame(rows).sort_values("Sesión")
 
-first_pct  = float(df_hist["promedio"].iloc[0])
-last_pct   = float(df_hist["promedio"].iloc[-1])
-mean_var_f = df_kcs["variance"].mean() if not df_kcs.empty else 0.5
-cert_pct   = pct_certeza(mean_var_f)
+V_DETALLE, V_TEMAS, V_EVOL = (
+    "DETALLE DE SESIONES",
+    "¿QUÉ 5 TEMAS CAMBIARON MÁS CON EL TIEMPO?",
+    "EVOLUCIÓN DEL CONOCIMIENTO PROMEDIO DEL ESTUDIANTE",
+)
+vista = st.pills(
+    "Vista",
+    [V_EVOL, V_TEMAS, V_DETALLE],
+    default=V_EVOL,
+    key="sesiones_vista",
+    label_visibility="collapsed",
+) or V_EVOL
 
-col_sup_izq, col_sup_der = st.columns([1, 8], gap="small")
+# ── Control deslizante: qué sesiones se muestran (vale para las tres vistas) ──
+ids = df_hist["Sesión"].tolist()
+if len(ids) >= 2:
+    ses_ini, ses_fin = st.select_slider(
+        "Sesiones a mostrar:",
+        options=ids,
+        value=(ids[0], ids[-1]),
+        key=f"ses_rango_{uid}",
+    )
+else:
+    ses_ini = ses_fin = ids[0]
 
-with col_sup_izq:
-    st.metric("AL INICIO", f"{first_pct:.1f}%",border=True,width=190,height=155,
-                help="Nivel de conocimiento promedio del estudiante en su primera sesión registrada, calculado sobre los temas activos en ese momento.")
-    
-    st.metric("AL FINAL", f"{last_pct:.1f}%",
-                delta=f"{last_pct - first_pct:+.1f}%",border=True,width=190,height=155,
-                delta_color="blue",
-                help="Nivel de conocimiento promedio del estudiante en su sesión más reciente, calculado sobre los temas activos en ese momento. La flecha muestra cuánto cambió desde la primera sesión.")
+df_p     = df_hist[(df_hist["Sesión"] >= ses_ini) & (df_hist["Sesión"] <= ses_fin)]
+hist_p   = [s for s in historial if ses_ini <= s["session_id"] <= ses_fin]
+st.caption(f"Mostrando {len(df_p)} de {len(df_hist)} sesiones "
+           f"(de la sesión {ses_ini} a la {ses_fin}).")
 
-with col_sup_der:
+first_pct = float(df_p["promedio"].iloc[0])
+last_pct  = float(df_p["promedio"].iloc[-1])
+
+
+# ── DETALLE DE SESIONES ─────────────────────────────────────────────────────
+if vista == V_DETALLE:
+    col_tarjetas, col_tabla = st.columns([1, 2.4], gap="small")
+
+    with col_tarjetas:
+        st.metric("AL INICIO", f"{first_pct:.1f}%", border=True, height=185,
+                  help="Nivel de conocimiento promedio del estudiante en la primera sesión del rango elegido, calculado sobre los temas activos en ese momento.")
+        st.metric("AL FINAL", f"{last_pct:.1f}%",
+                  delta=f"{last_pct - first_pct:+.1f}%", border=True, height=185,
+                  delta_color="blue",
+                  help="Nivel de conocimiento promedio del estudiante en la última sesión del rango elegido, calculado sobre los temas activos en ese momento. La flecha muestra cuánto cambió desde la primera sesión del rango.")
+
+    with col_tabla:
+        df_show = df_p[["Sesión", "promedio", "n_temas"]].rename(
+            columns={"promedio": "Conocimiento promedio", "n_temas": "Temas activos"})
+        st.dataframe(
+            df_show,
+            width="stretch", hide_index=True, height=396,
+            column_config={
+                "Conocimiento promedio": st.column_config.NumberColumn(format="%.1f%%"),
+            },
+        )
+
+
+# ── ¿QUÉ 5 TEMAS CAMBIARON MÁS CON EL TIEMPO? ───────────────────────────────
+elif vista == V_TEMAS:
     with st.container(border=True):
-        st.markdown("**¿QUÉ 5 TEMAS CAMBIARON MÁS CON EL TIEMPO?**")
-
         temas_var = {}
-        for s in historial:
+        for s in hist_p:
             for tema, val in s.get("means", {}).items():
                 temas_var.setdefault(tema, []).append(val)
         variaciones = {t: max(v)-min(v) for t,v in temas_var.items() if len(v)>1}
         top5 = sorted(variaciones, key=variaciones.get, reverse=True)[:5]
 
+        # Nombre corto para dibujar en el gráfico (único aunque dos temas
+        # empiecen igual) y nombre completo para el tooltip.
+        corto = {}
+        for tema in top5:
+            nombre, n = tema[:22], 2
+            while nombre in corto.values():
+                nombre, n = f"{tema[:19]} ({n})", n + 1
+            corto[tema] = nombre
+        completo = {v: k for k, v in corto.items()}
+
         river_data = []
-        for s in historial:
+        for s in hist_p:
             tid = s["session_id"]
             for tema in top5:
                 raw = s.get("means",{}).get(tema, 0)
                 pct = max(pct_conocimiento(raw), 0.1)
-                river_data.append([tid, pct, tema[:22]])
+                river_data.append([tid, pct, corto[tema]])
 
         if river_data:
             river_opt = {
                 "tooltip": {"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"rgba(0,0,0,0.2)","width":1}},
+                            **TOOLTIP_AJUSTE,
                             "formatter": JsCode(
                                 "function(params){"
+                                f"  var completo = {json.dumps(completo, ensure_ascii=False)};"
                                 "  var out = 'Sesión ' + params[0].value[0] + '<br/>';"
                                 "  params.forEach(function(p){"
-                                "    out += p.value[2] + ': ' + p.value[1].toFixed(1) + '%<br/>';"
+                                "    out += (completo[p.value[2]] || p.value[2]) + ': ' + p.value[1].toFixed(1) + '%<br/>';"
                                 "  });"
                                 "  return out;"
                                 "}"
                             )},
-                "legend":  {"data":[t[:22] for t in top5],"bottom":0,"type":"scroll","textStyle":{"fontSize":10}},
-                "singleAxis": {"top":40,"bottom":60,"axisTick":{},"axisLabel":{},
-                            "type":"value","name":"Sesión",
+                "legend":  {"data":[corto[t] for t in top5],"bottom":0,"type":"scroll","textStyle":{"fontSize":15}},
+                "singleAxis": {"top":40,"right":80,"bottom":80,"axisTick":{},"axisLabel":{"fontSize":15},"nameTextStyle":{"fontSize":15},
+                            "type":"value","name":"Sesión","min":int(ses_ini),"max":int(ses_fin),
                             "axisPointer":{"animation":True,"label":{"show":True}},
                             "splitLine":{"show":True,"lineStyle":{"type":"dashed","opacity":0.2}}},
                 "series": [{
                     "type": "themeRiver",
+                    "label": {"fontSize": 15},
                     "color": [
                         "#3b598d",
                         "#8d3b59",
@@ -138,57 +201,33 @@ with col_sup_der:
                     "data": river_data
                 }],
             }
-            st_echarts(river_opt, height="250px", key="themeriver", theme="streamlit")
+            st_echarts(river_opt, height="380px", key="themeriver", theme="streamlit")
         else:
-            st.info("No hay suficientes datos para mostrar este gráfico.")
+            st.info("Elegí un rango de al menos 2 sesiones para ver qué temas cambiaron más.")
 
 
-col_inf_izq, col_inf_der = st.columns([2.5, 1], gap="small")
-
-with col_inf_izq:
+# ── EVOLUCIÓN DEL CONOCIMIENTO PROMEDIO DEL ESTUDIANTE ──────────────────────
+else:
     with st.container(border=True):
-        st.markdown("**EVOLUCIÓN DEL CONOCIMIENTO PROMEDIO DEL ESTUDIANTE**")
-
-        opts_s = ["Todas las sesiones"]
-        if len(df_hist) >= 5:
-            opts_s.append("Últimas 5")
-        if len(df_hist) >= 10:
-            opts_s.append("Últimas 10")
-        if len(df_hist) >= 25:
-            opts_s.append("Últimas 25")
-
-        sel = st.radio(
-                "Mostrar",
-                opts_s,
-                horizontal=True,
-                key="ses_lim_ev",
-                label_visibility="collapsed"
-            )
-
-        df_p = df_hist.copy()
-        limite = {"Últimas 5": 5, "Últimas 10": 10, "Últimas 25": 25}.get(sel)
-        if limite:
-            df_p = df_p.tail(limite)
-
         vals_norm = df_p["promedio"].tolist()
 
         line_opt = {
             "tooltip": {"trigger": "axis", "axisPointer": {"type": "cross"},
                         "backgroundColor": "#0f172a", "borderColor": "#0f172a",
-                        "textStyle": {"color": "#f8fafc", "fontSize": 12},
+                        "textStyle": {"color": "#f8fafc", "fontSize": 16},
                         "formatter": "Sesión {b0}<br/>Conocimiento promedio: {c0}%"},
-            "grid": {"left":"3%","right":"3%","bottom":"12%","top":"10%","containLabel":True},
+            "grid": {"left":"3%","right":"8%","bottom":"22%","top":"12%","containLabel":True},
             "xAxis": {"type":"category","data":df_p["Sesión"].tolist(),
-                    "name":"Número de sesión","nameLocation":"middle","nameGap":28,
-                    "nameTextStyle":{"color":"#64748b","fontSize":11},
+                    "name":"Número de sesión","nameLocation":"middle","nameGap":38,
+                    "nameTextStyle":{"color":"#64748b","fontSize":15},
                     "axisLine":{"lineStyle":{"color":GRID_COL}},
-                    "axisLabel":{"color":"#64748b","fontSize":11},
+                    "axisLabel":{"color":"#64748b","fontSize":15},
                     "splitLine":{"show":False}},
             "yAxis": {"type":"value","name":"Conocimiento promedio (%)","min":0,"max":100,
-                    "nameLocation":"middle","nameGap":40,
-                    "nameTextStyle":{"color":"#64748b","fontSize":11},
+                    "nameLocation":"middle","nameGap":54,
+                    "nameTextStyle":{"color":"#64748b","fontSize":15},
                     "axisLine":{"show":False},"axisTick":{"show":False},
-                    "axisLabel":{"color":"#64748b","fontSize":11,"formatter":"{value}%"},
+                    "axisLabel":{"color":"#64748b","fontSize":15,"formatter":"{value}%"},
                     "splitLine":{"show":False}},
             "series": [{"name":"Conocimiento promedio (%)","data":vals_norm,
                         "type":"line","smooth":True,"symbol":"circle","symbolSize":7,
@@ -197,17 +236,9 @@ with col_inf_izq:
                         "areaStyle":{"color":{"type":"linear","x":0,"y":0,"x2":0,"y2":1,
                                             "colorStops":[{"offset":0,"color":"rgba(14,165,233,0.25)"},
                                                           {"offset":1,"color":"rgba(14,165,233,0.02)"}]}},
-                        "markPoint":{"data":[{"type":"max","name":"Mejor momento","itemStyle":{"color":"#5f8fe2"}},
+                        "markPoint":{"symbolSize":64,"label":{"fontSize":15},"data":[{"type":"max","name":"Mejor momento","itemStyle":{"color":"#5f8fe2"}},
                                             {"type":"min","name":"Punto bajo","itemStyle":{"color":"#172338"}}]},
-                        "markLine":{"data":[{"type":"average","name":"Promedio"}],
+                        "markLine":{"label":{"fontSize":15},"data":[{"type":"average","name":"Promedio"}],
                                     "lineStyle":{"color":"#808080","type":"dashed"}}}],
         }
-        st_echarts(line_opt, height="200px", key="evol_line", theme="streamlit", renderer="svg")
-
-with col_inf_der:
-    with st.expander("VER DATOS DETALLADOS DE SESIONES", icon=":material/table_view:"):
-        df_show = df_hist[["Sesión","promedio","n_temas"]].copy()
-        df_show["Conocimiento Promedio"] = df_show["promedio"].round(1).astype(str) + "%"
-        df_show["Temas activos"] = df_show["n_temas"]
-        st.dataframe(df_show[["Sesión","Conocimiento Promedio","Temas activos"]],
-                    use_container_width=True, hide_index=True,height=255)
+        st_echarts(line_opt, height="480px", key="evol_line", theme="streamlit", renderer="svg")

@@ -21,7 +21,7 @@ Estado de sesión:
     perfil_actual: Perfil del aprendiz elegido, compartido con las páginas.
     popup_topic, popup_open: Tema abierto en el popup de corrección y si el
         popup está abierto. Se reinician al cambiar de página.
-    last_busq, last_orden: Última búsqueda y orden del mapa de temas.
+    last_busq, last_orden: Última búsqueda y orden del análisis de temas.
     last_page: Última página visitada.
 """
 import streamlit as st
@@ -84,7 +84,7 @@ with st.sidebar:
     <div class="sidebar-user">
         <div class="sidebar-uid">Aprendiz #{uid}</div>
         <div style="font-size:.73rem;opacity:.85">
-            📊 {total} eventos · ✅ {tasa}% enganche · 🗂 {len(kcs)} temas
+             {total} eventos ·  {tasa}% enganche ·  {len(kcs)} temas
         </div>
     </div>
     <div style="height:.4rem"></div>
@@ -104,10 +104,10 @@ with st.sidebar:
 
 pg = st.navigation([
     st.Page("pages/resumen.py",    title="Resumen del perfil",         icon=":material/dashboard:"),
-    st.Page("pages/temas.py",      title="Mapa de temas",              icon=":material/bubble_chart:"),
-    st.Page("pages/evolucion.py",  title="Evolución temporal",         icon=":material/show_chart:"),
+    st.Page("pages/temas.py",      title="Análisis de temas",           icon=":material/bubble_chart:"),
+    st.Page("pages/evolucion.py",  title="Análisis de sesiones",        icon=":material/show_chart:"),
     st.Page("pages/pesos_ink.py",  title="Pesos del sistema (Avanzado)",       icon=":material/tune:"),
-    st.Page("pages/prediccion.py", title="Predicción y correcciones",  icon=":material/model_training:"),
+    st.Page("pages/prediccion.py", title="Distribución de correcciones",  icon=":material/model_training:"),
     st.Page("pages/historial.py",  title="Historial de correcciones",  icon=":material/history:"),
 ])
 if "last_page" not in st.session_state:

@@ -113,11 +113,11 @@ def inject_css():
     [data-testid="stRadioOption"][data-selected="true"] > div > div > div:first-child {
         background-color: #3b598d !important;
     }
-    .st-key-popup_apply button, .st-key-btn_ingresar button {
+    .st-key-popup_apply button, .st-key-popup_cerrar button, .st-key-btn_ingresar button {
         background: #3b598d !important; border: 1px solid #3b598d !important; color: #FFFFFF !important;
     }
-    .st-key-popup_apply button p, .st-key-btn_ingresar button p { color: #FFFFFF !important; }
-    .st-key-popup_apply button:hover, .st-key-btn_ingresar button:hover {
+    .st-key-popup_apply button p, .st-key-popup_cerrar button p, .st-key-btn_ingresar button p { color: #FFFFFF !important; }
+    .st-key-popup_apply button:hover, .st-key-popup_cerrar button:hover, .st-key-btn_ingresar button:hover {
         background: #2f4771 !important; border-color: #2f4771 !important;
     }
     [class*="st-key-edit_"] button, .st-key-corr_edit_btn button {
@@ -264,41 +264,148 @@ def fmt_ts(ts):
         return "—"
 
 
+def _delta(diferencia):
+    """
+    Arma los argumentos de ``st.metric`` para mostrar una diferencia.
+
+    Si la diferencia es 0 (a un decimal) se muestra en gris y sin flecha; en
+    otro caso, con el signo y la flecha habituales de Streamlit.
+
+    Args:
+        diferencia (float): Diferencia en puntos porcentuales.
+
+    Returns:
+        dict: Argumentos ``delta``, ``delta_color`` y ``delta_arrow`` para
+        ``st.metric``.
+    """
+    if round(diferencia, 1) == 0:
+        return {"delta": "0.0%", "delta_color": "gray", "delta_arrow": "off"}
+    return {"delta": f"{diferencia:+.1f}%"}
+
+
+def _pts(diferencia):
+    """
+    Texto con el cambio de confianza, o vacío si no cambió.
+
+    Args:
+        diferencia (float): Diferencia en puntos porcentuales.
+
+    Returns:
+        str: Por ejemplo ``" (+4.0 pts)"``, o ``""`` si la diferencia es 0.
+    """
+    return "" if round(diferencia, 1) == 0 else f" ({diferencia:+.1f} pts)"
+
+
 def _cerrar_popup():
     """
-    Limpia el estado del popup cuando el usuario lo cierra con la X.
+    Limpia el estado del popup cuando el usuario lo cierra.
+
+    Se usa tanto con la X de la esquina como con el botón «Cerrar» que
+    aparece después de aplicar una corrección.
 
     Returns:
         None
     """
-    st.session_state["popup_topic"] = None
-    st.session_state["popup_open"]  = False
+    st.session_state["popup_topic"]     = None
+    st.session_state["popup_open"]      = False
+    st.session_state["popup_resultado"] = None
 
 
-@st.dialog("Editar estimación del modelo", width="large", on_dismiss=_cerrar_popup)
+def _firma_tema(kc_data):
+    """
+    Resume en una tupla el estado de un tema, para reconocer su popup.
+
+    El resultado de una corrección solo se muestra mientras el popup siga
+    abierto sobre el mismo tema y con los mismos valores de antes de corregir.
+    Si el tema se vuelve a abrir más tarde (con valores ya corregidos), la
+    firma cambia y el resultado viejo no reaparece.
+
+    Args:
+        kc_data (dict): Datos del tema.
+
+    Returns:
+        tuple: Identificador del tema y sus medias y varianzas.
+    """
+    return (kc_data["topic_id"], kc_data["mean"], kc_data["variance"],
+            kc_data["interest_mean"], kc_data.get("interest_var", 0.5))
+
+
+def _mostrar_resultado(res, kc_data):
+    """
+    Muestra lo que cambió después de aplicar una corrección.
+
+    Presenta el mensaje del backend, las métricas nuevas del tema (con la
+    diferencia respecto de antes de corregir y la confianza del sistema) y el
+    botón «Cerrar», que cierra el popup y recarga la página para que refleje
+    el cambio. Las diferencias en 0 se muestran en gris, sin flecha.
+
+    Args:
+        res (dict): Resultado guardado en ``popup_resultado``, con las claves
+            ``"mensaje"`` y ``"nkc"`` (tema ya corregido o ``None``).
+        kc_data (dict): Datos del tema tal como estaban antes de corregir.
+
+    Returns:
+        None
+    """
+    know_pop      = pct_conocimiento(kc_data["mean"])
+    cert_know_pop = pct_certeza(kc_data["variance"])
+    int_pop       = pct_interes(kc_data["interest_mean"])
+    cert_int_pop  = pct_certeza(kc_data.get("interest_var", 0.5))
+
+    st.success(res.get("mensaje", "Corrección aplicada."))
+    nkc = res.get("nkc")
+    if nkc:
+        know_n      = pct_conocimiento(nkc["mean"])
+        cert_know_n = pct_certeza(nkc["variance"])
+        int_n       = pct_interes(nkc["interest_mean"])
+        cert_int_n  = pct_certeza(nkc.get("interest_var", 0.5))
+        n1, n2 = st.columns(2)
+        with n1:
+            with st.container(border=True):
+                st.metric("Conocimiento ahora", f"{know_n:.1f}%",
+                          **_delta(know_n - know_pop))
+                st.caption(f"El sistema está **{cert_know_n:.1f}%** seguro de esta estimación"
+                           + _pts(cert_know_n - cert_know_pop))
+        with n2:
+            with st.container(border=True):
+                st.metric("Interés ahora", f"{int_n:.1f}%",
+                          **_delta(int_n - int_pop))
+                st.caption(f"El sistema está **{cert_int_n:.1f}%** seguro de esta estimación"
+                           + _pts(cert_int_n - cert_int_pop))
+
+    st.markdown("")
+    if st.button("Cerrar", type="primary", use_container_width=True, key="popup_cerrar"):
+        _cerrar_popup()
+        st.rerun()
+
+
+@st.dialog("Editar estimación del modelo", width="medium", on_dismiss=_cerrar_popup)
 def popup_editar(kc_data, uid):
     """
     Muestra el popup de corrección explícita de un tema.
 
-    Presenta las métricas actuales del tema (conocimiento, confianza e
-    interés), sus etiquetas y un selector con las cuatro correcciones
-    posibles. Al aplicar una corrección, la envía al backend, muestra las
-    métricas nuevas y el cambio en la probabilidad de enganche (consultada
-    antes y después), cierra el popup y recarga la página para que refleje el
-    cambio. Se cierra con la X de la esquina superior derecha, sin aplicar nada, y al cerrarse limpia ``popup_open`` y ``popup_topic``. Si el
-    backend devuelve un error, lo muestra y deja el popup abierto.
+    Presenta las métricas actuales del tema (conocimiento e interés, cada una
+    con la confianza del sistema en esa estimación), sus etiquetas y un
+    selector con las cuatro correcciones posibles. Al aplicar una corrección,
+    la envía al backend y, sin cerrarse, reemplaza el selector por lo que
+    cambió: las métricas nuevas, con su confianza, y el botón «Cerrar». Ese
+    botón, igual que la
+    X de la esquina superior derecha, limpia ``popup_open`` y ``popup_topic``;
+    el botón además recarga la página para que refleje el cambio. Si el
+    backend devuelve un error, lo muestra y deja el selector disponible para
+    reintentar.
 
     Args:
         kc_data (dict): Datos del tema, con las claves ``"topic_id"``,
             ``"topic_name"``, ``"mean"``, ``"variance"``, ``"interest_mean"``
-            y, opcionalmente, ``"topic_url"``.
+            y, opcionalmente, ``"interest_var"`` (si falta se toma 0.5) y
+            ``"topic_url"``.
         uid (int): Identificador del usuario al que se aplica la corrección.
 
     Returns:
         None
     """
     lbl, cls   = nivel_label(kc_data["mean"])
-    vlbl, vcls = var_label(kc_data["variance"])
     ilbl, icls = interes_label(kc_data["interest_mean"])
 
     st.markdown(
@@ -306,27 +413,29 @@ def popup_editar(kc_data, uid):
         f"letter-spacing:-.02em;margin-bottom:.7rem'>{kc_data['topic_name']}</div>",
         unsafe_allow_html=True,
     )
-    know_pop = pct_conocimiento(kc_data["mean"])
-    cert_pop = pct_certeza(kc_data["variance"])
-    int_pop  = pct_interes(kc_data["interest_mean"])
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Conocimiento", f"{know_pop:.1f}%",
-              delta=f"{know_pop - PCT_INICIO_CONOCIMIENTO:+.1f}%",
-              help=f"Valor técnico: {kc_data['mean']:.3f} · Inicio: {PCT_INICIO_CONOCIMIENTO:.1f}%")
-    c2.metric("Interés", f"{int_pop:.1f}%",
-              delta=f"{int_pop - PCT_INICIO_INTERES:+.1f}%",
-              help=f"Valor técnico: {kc_data['interest_mean']:.3f} · Inicio: {PCT_INICIO_INTERES:.1f}%")
-    c3.metric("Confianza del sistema", f"{cert_pop:.1f}%",
-              delta=f"{cert_pop - 50.0:+.1f}%",
-              help=f"1 - varianza={kc_data['variance']:.3f} · Inicio: 50%")
+    know_pop      = pct_conocimiento(kc_data["mean"])
+    cert_know_pop = pct_certeza(kc_data["variance"])
+    int_pop       = pct_interes(kc_data["interest_mean"])
+    cert_int_pop  = pct_certeza(kc_data.get("interest_var", 0.5))
+    c1, c2 = st.columns(2)
+    with c1:
+        with st.container(border=True):
+            st.metric("Conocimiento", f"{know_pop:.1f}%",
+                      **_delta(know_pop - PCT_INICIO_CONOCIMIENTO),
+                      help=f"Valor técnico: {kc_data['mean']:.3f} · Inicio: {PCT_INICIO_CONOCIMIENTO:.1f}%")
+            st.caption(f"El sistema está **{cert_know_pop:.1f}%** seguro de esta estimación")
+    with c2:
+        with st.container(border=True):
+            st.metric("Interés", f"{int_pop:.1f}%",
+                      **_delta(int_pop - PCT_INICIO_INTERES),
+                      help=f"Valor técnico: {kc_data['interest_mean']:.3f} · Inicio: {PCT_INICIO_INTERES:.1f}%")
+            st.caption(f"El sistema está **{cert_int_pop:.1f}%** seguro de esta estimación")
     st.markdown(
         f"<div style='margin:.4rem 0 .7rem'>"
         f"<span class='badge {cls}'>{lbl}</span> "
-        f"<span class='badge {icls}'>Interés {ilbl}</span> "
-        f"<span class='badge {vcls}'>Certeza: {vlbl}</span></div>",
+        f"<span class='badge {icls}'>Interés {ilbl}</span></div>",
         unsafe_allow_html=True,
     )
-    st.progress(min(max(know_pop / 100, 0.0), 1.0))
     if kc_data.get("topic_url"):
         st.markdown(
             f"<a href='{kc_data['topic_url']}' target='_blank' "
@@ -334,64 +443,49 @@ def popup_editar(kc_data, uid):
             f"Ver en Wikipedia ↗</a>", unsafe_allow_html=True)
     st.markdown("<div class='sep'></div>", unsafe_allow_html=True)
 
-    tipo = st.radio(
-        "¿Qué querés corregir?",
-        ["sé más", "sé menos", "me interesa", "no me interesa"],
-        horizontal=True, key="popup_tipo",
-    )
-    descs = {
-        "sé más":         "↑ Aumenta el conocimiento estimado y reduce la incertidumbre.",
-        "sé menos":       "↓ Reduce el conocimiento estimado y reduce la incertidumbre.",
-        "me interesa":    "Aumenta el interés estimado en este tema.",
-        "no me interesa": "Reduce el interés. La incertidumbre de interés sube.",
-    }
-    st.caption(descs[tipo])
-    st.markdown("")
+    # Si ya se aplicó una corrección sobre este tema, se muestra lo que cambió
+    # (y el botón Cerrar) en lugar del selector.
+    guardado = st.session_state.get("popup_resultado")
+    if guardado and guardado.get("firma") == _firma_tema(kc_data):
+        _mostrar_resultado(guardado, kc_data)
+        return
 
-    ca = st.container()
-    with ca:
+    formulario = st.empty()
+    aplicado   = None
+    with formulario.container():
+        tipo = st.radio(
+            "¿Qué querés corregir?",
+            ["sé más", "sé menos", "me interesa", "no me interesa"],
+            horizontal=True, key="popup_tipo",
+        )
+        descs = {
+            "sé más":         "↑ Aumenta el conocimiento estimado y la confianza del sistema en él.",
+            "sé menos":       "↓ Reduce el conocimiento estimado y aumenta la confianza del sistema en él.",
+            "me interesa":    "↑ Aumenta el interés estimado y la confianza del sistema en él.",
+            "no me interesa": "↓ Reduce el interés estimado y aumenta la confianza del sistema en él.",
+        }
+        st.caption(descs[tipo])
+        st.markdown("")
+
         if st.button("Aplicar", type="primary",
                      use_container_width=True, key="popup_apply"):
-            prob_antes = get_prediccion(uid, kc_data["topic_id"])
-
             with st.spinner("Actualizando modelo..."):
                 res = post_feedback(uid, kc_data["topic_id"],
                                     kc_data["topic_name"], tipo)
             if "error" in res:
                 st.error(f"Error: {res['error']}")
             else:
-                st.success(res.get("mensaje", "Corrección aplicada."))
                 nuevos = res.get("perfil", {}).get("knowledge_components", [])
                 nkc = next((k for k in nuevos
                             if k["topic_id"] == kc_data["topic_id"]), None)
-                if nkc:
-                    know_n = pct_conocimiento(nkc["mean"])
-                    cert_n = pct_certeza(nkc["variance"])
-                    int_n  = pct_interes(nkc["interest_mean"])
-                    n1, n2, n3 = st.columns(3)
-                    n1.metric("Conocimiento",  f"{know_n:.1f}%",
-                              delta=f"{know_n - know_pop:+.1f}%")
-                    n2.metric("Interés",       f"{int_n:.1f}%",
-                              delta=f"{int_n - int_pop:+.1f}%")
-                    n3.metric("Confianza",     f"{cert_n:.1f}%",
-                              delta=f"{cert_n - cert_pop:+.1f}%")
+                aplicado = {
+                    "firma":        _firma_tema(kc_data),
+                    "mensaje":      res.get("mensaje", "Corrección aplicada."),
+                    "nkc":          nkc,
+                }
 
-                prob_despues = get_prediccion(uid, kc_data["topic_id"])
-                if prob_antes is not None and prob_despues is not None:
-                    delta_pp = round((prob_despues - prob_antes) * 100, 1)
-                    icono    = "↑" if delta_pp > 0 else ("↓" if delta_pp < 0 else "→")
-                    color    = "#5f8fe2" if delta_pp > 0 else ("#172338" if delta_pp < 0 else "#64748b")
-                    st.markdown(
-                        f"<div style='background:#f8fafc;border:1px solid #e2e8f0;"
-                        f"border-radius:10px;padding:.7rem 1rem;margin-top:.6rem;"
-                        f"font-size:.82rem;color:#374151'>"
-                        f"<b>Impacto en el modelo:</b> la probabilidad de enganche "
-                        f"pasó de <b>{prob_antes*100:.1f}%</b> a "
-                        f"<b style='color:{color}'>{prob_despues*100:.1f}%</b> "
-                        f"<span style='color:{color};font-weight:700'>"
-                        f"({icono} {abs(delta_pp)}pp)</span></div>",
-                        unsafe_allow_html=True)
-
-                st.session_state["popup_topic"] = None
-                st.session_state["popup_open"]  = False
-                st.rerun()
+    if aplicado:
+        # El selector se reemplaza por el resultado, sin cerrar el popup.
+        st.session_state["popup_resultado"] = aplicado
+        formulario.empty()
+        _mostrar_resultado(aplicado, kc_data)

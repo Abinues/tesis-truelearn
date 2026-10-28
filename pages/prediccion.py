@@ -19,10 +19,12 @@ import pandas as pd
 import streamlit as st
 from streamlit_echarts import st_echarts
 
+from ajuste_letras import aplicar_letras_grandes
 from shared import fmt_ts, get_perfil, inject_css, popup_editar
 
 
 inject_css()
+aplicar_letras_grandes()
 
 uid    = st.session_state.get("uid_seleccionado")
 perfil = st.session_state.get("perfil_actual") or get_perfil(uid)
@@ -37,10 +39,10 @@ df_kcs    = pd.DataFrame(kcs) if kcs else pd.DataFrame()
 if st.session_state.get("popup_open") and st.session_state.get("popup_topic"):
     popup_editar(st.session_state["popup_topic"], uid)
 
-st.title(":material/edit_note: Correcciones al modelo")
+st.title(":material/show_chart: Distribución de correcciones")
 st.markdown(
-    "Cada vez que el estudiante (o el evaluador) corrigió la estimación del sistema, "
-    "queda registrado acá. El sistema ajusta su modelo con cada corrección."
+    "Cada vez que el estudiante corrigió la estimación del sistema, "
+    "se muestra su distribución acá. El sistema ajusta su modelo con cada corrección."
 )
 label_tipo = {
     "sé más":         "Sé más",
@@ -69,9 +71,9 @@ with col1:
             funnel_opt = {
                 "tooltip": {"trigger":"item","formatter":"{b}: {c}"},
                 "series":  [{"name":"Correcciones","type":"funnel",
-                             "left":"15%","width":"70%","sort":"descending",
+                             "left":"6%","width":"88%","sort":"descending","minSize":"40%",
                              "label":{"position":"inside","formatter":"{b}\n{c}",
-                                      "color":"#fff","fontSize":11,"fontWeight":"bold"},
+                                      "color":"#fff","fontSize":15,"fontWeight":"bold"},
                              "itemStyle":{"borderColor":"#fff","borderWidth":2},
                              "data":[
                                  {"value":n_temas_,    "name":"Temas explorados","itemStyle":{"color":"#293e63"}},
@@ -80,7 +82,7 @@ with col1:
                                  {"value":n_positivos, "name":"Correcciones positivas","itemStyle":{"color":"#3b598d"}},
                              ]}],
             }
-            st_echarts(funnel_opt, height="320px", key="funnel_calib", theme="streamlit")
+            st_echarts(funnel_opt, height="400px", key="funnel_calib", theme="streamlit")
 
 with col2:
         with st.container(border=True):
@@ -118,7 +120,7 @@ with col2:
                             "formatter":  str(cnt) if cnt > 0 else "",
                             "color":      color,
                             "fontWeight": "bold",
-                            "fontSize":   11,
+                            "fontSize":   15,
                         },
                     })
                 bar_series.append({
@@ -136,57 +138,24 @@ with col2:
                     "tooltip": {"trigger": "axis"},
                     "legend":  {"data": [s["name"] for s in bar_series],
                                 "bottom": 0, "type": "scroll",
-                                "textStyle": {"fontSize": 10}},
-                    "grid":    {"bottom": "20%", "top": "8%","left":"10%", "containLabel": True},
+                                "textStyle": {"fontSize": 15}},
+                    "grid":    {"bottom": "28%", "top": "8%","left":"14%", "containLabel": True},
                     "xAxis":   {"type": "category", "data": fechas_display,
-                                "axisLabel": {"rotate": 30, "color": "#64748b", "fontSize": 10},
+                                "axisLabel": {"rotate": 30, "color": "#64748b", "fontSize": 15},
                                 "axisTick": {"show": False}},
                     "yAxis":   {"type": "value", "name": "Correcciones",
-                                "nameLocation":"middle","nameGap":40,
-                                "nameTextStyle": {"color": "#64748b", "fontSize": 10},
-                                "axisLabel": {"color": "#64748b", "fontSize": 10},
+                                "nameLocation":"middle","nameGap":46,
+                                "nameTextStyle": {"color": "#64748b", "fontSize": 15},
+                                "axisLabel": {"color": "#64748b", "fontSize": 15},
                                 "splitLine": {"show": False},
                                 "axisLine": {"show": False}},
                     "series":  bar_series,
                 }
-                st_echarts(mom_opt, height="320px", key="acum_corrections", theme="streamlit")
+                st_echarts(mom_opt, height="400px", key="acum_corrections", theme="streamlit")
             else:
                 st.info("Sin correcciones registradas aún.")
 
 
-col3, col4 = st.columns(2, gap="small")
-
-with col3:
- with st.container(border=True):
-        st.subheader(":material/edit: Aplicar una corrección")
-        st.caption(
-            "Seleccioná un tema y presioná **Editar** para abrir el panel de corrección. "
-            "Funciona igual que en el Mapa de Temas."
-        )
-
-        if not df_kcs.empty:
-            from shared import popup_editar
-            nombres  = {kc["topic_name"]: kc for kc in kcs}
-            col_sel, col_btn = st.columns([3, 1], gap="small")
-            with col_sel:
-                tema_corr = st.selectbox("Seleccioná un tema:", list(nombres.keys()), key="corr_tema")
-            with col_btn:
-                st.markdown("<div style='margin-top:1.85rem'></div>", unsafe_allow_html=True)
-                if st.button("Editar", type="primary", use_container_width=True, key="corr_edit_btn"):
-                    st.session_state["popup_topic"] = nombres[tema_corr]
-                    st.session_state["popup_open"]  = True
-                    st.rerun()
 
 
-with col4:
-        with st.container(border=True):
-            st.markdown("**HISTORIAL DE CORRECCIONES**")
-            if df_fb.empty:
-                st.info("Sin correcciones registradas aún.")
-            else:
-                df_show = df_fb.copy()
-                df_show["Tipo"] = df_show["tipo"].map(label_tipo).fillna(df_show["tipo"])
-                st.dataframe(
-                    df_show[["Fecha","topic_name","Tipo"]].rename(
-                        columns={"topic_name":"Tema"}),
-                    use_container_width=True, hide_index=True, height=200)
+

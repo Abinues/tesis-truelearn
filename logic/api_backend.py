@@ -229,13 +229,14 @@ def aplicar_correccion_directa(classifier, topic_id, tipo):
         sé más          mean sube, variance baja      sin cambio
         sé menos        mean baja, variance baja      sin cambio
         me interesa     sin cambio                    mean sube, variance baja
-        no me interesa  sin cambio                    mean baja, variance sube
+        no me interesa  sin cambio                    mean baja, variance baja
 
     Las magnitudes son ``delta_know`` (0.25), ``delta_int`` (0.75) y
     ``reduccion_var`` (0.15), calibradas contra el impacto medio de un
-    evento real de ``fit()``, y ``aumento_var`` (0.30), una decisión de
-    diseño sin equivalente empírico: la varianza sube cuando el usuario
-    contradice al modelo.
+    evento real de ``fit()``. Toda corrección explícita reduce la varianza
+    del componente que corrige (sube la confianza del sistema en él), sea
+    cual sea el sentido de la corrección: lo que el estudiante dice es la
+    información más firme que recibe el modelo.
 
     Args:
         classifier (INKClassifier): Clasificador a corregir. Se modifica
@@ -272,7 +273,6 @@ def aplicar_correccion_directa(classifier, topic_id, tipo):
     delta_know    = 0.25
     delta_int     = 0.75
     reduccion_var = 0.15
-    aumento_var   = 0.30
 
     if tipo == "sé más":
         if kc_know is None:
@@ -301,7 +301,7 @@ def aplicar_correccion_directa(classifier, topic_id, tipo):
         if kc_int is None:
             raise TopicNoEncontradoError(topic_id)
         kc_int.update(mean=clamp_interes(kc_int.mean - delta_int),
-                       variance=clamp_variance(kc_int.variance + aumento_var),
+                       variance=clamp_variance(kc_int.variance - reduccion_var),
                        timestamp=ts_ahora)
 
     return classifier

@@ -7206,7 +7206,32 @@
             }
         }
     ],
-    "explicit_feedback": [],
+    "explicit_feedback": [
+        {
+            "timestamp": 1793153592.8128393,
+            "topic_id": 9526,
+            "topic_name": "Factor graph",
+            "tipo": "me interesa",
+            "mean_resultante": -0.4109867274058034,
+            "interest_mean_resultante": 2.72
+        },
+        {
+            "timestamp": 1793154527.0843267,
+            "topic_id": 7581,
+            "topic_name": "Directed graph",
+            "tipo": "sé más",
+            "mean_resultante": -0.011024497650319764,
+            "interest_mean_resultante": 1.902267559757149
+        },
+        {
+            "timestamp": 1793155111.2164896,
+            "topic_id": 7581,
+            "topic_name": "Directed graph",
+            "tipo": "sé más",
+            "mean_resultante": 0.23897550234968024,
+            "interest_mean_resultante": 1.902267559757149
+        }
+    ],
     "knowledge_components": [
         {
             "topic_id": 9526,
@@ -7214,19 +7239,19 @@
             "topic_url": "https://en.wikipedia.org/wiki/Factor_graph",
             "mean": -0.4109867274058034,
             "variance": 0.30627763820523146,
-            "interest_mean": 2.053532697029583,
-            "interest_var": 0.22905883247396785,
+            "interest_mean": 2.72,
+            "interest_var": 0.07905883247396786,
             "timestamp": 165803.0
         },
         {
             "topic_id": 7581,
             "topic_name": "Directed graph",
             "topic_url": "https://en.wikipedia.org/wiki/Directed_graph",
-            "mean": -0.26102449765031976,
-            "variance": 0.4177772852983551,
+            "mean": 0.23897550234968024,
+            "variance": 0.1177772852983551,
             "interest_mean": 1.902267559757149,
             "interest_var": 0.296398601602155,
-            "timestamp": 5380218.0
+            "timestamp": 1793155111.2100608
         },
         {
             "topic_id": 21373,
