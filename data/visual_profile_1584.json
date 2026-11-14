@@ -1,0 +1,338 @@
+{
+    "user_id": 1584,
+    "number_of_engagements": 6,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.9613645840316489,
+            "variance": 0.4183503212597546
+        },
+        "interest": {
+            "mean": 0.966251635665598,
+            "variance": 0.39609065457427217
+        },
+        "bias": {
+            "mean": 0.5619515809317905,
+            "variance": 0.31023912102774726
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 32849292.0,
+            "means": {
+                "Machine learning": -0.14943881559659977,
+                "Departments of France": -0.14943881559659977,
+                "Regression analysis": -0.14943881559659977,
+                "Linear regression": -0.14943881559659977,
+                "Variance": -0.1494388155965998
+            },
+            "variances": {
+                "Machine learning": 0.4632468226153437,
+                "Departments of France": 0.4632468226153437,
+                "Regression analysis": 0.4632468226153437,
+                "Linear regression": 0.4632468226153437,
+                "Variance": 0.4632468226153437
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 32905548.0,
+            "means": {
+                "Machine learning": -0.010508243633375656,
+                "Departments of France": -0.14943881559659977,
+                "Regression analysis": -0.14943881559659977,
+                "Linear regression": -0.14943881559659977,
+                "Variance": -0.1494388155965998,
+                "Value function": 0.24225727137511768,
+                "Reinforcement learning": 0.412003512501165,
+                "Discounting": 0.3822062126693823,
+                "Pi": 0.1836074388196466,
+                "Function (mathematics)": 0.1836074388196466,
+                "Dynamic programming": 0.15004634789728674,
+                "State function": 0.17162228005055236,
+                "System of linear equations": 0.15004634789728677,
+                "Algorithm": 0.20853340438357992,
+                "Markov decision process": 0.06774282598845244,
+                "Iteration": 0.06774282598845244,
+                "Probability distribution": 0.17149628447288123,
+                "Graphical model": 0.17149628447288123,
+                "Robot": 0.1499530759637664,
+                "Supervised learning": 0.12929417762764592,
+                "Loss function": 0.12929417762764592,
+                "Computer Go": 0.12929417762764592,
+                "Power law": 0.12929417762764592,
+                "Probability": 0.024990394545498593
+            },
+            "variances": {
+                "Machine learning": 0.404043442440598,
+                "Departments of France": 0.4632468226153437,
+                "Regression analysis": 0.4632468226153437,
+                "Linear regression": 0.4632468226153437,
+                "Variance": 0.4632468226153437,
+                "Value function": 0.37894684589846345,
+                "Reinforcement learning": 0.34094138782968053,
+                "Discounting": 0.3054233112293786,
+                "Pi": 0.4328859307217908,
+                "Function (mathematics)": 0.4328859307217908,
+                "Dynamic programming": 0.43168450409983633,
+                "State function": 0.3762716370582037,
+                "System of linear equations": 0.43168450409983633,
+                "Algorithm": 0.3780444076239942,
+                "Markov decision process": 0.42803909106371946,
+                "Iteration": 0.42803909106371946,
+                "Probability distribution": 0.37578487160405377,
+                "Graphical model": 0.37578487160405377,
+                "Robot": 0.43102977965978845,
+                "Supervised learning": 0.4307538596910061,
+                "Loss function": 0.4307538596910061,
+                "Computer Go": 0.4307538596910061,
+                "Power law": 0.4307538596910061,
+                "Probability": 0.42566082947153117
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.010508243633375656,
+            "variance": 0.404043442440598,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 7201,
+            "topic_name": "Departments of France",
+            "topic_url": "https://en.wikipedia.org/wiki/Departments_of_France",
+            "mean": -0.14943881559659977,
+            "variance": 0.4632468226153437,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32849292.0
+        },
+        {
+            "topic_id": 22701,
+            "topic_name": "Regression analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Regression_analysis",
+            "mean": -0.14943881559659977,
+            "variance": 0.4632468226153437,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32849292.0
+        },
+        {
+            "topic_id": 15247,
+            "topic_name": "Linear regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_regression",
+            "mean": -0.14943881559659977,
+            "variance": 0.4632468226153437,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32849292.0
+        },
+        {
+            "topic_id": 29054,
+            "topic_name": "Variance",
+            "topic_url": "https://en.wikipedia.org/wiki/Variance",
+            "mean": -0.1494388155965998,
+            "variance": 0.4632468226153437,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32849292.0
+        },
+        {
+            "topic_id": 29008,
+            "topic_name": "Value function",
+            "topic_url": "https://en.wikipedia.org/wiki/Value_function",
+            "mean": 0.24225727137511768,
+            "variance": 0.37894684589846345,
+            "interest_mean": 1.463431482332427,
+            "interest_var": 0.3471368695205438,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 22732,
+            "topic_name": "Reinforcement learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "mean": 0.412003512501165,
+            "variance": 0.34094138782968053,
+            "interest_mean": 2.2531546576738153,
+            "interest_var": 0.29874410533158624,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 7615,
+            "topic_name": "Discounting",
+            "topic_url": "https://en.wikipedia.org/wiki/Discounting",
+            "mean": 0.3822062126693823,
+            "variance": 0.3054233112293786,
+            "interest_mean": 2.365305272502979,
+            "interest_var": 0.2698514511586021,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 20284,
+            "topic_name": "Pi",
+            "topic_url": "https://en.wikipedia.org/wiki/Pi",
+            "mean": 0.1836074388196466,
+            "variance": 0.4328859307217908,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 10663,
+            "topic_name": "Function (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_(mathematics)",
+            "mean": 0.1836074388196466,
+            "variance": 0.4328859307217908,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 8178,
+            "topic_name": "Dynamic programming",
+            "topic_url": "https://en.wikipedia.org/wiki/Dynamic_programming",
+            "mean": 0.15004634789728674,
+            "variance": 0.43168450409983633,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 25966,
+            "topic_name": "State function",
+            "topic_url": "https://en.wikipedia.org/wiki/State_function",
+            "mean": 0.17162228005055236,
+            "variance": 0.3762716370582037,
+            "interest_mean": 1.2052889458448615,
+            "interest_var": 0.3482248034582431,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 26931,
+            "topic_name": "System of linear equations",
+            "topic_url": "https://en.wikipedia.org/wiki/System_of_linear_equations",
+            "mean": 0.15004634789728677,
+            "variance": 0.43168450409983633,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.20853340438357992,
+            "variance": 0.3780444076239942,
+            "interest_mean": 1.292737063615285,
+            "interest_var": 0.34620891847691415,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 16170,
+            "topic_name": "Markov decision process",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_decision_process",
+            "mean": 0.06774282598845244,
+            "variance": 0.42803909106371946,
+            "interest_mean": 0.46412983500815636,
+            "interest_var": 0.4101136252550602,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 14073,
+            "topic_name": "Iteration",
+            "topic_url": "https://en.wikipedia.org/wiki/Iteration",
+            "mean": 0.06774282598845244,
+            "variance": 0.42803909106371946,
+            "interest_mean": 0.46412983500815647,
+            "interest_var": 0.4101136252550602,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": 0.17149628447288123,
+            "variance": 0.37578487160405377,
+            "interest_mean": 1.0281638841637388,
+            "interest_var": 0.34819587193288576,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": 0.17149628447288123,
+            "variance": 0.37578487160405377,
+            "interest_mean": 1.028163884163739,
+            "interest_var": 0.34819587193288576,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 23188,
+            "topic_name": "Robot",
+            "topic_url": "https://en.wikipedia.org/wiki/Robot",
+            "mean": 0.1499530759637664,
+            "variance": 0.43102977965978845,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.12929417762764592,
+            "variance": 0.4307538596910061,
+            "interest_mean": 0.8226883562451254,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.12929417762764592,
+            "variance": 0.4307538596910061,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 5386,
+            "topic_name": "Computer Go",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_Go",
+            "mean": 0.12929417762764592,
+            "variance": 0.4307538596910061,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 21007,
+            "topic_name": "Power law",
+            "topic_url": "https://en.wikipedia.org/wiki/Power_law",
+            "mean": 0.12929417762764592,
+            "variance": 0.4307538596910061,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 32905548.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.024990394545498593,
+            "variance": 0.42566082947153117,
+            "interest_mean": 0.3562381263216357,
+            "interest_var": 0.4131822300486553,
+            "timestamp": 32905548.0
+        }
+    ]
+}

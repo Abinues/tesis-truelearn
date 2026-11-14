@@ -1,0 +1,278 @@
+{
+    "user_id": 30877,
+    "number_of_engagements": 12,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 1.200943772929014,
+            "variance": 0.3915691427393256
+        },
+        "interest": {
+            "mean": 1.3232251997550097,
+            "variance": 0.34594722414040063
+        },
+        "bias": {
+            "mean": 0.9788166896664933,
+            "variance": 0.29199161153719766
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 512542.0,
+            "means": {
+                "Center of mass": 0.3906704631635171,
+                "Torque": 0.3148065291974002,
+                "Pocketknife": 0.18819496464951027,
+                "Rope": 0.18819496464951027,
+                "Mass": 0.1881949646495103,
+                "Friction": 0.28843704554342037,
+                "Total internal reflection": 0.12484697667310633,
+                "Trigonometric functions": 0.15766222254657208,
+                "Mechanical equilibrium": 0.18572587144528396,
+                "Newton (unit)": 0.07049842236939341,
+                "Kilogram": 0.08462191576647153,
+                "Theta": 0.07049842236939341,
+                "Position (geometry)": 0.038000411676335936,
+                "Chinese units of measurement": 0.038000411676335936,
+                "Normal force": 0.10909958484299816,
+                "Cross product": 0.12304192453383678,
+                "Angular acceleration": 0.016405153275138588
+            },
+            "variances": {
+                "Center of mass": 0.30295663417873064,
+                "Torque": 0.3012608043143053,
+                "Pocketknife": 0.4328859426847246,
+                "Rope": 0.4328859426847246,
+                "Mass": 0.4328859426847246,
+                "Friction": 0.3040119438904548,
+                "Total internal reflection": 0.4317748732956609,
+                "Trigonometric functions": 0.37814202298186755,
+                "Mechanical equilibrium": 0.3799169238905152,
+                "Newton (unit)": 0.4304590502815285,
+                "Kilogram": 0.3736322612309979,
+                "Theta": 0.4304590502815285,
+                "Position (geometry)": 0.4280789273445563,
+                "Chinese units of measurement": 0.4280789273445563,
+                "Normal force": 0.424937806340637,
+                "Cross product": 0.3695594356346494,
+                "Angular acceleration": 0.4233292980112116
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 515654.0,
+            "means": {
+                "Center of mass": 0.4175583863915229,
+                "Torque": 0.3371781081844646,
+                "Pocketknife": 0.20234990310495532,
+                "Rope": 0.20234990310495532,
+                "Mass": 0.20234990310495532,
+                "Friction": 0.2992528983000466,
+                "Total internal reflection": 0.11485943556906161,
+                "Trigonometric functions": 0.1344713801619292,
+                "Mechanical equilibrium": 0.18290072920780895,
+                "Newton (unit)": 0.07828694095347989,
+                "Kilogram": 0.09556934999816466,
+                "Theta": 0.07828694095347989,
+                "Position (geometry)": 0.0203934659017519,
+                "Chinese units of measurement": 0.0203934659017519,
+                "Normal force": 0.14209000218917484,
+                "Cross product": 0.1531748671790315,
+                "Angular acceleration": 0.02210244570284413
+            },
+            "variances": {
+                "Center of mass": 0.20801941440754143,
+                "Torque": 0.2079415991322306,
+                "Pocketknife": 0.37000415564280764,
+                "Rope": 0.37000415564280764,
+                "Mass": 0.37000415564280764,
+                "Friction": 0.20833474524787338,
+                "Total internal reflection": 0.3667291797410709,
+                "Trigonometric functions": 0.2921529001425452,
+                "Mechanical equilibrium": 0.29304417435929436,
+                "Newton (unit)": 0.36816417699112913,
+                "Kilogram": 0.2911546536040588,
+                "Theta": 0.36816417699112913,
+                "Position (geometry)": 0.3666292302482426,
+                "Chinese units of measurement": 0.3666292302482426,
+                "Normal force": 0.36108377311672324,
+                "Cross product": 0.28693072946319725,
+                "Angular acceleration": 0.36363706803191154
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 3957,
+            "topic_name": "Center of mass",
+            "topic_url": "https://en.wikipedia.org/wiki/Center_of_mass",
+            "mean": 0.4175583863915229,
+            "variance": 0.20801941440754143,
+            "interest_mean": 2.315590166051472,
+            "interest_var": 0.24332455139572517,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 27926,
+            "topic_name": "Torque",
+            "topic_url": "https://en.wikipedia.org/wiki/Torque",
+            "mean": 0.3371781081844646,
+            "variance": 0.2079415991322306,
+            "interest_mean": 2.0347885313537626,
+            "interest_var": 0.23290450591272704,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 20580,
+            "topic_name": "Pocketknife",
+            "topic_url": "https://en.wikipedia.org/wiki/Pocketknife",
+            "mean": 0.20234990310495532,
+            "variance": 0.37000415564280764,
+            "interest_mean": 1.1038841721070831,
+            "interest_var": 0.39522878848833004,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 23300,
+            "topic_name": "Rope",
+            "topic_url": "https://en.wikipedia.org/wiki/Rope",
+            "mean": 0.20234990310495532,
+            "variance": 0.37000415564280764,
+            "interest_mean": 1.1038841721070831,
+            "interest_var": 0.39522878848833004,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 16218,
+            "topic_name": "Mass",
+            "topic_url": "https://en.wikipedia.org/wiki/Mass",
+            "mean": 0.20234990310495532,
+            "variance": 0.37000415564280764,
+            "interest_mean": 1.1038841721070831,
+            "interest_var": 0.39522878848833004,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 10598,
+            "topic_name": "Friction",
+            "topic_url": "https://en.wikipedia.org/wiki/Friction",
+            "mean": 0.2992528983000466,
+            "variance": 0.20833474524787338,
+            "interest_mean": 2.1836536882313653,
+            "interest_var": 0.2367092845188181,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 27950,
+            "topic_name": "Total internal reflection",
+            "topic_url": "https://en.wikipedia.org/wiki/Total_internal_reflection",
+            "mean": 0.11485943556906161,
+            "variance": 0.3667291797410709,
+            "interest_mean": 0.9203650465472174,
+            "interest_var": 0.40196435862928714,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 28340,
+            "topic_name": "Trigonometric functions",
+            "topic_url": "https://en.wikipedia.org/wiki/Trigonometric_functions",
+            "mean": 0.1344713801619292,
+            "variance": 0.2921529001425452,
+            "interest_mean": 1.40239566067727,
+            "interest_var": 0.31809989621766854,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 16461,
+            "topic_name": "Mechanical equilibrium",
+            "topic_url": "https://en.wikipedia.org/wiki/Mechanical_equilibrium",
+            "mean": 0.18290072920780895,
+            "variance": 0.29304417435929436,
+            "interest_mean": 1.6339534409248149,
+            "interest_var": 0.3174953719639417,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 18236,
+            "topic_name": "Newton (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Newton_(unit)",
+            "mean": 0.07828694095347989,
+            "variance": 0.36816417699112913,
+            "interest_mean": 0.8783542834691512,
+            "interest_var": 0.37239974002025056,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 14410,
+            "topic_name": "Kilogram",
+            "topic_url": "https://en.wikipedia.org/wiki/Kilogram",
+            "mean": 0.09556934999816466,
+            "variance": 0.2911546536040588,
+            "interest_mean": 1.2317527430067743,
+            "interest_var": 0.29661706539550026,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 27593,
+            "topic_name": "Theta",
+            "topic_url": "https://en.wikipedia.org/wiki/Theta",
+            "mean": 0.07828694095347989,
+            "variance": 0.36816417699112913,
+            "interest_mean": 0.8783542834691512,
+            "interest_var": 0.37239974002025056,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 20882,
+            "topic_name": "Position (geometry)",
+            "topic_url": "https://en.wikipedia.org/wiki/Position_(geometry)",
+            "mean": 0.0203934659017519,
+            "variance": 0.3666292302482426,
+            "interest_mean": 0.5922652273373302,
+            "interest_var": 0.37344342950440323,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 4300,
+            "topic_name": "Chinese units of measurement",
+            "topic_url": "https://en.wikipedia.org/wiki/Chinese_units_of_measurement",
+            "mean": 0.0203934659017519,
+            "variance": 0.3666292302482426,
+            "interest_mean": 0.5922652273373303,
+            "interest_var": 0.37344342950440323,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 18443,
+            "topic_name": "Normal force",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_force",
+            "mean": 0.14209000218917484,
+            "variance": 0.36108377311672324,
+            "interest_mean": 0.273942058883019,
+            "interest_var": 0.40591767261733974,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 6390,
+            "topic_name": "Cross product",
+            "topic_url": "https://en.wikipedia.org/wiki/Cross_product",
+            "mean": 0.1531748671790315,
+            "variance": 0.28693072946319725,
+            "interest_mean": 0.6551266936481857,
+            "interest_var": 0.31676050610637224,
+            "timestamp": 515654.0
+        },
+        {
+            "topic_id": 1011,
+            "topic_name": "Angular acceleration",
+            "topic_url": "https://en.wikipedia.org/wiki/Angular_acceleration",
+            "mean": 0.02210244570284413,
+            "variance": 0.36363706803191154,
+            "interest_mean": 0.4526993872881348,
+            "interest_var": 0.3687702496559764,
+            "timestamp": 515654.0
+        }
+    ]
+}

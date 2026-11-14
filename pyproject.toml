@@ -1,6 +1,6 @@
 [tool.ruff]
 line-length = 110
-target-version = "py311"
+target-version = "py310"
 exclude = ["venv", ".venv", "data", "models", "__pycache__"]
 
 [tool.ruff.lint]
@@ -25,7 +25,7 @@ ignore = [
 "tests/*" = ["F401"]
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "3.10"
 ignore_missing_imports = true          # streamlit_echarts, truelearn no traen stubs
 warn_unused_ignores = true
 warn_redundant_casts = true
@@ -33,8 +33,8 @@ warn_redundant_casts = true
 # (que no tipa bien sus propios retornos) con lógica de dominio pura. Se
 # empieza exigiendo tipado completo solo en los módulos de logic/ (la
 # parte más crítica y más testeada), y se deja el resto sin exigir tipos
-# explícitos todavía — ver CAMBIOS.md, punto 22, para el plan de
-# ampliar esto gradualmente.
+# explícitos todavía.
+# La idea es ampliar esta exigencia gradualmente.
 [[tool.mypy.overrides]]
 module = "logic.dominio"
 disallow_untyped_defs = true
@@ -66,7 +66,7 @@ exclude_lines = [
 
 # vulture (detector de código muerto) no lee [tool.vulture] de pyproject.toml
 # en esta versión -- se deja documentado acá el comando exacto para correrlo
-# de forma reproducible (ver CAMBIOS.md, punto 33):
+# de forma reproducible:
 #
 #   vulture pages/ logic/ shared.py dashboard.py --min-confidence 60 \
 #       --ignore-names "listar_usuarios,obtener_perfil,aplicar_feedback,historial_feedback,obtener_prediccion,iniciar_entrenamiento,log_entrenamiento,write,flush"

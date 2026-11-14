@@ -1,0 +1,528 @@
+{
+    "user_id": 13490,
+    "number_of_engagements": 5,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.6697884296937439,
+            "variance": 0.39551365728272897
+        },
+        "interest": {
+            "mean": 0.407333797934611,
+            "variance": 0.3132330393285222
+        },
+        "bias": {
+            "mean": -0.12955268815385437,
+            "variance": 0.24134399608453477
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 26151959.0,
+            "means": {
+                "Blue cheese": -0.1660479701413761,
+                "Emacs": -0.1660479701413761,
+                "Metadata": -0.1660479701413761,
+                "Species": -0.1660479701413761,
+                "Glyceraldehyde": -0.1660479701413761
+            },
+            "variances": {
+                "Blue cheese": 0.46130990959967855,
+                "Emacs": 0.46130990959967855,
+                "Metadata": 0.46130990959967855,
+                "Species": 0.46130990959967855,
+                "Glyceraldehyde": 0.46130990959967855
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 26152231.0,
+            "means": {
+                "Blue cheese": -0.2663537614113123,
+                "Emacs": -0.2663537614113123,
+                "Metadata": -0.2663537614113123,
+                "Species": -0.2663537614113123,
+                "Glyceraldehyde": -0.2663537614113123
+            },
+            "variances": {
+                "Blue cheese": 0.4338345002097337,
+                "Emacs": 0.4338345002097337,
+                "Metadata": 0.4338345002097337,
+                "Species": 0.4338345002097337,
+                "Glyceraldehyde": 0.4338345002097337
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 26172651.0,
+            "means": {
+                "Blue cheese": -0.03237087461085395,
+                "Emacs": -0.03237087461085399,
+                "Metadata": -0.03237087461085399,
+                "Species": -0.03237087461085399,
+                "Glyceraldehyde": -0.03237087461085399,
+                "Ormolu": -0.16348576265438375,
+                "Cholera": -0.16348576265438375,
+                "Gene": -0.1634857626543838,
+                "Aniline": -0.1634857626543838,
+                "Neurotransmitter": -0.1634857626543838
+            },
+            "variances": {
+                "Blue cheese": 0.37838293944313556,
+                "Emacs": 0.37838293944313556,
+                "Metadata": 0.37838293944313556,
+                "Species": 0.37838293944313556,
+                "Glyceraldehyde": 0.37838293944313556,
+                "Ormolu": 0.4615964833792565,
+                "Cholera": 0.4615964833792565,
+                "Gene": 0.4615964833792565,
+                "Aniline": 0.4615964833792565,
+                "Neurotransmitter": 0.4615964833792565
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 26173077.0,
+            "means": {
+                "Blue cheese": -0.15811406586526297,
+                "Emacs": -0.15811406586526305,
+                "Metadata": -0.15811406586526303,
+                "Species": -0.15811406586526303,
+                "Glyceraldehyde": -0.15811406586526303,
+                "Ormolu": -0.16348576265438375,
+                "Cholera": -0.16348576265438375,
+                "Gene": -0.1634857626543838,
+                "Aniline": -0.1634857626543838,
+                "Neurotransmitter": -0.1634857626543838
+            },
+            "variances": {
+                "Blue cheese": 0.35301577611858403,
+                "Emacs": 0.35301577611858403,
+                "Metadata": 0.35301577611858403,
+                "Species": 0.35301577611858403,
+                "Glyceraldehyde": 0.35301577611858403,
+                "Ormolu": 0.4615964833792565,
+                "Cholera": 0.4615964833792565,
+                "Gene": 0.4615964833792565,
+                "Aniline": 0.4615964833792565,
+                "Neurotransmitter": 0.4615964833792565
+            }
+        },
+        {
+            "session_id": 5,
+            "timestamp": 26174967.0,
+            "means": {
+                "Blue cheese": -0.241692489747066,
+                "Emacs": -0.2416924897470661,
+                "Metadata": -0.24169248974706609,
+                "Species": -0.24169248974706609,
+                "Glyceraldehyde": -0.24169248974706609,
+                "Ormolu": 0.005722684020826562,
+                "Cholera": 0.005722684020826562,
+                "Gene": 0.05969441524211302,
+                "Aniline": 0.005722684020826517,
+                "Neurotransmitter": 0.005722684020826517,
+                "Ideal gas": 0.08767441765803645,
+                "Mermaid": 0.08767441765803645,
+                "Melting point": 0.08767441765803645,
+                "Agar": 0.08767441765803645,
+                "Elegy": 0.08767441765803645,
+                "Anorectic": 0.08140672857635492,
+                "Benadryl": 0.08140672857635492,
+                "Methanol": 0.08140672857635492,
+                "Antacid": 0.0814067285763549,
+                "Algorithm": 0.09730787603161334,
+                "Chronozone": 0.09730787603161334,
+                "Chromosome": 0.09730787603161334,
+                "Connectionism": 0.09730787603161334,
+                "Virus": 0.09730787603161335
+            },
+            "variances": {
+                "Blue cheese": 0.333992112049075,
+                "Emacs": 0.333992112049075,
+                "Metadata": 0.33399211204907486,
+                "Species": 0.33399211204907486,
+                "Glyceraldehyde": 0.33399211204907486,
+                "Ormolu": 0.4003052802265368,
+                "Cholera": 0.4003052802265368,
+                "Gene": 0.356905231123182,
+                "Aniline": 0.4003052802265368,
+                "Neurotransmitter": 0.4003052802265368,
+                "Ideal gas": 0.432890529505198,
+                "Mermaid": 0.432890529505198,
+                "Melting point": 0.432890529505198,
+                "Agar": 0.432890529505198,
+                "Elegy": 0.432890529505198,
+                "Anorectic": 0.4321998900411673,
+                "Benadryl": 0.4321998900411673,
+                "Methanol": 0.4321998900411673,
+                "Antacid": 0.4321998900411673,
+                "Algorithm": 0.4329087534367728,
+                "Chronozone": 0.4329087534367728,
+                "Chromosome": 0.4329087534367728,
+                "Connectionism": 0.4329087534367728,
+                "Virus": 0.4329087534367728
+            }
+        },
+        {
+            "session_id": 6,
+            "timestamp": 26188882.0,
+            "means": {
+                "Blue cheese": -0.241692489747066,
+                "Emacs": -0.2416924897470661,
+                "Metadata": -0.24169248974706609,
+                "Species": -0.24169248974706609,
+                "Glyceraldehyde": -0.24169248974706609,
+                "Ormolu": 0.005722684020826562,
+                "Cholera": 0.005722684020826562,
+                "Gene": 0.05969441524211302,
+                "Aniline": 0.005722684020826517,
+                "Neurotransmitter": 0.005722684020826517,
+                "Ideal gas": 0.08767441765803645,
+                "Mermaid": 0.08767441765803645,
+                "Melting point": 0.08767441765803645,
+                "Agar": 0.08767441765803645,
+                "Elegy": 0.08767441765803645,
+                "Anorectic": 0.08140672857635492,
+                "Benadryl": 0.08140672857635492,
+                "Methanol": 0.08140672857635492,
+                "Antacid": 0.0814067285763549,
+                "Algorithm": 0.09730787603161334,
+                "Chronozone": 0.09730787603161334,
+                "Chromosome": 0.09730787603161334,
+                "Connectionism": 0.09730787603161334,
+                "Virus": 0.09730787603161335,
+                "Generative model": -0.10224851730140863,
+                "Maximum likelihood estimation": -0.10224851730140863,
+                "Probability density function": -0.10224851730140863,
+                "Normal distribution": -0.10224851730140863,
+                "Deep learning": -0.10224851730140866
+            },
+            "variances": {
+                "Blue cheese": 0.333992112049075,
+                "Emacs": 0.333992112049075,
+                "Metadata": 0.33399211204907486,
+                "Species": 0.33399211204907486,
+                "Glyceraldehyde": 0.33399211204907486,
+                "Ormolu": 0.4003052802265368,
+                "Cholera": 0.4003052802265368,
+                "Gene": 0.356905231123182,
+                "Aniline": 0.4003052802265368,
+                "Neurotransmitter": 0.4003052802265368,
+                "Ideal gas": 0.432890529505198,
+                "Mermaid": 0.432890529505198,
+                "Melting point": 0.432890529505198,
+                "Agar": 0.432890529505198,
+                "Elegy": 0.432890529505198,
+                "Anorectic": 0.4321998900411673,
+                "Benadryl": 0.4321998900411673,
+                "Methanol": 0.4321998900411673,
+                "Antacid": 0.4321998900411673,
+                "Algorithm": 0.4329087534367728,
+                "Chronozone": 0.4329087534367728,
+                "Chromosome": 0.4329087534367728,
+                "Connectionism": 0.4329087534367728,
+                "Virus": 0.4329087534367728,
+                "Generative model": 0.4699939386234833,
+                "Maximum likelihood estimation": 0.4699939386234833,
+                "Probability density function": 0.4699939386234833,
+                "Normal distribution": 0.4699939386234833,
+                "Deep learning": 0.4699939386234833
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 2775,
+            "topic_name": "Blue cheese",
+            "topic_url": "https://en.wikipedia.org/wiki/Blue_cheese",
+            "mean": -0.241692489747066,
+            "variance": 0.333992112049075,
+            "interest_mean": 1.42096144296376,
+            "interest_var": 0.30140772214051464,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 8625,
+            "topic_name": "Emacs",
+            "topic_url": "https://en.wikipedia.org/wiki/Emacs",
+            "mean": -0.2416924897470661,
+            "variance": 0.333992112049075,
+            "interest_mean": 1.42096144296376,
+            "interest_var": 0.30140772214051464,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 16711,
+            "topic_name": "Metadata",
+            "topic_url": "https://en.wikipedia.org/wiki/Metadata",
+            "mean": -0.24169248974706609,
+            "variance": 0.33399211204907486,
+            "interest_mean": 1.42096144296376,
+            "interest_var": 0.30140772214051464,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 25562,
+            "topic_name": "Species",
+            "topic_url": "https://en.wikipedia.org/wiki/Species",
+            "mean": -0.24169248974706609,
+            "variance": 0.33399211204907486,
+            "interest_mean": 1.42096144296376,
+            "interest_var": 0.30140772214051464,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 11378,
+            "topic_name": "Glyceraldehyde",
+            "topic_url": "https://en.wikipedia.org/wiki/Glyceraldehyde",
+            "mean": -0.24169248974706609,
+            "variance": 0.33399211204907486,
+            "interest_mean": 1.42096144296376,
+            "interest_var": 0.30140772214051464,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 19160,
+            "topic_name": "Ormolu",
+            "topic_url": "https://en.wikipedia.org/wiki/Ormolu",
+            "mean": 0.005722684020826562,
+            "variance": 0.4003052802265368,
+            "interest_mean": 1.187903180978102,
+            "interest_var": 0.37148047162033326,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 4338,
+            "topic_name": "Cholera",
+            "topic_url": "https://en.wikipedia.org/wiki/Cholera",
+            "mean": 0.005722684020826562,
+            "variance": 0.4003052802265368,
+            "interest_mean": 1.187903180978102,
+            "interest_var": 0.37148047162033326,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 10985,
+            "topic_name": "Gene",
+            "topic_url": "https://en.wikipedia.org/wiki/Gene",
+            "mean": 0.05969441524211302,
+            "variance": 0.356905231123182,
+            "interest_mean": 1.9174903788686049,
+            "interest_var": 0.3188177656333982,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 1023,
+            "topic_name": "Aniline",
+            "topic_url": "https://en.wikipedia.org/wiki/Aniline",
+            "mean": 0.005722684020826517,
+            "variance": 0.4003052802265368,
+            "interest_mean": 1.1879031809781022,
+            "interest_var": 0.37148047162033326,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 18165,
+            "topic_name": "Neurotransmitter",
+            "topic_url": "https://en.wikipedia.org/wiki/Neurotransmitter",
+            "mean": 0.005722684020826517,
+            "variance": 0.4003052802265368,
+            "interest_mean": 1.1879031809781022,
+            "interest_var": 0.37148047162033326,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 13003,
+            "topic_name": "Ideal gas",
+            "topic_url": "https://en.wikipedia.org/wiki/Ideal_gas",
+            "mean": 0.08767441765803645,
+            "variance": 0.432890529505198,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 16662,
+            "topic_name": "Mermaid",
+            "topic_url": "https://en.wikipedia.org/wiki/Mermaid",
+            "mean": 0.08767441765803645,
+            "variance": 0.432890529505198,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 16565,
+            "topic_name": "Melting point",
+            "topic_url": "https://en.wikipedia.org/wiki/Melting_point",
+            "mean": 0.08767441765803645,
+            "variance": 0.432890529505198,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 527,
+            "topic_name": "Agar",
+            "topic_url": "https://en.wikipedia.org/wiki/Agar",
+            "mean": 0.08767441765803645,
+            "variance": 0.432890529505198,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 8575,
+            "topic_name": "Elegy",
+            "topic_url": "https://en.wikipedia.org/wiki/Elegy",
+            "mean": 0.08767441765803645,
+            "variance": 0.432890529505198,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 1077,
+            "topic_name": "Anorectic",
+            "topic_url": "https://en.wikipedia.org/wiki/Anorectic",
+            "mean": 0.08140672857635492,
+            "variance": 0.4321998900411673,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 2296,
+            "topic_name": "Benadryl",
+            "topic_url": "https://en.wikipedia.org/wiki/Benadryl",
+            "mean": 0.08140672857635492,
+            "variance": 0.4321998900411673,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 16766,
+            "topic_name": "Methanol",
+            "topic_url": "https://en.wikipedia.org/wiki/Methanol",
+            "mean": 0.08140672857635492,
+            "variance": 0.4321998900411673,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 1089,
+            "topic_name": "Antacid",
+            "topic_url": "https://en.wikipedia.org/wiki/Antacid",
+            "mean": 0.0814067285763549,
+            "variance": 0.4321998900411673,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.09730787603161334,
+            "variance": 0.4329087534367728,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 4423,
+            "topic_name": "Chronozone",
+            "topic_url": "https://en.wikipedia.org/wiki/Chronozone",
+            "mean": 0.09730787603161334,
+            "variance": 0.4329087534367728,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 4407,
+            "topic_name": "Chromosome",
+            "topic_url": "https://en.wikipedia.org/wiki/Chromosome",
+            "mean": 0.09730787603161334,
+            "variance": 0.4329087534367728,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 5627,
+            "topic_name": "Connectionism",
+            "topic_url": "https://en.wikipedia.org/wiki/Connectionism",
+            "mean": 0.09730787603161334,
+            "variance": 0.4329087534367728,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 29349,
+            "topic_name": "Virus",
+            "topic_url": "https://en.wikipedia.org/wiki/Virus",
+            "mean": 0.09730787603161335,
+            "variance": 0.4329087534367728,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26174967.0
+        },
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": -0.10224851730140863,
+            "variance": 0.4699939386234833,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26188882.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": -0.10224851730140863,
+            "variance": 0.4699939386234833,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26188882.0
+        },
+        {
+            "topic_id": 21372,
+            "topic_name": "Probability density function",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_density_function",
+            "mean": -0.10224851730140863,
+            "variance": 0.4699939386234833,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26188882.0
+        },
+        {
+            "topic_id": 18442,
+            "topic_name": "Normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_distribution",
+            "mean": -0.10224851730140863,
+            "variance": 0.4699939386234833,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26188882.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": -0.10224851730140866,
+            "variance": 0.4699939386234833,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26188882.0
+        }
+    ]
+}

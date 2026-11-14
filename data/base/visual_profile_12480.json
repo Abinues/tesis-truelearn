@@ -1,0 +1,260 @@
+{
+    "user_id": 12480,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.38639029674341957,
+            "variance": 0.4585370521423063
+        },
+        "interest": {
+            "mean": 0.059235956815782885,
+            "variance": 0.37794851465985424
+        },
+        "bias": {
+            "mean": -0.5904356715211917,
+            "variance": 0.30369744291196576
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 11188816.0,
+            "means": {
+                "Photon": -0.25937389940400846,
+                "Polarization (physics)": -0.3146880540707119,
+                "Trigonometric functions": -0.1995440973724668,
+                "Linear polarization": -0.24282725952665743,
+                "Electric field": -0.25431704915548975,
+                "Polarizer": 0.11767797840141063,
+                "Quantum mechanics": -0.15500073248547125,
+                "Brewster's angle": -0.15509606194418957,
+                "Refraction": -0.09135254869914702,
+                "Refractive index": -0.09135254869914702,
+                "Electron": -0.06760937858793357,
+                "Angular frequency": -0.07330478136007884,
+                "Sulfuric acid": -0.10554871614927275,
+                "Wavelength": -0.10554871614927275,
+                "Scattering": -0.10554871614927275,
+                "Probability": -0.10554871614927275,
+                "Butterfly": 0.21528774388346075,
+                "Sun": 0.21528774388346075,
+                "Sunset": 0.21528774388346075
+            },
+            "variances": {
+                "Photon": 0.423666541814316,
+                "Polarization (physics)": 0.330517468141838,
+                "Trigonometric functions": 0.44304887965681516,
+                "Linear polarization": 0.4263048930547759,
+                "Electric field": 0.42481822851908346,
+                "Polarizer": 0.4098414494578525,
+                "Quantum mechanics": 0.4494681988726984,
+                "Brewster's angle": 0.4498474013297065,
+                "Refraction": 0.47141028786514405,
+                "Refractive index": 0.47141028786514405,
+                "Electron": 0.47574234617839867,
+                "Angular frequency": 0.474281437556141,
+                "Sulfuric acid": 0.46876868439592617,
+                "Wavelength": 0.46876868439592617,
+                "Scattering": 0.46876868439592617,
+                "Probability": 0.46876868439592617,
+                "Butterfly": 0.42989440201176454,
+                "Sun": 0.42989440201176454,
+                "Sunset": 0.42989440201176454
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 20211,
+            "topic_name": "Photon",
+            "topic_url": "https://en.wikipedia.org/wiki/Photon",
+            "mean": -0.25937389940400846,
+            "variance": 0.423666541814316,
+            "interest_mean": 1.6836968240579049,
+            "interest_var": 0.3109578436912619,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 20649,
+            "topic_name": "Polarization (physics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Polarization_(waves)",
+            "mean": -0.3146880540707119,
+            "variance": 0.330517468141838,
+            "interest_mean": 2.898493959341134,
+            "interest_var": 0.20695149065827023,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 28340,
+            "topic_name": "Trigonometric functions",
+            "topic_url": "https://en.wikipedia.org/wiki/Trigonometric_functions",
+            "mean": -0.1995440973724668,
+            "variance": 0.44304887965681516,
+            "interest_mean": 1.6302572959832509,
+            "interest_var": 0.3436605809734271,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 15240,
+            "topic_name": "Linear polarization",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_polarization",
+            "mean": -0.24282725952665743,
+            "variance": 0.4263048930547759,
+            "interest_mean": 1.4289106073695699,
+            "interest_var": 0.32003136811846283,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 8440,
+            "topic_name": "Electric field",
+            "topic_url": "https://en.wikipedia.org/wiki/Electric_field",
+            "mean": -0.25431704915548975,
+            "variance": 0.42481822851908346,
+            "interest_mean": 1.7045735452181259,
+            "interest_var": 0.30967858362554623,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 20651,
+            "topic_name": "Polarizer",
+            "topic_url": "https://en.wikipedia.org/wiki/Polarizer",
+            "mean": 0.11767797840141063,
+            "variance": 0.4098414494578525,
+            "interest_mean": 1.0378161783433806,
+            "interest_var": 0.34331661732688656,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 22069,
+            "topic_name": "Quantum mechanics",
+            "topic_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+            "mean": -0.15500073248547125,
+            "variance": 0.4494681988726984,
+            "interest_mean": 0.727821392637189,
+            "interest_var": 0.3595552546439612,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 3081,
+            "topic_name": "Brewster's angle",
+            "topic_url": "https://en.wikipedia.org/wiki/Brewster's_angle",
+            "mean": -0.15509606194418957,
+            "variance": 0.4498474013297065,
+            "interest_mean": 0.8625460953747923,
+            "interest_var": 0.3556306763154217,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 22662,
+            "topic_name": "Refraction",
+            "topic_url": "https://en.wikipedia.org/wiki/Refraction",
+            "mean": -0.09135254869914702,
+            "variance": 0.47141028786514405,
+            "interest_mean": 0.669292707607333,
+            "interest_var": 0.40485603354839517,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 22663,
+            "topic_name": "Refractive index",
+            "topic_url": "https://en.wikipedia.org/wiki/Refractive_index",
+            "mean": -0.09135254869914702,
+            "variance": 0.47141028786514405,
+            "interest_mean": 0.669292707607333,
+            "interest_var": 0.40485603354839517,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 8504,
+            "topic_name": "Electron",
+            "topic_url": "https://en.wikipedia.org/wiki/Electron",
+            "mean": -0.06760937858793357,
+            "variance": 0.47574234617839867,
+            "interest_mean": 0.23866926975704633,
+            "interest_var": 0.4249194140442695,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 1015,
+            "topic_name": "Angular frequency",
+            "topic_url": "https://en.wikipedia.org/wiki/Angular_frequency",
+            "mean": -0.07330478136007884,
+            "variance": 0.474281437556141,
+            "interest_mean": 0.20846004258567039,
+            "interest_var": 0.4275980487518608,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 26561,
+            "topic_name": "Sulfuric acid",
+            "topic_url": "https://en.wikipedia.org/wiki/Sulfuric_acid",
+            "mean": -0.10554871614927275,
+            "variance": 0.46876868439592617,
+            "interest_mean": 0.7399388214475366,
+            "interest_var": 0.4028620566191722,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 29669,
+            "topic_name": "Wavelength",
+            "topic_url": "https://en.wikipedia.org/wiki/Wavelength",
+            "mean": -0.10554871614927275,
+            "variance": 0.46876868439592617,
+            "interest_mean": 0.7399388214475366,
+            "interest_var": 0.4028620566191722,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 23727,
+            "topic_name": "Scattering",
+            "topic_url": "https://en.wikipedia.org/wiki/Scattering",
+            "mean": -0.10554871614927275,
+            "variance": 0.46876868439592617,
+            "interest_mean": 0.7399388214475366,
+            "interest_var": 0.4028620566191722,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": -0.10554871614927275,
+            "variance": 0.46876868439592617,
+            "interest_mean": 0.7399388214475366,
+            "interest_var": 0.4028620566191722,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 3338,
+            "topic_name": "Butterfly",
+            "topic_url": "https://en.wikipedia.org/wiki/Butterfly",
+            "mean": 0.21528774388346075,
+            "variance": 0.42989440201176454,
+            "interest_mean": 0.5886428956140998,
+            "interest_var": 0.4031735389934234,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 26576,
+            "topic_name": "Sun",
+            "topic_url": "https://en.wikipedia.org/wiki/Sun",
+            "mean": 0.21528774388346075,
+            "variance": 0.42989440201176454,
+            "interest_mean": 0.5886428956140998,
+            "interest_var": 0.4031735389934234,
+            "timestamp": 11188816.0
+        },
+        {
+            "topic_id": 26591,
+            "topic_name": "Sunset",
+            "topic_url": "https://en.wikipedia.org/wiki/Sunset",
+            "mean": 0.21528774388346075,
+            "variance": 0.42989440201176454,
+            "interest_mean": 0.5886428956140998,
+            "interest_var": 0.4031735389934234,
+            "timestamp": 11188816.0
+        }
+    ]
+}

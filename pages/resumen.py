@@ -87,7 +87,7 @@ if st.session_state.get("popup_open") and st.session_state.get("popup_topic"):
 
 st.title(":material/person: ¿Cómo está aprendiendo este estudiante?")
 st.markdown(
-    f"Perfil de **Aprendiz #{uid}** generado a partir de sus interacciones con videos educativos. "
+    f"Perfil del **Estudiante #{uid}** generado a partir de sus interacciones con videos educativos. "
     "Cada indicador refleja lo que el sistema estima sobre su conocimiento e interés."
 )
 

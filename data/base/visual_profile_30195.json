@@ -1,0 +1,222 @@
+{
+    "user_id": 30195,
+    "number_of_engagements": 2,
+    "number_of_non_engagements": 4,
+    "weights": {
+        "novelty": {
+            "mean": 0.43592508297169885,
+            "variance": 0.44339484561366665
+        },
+        "interest": {
+            "mean": 0.20342543921469178,
+            "variance": 0.3837256400289649
+        },
+        "bias": {
+            "mean": -0.2957921140409459,
+            "variance": 0.3141223217170586
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 2264322.0,
+            "means": {
+                "Treebank": -0.053112040376918156,
+                "Part of speech": 0.11693328317901563,
+                "Linguistics": 0.11693328317901563,
+                "Syntax": -0.053112040376918156,
+                "Parsing": -0.053112040376918156,
+                "Lingua franca": -0.19640893401894008,
+                "Slavic languages": -0.1964089340189401
+            },
+            "variances": {
+                "Treebank": 0.40017943301678244,
+                "Part of speech": 0.4328859183654446,
+                "Linguistics": 0.4328859183654446,
+                "Syntax": 0.40017943301678244,
+                "Parsing": 0.40017943301678244,
+                "Lingua franca": 0.4563658049469683,
+                "Slavic languages": 0.4563658049469683
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 2327823.0,
+            "means": {
+                "Treebank": -0.1488576008359475,
+                "Part of speech": 0.11693328317901563,
+                "Linguistics": 0.11693328317901563,
+                "Syntax": -0.23719808278388335,
+                "Parsing": -0.1503350496451223,
+                "Lingua franca": -0.40102575271864443,
+                "Slavic languages": -0.20020132850627034,
+                "Content word": -0.11511859015107707,
+                "Function word": -0.11511859015107707,
+                "Preposition and postposition": 0.09183834733013312,
+                "Idiom": 0.22190616886892123,
+                "Clitic": 0.22190616886892123,
+                "Determiner": -0.10987791708978983,
+                "Pronoun": -0.10987791708978983
+            },
+            "variances": {
+                "Treebank": 0.3072839353739686,
+                "Part of speech": 0.4328859183654446,
+                "Linguistics": 0.4328859183654446,
+                "Syntax": 0.35809851751764005,
+                "Parsing": 0.37727630708804477,
+                "Lingua franca": 0.4020164762520435,
+                "Slavic languages": 0.3553302933267152,
+                "Content word": 0.4663163231019922,
+                "Function word": 0.4663163231019922,
+                "Preposition and postposition": 0.4037656440338237,
+                "Idiom": 0.4280864378192764,
+                "Clitic": 0.4280864378192764,
+                "Determiner": 0.4662535989587186,
+                "Pronoun": 0.4662535989587186
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 28275,
+            "topic_name": "Treebank",
+            "topic_url": "https://en.wikipedia.org/wiki/Treebank",
+            "mean": -0.1488576008359475,
+            "variance": 0.3072839353739686,
+            "interest_mean": 2.5560728976853535,
+            "interest_var": 0.22152038260864293,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 19581,
+            "topic_name": "Part of speech",
+            "topic_url": "https://en.wikipedia.org/wiki/Part_of_speech",
+            "mean": 0.11693328317901563,
+            "variance": 0.4328859183654446,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2264322.0
+        },
+        {
+            "topic_id": 15273,
+            "topic_name": "Linguistics",
+            "topic_url": "https://en.wikipedia.org/wiki/Linguistics",
+            "mean": 0.11693328317901563,
+            "variance": 0.4328859183654446,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2264322.0
+        },
+        {
+            "topic_id": 26897,
+            "topic_name": "Syntax",
+            "topic_url": "https://en.wikipedia.org/wiki/Syntax",
+            "mean": -0.23719808278388335,
+            "variance": 0.35809851751764005,
+            "interest_mean": 2.0168056706396307,
+            "interest_var": 0.27542694112830735,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 19576,
+            "topic_name": "Parsing",
+            "topic_url": "https://en.wikipedia.org/wiki/Parsing",
+            "mean": -0.1503350496451223,
+            "variance": 0.37727630708804477,
+            "interest_mean": 1.6637774954862419,
+            "interest_var": 0.3131098029250777,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 15264,
+            "topic_name": "Lingua franca",
+            "topic_url": "https://en.wikipedia.org/wiki/Lingua_franca",
+            "mean": -0.40102575271864443,
+            "variance": 0.4020164762520435,
+            "interest_mean": 1.0211057778696506,
+            "interest_var": 0.3113861144667623,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 24916,
+            "topic_name": "Slavic languages",
+            "topic_url": "https://en.wikipedia.org/wiki/Slavic_languages",
+            "mean": -0.20020132850627034,
+            "variance": 0.3553302933267152,
+            "interest_mean": 1.4030476157242515,
+            "interest_var": 0.27227746312495316,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 5788,
+            "topic_name": "Content word",
+            "topic_url": "https://en.wikipedia.org/wiki/Content_word",
+            "mean": -0.11511859015107707,
+            "variance": 0.4663163231019922,
+            "interest_mean": 0.563745005514667,
+            "interest_var": 0.40390726454567455,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 10680,
+            "topic_name": "Function word",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_word",
+            "mean": -0.11511859015107707,
+            "variance": 0.4663163231019922,
+            "interest_mean": 0.5637450055146672,
+            "interest_var": 0.40390726454567455,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 21143,
+            "topic_name": "Preposition and postposition",
+            "topic_url": "https://en.wikipedia.org/wiki/Preposition_and_postposition",
+            "mean": 0.09183834733013312,
+            "variance": 0.4037656440338237,
+            "interest_mean": 1.0408146855500053,
+            "interest_var": 0.33816796851724223,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 13030,
+            "topic_name": "Idiom",
+            "topic_url": "https://en.wikipedia.org/wiki/Idiom",
+            "mean": 0.22190616886892123,
+            "variance": 0.4280864378192764,
+            "interest_mean": 0.5905683332682302,
+            "interest_var": 0.39926005042353535,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 4683,
+            "topic_name": "Clitic",
+            "topic_url": "https://en.wikipedia.org/wiki/Clitic",
+            "mean": 0.22190616886892123,
+            "variance": 0.4280864378192764,
+            "interest_mean": 0.5905683332682302,
+            "interest_var": 0.39926005042353535,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 7304,
+            "topic_name": "Determiner",
+            "topic_url": "https://en.wikipedia.org/wiki/Determiner",
+            "mean": -0.10987791708978983,
+            "variance": 0.4662535989587186,
+            "interest_mean": 0.43688588676092194,
+            "interest_var": 0.4026862705238243,
+            "timestamp": 2327823.0
+        },
+        {
+            "topic_id": 21558,
+            "topic_name": "Pronoun",
+            "topic_url": "https://en.wikipedia.org/wiki/Pronoun",
+            "mean": -0.10987791708978983,
+            "variance": 0.4662535989587186,
+            "interest_mean": 0.43688588676092194,
+            "interest_var": 0.4026862705238243,
+            "timestamp": 2327823.0
+        }
+    ]
+}

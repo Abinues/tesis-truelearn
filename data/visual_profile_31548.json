@@ -1,0 +1,290 @@
+{
+    "user_id": 31548,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.7590845700996235,
+            "variance": 0.44238950505102825
+        },
+        "interest": {
+            "mean": 0.713733585527642,
+            "variance": 0.42191994168849395
+        },
+        "bias": {
+            "mean": 0.3369577995642175,
+            "variance": 0.34119422917447073
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 22883068.0,
+            "means": {
+                "Deep learning": 0.15671817251785075,
+                "Artificial intelligence": 0.15671817251785075,
+                "Convolutional neural network": 0.15671817251785075,
+                "Inferior temporal gyrus": 0.15671817251785075,
+                "Distributed computing": 0.15671817251785078
+            },
+            "variances": {
+                "Deep learning": 0.43288596720347033,
+                "Artificial intelligence": 0.43288596720347033,
+                "Convolutional neural network": 0.43288596720347033,
+                "Inferior temporal gyrus": 0.43288596720347033,
+                "Distributed computing": 0.43288596720347033
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 22884684.0,
+            "means": {
+                "Deep learning": 0.15671817251785075,
+                "Artificial intelligence": 0.15671817251785075,
+                "Convolutional neural network": 0.15671817251785075,
+                "Inferior temporal gyrus": 0.15671817251785075,
+                "Distributed computing": 0.15671817251785078,
+                "Probability theory": 0.39057189173958695,
+                "Probability": 0.2842674977997553,
+                "Machine learning": 0.2842674977997553,
+                "Universality probability": 0.10612225385379506,
+                "Linear algebra": -0.005718489983919328,
+                "Decision theory": 0.20570950337547345,
+                "Probability distribution": 0.20570950337547345,
+                "Marginal distribution": 0.13991274022348513,
+                "Posterior probability": 0.13991274022348513,
+                "Normal distribution": 0.13991274022348513,
+                "Conditional probability distribution": 0.13991274022348513,
+                "Loss function": -0.12914576534515151,
+                "Covariance function": -0.12914576534515151,
+                "Global optimization": -0.12914576534515151,
+                "Canadian dollar": -0.12914576534515154
+            },
+            "variances": {
+                "Deep learning": 0.43288596720347033,
+                "Artificial intelligence": 0.43288596720347033,
+                "Convolutional neural network": 0.43288596720347033,
+                "Inferior temporal gyrus": 0.43288596720347033,
+                "Distributed computing": 0.43288596720347033,
+                "Probability theory": 0.33993228943202164,
+                "Probability": 0.3798953325123563,
+                "Machine learning": 0.3798953325123563,
+                "Universality probability": 0.4330019785736365,
+                "Linear algebra": 0.40708079786939655,
+                "Decision theory": 0.4291876313705861,
+                "Probability distribution": 0.4291876313705861,
+                "Marginal distribution": 0.4307737758292058,
+                "Posterior probability": 0.4307737758292058,
+                "Normal distribution": 0.4307737758292058,
+                "Conditional probability distribution": 0.4307737758292058,
+                "Loss function": 0.46543671386778523,
+                "Covariance function": 0.46543671386778523,
+                "Global optimization": 0.46543671386778523,
+                "Canadian dollar": 0.46543671386778523
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.15671817251785075,
+            "variance": 0.43288596720347033,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22883068.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": 0.15671817251785075,
+            "variance": 0.43288596720347033,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22883068.0
+        },
+        {
+            "topic_id": 5930,
+            "topic_name": "Convolutional neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+            "mean": 0.15671817251785075,
+            "variance": 0.43288596720347033,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22883068.0
+        },
+        {
+            "topic_id": 13347,
+            "topic_name": "Inferior temporal gyrus",
+            "topic_url": "https://en.wikipedia.org/wiki/Inferior_temporal_gyrus",
+            "mean": 0.15671817251785075,
+            "variance": 0.43288596720347033,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22883068.0
+        },
+        {
+            "topic_id": 7723,
+            "topic_name": "Distributed computing",
+            "topic_url": "https://en.wikipedia.org/wiki/Distributed_computing",
+            "mean": 0.15671817251785078,
+            "variance": 0.43288596720347033,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22883068.0
+        },
+        {
+            "topic_id": 21383,
+            "topic_name": "Probability theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_theory",
+            "mean": 0.39057189173958695,
+            "variance": 0.33993228943202164,
+            "interest_mean": 2.1273445018858124,
+            "interest_var": 0.29972920536179104,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.2842674977997553,
+            "variance": 0.3798953325123563,
+            "interest_mean": 1.5396361316932714,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.2842674977997553,
+            "variance": 0.3798953325123563,
+            "interest_mean": 1.5396361316932716,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 28823,
+            "topic_name": "Universality probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Universality_probability",
+            "mean": 0.10612225385379506,
+            "variance": 0.4330019785736365,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 15207,
+            "topic_name": "Linear algebra",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+            "mean": -0.005718489983919328,
+            "variance": 0.40708079786939655,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 6975,
+            "topic_name": "Decision theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_theory",
+            "mean": 0.20570950337547345,
+            "variance": 0.4291876313705861,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": 0.20570950337547345,
+            "variance": 0.4291876313705861,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 16085,
+            "topic_name": "Marginal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Marginal_distribution",
+            "mean": 0.13991274022348513,
+            "variance": 0.4307737758292058,
+            "interest_mean": 0.8504312305274544,
+            "interest_var": 0.40408647268191994,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": 0.13991274022348513,
+            "variance": 0.4307737758292058,
+            "interest_mean": 0.8504312305274544,
+            "interest_var": 0.40408647268191994,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 18442,
+            "topic_name": "Normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_distribution",
+            "mean": 0.13991274022348513,
+            "variance": 0.4307737758292058,
+            "interest_mean": 0.8504312305274544,
+            "interest_var": 0.40408647268191994,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 5519,
+            "topic_name": "Conditional probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability_distribution",
+            "mean": 0.13991274022348513,
+            "variance": 0.4307737758292058,
+            "interest_mean": 0.8504312305274544,
+            "interest_var": 0.40408647268191994,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": -0.12914576534515151,
+            "variance": 0.46543671386778523,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 6220,
+            "topic_name": "Covariance function",
+            "topic_url": "https://en.wikipedia.org/wiki/Covariance_function",
+            "mean": -0.12914576534515151,
+            "variance": 0.46543671386778523,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 11317,
+            "topic_name": "Global optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Global_optimization",
+            "mean": -0.12914576534515151,
+            "variance": 0.46543671386778523,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 22884684.0
+        },
+        {
+            "topic_id": 3519,
+            "topic_name": "Canadian dollar",
+            "topic_url": "https://en.wikipedia.org/wiki/Canadian_dollar",
+            "mean": -0.12914576534515154,
+            "variance": 0.46543671386778523,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 22884684.0
+        }
+    ]
+}

@@ -1,0 +1,580 @@
+{
+    "user_id": 7799,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 12,
+    "weights": {
+        "novelty": {
+            "mean": 0.5333405551287971,
+            "variance": 0.4064842552422578
+        },
+        "interest": {
+            "mean": 0.05843699488024398,
+            "variance": 0.3020955982356518
+        },
+        "bias": {
+            "mean": -0.6335360363213879,
+            "variance": 0.2154958351614474
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 29209421.0,
+            "means": {
+                "Phase velocity": -0.1158089287635612,
+                "Electromagnetic radiation": -0.1158089287635612,
+                "Electric field": -0.1158089287635612,
+                "Group velocity": -0.1158089287635612,
+                "Geometry": -0.11580892876356123
+            },
+            "variances": {
+                "Phase velocity": 0.4678340615392447,
+                "Electromagnetic radiation": 0.4678340615392447,
+                "Electric field": 0.4678340615392447,
+                "Group velocity": 0.4678340615392447,
+                "Geometry": 0.4678340615392447
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 29209884.0,
+            "means": {
+                "Phase velocity": -0.33898774661056374,
+                "Electromagnetic radiation": -0.36587371486008935,
+                "Electric field": -0.28415685421699194,
+                "Group velocity": -0.4175814958307096,
+                "Geometry": -0.19216297589243903,
+                "Standing wave": -0.17340776227833188,
+                "Wave equation": -0.07512089461217009,
+                "Wave": -0.07512089461217009,
+                "Omega": -0.18627147742489739,
+                "Dispersion relation": -0.09446247384512274,
+                "Cutoff frequency": -0.09446247384512274,
+                "Hertz": -0.09757082532788065,
+                "Linear polarization": -0.09757082532788065,
+                "Resonance": -0.10357120827576682,
+                "Coordinate system": -0.10357120827576684
+            },
+            "variances": {
+                "Phase velocity": 0.4027523030374934,
+                "Electromagnetic radiation": 0.39818851602781075,
+                "Electric field": 0.41949623888865806,
+                "Group velocity": 0.3831095997040374,
+                "Geometry": 0.4441093227357729,
+                "Standing wave": 0.4463936807589562,
+                "Wave equation": 0.47448933589953374,
+                "Wave": 0.47448933589953374,
+                "Omega": 0.443669880115201,
+                "Dispersion relation": 0.47047364451031476,
+                "Cutoff frequency": 0.47047364451031476,
+                "Hertz": 0.46972632103634865,
+                "Linear polarization": 0.46972632103634865,
+                "Resonance": 0.4688020354753554,
+                "Coordinate system": 0.4688020354753554
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 29298191.0,
+            "means": {
+                "Phase velocity": -0.33898774661056374,
+                "Electromagnetic radiation": -0.3937110890726352,
+                "Electric field": -0.37903312024726277,
+                "Group velocity": -0.4175814958307096,
+                "Geometry": -0.19216297589243903,
+                "Standing wave": -0.17340776227833188,
+                "Wave equation": -0.07512089461217009,
+                "Wave": -0.07512089461217009,
+                "Omega": -0.18627147742489739,
+                "Dispersion relation": -0.09446247384512274,
+                "Cutoff frequency": -0.09446247384512274,
+                "Hertz": -0.09757082532788065,
+                "Linear polarization": -0.09757082532788065,
+                "Resonance": -0.10357120827576682,
+                "Coordinate system": -0.10357120827576684,
+                "Brewster's angle": -0.10746379305830467,
+                "Total internal reflection": 0.22914423088652391,
+                "Polarization (physics)": -0.2061188122288511,
+                "Angle of incidence (optics)": 0.09533934159808997,
+                "Perpendicular": -0.27194917058079543,
+                "Normal (geometry)": -0.13839236210931624,
+                "Placenta": -0.13839236210931624,
+                "Velocity": -0.13839236210931624,
+                "Euclidean vector": -0.1383923621093163,
+                "Maxwell (unit)": 0.06246888691152497,
+                "Trigonometric functions": -0.17504018241836553,
+                "Tangential and normal components": -0.17504018241836553,
+                "Theta": -0.11308357171642343,
+                "Boundary value problem": -0.16719724094747604,
+                "Speed of light": 0.4227160378968162,
+                "Angle of incidence (aerodynamics)": 0.21614400889682742,
+                "Dot product": -0.1060496344018141,
+                "Refractive index": 0.1672033680120396,
+                "Magnetic flux": -0.1060496344018141,
+                "Elizabethan era": 0.16378667435203914,
+                "Optical fiber": 0.16378667435203914,
+                "Optics": 0.16378667435203914,
+                "Dielectric": 0.23959262133389628,
+                "Refraction": 0.23959262133389628,
+                "Circular polarization": -0.1051447817975968,
+                "Charge density": -0.10514478179759681
+            },
+            "variances": {
+                "Phase velocity": 0.4027523030374934,
+                "Electromagnetic radiation": 0.3118277986795693,
+                "Electric field": 0.3966522401675487,
+                "Group velocity": 0.3831095997040374,
+                "Geometry": 0.4441093227357729,
+                "Standing wave": 0.4463936807589562,
+                "Wave equation": 0.47448933589953374,
+                "Wave": 0.47448933589953374,
+                "Omega": 0.443669880115201,
+                "Dispersion relation": 0.47047364451031476,
+                "Cutoff frequency": 0.47047364451031476,
+                "Hertz": 0.46972632103634865,
+                "Linear polarization": 0.46972632103634865,
+                "Resonance": 0.4688020354753554,
+                "Coordinate system": 0.4688020354753554,
+                "Brewster's angle": 0.46913892198880996,
+                "Total internal reflection": 0.36215181439136657,
+                "Polarization (physics)": 0.4403613350513057,
+                "Angle of incidence (optics)": 0.4084730635681537,
+                "Perpendicular": 0.4218647280422851,
+                "Normal (geometry)": 0.46464681127645535,
+                "Placenta": 0.46464681127645535,
+                "Velocity": 0.46464681127645535,
+                "Euclidean vector": 0.46464681127645535,
+                "Maxwell (unit)": 0.40513716919335624,
+                "Trigonometric functions": 0.4464824926682804,
+                "Tangential and normal components": 0.4464824926682804,
+                "Theta": 0.4675469145663821,
+                "Boundary value problem": 0.4473777416843972,
+                "Speed of light": 0.3768821012148428,
+                "Angle of incidence (aerodynamics)": 0.43109013092709164,
+                "Dot product": 0.4685062236259114,
+                "Refractive index": 0.3422524778509262,
+                "Magnetic flux": 0.4685062236259114,
+                "Elizabethan era": 0.43059457367205056,
+                "Optical fiber": 0.43059457367205056,
+                "Optics": 0.43059457367205056,
+                "Dielectric": 0.4270765058279164,
+                "Refraction": 0.4270765058279164,
+                "Circular polarization": 0.4673117664577142,
+                "Charge density": 0.4673117664577142
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 20101,
+            "topic_name": "Phase velocity",
+            "topic_url": "https://en.wikipedia.org/wiki/Phase_velocity",
+            "mean": -0.33898774661056374,
+            "variance": 0.4027523030374934,
+            "interest_mean": 2.090866803019219,
+            "interest_var": 0.2736752501220985,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 8497,
+            "topic_name": "Electromagnetic radiation",
+            "topic_url": "https://en.wikipedia.org/wiki/Electromagnetic_radiation",
+            "mean": -0.3937110890726352,
+            "variance": 0.3118277986795693,
+            "interest_mean": 2.7422796457176015,
+            "interest_var": 0.19223263214013941,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 8440,
+            "topic_name": "Electric field",
+            "topic_url": "https://en.wikipedia.org/wiki/Electric_field",
+            "mean": -0.37903312024726277,
+            "variance": 0.3966522401675487,
+            "interest_mean": 2.051739601278097,
+            "interest_var": 0.27334656833316967,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 11794,
+            "topic_name": "Group velocity",
+            "topic_url": "https://en.wikipedia.org/wiki/Group_velocity",
+            "mean": -0.4175814958307096,
+            "variance": 0.3831095997040374,
+            "interest_mean": 2.350633934937081,
+            "interest_var": 0.24525996537953582,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 11163,
+            "topic_name": "Geometry",
+            "topic_url": "https://en.wikipedia.org/wiki/Geometry",
+            "mean": -0.19216297589243903,
+            "variance": 0.4441093227357729,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 25929,
+            "topic_name": "Standing wave",
+            "topic_url": "https://en.wikipedia.org/wiki/Standing_wave",
+            "mean": -0.17340776227833188,
+            "variance": 0.4463936807589562,
+            "interest_mean": 1.1229736662858318,
+            "interest_var": 0.34021567285802967,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 29658,
+            "topic_name": "Wave equation",
+            "topic_url": "https://en.wikipedia.org/wiki/Wave_equation",
+            "mean": -0.07512089461217009,
+            "variance": 0.47448933589953374,
+            "interest_mean": 0.696891962531352,
+            "interest_var": 0.40284447451333677,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 29656,
+            "topic_name": "Wave",
+            "topic_url": "https://en.wikipedia.org/wiki/Wave",
+            "mean": -0.07512089461217009,
+            "variance": 0.47448933589953374,
+            "interest_mean": 0.696891962531352,
+            "interest_var": 0.40284447451333677,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 18798,
+            "topic_name": "Omega",
+            "topic_url": "https://en.wikipedia.org/wiki/Omega",
+            "mean": -0.18627147742489739,
+            "variance": 0.443669880115201,
+            "interest_mean": 0.9114276378774707,
+            "interest_var": 0.34305760119384654,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 7676,
+            "topic_name": "Dispersion relation",
+            "topic_url": "https://en.wikipedia.org/wiki/Dispersion_relation",
+            "mean": -0.09446247384512274,
+            "variance": 0.47047364451031476,
+            "interest_mean": 0.5266171986807132,
+            "interest_var": 0.4054134655883523,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 6617,
+            "topic_name": "Cutoff frequency",
+            "topic_url": "https://en.wikipedia.org/wiki/Cutoff_frequency",
+            "mean": -0.09446247384512274,
+            "variance": 0.47047364451031476,
+            "interest_mean": 0.5266171986807132,
+            "interest_var": 0.4054134655883523,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 12270,
+            "topic_name": "Hertz",
+            "topic_url": "https://en.wikipedia.org/wiki/Hertz",
+            "mean": -0.09757082532788065,
+            "variance": 0.46972632103634865,
+            "interest_mean": 0.4745901059777395,
+            "interest_var": 0.4051535732965231,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 15240,
+            "topic_name": "Linear polarization",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_polarization",
+            "mean": -0.09757082532788065,
+            "variance": 0.46972632103634865,
+            "interest_mean": 0.4745901059777395,
+            "interest_var": 0.4051535732965231,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 22907,
+            "topic_name": "Resonance",
+            "topic_url": "https://en.wikipedia.org/wiki/Resonance",
+            "mean": -0.10357120827576682,
+            "variance": 0.4688020354753554,
+            "interest_mean": 0.528841439701035,
+            "interest_var": 0.40351955713407567,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 5953,
+            "topic_name": "Coordinate system",
+            "topic_url": "https://en.wikipedia.org/wiki/Coordinate_system",
+            "mean": -0.10357120827576684,
+            "variance": 0.4688020354753554,
+            "interest_mean": 0.528841439701035,
+            "interest_var": 0.40351955713407567,
+            "timestamp": 29209884.0
+        },
+        {
+            "topic_id": 3081,
+            "topic_name": "Brewster's angle",
+            "topic_url": "https://en.wikipedia.org/wiki/Brewster's_angle",
+            "mean": -0.10746379305830467,
+            "variance": 0.46913892198880996,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 27950,
+            "topic_name": "Total internal reflection",
+            "topic_url": "https://en.wikipedia.org/wiki/Total_internal_reflection",
+            "mean": 0.22914423088652391,
+            "variance": 0.36215181439136657,
+            "interest_mean": 2.0501757692314504,
+            "interest_var": 0.2990373305167489,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 20649,
+            "topic_name": "Polarization (physics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Polarization_(waves)",
+            "mean": -0.2061188122288511,
+            "variance": 0.4403613350513057,
+            "interest_mean": 1.2787852371180455,
+            "interest_var": 0.35609425600069966,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 996,
+            "topic_name": "Angle of incidence (optics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Angle_of_incidence_(optics)",
+            "mean": 0.09533934159808997,
+            "variance": 0.4084730635681537,
+            "interest_mean": 1.5396361316932714,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 19972,
+            "topic_name": "Perpendicular",
+            "topic_url": "https://en.wikipedia.org/wiki/Perpendicular",
+            "mean": -0.27194917058079543,
+            "variance": 0.4218647280422851,
+            "interest_mean": 1.8333997535564621,
+            "interest_var": 0.30287703680647077,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 18437,
+            "topic_name": "Normal (geometry)",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_(geometry)",
+            "mean": -0.13839236210931624,
+            "variance": 0.46464681127645535,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 20425,
+            "topic_name": "Placenta",
+            "topic_url": "https://en.wikipedia.org/wiki/Placenta",
+            "mean": -0.13839236210931624,
+            "variance": 0.46464681127645535,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 29130,
+            "topic_name": "Velocity",
+            "topic_url": "https://en.wikipedia.org/wiki/Velocity",
+            "mean": -0.13839236210931624,
+            "variance": 0.46464681127645535,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 9123,
+            "topic_name": "Euclidean vector",
+            "topic_url": "https://en.wikipedia.org/wiki/Euclidean_vector",
+            "mean": -0.1383923621093163,
+            "variance": 0.46464681127645535,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 16394,
+            "topic_name": "Maxwell (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Maxwell_(unit)",
+            "mean": 0.06246888691152497,
+            "variance": 0.40513716919335624,
+            "interest_mean": 1.5396361316932716,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 28340,
+            "topic_name": "Trigonometric functions",
+            "topic_url": "https://en.wikipedia.org/wiki/Trigonometric_functions",
+            "mean": -0.17504018241836553,
+            "variance": 0.4464824926682804,
+            "interest_mean": 0.9080066489889488,
+            "interest_var": 0.3482334022883981,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 27065,
+            "topic_name": "Tangential and normal components",
+            "topic_url": "https://en.wikipedia.org/wiki/Tangential_and_normal_components",
+            "mean": -0.17504018241836553,
+            "variance": 0.4464824926682804,
+            "interest_mean": 0.9080066489889486,
+            "interest_var": 0.3482334022883981,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 27593,
+            "topic_name": "Theta",
+            "topic_url": "https://en.wikipedia.org/wiki/Theta",
+            "mean": -0.11308357171642343,
+            "variance": 0.4675469145663821,
+            "interest_mean": 0.6582087101146232,
+            "interest_var": 0.4038634668139799,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 2956,
+            "topic_name": "Boundary value problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Boundary_value_problem",
+            "mean": -0.16719724094747604,
+            "variance": 0.4473777416843972,
+            "interest_mean": 0.9190032278111063,
+            "interest_var": 0.34553012557641166,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 25644,
+            "topic_name": "Speed of light",
+            "topic_url": "https://en.wikipedia.org/wiki/Speed_of_light",
+            "mean": 0.4227160378968162,
+            "variance": 0.3768821012148428,
+            "interest_mean": 0.8815440079352779,
+            "interest_var": 0.34644078722443106,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 995,
+            "topic_name": "Angle of incidence (aerodynamics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Angle_of_incidence_(aerodynamics)",
+            "mean": 0.21614400889682742,
+            "variance": 0.43109013092709164,
+            "interest_mean": 0.5578465352366205,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 7925,
+            "topic_name": "Dot product",
+            "topic_url": "https://en.wikipedia.org/wiki/Dot_product",
+            "mean": -0.1060496344018141,
+            "variance": 0.4685062236259114,
+            "interest_mean": 0.7351026911728219,
+            "interest_var": 0.3994163464780192,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 22663,
+            "topic_name": "Refractive index",
+            "topic_url": "https://en.wikipedia.org/wiki/Refractive_index",
+            "mean": 0.1672033680120396,
+            "variance": 0.3422524778509262,
+            "interest_mean": 1.7330829699077182,
+            "interest_var": 0.2687246092901559,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 15886,
+            "topic_name": "Magnetic flux",
+            "topic_url": "https://en.wikipedia.org/wiki/Magnetic_flux",
+            "mean": -0.1060496344018141,
+            "variance": 0.4685062236259114,
+            "interest_mean": 0.7351026911728219,
+            "interest_var": 0.3994163464780192,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 8605,
+            "topic_name": "Elizabethan era",
+            "topic_url": "https://en.wikipedia.org/wiki/Elizabethan_era",
+            "mean": 0.16378667435203914,
+            "variance": 0.43059457367205056,
+            "interest_mean": 0.738765813463558,
+            "interest_var": 0.402637760240324,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 18997,
+            "topic_name": "Optical fiber",
+            "topic_url": "https://en.wikipedia.org/wiki/Optical_fiber",
+            "mean": 0.16378667435203914,
+            "variance": 0.43059457367205056,
+            "interest_mean": 0.738765813463558,
+            "interest_var": 0.402637760240324,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 19011,
+            "topic_name": "Optics",
+            "topic_url": "https://en.wikipedia.org/wiki/Optics",
+            "mean": 0.16378667435203914,
+            "variance": 0.43059457367205056,
+            "interest_mean": 0.738765813463558,
+            "interest_var": 0.402637760240324,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 7408,
+            "topic_name": "Dielectric",
+            "topic_url": "https://en.wikipedia.org/wiki/Dielectric",
+            "mean": 0.23959262133389628,
+            "variance": 0.4270765058279164,
+            "interest_mean": 0.3969880603259763,
+            "interest_var": 0.40787259819769267,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 22662,
+            "topic_name": "Refraction",
+            "topic_url": "https://en.wikipedia.org/wiki/Refraction",
+            "mean": 0.23959262133389628,
+            "variance": 0.4270765058279164,
+            "interest_mean": 0.39698806032597633,
+            "interest_var": 0.40787259819769267,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 4477,
+            "topic_name": "Circular polarization",
+            "topic_url": "https://en.wikipedia.org/wiki/Circular_polarization",
+            "mean": -0.1051447817975968,
+            "variance": 0.4673117664577142,
+            "interest_mean": 0.23705134365354635,
+            "interest_var": 0.42366091289621993,
+            "timestamp": 29298191.0
+        },
+        {
+            "topic_id": 4114,
+            "topic_name": "Charge density",
+            "topic_url": "https://en.wikipedia.org/wiki/Charge_density",
+            "mean": -0.10514478179759681,
+            "variance": 0.4673117664577142,
+            "interest_mean": 0.23705134365354635,
+            "interest_var": 0.42366091289621993,
+            "timestamp": 29298191.0
+        }
+    ]
+}

@@ -1,0 +1,390 @@
+{
+    "user_id": 16678,
+    "number_of_engagements": 10,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 1.1532284193701823,
+            "variance": 0.40198223428072993
+        },
+        "interest": {
+            "mean": 1.2283106334610259,
+            "variance": 0.3746416264979269
+        },
+        "bias": {
+            "mean": 0.9400563899118065,
+            "variance": 0.29901898365160784
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 10130143.0,
+            "means": {
+                "Integral": 0.09709871516365207,
+                "Root mean square": 0.09709871516365207,
+                "Recommender system": 0.17961450011385893,
+                "Linear regression": 0.19352568911068055,
+                "Root-mean-square deviation": 0.09709871516365207,
+                "Statistician": 0.04519485214786077,
+                "Physicist": 0.04519485214786077,
+                "Coordinate descent": 0.04519485214786077,
+                "Biologist": 0.04519485214786077,
+                "Maximum likelihood estimation": 0.1031491754070454,
+                "Hertz": 0.1031491754070454,
+                "Regularization (mathematics)": 0.1031491754070454,
+                "Photon": 0.1592560209631534,
+                "Open-source software": 0.1031491754070454,
+                "Film": 0.05682736163263951,
+                "Phi": 0.05682736163263951,
+                "Casablanca": 0.05682736163263951,
+                "Strategic Defense Initiative": 0.05682736163263951,
+                "Shellcode": 0.06478820904677922,
+                "Logistic regression": 0.16096818033515742,
+                "Culottes": 0.06478820904677922,
+                "Integer (computer science)": 0.06478820904677922,
+                "Optimization problem": 0.11137689021286759,
+                "Feature (machine learning)": 0.11137689021286759,
+                "Mathematical optimization": 0.11137689021286759
+            },
+            "variances": {
+                "Integral": 0.43288591449596825,
+                "Root mean square": 0.43288591449596825,
+                "Recommender system": 0.34141417272826785,
+                "Linear regression": 0.38077686559031193,
+                "Root-mean-square deviation": 0.43288591449596825,
+                "Statistician": 0.4317748980546309,
+                "Physicist": 0.4317748980546309,
+                "Coordinate descent": 0.4317748980546309,
+                "Biologist": 0.4317748980546309,
+                "Maximum likelihood estimation": 0.43300197969353504,
+                "Hertz": 0.43300197969353504,
+                "Regularization (mathematics)": 0.43300197969353504,
+                "Photon": 0.38183730485538514,
+                "Open-source software": 0.43300197969353504,
+                "Film": 0.4308092846459067,
+                "Phi": 0.4308092846459067,
+                "Casablanca": 0.4308092846459067,
+                "Strategic Defense Initiative": 0.4308092846459067,
+                "Shellcode": 0.4317770549373193,
+                "Logistic regression": 0.3799346241393222,
+                "Culottes": 0.4317770549373193,
+                "Integer (computer science)": 0.4317770549373193,
+                "Optimization problem": 0.4304805630936041,
+                "Feature (machine learning)": 0.4304805630936041,
+                "Mathematical optimization": 0.4304805630936041
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 11344553.0,
+            "means": {
+                "Integral": 0.09709871516365207,
+                "Root mean square": 0.09709871516365207,
+                "Recommender system": 0.1941117694492791,
+                "Linear regression": 0.22490586284852235,
+                "Root-mean-square deviation": 0.09709871516365207,
+                "Statistician": 0.04519485214786077,
+                "Physicist": 0.04519485214786077,
+                "Coordinate descent": 0.04519485214786077,
+                "Biologist": 0.04519485214786077,
+                "Maximum likelihood estimation": 0.12814840456892354,
+                "Hertz": 0.12814840456892354,
+                "Regularization (mathematics)": 0.12814840456892354,
+                "Photon": 0.18610155760758013,
+                "Open-source software": 0.12814840456892354,
+                "Film": 0.07512056305952423,
+                "Phi": 0.07512056305952422,
+                "Casablanca": 0.07512056305952422,
+                "Strategic Defense Initiative": 0.07512056305952422,
+                "Shellcode": 0.07311078219484059,
+                "Logistic regression": 0.1959848425409929,
+                "Culottes": 0.07311078219484059,
+                "Integer (computer science)": 0.07311078219484057,
+                "Optimization problem": 0.14685319164126237,
+                "Feature (machine learning)": 0.14685319164126237,
+                "Mathematical optimization": 0.14685319164126237
+            },
+            "variances": {
+                "Integral": 0.43288591449596825,
+                "Root mean square": 0.43288591449596825,
+                "Recommender system": 0.30605013696309175,
+                "Linear regression": 0.33602259881433844,
+                "Root-mean-square deviation": 0.43288591449596825,
+                "Statistician": 0.4317748980546309,
+                "Physicist": 0.4317748980546309,
+                "Coordinate descent": 0.4317748980546309,
+                "Biologist": 0.4317748980546309,
+                "Maximum likelihood estimation": 0.37620322397929457,
+                "Hertz": 0.37620322397929457,
+                "Regularization (mathematics)": 0.37620322397929457,
+                "Photon": 0.30299452204596156,
+                "Open-source software": 0.37620322397929457,
+                "Film": 0.3745014483827792,
+                "Phi": 0.3745014483827792,
+                "Casablanca": 0.3745014483827792,
+                "Strategic Defense Initiative": 0.3745014483827792,
+                "Shellcode": 0.3750861310124399,
+                "Logistic regression": 0.3011841149012804,
+                "Culottes": 0.3750861310124399,
+                "Integer (computer science)": 0.3750861310124399,
+                "Optimization problem": 0.37327998323547834,
+                "Feature (machine learning)": 0.37327998323547834,
+                "Mathematical optimization": 0.37327998323547834
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 13580,
+            "topic_name": "Integral",
+            "topic_url": "https://en.wikipedia.org/wiki/Integral",
+            "mean": 0.09709871516365207,
+            "variance": 0.43288591449596825,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 10130143.0
+        },
+        {
+            "topic_id": 23295,
+            "topic_name": "Root mean square",
+            "topic_url": "https://en.wikipedia.org/wiki/Root_mean_square",
+            "mean": 0.09709871516365207,
+            "variance": 0.43288591449596825,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 10130143.0
+        },
+        {
+            "topic_id": 22533,
+            "topic_name": "Recommender system",
+            "topic_url": "https://en.wikipedia.org/wiki/Recommender_system",
+            "mean": 0.1941117694492791,
+            "variance": 0.30605013696309175,
+            "interest_mean": 2.499174348516393,
+            "interest_var": 0.27389375275764455,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 15247,
+            "topic_name": "Linear regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_regression",
+            "mean": 0.22490586284852235,
+            "variance": 0.33602259881433844,
+            "interest_mean": 1.8436831540493754,
+            "interest_var": 0.310741636855471,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 23298,
+            "topic_name": "Root-mean-square deviation",
+            "topic_url": "https://en.wikipedia.org/wiki/Root-mean-square_deviation",
+            "mean": 0.09709871516365207,
+            "variance": 0.43288591449596825,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 10130143.0
+        },
+        {
+            "topic_id": 26050,
+            "topic_name": "Statistician",
+            "topic_url": "https://en.wikipedia.org/wiki/Statistician",
+            "mean": 0.04519485214786077,
+            "variance": 0.4317748980546309,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 10130143.0
+        },
+        {
+            "topic_id": 20272,
+            "topic_name": "Physicist",
+            "topic_url": "https://en.wikipedia.org/wiki/Physicist",
+            "mean": 0.04519485214786077,
+            "variance": 0.4317748980546309,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 10130143.0
+        },
+        {
+            "topic_id": 5951,
+            "topic_name": "Coordinate descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Coordinate_descent",
+            "mean": 0.04519485214786077,
+            "variance": 0.4317748980546309,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 10130143.0
+        },
+        {
+            "topic_id": 2549,
+            "topic_name": "Biologist",
+            "topic_url": "https://en.wikipedia.org/wiki/Biologist",
+            "mean": 0.04519485214786077,
+            "variance": 0.4317748980546309,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 10130143.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": 0.12814840456892354,
+            "variance": 0.37620322397929457,
+            "interest_mean": 1.1802297295245288,
+            "interest_var": 0.37276009314409386,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 12270,
+            "topic_name": "Hertz",
+            "topic_url": "https://en.wikipedia.org/wiki/Hertz",
+            "mean": 0.12814840456892354,
+            "variance": 0.37620322397929457,
+            "interest_mean": 1.1802297295245288,
+            "interest_var": 0.37276009314409386,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 22716,
+            "topic_name": "Regularization (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)",
+            "mean": 0.12814840456892354,
+            "variance": 0.37620322397929457,
+            "interest_mean": 1.1802297295245288,
+            "interest_var": 0.37276009314409386,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 20211,
+            "topic_name": "Photon",
+            "topic_url": "https://en.wikipedia.org/wiki/Photon",
+            "mean": 0.18610155760758013,
+            "variance": 0.30299452204596156,
+            "interest_mean": 1.9949938020120286,
+            "interest_var": 0.29688398961108503,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 18936,
+            "topic_name": "Open-source software",
+            "topic_url": "https://en.wikipedia.org/wiki/Open-source_software",
+            "mean": 0.12814840456892354,
+            "variance": 0.37620322397929457,
+            "interest_mean": 1.1802297295245288,
+            "interest_var": 0.37276009314409386,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 9853,
+            "topic_name": "Film",
+            "topic_url": "https://en.wikipedia.org/wiki/Film",
+            "mean": 0.07512056305952423,
+            "variance": 0.3745014483827792,
+            "interest_mean": 0.9589646344663302,
+            "interest_var": 0.3589753848979315,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 20118,
+            "topic_name": "Phi",
+            "topic_url": "https://en.wikipedia.org/wiki/Phi",
+            "mean": 0.07512056305952422,
+            "variance": 0.3745014483827792,
+            "interest_mean": 0.9589646344663302,
+            "interest_var": 0.3589753848979315,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 3778,
+            "topic_name": "Casablanca",
+            "topic_url": "https://en.wikipedia.org/wiki/Casablanca",
+            "mean": 0.07512056305952422,
+            "variance": 0.3745014483827792,
+            "interest_mean": 0.9589646344663302,
+            "interest_var": 0.3589753848979315,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 26249,
+            "topic_name": "Strategic Defense Initiative",
+            "topic_url": "https://en.wikipedia.org/wiki/Strategic_Defense_Initiative",
+            "mean": 0.07512056305952422,
+            "variance": 0.3745014483827792,
+            "interest_mean": 0.9589646344663302,
+            "interest_var": 0.3589753848979315,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 24518,
+            "topic_name": "Shellcode",
+            "topic_url": "https://en.wikipedia.org/wiki/Shellcode",
+            "mean": 0.07311078219484059,
+            "variance": 0.3750861310124399,
+            "interest_mean": 1.0227390651742263,
+            "interest_var": 0.368569794217817,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 15593,
+            "topic_name": "Logistic regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_regression",
+            "mean": 0.1959848425409929,
+            "variance": 0.3011841149012804,
+            "interest_mean": 1.7516653694243196,
+            "interest_var": 0.2885853316369258,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 6502,
+            "topic_name": "Culottes",
+            "topic_url": "https://en.wikipedia.org/wiki/Culottes",
+            "mean": 0.07311078219484059,
+            "variance": 0.3750861310124399,
+            "interest_mean": 1.0227390651742263,
+            "interest_var": 0.368569794217817,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 13574,
+            "topic_name": "Integer (computer science)",
+            "topic_url": "https://en.wikipedia.org/wiki/Integer_(computer_science)",
+            "mean": 0.07311078219484057,
+            "variance": 0.3750861310124399,
+            "interest_mean": 1.0227390651742263,
+            "interest_var": 0.368569794217817,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 19023,
+            "topic_name": "Optimization problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Optimization_problem",
+            "mean": 0.14685319164126237,
+            "variance": 0.37327998323547834,
+            "interest_mean": 0.9250098522946257,
+            "interest_var": 0.35915469014997803,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 9689,
+            "topic_name": "Feature (machine learning)",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_(machine_learning)",
+            "mean": 0.14685319164126237,
+            "variance": 0.37327998323547834,
+            "interest_mean": 0.9250098522946257,
+            "interest_var": 0.35915469014997803,
+            "timestamp": 11344553.0
+        },
+        {
+            "topic_id": 16318,
+            "topic_name": "Mathematical optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
+            "mean": 0.14685319164126237,
+            "variance": 0.37327998323547834,
+            "interest_mean": 0.9250098522946257,
+            "interest_var": 0.35915469014997803,
+            "timestamp": 11344553.0
+        }
+    ]
+}

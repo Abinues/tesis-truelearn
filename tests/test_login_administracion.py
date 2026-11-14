@@ -108,12 +108,12 @@ def test_hay_tres_acciones_y_un_resumen(backend):
     at = _pagina()
     for nombre in ("Entrenar modelos desde PEEK", "Agregar feedbacks ficticios", "Restablecer todo"):
         assert not _boton(at, nombre).disabled
-    assert "3 aprendices · 15 feedbacks (5 ficticios)" in _textos(at)
+    assert "3 estudiantes · 15 feedbacks (5 ficticios)" in _textos(at)
 
 
 def test_el_resumen_no_menciona_ficticios_si_no_hay(backend):
     at = _pagina()
-    assert "3 aprendices · 0 feedbacks" in _textos(at)
+    assert "3 estudiantes · 0 feedbacks" in _textos(at)
     assert "ficticios)" not in _textos(at)
 
 
@@ -128,7 +128,7 @@ def test_mientras_se_entrena_se_ve_el_progreso_y_los_botones_se_bloquean(backend
     backend.log = {"log": _LOG_TERMINAL, "done": False, "active": True}
     at = _pagina()
     barras = at.get("progress")
-    assert len(barras) == 1 and barras[0].proto.text == "Entrenando aprendices: 2 de 10"
+    assert len(barras) == 1 and barras[0].proto.text == "Entrenando estudiantes: 2 de 10"
     for nombre in ("Entrenar modelos desde PEEK", "Agregar feedbacks ficticios", "Restablecer todo"):
         assert _boton(at, nombre).disabled
 
@@ -157,7 +157,7 @@ def test_si_algunos_aprendices_fallan_lo_dice_en_una_linea(backend):
     backend.log = {"log": _LOG_TERMINAL + ["   Usuario 1001 FALLÓ, se lo saltea: x",
                                            "   Usuario 1002 FALLÓ, se lo saltea: y"],
                    "done": True, "active": False}
-    assert "2 aprendices fallaron" in _textos(_pagina())
+    assert "2 estudiantes fallaron" in _textos(_pagina())
 
 
 def test_un_error_se_muestra_corto_y_sin_traceback(backend):
@@ -184,7 +184,7 @@ def test_agregar_ficticios_usa_la_cantidad_elegida_y_confirma(backend):
     at.number_input(key="admin_cantidad").set_value(12).run()
     _boton(at, "Agregar feedbacks ficticios").click().run()
     assert backend.hubo("POST", "/administracion/feedbacks_ficticios")[0][2] == {"por_aprendiz": 12, "dias": 30}
-    assert "Se agregaron 15 feedbacks ficticios a 3 aprendices." in _textos(at)
+    assert "Se agregaron 15 feedbacks ficticios a 3 estudiantes." in _textos(at)
 
 
 def test_agregar_ficticios_usa_la_ventana_de_dias_elegida(backend):
@@ -213,7 +213,7 @@ def test_restablecer_confirmado_informa_lo_que_borro(backend):
     _boton(at, "Restablecer todo").click().run()
     _boton(at, "Sí, restablecer").click().run()
     assert len(backend.hubo("POST", "/administracion/restablecer")) == 1
-    assert ("Listo: se eliminaron 15 feedbacks y 3 aprendices volvieron a su estado entrenado."
+    assert ("Listo: se eliminaron 15 feedbacks y 3 estudiantes volvieron a su estado entrenado."
             in _textos(at))
 
 
@@ -222,7 +222,7 @@ def test_restablecer_avisa_de_quienes_no_tienen_copia_limpia(backend):
     at = _pagina()
     _boton(at, "Restablecer todo").click().run()
     _boton(at, "Sí, restablecer").click().run()
-    assert any("2 aprendices tenían feedbacks y no tienen copia limpia" in w.value for w in at.warning)
+    assert any("2 estudiantes tenían feedbacks y no tienen copia limpia" in w.value for w in at.warning)
 
 
 def test_cancelar_no_restablece(backend):

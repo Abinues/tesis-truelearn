@@ -1,0 +1,344 @@
+{
+    "user_id": 6088,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 7,
+    "weights": {
+        "novelty": {
+            "mean": 0.10676433356724051,
+            "variance": 0.46249023499630687
+        },
+        "interest": {
+            "mean": -0.14575322278944017,
+            "variance": 0.39846417275783613
+        },
+        "bias": {
+            "mean": -0.8910230862027382,
+            "variance": 0.30907796199200493
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 2944520.0,
+            "means": {
+                "Tipi": -0.13539921040759878,
+                "Cosmological constant": -0.13539921040759878,
+                "Gaussian curvature": -0.13539921040759884,
+                "Curvature": -0.13539921040759884,
+                "Pi": -0.13539921040759884,
+                "Dark energy": -0.12444793011134984,
+                "Spacetime": -0.27857885166154056,
+                "Holography": -0.12444793011134987,
+                "Quantum gravity": -0.22991636531312262,
+                "Black hole": -0.3146588703131095,
+                "Compton wavelength": -0.11302798565683583,
+                "Worldsheet": -0.11302798565683583,
+                "Quantum mechanics": -0.27073210163751205,
+                "Fourier series": -0.24101801818404525,
+                "Quantum information": -0.1487781899170337,
+                "Gaussian elimination": -0.14877818991703373,
+                "Photon": -0.2165168929707769,
+                "Slashdot": -0.14877818991703373,
+                "Atomic clock": -0.09954054871897147,
+                "Ground state": -0.0995405487189715,
+                "Magnetic field": -0.0995405487189715,
+                "Uncertainty principle": -0.0731001759019159,
+                "River delta": -0.0731001759019159,
+                "Kinetic energy": -0.09661486826506638,
+                "General relativity": -0.09661486826506639,
+                "Gene": -0.09661486826506639
+            },
+            "variances": {
+                "Tipi": 0.4650430103048742,
+                "Cosmological constant": 0.4650430103048742,
+                "Gaussian curvature": 0.4650430103048742,
+                "Curvature": 0.4650430103048742,
+                "Pi": 0.4650430103048742,
+                "Dark energy": 0.46655894373799295,
+                "Spacetime": 0.4211547803944938,
+                "Holography": 0.46655894373799295,
+                "Quantum gravity": 0.4385583012310941,
+                "Black hole": 0.4157013709218826,
+                "Compton wavelength": 0.46784156042203184,
+                "Worldsheet": 0.46784156042203184,
+                "Quantum mechanics": 0.4219961490583197,
+                "Fourier series": 0.43761460004850905,
+                "Quantum information": 0.4633279073406974,
+                "Gaussian elimination": 0.4633279073406974,
+                "Photon": 0.44172257470129583,
+                "Slashdot": 0.4633279073406974,
+                "Atomic clock": 0.47005522670478506,
+                "Ground state": 0.47005522670478506,
+                "Magnetic field": 0.47005522670478506,
+                "Uncertainty principle": 0.47483922311109555,
+                "River delta": 0.47483922311109555,
+                "Kinetic energy": 0.47028995969925,
+                "General relativity": 0.47028995969925,
+                "Gene": 0.47028995969925
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 27788,
+            "topic_name": "Tipi",
+            "topic_url": "https://en.wikipedia.org/wiki/Tipi",
+            "mean": -0.13539921040759878,
+            "variance": 0.4650430103048742,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 6111,
+            "topic_name": "Cosmological constant",
+            "topic_url": "https://en.wikipedia.org/wiki/Cosmological_constant",
+            "mean": -0.13539921040759878,
+            "variance": 0.4650430103048742,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 10943,
+            "topic_name": "Gaussian curvature",
+            "topic_url": "https://en.wikipedia.org/wiki/Gaussian_curvature",
+            "mean": -0.13539921040759884,
+            "variance": 0.4650430103048742,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 6580,
+            "topic_name": "Curvature",
+            "topic_url": "https://en.wikipedia.org/wiki/Curvature",
+            "mean": -0.13539921040759884,
+            "variance": 0.4650430103048742,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 20284,
+            "topic_name": "Pi",
+            "topic_url": "https://en.wikipedia.org/wiki/Pi",
+            "mean": -0.13539921040759884,
+            "variance": 0.4650430103048742,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 6757,
+            "topic_name": "Dark energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Dark_energy",
+            "mean": -0.12444793011134984,
+            "variance": 0.46655894373799295,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 25476,
+            "topic_name": "Spacetime",
+            "topic_url": "https://en.wikipedia.org/wiki/Spacetime",
+            "mean": -0.27857885166154056,
+            "variance": 0.4211547803944938,
+            "interest_mean": 1.9017192856348133,
+            "interest_var": 0.3003942908806526,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 12492,
+            "topic_name": "Holography",
+            "topic_url": "https://en.wikipedia.org/wiki/Holography",
+            "mean": -0.12444793011134987,
+            "variance": 0.46655894373799295,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 22062,
+            "topic_name": "Quantum gravity",
+            "topic_url": "https://en.wikipedia.org/wiki/Quantum_gravity",
+            "mean": -0.22991636531312262,
+            "variance": 0.4385583012310941,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 2658,
+            "topic_name": "Black hole",
+            "topic_url": "https://en.wikipedia.org/wiki/Black_hole",
+            "mean": -0.3146588703131095,
+            "variance": 0.4157013709218826,
+            "interest_mean": 2.0839022197404087,
+            "interest_var": 0.29932792491194093,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 5340,
+            "topic_name": "Compton wavelength",
+            "topic_url": "https://en.wikipedia.org/wiki/Compton_wavelength",
+            "mean": -0.11302798565683583,
+            "variance": 0.46784156042203184,
+            "interest_mean": 0.7394553365406401,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 30166,
+            "topic_name": "Worldsheet",
+            "topic_url": "https://en.wikipedia.org/wiki/Worldsheet",
+            "mean": -0.11302798565683583,
+            "variance": 0.46784156042203184,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 22069,
+            "topic_name": "Quantum mechanics",
+            "topic_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+            "mean": -0.27073210163751205,
+            "variance": 0.4219961490583197,
+            "interest_mean": 1.7438320219578618,
+            "interest_var": 0.29863602499798575,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 10411,
+            "topic_name": "Fourier series",
+            "topic_url": "https://en.wikipedia.org/wiki/Fourier_series",
+            "mean": -0.24101801818404525,
+            "variance": 0.43761460004850905,
+            "interest_mean": 1.7414975021815957,
+            "interest_var": 0.34287570343429485,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 22065,
+            "topic_name": "Quantum information",
+            "topic_url": "https://en.wikipedia.org/wiki/Quantum_information",
+            "mean": -0.1487781899170337,
+            "variance": 0.4633279073406974,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 10944,
+            "topic_name": "Gaussian elimination",
+            "topic_url": "https://en.wikipedia.org/wiki/Gaussian_elimination",
+            "mean": -0.14877818991703373,
+            "variance": 0.4633279073406974,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 20211,
+            "topic_name": "Photon",
+            "topic_url": "https://en.wikipedia.org/wiki/Photon",
+            "mean": -0.2165168929707769,
+            "variance": 0.44172257470129583,
+            "interest_mean": 1.503464999042504,
+            "interest_var": 0.3453407984059216,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 24904,
+            "topic_name": "Slashdot",
+            "topic_url": "https://en.wikipedia.org/wiki/Slashdot",
+            "mean": -0.14877818991703373,
+            "variance": 0.4633279073406974,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 1635,
+            "topic_name": "Atomic clock",
+            "topic_url": "https://en.wikipedia.org/wiki/Atomic_clock",
+            "mean": -0.09954054871897147,
+            "variance": 0.47005522670478506,
+            "interest_mean": 0.8060962379047821,
+            "interest_var": 0.40366897281262537,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 11769,
+            "topic_name": "Ground state",
+            "topic_url": "https://en.wikipedia.org/wiki/Ground_state",
+            "mean": -0.0995405487189715,
+            "variance": 0.47005522670478506,
+            "interest_mean": 0.8060962379047824,
+            "interest_var": 0.40366897281262537,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 15885,
+            "topic_name": "Magnetic field",
+            "topic_url": "https://en.wikipedia.org/wiki/Magnetic_field",
+            "mean": -0.0995405487189715,
+            "variance": 0.47005522670478506,
+            "interest_mean": 0.8060962379047824,
+            "interest_var": 0.40366897281262537,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 28658,
+            "topic_name": "Uncertainty principle",
+            "topic_url": "https://en.wikipedia.org/wiki/Uncertainty_principle",
+            "mean": -0.0731001759019159,
+            "variance": 0.47483922311109555,
+            "interest_mean": 0.5133631707176867,
+            "interest_var": 0.4073972199656747,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 23155,
+            "topic_name": "River delta",
+            "topic_url": "https://en.wikipedia.org/wiki/River_delta",
+            "mean": -0.0731001759019159,
+            "variance": 0.47483922311109555,
+            "interest_mean": 0.5133631707176868,
+            "interest_var": 0.4073972199656747,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 14425,
+            "topic_name": "Kinetic energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Kinetic_energy",
+            "mean": -0.09661486826506638,
+            "variance": 0.47028995969925,
+            "interest_mean": 0.57661053722965,
+            "interest_var": 0.4057806328975807,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 11021,
+            "topic_name": "General relativity",
+            "topic_url": "https://en.wikipedia.org/wiki/General_relativity",
+            "mean": -0.09661486826506639,
+            "variance": 0.47028995969925,
+            "interest_mean": 0.57661053722965,
+            "interest_var": 0.4057806328975807,
+            "timestamp": 2944520.0
+        },
+        {
+            "topic_id": 10985,
+            "topic_name": "Gene",
+            "topic_url": "https://en.wikipedia.org/wiki/Gene",
+            "mean": -0.09661486826506639,
+            "variance": 0.47028995969925,
+            "interest_mean": 0.57661053722965,
+            "interest_var": 0.4057806328975807,
+            "timestamp": 2944520.0
+        }
+    ]
+}

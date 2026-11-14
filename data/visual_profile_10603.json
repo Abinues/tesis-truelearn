@@ -1,0 +1,364 @@
+{
+    "user_id": 10603,
+    "number_of_engagements": 6,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.8292948973167442,
+            "variance": 0.42034220265298305
+        },
+        "interest": {
+            "mean": 0.7804250798200124,
+            "variance": 0.3921027159147053
+        },
+        "bias": {
+            "mean": 0.4976359242983593,
+            "variance": 0.3152919312735651
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 17802636.0,
+            "means": {
+                "Breast cancer": 0.15882032057021306,
+                "Genetic disorder": 0.15882032057021306,
+                "Sideburns": 0.15882032057021306,
+                "Gene": 0.15882032057021306,
+                "Triple-negative breast cancer": 0.15882032057021306
+            },
+            "variances": {
+                "Breast cancer": 0.4328859393437195,
+                "Genetic disorder": 0.4328859393437195,
+                "Sideburns": 0.4328859393437195,
+                "Gene": 0.4328859393437195,
+                "Triple-negative breast cancer": 0.4328859393437195
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 17802894.0,
+            "means": {
+                "Breast cancer": 0.15882032057021306,
+                "Genetic disorder": 0.15882032057021306,
+                "Sideburns": 0.15882032057021306,
+                "Gene": 0.2581055302729078,
+                "Triple-negative breast cancer": 0.15882032057021306,
+                "Interaction picture": 0.11467825664794866,
+                "Data mining": 0.11467825664794866,
+                "Micro-g environment": 0.11467825664794866,
+                "Cancer": 0.11467825664794866
+            },
+            "variances": {
+                "Breast cancer": 0.4328859393437195,
+                "Genetic disorder": 0.4328859393437195,
+                "Sideburns": 0.4328859393437195,
+                "Gene": 0.38174705219631394,
+                "Triple-negative breast cancer": 0.4328859393437195,
+                "Interaction picture": 0.431774877779644,
+                "Data mining": 0.431774877779644,
+                "Micro-g environment": 0.431774877779644,
+                "Cancer": 0.431774877779644
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 17817261.0,
+            "means": {
+                "Breast cancer": 0.15882032057021306,
+                "Genetic disorder": 0.15882032057021306,
+                "Sideburns": 0.15882032057021306,
+                "Gene": 0.22065078324525128,
+                "Triple-negative breast cancer": 0.15882032057021306,
+                "Interaction picture": 0.11467825664794866,
+                "Data mining": 0.11467825664794866,
+                "Micro-g environment": 0.11467825664794866,
+                "Cancer": 0.3850093349877008,
+                "Neoplasm": 0.2061847101630292,
+                "Cell (biology)": 0.426237016735257,
+                "Colorectal cancer": 0.34912941862979635,
+                "Communes of France": 0.2061847101630292,
+                "Lung cancer": 0.16553948005984773,
+                "Smoke point": 0.16553948005984773,
+                "Colonoscopy": 0.16553948005984773,
+                "Mutation": 0.13664848195704368,
+                "Multicellular organism": 0.13664848195704368,
+                "Carcinogen": -0.04031445101498217,
+                "Virus": 0.13480050601801896,
+                "Microscope": 0.13480050601801896,
+                "Chicken": 0.13480050601801896,
+                "Oncogene": -0.20642575444649158,
+                "Genome": -0.20642575444649153
+            },
+            "variances": {
+                "Breast cancer": 0.4328859393437195,
+                "Genetic disorder": 0.4328859393437195,
+                "Sideburns": 0.4328859393437195,
+                "Gene": 0.3183059283231262,
+                "Triple-negative breast cancer": 0.4328859393437195,
+                "Interaction picture": 0.431774877779644,
+                "Data mining": 0.431774877779644,
+                "Micro-g environment": 0.431774877779644,
+                "Cancer": 0.2892696899906204,
+                "Neoplasm": 0.4317541302385633,
+                "Cell (biology)": 0.33750374810926054,
+                "Colorectal cancer": 0.37915623354541794,
+                "Communes of France": 0.4317541302385633,
+                "Lung cancer": 0.4294600114522141,
+                "Smoke point": 0.4294600114522141,
+                "Colonoscopy": 0.4294600114522141,
+                "Mutation": 0.4286357907387403,
+                "Multicellular organism": 0.4286357907387403,
+                "Carcinogen": 0.39414082530142813,
+                "Virus": 0.42840249842899136,
+                "Microscope": 0.42840249842899136,
+                "Chicken": 0.42840249842899136,
+                "Oncogene": 0.45306261828535577,
+                "Genome": 0.45306261828535577
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 3068,
+            "topic_name": "Breast cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Breast_cancer",
+            "mean": 0.15882032057021306,
+            "variance": 0.4328859393437195,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 17802636.0
+        },
+        {
+            "topic_id": 11078,
+            "topic_name": "Genetic disorder",
+            "topic_url": "https://en.wikipedia.org/wiki/Genetic_disorder",
+            "mean": 0.15882032057021306,
+            "variance": 0.4328859393437195,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 17802636.0
+        },
+        {
+            "topic_id": 24638,
+            "topic_name": "Sideburns",
+            "topic_url": "https://en.wikipedia.org/wiki/Sideburns",
+            "mean": 0.15882032057021306,
+            "variance": 0.4328859393437195,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 17802636.0
+        },
+        {
+            "topic_id": 10985,
+            "topic_name": "Gene",
+            "topic_url": "https://en.wikipedia.org/wiki/Gene",
+            "mean": 0.22065078324525128,
+            "variance": 0.3183059283231262,
+            "interest_mean": 2.3609507050597314,
+            "interest_var": 0.27285829941488493,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 28362,
+            "topic_name": "Triple-negative breast cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Triple-negative_breast_cancer",
+            "mean": 0.15882032057021306,
+            "variance": 0.4328859393437195,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 17802636.0
+        },
+        {
+            "topic_id": 13643,
+            "topic_name": "Interaction picture",
+            "topic_url": "https://en.wikipedia.org/wiki/Interaction_picture",
+            "mean": 0.11467825664794866,
+            "variance": 0.431774877779644,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 17802894.0
+        },
+        {
+            "topic_id": 6823,
+            "topic_name": "Data mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_mining",
+            "mean": 0.11467825664794866,
+            "variance": 0.431774877779644,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 17802894.0
+        },
+        {
+            "topic_id": 16828,
+            "topic_name": "Micro-g environment",
+            "topic_url": "https://en.wikipedia.org/wiki/Micro-g_environment",
+            "mean": 0.11467825664794866,
+            "variance": 0.431774877779644,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 17802894.0
+        },
+        {
+            "topic_id": 3524,
+            "topic_name": "Cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Cancer",
+            "mean": 0.3850093349877008,
+            "variance": 0.2892696899906204,
+            "interest_mean": 2.6219778212557374,
+            "interest_var": 0.24362300625091596,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 18059,
+            "topic_name": "Neoplasm",
+            "topic_url": "https://en.wikipedia.org/wiki/Neoplasm",
+            "mean": 0.2061847101630292,
+            "variance": 0.4317541302385633,
+            "interest_mean": 0.9492145196548609,
+            "interest_var": 0.40474053263993504,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 3913,
+            "topic_name": "Cell (biology)",
+            "topic_url": "https://en.wikipedia.org/wiki/Cell_(biology)",
+            "mean": 0.426237016735257,
+            "variance": 0.33750374810926054,
+            "interest_mean": 1.8154252910621689,
+            "interest_var": 0.2988098001538287,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 5012,
+            "topic_name": "Colorectal cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Colorectal_cancer",
+            "mean": 0.34912941862979635,
+            "variance": 0.37915623354541794,
+            "interest_mean": 1.4904808496003046,
+            "interest_var": 0.3422933151657367,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 5152,
+            "topic_name": "Communes of France",
+            "topic_url": "https://en.wikipedia.org/wiki/Communes_of_France",
+            "mean": 0.2061847101630292,
+            "variance": 0.4317541302385633,
+            "interest_mean": 0.9492145196548609,
+            "interest_var": 0.40474053263993504,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 15754,
+            "topic_name": "Lung cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Lung_cancer",
+            "mean": 0.16553948005984773,
+            "variance": 0.4294600114522141,
+            "interest_mean": 0.6686584197720624,
+            "interest_var": 0.4046985073606528,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 25007,
+            "topic_name": "Smoke point",
+            "topic_url": "https://en.wikipedia.org/wiki/Smoke_point",
+            "mean": 0.16553948005984773,
+            "variance": 0.4294600114522141,
+            "interest_mean": 0.6686584197720625,
+            "interest_var": 0.4046985073606528,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 4986,
+            "topic_name": "Colonoscopy",
+            "topic_url": "https://en.wikipedia.org/wiki/Colonoscopy",
+            "mean": 0.16553948005984773,
+            "variance": 0.4294600114522141,
+            "interest_mean": 0.6686584197720625,
+            "interest_var": 0.4046985073606528,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 17736,
+            "topic_name": "Mutation",
+            "topic_url": "https://en.wikipedia.org/wiki/Mutation",
+            "mean": 0.13664848195704368,
+            "variance": 0.4286357907387403,
+            "interest_mean": 0.5921183655303776,
+            "interest_var": 0.40566332942610966,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 17558,
+            "topic_name": "Multicellular organism",
+            "topic_url": "https://en.wikipedia.org/wiki/Multicellular_organism",
+            "mean": 0.13664848195704368,
+            "variance": 0.4286357907387403,
+            "interest_mean": 0.5921183655303776,
+            "interest_var": 0.40566332942610966,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 3688,
+            "topic_name": "Carcinogen",
+            "topic_url": "https://en.wikipedia.org/wiki/Carcinogen",
+            "mean": -0.04031445101498217,
+            "variance": 0.39414082530142813,
+            "interest_mean": 0.7838848298586006,
+            "interest_var": 0.35670677647490506,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 29349,
+            "topic_name": "Virus",
+            "topic_url": "https://en.wikipedia.org/wiki/Virus",
+            "mean": 0.13480050601801896,
+            "variance": 0.42840249842899136,
+            "interest_mean": 0.5641198145605127,
+            "interest_var": 0.40621491056452486,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 16876,
+            "topic_name": "Microscope",
+            "topic_url": "https://en.wikipedia.org/wiki/Microscope",
+            "mean": 0.13480050601801896,
+            "variance": 0.42840249842899136,
+            "interest_mean": 0.5641198145605126,
+            "interest_var": 0.40621491056452486,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 4235,
+            "topic_name": "Chicken",
+            "topic_url": "https://en.wikipedia.org/wiki/Chicken",
+            "mean": 0.13480050601801896,
+            "variance": 0.42840249842899136,
+            "interest_mean": 0.5641198145605126,
+            "interest_var": 0.40621491056452486,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 18816,
+            "topic_name": "Oncogene",
+            "topic_url": "https://en.wikipedia.org/wiki/Oncogene",
+            "mean": -0.20642575444649158,
+            "variance": 0.45306261828535577,
+            "interest_mean": 0.23636159644934432,
+            "interest_var": 0.42562630840528093,
+            "timestamp": 17817261.0
+        },
+        {
+            "topic_id": 11111,
+            "topic_name": "Genome",
+            "topic_url": "https://en.wikipedia.org/wiki/Genome",
+            "mean": -0.20642575444649153,
+            "variance": 0.45306261828535577,
+            "interest_mean": 0.2363615964493444,
+            "interest_var": 0.42562630840528093,
+            "timestamp": 17817261.0
+        }
+    ]
+}

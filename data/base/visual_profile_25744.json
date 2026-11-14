@@ -1,0 +1,404 @@
+{
+    "user_id": 25744,
+    "number_of_engagements": 9,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.5434955629610881,
+            "variance": 0.3567280968620345
+        },
+        "interest": {
+            "mean": 0.2997440264856685,
+            "variance": 0.2768956254322855
+        },
+        "bias": {
+            "mean": -0.00777004663938708,
+            "variance": 0.21283850983970273
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 21605687.0,
+            "means": {
+                "Maximum likelihood estimation": 0.679841803845819,
+                "Machine learning": 0.45951493999061815,
+                "Probability density function": 0.23658836270896372,
+                "Conic section": 0.13991283245540712,
+                "Calcium": 0.2452145113709252,
+                "Computer science": 0.1216275026831901,
+                "Contour line": 0.1216275026831901,
+                "Probability": 0.24119337683357658,
+                "Mathematical optimization": 0.39278656279325763,
+                "Chain rule": 0.30424414838625946,
+                "Constrained optimization": 0.30424414838625946,
+                "Likelihood function": 0.10945563325487583,
+                "Random variable": 0.31206375515644325,
+                "Binomial distribution": 0.10945563325487587,
+                "Lung cancer": 0.2704202218215566,
+                "Gradient descent": 0.12556753156288408,
+                "Stochastic gradient descent": 0.12556753156288408,
+                "Loss function": 0.12556753156288408,
+                "Probability distribution": 0.12556753156288408,
+                "Conditional random field": 0.1542665184463199,
+                "Random field": 0.1542665184463199,
+                "Supervised learning": -0.12748276067380085,
+                "Logistic regression": -0.09421962361043969,
+                "Log probability": -0.1686981877424568,
+                "Exponential function": -0.1686981877424568,
+                "Derivative": -0.1686981877424568,
+                "Hyphen": -0.21447489378082885,
+                "Indicator function": -0.21447489378082885,
+                "Funk": -0.21447489378082885,
+                "Part of speech": -0.1726358854389438,
+                "Natural language processing": -0.1726358854389438
+            },
+            "variances": {
+                "Maximum likelihood estimation": 0.23828308014481245,
+                "Machine learning": 0.22476414803746417,
+                "Probability density function": 0.3563120388931293,
+                "Conic section": 0.4328859698361283,
+                "Calcium": 0.3807929685441677,
+                "Computer science": 0.4305019902167339,
+                "Contour line": 0.4305019902167339,
+                "Probability": 0.3264506192892073,
+                "Mathematical optimization": 0.31176748367678425,
+                "Chain rule": 0.38990393136028156,
+                "Constrained optimization": 0.38990393136028156,
+                "Likelihood function": 0.39915429580404965,
+                "Random variable": 0.32625212229420186,
+                "Binomial distribution": 0.39915429580404965,
+                "Lung cancer": 0.38822253460383727,
+                "Gradient descent": 0.37243180203853454,
+                "Stochastic gradient descent": 0.37243180203853454,
+                "Loss function": 0.37243180203853454,
+                "Probability distribution": 0.37243180203853454,
+                "Conditional random field": 0.37580794798009143,
+                "Random field": 0.37580794798009143,
+                "Supervised learning": 0.3273625819977584,
+                "Logistic regression": 0.33025909038727985,
+                "Log probability": 0.4586473078398114,
+                "Exponential function": 0.4586473078398114,
+                "Derivative": 0.4586473078398114,
+                "Hyphen": 0.4527855065026188,
+                "Indicator function": 0.4527855065026188,
+                "Funk": 0.4527855065026188,
+                "Part of speech": 0.45534563286534935,
+                "Natural language processing": 0.45534563286534935
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": 0.679841803845819,
+            "variance": 0.23828308014481245,
+            "interest_mean": 2.689307244507105,
+            "interest_var": 0.22018153870128096,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.45951493999061815,
+            "variance": 0.22476414803746417,
+            "interest_mean": 2.725486364823129,
+            "interest_var": 0.20561124561065006,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 21372,
+            "topic_name": "Probability density function",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_density_function",
+            "mean": 0.23658836270896372,
+            "variance": 0.3563120388931293,
+            "interest_mean": 1.6460785125563162,
+            "interest_var": 0.31550001705686226,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 5599,
+            "topic_name": "Conic section",
+            "topic_url": "https://en.wikipedia.org/wiki/Conic_section",
+            "mean": 0.13991283245540712,
+            "variance": 0.4328859698361283,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 3427,
+            "topic_name": "Calcium",
+            "topic_url": "https://en.wikipedia.org/wiki/Calcium",
+            "mean": 0.2452145113709252,
+            "variance": 0.3807929685441677,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": 0.1216275026831901,
+            "variance": 0.4305019902167339,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 5842,
+            "topic_name": "Contour line",
+            "topic_url": "https://en.wikipedia.org/wiki/Contour_line",
+            "mean": 0.1216275026831901,
+            "variance": 0.4305019902167339,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.24119337683357658,
+            "variance": 0.3264506192892073,
+            "interest_mean": 1.4896749295861051,
+            "interest_var": 0.2930195841552368,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 16318,
+            "topic_name": "Mathematical optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
+            "mean": 0.39278656279325763,
+            "variance": 0.31176748367678425,
+            "interest_mean": 1.6111960247523827,
+            "interest_var": 0.3038789447837018,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 4044,
+            "topic_name": "Chain rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Chain_rule",
+            "mean": 0.30424414838625946,
+            "variance": 0.38990393136028156,
+            "interest_mean": 0.6545838817736072,
+            "interest_var": 0.39674791726225733,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 5713,
+            "topic_name": "Constrained optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Constrained_optimization",
+            "mean": 0.30424414838625946,
+            "variance": 0.38990393136028156,
+            "interest_mean": 0.6545838817736073,
+            "interest_var": 0.39674791726225733,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 15160,
+            "topic_name": "Likelihood function",
+            "topic_url": "https://en.wikipedia.org/wiki/Likelihood_function",
+            "mean": 0.10945563325487583,
+            "variance": 0.39915429580404965,
+            "interest_mean": 0.6838161917879249,
+            "interest_var": 0.3658444735010448,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": 0.31206375515644325,
+            "variance": 0.32625212229420186,
+            "interest_mean": 0.8881068721509245,
+            "interest_var": 0.31156221578404636,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 2496,
+            "topic_name": "Binomial distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Binomial_distribution",
+            "mean": 0.10945563325487587,
+            "variance": 0.39915429580404965,
+            "interest_mean": 0.6838161917879249,
+            "interest_var": 0.3658444735010448,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 15754,
+            "topic_name": "Lung cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Lung_cancer",
+            "mean": 0.2704202218215566,
+            "variance": 0.38822253460383727,
+            "interest_mean": 0.2708218172468069,
+            "interest_var": 0.40113144462716627,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 11511,
+            "topic_name": "Gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+            "mean": 0.12556753156288408,
+            "variance": 0.37243180203853454,
+            "interest_mean": 0.9804779919908018,
+            "interest_var": 0.35690287867320925,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 26161,
+            "topic_name": "Stochastic gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_gradient_descent",
+            "mean": 0.12556753156288408,
+            "variance": 0.37243180203853454,
+            "interest_mean": 0.980477991990802,
+            "interest_var": 0.35690287867320925,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.12556753156288408,
+            "variance": 0.37243180203853454,
+            "interest_mean": 0.980477991990802,
+            "interest_var": 0.35690287867320925,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": 0.12556753156288408,
+            "variance": 0.37243180203853454,
+            "interest_mean": 0.980477991990802,
+            "interest_var": 0.35690287867320925,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 5522,
+            "topic_name": "Conditional random field",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_random_field",
+            "mean": 0.1542665184463199,
+            "variance": 0.37580794798009143,
+            "interest_mean": 1.1750607782046023,
+            "interest_var": 0.3574984255624911,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 22323,
+            "topic_name": "Random field",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_field",
+            "mean": 0.1542665184463199,
+            "variance": 0.37580794798009143,
+            "interest_mean": 1.1750607782046023,
+            "interest_var": 0.3574984255624911,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": -0.12748276067380085,
+            "variance": 0.3273625819977584,
+            "interest_mean": 1.6417411108063649,
+            "interest_var": 0.2849105014897016,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 15593,
+            "topic_name": "Logistic regression",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_regression",
+            "mean": -0.09421962361043969,
+            "variance": 0.33025909038727985,
+            "interest_mean": 1.8270204406083388,
+            "interest_var": 0.282677424234636,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 15552,
+            "topic_name": "Log probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Log_probability",
+            "mean": -0.1686981877424568,
+            "variance": 0.4586473078398114,
+            "interest_mean": 0.7806141949006759,
+            "interest_var": 0.399661891194999,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 9382,
+            "topic_name": "Exponential function",
+            "topic_url": "https://en.wikipedia.org/wiki/Exponential_function",
+            "mean": -0.1686981877424568,
+            "variance": 0.4586473078398114,
+            "interest_mean": 0.7806141949006759,
+            "interest_var": 0.399661891194999,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 7233,
+            "topic_name": "Derivative",
+            "topic_url": "https://en.wikipedia.org/wiki/Derivative",
+            "mean": -0.1686981877424568,
+            "variance": 0.4586473078398114,
+            "interest_mean": 0.780614194900676,
+            "interest_var": 0.399661891194999,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 12917,
+            "topic_name": "Hyphen",
+            "topic_url": "https://en.wikipedia.org/wiki/Hyphen",
+            "mean": -0.21447489378082885,
+            "variance": 0.4527855065026188,
+            "interest_mean": 0.5203495172033423,
+            "interest_var": 0.40482715349100806,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 13260,
+            "topic_name": "Indicator function",
+            "topic_url": "https://en.wikipedia.org/wiki/Indicator_function",
+            "mean": -0.21447489378082885,
+            "variance": 0.4527855065026188,
+            "interest_mean": 0.5203495172033423,
+            "interest_var": 0.40482715349100806,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 10735,
+            "topic_name": "Funk",
+            "topic_url": "https://en.wikipedia.org/wiki/Funk",
+            "mean": -0.21447489378082885,
+            "variance": 0.4527855065026188,
+            "interest_mean": 0.5203495172033424,
+            "interest_var": 0.40482715349100806,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 19581,
+            "topic_name": "Part of speech",
+            "topic_url": "https://en.wikipedia.org/wiki/Part_of_speech",
+            "mean": -0.1726358854389438,
+            "variance": 0.45534563286534935,
+            "interest_mean": 0.15320360906886912,
+            "interest_var": 0.43727081692521413,
+            "timestamp": 21605687.0
+        },
+        {
+            "topic_id": 17915,
+            "topic_name": "Natural language processing",
+            "topic_url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+            "mean": -0.1726358854389438,
+            "variance": 0.45534563286534935,
+            "interest_mean": 0.1532036090688691,
+            "interest_var": 0.43727081692521413,
+            "timestamp": 21605687.0
+        }
+    ]
+}

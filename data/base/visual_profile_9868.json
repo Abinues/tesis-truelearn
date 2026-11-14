@@ -1,0 +1,512 @@
+{
+    "user_id": 9868,
+    "number_of_engagements": 5,
+    "number_of_non_engagements": 8,
+    "weights": {
+        "novelty": {
+            "mean": 0.48025035328669935,
+            "variance": 0.3825742590456496
+        },
+        "interest": {
+            "mean": 0.18826877012217888,
+            "variance": 0.31097759446414336
+        },
+        "bias": {
+            "mean": -0.3450695774129489,
+            "variance": 0.2158534675063293
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 23311509.0,
+            "means": {
+                "Deep learning": 0.06435114598876156,
+                "Theta": -0.13658660361514552,
+                "Algorithm": -0.34629793770734835,
+                "Fixed point (mathematics)": -0.13658660361514555,
+                "Least squares": -0.13658660361514555,
+                "Feature (machine learning)": -0.05072182325021039,
+                "Q-learning": 0.3574855132079073,
+                "Inner product space": 0.1099282976147935,
+                "Bootstrapping": -0.0017665282270985677,
+                "Stochastic gradient descent": 0.1099282976147935,
+                "Dynamic programming": -0.09914560354065247,
+                "Philippine condiments": 0.11581158126416342,
+                "Reinforcement learning": 0.3023382918030919,
+                "Mean squared error": 0.11709569349044376,
+                "Training, validation, and test data sets": 0.00585803139190235,
+                "Backpropagation": 0.11709569349044376,
+                "Lookup table": 0.11709569349044376,
+                "Function approximation": 0.11709569349044376,
+                "Random walk": -0.38662446120655397,
+                "Root mean square": -0.16010844371118824,
+                "Targum": -0.16010844371118824,
+                "Root-mean-square deviation": -0.16010844371118824,
+                "Expected value": -0.24537085534776415,
+                "Turbo-diesel": -0.4158486417890181,
+                "Expected return": -0.12530029167029075,
+                "Maximum likelihood estimation": -0.12846853904198619,
+                "Supervised learning": 0.05047999512679715,
+                "Random variable": -0.24540211394779488,
+                "Temporal difference learning": -0.02131161316662665,
+                "Chess": -0.1252806084961583,
+                "Pi": -0.1252806084961583,
+                "Letter case": -0.1252806084961583,
+                "Kurzweil": 0.02650161218112007,
+                "Yuri (genre)": 0.026501612181120078,
+                "Incremental learning": -0.1855571279128592,
+                "Maize": -0.18555712791285922,
+                "Monte Carlo method": -0.18555712791285922,
+                "Plutonium": -0.1372616567954567,
+                "Stock market index": -0.1372616567954567,
+                "Prediction": -0.1372616567954567
+            },
+            "variances": {
+                "Deep learning": 0.3545332873471528,
+                "Theta": 0.4648849417104574,
+                "Algorithm": 0.3408839871236342,
+                "Fixed point (mathematics)": 0.4648849417104574,
+                "Least squares": 0.4648849417104574,
+                "Feature (machine learning)": 0.40168807438297444,
+                "Q-learning": 0.33886495434515085,
+                "Inner product space": 0.43288587906051224,
+                "Bootstrapping": 0.40629013672235603,
+                "Stochastic gradient descent": 0.43288587906051224,
+                "Dynamic programming": 0.3807319742130632,
+                "Philippine condiments": 0.4310226242360854,
+                "Reinforcement learning": 0.33522653200578006,
+                "Mean squared error": 0.43293736710972724,
+                "Training, validation, and test data sets": 0.4055564570188422,
+                "Backpropagation": 0.43293736710972724,
+                "Lookup table": 0.43293736710972724,
+                "Function approximation": 0.43293736710972724,
+                "Random walk": 0.4045139514403906,
+                "Root mean square": 0.46123172707220317,
+                "Targum": 0.46123172707220317,
+                "Root-mean-square deviation": 0.46123172707220317,
+                "Expected value": 0.43461299321280494,
+                "Turbo-diesel": 0.40217152638276604,
+                "Expected return": 0.4653469945007958,
+                "Maximum likelihood estimation": 0.463479413410374,
+                "Supervised learning": 0.40167402249422,
+                "Random variable": 0.43534809397420426,
+                "Temporal difference learning": 0.3366917015058823,
+                "Chess": 0.46620340663107324,
+                "Pi": 0.46620340663107324,
+                "Letter case": 0.46620340663107324,
+                "Kurzweil": 0.42663858592432635,
+                "Yuri (genre)": 0.42663858592432635,
+                "Incremental learning": 0.4583785500882238,
+                "Maize": 0.4583785500882238,
+                "Monte Carlo method": 0.4583785500882238,
+                "Plutonium": 0.46320645357384505,
+                "Stock market index": 0.46320645357384505,
+                "Prediction": 0.46320645357384505
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.06435114598876156,
+            "variance": 0.3545332873471528,
+            "interest_mean": 1.687161610277985,
+            "interest_var": 0.3059733384882119,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 27593,
+            "topic_name": "Theta",
+            "topic_url": "https://en.wikipedia.org/wiki/Theta",
+            "mean": -0.13658660361514552,
+            "variance": 0.4648849417104574,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.34629793770734835,
+            "variance": 0.3408839871236342,
+            "interest_mean": 2.7030048852198503,
+            "interest_var": 0.2465592619548092,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 10040,
+            "topic_name": "Fixed point (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Fixed_point_(mathematics)",
+            "mean": -0.13658660361514555,
+            "variance": 0.4648849417104574,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 14907,
+            "topic_name": "Least squares",
+            "topic_url": "https://en.wikipedia.org/wiki/Least_squares",
+            "mean": -0.13658660361514555,
+            "variance": 0.4648849417104574,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 9689,
+            "topic_name": "Feature (machine learning)",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_(machine_learning)",
+            "mean": -0.05072182325021039,
+            "variance": 0.40168807438297444,
+            "interest_mean": 1.7640582910159641,
+            "interest_var": 0.34251782156666977,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 21967,
+            "topic_name": "Q-learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Q-learning",
+            "mean": 0.3574855132079073,
+            "variance": 0.33886495434515085,
+            "interest_mean": 1.8608459082822861,
+            "interest_var": 0.3075082422638986,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 13505,
+            "topic_name": "Inner product space",
+            "topic_url": "https://en.wikipedia.org/wiki/Inner_product_space",
+            "mean": 0.1099282976147935,
+            "variance": 0.43288587906051224,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 2908,
+            "topic_name": "Bootstrapping",
+            "topic_url": "https://en.wikipedia.org/wiki/Bootstrapping",
+            "mean": -0.0017665282270985677,
+            "variance": 0.40629013672235603,
+            "interest_mean": 1.6563814470054592,
+            "interest_var": 0.34100025867337663,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 26161,
+            "topic_name": "Stochastic gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_gradient_descent",
+            "mean": 0.1099282976147935,
+            "variance": 0.43288587906051224,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 8178,
+            "topic_name": "Dynamic programming",
+            "topic_url": "https://en.wikipedia.org/wiki/Dynamic_programming",
+            "mean": -0.09914560354065247,
+            "variance": 0.3807319742130632,
+            "interest_mean": 1.3913159120161391,
+            "interest_var": 0.31004528683494864,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 20125,
+            "topic_name": "Philippine condiments",
+            "topic_url": "https://en.wikipedia.org/wiki/Philippine_condiments",
+            "mean": 0.11581158126416342,
+            "variance": 0.4310226242360854,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 22732,
+            "topic_name": "Reinforcement learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "mean": 0.3023382918030919,
+            "variance": 0.33522653200578006,
+            "interest_mean": 1.3387776411235073,
+            "interest_var": 0.30524296374628956,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 16429,
+            "topic_name": "Mean squared error",
+            "topic_url": "https://en.wikipedia.org/wiki/Mean_squared_error",
+            "mean": 0.11709569349044376,
+            "variance": 0.43293736710972724,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 28085,
+            "topic_name": "Training, validation, and test data sets",
+            "topic_url": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets",
+            "mean": 0.00585803139190235,
+            "variance": 0.4055564570188422,
+            "interest_mean": 1.2304897665317283,
+            "interest_var": 0.3630995459002438,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 1910,
+            "topic_name": "Backpropagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "mean": 0.11709569349044376,
+            "variance": 0.43293736710972724,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 15645,
+            "topic_name": "Lookup table",
+            "topic_url": "https://en.wikipedia.org/wiki/Lookup_table",
+            "mean": 0.11709569349044376,
+            "variance": 0.43293736710972724,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 10665,
+            "topic_name": "Function approximation",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_approximation",
+            "mean": 0.11709569349044376,
+            "variance": 0.43293736710972724,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 22342,
+            "topic_name": "Random walk",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_walk",
+            "mean": -0.38662446120655397,
+            "variance": 0.4045139514403906,
+            "interest_mean": 1.4261115342085462,
+            "interest_var": 0.3118361711473942,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 23295,
+            "topic_name": "Root mean square",
+            "topic_url": "https://en.wikipedia.org/wiki/Root_mean_square",
+            "mean": -0.16010844371118824,
+            "variance": 0.46123172707220317,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 27098,
+            "topic_name": "Targum",
+            "topic_url": "https://en.wikipedia.org/wiki/Targum",
+            "mean": -0.16010844371118824,
+            "variance": 0.46123172707220317,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 23298,
+            "topic_name": "Root-mean-square deviation",
+            "topic_url": "https://en.wikipedia.org/wiki/Root-mean-square_deviation",
+            "mean": -0.16010844371118824,
+            "variance": 0.46123172707220317,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 9333,
+            "topic_name": "Expected value",
+            "topic_url": "https://en.wikipedia.org/wiki/Expected_value",
+            "mean": -0.24537085534776415,
+            "variance": 0.43461299321280494,
+            "interest_mean": 1.1642347078023014,
+            "interest_var": 0.3403187806100765,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 28491,
+            "topic_name": "Turbo-diesel",
+            "topic_url": "https://en.wikipedia.org/wiki/Turbo-diesel",
+            "mean": -0.4158486417890181,
+            "variance": 0.40217152638276604,
+            "interest_mean": 1.7160105442567353,
+            "interest_var": 0.2957163581384309,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 9330,
+            "topic_name": "Expected return",
+            "topic_url": "https://en.wikipedia.org/wiki/Expected_return",
+            "mean": -0.12530029167029075,
+            "variance": 0.4653469945007958,
+            "interest_mean": 0.5952932897333242,
+            "interest_var": 0.4055638585219395,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": -0.12846853904198619,
+            "variance": 0.463479413410374,
+            "interest_mean": 0.17765743295003358,
+            "interest_var": 0.43425581995857393,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.05047999512679715,
+            "variance": 0.40167402249422,
+            "interest_mean": 0.9036857473883299,
+            "interest_var": 0.35139385350116625,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": -0.24540211394779488,
+            "variance": 0.43534809397420426,
+            "interest_mean": 1.4966656313698858,
+            "interest_var": 0.33914275189045145,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 27296,
+            "topic_name": "Temporal difference learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Temporal_difference_learning",
+            "mean": -0.02131161316662665,
+            "variance": 0.3366917015058823,
+            "interest_mean": 1.9856473397852186,
+            "interest_var": 0.2679757082035399,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 4212,
+            "topic_name": "Chess",
+            "topic_url": "https://en.wikipedia.org/wiki/Chess",
+            "mean": -0.1252806084961583,
+            "variance": 0.46620340663107324,
+            "interest_mean": 0.9919920711257644,
+            "interest_var": 0.4040097205337174,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 20284,
+            "topic_name": "Pi",
+            "topic_url": "https://en.wikipedia.org/wiki/Pi",
+            "mean": -0.1252806084961583,
+            "variance": 0.46620340663107324,
+            "interest_mean": 0.9919920711257644,
+            "interest_var": 0.4040097205337174,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 15005,
+            "topic_name": "Letter case",
+            "topic_url": "https://en.wikipedia.org/wiki/Letter_case",
+            "mean": -0.1252806084961583,
+            "variance": 0.46620340663107324,
+            "interest_mean": 0.9919920711257644,
+            "interest_var": 0.4040097205337174,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 14551,
+            "topic_name": "Kurzweil",
+            "topic_url": "https://en.wikipedia.org/wiki/Kurzweil",
+            "mean": 0.02650161218112007,
+            "variance": 0.42663858592432635,
+            "interest_mean": 0.5566007142812882,
+            "interest_var": 0.40173590609470183,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 30287,
+            "topic_name": "Yuri (genre)",
+            "topic_url": "https://en.wikipedia.org/wiki/Yuri_(genre)",
+            "mean": 0.026501612181120078,
+            "variance": 0.42663858592432635,
+            "interest_mean": 0.5566007142812882,
+            "interest_var": 0.40173590609470183,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 13203,
+            "topic_name": "Incremental learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Incremental_learning",
+            "mean": -0.1855571279128592,
+            "variance": 0.4583785500882238,
+            "interest_mean": 0.8338415618691568,
+            "interest_var": 0.403127706829181,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 15937,
+            "topic_name": "Maize",
+            "topic_url": "https://en.wikipedia.org/wiki/Maize",
+            "mean": -0.18555712791285922,
+            "variance": 0.4583785500882238,
+            "interest_mean": 0.8338415618691568,
+            "interest_var": 0.403127706829181,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 17347,
+            "topic_name": "Monte Carlo method",
+            "topic_url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+            "mean": -0.18555712791285922,
+            "variance": 0.4583785500882238,
+            "interest_mean": 0.8338415618691568,
+            "interest_var": 0.403127706829181,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 20566,
+            "topic_name": "Plutonium",
+            "topic_url": "https://en.wikipedia.org/wiki/Plutonium",
+            "mean": -0.1372616567954567,
+            "variance": 0.46320645357384505,
+            "interest_mean": 0.6499820818997064,
+            "interest_var": 0.40133998978999513,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 26182,
+            "topic_name": "Stock market index",
+            "topic_url": "https://en.wikipedia.org/wiki/Stock_market_index",
+            "mean": -0.1372616567954567,
+            "variance": 0.46320645357384505,
+            "interest_mean": 0.6499820818997064,
+            "interest_var": 0.40133998978999513,
+            "timestamp": 23311509.0
+        },
+        {
+            "topic_id": 21096,
+            "topic_name": "Prediction",
+            "topic_url": "https://en.wikipedia.org/wiki/Prediction",
+            "mean": -0.1372616567954567,
+            "variance": 0.46320645357384505,
+            "interest_mean": 0.6499820818997063,
+            "interest_var": 0.40133998978999513,
+            "timestamp": 23311509.0
+        }
+    ]
+}

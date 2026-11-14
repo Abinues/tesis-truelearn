@@ -1,23 +1,20 @@
 """
-Estadísticas empíricas para calibrar ``logic/dominio.py``.
+calibrar_dominio.py
+─────────────────────────────────────────────────────────────────────────────
+Calcula estadísticas empíricas (mínimo, máximo, percentiles) del `mean` y
+la `variance` de los Knowledge Components de TODOS los usuarios ya
+entrenados, leyendo directamente los data/visual_profile_*.json que
+genera logic/entrenador.py.
 
-Calcula mínimo, máximo, percentiles y promedio de la media y la varianza de
-los Knowledge Components (conocimiento e interés) de todos los usuarios ya
-entrenados, leyendo los ``visual_profile_*.json`` que genera
-``logic/entrenador.py``. También resume los pesos del modelo (novedad,
-interés y sesgo) del índice ``usuarios_entrenados.json``.
+No modifica ningún archivo del proyecto: es de solo lectura sobre data/,
+y solo ESCRIBE un reporte nuevo en data/calibracion_dominio.json.
 
-Solo lee la carpeta analizada. Lo único que escribe es el reporte
-``calibracion_dominio.json`` dentro de esa misma carpeta; no modifica
-ningún archivo del proyecto.
+Uso (parado en la raíz de tesis/, con el venv activado):
 
-Uso, desde la raíz del proyecto y con el entorno virtual activo:
+    python calibrar_dominio.py
 
-    python calibrar_dominio.py                    # analiza data/
-    python calibrar_dominio.py data_calibracion   # analiza otra carpeta
-
-Debe ejecutarse después de entrenar con datos reales de PEEK
-(``python -m logic.entrenador`` o ``python entrenar_gran_escala.py``).
+Requisito: correrlo DESPUÉS de reentrenar con datos reales de PEEK
+(python -m logic.entrenador), no con perfiles viejos.
 """
 import glob
 import json
@@ -26,19 +23,15 @@ import statistics
 import sys
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Por defecto analiza data/ (la carpeta que usa el dashboard/backend en
+# vivo). Se puede apuntar a otra carpeta pasándola como argumento, por
+# ejemplo para calibrar contra una carpeta de entrenamiento a gran
+# escala separada, sin mezclarla con los usuarios "de demo":
+#   python calibrar_dominio.py data_calibracion
 DATA_DIR = os.path.join(BASE_DIR, sys.argv[1] if len(sys.argv) > 1 else "data")
 
 
 def cargar_perfiles():
-    """
-    Carga todos los perfiles ``visual_profile_*.json`` de la carpeta analizada.
-
-    Los archivos que no se pueden leer se informan y se omiten. Si no hay
-    ningún perfil, informa cómo generarlos y termina el programa.
-
-    Returns:
-        list[dict]: Perfiles leídos, uno por usuario.
-    """
     rutas = sorted(glob.glob(os.path.join(DATA_DIR, "visual_profile_*.json")))
     if not rutas:
         print(f"❌ No se encontró ningún data/visual_profile_*.json en {DATA_DIR}")
@@ -56,17 +49,7 @@ def cargar_perfiles():
 
 
 def percentil(valores_ordenados, p):
-    """
-    Calcula un percentil por interpolación lineal, sin numpy ni pandas.
-
-    Args:
-        valores_ordenados (list[float]): Valores ya ordenados de menor a mayor.
-        p (float): Percentil buscado, entre 0 y 100.
-
-    Returns:
-        float | None: El valor del percentil, o ``None`` si la lista está
-        vacía.
-    """
+    """Percentil por interpolación lineal, sin depender de numpy/pandas."""
     n = len(valores_ordenados)
     if n == 0:
         return None
@@ -81,18 +64,6 @@ def percentil(valores_ordenados, p):
 
 
 def resumen(valores, nombre):
-    """
-    Calcula e imprime las estadísticas descriptivas de una serie de valores.
-
-    Args:
-        valores (list[float]): Valores a resumir, sin ordenar.
-        nombre (str): Nombre de la variable, usado al imprimir.
-
-    Returns:
-        dict | None: Diccionario con ``n``, ``min``, ``p1``, ``p5``, ``p25``,
-        ``mediana``, ``p75``, ``p95``, ``p99``, ``max`` y ``promedio``, o
-        ``None`` si no hay valores.
-    """
     if not valores:
         print(f"  {nombre}: sin datos")
         return None
@@ -126,15 +97,13 @@ def resumen(valores, nombre):
 
 def cargar_indice_usuarios():
     """
-    Lee el índice global ``usuarios_entrenados.json``.
-
-    Ese índice trae los pesos del modelo (novedad, interés y sesgo) de cada
-    usuario. A diferencia de los Knowledge Components, hay una sola muestra
-    por usuario.
-
-    Returns:
-        list[dict] | None: El índice, o ``None`` si el archivo no existe o no
-        se puede leer.
+    Lee data/usuarios_entrenados.json (el índice global que genera
+    entrenador.py), que trae el triple de weights (novelty/interest/bias)
+    por usuario. A diferencia de knowledge_components (miles de muestras,
+    varias por usuario), acá hay UNA sola muestra por usuario -> con 25
+    usuarios entrenados son apenas 25 puntos. Suficiente para una
+    primera mirada, no para una calibración tan robusta como la de
+    conocimiento/interés.
     """
     ruta = os.path.join(DATA_DIR, "usuarios_entrenados.json")
     if not os.path.exists(ruta):
@@ -148,21 +117,6 @@ def cargar_indice_usuarios():
 
 
 def analizar_pesos(indice):
-    """
-    Resume la media y la varianza de los tres pesos del modelo.
-
-    Imprime una advertencia sobre el tamaño de la muestra (una por usuario) y
-    las estadísticas de cada peso.
-
-    Args:
-        indice (list[dict] | None): Índice devuelto por
-            ``cargar_indice_usuarios``.
-
-    Returns:
-        dict | None: Resumen de cada serie (``novelty_mean``, ``novelty_var``,
-        ``interest_mean``, ``interest_var``, ``bias_mean`` y ``bias_var``), o
-        ``None`` si no hay índice.
-    """
     if not indice:
         print("(no se encontró data/usuarios_entrenados.json — se omite el análisis de pesos)")
         return None
@@ -199,20 +153,6 @@ def analizar_pesos(indice):
 
 
 def main():
-    """
-    Ejecuta la calibración completa e imprime y guarda el reporte.
-
-    Resume la media y la varianza de conocimiento e interés de todos los
-    Knowledge Components, sugiere los valores de ``KNOW_MIN``/``KNOW_MAX``,
-    ``INT_MIN``/``INT_MAX`` y ``VAR_MIN``/``VAR_MAX`` para ``logic/dominio.py``
-    (con los percentiles 1 y 99 en lugar del mínimo y el máximo absolutos,
-    para que pocos casos extremos no definan la escala) y analiza los pesos
-    del modelo. El reporte completo se guarda en ``calibracion_dominio.json``
-    dentro de la carpeta analizada.
-
-    Returns:
-        None: El resultado se informa por salida estándar y en el archivo.
-    """
     perfiles = cargar_perfiles()
     print(f"📂 Leyendo {len(perfiles)} perfiles desde {DATA_DIR}\n")
 
@@ -261,6 +201,13 @@ def main():
     print("=" * 70)
     r_int_var = resumen(int_vars, "interest_var")
 
+    # ── Sugerencia de rangos para logic/dominio.py ──────────────────────
+    # Se usan los percentiles 1 / 99 en vez del mínimo/máximo absoluto: el
+    # extremo absoluto suele estar dominado por 1 o 2 usuarios con
+    # muchísimas interacciones en una sola dirección (todo enganche o
+    # todo desenganche), y calibrar el 0%/100% de la escala visual contra
+    # ese único caso deja a todo el resto amontonado en una franja angosta
+    # — exactamente el problema que se está corrigiendo.
     print()
     print("=" * 70)
     print("SUGERENCIA para logic/dominio.py (basada en percentiles 1/99)")
@@ -271,6 +218,56 @@ def main():
         print(f"  INT_MIN,  INT_MAX  = {r_int_mean['p1']:.3f}, {r_int_mean['p99']:.3f}")
     if r_know_var:
         print(f"  VAR_MIN,  VAR_MAX  = {r_know_var['min']:.4f}, {r_know_var['max']:.4f}")
+    # ── Cortes de las etiquetas por CUANTILES de los datos reales ───────
+    # Las etiquetas (Alto/Medio/...) son criterio NORMATIVO: ubican al
+    # tema respecto de la población real. Conocimiento: cuartiles (4
+    # etiquetas). Interés: terciles (3 etiquetas). Los valores empatados
+    # reciben el RANGO PROMEDIO (convención estándar): un bloque de valores
+    # idénticos que cruza un cuantil queda entero en una etiqueta, y el
+    # corte es el punto medio entre dos valores distintos vecinos. Se
+    # expresan en el % de la escala (p1/p99 de cada variable).
+    cortes = None
+    if r_know_mean and r_int_mean and len(know_means) > 4 and len(int_means) > 3:
+        k_lo, k_hi = r_know_mean["p1"], r_know_mean["p99"]
+        i_lo, i_hi = r_int_mean["p1"], r_int_mean["p99"]
+
+        def cortes_rango_promedio(valores, cuantiles):
+            from collections import Counter
+            n = len(valores)
+            cont = sorted(Counter(valores).items())
+            menores, pos = 0, []
+            for v, c in cont:
+                pos.append((v, (menores + 0.5 * c) / n))
+                menores += c
+            salida = []
+            for q in cuantiles:
+                i = next((j for j, (_, p) in enumerate(pos) if p >= q), len(pos) - 1)
+                i = min(max(i, 1), len(pos) - 1)
+                salida.append((pos[i - 1][0] + pos[i][0]) / 2.0)
+            return salida
+
+        def a_pct(v, lo, hi):
+            return min(100.0, max(0.0, (v - lo) / (hi - lo) * 100.0))
+
+        kb, km, ka = cortes_rango_promedio(know_means, [0.25, 0.50, 0.75])
+        im, ia = cortes_rango_promedio(int_means, [1 / 3, 2 / 3])
+        cortes = {
+            "UMBRAL_BASICO_PCT": a_pct(kb, k_lo, k_hi),
+            "UMBRAL_MEDIO_PCT": a_pct(km, k_lo, k_hi),
+            "UMBRAL_ALTO_PCT": a_pct(ka, k_lo, k_hi),
+            "UMBRAL_INTERES_MEDIO_PCT": a_pct(im, i_lo, i_hi),
+            "UMBRAL_INTERES_ALTO_PCT": a_pct(ia, i_lo, i_hi),
+        }
+        print()
+        print("=" * 70)
+        print("CORTES DE ETIQUETAS por cuantiles (conocimiento: cuartiles; interés: terciles)")
+        print("=" * 70)
+        print(f"  INT_MIN, INT_MAX  = {i_lo:.3f}, {i_hi:.3f}   (percentiles 1 y 99)")
+        for nombre, valor in cortes.items():
+            print(f"  {nombre} = {valor:.1f}")
+        print("  (Con valores empatados el reparto no es exactamente 25 % o 33 % por")
+        print("   etiqueta: ver calibracion_por_estrato.py e interes_masas.py.)")
+
     print()
     print("  Esto NO modifica ningún archivo del proyecto. Pasame el bloque")
     print("  de arriba (o el data/calibracion_dominio.json que se generó) y")
@@ -283,6 +280,7 @@ def main():
         "knowledge_variance": r_know_var,
         "interest_mean": r_int_mean,
         "interest_variance": r_int_var,
+        "cortes_etiquetas_por_cuantiles": cortes,
     }
 
     print()
@@ -301,6 +299,8 @@ def main():
 
 
 if __name__ == "__main__":
+    # FIX: forzar UTF-8 en stdout/stderr,
+    # mismo motivo que logic/api_backend.py y logic/entrenador.py.
     import io
     import sys
     if isinstance(sys.stdout, io.TextIOWrapper):

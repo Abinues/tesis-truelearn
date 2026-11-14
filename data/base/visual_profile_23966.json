@@ -1,0 +1,320 @@
+{
+    "user_id": 23966,
+    "number_of_engagements": 5,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.8993439848129252,
+            "variance": 0.4258848921954617
+        },
+        "interest": {
+            "mean": 0.8887116149335836,
+            "variance": 0.4111152968837192
+        },
+        "bias": {
+            "mean": 0.4929968266171088,
+            "variance": 0.32292371670524955
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 30701304.0,
+            "means": {
+                "Pascal (unit)": -0.16530015390626032,
+                "Karate": -0.16530015390626032,
+                "Collaborative network": -0.014824885589623256,
+                "Roadhouse (premises)": -0.16530015390626032,
+                "Departments of France": -0.16530015390626032,
+                "Social network": 0.16306622818578528,
+                "Open-source software": 0.16306622818578528,
+                "Customer service": 0.16306622818578528,
+                "Collaboration": 0.16306622818578528,
+                "Graph database": 0.10274315980040119,
+                "Origami": 0.15256657303222287,
+                "Algorithm": 0.19324057124416352,
+                "Spider": 0.21851793375225556,
+                "Outer space": 0.10274315980040118,
+                "Spider mite": 0.057544128677034324,
+                "Mite": 0.05754412867703432,
+                "Top kill": 0.132098735795095,
+                "Structure mining": 0.10452103441464636,
+                "Frequent pattern discovery": 0.10452103441464636,
+                "Graph (discrete mathematics)": 0.10452103441464636,
+                "Mining": 0.10452103441464636,
+                "Forward (association football)": 0.08660407677817725,
+                "Graph isomorphism": 0.08660407677817725,
+                "Protein": 0.08660407677817725
+            },
+            "variances": {
+                "Pascal (unit)": 0.4613931099982181,
+                "Karate": 0.4613931099982181,
+                "Collaborative network": 0.4036446564269963,
+                "Roadhouse (premises)": 0.4613931099982181,
+                "Departments of France": 0.4613931099982181,
+                "Social network": 0.4321830650162679,
+                "Open-source software": 0.4321830650162679,
+                "Customer service": 0.4321830650162679,
+                "Collaboration": 0.4321830650162679,
+                "Graph database": 0.4329148288216764,
+                "Origami": 0.3807636035943018,
+                "Algorithm": 0.3817299467066211,
+                "Spider": 0.3398122265731893,
+                "Outer space": 0.4329148288216764,
+                "Spider mite": 0.43043358864629805,
+                "Mite": 0.43043358864629805,
+                "Top kill": 0.3781012719559396,
+                "Structure mining": 0.4317226287823124,
+                "Frequent pattern discovery": 0.4317226287823124,
+                "Graph (discrete mathematics)": 0.4317226287823124,
+                "Mining": 0.4317226287823124,
+                "Forward (association football)": 0.42938488646223927,
+                "Graph isomorphism": 0.42938488646223927,
+                "Protein": 0.42938488646223927
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 19643,
+            "topic_name": "Pascal (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Pascal_(unit)",
+            "mean": -0.16530015390626032,
+            "variance": 0.4613931099982181,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 14305,
+            "topic_name": "Karate",
+            "topic_url": "https://en.wikipedia.org/wiki/Karate",
+            "mean": -0.16530015390626032,
+            "variance": 0.4613931099982181,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 4921,
+            "topic_name": "Collaborative network",
+            "topic_url": "https://en.wikipedia.org/wiki/Collaborative_network",
+            "mean": -0.014824885589623256,
+            "variance": 0.4036446564269963,
+            "interest_mean": 1.8313130908597424,
+            "interest_var": 0.34392685402073503,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 23177,
+            "topic_name": "Roadhouse (premises)",
+            "topic_url": "https://en.wikipedia.org/wiki/Roadhouse_(facility)",
+            "mean": -0.16530015390626032,
+            "variance": 0.4613931099982181,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 7201,
+            "topic_name": "Departments of France",
+            "topic_url": "https://en.wikipedia.org/wiki/Departments_of_France",
+            "mean": -0.16530015390626032,
+            "variance": 0.4613931099982181,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 25141,
+            "topic_name": "Social network",
+            "topic_url": "https://en.wikipedia.org/wiki/Social_network",
+            "mean": 0.16306622818578528,
+            "variance": 0.4321830650162679,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 18936,
+            "topic_name": "Open-source software",
+            "topic_url": "https://en.wikipedia.org/wiki/Open-source_software",
+            "mean": 0.16306622818578528,
+            "variance": 0.4321830650162679,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 6602,
+            "topic_name": "Customer service",
+            "topic_url": "https://en.wikipedia.org/wiki/Customer_service",
+            "mean": 0.16306622818578528,
+            "variance": 0.4321830650162679,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 4913,
+            "topic_name": "Collaboration",
+            "topic_url": "https://en.wikipedia.org/wiki/Collaboration",
+            "mean": 0.16306622818578528,
+            "variance": 0.4321830650162679,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 11579,
+            "topic_name": "Graph database",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_database",
+            "mean": 0.10274315980040119,
+            "variance": 0.4329148288216764,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 19148,
+            "topic_name": "Origami",
+            "topic_url": "https://en.wikipedia.org/wiki/Origami",
+            "mean": 0.15256657303222287,
+            "variance": 0.3807636035943018,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.19324057124416352,
+            "variance": 0.3817299467066211,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 25681,
+            "topic_name": "Spider",
+            "topic_url": "https://en.wikipedia.org/wiki/Spider",
+            "mean": 0.21851793375225556,
+            "variance": 0.3398122265731893,
+            "interest_mean": 2.1743840035965145,
+            "interest_var": 0.29830240344896963,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 19226,
+            "topic_name": "Outer space",
+            "topic_url": "https://en.wikipedia.org/wiki/Outer_space",
+            "mean": 0.10274315980040118,
+            "variance": 0.4329148288216764,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 25684,
+            "topic_name": "Spider mite",
+            "topic_url": "https://en.wikipedia.org/wiki/Spider_mite",
+            "mean": 0.057544128677034324,
+            "variance": 0.43043358864629805,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 17103,
+            "topic_name": "Mite",
+            "topic_url": "https://en.wikipedia.org/wiki/Mite",
+            "mean": 0.05754412867703432,
+            "variance": 0.43043358864629805,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 27884,
+            "topic_name": "Top kill",
+            "topic_url": "https://en.wikipedia.org/wiki/Top_kill",
+            "mean": 0.132098735795095,
+            "variance": 0.3781012719559396,
+            "interest_mean": 1.3133767405209416,
+            "interest_var": 0.34191061253089766,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 26385,
+            "topic_name": "Structure mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Structure_mining",
+            "mean": 0.10452103441464636,
+            "variance": 0.4317226287823124,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 10585,
+            "topic_name": "Frequent pattern discovery",
+            "topic_url": "https://en.wikipedia.org/wiki/Frequent_pattern_discovery",
+            "mean": 0.10452103441464636,
+            "variance": 0.4317226287823124,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 11574,
+            "topic_name": "Graph (discrete mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "mean": 0.10452103441464636,
+            "variance": 0.4317226287823124,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 17030,
+            "topic_name": "Mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Mining",
+            "mean": 0.10452103441464636,
+            "variance": 0.4317226287823124,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 10364,
+            "topic_name": "Forward (association football)",
+            "topic_url": "https://en.wikipedia.org/wiki/Forward_(association_football)",
+            "mean": 0.08660407677817725,
+            "variance": 0.42938488646223927,
+            "interest_mean": 0.708162911327213,
+            "interest_var": 0.4036128298325655,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 11587,
+            "topic_name": "Graph isomorphism",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_isomorphism",
+            "mean": 0.08660407677817725,
+            "variance": 0.42938488646223927,
+            "interest_mean": 0.708162911327213,
+            "interest_var": 0.4036128298325655,
+            "timestamp": 30701304.0
+        },
+        {
+            "topic_id": 21652,
+            "topic_name": "Protein",
+            "topic_url": "https://en.wikipedia.org/wiki/Protein",
+            "mean": 0.08660407677817725,
+            "variance": 0.42938488646223927,
+            "interest_mean": 0.708162911327213,
+            "interest_var": 0.4036128298325655,
+            "timestamp": 30701304.0
+        }
+    ]
+}

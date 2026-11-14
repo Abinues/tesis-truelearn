@@ -1,0 +1,284 @@
+{
+    "user_id": 27942,
+    "number_of_engagements": 2,
+    "number_of_non_engagements": 3,
+    "weights": {
+        "novelty": {
+            "mean": 0.5292023070100523,
+            "variance": 0.4476496297490747
+        },
+        "interest": {
+            "mean": 0.3831716260036117,
+            "variance": 0.4149275187197174
+        },
+        "bias": {
+            "mean": -0.1606150133593724,
+            "variance": 0.32881260900752185
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 19722123.0,
+            "means": {
+                "Section sign": -0.15018630324542187,
+                "Organic chemistry": -0.3709065657475335,
+                "Problem set": -0.15018630324542187,
+                "Chemistry": -0.2500178667743834,
+                "Wiki": -0.15018630324542193,
+                "Pastor": -0.1077732754842771,
+                "Science": -0.1077732754842771,
+                "Faraday constant": -0.1077732754842771,
+                "Elizabethan era": 0.16026817292514517,
+                "Scientific method": 0.16026817292514517,
+                "Nature (philosophy)": 0.16026817292514517,
+                "Philosophy": 0.16026817292514517,
+                "Bypass (road)": 0.16026817292514517,
+                "Paratransit": 0.12706257174062424,
+                "Meteorology": 0.12706257174062424,
+                "Gunpowder": 0.12706257174062424,
+                "Astronomy": 0.12706257174062424,
+                "Bacon": 0.007102054278400558,
+                "Multiplication table": -0.13855493543700606,
+                "Newton (unit)": -0.13855493543700606,
+                "Experimentum crucis": -0.13855493543700603
+            },
+            "variances": {
+                "Section sign": 0.46315546725461515,
+                "Organic chemistry": 0.40859473953793407,
+                "Problem set": 0.46315546725461515,
+                "Chemistry": 0.43624825991172356,
+                "Wiki": 0.46315546725461515,
+                "Pastor": 0.4686415170728364,
+                "Science": 0.4686415170728364,
+                "Faraday constant": 0.4686415170728364,
+                "Elizabethan era": 0.43288586903388115,
+                "Scientific method": 0.43288586903388115,
+                "Nature (philosophy)": 0.43288586903388115,
+                "Philosophy": 0.43288586903388115,
+                "Bypass (road)": 0.43288586903388115,
+                "Paratransit": 0.4328987527000211,
+                "Meteorology": 0.4328987527000211,
+                "Gunpowder": 0.4328987527000211,
+                "Astronomy": 0.4328987527000211,
+                "Bacon": 0.4056682486919297,
+                "Multiplication table": 0.4636735449061045,
+                "Newton (unit)": 0.4636735449061045,
+                "Experimentum crucis": 0.4636735449061045
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 23987,
+            "topic_name": "Section sign",
+            "topic_url": "https://en.wikipedia.org/wiki/Section_sign",
+            "mean": -0.15018630324542187,
+            "variance": 0.46315546725461515,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 19107,
+            "topic_name": "Organic chemistry",
+            "topic_url": "https://en.wikipedia.org/wiki/Organic_chemistry",
+            "mean": -0.3709065657475335,
+            "variance": 0.40859473953793407,
+            "interest_mean": 2.128675948679197,
+            "interest_var": 0.29927597714213894,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 21398,
+            "topic_name": "Problem set",
+            "topic_url": "https://en.wikipedia.org/wiki/Problem_set",
+            "mean": -0.15018630324542187,
+            "variance": 0.46315546725461515,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 4195,
+            "topic_name": "Chemistry",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemistry",
+            "mean": -0.2500178667743834,
+            "variance": 0.43624825991172356,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 29936,
+            "topic_name": "Wiki",
+            "topic_url": "https://en.wikipedia.org/wiki/Wiki",
+            "mean": -0.15018630324542193,
+            "variance": 0.46315546725461515,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 19683,
+            "topic_name": "Pastor",
+            "topic_url": "https://en.wikipedia.org/wiki/Pastor",
+            "mean": -0.1077732754842771,
+            "variance": 0.4686415170728364,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 23769,
+            "topic_name": "Science",
+            "topic_url": "https://en.wikipedia.org/wiki/Science",
+            "mean": -0.1077732754842771,
+            "variance": 0.4686415170728364,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 9628,
+            "topic_name": "Faraday constant",
+            "topic_url": "https://en.wikipedia.org/wiki/Faraday_constant",
+            "mean": -0.1077732754842771,
+            "variance": 0.4686415170728364,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 8605,
+            "topic_name": "Elizabethan era",
+            "topic_url": "https://en.wikipedia.org/wiki/Elizabethan_era",
+            "mean": 0.16026817292514517,
+            "variance": 0.43288586903388115,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 23797,
+            "topic_name": "Scientific method",
+            "topic_url": "https://en.wikipedia.org/wiki/Scientific_method",
+            "mean": 0.16026817292514517,
+            "variance": 0.43288586903388115,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 17946,
+            "topic_name": "Nature (philosophy)",
+            "topic_url": "https://en.wikipedia.org/wiki/Nature_(philosophy)",
+            "mean": 0.16026817292514517,
+            "variance": 0.43288586903388115,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 20138,
+            "topic_name": "Philosophy",
+            "topic_url": "https://en.wikipedia.org/wiki/Philosophy",
+            "mean": 0.16026817292514517,
+            "variance": 0.43288586903388115,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 3357,
+            "topic_name": "Bypass (road)",
+            "topic_url": "https://en.wikipedia.org/wiki/Bypass_(road)",
+            "mean": 0.16026817292514517,
+            "variance": 0.43288586903388115,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 19523,
+            "topic_name": "Paratransit",
+            "topic_url": "https://en.wikipedia.org/wiki/Paratransit",
+            "mean": 0.12706257174062424,
+            "variance": 0.4328987527000211,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 16758,
+            "topic_name": "Meteorology",
+            "topic_url": "https://en.wikipedia.org/wiki/Meteorology",
+            "mean": 0.12706257174062424,
+            "variance": 0.4328987527000211,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 11850,
+            "topic_name": "Gunpowder",
+            "topic_url": "https://en.wikipedia.org/wiki/Gunpowder",
+            "mean": 0.12706257174062424,
+            "variance": 0.4328987527000211,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 1588,
+            "topic_name": "Astronomy",
+            "topic_url": "https://en.wikipedia.org/wiki/Astronomy",
+            "mean": 0.12706257174062424,
+            "variance": 0.4328987527000211,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 1922,
+            "topic_name": "Bacon",
+            "topic_url": "https://en.wikipedia.org/wiki/Bacon",
+            "mean": 0.007102054278400558,
+            "variance": 0.4056682486919297,
+            "interest_mean": 1.6078267131127866,
+            "interest_var": 0.34419931485840777,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 17624,
+            "topic_name": "Multiplication table",
+            "topic_url": "https://en.wikipedia.org/wiki/Multiplication_table",
+            "mean": -0.13855493543700606,
+            "variance": 0.4636735449061045,
+            "interest_mean": 0.6417075113174444,
+            "interest_var": 0.40567082287539846,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 18236,
+            "topic_name": "Newton (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Newton_(unit)",
+            "mean": -0.13855493543700606,
+            "variance": 0.4636735449061045,
+            "interest_mean": 0.6417075113174444,
+            "interest_var": 0.40567082287539846,
+            "timestamp": 19722123.0
+        },
+        {
+            "topic_id": 9352,
+            "topic_name": "Experimentum crucis",
+            "topic_url": "https://en.wikipedia.org/wiki/Experimentum_crucis",
+            "mean": -0.13855493543700603,
+            "variance": 0.4636735449061045,
+            "interest_mean": 0.6417075113174446,
+            "interest_var": 0.40567082287539846,
+            "timestamp": 19722123.0
+        }
+    ]
+}

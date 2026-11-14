@@ -1,0 +1,400 @@
+{
+    "user_id": 30384,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 3,
+    "weights": {
+        "novelty": {
+            "mean": 0.7464664386920782,
+            "variance": 0.42264065089851466
+        },
+        "interest": {
+            "mean": 0.6226363844839361,
+            "variance": 0.3885947007114164
+        },
+        "bias": {
+            "mean": 0.1072650716673244,
+            "variance": 0.29147478183678777
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 35443255.0,
+            "means": {
+                "Voiceless labiodental fricative": -0.12784815088043489,
+                "Random graph": -0.2626244380507784,
+                "Vertex (geometry)": -0.15309919678219372,
+                "Generating function": -0.15309919678219377,
+                "Vertex (graph theory)": -0.15309919678219377,
+                "Metastability": 0.1307589140002671,
+                "Phase transition": 0.1307589140002671,
+                "Species": 0.1307589140002671,
+                "Probability": 0.1307589140002671,
+                "Graph (discrete mathematics)": -0.11832805045706161,
+                "Statistical mechanics": -0.11832805045706161,
+                "Spin glass": -0.11832805045706161
+            },
+            "variances": {
+                "Voiceless labiodental fricative": 0.38283027714657675,
+                "Random graph": 0.434175704012053,
+                "Vertex (geometry)": 0.46280337099075547,
+                "Generating function": 0.46280337099075547,
+                "Vertex (graph theory)": 0.46280337099075547,
+                "Metastability": 0.43220891381881027,
+                "Phase transition": 0.43220891381881027,
+                "Species": 0.43220891381881027,
+                "Probability": 0.43220891381881027,
+                "Graph (discrete mathematics)": 0.46658565611100156,
+                "Statistical mechanics": 0.46658565611100156,
+                "Spin glass": 0.46658565611100156
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 35536051.0,
+            "means": {
+                "Voiceless labiodental fricative": -0.12784815088043489,
+                "Random graph": -0.2626244380507784,
+                "Vertex (geometry)": -0.15309919678219372,
+                "Generating function": -0.15309919678219377,
+                "Vertex (graph theory)": -0.15309919678219377,
+                "Metastability": 0.1307589140002671,
+                "Phase transition": 0.1307589140002671,
+                "Species": 0.1307589140002671,
+                "Probability": 0.3031610024744367,
+                "Graph (discrete mathematics)": -0.11832805045706161,
+                "Statistical mechanics": -0.11832805045706161,
+                "Spin glass": -0.11832805045706161,
+                "Variational Bayesian methods": -0.13466254488497464,
+                "Prior probability": 0.050875961548493574,
+                "Log probability": -0.13466254488497464,
+                "Posterior probability": 0.050875961548493595,
+                "Calculus of variations": -0.13466254488497467,
+                "Support vector machine": 0.2978344217416738,
+                "Perceptron": 0.1623684979738732,
+                "Artificial intelligence": 0.1623684979738732,
+                "Big data": 0.1623684979738732,
+                "Artificial neural network": 0.1623684979738732,
+                "Logistic function": 0.15646578121373808,
+                "Graphical model": 0.15646578121373808,
+                "Generative model": 0.15646578121373808,
+                "Backpropagation": 0.15646578121373808,
+                "Earthquake": 0.1994430042533132,
+                "Maximum likelihood estimation": 0.1994430042533132
+            },
+            "variances": {
+                "Voiceless labiodental fricative": 0.38283027714657675,
+                "Random graph": 0.434175704012053,
+                "Vertex (geometry)": 0.46280337099075547,
+                "Generating function": 0.46280337099075547,
+                "Vertex (graph theory)": 0.46280337099075547,
+                "Metastability": 0.43220891381881027,
+                "Phase transition": 0.43220891381881027,
+                "Species": 0.43220891381881027,
+                "Probability": 0.3801611455295395,
+                "Graph (discrete mathematics)": 0.46658565611100156,
+                "Statistical mechanics": 0.46658565611100156,
+                "Spin glass": 0.46658565611100156,
+                "Variational Bayesian methods": 0.4651416757586925,
+                "Prior probability": 0.4048600189847648,
+                "Log probability": 0.4651416757586925,
+                "Posterior probability": 0.4048600189847648,
+                "Calculus of variations": 0.4651416757586925,
+                "Support vector machine": 0.3816768034798959,
+                "Perceptron": 0.43289313074386876,
+                "Artificial intelligence": 0.43289313074386876,
+                "Big data": 0.43289313074386876,
+                "Artificial neural network": 0.43289313074386876,
+                "Logistic function": 0.43167383399208886,
+                "Graphical model": 0.43167383399208886,
+                "Generative model": 0.43167383399208886,
+                "Backpropagation": 0.43167383399208886,
+                "Earthquake": 0.43034461736746976,
+                "Maximum likelihood estimation": 0.43034461736746976
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 29447,
+            "topic_name": "Voiceless labiodental fricative",
+            "topic_url": "https://en.wikipedia.org/wiki/Voiceless_labiodental_fricative",
+            "mean": -0.12784815088043489,
+            "variance": 0.38283027714657675,
+            "interest_mean": 2.2541133577228814,
+            "interest_var": 0.2997345036680513,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 22326,
+            "topic_name": "Random graph",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_graph",
+            "mean": -0.2626244380507784,
+            "variance": 0.434175704012053,
+            "interest_mean": 1.585838197213189,
+            "interest_var": 0.3448125354211596,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 29177,
+            "topic_name": "Vertex (geometry)",
+            "topic_url": "https://en.wikipedia.org/wiki/Vertex_(geometry)",
+            "mean": -0.15309919678219372,
+            "variance": 0.46280337099075547,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 11049,
+            "topic_name": "Generating function",
+            "topic_url": "https://en.wikipedia.org/wiki/Generating_function",
+            "mean": -0.15309919678219377,
+            "variance": 0.46280337099075547,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 29178,
+            "topic_name": "Vertex (graph theory)",
+            "topic_url": "https://en.wikipedia.org/wiki/Vertex_(graph_theory)",
+            "mean": -0.15309919678219377,
+            "variance": 0.46280337099075547,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 16748,
+            "topic_name": "Metastability",
+            "topic_url": "https://en.wikipedia.org/wiki/Metastability",
+            "mean": 0.1307589140002671,
+            "variance": 0.43220891381881027,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 20100,
+            "topic_name": "Phase transition",
+            "topic_url": "https://en.wikipedia.org/wiki/Phase_transition",
+            "mean": 0.1307589140002671,
+            "variance": 0.43220891381881027,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 25562,
+            "topic_name": "Species",
+            "topic_url": "https://en.wikipedia.org/wiki/Species",
+            "mean": 0.1307589140002671,
+            "variance": 0.43220891381881027,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.3031610024744367,
+            "variance": 0.3801611455295395,
+            "interest_mean": 1.394461429911078,
+            "interest_var": 0.34373479897985254,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 11574,
+            "topic_name": "Graph (discrete mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "mean": -0.11832805045706161,
+            "variance": 0.46658565611100156,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 26034,
+            "topic_name": "Statistical mechanics",
+            "topic_url": "https://en.wikipedia.org/wiki/Statistical_mechanics",
+            "mean": -0.11832805045706161,
+            "variance": 0.46658565611100156,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 25696,
+            "topic_name": "Spin glass",
+            "topic_url": "https://en.wikipedia.org/wiki/Spin_glass",
+            "mean": -0.11832805045706161,
+            "variance": 0.46658565611100156,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 35443255.0
+        },
+        {
+            "topic_id": 29067,
+            "topic_name": "Variational Bayesian methods",
+            "topic_url": "https://en.wikipedia.org/wiki/Variational_Bayesian_methods",
+            "mean": -0.13466254488497464,
+            "variance": 0.4651416757586925,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 21311,
+            "topic_name": "Prior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Prior_probability",
+            "mean": 0.050875961548493574,
+            "variance": 0.4048600189847648,
+            "interest_mean": 1.5654847883883383,
+            "interest_var": 0.34464672334021174,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 15552,
+            "topic_name": "Log probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Log_probability",
+            "mean": -0.13466254488497464,
+            "variance": 0.4651416757586925,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": 0.050875961548493595,
+            "variance": 0.4048600189847648,
+            "interest_mean": 1.5654847883883383,
+            "interest_var": 0.34464672334021174,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 3441,
+            "topic_name": "Calculus of variations",
+            "topic_url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+            "mean": -0.13466254488497467,
+            "variance": 0.4651416757586925,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 26678,
+            "topic_name": "Support vector machine",
+            "topic_url": "https://en.wikipedia.org/wiki/Support-vector_machine",
+            "mean": 0.2978344217416738,
+            "variance": 0.3816768034798959,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 19892,
+            "topic_name": "Perceptron",
+            "topic_url": "https://en.wikipedia.org/wiki/Perceptron",
+            "mean": 0.1623684979738732,
+            "variance": 0.43289313074386876,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": 0.1623684979738732,
+            "variance": 0.43289313074386876,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 2414,
+            "topic_name": "Big data",
+            "topic_url": "https://en.wikipedia.org/wiki/Big_data",
+            "mean": 0.1623684979738732,
+            "variance": 0.43289313074386876,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 1478,
+            "topic_name": "Artificial neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
+            "mean": 0.1623684979738732,
+            "variance": 0.43289313074386876,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 15591,
+            "topic_name": "Logistic function",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_function",
+            "mean": 0.15646578121373808,
+            "variance": 0.43167383399208886,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": 0.15646578121373808,
+            "variance": 0.43167383399208886,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": 0.15646578121373808,
+            "variance": 0.43167383399208886,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 1910,
+            "topic_name": "Backpropagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "mean": 0.15646578121373808,
+            "variance": 0.43167383399208886,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 8242,
+            "topic_name": "Earthquake",
+            "topic_url": "https://en.wikipedia.org/wiki/Earthquake",
+            "mean": 0.1994430042533132,
+            "variance": 0.43034461736746976,
+            "interest_mean": 0.5896352886935032,
+            "interest_var": 0.4063474902726935,
+            "timestamp": 35536051.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": 0.1994430042533132,
+            "variance": 0.43034461736746976,
+            "interest_mean": 0.5896352886935032,
+            "interest_var": 0.4063474902726935,
+            "timestamp": 35536051.0
+        }
+    ]
+}

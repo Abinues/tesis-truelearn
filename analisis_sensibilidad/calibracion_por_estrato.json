@@ -1,0 +1,132 @@
+{
+  "resumen": {
+    "usuarios": 14050,
+    "temas (KC)": 536424,
+    "cortes de tercil de eventos por usuario": {
+      "pocos ≤": 8.0,
+      "intermedios ≤": 13.0
+    },
+    "calibración anterior": {
+      "KNOW_MIN": -0.379,
+      "KNOW_MAX": 0.398,
+      "INT_MIN": -1.0,
+      "INT_MAX": 2.72
+    },
+    "calibración con todos los usuarios": {
+      "KNOW_MIN": -0.37644463742107354,
+      "KNOW_MAX": 0.41485510490440214,
+      "INT_MIN": 0.10697145387730408,
+      "INT_MAX": 2.769201593688422
+    },
+    "cortes de etiquetas por cuantiles": {
+      "UMBRAL_BASICO_PCT": 31.567765978073727,
+      "UMBRAL_MEDIO_PCT": 55.27586276873247,
+      "UMBRAL_ALTO_PCT": 64.52510445416482,
+      "UMBRAL_INTERES_MEDIO_PCT": 27.926149499561642,
+      "UMBRAL_INTERES_ALTO_PCT": 36.77586811707735
+    },
+    "cortes de etiquetas en valor crudo": {
+      "BASICO": -0.12664898657866694,
+      "MEDIO": 0.06095312223609009,
+      "ALTO": 0.13414234785997675,
+      "INTERES_MEDIO": 0.8504298227433458,
+      "INTERES_ALTO": 1.0860296990673248
+    }
+  },
+  "estratos": [
+    {
+      "estrato": "Pocos eventos",
+      "usuarios": 5759,
+      "temas (KC)": 121650,
+      "eventos por usuario (mediana)": 6.0,
+      "conocimiento p1": -0.3592885632366897,
+      "conocimiento p99": 0.33671939695581277,
+      "interés p1": 0.3175420265613998,
+      "interés p99": 2.500286851952452,
+      "varianza conocimiento (mediana)": 0.43300189468488975,
+      "varianza interés (mediana)": 0.40521848489966744
+    },
+    {
+      "estrato": "Intermedios",
+      "usuarios": 3759,
+      "temas (KC)": 121037,
+      "eventos por usuario (mediana)": 11.0,
+      "conocimiento p1": -0.36192665523339257,
+      "conocimiento p99": 0.3937893252863115,
+      "interés p1": 0.2003447122788122,
+      "interés p99": 2.7016508348660015,
+      "varianza conocimiento (mediana)": 0.43173049724948304,
+      "varianza interés (mediana)": 0.4045465233041631
+    },
+    {
+      "estrato": "Muchos eventos",
+      "usuarios": 4532,
+      "temas (KC)": 293737,
+      "eventos por usuario (mediana)": 20.0,
+      "conocimiento p1": -0.3910260858393263,
+      "conocimiento p99": 0.4454722626979466,
+      "interés p1": 0.05825995244689544,
+      "interés p99": 2.895980826108408,
+      "varianza conocimiento (mediana)": 0.4288470254209871,
+      "varianza interés (mediana)": 0.4030449184463291
+    },
+    {
+      "estrato": "TOTAL",
+      "usuarios": 14050,
+      "temas (KC)": 536424,
+      "eventos por usuario (mediana)": 10.0,
+      "conocimiento p1": -0.37644463742107354,
+      "conocimiento p99": 0.41485510490440214,
+      "interés p1": 0.10697145387730408,
+      "interés p99": 2.769201593688422,
+      "varianza conocimiento (mediana)": 0.43113122461723,
+      "varianza interés (mediana)": 0.40408647268191994
+    }
+  ],
+  "etiquetas": [
+    {
+      "estrato": "Pocos eventos",
+      "temas": 121650,
+      "conocimiento: Muy bajo (%)": 32.47595561035758,
+      "conocimiento: Básico (%)": 27.289765721331687,
+      "conocimiento: Medio (%)": 20.252363337443484,
+      "conocimiento: Alto (%)": 19.981915330867242,
+      "interés: Bajo (%)": 23.122893547061242,
+      "interés: Medio (%)": 50.503082614056716,
+      "interés: Alto (%)": 26.37402383888204
+    },
+    {
+      "estrato": "Intermedios",
+      "temas": 121037,
+      "conocimiento: Muy bajo (%)": 25.40875930500591,
+      "conocimiento: Básico (%)": 24.157075935457755,
+      "conocimiento: Medio (%)": 25.70371043565191,
+      "conocimiento: Alto (%)": 24.73045432388443,
+      "interés: Bajo (%)": 30.94095194031577,
+      "interés: Medio (%)": 41.4129563687137,
+      "interés: Alto (%)": 27.646091690970533
+    },
+    {
+      "estrato": "Muchos eventos",
+      "temas": 293737,
+      "conocimiento: Muy bajo (%)": 21.743260127256693,
+      "conocimiento: Básico (%)": 24.39154754082734,
+      "conocimiento: Medio (%)": 26.675903954898427,
+      "conocimiento: Alto (%)": 27.189288377017533,
+      "interés: Bajo (%)": 38.54672717430899,
+      "interés: Medio (%)": 33.24913102537303,
+      "interés: Alto (%)": 28.204141800317974
+    },
+    {
+      "estrato": "TOTAL",
+      "temas": 536424,
+      "conocimiento: Muy bajo (%)": 25.00428765305057,
+      "conocimiento: Básico (%)": 24.99589876664728,
+      "conocimiento: Medio (%)": 24.99981358030215,
+      "conocimiento: Alto (%)": 25.0,
+      "interés: Bajo (%)": 33.33277407423978,
+      "interés: Medio (%)": 39.004034122261494,
+      "interés: Alto (%)": 27.663191803498727
+    }
+  ]
+}

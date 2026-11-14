@@ -1,0 +1,302 @@
+{
+    "user_id": 10928,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 3,
+    "weights": {
+        "novelty": {
+            "mean": 0.6493904169997793,
+            "variance": 0.4368037424188739
+        },
+        "interest": {
+            "mean": 0.45613767047179204,
+            "variance": 0.3956098433672006
+        },
+        "bias": {
+            "mean": -0.026322183631650443,
+            "variance": 0.30990428239440176
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 11398525.0,
+            "means": {
+                "Generative model": -0.12151949145186808,
+                "Autoencoder": -0.12151949145186808,
+                "Graphical model": -0.1215194914518681,
+                "Unsupervised learning": -0.1215194914518681,
+                "Supervised learning": -0.1215194914518681
+            },
+            "variances": {
+                "Generative model": 0.4669829770104715,
+                "Autoencoder": 0.4669829770104715,
+                "Graphical model": 0.4669829770104713,
+                "Unsupervised learning": 0.4669829770104713,
+                "Supervised learning": 0.4669829770104713
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 11406490.0,
+            "means": {
+                "Generative model": -0.2007534606917994,
+                "Autoencoder": -0.2007534606917994,
+                "Graphical model": -0.06318608515181796,
+                "Unsupervised learning": -0.2007534606917994,
+                "Supervised learning": -0.20075346069179936,
+                "Restricted Boltzmann machine": 0.155351868139556,
+                "Markov chain": 0.23189478346831952,
+                "Count data": 0.155351868139556,
+                "Sufficient statistic": 0.155351868139556,
+                "Hidden-variable theory": 0.12184411467194357,
+                "Conditional probability": -0.005662005787425362,
+                "Product of experts": 0.12184411467194357,
+                "Logistic function": 0.12184411467194357,
+                "Maximum likelihood estimation": 0.12184411467194357,
+                "Markov chain Monte Carlo": 0.0886244514671116,
+                "Partition function (statistical mechanics)": -0.0385182638917156,
+                "Coverage (genetics)": 0.0886244514671116,
+                "Algorithm": 0.0886244514671116,
+                "Variational Bayesian methods": -0.14727014071499478,
+                "Calculus of variations": -0.14727014071499478,
+                "Probability": -0.1472701407149948
+            },
+            "variances": {
+                "Generative model": 0.4427606091495524,
+                "Autoencoder": 0.4427606091495524,
+                "Graphical model": 0.3893119831458992,
+                "Unsupervised learning": 0.4427606091495521,
+                "Supervised learning": 0.4427606091495521,
+                "Restricted Boltzmann machine": 0.43183858439546136,
+                "Markov chain": 0.380864855395311,
+                "Count data": 0.43183858439546136,
+                "Sufficient statistic": 0.43183858439546136,
+                "Hidden-variable theory": 0.432898752728585,
+                "Conditional probability": 0.4047799531321381,
+                "Product of experts": 0.432898752728585,
+                "Logistic function": 0.432898752728585,
+                "Maximum likelihood estimation": 0.432898752728585,
+                "Markov chain Monte Carlo": 0.4316649483104681,
+                "Partition function (statistical mechanics)": 0.4037062030434347,
+                "Coverage (genetics)": 0.4316649483104681,
+                "Algorithm": 0.4316649483104681,
+                "Variational Bayesian methods": 0.46248852719008604,
+                "Calculus of variations": 0.46248852719008604,
+                "Probability": 0.46248852719008604
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": -0.2007534606917994,
+            "variance": 0.4427606091495524,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 1749,
+            "topic_name": "Autoencoder",
+            "topic_url": "https://en.wikipedia.org/wiki/Autoencoder",
+            "mean": -0.2007534606917994,
+            "variance": 0.4427606091495524,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": -0.06318608515181796,
+            "variance": 0.3893119831458992,
+            "interest_mean": 1.9099276573026445,
+            "interest_var": 0.3105556205529199,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 28855,
+            "topic_name": "Unsupervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+            "mean": -0.2007534606917994,
+            "variance": 0.4427606091495521,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": -0.20075346069179936,
+            "variance": 0.4427606091495521,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 22932,
+            "topic_name": "Restricted Boltzmann machine",
+            "topic_url": "https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine",
+            "mean": 0.155351868139556,
+            "variance": 0.43183858439546136,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 16167,
+            "topic_name": "Markov chain",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "mean": 0.23189478346831952,
+            "variance": 0.380864855395311,
+            "interest_mean": 1.6685937537488613,
+            "interest_var": 0.34161895490750444,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 6149,
+            "topic_name": "Count data",
+            "topic_url": "https://en.wikipedia.org/wiki/Count_data",
+            "mean": 0.155351868139556,
+            "variance": 0.43183858439546136,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 26532,
+            "topic_name": "Sufficient statistic",
+            "topic_url": "https://en.wikipedia.org/wiki/Sufficient_statistic",
+            "mean": 0.155351868139556,
+            "variance": 0.43183858439546136,
+            "interest_mean": 0.8988094912797185,
+            "interest_var": 0.4038266822417862,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 12311,
+            "topic_name": "Hidden-variable theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Hidden-variable_theory",
+            "mean": 0.12184411467194357,
+            "variance": 0.432898752728585,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 5518,
+            "topic_name": "Conditional probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability",
+            "mean": -0.005662005787425362,
+            "variance": 0.4047799531321381,
+            "interest_mean": 1.7083151783841135,
+            "interest_var": 0.34344835161353954,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 21452,
+            "topic_name": "Product of experts",
+            "topic_url": "https://en.wikipedia.org/wiki/Product_of_experts",
+            "mean": 0.12184411467194357,
+            "variance": 0.432898752728585,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 15591,
+            "topic_name": "Logistic function",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_function",
+            "mean": 0.12184411467194357,
+            "variance": 0.432898752728585,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": 0.12184411467194357,
+            "variance": 0.432898752728585,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 16168,
+            "topic_name": "Markov chain Monte Carlo",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo",
+            "mean": 0.0886244514671116,
+            "variance": 0.4316649483104681,
+            "interest_mean": 0.953112184410148,
+            "interest_var": 0.4046338341944671,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 19630,
+            "topic_name": "Partition function (statistical mechanics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Partition_function_(statistical_mechanics)",
+            "mean": -0.0385182638917156,
+            "variance": 0.4037062030434347,
+            "interest_mean": 1.5724354400187648,
+            "interest_var": 0.34211248977688485,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 6234,
+            "topic_name": "Coverage (genetics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Coverage_(genetics)",
+            "mean": 0.0886244514671116,
+            "variance": 0.4316649483104681,
+            "interest_mean": 0.953112184410148,
+            "interest_var": 0.4046338341944671,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.0886244514671116,
+            "variance": 0.4316649483104681,
+            "interest_mean": 0.953112184410148,
+            "interest_var": 0.4046338341944671,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 29067,
+            "topic_name": "Variational Bayesian methods",
+            "topic_url": "https://en.wikipedia.org/wiki/Variational_Bayesian_methods",
+            "mean": -0.14727014071499478,
+            "variance": 0.46248852719008604,
+            "interest_mean": 0.7652885192380745,
+            "interest_var": 0.4045350546344379,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 3441,
+            "topic_name": "Calculus of variations",
+            "topic_url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+            "mean": -0.14727014071499478,
+            "variance": 0.46248852719008604,
+            "interest_mean": 0.7652885192380745,
+            "interest_var": 0.4045350546344379,
+            "timestamp": 11406490.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": -0.1472701407149948,
+            "variance": 0.46248852719008604,
+            "interest_mean": 0.7652885192380745,
+            "interest_var": 0.4045350546344379,
+            "timestamp": 11406490.0
+        }
+    ]
+}

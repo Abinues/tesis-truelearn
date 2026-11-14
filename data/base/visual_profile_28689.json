@@ -1,0 +1,476 @@
+{
+    "user_id": 28689,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.18994252941453488,
+            "variance": 0.4737088142154691
+        },
+        "interest": {
+            "mean": -0.0771908794434974,
+            "variance": 0.41094980912107393
+        },
+        "bias": {
+            "mean": -0.8200528419266297,
+            "variance": 0.3211940573360728
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 28314478.0,
+            "means": {
+                "Countable set": -0.09036984493732948,
+                "First-order logic": -0.09036984493732948,
+                "Universal quantification": -0.09036984493732948,
+                "Free variables and bound variables": -0.09036984493732948,
+                "Logic": -0.09036984493732951
+            },
+            "variances": {
+                "Countable set": 0.4720666760347005,
+                "First-order logic": 0.4720666760347005,
+                "Universal quantification": 0.4720666760347005,
+                "Free variables and bound variables": 0.4720666760347005,
+                "Logic": 0.4720666760347005
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 28314909.0,
+            "means": {
+                "Countable set": -0.09036984493732948,
+                "First-order logic": -0.09036984493732948,
+                "Universal quantification": -0.09036984493732948,
+                "Free variables and bound variables": -0.09036984493732948,
+                "Logic": -0.09036984493732951,
+                "Generative model": -0.09813183890294128,
+                "Maximum likelihood estimation": -0.09813183890294128,
+                "Probability density function": -0.09813183890294129,
+                "Normal distribution": -0.09813183890294129,
+                "Deep learning": -0.09813183890294129
+            },
+            "variances": {
+                "Countable set": 0.4720666760347005,
+                "First-order logic": 0.4720666760347005,
+                "Universal quantification": 0.4720666760347005,
+                "Free variables and bound variables": 0.4720666760347005,
+                "Logic": 0.4720666760347005,
+                "Generative model": 0.4706918153772283,
+                "Maximum likelihood estimation": 0.4706918153772283,
+                "Probability density function": 0.4706918153772283,
+                "Normal distribution": 0.4706918153772283,
+                "Deep learning": 0.4706918153772283
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 28315363.0,
+            "means": {
+                "Countable set": -0.09036984493732948,
+                "First-order logic": -0.09036984493732948,
+                "Universal quantification": -0.09036984493732948,
+                "Free variables and bound variables": -0.09036984493732948,
+                "Logic": -0.15673688527344218,
+                "Generative model": -0.09813183890294128,
+                "Maximum likelihood estimation": -0.09813183890294128,
+                "Probability density function": -0.09813183890294129,
+                "Normal distribution": -0.09813183890294129,
+                "Deep learning": -0.09813183890294129,
+                "Propositional calculus": -0.07029413820690256,
+                "Directed graph": -0.07029413820690256,
+                "Dynamic logic (modal logic)": -0.07029413820690256,
+                "Classical logic": -0.07029413820690257
+            },
+            "variances": {
+                "Countable set": 0.4720666760347005,
+                "First-order logic": 0.4720666760347005,
+                "Universal quantification": 0.4720666760347005,
+                "Free variables and bound variables": 0.4720666760347005,
+                "Logic": 0.4505930556555543,
+                "Generative model": 0.4706918153772283,
+                "Maximum likelihood estimation": 0.4706918153772283,
+                "Probability density function": 0.4706918153772283,
+                "Normal distribution": 0.4706918153772283,
+                "Deep learning": 0.4706918153772283,
+                "Propositional calculus": 0.47590990060150246,
+                "Directed graph": 0.47590990060150246,
+                "Dynamic logic (modal logic)": 0.47590990060150246,
+                "Classical logic": 0.47590990060150246
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 28315773.0,
+            "means": {
+                "Countable set": -0.09036984493732948,
+                "First-order logic": -0.09036984493732948,
+                "Universal quantification": -0.09036984493732948,
+                "Free variables and bound variables": -0.09036984493732948,
+                "Logic": -0.22738235388316302,
+                "Generative model": -0.09813183890294128,
+                "Maximum likelihood estimation": -0.09813183890294128,
+                "Probability density function": -0.09813183890294129,
+                "Normal distribution": -0.09813183890294129,
+                "Deep learning": -0.09813183890294129,
+                "Propositional calculus": -0.24147328424588071,
+                "Directed graph": -0.07029413820690256,
+                "Dynamic logic (modal logic)": -0.07029413820690256,
+                "Classical logic": -0.07029413820690257,
+                "Machine learning": -0.07839165264868643,
+                "Artificial intelligence": -0.07839165264868644,
+                "Computer science": -0.07839165264868644,
+                "Truth value": -0.10673544892308043,
+                "Propositional variable": -0.10673544892308043,
+                "Syntax": -0.10673544892308043,
+                "Automata theory": -0.10673544892308043
+            },
+            "variances": {
+                "Countable set": 0.4720666760347005,
+                "First-order logic": 0.4720666760347005,
+                "Universal quantification": 0.4720666760347005,
+                "Free variables and bound variables": 0.4720666760347005,
+                "Logic": 0.4294767055971465,
+                "Generative model": 0.4706918153772283,
+                "Maximum likelihood estimation": 0.4706918153772283,
+                "Probability density function": 0.4706918153772283,
+                "Normal distribution": 0.4706918153772283,
+                "Deep learning": 0.4706918153772283,
+                "Propositional calculus": 0.4269565554505464,
+                "Directed graph": 0.47590990060150246,
+                "Dynamic logic (modal logic)": 0.47590990060150246,
+                "Classical logic": 0.47590990060150246,
+                "Machine learning": 0.4739990106702771,
+                "Artificial intelligence": 0.4739990106702771,
+                "Computer science": 0.4739990106702771,
+                "Truth value": 0.4689705938874353,
+                "Propositional variable": 0.4689705938874353,
+                "Syntax": 0.4689705938874353,
+                "Automata theory": 0.4689705938874353
+            }
+        },
+        {
+            "session_id": 5,
+            "timestamp": 28315915.0,
+            "means": {
+                "Countable set": -0.09036984493732948,
+                "First-order logic": -0.09036984493732948,
+                "Universal quantification": -0.09036984493732948,
+                "Free variables and bound variables": -0.09036984493732948,
+                "Logic": -0.22738235388316302,
+                "Generative model": -0.09813183890294128,
+                "Maximum likelihood estimation": -0.09813183890294128,
+                "Probability density function": -0.09813183890294129,
+                "Normal distribution": -0.09813183890294129,
+                "Deep learning": -0.09813183890294129,
+                "Propositional calculus": -0.24147328424588071,
+                "Directed graph": -0.07029413820690256,
+                "Dynamic logic (modal logic)": -0.07029413820690256,
+                "Classical logic": -0.07029413820690257,
+                "Machine learning": -0.07839165264868643,
+                "Artificial intelligence": -0.07839165264868644,
+                "Computer science": -0.07839165264868644,
+                "Truth value": -0.10673544892308043,
+                "Propositional variable": -0.10673544892308043,
+                "Syntax": -0.10673544892308043,
+                "Automata theory": -0.10673544892308043,
+                "Automated theorem proving": -0.11857415917254976,
+                "Satisfiability modulo theories": -0.11857415917254976,
+                "Constraint satisfaction problem": -0.11857415917254976,
+                "Automated reasoning": -0.11857415917254976,
+                "Constraint satisfaction": -0.11857415917254976
+            },
+            "variances": {
+                "Countable set": 0.4720666760347005,
+                "First-order logic": 0.4720666760347005,
+                "Universal quantification": 0.4720666760347005,
+                "Free variables and bound variables": 0.4720666760347005,
+                "Logic": 0.4294767055971465,
+                "Generative model": 0.4706918153772283,
+                "Maximum likelihood estimation": 0.4706918153772283,
+                "Probability density function": 0.4706918153772283,
+                "Normal distribution": 0.4706918153772283,
+                "Deep learning": 0.4706918153772283,
+                "Propositional calculus": 0.4269565554505464,
+                "Directed graph": 0.47590990060150246,
+                "Dynamic logic (modal logic)": 0.47590990060150246,
+                "Classical logic": 0.47590990060150246,
+                "Machine learning": 0.4739990106702771,
+                "Artificial intelligence": 0.4739990106702771,
+                "Computer science": 0.4739990106702771,
+                "Truth value": 0.4689705938874353,
+                "Propositional variable": 0.4689705938874353,
+                "Syntax": 0.4689705938874353,
+                "Automata theory": 0.4689705938874353,
+                "Automated theorem proving": 0.46741786229299176,
+                "Satisfiability modulo theories": 0.46741786229299176,
+                "Constraint satisfaction problem": 0.46741786229299176,
+                "Automated reasoning": 0.46741786229299176,
+                "Constraint satisfaction": 0.46741786229299176
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 6151,
+            "topic_name": "Countable set",
+            "topic_url": "https://en.wikipedia.org/wiki/Countable_set",
+            "mean": -0.09036984493732948,
+            "variance": 0.4720666760347005,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314478.0
+        },
+        {
+            "topic_id": 9985,
+            "topic_name": "First-order logic",
+            "topic_url": "https://en.wikipedia.org/wiki/First-order_logic",
+            "mean": -0.09036984493732948,
+            "variance": 0.4720666760347005,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314478.0
+        },
+        {
+            "topic_id": 28819,
+            "topic_name": "Universal quantification",
+            "topic_url": "https://en.wikipedia.org/wiki/Universal_quantification",
+            "mean": -0.09036984493732948,
+            "variance": 0.4720666760347005,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314478.0
+        },
+        {
+            "topic_id": 10512,
+            "topic_name": "Free variables and bound variables",
+            "topic_url": "https://en.wikipedia.org/wiki/Free_variables_and_bound_variables",
+            "mean": -0.09036984493732948,
+            "variance": 0.4720666760347005,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314478.0
+        },
+        {
+            "topic_id": 15565,
+            "topic_name": "Logic",
+            "topic_url": "https://en.wikipedia.org/wiki/Logic",
+            "mean": -0.22738235388316302,
+            "variance": 0.4294767055971465,
+            "interest_mean": 2.276232973418158,
+            "interest_var": 0.2991937184678486,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": -0.09813183890294128,
+            "variance": 0.4706918153772283,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314909.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": -0.09813183890294128,
+            "variance": 0.4706918153772283,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314909.0
+        },
+        {
+            "topic_id": 21372,
+            "topic_name": "Probability density function",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_density_function",
+            "mean": -0.09813183890294129,
+            "variance": 0.4706918153772283,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314909.0
+        },
+        {
+            "topic_id": 18442,
+            "topic_name": "Normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_distribution",
+            "mean": -0.09813183890294129,
+            "variance": 0.4706918153772283,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314909.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": -0.09813183890294129,
+            "variance": 0.4706918153772283,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28314909.0
+        },
+        {
+            "topic_id": 21604,
+            "topic_name": "Propositional calculus",
+            "topic_url": "https://en.wikipedia.org/wiki/Propositional_calculus",
+            "mean": -0.24147328424588071,
+            "variance": 0.4269565554505464,
+            "interest_mean": 2.038038580749306,
+            "interest_var": 0.2977652101869843,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 7581,
+            "topic_name": "Directed graph",
+            "topic_url": "https://en.wikipedia.org/wiki/Directed_graph",
+            "mean": -0.07029413820690256,
+            "variance": 0.47590990060150246,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 28315363.0
+        },
+        {
+            "topic_id": 8173,
+            "topic_name": "Dynamic logic (modal logic)",
+            "topic_url": "https://en.wikipedia.org/wiki/Dynamic_logic_(modal_logic)",
+            "mean": -0.07029413820690256,
+            "variance": 0.47590990060150246,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 28315363.0
+        },
+        {
+            "topic_id": 4591,
+            "topic_name": "Classical logic",
+            "topic_url": "https://en.wikipedia.org/wiki/Classical_logic",
+            "mean": -0.07029413820690257,
+            "variance": 0.47590990060150246,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 28315363.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.07839165264868643,
+            "variance": 0.4739990106702771,
+            "interest_mean": 0.6468234122415925,
+            "interest_var": 0.4054553027757717,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": -0.07839165264868644,
+            "variance": 0.4739990106702771,
+            "interest_mean": 0.6468234122415926,
+            "interest_var": 0.4054553027757717,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": -0.07839165264868644,
+            "variance": 0.4739990106702771,
+            "interest_mean": 0.6468234122415926,
+            "interest_var": 0.4054553027757717,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 28439,
+            "topic_name": "Truth value",
+            "topic_url": "https://en.wikipedia.org/wiki/Truth_value",
+            "mean": -0.10673544892308043,
+            "variance": 0.4689705938874353,
+            "interest_mean": 0.8702134080906134,
+            "interest_var": 0.40364525938910817,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 21606,
+            "topic_name": "Propositional variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Propositional_variable",
+            "mean": -0.10673544892308043,
+            "variance": 0.4689705938874353,
+            "interest_mean": 0.8702134080906134,
+            "interest_var": 0.40364525938910817,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 26897,
+            "topic_name": "Syntax",
+            "topic_url": "https://en.wikipedia.org/wiki/Syntax",
+            "mean": -0.10673544892308043,
+            "variance": 0.4689705938874353,
+            "interest_mean": 0.8702134080906134,
+            "interest_var": 0.40364525938910817,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 1755,
+            "topic_name": "Automata theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Automata_theory",
+            "mean": -0.10673544892308043,
+            "variance": 0.4689705938874353,
+            "interest_mean": 0.8702134080906132,
+            "interest_var": 0.40364525938910817,
+            "timestamp": 28315773.0
+        },
+        {
+            "topic_id": 1761,
+            "topic_name": "Automated theorem proving",
+            "topic_url": "https://en.wikipedia.org/wiki/Automated_theorem_proving",
+            "mean": -0.11857415917254976,
+            "variance": 0.46741786229299176,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28315915.0
+        },
+        {
+            "topic_id": 23650,
+            "topic_name": "Satisfiability modulo theories",
+            "topic_url": "https://en.wikipedia.org/wiki/Satisfiability_modulo_theories",
+            "mean": -0.11857415917254976,
+            "variance": 0.46741786229299176,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28315915.0
+        },
+        {
+            "topic_id": 5721,
+            "topic_name": "Constraint satisfaction problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Constraint_satisfaction_problem",
+            "mean": -0.11857415917254976,
+            "variance": 0.46741786229299176,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28315915.0
+        },
+        {
+            "topic_id": 1759,
+            "topic_name": "Automated reasoning",
+            "topic_url": "https://en.wikipedia.org/wiki/Automated_reasoning",
+            "mean": -0.11857415917254976,
+            "variance": 0.46741786229299176,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28315915.0
+        },
+        {
+            "topic_id": 5720,
+            "topic_name": "Constraint satisfaction",
+            "topic_url": "https://en.wikipedia.org/wiki/Constraint_satisfaction",
+            "mean": -0.11857415917254976,
+            "variance": 0.46741786229299176,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28315915.0
+        }
+    ]
+}

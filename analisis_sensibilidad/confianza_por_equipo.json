@@ -1,0 +1,69 @@
+{
+  "resumen": {
+    "temas cruzados": 536424,
+    "temas en perfiles": 536424,
+    "R² conocimiento: solo log(eventos)": 0.7773214044996113,
+    "R² conocimiento: log(eventos) + log(tamaño de equipo)": 0.7774491659682564,
+    "Spearman conocimiento vs eventos": 0.7320538507109516,
+    "Spearman conocimiento vs tamaño de equipo": -0.009377526588549595,
+    "R² interés: solo log(eventos)": 0.8883281697807293,
+    "R² interés: log(eventos) + log(tamaño de equipo)": 0.8888848454262349,
+    "Spearman interés vs eventos": 0.8442681916587235,
+    "Spearman interés vs tamaño de equipo": -0.014505425666606559,
+    "Tamaño de equipo medio: mediana / p90": [
+      5.0,
+      5.0
+    ]
+  },
+  "tabla": [
+    {
+      "eventos del tema": "1",
+      "tamaño de equipo": "3-5 temas",
+      "n temas": 338904,
+      "conf. conocimiento mediana": 13.407984321878807,
+      "conf. interés mediana": 18.824928011174812
+    },
+    {
+      "eventos del tema": "2",
+      "tamaño de equipo": "3-5 temas",
+      "n temas": 103809,
+      "conf. conocimiento mediana": 20.54493006702669,
+      "conf. interés mediana": 28.85792940956815
+    },
+    {
+      "eventos del tema": "3-4",
+      "tamaño de equipo": "3-5 temas",
+      "n temas": 59646,
+      "conf. conocimiento mediana": 30.202484544766396,
+      "conf. interés mediana": 38.134669322665665
+    },
+    {
+      "eventos del tema": "5-9",
+      "tamaño de equipo": "3-5 temas",
+      "n temas": 27750,
+      "conf. conocimiento mediana": 44.510179071789025,
+      "conf. interés mediana": 49.21003952223853
+    },
+    {
+      "eventos del tema": "10-19",
+      "tamaño de equipo": "3-5 temas",
+      "n temas": 5323,
+      "conf. conocimiento mediana": 63.18434105700923,
+      "conf. interés mediana": 61.79215265829636
+    },
+    {
+      "eventos del tema": "20-49",
+      "tamaño de equipo": "3-5 temas",
+      "n temas": 876,
+      "conf. conocimiento mediana": 79.02079868280597,
+      "conf. interés mediana": 69.95955815845122
+    },
+    {
+      "eventos del tema": "50+",
+      "tamaño de equipo": "3-5 temas",
+      "n temas": 105,
+      "conf. conocimiento mediana": 94.0420204393836,
+      "conf. interés mediana": 68.93265103823106
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+    "user_id": 33265,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.651504334455923,
+            "variance": 0.4108079519329011
+        },
+        "interest": {
+            "mean": 0.38311823394131317,
+            "variance": 0.3337224596072384
+        },
+        "bias": {
+            "mean": -0.2191089706817802,
+            "variance": 0.2515842373266886
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 10847544.0,
+            "means": {
+                "Parametric model": -0.12518762948277323,
+                "Nonparametric statistics": -0.12518762948277323,
+                "Smoothness": -0.12518762948277323,
+                "Machine learning": -0.12518762948277323,
+                "All models are wrong": -0.12518762948277323
+            },
+            "variances": {
+                "Parametric model": 0.4664531251706114,
+                "Nonparametric statistics": 0.4664531251706114,
+                "Smoothness": 0.4664531251706114,
+                "Machine learning": 0.4664531251706114,
+                "All models are wrong": 0.4664531251706114
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 10847886.0,
+            "means": {
+                "Parametric model": -0.20066855150073132,
+                "Nonparametric statistics": -0.20066855150073132,
+                "Smoothness": -0.20066855150073135,
+                "Machine learning": -0.3033028984248973,
+                "All models are wrong": -0.20066855150073135,
+                "Probability theory": -0.1148820564801131,
+                "Random variable": -0.11488205648011313,
+                "Conditional probability distribution": -0.11488205648011313,
+                "Probability": -0.11488205648011313
+            },
+            "variances": {
+                "Parametric model": 0.44282980246991754,
+                "Nonparametric statistics": 0.44282980246991754,
+                "Smoothness": 0.44282980246991754,
+                "Machine learning": 0.41753094084003656,
+                "All models are wrong": 0.44282980246991754,
+                "Probability theory": 0.46776441865088364,
+                "Random variable": 0.46776441865088364,
+                "Conditional probability distribution": 0.46776441865088364,
+                "Probability": 0.46776441865088364
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 10878967.0,
+            "means": {
+                "Parametric model": -0.20066855150073132,
+                "Nonparametric statistics": -0.20066855150073132,
+                "Smoothness": -0.20066855150073135,
+                "Machine learning": -0.03767403478142866,
+                "All models are wrong": -0.20066855150073135,
+                "Probability theory": 0.18270482589343762,
+                "Random variable": 0.18270482589343762,
+                "Conditional probability distribution": -0.06769082934888652,
+                "Probability": 0.058320194736284525,
+                "Theta": -0.1137576324405017,
+                "Probability distribution": 0.011818712997377906,
+                "Prior probability": -0.07256509918653622,
+                "Mixture model": 0.3270710844792242,
+                "Sampler (musical instrument)": 0.05504945757336269,
+                "Marginal distribution": 0.11470830022450772,
+                "Markov chain": 0.16241638644665476,
+                "Power law": 0.13423664059462515,
+                "Phi": 0.13423664059462515,
+                "Posterior probability": 0.01737915729168993,
+                "Algorithm": -0.12418115331165949,
+                "Conjugate prior": -0.12418115331165949,
+                "Expectation propagation": -0.2504432205564341,
+                "Supervised learning": 0.0638132766491682,
+                "Exchangeable random variables": 0.0638132766491682,
+                "Decision boundary": 0.0638132766491682,
+                "Latent and observable variables": -0.1355528938023216
+            },
+            "variances": {
+                "Parametric model": 0.44282980246991754,
+                "Nonparametric statistics": 0.44282980246991754,
+                "Smoothness": 0.44282980246991754,
+                "Machine learning": 0.3667281324189617,
+                "All models are wrong": 0.44282980246991754,
+                "Probability theory": 0.40400200336175995,
+                "Random variable": 0.40400200336175995,
+                "Conditional probability distribution": 0.3633315956190287,
+                "Probability": 0.38323430596466385,
+                "Theta": 0.467742431878572,
+                "Probability distribution": 0.4073934779776382,
+                "Prior probability": 0.3835720201847,
+                "Mixture model": 0.33978130762899655,
+                "Sampler (musical instrument)": 0.4066816108184113,
+                "Marginal distribution": 0.357977083129831,
+                "Markov chain": 0.4322996123406568,
+                "Power law": 0.43104016456243954,
+                "Phi": 0.43104016456243954,
+                "Posterior probability": 0.4032895844074479,
+                "Algorithm": 0.4657298848555165,
+                "Conjugate prior": 0.4657298848555165,
+                "Expectation propagation": 0.43333288452495,
+                "Supervised learning": 0.4293500600455361,
+                "Exchangeable random variables": 0.4293500600455361,
+                "Decision boundary": 0.4293500600455361,
+                "Latent and observable variables": 0.46265980377079796
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 19500,
+            "topic_name": "Parametric model",
+            "topic_url": "https://en.wikipedia.org/wiki/Parametric_model",
+            "mean": -0.20066855150073132,
+            "variance": 0.44282980246991754,
+            "interest_mean": 1.1879031809781022,
+            "interest_var": 0.37148047162033326,
+            "timestamp": 10847886.0
+        },
+        {
+            "topic_id": 18415,
+            "topic_name": "Nonparametric statistics",
+            "topic_url": "https://en.wikipedia.org/wiki/Nonparametric_statistics",
+            "mean": -0.20066855150073132,
+            "variance": 0.44282980246991754,
+            "interest_mean": 1.1879031809781022,
+            "interest_var": 0.37148047162033326,
+            "timestamp": 10847886.0
+        },
+        {
+            "topic_id": 25026,
+            "topic_name": "Smoothness",
+            "topic_url": "https://en.wikipedia.org/wiki/Smoothness",
+            "mean": -0.20066855150073135,
+            "variance": 0.44282980246991754,
+            "interest_mean": 1.1879031809781022,
+            "interest_var": 0.37148047162033326,
+            "timestamp": 10847886.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.03767403478142866,
+            "variance": 0.3667281324189617,
+            "interest_mean": 1.9381172408108205,
+            "interest_var": 0.30962137462177614,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 725,
+            "topic_name": "All models are wrong",
+            "topic_url": "https://en.wikipedia.org/wiki/All_models_are_wrong",
+            "mean": -0.20066855150073135,
+            "variance": 0.44282980246991754,
+            "interest_mean": 1.1879031809781022,
+            "interest_var": 0.37148047162033326,
+            "timestamp": 10847886.0
+        },
+        {
+            "topic_id": 21383,
+            "topic_name": "Probability theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_theory",
+            "mean": 0.18270482589343762,
+            "variance": 0.40400200336175995,
+            "interest_mean": 0.9427711290448921,
+            "interest_var": 0.3903994883519192,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": 0.18270482589343762,
+            "variance": 0.40400200336175995,
+            "interest_mean": 0.9427711290448921,
+            "interest_var": 0.3903994883519192,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 5519,
+            "topic_name": "Conditional probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability_distribution",
+            "mean": -0.06769082934888652,
+            "variance": 0.3633315956190287,
+            "interest_mean": 2.058169794296412,
+            "interest_var": 0.2891176745395751,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.058320194736284525,
+            "variance": 0.38323430596466385,
+            "interest_mean": 1.5911564874525495,
+            "interest_var": 0.3313782637578391,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 27593,
+            "topic_name": "Theta",
+            "topic_url": "https://en.wikipedia.org/wiki/Theta",
+            "mean": -0.1137576324405017,
+            "variance": 0.467742431878572,
+            "interest_mean": 0.8050175163171822,
+            "interest_var": 0.4036429475274632,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": 0.011818712997377906,
+            "variance": 0.4073934779776382,
+            "interest_mean": 1.4644005808762697,
+            "interest_var": 0.34062703185476423,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 21311,
+            "topic_name": "Prior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Prior_probability",
+            "mean": -0.07256509918653622,
+            "variance": 0.3835720201847,
+            "interest_mean": 1.8264715867211052,
+            "interest_var": 0.3007988140542329,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 17125,
+            "topic_name": "Mixture model",
+            "topic_url": "https://en.wikipedia.org/wiki/Mixture_model",
+            "mean": 0.3270710844792242,
+            "variance": 0.33978130762899655,
+            "interest_mean": 2.092431269540387,
+            "interest_var": 0.2966464906173371,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 23575,
+            "topic_name": "Sampler (musical instrument)",
+            "topic_url": "https://en.wikipedia.org/wiki/Sampler_(musical_instrument)",
+            "mean": 0.05504945757336269,
+            "variance": 0.4066816108184113,
+            "interest_mean": 1.5267929949923262,
+            "interest_var": 0.34165893989959856,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 16085,
+            "topic_name": "Marginal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Marginal_distribution",
+            "mean": 0.11470830022450772,
+            "variance": 0.357977083129831,
+            "interest_mean": 1.7551398419133033,
+            "interest_var": 0.3012091258182403,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 16167,
+            "topic_name": "Markov chain",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "mean": 0.16241638644665476,
+            "variance": 0.4322996123406568,
+            "interest_mean": 0.9710919173269486,
+            "interest_var": 0.4043845459613941,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 21007,
+            "topic_name": "Power law",
+            "topic_url": "https://en.wikipedia.org/wiki/Power_law",
+            "mean": 0.13423664059462515,
+            "variance": 0.43104016456243954,
+            "interest_mean": 0.8167900227145977,
+            "interest_var": 0.4033068914935104,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 20118,
+            "topic_name": "Phi",
+            "topic_url": "https://en.wikipedia.org/wiki/Phi",
+            "mean": 0.13423664059462515,
+            "variance": 0.43104016456243954,
+            "interest_mean": 0.8167900227145974,
+            "interest_var": 0.4033068914935104,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": 0.01737915729168993,
+            "variance": 0.4032895844074479,
+            "interest_mean": 1.0974207656056187,
+            "interest_var": 0.3467212335168,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.12418115331165949,
+            "variance": 0.4657298848555165,
+            "interest_mean": 0.6870948497107372,
+            "interest_var": 0.40410504171385325,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 5609,
+            "topic_name": "Conjugate prior",
+            "topic_url": "https://en.wikipedia.org/wiki/Conjugate_prior",
+            "mean": -0.12418115331165949,
+            "variance": 0.4657298848555165,
+            "interest_mean": 0.6870948497107372,
+            "interest_var": 0.40410504171385325,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 9326,
+            "topic_name": "Expectation propagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Expectation_propagation",
+            "mean": -0.2504432205564341,
+            "variance": 0.43333288452495,
+            "interest_mean": 0.9682809649348323,
+            "interest_var": 0.3472951944346531,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.0638132766491682,
+            "variance": 0.4293500600455361,
+            "interest_mean": 0.6753078837404222,
+            "interest_var": 0.4044240215032139,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 9258,
+            "topic_name": "Exchangeable random variables",
+            "topic_url": "https://en.wikipedia.org/wiki/Exchangeable_random_variables",
+            "mean": 0.0638132766491682,
+            "variance": 0.4293500600455361,
+            "interest_mean": 0.6753078837404222,
+            "interest_var": 0.4044240215032139,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 6966,
+            "topic_name": "Decision boundary",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_boundary",
+            "mean": 0.0638132766491682,
+            "variance": 0.4293500600455361,
+            "interest_mean": 0.6753078837404222,
+            "interest_var": 0.4044240215032139,
+            "timestamp": 10878967.0
+        },
+        {
+            "topic_id": 14765,
+            "topic_name": "Latent and observable variables",
+            "topic_url": "https://en.wikipedia.org/wiki/Latent_variable",
+            "mean": -0.1355528938023216,
+            "variance": 0.46265980377079796,
+            "interest_mean": 0.34791215921429014,
+            "interest_var": 0.4130288740165849,
+            "timestamp": 10878967.0
+        }
+    ]
+}

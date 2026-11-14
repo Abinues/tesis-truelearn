@@ -1,0 +1,340 @@
+{
+    "user_id": 7202,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 4,
+    "weights": {
+        "novelty": {
+            "mean": 0.6917649494593714,
+            "variance": 0.4202133039028952
+        },
+        "interest": {
+            "mean": 0.3722169387065801,
+            "variance": 0.35844501473192697
+        },
+        "bias": {
+            "mean": -0.024520776407342647,
+            "variance": 0.2772430967990189
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 26329439.0,
+            "means": {
+                "Electric field": 0.011864801708093519,
+                "Zinc": 0.011864801708093519,
+                "Copper": 0.011864801708093542,
+                "Negative air ionization therapy": 0.1453565459389576,
+                "Nickel–cadmium battery": 0.14535654593895764,
+                "Voltage": -0.15418815030833416,
+                "Electromotive force": -0.15418815030833416
+            },
+            "variances": {
+                "Electric field": 0.40371217813961036,
+                "Zinc": 0.40371217813961036,
+                "Copper": 0.40371217813961036,
+                "Negative air ionization therapy": 0.4328858734082909,
+                "Nickel–cadmium battery": 0.4328858734082909,
+                "Voltage": 0.46107894319403187,
+                "Electromotive force": 0.46107894319403187
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 26329476.0,
+            "means": {
+                "Electric field": -0.06886177331361656,
+                "Zinc": -0.06886177331361656,
+                "Copper": -0.06886177331361655,
+                "Negative air ionization therapy": 0.1453565459389576,
+                "Nickel–cadmium battery": 0.14535654593895764,
+                "Voltage": -0.2463858245776798,
+                "Electromotive force": -0.2463858245776798
+            },
+            "variances": {
+                "Electric field": 0.38292174165972337,
+                "Zinc": 0.38292174165972337,
+                "Copper": 0.38292174165972337,
+                "Negative air ionization therapy": 0.4328858734082909,
+                "Nickel–cadmium battery": 0.4328858734082909,
+                "Voltage": 0.4339601421626302,
+                "Electromotive force": 0.4339601421626302
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 26331146.0,
+            "means": {
+                "Electric field": -0.12491463292014246,
+                "Zinc": -0.12491463292014246,
+                "Copper": -0.12491463292014246,
+                "Negative air ionization therapy": 0.1453565459389576,
+                "Nickel–cadmium battery": 0.14535654593895764,
+                "Voltage": -0.3104336858352207,
+                "Electromotive force": -0.30990978855537854,
+                "Watt": 0.19659174053568648,
+                "Incandescent light bulb": 0.1193582359237462,
+                "Joule": 0.19659174053568648,
+                "Infrared": 0.1193582359237462,
+                "Tungsten": 0.11935823592374621,
+                "Kilowatt-hour": 0.1925678706313002,
+                "Volt": 0.08920620253801582,
+                "Electric battery": 0.08920620253801581,
+                "Charge conservation": 0.12007704676240763,
+                "Conservative vector field": 0.12007704676240763,
+                "Resistor": 0.12007704676240763,
+                "Conducting": -0.1365244205390835,
+                "Water": -0.1365244205390835,
+                "I": -0.1365244205390835,
+                "Power supply": -0.1365244205390835
+            },
+            "variances": {
+                "Electric field": 0.3670633530480366,
+                "Zinc": 0.3670633530480366,
+                "Copper": 0.3670633530480366,
+                "Negative air ionization therapy": 0.4328858734082909,
+                "Nickel–cadmium battery": 0.4328858734082909,
+                "Voltage": 0.3463881289541167,
+                "Electromotive force": 0.41359259687956773,
+                "Watt": 0.3807199150463243,
+                "Incandescent light bulb": 0.432893130828132,
+                "Joule": 0.3807199150463243,
+                "Infrared": 0.432893130828132,
+                "Tungsten": 0.4328931308281319,
+                "Kilowatt-hour": 0.37851747264093705,
+                "Volt": 0.43039727774868825,
+                "Electric battery": 0.43039727774868825,
+                "Charge conservation": 0.4299836748070814,
+                "Conservative vector field": 0.4299836748070814,
+                "Resistor": 0.4299836748070814,
+                "Conducting": 0.4639245585936915,
+                "Water": 0.4639245585936915,
+                "I": 0.4639245585936915,
+                "Power supply": 0.4639245585936915
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 8440,
+            "topic_name": "Electric field",
+            "topic_url": "https://en.wikipedia.org/wiki/Electric_field",
+            "mean": -0.12491463292014246,
+            "variance": 0.3670633530480366,
+            "interest_mean": 1.7261851651746145,
+            "interest_var": 0.29277941164380356,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 30332,
+            "topic_name": "Zinc",
+            "topic_url": "https://en.wikipedia.org/wiki/Zinc",
+            "mean": -0.12491463292014246,
+            "variance": 0.3670633530480366,
+            "interest_mean": 1.726185165174614,
+            "interest_var": 0.29277941164380356,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 5965,
+            "topic_name": "Copper",
+            "topic_url": "https://en.wikipedia.org/wiki/Copper",
+            "mean": -0.12491463292014246,
+            "variance": 0.3670633530480366,
+            "interest_mean": 1.726185165174614,
+            "interest_var": 0.29277941164380356,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 18008,
+            "topic_name": "Negative air ionization therapy",
+            "topic_url": "https://en.wikipedia.org/wiki/Negative_air_ionization_therapy",
+            "mean": 0.1453565459389576,
+            "variance": 0.4328858734082909,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26329439.0
+        },
+        {
+            "topic_id": 18254,
+            "topic_name": "Nickel–cadmium battery",
+            "topic_url": "https://en.wikipedia.org/wiki/Nickel–cadmium_battery",
+            "mean": 0.14535654593895764,
+            "variance": 0.4328858734082909,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26329439.0
+        },
+        {
+            "topic_id": 29467,
+            "topic_name": "Voltage",
+            "topic_url": "https://en.wikipedia.org/wiki/Voltage",
+            "mean": -0.3104336858352207,
+            "variance": 0.3463881289541167,
+            "interest_mean": 1.8966675341865498,
+            "interest_var": 0.25669049748136286,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 8503,
+            "topic_name": "Electromotive force",
+            "topic_url": "https://en.wikipedia.org/wiki/Electromotive_force",
+            "mean": -0.30990978855537854,
+            "variance": 0.41359259687956773,
+            "interest_mean": 0.776580984395281,
+            "interest_var": 0.3352932552751092,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 29655,
+            "topic_name": "Watt",
+            "topic_url": "https://en.wikipedia.org/wiki/Watt",
+            "mean": 0.19659174053568648,
+            "variance": 0.3807199150463243,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 13174,
+            "topic_name": "Incandescent light bulb",
+            "topic_url": "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
+            "mean": 0.1193582359237462,
+            "variance": 0.432893130828132,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 14210,
+            "topic_name": "Joule",
+            "topic_url": "https://en.wikipedia.org/wiki/Joule",
+            "mean": 0.19659174053568648,
+            "variance": 0.3807199150463243,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 13463,
+            "topic_name": "Infrared",
+            "topic_url": "https://en.wikipedia.org/wiki/Infrared",
+            "mean": 0.1193582359237462,
+            "variance": 0.432893130828132,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 28476,
+            "topic_name": "Tungsten",
+            "topic_url": "https://en.wikipedia.org/wiki/Tungsten",
+            "mean": 0.11935823592374621,
+            "variance": 0.4328931308281319,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 14414,
+            "topic_name": "Kilowatt-hour",
+            "topic_url": "https://en.wikipedia.org/wiki/Kilowatt_hour",
+            "mean": 0.1925678706313002,
+            "variance": 0.37851747264093705,
+            "interest_mean": 1.4612695337920147,
+            "interest_var": 0.33902432911198793,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 29466,
+            "topic_name": "Volt",
+            "topic_url": "https://en.wikipedia.org/wiki/Volt",
+            "mean": 0.08920620253801582,
+            "variance": 0.43039727774868825,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 8433,
+            "topic_name": "Electric battery",
+            "topic_url": "https://en.wikipedia.org/wiki/Electric_battery",
+            "mean": 0.08920620253801581,
+            "variance": 0.43039727774868825,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 4112,
+            "topic_name": "Charge conservation",
+            "topic_url": "https://en.wikipedia.org/wiki/Charge_conservation",
+            "mean": 0.12007704676240763,
+            "variance": 0.4299836748070814,
+            "interest_mean": 0.8906481616085418,
+            "interest_var": 0.39921842072291513,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 5667,
+            "topic_name": "Conservative vector field",
+            "topic_url": "https://en.wikipedia.org/wiki/Conservative_vector_field",
+            "mean": 0.12007704676240763,
+            "variance": 0.4299836748070814,
+            "interest_mean": 0.8906481616085418,
+            "interest_var": 0.39921842072291513,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 22902,
+            "topic_name": "Resistor",
+            "topic_url": "https://en.wikipedia.org/wiki/Resistor",
+            "mean": 0.12007704676240763,
+            "variance": 0.4299836748070814,
+            "interest_mean": 0.8906481616085418,
+            "interest_var": 0.39921842072291513,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 5535,
+            "topic_name": "Conducting",
+            "topic_url": "https://en.wikipedia.org/wiki/Conducting",
+            "mean": -0.1365244205390835,
+            "variance": 0.4639245585936915,
+            "interest_mean": 0.9015143014835633,
+            "interest_var": 0.40104391671696094,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 29605,
+            "topic_name": "Water",
+            "topic_url": "https://en.wikipedia.org/wiki/Water",
+            "mean": -0.1365244205390835,
+            "variance": 0.4639245585936915,
+            "interest_mean": 0.9015143014835633,
+            "interest_var": 0.40104391671696094,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 12938,
+            "topic_name": "I",
+            "topic_url": "https://en.wikipedia.org/wiki/I",
+            "mean": -0.1365244205390835,
+            "variance": 0.4639245585936915,
+            "interest_mean": 0.9015143014835632,
+            "interest_var": 0.40104391671696094,
+            "timestamp": 26331146.0
+        },
+        {
+            "topic_id": 21021,
+            "topic_name": "Power supply",
+            "topic_url": "https://en.wikipedia.org/wiki/Power_supply",
+            "mean": -0.1365244205390835,
+            "variance": 0.4639245585936915,
+            "interest_mean": 0.9015143014835633,
+            "interest_var": 0.40104391671696094,
+            "timestamp": 26331146.0
+        }
+    ]
+}

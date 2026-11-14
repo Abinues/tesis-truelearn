@@ -1,0 +1,404 @@
+{
+    "user_id": 14685,
+    "number_of_engagements": 2,
+    "number_of_non_engagements": 3,
+    "weights": {
+        "novelty": {
+            "mean": 0.5771914505174157,
+            "variance": 0.4492729024141405
+        },
+        "interest": {
+            "mean": 0.4549091138327205,
+            "variance": 0.41947523686723964
+        },
+        "bias": {
+            "mean": -0.13035334338737395,
+            "variance": 0.3290250369729821
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 26749673.0,
+            "means": {
+                "Survival analysis": -0.10893269207366205,
+                "Cumulative distribution function": -0.10893269207366205,
+                "Biostatistics": -0.10893269207366207,
+                "Human Genome Project": -0.10893269207366207,
+                "High-dimensional statistics": -0.10893269207366207
+            },
+            "variances": {
+                "Survival analysis": 0.4689037348794598,
+                "Cumulative distribution function": 0.4689037348794598,
+                "Biostatistics": 0.4689037348794598,
+                "Human Genome Project": 0.4689037348794598,
+                "High-dimensional statistics": 0.4689037348794598
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 26751912.0,
+            "means": {
+                "Survival analysis": -0.10893269207366205,
+                "Cumulative distribution function": -0.10893269207366205,
+                "Biostatistics": -0.10893269207366207,
+                "Human Genome Project": -0.10893269207366207,
+                "High-dimensional statistics": -0.10893269207366207,
+                "Data mining": -0.12576687982787688,
+                "Physician": -0.12576687982787688,
+                "Missing data": -0.1257668798278769,
+                "Australian rules football positions": -0.1257668798278769,
+                "Electronic health record": -0.1257668798278769
+            },
+            "variances": {
+                "Survival analysis": 0.4689037348794598,
+                "Cumulative distribution function": 0.4689037348794598,
+                "Biostatistics": 0.4689037348794598,
+                "Human Genome Project": 0.4689037348794598,
+                "High-dimensional statistics": 0.4689037348794598,
+                "Data mining": 0.46637061749588404,
+                "Physician": 0.46637061749588404,
+                "Missing data": 0.46637061749588404,
+                "Australian rules football positions": 0.46637061749588404,
+                "Electronic health record": 0.46637061749588404
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 26752380.0,
+            "means": {
+                "Survival analysis": -0.10893269207366205,
+                "Cumulative distribution function": -0.10893269207366205,
+                "Biostatistics": -0.10893269207366207,
+                "Human Genome Project": -0.10893269207366207,
+                "High-dimensional statistics": -0.10893269207366207,
+                "Data mining": -0.12576687982787688,
+                "Physician": -0.12576687982787688,
+                "Missing data": -0.1257668798278769,
+                "Australian rules football positions": -0.1257668798278769,
+                "Electronic health record": -0.1257668798278769,
+                "Clinical trial": -0.1339639614518607,
+                "Medical device": -0.1339639614518607,
+                "Bayesian inference": -0.1339639614518607,
+                "Coin flipping": -0.1339639614518607,
+                "Design of experiments": -0.1339639614518607
+            },
+            "variances": {
+                "Survival analysis": 0.4689037348794598,
+                "Cumulative distribution function": 0.4689037348794598,
+                "Biostatistics": 0.4689037348794598,
+                "Human Genome Project": 0.4689037348794598,
+                "High-dimensional statistics": 0.4689037348794598,
+                "Data mining": 0.46637061749588404,
+                "Physician": 0.46637061749588404,
+                "Missing data": 0.46637061749588404,
+                "Australian rules football positions": 0.46637061749588404,
+                "Electronic health record": 0.46637061749588404,
+                "Clinical trial": 0.46523566783477277,
+                "Medical device": 0.46523566783477277,
+                "Bayesian inference": 0.46523566783477277,
+                "Coin flipping": 0.46523566783477277,
+                "Design of experiments": 0.46523566783477277
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 27801560.0,
+            "means": {
+                "Survival analysis": 0.10296624459407888,
+                "Cumulative distribution function": -0.10893269207366205,
+                "Biostatistics": -0.10893269207366207,
+                "Human Genome Project": -0.10893269207366207,
+                "High-dimensional statistics": -0.10893269207366207,
+                "Data mining": -0.12576687982787688,
+                "Physician": -0.12576687982787688,
+                "Missing data": -0.1257668798278769,
+                "Australian rules football positions": -0.1257668798278769,
+                "Electronic health record": -0.1257668798278769,
+                "Clinical trial": -0.1339639614518607,
+                "Medical device": -0.1339639614518607,
+                "Bayesian inference": -0.1339639614518607,
+                "Coin flipping": -0.1339639614518607,
+                "Design of experiments": -0.1339639614518607,
+                "Breast cancer": 0.1581696669715789,
+                "Biomarker": 0.1581696669715789,
+                "Protein": 0.1581696669715789,
+                "Cancer": 0.1581696669715789,
+                "Tissue microarray": 0.15816966697157891,
+                "Survival function": 0.22595142766586557,
+                "Normal distribution": 0.22595142766586557,
+                "Feature selection": 0.22595142766586557,
+                "Proportional hazards model": 0.22595142766586557
+            },
+            "variances": {
+                "Survival analysis": 0.4093876074899062,
+                "Cumulative distribution function": 0.4689037348794598,
+                "Biostatistics": 0.4689037348794598,
+                "Human Genome Project": 0.4689037348794598,
+                "High-dimensional statistics": 0.4689037348794598,
+                "Data mining": 0.46637061749588404,
+                "Physician": 0.46637061749588404,
+                "Missing data": 0.46637061749588404,
+                "Australian rules football positions": 0.46637061749588404,
+                "Electronic health record": 0.46637061749588404,
+                "Clinical trial": 0.46523566783477277,
+                "Medical device": 0.46523566783477277,
+                "Bayesian inference": 0.46523566783477277,
+                "Coin flipping": 0.46523566783477277,
+                "Design of experiments": 0.46523566783477277,
+                "Breast cancer": 0.4328860105904073,
+                "Biomarker": 0.4328860105904073,
+                "Protein": 0.4328860105904073,
+                "Cancer": 0.4328860105904073,
+                "Tissue microarray": 0.4328860105904073,
+                "Survival function": 0.4323282684058693,
+                "Normal distribution": 0.4323282684058693,
+                "Feature selection": 0.4323282684058693,
+                "Proportional hazards model": 0.4323282684058693
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 26729,
+            "topic_name": "Survival analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Survival_analysis",
+            "mean": 0.10296624459407888,
+            "variance": 0.4093876074899062,
+            "interest_mean": 1.8313130908597424,
+            "interest_var": 0.34392685402073503,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 6545,
+            "topic_name": "Cumulative distribution function",
+            "topic_url": "https://en.wikipedia.org/wiki/Cumulative_distribution_function",
+            "mean": -0.10893269207366205,
+            "variance": 0.4689037348794598,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26749673.0
+        },
+        {
+            "topic_id": 2584,
+            "topic_name": "Biostatistics",
+            "topic_url": "https://en.wikipedia.org/wiki/Biostatistics",
+            "mean": -0.10893269207366207,
+            "variance": 0.4689037348794598,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26749673.0
+        },
+        {
+            "topic_id": 12691,
+            "topic_name": "Human Genome Project",
+            "topic_url": "https://en.wikipedia.org/wiki/Human_Genome_Project",
+            "mean": -0.10893269207366207,
+            "variance": 0.4689037348794598,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26749673.0
+        },
+        {
+            "topic_id": 12342,
+            "topic_name": "High-dimensional statistics",
+            "topic_url": "https://en.wikipedia.org/wiki/High-dimensional_statistics",
+            "mean": -0.10893269207366207,
+            "variance": 0.4689037348794598,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26749673.0
+        },
+        {
+            "topic_id": 6823,
+            "topic_name": "Data mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_mining",
+            "mean": -0.12576687982787688,
+            "variance": 0.46637061749588404,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26751912.0
+        },
+        {
+            "topic_id": 20271,
+            "topic_name": "Physician",
+            "topic_url": "https://en.wikipedia.org/wiki/Physician",
+            "mean": -0.12576687982787688,
+            "variance": 0.46637061749588404,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26751912.0
+        },
+        {
+            "topic_id": 17090,
+            "topic_name": "Missing data",
+            "topic_url": "https://en.wikipedia.org/wiki/Missing_data",
+            "mean": -0.1257668798278769,
+            "variance": 0.46637061749588404,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26751912.0
+        },
+        {
+            "topic_id": 1718,
+            "topic_name": "Australian rules football positions",
+            "topic_url": "https://en.wikipedia.org/wiki/Australian_rules_football_positions",
+            "mean": -0.1257668798278769,
+            "variance": 0.46637061749588404,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26751912.0
+        },
+        {
+            "topic_id": 8540,
+            "topic_name": "Electronic health record",
+            "topic_url": "https://en.wikipedia.org/wiki/Electronic_health_record",
+            "mean": -0.1257668798278769,
+            "variance": 0.46637061749588404,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26751912.0
+        },
+        {
+            "topic_id": 4672,
+            "topic_name": "Clinical trial",
+            "topic_url": "https://en.wikipedia.org/wiki/Clinical_trial",
+            "mean": -0.1339639614518607,
+            "variance": 0.46523566783477277,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26752380.0
+        },
+        {
+            "topic_id": 16502,
+            "topic_name": "Medical device",
+            "topic_url": "https://en.wikipedia.org/wiki/Medical_device",
+            "mean": -0.1339639614518607,
+            "variance": 0.46523566783477277,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26752380.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": -0.1339639614518607,
+            "variance": 0.46523566783477277,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26752380.0
+        },
+        {
+            "topic_id": 4890,
+            "topic_name": "Coin flipping",
+            "topic_url": "https://en.wikipedia.org/wiki/Coin_flipping",
+            "mean": -0.1339639614518607,
+            "variance": 0.46523566783477277,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26752380.0
+        },
+        {
+            "topic_id": 7269,
+            "topic_name": "Design of experiments",
+            "topic_url": "https://en.wikipedia.org/wiki/Design_of_experiments",
+            "mean": -0.1339639614518607,
+            "variance": 0.46523566783477277,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26752380.0
+        },
+        {
+            "topic_id": 3068,
+            "topic_name": "Breast cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Breast_cancer",
+            "mean": 0.1581696669715789,
+            "variance": 0.4328860105904073,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 2553,
+            "topic_name": "Biomarker",
+            "topic_url": "https://en.wikipedia.org/wiki/Biomarker",
+            "mean": 0.1581696669715789,
+            "variance": 0.4328860105904073,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 21652,
+            "topic_name": "Protein",
+            "topic_url": "https://en.wikipedia.org/wiki/Protein",
+            "mean": 0.1581696669715789,
+            "variance": 0.4328860105904073,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 3524,
+            "topic_name": "Cancer",
+            "topic_url": "https://en.wikipedia.org/wiki/Cancer",
+            "mean": 0.1581696669715789,
+            "variance": 0.4328860105904073,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 27799,
+            "topic_name": "Tissue microarray",
+            "topic_url": "https://en.wikipedia.org/wiki/Tissue_microarray",
+            "mean": 0.15816966697157891,
+            "variance": 0.4328860105904073,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 26730,
+            "topic_name": "Survival function",
+            "topic_url": "https://en.wikipedia.org/wiki/Survival_function",
+            "mean": 0.22595142766586557,
+            "variance": 0.4323282684058693,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 18442,
+            "topic_name": "Normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_distribution",
+            "mean": 0.22595142766586557,
+            "variance": 0.4323282684058693,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 9699,
+            "topic_name": "Feature selection",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_selection",
+            "mean": 0.22595142766586557,
+            "variance": 0.4323282684058693,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 27801560.0
+        },
+        {
+            "topic_id": 21599,
+            "topic_name": "Proportional hazards model",
+            "topic_url": "https://en.wikipedia.org/wiki/Proportional_hazards_model",
+            "mean": 0.22595142766586557,
+            "variance": 0.4323282684058693,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 27801560.0
+        }
+    ]
+}

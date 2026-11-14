@@ -1,0 +1,476 @@
+{
+    "user_id": 4773,
+    "number_of_engagements": 15,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 1.2987156754712994,
+            "variance": 0.3758039003859782
+        },
+        "interest": {
+            "mean": 1.387569637008562,
+            "variance": 0.34445475357352673
+        },
+        "bias": {
+            "mean": 1.1134003473801517,
+            "variance": 0.2623154992948091
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 27369965.0,
+            "means": {
+                "Covariance function": 0.33751706919973773,
+                "Trapezoidal rule": 0.3388663099079926,
+                "Trapezoid": 0.2544968101387993,
+                "Covariance": 0.18564782621261045,
+                "Proof theory": 0.17419587119379148,
+                "Normal distribution": 0.2964915221810663,
+                "Posterior probability": 0.21571788783285498,
+                "Dirac delta function": 0.1290560256665138,
+                "Numerical integration": 0.26227287637924424,
+                "Linear interpolation": 0.1290560256665138,
+                "Integral": 0.11173921160893127,
+                "Random number generation": 0.15462570660915642,
+                "Loss function": 0.3155561463680769,
+                "Machine learning": 0.3396683616718222,
+                "Decision theory": 0.4193958289552149,
+                "Pseudorandom number generator": 0.17133177945075834,
+                "Randomness": 0.17133177945075834,
+                "Stochastic optimization": 0.26699372783754155,
+                "Linear algebra": 0.24535484685455133,
+                "Mathematical optimization": 0.3502815153352939,
+                "Random variable": 0.11046364718120393,
+                "Epistemology": 0.11046364718120393,
+                "Global optimization": 0.1033982750414151,
+                "Canadian dollar": 0.09751180865598763,
+                "Source code": 0.01322745128657501,
+                "Probability distribution": 0.24566989967271885,
+                "Function (mathematics)": 0.11232591830962096,
+                "Bayesian inference": -0.020099744105549475,
+                "Marginal distribution": 0.14325806235403268,
+                "Conditional probability distribution": 0.1432580623540327,
+                "Probability theory": 0.25939048296014644,
+                "Probability": 0.13061802225149252,
+                "Universality probability": -0.030524730405657514,
+                "Likelihood function": 0.10962488149472192,
+                "Neural network": 0.10962488149472192,
+                "Hyperparameter": 0.10962488149472192,
+                "Minimax": 0.0068754579847614804
+            },
+            "variances": {
+                "Covariance function": 0.30319454383831546,
+                "Trapezoidal rule": 0.3030686275692614,
+                "Trapezoid": 0.3798025598819134,
+                "Covariance": 0.3754010915496492,
+                "Proof theory": 0.4328859268014083,
+                "Normal distribution": 0.3348945542220277,
+                "Posterior probability": 0.3770775459959441,
+                "Dirac delta function": 0.4307720030326504,
+                "Numerical integration": 0.3801021091609557,
+                "Linear interpolation": 0.4307720030326504,
+                "Integral": 0.3716672487853203,
+                "Random number generation": 0.4317354763522947,
+                "Loss function": 0.24783639374092056,
+                "Machine learning": 0.3000227368565135,
+                "Decision theory": 0.2485696693987899,
+                "Pseudorandom number generator": 0.43300194601514436,
+                "Randomness": 0.43300194601514436,
+                "Stochastic optimization": 0.37987629433269854,
+                "Linear algebra": 0.30035493934498175,
+                "Mathematical optimization": 0.3379679488830762,
+                "Random variable": 0.42916227863428813,
+                "Epistemology": 0.42916227863428813,
+                "Global optimization": 0.36771049328993083,
+                "Canadian dollar": 0.4280781293750933,
+                "Source code": 0.42330865302508186,
+                "Probability distribution": 0.3712426027908116,
+                "Function (mathematics)": 0.4258997751261649,
+                "Bayesian inference": 0.4203716924249852,
+                "Marginal distribution": 0.42928301252099715,
+                "Conditional probability distribution": 0.42928301252099715,
+                "Probability theory": 0.2946300827753394,
+                "Probability": 0.36901496849618676,
+                "Universality probability": 0.42284982721033576,
+                "Likelihood function": 0.42739673724375027,
+                "Neural network": 0.42739673724375027,
+                "Hyperparameter": 0.42739673724375027,
+                "Minimax": 0.41764345894589544
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 6220,
+            "topic_name": "Covariance function",
+            "topic_url": "https://en.wikipedia.org/wiki/Covariance_function",
+            "mean": 0.33751706919973773,
+            "variance": 0.30319454383831546,
+            "interest_mean": 1.9898596070859096,
+            "interest_var": 0.27839855596367646,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 28228,
+            "topic_name": "Trapezoidal rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Trapezoidal_rule",
+            "mean": 0.3388663099079926,
+            "variance": 0.3030686275692614,
+            "interest_mean": 2.1757970947581082,
+            "interest_var": 0.2841670934095316,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 28227,
+            "topic_name": "Trapezoid",
+            "topic_url": "https://en.wikipedia.org/wiki/Trapezoid",
+            "mean": 0.2544968101387993,
+            "variance": 0.3798025598819134,
+            "interest_mean": 1.5396361316932714,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 6218,
+            "topic_name": "Covariance",
+            "topic_url": "https://en.wikipedia.org/wiki/Covariance",
+            "mean": 0.18564782621261045,
+            "variance": 0.3754010915496492,
+            "interest_mean": 1.219009959988882,
+            "interest_var": 0.36464087953542085,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 21568,
+            "topic_name": "Proof theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Proof_theory",
+            "mean": 0.17419587119379148,
+            "variance": 0.4328859268014083,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 18442,
+            "topic_name": "Normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_distribution",
+            "mean": 0.2964915221810663,
+            "variance": 0.3348945542220277,
+            "interest_mean": 1.6059001288817176,
+            "interest_var": 0.2956384626784721,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": 0.21571788783285498,
+            "variance": 0.3770775459959441,
+            "interest_mean": 1.2737004874164515,
+            "interest_var": 0.34110863007648623,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 7558,
+            "topic_name": "Dirac delta function",
+            "topic_url": "https://en.wikipedia.org/wiki/Dirac_delta_function",
+            "mean": 0.1290560256665138,
+            "variance": 0.4307720030326504,
+            "interest_mean": 0.8504312305274544,
+            "interest_var": 0.40408647268191994,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 18602,
+            "topic_name": "Numerical integration",
+            "topic_url": "https://en.wikipedia.org/wiki/Numerical_integration",
+            "mean": 0.26227287637924424,
+            "variance": 0.3801021091609557,
+            "interest_mean": 1.6280962692229397,
+            "interest_var": 0.3417236688183152,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 15231,
+            "topic_name": "Linear interpolation",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_interpolation",
+            "mean": 0.1290560256665138,
+            "variance": 0.4307720030326504,
+            "interest_mean": 0.8504312305274544,
+            "interest_var": 0.40408647268191994,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 13580,
+            "topic_name": "Integral",
+            "topic_url": "https://en.wikipedia.org/wiki/Integral",
+            "mean": 0.11173921160893127,
+            "variance": 0.3716672487853203,
+            "interest_mean": 0.9157536515522129,
+            "interest_var": 0.37580128694603565,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 22331,
+            "topic_name": "Random number generation",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_number_generation",
+            "mean": 0.15462570660915642,
+            "variance": 0.4317354763522947,
+            "interest_mean": 0.9622507696609176,
+            "interest_var": 0.40451898710580114,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.3155561463680769,
+            "variance": 0.24783639374092056,
+            "interest_mean": 1.9560120761604396,
+            "interest_var": 0.24416376379717486,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.3396683616718222,
+            "variance": 0.3000227368565135,
+            "interest_mean": 1.913502557242522,
+            "interest_var": 0.2652671340149485,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 6975,
+            "topic_name": "Decision theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_theory",
+            "mean": 0.4193958289552149,
+            "variance": 0.2485696693987899,
+            "interest_mean": 2.168145417669566,
+            "interest_var": 0.23566288482783768,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 21742,
+            "topic_name": "Pseudorandom number generator",
+            "topic_url": "https://en.wikipedia.org/wiki/Pseudorandom_number_generator",
+            "mean": 0.17133177945075834,
+            "variance": 0.43300194601514436,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 22353,
+            "topic_name": "Randomness",
+            "topic_url": "https://en.wikipedia.org/wiki/Randomness",
+            "mean": 0.17133177945075834,
+            "variance": 0.43300194601514436,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 26165,
+            "topic_name": "Stochastic optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_optimization",
+            "mean": 0.26699372783754155,
+            "variance": 0.37987629433269854,
+            "interest_mean": 1.5586631025910664,
+            "interest_var": 0.34484735588800736,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 15207,
+            "topic_name": "Linear algebra",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_algebra",
+            "mean": 0.24535484685455133,
+            "variance": 0.30035493934498175,
+            "interest_mean": 1.84676456824507,
+            "interest_var": 0.27856714490887485,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 16318,
+            "topic_name": "Mathematical optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
+            "mean": 0.3502815153352939,
+            "variance": 0.3379679488830762,
+            "interest_mean": 1.9734858578604109,
+            "interest_var": 0.29874136125911765,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": 0.11046364718120393,
+            "variance": 0.42916227863428813,
+            "interest_mean": 0.5812459595872368,
+            "interest_var": 0.40665092999154306,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 8957,
+            "topic_name": "Epistemology",
+            "topic_url": "https://en.wikipedia.org/wiki/Epistemology",
+            "mean": 0.11046364718120393,
+            "variance": 0.42916227863428813,
+            "interest_mean": 0.581245959587237,
+            "interest_var": 0.40665092999154306,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 11317,
+            "topic_name": "Global optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Global_optimization",
+            "mean": 0.1033982750414151,
+            "variance": 0.36771049328993083,
+            "interest_mean": 0.6349836787256685,
+            "interest_var": 0.3637974190631371,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 3519,
+            "topic_name": "Canadian dollar",
+            "topic_url": "https://en.wikipedia.org/wiki/Canadian_dollar",
+            "mean": 0.09751180865598763,
+            "variance": 0.4280781293750933,
+            "interest_mean": 0.5088132462659796,
+            "interest_var": 0.4076858329553011,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 25406,
+            "topic_name": "Source code",
+            "topic_url": "https://en.wikipedia.org/wiki/Source_code",
+            "mean": 0.01322745128657501,
+            "variance": 0.42330865302508186,
+            "interest_mean": 0.1635395333536155,
+            "interest_var": 0.43658695640702316,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": 0.24566989967271885,
+            "variance": 0.3712426027908116,
+            "interest_mean": 0.8804214890244791,
+            "interest_var": 0.34223246651005107,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 10663,
+            "topic_name": "Function (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_(mathematics)",
+            "mean": 0.11232591830962096,
+            "variance": 0.4258997751261649,
+            "interest_mean": 0.5474146458375011,
+            "interest_var": 0.4022151226668722,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": -0.020099744105549475,
+            "variance": 0.4203716924249852,
+            "interest_mean": 0.0808272801007343,
+            "interest_var": 0.4566937658885649,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 16085,
+            "topic_name": "Marginal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Marginal_distribution",
+            "mean": 0.14325806235403268,
+            "variance": 0.42928301252099715,
+            "interest_mean": 0.877935405498561,
+            "interest_var": 0.39985250871909106,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 5519,
+            "topic_name": "Conditional probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability_distribution",
+            "mean": 0.1432580623540327,
+            "variance": 0.42928301252099715,
+            "interest_mean": 0.877935405498561,
+            "interest_var": 0.39985250871909106,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 21383,
+            "topic_name": "Probability theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_theory",
+            "mean": 0.25939048296014644,
+            "variance": 0.2946300827753394,
+            "interest_mean": 1.5539171981087143,
+            "interest_var": 0.2743500766018981,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.13061802225149252,
+            "variance": 0.36901496849618676,
+            "interest_mean": 0.7162772834806539,
+            "interest_var": 0.34607525810239836,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 28823,
+            "topic_name": "Universality probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Universality_probability",
+            "mean": -0.030524730405657514,
+            "variance": 0.42284982721033576,
+            "interest_mean": 0.371110128497533,
+            "interest_var": 0.4077278189285024,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 15160,
+            "topic_name": "Likelihood function",
+            "topic_url": "https://en.wikipedia.org/wiki/Likelihood_function",
+            "mean": 0.10962488149472192,
+            "variance": 0.42739673724375027,
+            "interest_mean": 0.6014585122758812,
+            "interest_var": 0.4030732606335792,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 18126,
+            "topic_name": "Neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Neural_network",
+            "mean": 0.10962488149472192,
+            "variance": 0.42739673724375027,
+            "interest_mean": 0.6014585122758812,
+            "interest_var": 0.4030732606335792,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 12891,
+            "topic_name": "Hyperparameter",
+            "topic_url": "https://en.wikipedia.org/wiki/Hyperparameter",
+            "mean": 0.10962488149472192,
+            "variance": 0.42739673724375027,
+            "interest_mean": 0.6014585122758812,
+            "interest_var": 0.4030732606335792,
+            "timestamp": 27369965.0
+        },
+        {
+            "topic_id": 17015,
+            "topic_name": "Minimax",
+            "topic_url": "https://en.wikipedia.org/wiki/Minimax",
+            "mean": 0.0068754579847614804,
+            "variance": 0.41764345894589544,
+            "interest_mean": 0.1547397803169708,
+            "interest_var": 0.43398560392457103,
+            "timestamp": 27369965.0
+        }
+    ]
+}

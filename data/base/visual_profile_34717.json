@@ -1,0 +1,308 @@
+{
+    "user_id": 34717,
+    "number_of_engagements": 8,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.9098774648814681,
+            "variance": 0.4037706682239147
+        },
+        "interest": {
+            "mean": 0.8460381819448473,
+            "variance": 0.3683944089665558
+        },
+        "bias": {
+            "mean": 0.6159168862221723,
+            "variance": 0.29566717779132357
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 10623293.0,
+            "means": {
+                "Mixture model": 0.28401833081415234,
+                "Home run": 0.28401833081415234,
+                "Baseball": 0.3573964958316685,
+                "Approximate inference": 0.35085457004907505,
+                "Maximum likelihood estimation": 0.29466962369014077,
+                "Topic model": 0.19093487091927175,
+                "Entropy": 0.11228449947426383,
+                "Generative model": 0.11228449947426383,
+                "Hierarchy": 0.11228449947426383,
+                "Posterior probability": 0.1929191985464943,
+                "Expectation propagation": 0.0910779847558438,
+                "Conditional probability distribution": 0.3182114229365701,
+                "Sampler (musical instrument)": 0.20294781794762481,
+                "Markov chain": 0.20294781794762487,
+                "Hidden-variable theory": 0.11828782849666032,
+                "Gamma function": 0.09834832083675805,
+                "Log probability": 0.2017001823863401,
+                "Probability": 0.2017001823863401,
+                "Latent and observable variables": 0.2286862055228204,
+                "Calculus of variations": 0.2618272350139346,
+                "Variational method (quantum mechanics)": 0.12006317773438394,
+                "Exponential family": 0.16380527171820627,
+                "Coordinate descent": 0.12618669100315966
+            },
+            "variances": {
+                "Mixture model": 0.3947333994200764,
+                "Home run": 0.3947333994200764,
+                "Baseball": 0.35207634580404634,
+                "Approximate inference": 0.31240314547462095,
+                "Maximum likelihood estimation": 0.34560610619851784,
+                "Topic model": 0.37993294368406333,
+                "Entropy": 0.4317748776273925,
+                "Generative model": 0.4317748776273925,
+                "Hierarchy": 0.4317748776273925,
+                "Posterior probability": 0.3788958672291078,
+                "Expectation propagation": 0.4304805282376361,
+                "Conditional probability distribution": 0.3017960721552055,
+                "Sampler (musical instrument)": 0.37883937095179676,
+                "Markov chain": 0.37883937095179676,
+                "Hidden-variable theory": 0.4304089217318012,
+                "Gamma function": 0.4304061557417197,
+                "Log probability": 0.3788371815342218,
+                "Probability": 0.3788371815342218,
+                "Latent and observable variables": 0.37703792009572784,
+                "Calculus of variations": 0.3324418591726004,
+                "Variational method (quantum mechanics)": 0.430406039356863,
+                "Exponential family": 0.37051750766087155,
+                "Coordinate descent": 0.42797799729055996
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 17125,
+            "topic_name": "Mixture model",
+            "topic_url": "https://en.wikipedia.org/wiki/Mixture_model",
+            "mean": 0.28401833081415234,
+            "variance": 0.3947333994200764,
+            "interest_mean": 1.1334637282216662,
+            "interest_var": 0.38428826487706114,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 12517,
+            "topic_name": "Home run",
+            "topic_url": "https://en.wikipedia.org/wiki/Home_run",
+            "mean": 0.28401833081415234,
+            "variance": 0.3947333994200764,
+            "interest_mean": 1.1334637282216662,
+            "interest_var": 0.38428826487706114,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 2120,
+            "topic_name": "Baseball",
+            "topic_url": "https://en.wikipedia.org/wiki/Baseball",
+            "mean": 0.3573964958316685,
+            "variance": 0.35207634580404634,
+            "interest_mean": 1.8714387121229925,
+            "interest_var": 0.3279828720777324,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 1273,
+            "topic_name": "Approximate inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Approximate_inference",
+            "mean": 0.35085457004907505,
+            "variance": 0.31240314547462095,
+            "interest_mean": 1.808980387560518,
+            "interest_var": 0.30853419709144553,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": 0.29466962369014077,
+            "variance": 0.34560610619851784,
+            "interest_mean": 1.198145249588505,
+            "interest_var": 0.35820320290192614,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 27892,
+            "topic_name": "Topic model",
+            "topic_url": "https://en.wikipedia.org/wiki/Topic_model",
+            "mean": 0.19093487091927175,
+            "variance": 0.37993294368406333,
+            "interest_mean": 1.5423465685448252,
+            "interest_var": 0.3424580694550514,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 8872,
+            "topic_name": "Entropy",
+            "topic_url": "https://en.wikipedia.org/wiki/Entropy",
+            "mean": 0.11228449947426383,
+            "variance": 0.4317748776273925,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": 0.11228449947426383,
+            "variance": 0.4317748776273925,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 12318,
+            "topic_name": "Hierarchy",
+            "topic_url": "https://en.wikipedia.org/wiki/Hierarchy",
+            "mean": 0.11228449947426383,
+            "variance": 0.4317748776273925,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": 0.1929191985464943,
+            "variance": 0.3788958672291078,
+            "interest_mean": 1.4689493101823465,
+            "interest_var": 0.34060954879716154,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 9326,
+            "topic_name": "Expectation propagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Expectation_propagation",
+            "mean": 0.0910779847558438,
+            "variance": 0.4304805282376361,
+            "interest_mean": 0.7720929642083264,
+            "interest_var": 0.40440403696250193,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 5519,
+            "topic_name": "Conditional probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability_distribution",
+            "mean": 0.3182114229365701,
+            "variance": 0.3017960721552055,
+            "interest_mean": 1.9228523981619468,
+            "interest_var": 0.2803560662122549,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 23575,
+            "topic_name": "Sampler (musical instrument)",
+            "topic_url": "https://en.wikipedia.org/wiki/Sampler_(musical_instrument)",
+            "mean": 0.20294781794762481,
+            "variance": 0.37883937095179676,
+            "interest_mean": 1.5281010393043977,
+            "interest_var": 0.33960557959094717,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 16167,
+            "topic_name": "Markov chain",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "mean": 0.20294781794762487,
+            "variance": 0.37883937095179676,
+            "interest_mean": 1.5281010393043974,
+            "interest_var": 0.33960557959094717,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 12311,
+            "topic_name": "Hidden-variable theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Hidden-variable_theory",
+            "mean": 0.11828782849666032,
+            "variance": 0.4304089217318012,
+            "interest_mean": 0.8615843096030165,
+            "interest_var": 0.40248033483347245,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 10857,
+            "topic_name": "Gamma function",
+            "topic_url": "https://en.wikipedia.org/wiki/Gamma_function",
+            "mean": 0.09834832083675805,
+            "variance": 0.4304061557417197,
+            "interest_mean": 0.8280115474177818,
+            "interest_var": 0.4029653184574099,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 15552,
+            "topic_name": "Log probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Log_probability",
+            "mean": 0.2017001823863401,
+            "variance": 0.3788371815342218,
+            "interest_mean": 1.5055943069505575,
+            "interest_var": 0.3398030298005038,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.2017001823863401,
+            "variance": 0.3788371815342218,
+            "interest_mean": 1.5055943069505575,
+            "interest_var": 0.3398030298005038,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 14765,
+            "topic_name": "Latent and observable variables",
+            "topic_url": "https://en.wikipedia.org/wiki/Latent_variable",
+            "mean": 0.2286862055228204,
+            "variance": 0.37703792009572784,
+            "interest_mean": 1.3188946777495538,
+            "interest_var": 0.34009568330168966,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 3441,
+            "topic_name": "Calculus of variations",
+            "topic_url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+            "mean": 0.2618272350139346,
+            "variance": 0.3324418591726004,
+            "interest_mean": 1.3758474004479115,
+            "interest_var": 0.31968634713022226,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 29070,
+            "topic_name": "Variational method (quantum mechanics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Variational_method_(quantum_mechanics)",
+            "mean": 0.12006317773438394,
+            "variance": 0.430406039356863,
+            "interest_mean": 0.8407457521736956,
+            "interest_var": 0.4027560643903088,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 9380,
+            "topic_name": "Exponential family",
+            "topic_url": "https://en.wikipedia.org/wiki/Exponential_family",
+            "mean": 0.16380527171820627,
+            "variance": 0.37051750766087155,
+            "interest_mean": 0.6611546799033587,
+            "interest_var": 0.3747101513503029,
+            "timestamp": 10623293.0
+        },
+        {
+            "topic_id": 5951,
+            "topic_name": "Coordinate descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Coordinate_descent",
+            "mean": 0.12618669100315966,
+            "variance": 0.42797799729055996,
+            "interest_mean": 0.5935961837094605,
+            "interest_var": 0.4034285252276601,
+            "timestamp": 10623293.0
+        }
+    ]
+}

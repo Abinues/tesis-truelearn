@@ -275,19 +275,19 @@ def test_login_carga_y_muestra_el_aprendiz_de_prueba(pagina):
     """
     pg, url = pagina
     pg.goto(url, wait_until="load")
-    pg.wait_for_selector("text=Seleccioná un aprendiz", timeout=25000)
+    pg.wait_for_selector("text=Seleccioná un estudiante", timeout=25000)
     texto = pg.inner_text("body")
     assert "TrueLearn" in texto
     pg.locator('[data-testid="stSelectbox"]').first.click()
     pg.wait_for_timeout(300)
-    assert pg.get_by_text(f"Aprendiz #{UID_PRUEBA}", exact=False).count() > 0
+    assert pg.get_by_text(f"Estudiante #{UID_PRUEBA}", exact=False).count() > 0
     pg.keyboard.press("Escape")
 
 
 def _entrar_al_perfil(pg, url):
     """Entra al perfil del aprendiz de prueba de forma idempotente.
 
-    Si la página ya está en el perfil (se detecta por "Cambiar aprendiz" en el
+    Si la página ya está en el perfil (se detecta por "Cambiar estudiante" en el
     sidebar), reutiliza la sesión activa. Si no, hace el login completo y
     espera a que existan las tres tarjetas de métrica, porque Streamlit
     renderiza primero un marcador y luego la versión final.
@@ -296,18 +296,18 @@ def _entrar_al_perfil(pg, url):
         pg (playwright.sync_api.Page): Página de Playwright.
         url (str): URL base del servidor de Streamlit.
     """
-    if pg.locator("text=Cambiar aprendiz").count() > 0:
+    if pg.locator("text=Cambiar estudiante").count() > 0:
         return
 
     pg.goto(url, wait_until="load")
-    pg.wait_for_selector("text=Seleccioná un aprendiz", timeout=25000)
+    pg.wait_for_selector("text=Seleccioná un estudiante", timeout=25000)
     pg.locator('[data-testid="stSelectbox"]').first.click()
     pg.wait_for_timeout(300)
-    pg.get_by_text(f"Aprendiz #{UID_PRUEBA}", exact=False).first.click()
+    pg.get_by_text(f"Estudiante #{UID_PRUEBA}", exact=False).first.click()
     pg.get_by_role("button", name="Ingresar al perfil").click()
     pg.wait_for_selector("text=¿Cómo está aprendiendo este estudiante?", timeout=25000)
     pg.wait_for_function(
-        "document.querySelectorAll('[data-testid=\"stMetric\"]').length >= 3",
+        "document.querySelectorAll('[data-testid=\"stMetric\"]').length >= 2",
         timeout=20000,
     )
 
@@ -323,14 +323,14 @@ def test_entrar_al_perfil_muestra_resumen(pagina):
     texto = pg.inner_text("body").lower()
     assert "nivel de conocimiento" in texto
     assert "nivel de interés" in texto
-    assert "confianza del sistema" in texto
+    assert "seguro de esta estimación" in texto
 
 
 @pytest.mark.parametrize("nombre_link,texto_esperado", [
-    ("Mapa de temas", "Dónde cae cada tema"),
-    ("Evolución temporal", "avanzó el aprendizaje"),
-    ("Pesos INK Classifier", "decide el sistema"),
-    ("Predicción y correcciones", "Correcciones al modelo"),
+    ("Análisis de temas", "Análisis de temas"),
+    ("Análisis de sesiones", "Análisis de sesiones"),
+    ("Pesos del sistema (Avanzado)", "decide el sistema"),
+    ("Distribución de correcciones", "Distribución de correcciones"),
     ("Historial de correcciones", "correcciones"),
 ])
 def test_navegar_a_cada_pagina_sin_error_visible(pagina, nombre_link, texto_esperado):
@@ -377,7 +377,7 @@ def test_los_graficos_de_echarts_renderizan_de_verdad(pagina):
 def test_popup_de_correccion_abre_con_contenido_real(pagina):
     """Verifica que el popup de corrección abre con las cuatro opciones.
 
-    Pulsa "Editar" sobre un tema de "Mapa de temas" y comprueba el diálogo.
+    Pulsa "Editar" sobre un tema de "Análisis de temas" y comprueba el diálogo.
     Corre antes de ``test_boton_cambiar_aprendiz_vuelve_al_login`` para que
     ese test, que cruza el login con la sesión compartida, sea el último.
 
@@ -386,8 +386,10 @@ def test_popup_de_correccion_abre_con_contenido_real(pagina):
     """
     pg, url = pagina
     _entrar_al_perfil(pg, url)
-    pg.get_by_role("link", name="Mapa de temas").click()
-    pg.wait_for_selector("text=Dónde cae cada tema", timeout=25000)
+    pg.get_by_role("link", name="Análisis de temas").click()
+    pg.wait_for_selector("text=Análisis de temas", timeout=25000)
+    pg.get_by_text("TODOS LOS TEMAS").first.click()
+    pg.wait_for_timeout(500)
     botones_editar = pg.get_by_role("button", name="Editar", exact=True)
     try:
         botones_editar.first.wait_for(state="visible", timeout=25000)
@@ -403,7 +405,7 @@ def test_popup_de_correccion_abre_con_contenido_real(pagina):
 
 
 def test_boton_cambiar_aprendiz_vuelve_al_login(pagina):
-    """Verifica que "Cambiar aprendiz" vuelve al login sin sidebar y permite reingresar.
+    """Verifica que "Cambiar estudiante" vuelve al login sin sidebar y permite reingresar.
 
     En el login la barra lateral debe quedar oculta (antes quedaba abierta y
     vacía porque el JavaScript que la colapsaba nunca se ejecutaba). Luego se
@@ -414,10 +416,10 @@ def test_boton_cambiar_aprendiz_vuelve_al_login(pagina):
     """
     pg, url = pagina
     _entrar_al_perfil(pg, url)
-    pg.get_by_role("button", name="Cambiar aprendiz").click()
-    pg.wait_for_selector("text=Seleccioná un aprendiz", timeout=25000)
+    pg.get_by_role("button", name="Cambiar estudiante").click()
+    pg.wait_for_selector("text=Seleccioná un estudiante", timeout=25000)
     texto = pg.inner_text("body")
-    assert "Ingresar al perfil" not in texto or "Seleccioná un aprendiz" in texto
+    assert "Ingresar al perfil" not in texto or "Seleccioná un estudiante" in texto
     pg.wait_for_function(
         "!document.querySelector('[data-testid=\"stSidebar\"]') || "
         "document.querySelector('[data-testid=\"stSidebar\"]').offsetWidth === 0",
@@ -426,7 +428,7 @@ def test_boton_cambiar_aprendiz_vuelve_al_login(pagina):
 
     pg.locator('[data-testid="stSelectbox"]').first.click()
     pg.wait_for_timeout(300)
-    pg.get_by_text(f"Aprendiz #{UID_PRUEBA}", exact=False).first.click()
+    pg.get_by_text(f"Estudiante #{UID_PRUEBA}", exact=False).first.click()
     pg.get_by_role("button", name="Ingresar al perfil").click()
     pg.wait_for_selector("text=¿Cómo está aprendiendo este estudiante?", timeout=25000)
-    pg.get_by_role("link", name="Mapa de temas").wait_for(state="visible", timeout=15000)
+    pg.get_by_role("link", name="Análisis de temas").wait_for(state="visible", timeout=15000)

@@ -1,0 +1,428 @@
+{
+    "user_id": 11485,
+    "number_of_engagements": 15,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 1.1182415069351004,
+            "variance": 0.36714457820770874
+        },
+        "interest": {
+            "mean": 1.1344446914159119,
+            "variance": 0.32497088480612496
+        },
+        "bias": {
+            "mean": 0.8600286604436292,
+            "variance": 0.24699258837147178
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 36674596.0,
+            "means": {
+                "Loss function": 0.28387547837041394,
+                "Vanishing gradient problem": 0.1293451695812966,
+                "Activation function": 0.31433911138384374,
+                "Gradient": 0.3922667753180267,
+                "Log probability": 0.2020103153019222,
+                "Universal approximation theorem": 0.26512401511305933,
+                "Dot product": 0.23975859204835692,
+                "Gradient descent": 0.35698325036919293,
+                "Bag-of-words model": 0.0957882371956857,
+                "Training, validation, and test data sets": 0.28544899618087927,
+                "Learning rate": 0.28118650373581394,
+                "Moving average": 0.14756378986002738,
+                "Partial derivative": 0.16689242986417427,
+                "Overfitting": 0.1017465601540983,
+                "Algorithm": 0.14909386945786068,
+                "Mathematical optimization": 0.10236082573232307,
+                "Hyperparameter": 0.16804294121394497,
+                "Early stopping": 0.1326196037523115,
+                "Regularization (mathematics)": 0.35541214141557986,
+                "Neural network": 0.1115318898745693,
+                "Indicator function": 0.12785510317284493,
+                "Backpropagation": 0.2822132771485001,
+                "Chain rule": 0.19993712433591418,
+                "Reinforcement learning": 0.021167596347018345,
+                "Deep learning": -0.08312405609753833,
+                "Variance": 0.05428290601557953,
+                "Stochastic gradient descent": 0.10809708770569157,
+                "Piecewise linear function": 0.12484737479556512,
+                "Artificial neural network": 0.18749085370384824,
+                "Softmax function": 0.19401335174453269,
+                "Neuron": 0.16496309768437215,
+                "Artificial neuron": 0.16496309768437215,
+                "Boolean circuit": -0.19531159311709928
+            },
+            "variances": {
+                "Loss function": 0.33272905509786077,
+                "Vanishing gradient problem": 0.4328858896446621,
+                "Activation function": 0.2700903130475492,
+                "Gradient": 0.27229701923212135,
+                "Log probability": 0.3786649798160168,
+                "Universal approximation theorem": 0.33460621055745243,
+                "Dot product": 0.3284971632189176,
+                "Gradient descent": 0.2729331881165541,
+                "Bag-of-words model": 0.43300198232940035,
+                "Training, validation, and test data sets": 0.33990686259088393,
+                "Learning rate": 0.3019100966546936,
+                "Moving average": 0.4305042164184132,
+                "Partial derivative": 0.326356068894549,
+                "Overfitting": 0.31336473356870964,
+                "Algorithm": 0.3728553349420409,
+                "Mathematical optimization": 0.43045819720967926,
+                "Hyperparameter": 0.3744440553508439,
+                "Early stopping": 0.42943354121600996,
+                "Regularization (mathematics)": 0.29754983837559057,
+                "Neural network": 0.27879953377986355,
+                "Indicator function": 0.4294120592357626,
+                "Backpropagation": 0.29327401187689484,
+                "Chain rule": 0.3760578835538964,
+                "Reinforcement learning": 0.42428140464190417,
+                "Deep learning": 0.3926247207128657,
+                "Variance": 0.42228191201243487,
+                "Stochastic gradient descent": 0.4199092818088848,
+                "Piecewise linear function": 0.42940772677652195,
+                "Artificial neural network": 0.3094639648887386,
+                "Softmax function": 0.3713836317130048,
+                "Neuron": 0.4256669541591331,
+                "Artificial neuron": 0.4256669541591331,
+                "Boolean circuit": 0.4521060826103329
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.28387547837041394,
+            "variance": 0.33272905509786077,
+            "interest_mean": 1.6056598817537004,
+            "interest_var": 0.3144754535270681,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 29034,
+            "topic_name": "Vanishing gradient problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Vanishing_gradient_problem",
+            "mean": 0.1293451695812966,
+            "variance": 0.4328858896446621,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 289,
+            "topic_name": "Activation function",
+            "topic_url": "https://en.wikipedia.org/wiki/Activation_function",
+            "mean": 0.31433911138384374,
+            "variance": 0.2700903130475492,
+            "interest_mean": 1.9577414669034758,
+            "interest_var": 0.27544014467466654,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 11509,
+            "topic_name": "Gradient",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient",
+            "mean": 0.3922667753180267,
+            "variance": 0.27229701923212135,
+            "interest_mean": 2.2611854396592714,
+            "interest_var": 0.2762817345858452,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 15552,
+            "topic_name": "Log probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Log_probability",
+            "mean": 0.2020103153019222,
+            "variance": 0.3786649798160168,
+            "interest_mean": 1.5018726421005055,
+            "interest_var": 0.3445308747947255,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 28809,
+            "topic_name": "Universal approximation theorem",
+            "topic_url": "https://en.wikipedia.org/wiki/Universal_approximation_theorem",
+            "mean": 0.26512401511305933,
+            "variance": 0.33460621055745243,
+            "interest_mean": 1.7979023253870585,
+            "interest_var": 0.3086538122830828,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 7925,
+            "topic_name": "Dot product",
+            "topic_url": "https://en.wikipedia.org/wiki/Dot_product",
+            "mean": 0.23975859204835692,
+            "variance": 0.3284971632189176,
+            "interest_mean": 1.6455833809069387,
+            "interest_var": 0.33584469427229596,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 11511,
+            "topic_name": "Gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+            "mean": 0.35698325036919293,
+            "variance": 0.2729331881165541,
+            "interest_mean": 2.0615027772995265,
+            "interest_var": 0.2635670608705399,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 1939,
+            "topic_name": "Bag-of-words model",
+            "topic_url": "https://en.wikipedia.org/wiki/Bag-of-words_model",
+            "mean": 0.0957882371956857,
+            "variance": 0.43300198232940035,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 28085,
+            "topic_name": "Training, validation, and test data sets",
+            "topic_url": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets",
+            "mean": 0.28544899618087927,
+            "variance": 0.33990686259088393,
+            "interest_mean": 2.211655966936948,
+            "interest_var": 0.29780470076276017,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 14895,
+            "topic_name": "Learning rate",
+            "topic_url": "https://en.wikipedia.org/wiki/Learning_rate",
+            "mean": 0.28118650373581394,
+            "variance": 0.3019100966546936,
+            "interest_mean": 1.882631333461256,
+            "interest_var": 0.2676639377631338,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 17513,
+            "topic_name": "Moving average",
+            "topic_url": "https://en.wikipedia.org/wiki/Moving_average",
+            "mean": 0.14756378986002738,
+            "variance": 0.4305042164184132,
+            "interest_mean": 0.7394553365406401,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 19587,
+            "topic_name": "Partial derivative",
+            "topic_url": "https://en.wikipedia.org/wiki/Partial_derivative",
+            "mean": 0.16689242986417427,
+            "variance": 0.326356068894549,
+            "interest_mean": 1.1179368005634165,
+            "interest_var": 0.33867554875599803,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 19264,
+            "topic_name": "Overfitting",
+            "topic_url": "https://en.wikipedia.org/wiki/Overfitting",
+            "mean": 0.1017465601540983,
+            "variance": 0.31336473356870964,
+            "interest_mean": 1.8733781822409465,
+            "interest_var": 0.2631681376345865,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.14909386945786068,
+            "variance": 0.3728553349420409,
+            "interest_mean": 0.9092458021176679,
+            "interest_var": 0.36705563381709483,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 16318,
+            "topic_name": "Mathematical optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
+            "mean": 0.10236082573232307,
+            "variance": 0.43045819720967926,
+            "interest_mean": 0.8060962379047824,
+            "interest_var": 0.40366897281262537,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 12891,
+            "topic_name": "Hyperparameter",
+            "topic_url": "https://en.wikipedia.org/wiki/Hyperparameter",
+            "mean": 0.16804294121394497,
+            "variance": 0.3744440553508439,
+            "interest_mean": 0.9332758473452064,
+            "interest_var": 0.35025325838298593,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 8229,
+            "topic_name": "Early stopping",
+            "topic_url": "https://en.wikipedia.org/wiki/Early_stopping",
+            "mean": 0.1326196037523115,
+            "variance": 0.42943354121600996,
+            "interest_mean": 0.6856106455578139,
+            "interest_var": 0.4041562483415336,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 22716,
+            "topic_name": "Regularization (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Regularization_(mathematics)",
+            "mean": 0.35541214141557986,
+            "variance": 0.29754983837559057,
+            "interest_mean": 1.448634054733834,
+            "interest_var": 0.28974251737582235,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 18126,
+            "topic_name": "Neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Neural_network",
+            "mean": 0.1115318898745693,
+            "variance": 0.27879953377986355,
+            "interest_mean": 1.4446808846798573,
+            "interest_var": 0.24546696371499221,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 13260,
+            "topic_name": "Indicator function",
+            "topic_url": "https://en.wikipedia.org/wiki/Indicator_function",
+            "mean": 0.12785510317284493,
+            "variance": 0.4294120592357626,
+            "interest_mean": 0.7188478539866475,
+            "interest_var": 0.40328077510591515,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 1910,
+            "topic_name": "Backpropagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "mean": 0.2822132771485001,
+            "variance": 0.29327401187689484,
+            "interest_mean": 1.2380965042611511,
+            "interest_var": 0.31019734555505246,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 4044,
+            "topic_name": "Chain rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Chain_rule",
+            "mean": 0.19993712433591418,
+            "variance": 0.3760578835538964,
+            "interest_mean": 1.1313273712232554,
+            "interest_var": 0.34224194563872,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 22732,
+            "topic_name": "Reinforcement learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "mean": 0.021167596347018345,
+            "variance": 0.42428140464190417,
+            "interest_mean": 0.4620595354885653,
+            "interest_var": 0.403026120414317,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": -0.08312405609753833,
+            "variance": 0.3926247207128657,
+            "interest_mean": 0.7836868821025528,
+            "interest_var": 0.3442915246985832,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 29054,
+            "topic_name": "Variance",
+            "topic_url": "https://en.wikipedia.org/wiki/Variance",
+            "mean": 0.05428290601557953,
+            "variance": 0.42228191201243487,
+            "interest_mean": 0.12776503912868897,
+            "interest_var": 0.44382687225434797,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 26161,
+            "topic_name": "Stochastic gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_gradient_descent",
+            "mean": 0.10809708770569157,
+            "variance": 0.4199092818088848,
+            "interest_mean": 0.1506211013962574,
+            "interest_var": 0.4366995883158262,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 20320,
+            "topic_name": "Piecewise linear function",
+            "topic_url": "https://en.wikipedia.org/wiki/Piecewise_linear_function",
+            "mean": 0.12484737479556512,
+            "variance": 0.42940772677652195,
+            "interest_mean": 0.7067051574856918,
+            "interest_var": 0.40401623065499714,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 1478,
+            "topic_name": "Artificial neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
+            "mean": 0.18749085370384824,
+            "variance": 0.3094639648887386,
+            "interest_mean": 1.5589554171993938,
+            "interest_var": 0.2694110188298623,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 25240,
+            "topic_name": "Softmax function",
+            "topic_url": "https://en.wikipedia.org/wiki/Softmax_function",
+            "mean": 0.19401335174453269,
+            "variance": 0.3713836317130048,
+            "interest_mean": 0.8682897545392219,
+            "interest_var": 0.3562467152549184,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 18150,
+            "topic_name": "Neuron",
+            "topic_url": "https://en.wikipedia.org/wiki/Neuron",
+            "mean": 0.16496309768437215,
+            "variance": 0.4256669541591331,
+            "interest_mean": 0.6832492022310768,
+            "interest_var": 0.39727275954963537,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 1479,
+            "topic_name": "Artificial neuron",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_neuron",
+            "mean": 0.16496309768437215,
+            "variance": 0.4256669541591331,
+            "interest_mean": 0.6832492022310768,
+            "interest_var": 0.39727275954963537,
+            "timestamp": 36674596.0
+        },
+        {
+            "topic_id": 2892,
+            "topic_name": "Boolean circuit",
+            "topic_url": "https://en.wikipedia.org/wiki/Boolean_circuit",
+            "mean": -0.19531159311709928,
+            "variance": 0.4521060826103329,
+            "interest_mean": 0.33518042781888685,
+            "interest_var": 0.40622759622494414,
+            "timestamp": 36674596.0
+        }
+    ]
+}

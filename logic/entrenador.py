@@ -1,22 +1,3 @@
-"""
-Entrenamiento de modelos INKClassifier de TrueLearn sobre el dataset PEEK.
-
-Selecciona usuarios con muchas y con pocas interacciones, entrena un modelo
-por usuario y guarda el modelo (``models/*.pkl``), su perfil visual
-(``data/visual_profile_*.json``) y un índice global
-(``data/usuarios_entrenados.json``).
-
-Constantes de configuración:
-    N_USUARIOS_MUCHAS, N_USUARIOS_POCAS: cuántos usuarios de cada tipo se
-        entrenan.
-    UMBRAL_MUCHAS: mínimo de eventos para contar como usuario con "muchas"
-        interacciones.
-    UMBRAL_POCAS_MAX: máximo de eventos para contar como usuario con "pocas"
-        interacciones.
-    NUM_EPOCHS: pasadas sobre la secuencia de eventos de cada usuario. El
-        valor 1 reproduce el comportamiento online real: cada evento se
-        vive una sola vez, en orden cronológico.
-"""
 import json
 import os
 import pickle
@@ -28,34 +9,73 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_DIR = os.path.join(BASE_DIR, "models")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
-N_USUARIOS_MUCHAS    = 60
-N_USUARIOS_POCAS     = 40
-UMBRAL_MUCHAS        = 40
-UMBRAL_POCAS_MAX     = 10
+# ── Muestreo estratificado para el desplegable de la app ────────────────
+# Los usuarios de ejemplo del desplegable ("Aprendiz") se eligen por
+# muestreo aleatorio estratificado según su actividad, no por el orden del
+# archivo ni con cortes de eventos fijados a mano:
+#   1. Se calculan los cortes de la cantidad de eventos por usuario con
+#      todos los usuarios del split de entrenamiento: terciles (33 % y
+#      67 %) y percentil 95. Los cortes salen de los datos.
+#   2. Los usuarios quedan repartidos en cuatro estratos:
+#         "pocas"        hasta el tercil 1
+#         "medias"       entre el tercil 1 y el tercil 2
+#         "muchas"       entre el tercil 2 y el percentil 95
+#         "muy_activas"  por encima del percentil 95 (el 5 % más activo)
+#      El estrato "muy_activas" existe porque el tercio más activo empieza
+#      en pocos eventos y sus perfiles tienen poca historia: la
+#      demostración necesita perfiles con evolución visible.
+#   3. De cada estrato se sortean N_USUARIOS_POR_ESTRATO usuarios AL AZAR
+#      con semilla fija (reproducible).
+# Es muestreo aleatorio estratificado (Cochran, 1977) con asignación igual
+# (no proporcional) a propósito: interesa mostrar cada perfil de
+# actividad, no reproducir las proporciones de la población.
+N_USUARIOS_POR_ESTRATO = 30
+SEMILLA_MUESTREO       = 2026
+PERCENTIL_MUY_ACTIVOS  = 0.95
+ESTRATOS_ACTIVIDAD     = ("pocas", "medias", "muchas", "muy_activas")
 
+# Nota sobre los PESOS del modelo (novelty/interest/bias, ver
+# calibrar_dominio.py): a diferencia de los KCs, hay UNA sola muestra de
+# pesos por usuario, no una por tema; sus extremos no se calibran con este
+# conjunto de usuarios de ejemplo.
+
+# NUM_EPOCHS
+# ─────────────────────────────────────────────────────────────────────────
+# FIX METODOLÓGICO IMPORTANTE:
+#
+# La versión original entrenaba NUM_EPOCHS=50 pasadas completas sobre la
+# MISMA secuencia de eventos históricos de un usuario, pero solo
+# guardaba el snapshot de session_history durante la época 0. El modelo
+# que finalmente se persistía en el .pkl (y con el que se calculaban las
+# predicciones y sobre el que se aplicaban las correcciones del usuario)
+# era el de después de las 50 épocas. Es decir: la curva de "Evolución
+# del Aprendizaje" que ve el estudiante NUNCA terminaba en el mismo
+# estado que el resto del dashboard mostraba como "estado actual" — dos
+# fuentes de verdad distintas y contradictorias, justo en un proyecto
+# cuyo objetivo central es la TRANSPARENCIA del modelo.
+#
+# Un aprendiz real vive cada evento una sola vez, en orden cronológico:
+# eso es lo que TrueLearn está diseñado para modelar de forma online.
+# Repetir la misma secuencia muchas veces no corresponde a ningún
+# escenario real y no está justificado en la propuesta ni documentado en
+# el código original (los valores fueron ajustados por prueba y error).
+#
+# Por eso el valor por defecto pasa a ser 1 (una sola pasada = fiel al
+# comportamiento online real). Si igualmente se necesita más de una
+# época para que el modelo "converja" a estimaciones menos ruidosas para
+# la demo, subir este valor es válido, PERO ahora el snapshot de
+# session_history se toma en la ÚLTIMA época (ver entrenar_usuario más
+# abajo), no en la primera, así que el gráfico de evolución y el estado
+# final del modelo SIEMPRE van a coincidir, sin importar cuántas épocas
+# se usen. Documentar en la memoria la elección final de este valor.
 NUM_EPOCHS = 1
 
 
 def seleccionar_usuarios(train, n_muchas, n_pocas, umbral_muchas, umbral_pocas_max):
     """
-    Selecciona usuarios con muchas y con pocas interacciones.
-
-    Recorre el dataset en orden y se detiene en cuanto ambas listas se
-    completan.
-
-    Args:
-        train (Iterable[tuple]): Pares ``(uid, eventos)`` del conjunto de
-            entrenamiento de PEEK.
-        n_muchas (int): Cantidad máxima de usuarios con muchas interacciones.
-        n_pocas (int): Cantidad máxima de usuarios con pocas interacciones.
-        umbral_muchas (int): Mínimo de eventos para entrar en el grupo de
-            "muchas".
-        umbral_pocas_max (int): Máximo de eventos para entrar en el grupo de
-            "pocas". Se exige al menos un evento.
-
-    Returns:
-        tuple[list, list]: ``(usuarios_muchas, usuarios_pocas)``, cada una
-        como lista de pares ``(uid, eventos)``.
+    Recorre el dataset y devuelve dos listas:
+      - usuarios_muchas: hasta n_muchas usuarios con >= umbral_muchas eventos
+      - usuarios_pocas:  hasta n_pocas  usuarios con <= umbral_pocas_max eventos
     """
     usuarios_muchas = []
     usuarios_pocas  = []
@@ -73,28 +93,88 @@ def seleccionar_usuarios(train, n_muchas, n_pocas, umbral_muchas, umbral_pocas_m
     return usuarios_muchas, usuarios_pocas
 
 
-def entrenar_usuario(uid, eventos, mapping, num_epochs=NUM_EPOCHS):
+def muestrear_estratificado(train, n_por_estrato=N_USUARIOS_POR_ESTRATO,
+                            semilla=SEMILLA_MUESTREO,
+                            percentil_muy_activos=PERCENTIL_MUY_ACTIVOS):
     """
-    Entrena un INKClassifier con los eventos de un usuario.
-
-    Los eventos sin temas se omiten porque ``fit()`` no los admite, pero sí
-    cuentan en las estadísticas de enganche, que reflejan el comportamiento
-    real del estudiante. La foto de cada sesión se toma en la última época,
-    por lo que el último punto del historial coincide siempre con el estado
-    final del clasificador.
+    Muestreo aleatorio estratificado por actividad (terciles y percentil 95
+    de la cantidad de eventos por usuario).
 
     Args:
-        uid (int): Identificador del usuario.
-        eventos (list[tuple]): Pares ``(evento, etiqueta)`` del usuario, en
-            orden cronológico.
-        mapping (dict): Mapeo de temas del dataset PEEK.
-        num_epochs (int): Número de pasadas sobre los eventos. Por defecto
-            ``NUM_EPOCHS``.
+        train: iterable de ``(uid, eventos)``. Se ignoran usuarios sin eventos.
+        n_por_estrato (int): usuarios a sortear en cada estrato.
+        semilla (int): semilla del generador (misma semilla, misma muestra).
+        percentil_muy_activos (float): cuantil (0-1) que separa "muy_activas".
 
     Returns:
-        tuple: ``(classifier, session_history, num_engagements,
-        num_non_engagements)``, donde ``session_history`` es una lista de
-        dicts con ``session_id``, ``timestamp``, ``means`` y ``variances``.
+        tuple[list, dict]: lista de ``(uid, eventos, tipo)`` con ``tipo`` en
+        ``"pocas"``, ``"medias"``, ``"muchas"`` o ``"muy_activas"``, y un dict
+        con los tres cortes (``corte_pocas``, ``corte_medias``,
+        ``corte_muchas``) y el tamaño de cada estrato en la población.
+    """
+    import random
+
+    usuarios = [(uid, evs) for uid, evs in train if len(evs) >= 1]
+    if not usuarios:
+        return [], {"corte_pocas": None, "corte_medias": None,
+                    "corte_muchas": None, "poblacion": {}}
+
+    conteos = sorted(len(evs) for _, evs in usuarios)
+
+    def cuantil(q):
+        pos = (len(conteos) - 1) * q
+        i = int(pos)
+        j = min(i + 1, len(conteos) - 1)
+        return conteos[i] + (conteos[j] - conteos[i]) * (pos - i)
+
+    c1, c2, c3 = cuantil(1 / 3), cuantil(2 / 3), cuantil(percentil_muy_activos)
+
+    estratos = {t: [] for t in ESTRATOS_ACTIVIDAD}
+    for uid, evs in usuarios:
+        n = len(evs)
+        if n <= c1:
+            tipo = "pocas"
+        elif n <= c2:
+            tipo = "medias"
+        elif n <= c3:
+            tipo = "muchas"
+        else:
+            tipo = "muy_activas"
+        estratos[tipo].append((uid, evs))
+
+    rng = random.Random(semilla)
+    muestra = []
+    for tipo in ESTRATOS_ACTIVIDAD:
+        grupo = estratos[tipo]
+        elegidos = rng.sample(grupo, min(n_por_estrato, len(grupo)))
+        muestra.extend((uid, evs, tipo) for uid, evs in sorted(elegidos, key=lambda t: t[0]))
+
+    info = {
+        "corte_pocas": c1, "corte_medias": c2, "corte_muchas": c3,
+        "poblacion": {t: len(g) for t, g in estratos.items()},
+    }
+    return muestra, info
+
+
+def entrenar_usuario(uid, eventos, mapping, num_epochs=NUM_EPOCHS):
+    """
+    Entrena el INKClassifier para un usuario y devuelve el clasificador
+    junto con el historial de sesiones y las estadísticas de engagement.
+
+    FIX: el snapshot de cada "sesión" ahora se
+    toma en la ÚLTIMA época (epoch == num_epochs - 1), no en la época 0.
+    Así, sin importar cuántas épocas se configuren, el último punto de
+    session_history SIEMPRE coincide con el estado final del classifier
+    que se persiste y que se usa para predicciones/correcciones. Con
+    NUM_EPOCHS=1 (el valor por defecto) esto es exactamente equivalente
+    al comportamiento de "una sola pasada cronológica real".
+
+    FIX: INKClassifier se importa acá adentro
+    (no al principio del archivo) para que el resto de logic/entrenador.py
+    —en particular seleccionar_usuarios(), una función pura sin ninguna
+    relación con truelearn— se pueda importar y testear sin necesitar la
+    librería instalada. Mismo patrón que ya usan logic/peek_loader.py y
+    logic/api_backend.py.
     """
     from truelearn.learning import INKClassifier
 
@@ -108,11 +188,30 @@ def entrenar_usuario(uid, eventos, mapping, num_epochs=NUM_EPOCHS):
 
     for epoch in range(num_epochs):
         for event, label in eventos:
+            # FIX: se encontraron eventos
+            # reales en el dataset PEEK con topic_kc_pairs() vacío (0.01%
+            # del total, ~14 de 14050 usuarios en train). TrueLearn no
+            # los admite: classifier.fit() lanza
+            # "ValueError: Each group must contain multiple ratings"
+            # porque el InterestClassifier necesita al menos un tema para
+            # armar la comparación. Nunca se manifestó en los tests
+            # (todos los eventos sintéticos usados tenían al menos un
+            # tema) ni en la corrida original de 25 usuarios (ninguno de
+            # los 25 seleccionados tenía la mala suerte de incluir uno),
+            # pero es prácticamente inevitable al entrenar miles de
+            # usuarios reales. Se saltea el evento (no aporta ninguna
+            # señal de todos modos, al no tener tema que actualizar); NO
+            # se excluye de num_engagements/num_non_engagements más
+            # arriba, porque esos conteos reflejan el comportamiento de
+            # visualización real del estudiante, tenga o no el video
+            # temas wikificados.
             if not any(True for _ in event.knowledge.topic_kc_pairs()):
                 continue
 
             classifier.fit(event, label)
 
+            # Foto del estado SOLO en la última época: es el pase cuyo
+            # estado final es el que efectivamente se persiste.
             if epoch == ultima_epoch:
                 t = event.event_time
                 snapshot_means    = {}
@@ -124,11 +223,14 @@ def entrenar_usuario(uid, eventos, mapping, num_epochs=NUM_EPOCHS):
                     snapshot_means[nombre]    = kc.mean
                     snapshot_variance[nombre] = kc.variance
 
+                # Si hay varios eventos en el mismo instante, se guarda el
+                # estado final de esa "sesión" (last-write-wins por diseño).
                 historial_sesiones_dict[t] = {
                     "means":     snapshot_means,
                     "variances": snapshot_variance,
                 }
 
+    # Convertir dict ordenado → lista con session_id
     session_history = []
     for session_id, t in enumerate(sorted(historial_sesiones_dict.keys()), start=1):
         snap = historial_sesiones_dict[t]
@@ -144,24 +246,8 @@ def entrenar_usuario(uid, eventos, mapping, num_epochs=NUM_EPOCHS):
 
 def generar_perfil_json(uid, classifier, mapping, num_eng, num_non_eng, session_history):
     """
-    Construye el perfil visual completo de un usuario y lo guarda en ``data/``.
-
-    El perfil incluye los pesos aprendidos (no los de configuración inicial),
-    el historial de sesiones y, por cada tema, la media y varianza de
-    conocimiento junto con la media y varianza de interés.
-
-    Args:
-        uid (int): Identificador del usuario.
-        classifier (INKClassifier): Clasificador ya entrenado.
-        mapping (dict): Mapeo de temas del dataset PEEK.
-        num_eng (int): Cantidad de eventos con enganche.
-        num_non_eng (int): Cantidad de eventos sin enganche.
-        session_history (list[dict]): Historial devuelto por
-            ``entrenar_usuario``.
-
-    Returns:
-        tuple[dict, str]: El perfil como diccionario y la ruta del archivo
-        ``visual_profile_{uid}.json`` donde se guardó.
+    Construye el diccionario del perfil completo y lo guarda en data/.
+    Incluye los pesos REALES aprendidos (no los de configuración inicial).
     """
     models         = classifier.get_learner_model()
     knowledge_model = models[0]
@@ -169,13 +255,14 @@ def generar_perfil_json(uid, classifier, mapping, num_eng, num_non_eng, session_
 
     interest_dict = {tid: kc for tid, kc in interest_model.knowledge.topic_kc_pairs()}
 
+    # ── Pesos reales ────────────────────────────────────────────────────
     pesos = extraer_pesos_reales(classifier)
 
     perfil = {
         "user_id":                  uid,
         "number_of_engagements":    num_eng,
         "number_of_non_engagements": num_non_eng,
-        "weights": pesos,
+        "weights": pesos,           # novelty/interest/bias con mean y variance
         "session_history":          session_history,
         "explicit_feedback":        [],
         "knowledge_components":     [],
@@ -213,6 +300,7 @@ def generar_perfil_json(uid, classifier, mapping, num_eng, num_non_eng, session_
             "timestamp":      kc.timestamp,
         })
 
+    # Guardar JSON individual por usuario
     os.makedirs(DATA_DIR, exist_ok=True)
     ruta_json = os.path.join(DATA_DIR, f"visual_profile_{uid}.json")
     with open(ruta_json, "w", encoding="utf-8") as f:
@@ -222,39 +310,26 @@ def generar_perfil_json(uid, classifier, mapping, num_eng, num_non_eng, session_
 
 
 def entrenar_modelo_usuario():
-    """
-    Ejecuta el entrenamiento completo multiusuario sobre PEEK.
-
-    Carga el dataset, selecciona los usuarios con muchas y pocas
-    interacciones, entrena uno a uno guardando su modelo y su perfil, y al
-    final escribe el índice global ``data/usuarios_entrenados.json``. Si un
-    usuario falla, se omite y se informa al final, sin interrumpir al resto.
-    Cualquier error general se imprime con su traceback en lugar de
-    propagarse.
-
-    Returns:
-        None: El progreso se informa por salida estándar.
-    """
     print("\n--- 🚀 INICIANDO MÓDULO DE ENTRENAMIENTO (multi-usuario) ---")
 
     try:
+        # ── Cargar dataset ────────────────────────────────────────────────
+        # FIX: se usa el loader centralizado, que
+        # protege el os.chdir() con try/finally y con un Lock (thread-safe
+        # frente al hilo de entrenamiento que lanza api_backend.py).
         print("📡 Cargando dataset PEEK...")
         train, _, mapping = cargar_dataset_peek(DATA_DIR)
 
-        usuarios_muchas, usuarios_pocas = seleccionar_usuarios(
-            train,
-            N_USUARIOS_MUCHAS, N_USUARIOS_POCAS,
-            UMBRAL_MUCHAS, UMBRAL_POCAS_MAX,
-        )
+        # ── Seleccionar usuarios (muestreo aleatorio estratificado) ──────
+        todos_los_usuarios, info = muestrear_estratificado(
+            train, N_USUARIOS_POR_ESTRATO, SEMILLA_MUESTREO)
+        print(f"✅ Cortes de actividad (eventos por usuario): pocas ≤ {info['corte_pocas']:.1f} < "
+              f"medias ≤ {info['corte_medias']:.1f} < muchas ≤ {info['corte_muchas']:.1f} < muy_activas")
+        for tipo in ESTRATOS_ACTIVIDAD:
+            elegidos = sum(1 for _, _, t in todos_los_usuarios if t == tipo)
+            print(f"   {tipo:<11}: {elegidos} sorteados de {info['poblacion'][tipo]} en la población")
 
-        print(f"✅ Usuarios con muchas interacciones (≥{UMBRAL_MUCHAS}): {len(usuarios_muchas)}")
-        print(f"✅ Usuarios con pocas  interacciones (≤{UMBRAL_POCAS_MAX}):  {len(usuarios_pocas)}")
-
-        todos_los_usuarios = (
-            [(uid, evs, "muchas") for uid, evs in usuarios_muchas] +
-            [(uid, evs, "pocas")  for uid, evs in usuarios_pocas]
-        )
-
+        # ── Entrenar y guardar ───────────────────────────────────────────
         os.makedirs(MODEL_DIR, exist_ok=True)
         resumen_todos = []
         usuarios_con_error = []
@@ -262,16 +337,27 @@ def entrenar_modelo_usuario():
         for uid, eventos, tipo in todos_los_usuarios:
             print(f"\n🧠 Entrenando usuario {uid} [{tipo}] — {len(eventos)} interacciones...")
 
+            # FIX: con miles de usuarios reales
+            # de PEEK es prácticamente inevitable toparse con algún caso
+            # inesperado en los datos (el bug de eventos sin temas del
+            # mismo punto 27 fue el primero encontrado así). Antes, un
+            # error en CUALQUIER usuario mataba el proceso entero,
+            # descartando el trabajo ya hecho con todos los usuarios
+            # anteriores (sus .pkl/.json individuales sí quedan guardados
+            # en disco, pero el índice global nunca se escribía). Ahora
+            # se seguÍa con el resto y se reporta al final quién falló.
             try:
                 classifier, session_history, num_eng, num_non_eng = entrenar_usuario(
                     uid, eventos, mapping
                 )
 
+                # Guardar modelo .pkl
                 ruta_pkl = os.path.join(MODEL_DIR, f"model_u_{uid}.pkl")
                 with open(ruta_pkl, "wb") as f:
                     pickle.dump(classifier, f)
                 print(f"   💾 Modelo guardado: {ruta_pkl}")
 
+                # Generar y guardar JSON de perfil
                 perfil, ruta_json = generar_perfil_json(
                     uid, classifier, mapping, num_eng, num_non_eng, session_history
                 )
@@ -299,6 +385,7 @@ def entrenar_modelo_usuario():
             print(f"\n⚠️  {len(usuarios_con_error)} usuario(s) fallaron y se saltearon: "
                   f"{[u['user_id'] for u in usuarios_con_error]}")
 
+        # ── Guardar índice global ────────────────────────────────────────
         ruta_indice = os.path.join(DATA_DIR, "usuarios_entrenados.json")
         with open(ruta_indice, "w", encoding="utf-8") as f:
             json.dump(resumen_todos, f, indent=4, ensure_ascii=False)
@@ -312,6 +399,14 @@ def entrenar_modelo_usuario():
 
 
 if __name__ == "__main__":
+    # FIX: forzar UTF-8 en stdout/stderr, igual
+    # que en logic/api_backend.py -- entrenador.py imprime bastantes
+    # emojis (📡✅🧠💾...), y correrlo con la salida redirigida en Windows
+    # (ej. un futuro pipeline de CI) tira UnicodeEncodeError con el
+    # códec cp1252 por defecto. Se pone acá, no a nivel de módulo, para
+    # no interferir con contextlib.redirect_stdout() que usa el endpoint
+    # /entrenar de api_backend.py (ese redirige a un objeto propio sin
+    # .reconfigure(), y nunca ejecuta este bloque).
     import io
     import sys
     if isinstance(sys.stdout, io.TextIOWrapper):

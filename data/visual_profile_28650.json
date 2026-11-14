@@ -1,0 +1,488 @@
+{
+    "user_id": 28650,
+    "number_of_engagements": 8,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.8631130531059195,
+            "variance": 0.36942301037254255
+        },
+        "interest": {
+            "mean": 0.8374214566086091,
+            "variance": 0.2991983168806575
+        },
+        "bias": {
+            "mean": 0.13334363562661836,
+            "variance": 0.22488083130138903
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 9900966.0,
+            "means": {
+                "Deep learning": -0.15406889047339045,
+                "Gather/scatter (vector addressing)": -0.15406889047339045,
+                "Machine learning": -0.15406889047339045,
+                "Convolution": -0.15406889047339045,
+                "Enzyme": -0.15406889047339048
+            },
+            "variances": {
+                "Deep learning": 0.46268752011234254,
+                "Gather/scatter (vector addressing)": 0.46268752011234254,
+                "Machine learning": 0.46268752011234254,
+                "Convolution": 0.46268752011234254,
+                "Enzyme": 0.46268752011234254
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 9901788.0,
+            "means": {
+                "Deep learning": 0.01450589989137083,
+                "Gather/scatter (vector addressing)": 0.032497074858007576,
+                "Machine learning": 0.032497074858007576,
+                "Convolution": 0.032497074858007576,
+                "Enzyme": 0.032497074858007576,
+                "Tesla (unit)": 0.06338717359936415,
+                "Chemical engineering": 0.06338717359936416,
+                "Interposer": 0.06338717359936416,
+                "Nickel": 0.06338717359936416,
+                "Watt": -0.17384835578416385,
+                "Protein–protein interaction": -0.17384835578416385,
+                "Laptop": -0.17384835578416388,
+                "Syntax": -0.17384835578416388,
+                "Inference": 0.08219486679084594,
+                "Ion": 0.08219486679084594,
+                "Maxwell (unit)": 0.08219486679084594,
+                "Internment Serial Number": 0.08219486679084594
+            },
+            "variances": {
+                "Deep learning": 0.30494540519562197,
+                "Gather/scatter (vector addressing)": 0.4021862833513124,
+                "Machine learning": 0.4021862833513124,
+                "Convolution": 0.4021862833513124,
+                "Enzyme": 0.4021862833513124,
+                "Tesla (unit)": 0.4311065560165759,
+                "Chemical engineering": 0.4311065560165759,
+                "Interposer": 0.4311065560165759,
+                "Nickel": 0.4311065560165759,
+                "Watt": 0.45926559710400866,
+                "Protein–protein interaction": 0.45926559710400866,
+                "Laptop": 0.45926559710400866,
+                "Syntax": 0.45926559710400866,
+                "Inference": 0.42984188771527837,
+                "Ion": 0.42984188771527837,
+                "Maxwell (unit)": 0.42984188771527837,
+                "Internment Serial Number": 0.42984188771527837
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 9902116.0,
+            "means": {
+                "Deep learning": 0.24276212035816572,
+                "Gather/scatter (vector addressing)": 0.10369684885581001,
+                "Machine learning": 0.10369684885581001,
+                "Convolution": 0.10369684885581,
+                "Enzyme": -0.02413768716313306,
+                "Tesla (unit)": 0.08262613549248934,
+                "Chemical engineering": 0.08262613549248937,
+                "Interposer": 0.08262613549248937,
+                "Nickel": 0.08262613549248937,
+                "Watt": 0.008081313338211958,
+                "Protein–protein interaction": 0.008081313338211958,
+                "Laptop": -0.14569050104156003,
+                "Syntax": 0.008081313338211958,
+                "Inference": 0.07831231681826861,
+                "Ion": 0.0783123168182686,
+                "Maxwell (unit)": 0.0783123168182686,
+                "Internment Serial Number": 0.07831231681826858,
+                "Shared memory": -0.12984136922982142,
+                "Kernel (operating system)": -0.12984136922982142,
+                "Thread (computing)": -0.12984136922982142,
+                "Euclidean vector": -0.12984136922982142,
+                "Scalability": -0.12984136922982145,
+                "Multiprocessing": -0.03177533780581569,
+                "Wave vector": -0.15346799115598972,
+                "Astringent": -0.15346799115598972,
+                "Applied science": -0.17493390189578498,
+                "Nvidia": -0.17493390189578498,
+                "Commons": -0.17493390189578498,
+                "High tech": -0.17493390189578503,
+                "Research": -0.17493390189578503,
+                "Registered memory": 0.13179287627433495,
+                "Streaming media": 0.13179287627433497,
+                "Numerical analysis": 0.13179287627433497
+            },
+            "variances": {
+                "Deep learning": 0.20173775076619976,
+                "Gather/scatter (vector addressing)": 0.3494098797439273,
+                "Machine learning": 0.3494098797439273,
+                "Convolution": 0.3494098797439273,
+                "Enzyme": 0.3309234213082637,
+                "Tesla (unit)": 0.3735494059689208,
+                "Chemical engineering": 0.3735494059689208,
+                "Interposer": 0.3735494059689208,
+                "Nickel": 0.3735494059689208,
+                "Watt": 0.3946612234283382,
+                "Protein–protein interaction": 0.3946612234283382,
+                "Laptop": 0.37110721552900333,
+                "Syntax": 0.3946612234283382,
+                "Inference": 0.37142992365610833,
+                "Ion": 0.37142992365610833,
+                "Maxwell (unit)": 0.37142992365610833,
+                "Internment Serial Number": 0.37142992365610833,
+                "Shared memory": 0.4657989705196099,
+                "Kernel (operating system)": 0.4657989705196099,
+                "Thread (computing)": 0.4657989705196099,
+                "Euclidean vector": 0.4657989705196099,
+                "Scalability": 0.4657989705196099,
+                "Multiprocessing": 0.40065125817643876,
+                "Wave vector": 0.4616814534681804,
+                "Astringent": 0.4616814534681804,
+                "Applied science": 0.4603481841215129,
+                "Nvidia": 0.4603481841215129,
+                "Commons": 0.4603481841215129,
+                "High tech": 0.4603481841215129,
+                "Research": 0.4603481841215129,
+                "Registered memory": 0.4284186456390941,
+                "Streaming media": 0.4284186456390941,
+                "Numerical analysis": 0.4284186456390941
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.24276212035816572,
+            "variance": 0.20173775076619976,
+            "interest_mean": 3.1664317962871795,
+            "interest_var": 0.19637331508486977,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 10935,
+            "topic_name": "Gather/scatter (vector addressing)",
+            "topic_url": "https://en.wikipedia.org/wiki/Gather-scatter_(vector_addressing)",
+            "mean": 0.10369684885581001,
+            "variance": 0.3494098797439273,
+            "interest_mean": 1.2634289579833553,
+            "interest_var": 0.35918755128078084,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.10369684885581001,
+            "variance": 0.3494098797439273,
+            "interest_mean": 1.2634289579833553,
+            "interest_var": 0.35918755128078084,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 5927,
+            "topic_name": "Convolution",
+            "topic_url": "https://en.wikipedia.org/wiki/Convolution",
+            "mean": 0.10369684885581,
+            "variance": 0.3494098797439273,
+            "interest_mean": 1.2634289579833553,
+            "interest_var": 0.35918755128078084,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 8921,
+            "topic_name": "Enzyme",
+            "topic_url": "https://en.wikipedia.org/wiki/Enzyme",
+            "mean": -0.02413768716313306,
+            "variance": 0.3309234213082637,
+            "interest_mean": 1.8231518549110965,
+            "interest_var": 0.30883969824109175,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 27384,
+            "topic_name": "Tesla (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Tesla_(unit)",
+            "mean": 0.08262613549248934,
+            "variance": 0.3735494059689208,
+            "interest_mean": 0.9636303335854038,
+            "interest_var": 0.3763417242150218,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 4167,
+            "topic_name": "Chemical engineering",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemical_engineering",
+            "mean": 0.08262613549248937,
+            "variance": 0.3735494059689208,
+            "interest_mean": 0.9636303335854038,
+            "interest_var": 0.3763417242150218,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 13795,
+            "topic_name": "Interposer",
+            "topic_url": "https://en.wikipedia.org/wiki/Interposer",
+            "mean": 0.08262613549248937,
+            "variance": 0.3735494059689208,
+            "interest_mean": 0.9636303335854038,
+            "interest_var": 0.3763417242150218,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 18252,
+            "topic_name": "Nickel",
+            "topic_url": "https://en.wikipedia.org/wiki/Nickel",
+            "mean": 0.08262613549248937,
+            "variance": 0.3735494059689208,
+            "interest_mean": 0.9636303335854038,
+            "interest_var": 0.3763417242150218,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 29655,
+            "topic_name": "Watt",
+            "topic_url": "https://en.wikipedia.org/wiki/Watt",
+            "mean": 0.008081313338211958,
+            "variance": 0.3946612234283382,
+            "interest_mean": 0.839500432950713,
+            "interest_var": 0.3805128094586176,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 21671,
+            "topic_name": "Protein–protein interaction",
+            "topic_url": "https://en.wikipedia.org/wiki/Protein–protein_interaction",
+            "mean": 0.008081313338211958,
+            "variance": 0.3946612234283382,
+            "interest_mean": 0.839500432950713,
+            "interest_var": 0.3805128094586176,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 14713,
+            "topic_name": "Laptop",
+            "topic_url": "https://en.wikipedia.org/wiki/Laptop",
+            "mean": -0.14569050104156003,
+            "variance": 0.37110721552900333,
+            "interest_mean": 1.459073504822994,
+            "interest_var": 0.3236713223979839,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 26897,
+            "topic_name": "Syntax",
+            "topic_url": "https://en.wikipedia.org/wiki/Syntax",
+            "mean": 0.008081313338211958,
+            "variance": 0.3946612234283382,
+            "interest_mean": 0.839500432950713,
+            "interest_var": 0.3805128094586176,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 13342,
+            "topic_name": "Inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Inference",
+            "mean": 0.07831231681826861,
+            "variance": 0.37142992365610833,
+            "interest_mean": 0.8317188574314566,
+            "interest_var": 0.36319692881880056,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 13929,
+            "topic_name": "Ion",
+            "topic_url": "https://en.wikipedia.org/wiki/Ion",
+            "mean": 0.0783123168182686,
+            "variance": 0.37142992365610833,
+            "interest_mean": 0.8317188574314563,
+            "interest_var": 0.36319692881880056,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 16394,
+            "topic_name": "Maxwell (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Maxwell_(unit)",
+            "mean": 0.0783123168182686,
+            "variance": 0.37142992365610833,
+            "interest_mean": 0.8317188574314563,
+            "interest_var": 0.36319692881880056,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 13786,
+            "topic_name": "Internment Serial Number",
+            "topic_url": "https://en.wikipedia.org/wiki/Internment_Serial_Number",
+            "mean": 0.07831231681826858,
+            "variance": 0.37142992365610833,
+            "interest_mean": 0.8317188574314563,
+            "interest_var": 0.36319692881880056,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 24471,
+            "topic_name": "Shared memory",
+            "topic_url": "https://en.wikipedia.org/wiki/Shared_memory",
+            "mean": -0.12984136922982142,
+            "variance": 0.4657989705196099,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 14342,
+            "topic_name": "Kernel (operating system)",
+            "topic_url": "https://en.wikipedia.org/wiki/Kernel_(operating_system)",
+            "mean": -0.12984136922982142,
+            "variance": 0.4657989705196099,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 27640,
+            "topic_name": "Thread (computing)",
+            "topic_url": "https://en.wikipedia.org/wiki/Thread_(computing)",
+            "mean": -0.12984136922982142,
+            "variance": 0.4657989705196099,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 9123,
+            "topic_name": "Euclidean vector",
+            "topic_url": "https://en.wikipedia.org/wiki/Euclidean_vector",
+            "mean": -0.12984136922982142,
+            "variance": 0.4657989705196099,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 23679,
+            "topic_name": "Scalability",
+            "topic_url": "https://en.wikipedia.org/wiki/Scalability",
+            "mean": -0.12984136922982145,
+            "variance": 0.4657989705196099,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 17636,
+            "topic_name": "Multiprocessing",
+            "topic_url": "https://en.wikipedia.org/wiki/Multiprocessing",
+            "mean": -0.03177533780581569,
+            "variance": 0.40065125817643876,
+            "interest_mean": 1.191005073907593,
+            "interest_var": 0.34224878579424745,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 29664,
+            "topic_name": "Wave vector",
+            "topic_url": "https://en.wikipedia.org/wiki/Wave_vector",
+            "mean": -0.15346799115598972,
+            "variance": 0.4616814534681804,
+            "interest_mean": 0.7764897511230885,
+            "interest_var": 0.4024900457921754,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 1574,
+            "topic_name": "Astringent",
+            "topic_url": "https://en.wikipedia.org/wiki/Astringent",
+            "mean": -0.15346799115598972,
+            "variance": 0.4616814534681804,
+            "interest_mean": 0.7764897511230885,
+            "interest_var": 0.4024900457921754,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 1261,
+            "topic_name": "Applied science",
+            "topic_url": "https://en.wikipedia.org/wiki/Applied_science",
+            "mean": -0.17493390189578498,
+            "variance": 0.4603481841215129,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 18622,
+            "topic_name": "Nvidia",
+            "topic_url": "https://en.wikipedia.org/wiki/Nvidia",
+            "mean": -0.17493390189578498,
+            "variance": 0.4603481841215129,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 5148,
+            "topic_name": "Commons",
+            "topic_url": "https://en.wikipedia.org/wiki/Commons",
+            "mean": -0.17493390189578498,
+            "variance": 0.4603481841215129,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 12336,
+            "topic_name": "High tech",
+            "topic_url": "https://en.wikipedia.org/wiki/High_tech",
+            "mean": -0.17493390189578503,
+            "variance": 0.4603481841215129,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 22878,
+            "topic_name": "Research",
+            "topic_url": "https://en.wikipedia.org/wiki/Research",
+            "mean": -0.17493390189578503,
+            "variance": 0.4603481841215129,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 22697,
+            "topic_name": "Registered memory",
+            "topic_url": "https://en.wikipedia.org/wiki/Registered_memory",
+            "mean": 0.13179287627433495,
+            "variance": 0.4284186456390941,
+            "interest_mean": 0.5149386017344372,
+            "interest_var": 0.40703408085216114,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 26276,
+            "topic_name": "Streaming media",
+            "topic_url": "https://en.wikipedia.org/wiki/Streaming_media",
+            "mean": 0.13179287627433497,
+            "variance": 0.4284186456390941,
+            "interest_mean": 0.5149386017344372,
+            "interest_var": 0.40703408085216114,
+            "timestamp": 9902116.0
+        },
+        {
+            "topic_id": 18598,
+            "topic_name": "Numerical analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Numerical_analysis",
+            "mean": 0.13179287627433497,
+            "variance": 0.4284186456390941,
+            "interest_mean": 0.5149386017344372,
+            "interest_var": 0.40703408085216114,
+            "timestamp": 9902116.0
+        }
+    ]
+}

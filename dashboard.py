@@ -8,17 +8,17 @@ puerto 5000:
 
 Configura la página, inicializa el estado de sesión y decide qué mostrar:
 
-    - Sin aprendiz seleccionado: solo la página de inicio (``pages/login.py``),
+    - Sin estudiante seleccionado: solo la página de inicio (``pages/login.py``),
       sin barra de navegación y con la barra lateral oculta mediante CSS (se
-      vuelve a mostrar al elegir un aprendiz).
-    - Con aprendiz seleccionado: carga su perfil, lo deja disponible para las
-      páginas en ``perfil_actual``, muestra un resumen del aprendiz en la
+      vuelve a mostrar al elegir un estudiante).
+    - Con estudiante seleccionado: carga su perfil, lo deja disponible para las
+      páginas en ``perfil_actual``, muestra un resumen del estudiante en la
       barra lateral con el botón para cambiarlo, y la navegación entre las
       seis páginas del perfil.
 
 Estado de sesión:
-    uid_seleccionado: Aprendiz elegido, o ``None`` si no hay ninguno.
-    perfil_actual: Perfil del aprendiz elegido, compartido con las páginas.
+    uid_seleccionado: estudiante elegido, o ``None`` si no hay ninguno.
+    perfil_actual: Perfil del estudiante elegido, compartido con las páginas.
     popup_topic, popup_open: Tema abierto en el popup de corrección y si el
         popup está abierto. Se reinician al cambiar de página.
     last_busq, last_orden: Última búsqueda y orden del análisis de temas.
@@ -29,7 +29,7 @@ import streamlit as st
 from shared import get_perfil, inject_css
 
 st.set_page_config(
-    page_title="TrueLearn · Perfil del Aprendiz",
+    page_title="TrueLearn · Perfil del Estudiante",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -65,7 +65,7 @@ uid    = st.session_state["uid_seleccionado"]
 perfil = get_perfil(uid)
 
 if not perfil:
-    st.error(f"No se encontró perfil para el aprendiz {uid}.")
+    st.error(f"No se encontró perfil para el estudiante {uid}.")
     if st.button("← Volver"):
         st.session_state["uid_seleccionado"] = None
         st.rerun()
@@ -82,7 +82,7 @@ tasa    = round(eng / total * 100, 1) if total > 0 else 0
 with st.sidebar:
     st.markdown(f"""
     <div class="sidebar-user">
-        <div class="sidebar-uid">Aprendiz #{uid}</div>
+        <div class="sidebar-uid">Estudiante #{uid}</div>
         <div style="font-size:.73rem;opacity:.85">
              {total} eventos ·  {tasa}% enganche ·  {len(kcs)} temas
         </div>
@@ -91,7 +91,7 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
     st.markdown("<div class='btn-cambiar'>", unsafe_allow_html=True)
-    if st.button("← Cambiar aprendiz", use_container_width=True, key="btn_cambiar"):
+    if st.button("← Cambiar estudiante", use_container_width=True, key="btn_cambiar"):
         st.session_state["uid_seleccionado"]  = None
         st.session_state["perfil_actual"]     = None
         st.rerun()

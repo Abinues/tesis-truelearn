@@ -1,0 +1,332 @@
+{
+    "user_id": 20951,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.5483084017265817,
+            "variance": 0.4333221643536107
+        },
+        "interest": {
+            "mean": 0.3717444005898948,
+            "variance": 0.3277232086988915
+        },
+        "bias": {
+            "mean": -0.36139660056173073,
+            "variance": 0.2708178911423837
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 10350614.0,
+            "means": {
+                "Convex hull": -0.10801628771078935,
+                "Transpose": -0.10801628771078935,
+                "Matrix (mathematics)": -0.30864251058894476,
+                "Separable space": -0.10801628771078935,
+                "Linear programming": -0.10801628771078935,
+                "Identity matrix": -0.12723178991040518,
+                "Obsidian": -0.12723178991040518,
+                "Text mining": -0.12723178991040518,
+                "Algorithm": -0.1272317899104052,
+                "Nonnegative matrix": -0.09254378447989078,
+                "Hyperspectral imaging": -0.09254378447989078,
+                "Wavelength": -0.09254378447989078,
+                "Non-negative matrix factorization": -0.20828126037263858,
+                "Pixel": -0.1227745257072788,
+                "Copper": -0.1227745257072788,
+                "Spectral signature": -0.1227745257072788,
+                "Convex optimization": -0.1227745257072788
+            },
+            "variances": {
+                "Convex hull": 0.46905017735342297,
+                "Transpose": 0.46905017735342297,
+                "Matrix (mathematics)": 0.41698830115699653,
+                "Separable space": 0.46905017735342297,
+                "Linear programming": 0.46905017735342297,
+                "Identity matrix": 0.46595519336294594,
+                "Obsidian": 0.46595519336294594,
+                "Text mining": 0.46595519336294594,
+                "Algorithm": 0.46595519336294594,
+                "Nonnegative matrix": 0.47134157198330845,
+                "Hyperspectral imaging": 0.47134157198330845,
+                "Wavelength": 0.47134157198330845,
+                "Non-negative matrix factorization": 0.441671357214129,
+                "Pixel": 0.46661209209908283,
+                "Copper": 0.46661209209908283,
+                "Spectral signature": 0.46661209209908283,
+                "Convex optimization": 0.46661209209908283
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 10734776.0,
+            "means": {
+                "Convex hull": -0.1853208401957804,
+                "Transpose": -0.1853208401957804,
+                "Matrix (mathematics)": -0.11185818630720462,
+                "Separable space": -0.1853208401957804,
+                "Linear programming": -0.1853208401957804,
+                "Identity matrix": -0.12723178991040518,
+                "Obsidian": -0.12723178991040518,
+                "Text mining": -0.12723178991040518,
+                "Algorithm": -0.1272317899104052,
+                "Nonnegative matrix": 0.19831188818054804,
+                "Hyperspectral imaging": 0.19831188818054804,
+                "Wavelength": 0.19831188818054804,
+                "Non-negative matrix factorization": 0.22373148986717642,
+                "Pixel": 0.07004464439947494,
+                "Copper": 0.07004464439947493,
+                "Spectral signature": 0.07004464439947493,
+                "Convex optimization": 0.07004464439947494
+            },
+            "variances": {
+                "Convex hull": 0.4446011900935391,
+                "Transpose": 0.4446011900935391,
+                "Matrix (mathematics)": 0.3522854794041985,
+                "Separable space": 0.4446011900935391,
+                "Linear programming": 0.4446011900935391,
+                "Identity matrix": 0.46595519336294594,
+                "Obsidian": 0.46595519336294594,
+                "Text mining": 0.46595519336294594,
+                "Algorithm": 0.46595519336294594,
+                "Nonnegative matrix": 0.40782446817765744,
+                "Hyperspectral imaging": 0.40782446817765744,
+                "Wavelength": 0.40782446817765744,
+                "Non-negative matrix factorization": 0.34307711234318417,
+                "Pixel": 0.40400380372678857,
+                "Copper": 0.40400380372678857,
+                "Spectral signature": 0.40400380372678857,
+                "Convex optimization": 0.40400380372678857
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 10735239.0,
+            "means": {
+                "Convex hull": 0.04757479196509658,
+                "Transpose": 0.13638874995201447,
+                "Matrix (mathematics)": 0.07530463674244897,
+                "Separable space": 0.13638874995201447,
+                "Linear programming": 0.04757479196509658,
+                "Identity matrix": -0.12723178991040518,
+                "Obsidian": -0.12723178991040518,
+                "Text mining": -0.12723178991040518,
+                "Algorithm": -0.20359019806089365,
+                "Nonnegative matrix": 0.19831188818054804,
+                "Hyperspectral imaging": 0.19831188818054804,
+                "Wavelength": 0.19831188818054804,
+                "Non-negative matrix factorization": 0.22373148986717642,
+                "Pixel": 0.07004464439947494,
+                "Copper": 0.07004464439947493,
+                "Spectral signature": 0.07004464439947493,
+                "Convex optimization": 0.07004464439947494,
+                "Convex combination": -0.08193750089937367
+            },
+            "variances": {
+                "Convex hull": 0.3684151614515759,
+                "Transpose": 0.38466749398162486,
+                "Matrix (mathematics)": 0.3037123974553902,
+                "Separable space": 0.38466749398162486,
+                "Linear programming": 0.3684151614515759,
+                "Identity matrix": 0.46595519336294594,
+                "Obsidian": 0.46595519336294594,
+                "Text mining": 0.46595519336294594,
+                "Algorithm": 0.4417366073831531,
+                "Nonnegative matrix": 0.40782446817765744,
+                "Hyperspectral imaging": 0.40782446817765744,
+                "Wavelength": 0.40782446817765744,
+                "Non-negative matrix factorization": 0.34307711234318417,
+                "Pixel": 0.40400380372678857,
+                "Copper": 0.40400380372678857,
+                "Spectral signature": 0.40400380372678857,
+                "Convex optimization": 0.40400380372678857,
+                "Convex combination": 0.4721130846461925
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 5920,
+            "topic_name": "Convex hull",
+            "topic_url": "https://en.wikipedia.org/wiki/Convex_hull",
+            "mean": 0.04757479196509658,
+            "variance": 0.3684151614515759,
+            "interest_mean": 1.3024556046688989,
+            "interest_var": 0.33336224862909697,
+            "timestamp": 10735239.0
+        },
+        {
+            "topic_id": 28211,
+            "topic_name": "Transpose",
+            "topic_url": "https://en.wikipedia.org/wiki/Transpose",
+            "mean": 0.13638874995201447,
+            "variance": 0.38466749398162486,
+            "interest_mean": 1.1635807803806515,
+            "interest_var": 0.3699026627422833,
+            "timestamp": 10735239.0
+        },
+        {
+            "topic_id": 16334,
+            "topic_name": "Matrix (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+            "mean": 0.07530463674244897,
+            "variance": 0.3037123974553902,
+            "interest_mean": 2.594625915348862,
+            "interest_var": 0.2447918141995692,
+            "timestamp": 10735239.0
+        },
+        {
+            "topic_id": 24240,
+            "topic_name": "Separable space",
+            "topic_url": "https://en.wikipedia.org/wiki/Separable_space",
+            "mean": 0.13638874995201447,
+            "variance": 0.38466749398162486,
+            "interest_mean": 1.1635807803806517,
+            "interest_var": 0.3699026627422833,
+            "timestamp": 10735239.0
+        },
+        {
+            "topic_id": 15244,
+            "topic_name": "Linear programming",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_programming",
+            "mean": 0.04757479196509658,
+            "variance": 0.3684151614515759,
+            "interest_mean": 1.3024556046688993,
+            "interest_var": 0.33336224862909697,
+            "timestamp": 10735239.0
+        },
+        {
+            "topic_id": 13025,
+            "topic_name": "Identity matrix",
+            "topic_url": "https://en.wikipedia.org/wiki/Identity_matrix",
+            "mean": -0.12723178991040518,
+            "variance": 0.46595519336294594,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 10350614.0
+        },
+        {
+            "topic_id": 18680,
+            "topic_name": "Obsidian",
+            "topic_url": "https://en.wikipedia.org/wiki/Obsidian",
+            "mean": -0.12723178991040518,
+            "variance": 0.46595519336294594,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 10350614.0
+        },
+        {
+            "topic_id": 27434,
+            "topic_name": "Text mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Text_mining",
+            "mean": -0.12723178991040518,
+            "variance": 0.46595519336294594,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 10350614.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.20359019806089365,
+            "variance": 0.4417366073831531,
+            "interest_mean": 1.0661999210144804,
+            "interest_var": 0.36150241135302047,
+            "timestamp": 10735239.0
+        },
+        {
+            "topic_id": 18412,
+            "topic_name": "Nonnegative matrix",
+            "topic_url": "https://en.wikipedia.org/wiki/Nonnegative_matrix",
+            "mean": 0.19831188818054804,
+            "variance": 0.40782446817765744,
+            "interest_mean": 0.8820154655094067,
+            "interest_var": 0.37207415310973124,
+            "timestamp": 10734776.0
+        },
+        {
+            "topic_id": 12902,
+            "topic_name": "Hyperspectral imaging",
+            "topic_url": "https://en.wikipedia.org/wiki/Hyperspectral_imaging",
+            "mean": 0.19831188818054804,
+            "variance": 0.40782446817765744,
+            "interest_mean": 0.8820154655094066,
+            "interest_var": 0.37207415310973124,
+            "timestamp": 10734776.0
+        },
+        {
+            "topic_id": 29669,
+            "topic_name": "Wavelength",
+            "topic_url": "https://en.wikipedia.org/wiki/Wavelength",
+            "mean": 0.19831188818054804,
+            "variance": 0.40782446817765744,
+            "interest_mean": 0.8820154655094066,
+            "interest_var": 0.37207415310973124,
+            "timestamp": 10734776.0
+        },
+        {
+            "topic_id": 18379,
+            "topic_name": "Non-negative matrix factorization",
+            "topic_url": "https://en.wikipedia.org/wiki/Non-negative_matrix_factorization",
+            "mean": 0.22373148986717642,
+            "variance": 0.34307711234318417,
+            "interest_mean": 1.7860823457720552,
+            "interest_var": 0.29030699587851466,
+            "timestamp": 10734776.0
+        },
+        {
+            "topic_id": 20410,
+            "topic_name": "Pixel",
+            "topic_url": "https://en.wikipedia.org/wiki/Pixel",
+            "mean": 0.07004464439947494,
+            "variance": 0.40400380372678857,
+            "interest_mean": 1.1369042610469429,
+            "interest_var": 0.35860559552719956,
+            "timestamp": 10734776.0
+        },
+        {
+            "topic_id": 5965,
+            "topic_name": "Copper",
+            "topic_url": "https://en.wikipedia.org/wiki/Copper",
+            "mean": 0.07004464439947493,
+            "variance": 0.40400380372678857,
+            "interest_mean": 1.1369042610469429,
+            "interest_var": 0.35860559552719956,
+            "timestamp": 10734776.0
+        },
+        {
+            "topic_id": 25603,
+            "topic_name": "Spectral signature",
+            "topic_url": "https://en.wikipedia.org/wiki/Spectral_signature",
+            "mean": 0.07004464439947493,
+            "variance": 0.40400380372678857,
+            "interest_mean": 1.1369042610469424,
+            "interest_var": 0.35860559552719945,
+            "timestamp": 10734776.0
+        },
+        {
+            "topic_id": 5921,
+            "topic_name": "Convex optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Convex_optimization",
+            "mean": 0.07004464439947494,
+            "variance": 0.40400380372678857,
+            "interest_mean": 1.1369042610469426,
+            "interest_var": 0.35860559552719945,
+            "timestamp": 10734776.0
+        },
+        {
+            "topic_id": 5915,
+            "topic_name": "Convex combination",
+            "topic_url": "https://en.wikipedia.org/wiki/Convex_combination",
+            "mean": -0.08193750089937367,
+            "variance": 0.4721130846461925,
+            "interest_mean": 0.1846329170718695,
+            "interest_var": 0.433393567307853,
+            "timestamp": 10735239.0
+        }
+    ]
+}

@@ -38,6 +38,7 @@ from logic.dominio import (
     PCT_INICIO_INTERES,
     UMBRAL_ALTO,
     UMBRAL_BASICO,
+    UMBRAL_BASICO_PCT,
     UMBRAL_MEDIO,
     categoria_dominio,
     pct_certeza,
@@ -243,7 +244,7 @@ if vista == V_TOP5:
             }
             st_echarts(sb_opt, height="500px", width="100%", key="sunburst_temas", theme="streamlit")
         else:
-            st.info("No hay temas con conocimiento ≥ 10% para mostrar en este gráfico.")
+            st.info(f"No hay temas con conocimiento ≥ {UMBRAL_BASICO_PCT:.0f}% para mostrar en este gráfico.")
 
 
 # ── CONOCIMIENTO POR INTERÉS ────────────────────

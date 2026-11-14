@@ -1,0 +1,318 @@
+{
+    "user_id": 18108,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 3,
+    "weights": {
+        "novelty": {
+            "mean": 0.6970101440262597,
+            "variance": 0.43830832340282094
+        },
+        "interest": {
+            "mean": 0.5055739119165781,
+            "variance": 0.39338441876738467
+        },
+        "bias": {
+            "mean": 0.0039940145790329906,
+            "variance": 0.31089178304335613
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 6597936.0,
+            "means": {
+                "Partial fraction decomposition": -0.13138276782755276,
+                "Integration by parts": -0.13138276782755276,
+                "Differential equation": -0.13138276782755276,
+                "Polynomial": -0.13138276782755276,
+                "Additive polynomial": -0.1313827678275528
+            },
+            "variances": {
+                "Partial fraction decomposition": 0.46558661262309897,
+                "Integration by parts": 0.46558661262309897,
+                "Differential equation": 0.46558661262309897,
+                "Polynomial": 0.46558661262309897,
+                "Additive polynomial": 0.46558661262309897
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 6598450.0,
+            "means": {
+                "Partial fraction decomposition": -0.21548586604247197,
+                "Integration by parts": -0.21548586604247197,
+                "Differential equation": -0.21548586604247197,
+                "Polynomial": -0.21548586604247197,
+                "Additive polynomial": -0.215485866042472,
+                "Factorial": 0.1417262874858041,
+                "Infinity": 0.1417262874858041,
+                "End time": 0.1417262874858041,
+                "Negative number": 0.1417262874858041,
+                "Stone (unit)": 0.1417262874858041
+            },
+            "variances": {
+                "Partial fraction decomposition": 0.4405542933747967,
+                "Integration by parts": 0.4405542933747967,
+                "Differential equation": 0.4405542933747967,
+                "Polynomial": 0.4405542933747967,
+                "Additive polynomial": 0.4405542933747967,
+                "Factorial": 0.4328859412652182,
+                "Infinity": 0.4328859412652182,
+                "End time": 0.4328859412652182,
+                "Negative number": 0.4328859412652182,
+                "Stone (unit)": 0.4328859412652182
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 6661938.0,
+            "means": {
+                "Partial fraction decomposition": -0.044887778337438254,
+                "Integration by parts": -0.30492424753661457,
+                "Differential equation": -0.21548586604247197,
+                "Polynomial": -0.14352008294407492,
+                "Additive polynomial": -0.215485866042472,
+                "Factorial": 0.24018228375208825,
+                "Infinity": 0.1417262874858041,
+                "End time": 0.1417262874858041,
+                "Negative number": 0.1417262874858041,
+                "Stone (unit)": 0.1417262874858041,
+                "Characteristic polynomial": -0.10150665064345864,
+                "Derivative": -0.10150665064345864,
+                "Initial value problem": -0.10150665064345867,
+                "Fraction": 0.19361755210486548,
+                "Quadratic function": 0.19361755210486548,
+                "Exponential formula": 0.19361755210486548,
+                "Exponential function": 0.11372048255773996,
+                "Chemical formula": 0.11372048255773996,
+                "Coefficient": 0.11372048255773996,
+                "Function (mathematics)": 0.11372048255773996
+            },
+            "variances": {
+                "Partial fraction decomposition": 0.3863816167114079,
+                "Integration by parts": 0.4168118097710515,
+                "Differential equation": 0.4405542933747967,
+                "Polynomial": 0.3683207752282458,
+                "Additive polynomial": 0.4405542933747967,
+                "Factorial": 0.38167121496303263,
+                "Infinity": 0.4328859412652182,
+                "End time": 0.4328859412652182,
+                "Negative number": 0.4328859412652182,
+                "Stone (unit)": 0.4328859412652182,
+                "Characteristic polynomial": 0.4694179017307111,
+                "Derivative": 0.4694179017307111,
+                "Initial value problem": 0.4694179017307111,
+                "Fraction": 0.43022153246980305,
+                "Quadratic function": 0.43022153246980305,
+                "Exponential formula": 0.43022153246980305,
+                "Exponential function": 0.43167370028296775,
+                "Chemical formula": 0.43167370028296775,
+                "Coefficient": 0.43167370028296775,
+                "Function (mathematics)": 0.43167370028296775
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 19591,
+            "topic_name": "Partial fraction decomposition",
+            "topic_url": "https://en.wikipedia.org/wiki/Partial_fraction_decomposition",
+            "mean": -0.044887778337438254,
+            "variance": 0.3863816167114079,
+            "interest_mean": 1.7031514140380535,
+            "interest_var": 0.310474411869119,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 13593,
+            "topic_name": "Integration by parts",
+            "topic_url": "https://en.wikipedia.org/wiki/Integration_by_parts",
+            "mean": -0.30492424753661457,
+            "variance": 0.4168118097710515,
+            "interest_mean": 1.7643169223898365,
+            "interest_var": 0.31004483090132495,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 7436,
+            "topic_name": "Differential equation",
+            "topic_url": "https://en.wikipedia.org/wiki/Differential_equation",
+            "mean": -0.21548586604247197,
+            "variance": 0.4405542933747967,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 6598450.0
+        },
+        {
+            "topic_id": 20758,
+            "topic_name": "Polynomial",
+            "topic_url": "https://en.wikipedia.org/wiki/Polynomial",
+            "mean": -0.14352008294407492,
+            "variance": 0.3683207752282458,
+            "interest_mean": 2.143857756857729,
+            "interest_var": 0.2730050697435758,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 382,
+            "topic_name": "Additive polynomial",
+            "topic_url": "https://en.wikipedia.org/wiki/Additive_polynomial",
+            "mean": -0.215485866042472,
+            "variance": 0.4405542933747967,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 6598450.0
+        },
+        {
+            "topic_id": 9530,
+            "topic_name": "Factorial",
+            "topic_url": "https://en.wikipedia.org/wiki/Factorial",
+            "mean": 0.24018228375208825,
+            "variance": 0.38167121496303263,
+            "interest_mean": 1.8313130908597424,
+            "interest_var": 0.34392685402073503,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 13364,
+            "topic_name": "Infinity",
+            "topic_url": "https://en.wikipedia.org/wiki/Infinity",
+            "mean": 0.1417262874858041,
+            "variance": 0.4328859412652182,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 6598450.0
+        },
+        {
+            "topic_id": 8731,
+            "topic_name": "End time",
+            "topic_url": "https://en.wikipedia.org/wiki/End_time",
+            "mean": 0.1417262874858041,
+            "variance": 0.4328859412652182,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 6598450.0
+        },
+        {
+            "topic_id": 18017,
+            "topic_name": "Negative number",
+            "topic_url": "https://en.wikipedia.org/wiki/Negative_number",
+            "mean": 0.1417262874858041,
+            "variance": 0.4328859412652182,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 6598450.0
+        },
+        {
+            "topic_id": 26195,
+            "topic_name": "Stone (unit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Stone_(unit)",
+            "mean": 0.1417262874858041,
+            "variance": 0.4328859412652182,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 6598450.0
+        },
+        {
+            "topic_id": 4106,
+            "topic_name": "Characteristic polynomial",
+            "topic_url": "https://en.wikipedia.org/wiki/Characteristic_polynomial",
+            "mean": -0.10150665064345864,
+            "variance": 0.4694179017307111,
+            "interest_mean": 0.6968919625313518,
+            "interest_var": 0.4028444745133369,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 7233,
+            "topic_name": "Derivative",
+            "topic_url": "https://en.wikipedia.org/wiki/Derivative",
+            "mean": -0.10150665064345864,
+            "variance": 0.4694179017307111,
+            "interest_mean": 0.6968919625313519,
+            "interest_var": 0.4028444745133369,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 13488,
+            "topic_name": "Initial value problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Initial_value_problem",
+            "mean": -0.10150665064345867,
+            "variance": 0.4694179017307111,
+            "interest_mean": 0.6968919625313519,
+            "interest_var": 0.4028444745133369,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 10422,
+            "topic_name": "Fraction",
+            "topic_url": "https://en.wikipedia.org/wiki/Fraction_(mathematics)",
+            "mean": 0.19361755210486548,
+            "variance": 0.43022153246980305,
+            "interest_mean": 0.6120741206433551,
+            "interest_var": 0.403670524424968,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 21988,
+            "topic_name": "Quadratic function",
+            "topic_url": "https://en.wikipedia.org/wiki/Quadratic_function",
+            "mean": 0.19361755210486548,
+            "variance": 0.43022153246980305,
+            "interest_mean": 0.6120741206433551,
+            "interest_var": 0.403670524424968,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 9381,
+            "topic_name": "Exponential formula",
+            "topic_url": "https://en.wikipedia.org/wiki/Exponential_formula",
+            "mean": 0.19361755210486548,
+            "variance": 0.43022153246980305,
+            "interest_mean": 0.6120741206433553,
+            "interest_var": 0.403670524424968,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 9382,
+            "topic_name": "Exponential function",
+            "topic_url": "https://en.wikipedia.org/wiki/Exponential_function",
+            "mean": 0.11372048255773996,
+            "variance": 0.43167370028296775,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 4169,
+            "topic_name": "Chemical formula",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemical_formula",
+            "mean": 0.11372048255773996,
+            "variance": 0.43167370028296775,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 4831,
+            "topic_name": "Coefficient",
+            "topic_url": "https://en.wikipedia.org/wiki/Coefficient",
+            "mean": 0.11372048255773996,
+            "variance": 0.43167370028296775,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 6661938.0
+        },
+        {
+            "topic_id": 10663,
+            "topic_name": "Function (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_(mathematics)",
+            "mean": 0.11372048255773996,
+            "variance": 0.43167370028296775,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 6661938.0
+        }
+    ]
+}

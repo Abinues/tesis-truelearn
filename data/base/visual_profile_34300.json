@@ -1,0 +1,366 @@
+{
+    "user_id": 34300,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.3468839678018921,
+            "variance": 0.4539974552499193
+        },
+        "interest": {
+            "mean": 0.1406611289204235,
+            "variance": 0.4062513632902728
+        },
+        "bias": {
+            "mean": -0.5271172329094754,
+            "variance": 0.3129705369389878
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 2826337.0,
+            "means": {
+                "Deep learning": -0.19702866894786053,
+                "Speech recognition": -0.11275196609444428,
+                "Computer vision": -0.11275196609444431,
+                "Unsupervised learning": -0.19702866894786056,
+                "Computational learning theory": -0.11275196609444431,
+                "Loss function": -0.14575916241143172,
+                "Supervised learning": -0.14575916241143172,
+                "Convex optimization": -0.14575916241143172,
+                "Canonical normal form": -0.14575916241143172,
+                "Positive-definite kernel": -0.14575916241143175,
+                "Machine learning": -0.08998088600149678,
+                "Pattern recognition": -0.08998088600149678,
+                "Visual cortex": -0.08998088600149678
+            },
+            "variances": {
+                "Deep learning": 0.4435643708809853,
+                "Speech recognition": 0.4683033619607523,
+                "Computer vision": 0.4683033619607523,
+                "Unsupervised learning": 0.4435643708809853,
+                "Computational learning theory": 0.4683033619607523,
+                "Loss function": 0.46370264008614936,
+                "Supervised learning": 0.46370264008614936,
+                "Convex optimization": 0.46370264008614936,
+                "Canonical normal form": 0.46370264008614936,
+                "Positive-definite kernel": 0.46370264008614936,
+                "Machine learning": 0.4717988095506505,
+                "Pattern recognition": 0.4717988095506505,
+                "Visual cortex": 0.4717988095506505
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 2826355.0,
+            "means": {
+                "Deep learning": -0.19702866894786053,
+                "Speech recognition": -0.11275196609444428,
+                "Computer vision": -0.11275196609444431,
+                "Unsupervised learning": -0.19702866894786056,
+                "Computational learning theory": -0.11275196609444431,
+                "Loss function": -0.14575916241143172,
+                "Supervised learning": -0.14575916241143172,
+                "Convex optimization": -0.14575916241143172,
+                "Canonical normal form": -0.14575916241143172,
+                "Positive-definite kernel": -0.14575916241143175,
+                "Machine learning": -0.19547123870236674,
+                "Pattern recognition": -0.08998088600149678,
+                "Visual cortex": -0.08998088600149678,
+                "Expert system": -0.11179590809199043,
+                "Artificial intelligence": -0.11179590809199046,
+                "Domain knowledge": -0.11179590809199046,
+                "Graphical model": -0.22966338986650725,
+                "Bayes' theorem": 0.10994262564411338,
+                "Probability": 0.21890169303833323,
+                "Blue box": 0.21890169303833323,
+                "Conditional probability": 0.21890169303833323,
+                "Orange (fruit)": 0.21890169303833323,
+                "Bayesian inference": -0.12585195444737704,
+                "Probability theory": -0.12585195444737707,
+                "Likelihood function": -0.12585195444737707
+            },
+            "variances": {
+                "Deep learning": 0.4435643708809853,
+                "Speech recognition": 0.4683033619607523,
+                "Computer vision": 0.4683033619607523,
+                "Unsupervised learning": 0.4435643708809853,
+                "Computational learning theory": 0.4683033619607523,
+                "Loss function": 0.46370264008614936,
+                "Supervised learning": 0.46370264008614936,
+                "Convex optimization": 0.46370264008614936,
+                "Canonical normal form": 0.46370264008614936,
+                "Positive-definite kernel": 0.46370264008614936,
+                "Machine learning": 0.4435545657535282,
+                "Pattern recognition": 0.4717988095506505,
+                "Visual cortex": 0.4717988095506505,
+                "Expert system": 0.468278312768679,
+                "Artificial intelligence": 0.468278312768679,
+                "Domain knowledge": 0.468278312768679,
+                "Graphical model": 0.4381821893100896,
+                "Bayes' theorem": 0.4071671599026015,
+                "Probability": 0.432885877190645,
+                "Blue box": 0.432885877190645,
+                "Conditional probability": 0.432885877190645,
+                "Orange (fruit)": 0.432885877190645,
+                "Bayesian inference": 0.4656882808354188,
+                "Probability theory": 0.4656882808354188,
+                "Likelihood function": 0.4656882808354188
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": -0.19702866894786053,
+            "variance": 0.4435643708809853,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 25630,
+            "topic_name": "Speech recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Speech_recognition",
+            "mean": -0.11275196609444428,
+            "variance": 0.4683033619607523,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 5427,
+            "topic_name": "Computer vision",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_vision",
+            "mean": -0.11275196609444431,
+            "variance": 0.4683033619607523,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 28855,
+            "topic_name": "Unsupervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+            "mean": -0.19702866894786056,
+            "variance": 0.4435643708809853,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 5363,
+            "topic_name": "Computational learning theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Computational_learning_theory",
+            "mean": -0.11275196609444431,
+            "variance": 0.4683033619607523,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": -0.14575916241143172,
+            "variance": 0.46370264008614936,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": -0.14575916241143172,
+            "variance": 0.46370264008614936,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 5921,
+            "topic_name": "Convex optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Convex_optimization",
+            "mean": -0.14575916241143172,
+            "variance": 0.46370264008614936,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 3565,
+            "topic_name": "Canonical normal form",
+            "topic_url": "https://en.wikipedia.org/wiki/Canonical_normal_form",
+            "mean": -0.14575916241143172,
+            "variance": 0.46370264008614936,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 20899,
+            "topic_name": "Positive-definite kernel",
+            "topic_url": "https://en.wikipedia.org/wiki/Positive-definite_kernel",
+            "mean": -0.14575916241143175,
+            "variance": 0.46370264008614936,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.19547123870236674,
+            "variance": 0.4435545657535282,
+            "interest_mean": 1.5361559873078057,
+            "interest_var": 0.3423535223184479,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 19738,
+            "topic_name": "Pattern recognition",
+            "topic_url": "https://en.wikipedia.org/wiki/Pattern_recognition",
+            "mean": -0.08998088600149678,
+            "variance": 0.4717988095506505,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 29373,
+            "topic_name": "Visual cortex",
+            "topic_url": "https://en.wikipedia.org/wiki/Visual_cortex",
+            "mean": -0.08998088600149678,
+            "variance": 0.4717988095506505,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 2826337.0
+        },
+        {
+            "topic_id": 9354,
+            "topic_name": "Expert system",
+            "topic_url": "https://en.wikipedia.org/wiki/Expert_system",
+            "mean": -0.11179590809199043,
+            "variance": 0.468278312768679,
+            "interest_mean": 0.9830507250482781,
+            "interest_var": 0.40428716652189156,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": -0.11179590809199046,
+            "variance": 0.468278312768679,
+            "interest_mean": 0.9830507250482781,
+            "interest_var": 0.40428716652189156,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 7853,
+            "topic_name": "Domain knowledge",
+            "topic_url": "https://en.wikipedia.org/wiki/Domain_knowledge",
+            "mean": -0.11179590809199046,
+            "variance": 0.468278312768679,
+            "interest_mean": 0.9830507250482781,
+            "interest_var": 0.40428716652189156,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": -0.22966338986650725,
+            "variance": 0.4381821893100896,
+            "interest_mean": 1.5973045810811044,
+            "interest_var": 0.3419490808885878,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 2198,
+            "topic_name": "Bayes' theorem",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayes'_theorem",
+            "mean": 0.10994262564411338,
+            "variance": 0.4071671599026015,
+            "interest_mean": 1.7037507606537379,
+            "interest_var": 0.34352538908027325,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.21890169303833323,
+            "variance": 0.432885877190645,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 2774,
+            "topic_name": "Blue box",
+            "topic_url": "https://en.wikipedia.org/wiki/Blue_box",
+            "mean": 0.21890169303833323,
+            "variance": 0.432885877190645,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 5518,
+            "topic_name": "Conditional probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability",
+            "mean": 0.21890169303833323,
+            "variance": 0.432885877190645,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 19046,
+            "topic_name": "Orange (fruit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Orange_(fruit)",
+            "mean": 0.21890169303833323,
+            "variance": 0.432885877190645,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": -0.12585195444737704,
+            "variance": 0.4656882808354188,
+            "interest_mean": 0.759675184989536,
+            "interest_var": 0.40465156727161183,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 21383,
+            "topic_name": "Probability theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_theory",
+            "mean": -0.12585195444737707,
+            "variance": 0.4656882808354188,
+            "interest_mean": 0.759675184989536,
+            "interest_var": 0.40465156727161183,
+            "timestamp": 2826355.0
+        },
+        {
+            "topic_id": 15160,
+            "topic_name": "Likelihood function",
+            "topic_url": "https://en.wikipedia.org/wiki/Likelihood_function",
+            "mean": -0.12585195444737707,
+            "variance": 0.4656882808354188,
+            "interest_mean": 0.759675184989536,
+            "interest_var": 0.40465156727161183,
+            "timestamp": 2826355.0
+        }
+    ]
+}

@@ -1,0 +1,432 @@
+{
+    "user_id": 18426,
+    "number_of_engagements": 14,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 1.2665862872933695,
+            "variance": 0.38099092484982494
+        },
+        "interest": {
+            "mean": 1.3703845168864515,
+            "variance": 0.3418177480342693
+        },
+        "bias": {
+            "mean": 1.067275732972546,
+            "variance": 0.27260680478063815
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 30404990.0,
+            "means": {
+                "Dynamic programming": 0.1448587988602609,
+                "Supervised learning": 0.2982527028134595,
+                "Expected value": 0.1448587988602609,
+                "Bootstrapping": 0.1448587988602609,
+                "Random variable": 0.24460454954095018,
+                "Temporal difference learning": 0.2878334011772398,
+                "Chess": 0.11521018992738687,
+                "Pi": 0.11521018992738687,
+                "Letter case": 0.1152101899273869,
+                "Hyena": 0.06765027741235234,
+                "One-Step": 0.06765027741235234,
+                "Computational complexity theory": 0.06765027741235234,
+                "Physics": 0.06765027741235234,
+                "Plutonium": 0.0872021841151496,
+                "Turbo-diesel": 0.0872021841151496,
+                "Stock market index": 0.0872021841151496,
+                "Prediction": 0.0872021841151496,
+                "Reinforcement learning": 0.12761944116507296,
+                "Deep learning": 0.12761944116507296,
+                "Q-learning": 0.12419766060636626,
+                "Kurzweil": 0.0039932042902730966,
+                "Yuri (genre)": 0.0039932042902731035
+            },
+            "variances": {
+                "Dynamic programming": 0.43288597451126376,
+                "Supervised learning": 0.3400392021241465,
+                "Expected value": 0.43288597451126376,
+                "Bootstrapping": 0.43288597451126376,
+                "Random variable": 0.38174707937453906,
+                "Temporal difference learning": 0.3057646132302175,
+                "Chess": 0.4317748782061625,
+                "Pi": 0.4317748782061625,
+                "Letter case": 0.4317748782061625,
+                "Hyena": 0.43177489444103945,
+                "One-Step": 0.43177489444103945,
+                "Computational complexity theory": 0.43177489444103945,
+                "Physics": 0.43177489444103945,
+                "Plutonium": 0.43175419542486004,
+                "Turbo-diesel": 0.43175419542486004,
+                "Stock market index": 0.43175419542486004,
+                "Prediction": 0.43175419542486004,
+                "Reinforcement learning": 0.3748959766986409,
+                "Deep learning": 0.3748959766986409,
+                "Q-learning": 0.42845047610532816,
+                "Kurzweil": 0.4270652139530114,
+                "Yuri (genre)": 0.4270652139530114
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 30406379.0,
+            "means": {
+                "Dynamic programming": 0.15246341938135682,
+                "Supervised learning": 0.3404744165149743,
+                "Expected value": 0.2140785264390294,
+                "Bootstrapping": 0.15246341938135682,
+                "Random variable": 0.259700584567638,
+                "Temporal difference learning": 0.3288269881704463,
+                "Chess": 0.12562188046101933,
+                "Pi": 0.12562188046101933,
+                "Letter case": 0.12562188046101935,
+                "Hyena": 0.07266556172580836,
+                "One-Step": 0.07266556172580835,
+                "Computational complexity theory": 0.07266556172580835,
+                "Physics": 0.07266556172580835,
+                "Plutonium": 0.09917167804022498,
+                "Turbo-diesel": 0.17824075004683454,
+                "Stock market index": 0.09917167804022499,
+                "Prediction": 0.09917167804022502,
+                "Reinforcement learning": 0.1617413912688876,
+                "Deep learning": 0.16174139126888756,
+                "Q-learning": 0.16695568867199473,
+                "Kurzweil": 0.005330343582295687,
+                "Yuri (genre)": 0.005330343582295693,
+                "Feature (machine learning)": 0.03180635253892627,
+                "Incremental learning": 0.03180635253892627,
+                "Maize": 0.03180635253892627,
+                "Monte Carlo method": 0.03180635253892627,
+                "Random walk": 0.08255494021356909,
+                "Expected return": 0.08255494021356909,
+                "Algorithm": 0.08255494021356909
+            },
+            "variances": {
+                "Dynamic programming": 0.373176377441948,
+                "Supervised learning": 0.24918989655466647,
+                "Expected value": 0.33268844455988344,
+                "Bootstrapping": 0.373176377441948,
+                "Random variable": 0.2994946089652797,
+                "Temporal difference learning": 0.2136336901437632,
+                "Chess": 0.3723853276612596,
+                "Pi": 0.3723853276612596,
+                "Letter case": 0.3723853276612596,
+                "Hyena": 0.3745741452598901,
+                "One-Step": 0.3745741452598901,
+                "Computational complexity theory": 0.3745741452598901,
+                "Physics": 0.3745741452598901,
+                "Plutonium": 0.37365541203544694,
+                "Turbo-diesel": 0.30231389058975344,
+                "Stock market index": 0.37365541203544694,
+                "Prediction": 0.37365541203544694,
+                "Reinforcement learning": 0.29302977189493035,
+                "Deep learning": 0.29302977189493046,
+                "Q-learning": 0.36593204184356803,
+                "Kurzweil": 0.36900204876351533,
+                "Yuri (genre)": 0.36900204876351533,
+                "Feature (machine learning)": 0.4306539912928791,
+                "Incremental learning": 0.4306539912928791,
+                "Maize": 0.4306539912928791,
+                "Monte Carlo method": 0.4306539912928791,
+                "Random walk": 0.4273162503280135,
+                "Expected return": 0.4273162503280135,
+                "Algorithm": 0.4273162503280135
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 8178,
+            "topic_name": "Dynamic programming",
+            "topic_url": "https://en.wikipedia.org/wiki/Dynamic_programming",
+            "mean": 0.15246341938135682,
+            "variance": 0.373176377441948,
+            "interest_mean": 1.1112660742991172,
+            "interest_var": 0.3923470514515222,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.3404744165149743,
+            "variance": 0.24918989655466647,
+            "interest_mean": 2.311542140770677,
+            "interest_var": 0.266067435968308,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 9333,
+            "topic_name": "Expected value",
+            "topic_url": "https://en.wikipedia.org/wiki/Expected_value",
+            "mean": 0.2140785264390294,
+            "variance": 0.33268844455988344,
+            "interest_mean": 1.6113908488302162,
+            "interest_var": 0.33342324340087354,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 2908,
+            "topic_name": "Bootstrapping",
+            "topic_url": "https://en.wikipedia.org/wiki/Bootstrapping",
+            "mean": 0.15246341938135682,
+            "variance": 0.373176377441948,
+            "interest_mean": 1.1112660742991172,
+            "interest_var": 0.3923470514515222,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": 0.259700584567638,
+            "variance": 0.2994946089652797,
+            "interest_mean": 1.8814787497896255,
+            "interest_var": 0.32135645345821023,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 27296,
+            "topic_name": "Temporal difference learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Temporal_difference_learning",
+            "mean": 0.3288269881704463,
+            "variance": 0.2136336901437632,
+            "interest_mean": 2.592221522653163,
+            "interest_var": 0.22208503621762346,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 4212,
+            "topic_name": "Chess",
+            "topic_url": "https://en.wikipedia.org/wiki/Chess",
+            "mean": 0.12562188046101933,
+            "variance": 0.3723853276612596,
+            "interest_mean": 0.9514705868469635,
+            "interest_var": 0.3869908702556698,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 20284,
+            "topic_name": "Pi",
+            "topic_url": "https://en.wikipedia.org/wiki/Pi",
+            "mean": 0.12562188046101933,
+            "variance": 0.3723853276612596,
+            "interest_mean": 0.9514705868469635,
+            "interest_var": 0.3869908702556698,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 15005,
+            "topic_name": "Letter case",
+            "topic_url": "https://en.wikipedia.org/wiki/Letter_case",
+            "mean": 0.12562188046101935,
+            "variance": 0.3723853276612596,
+            "interest_mean": 0.9514705868469635,
+            "interest_var": 0.3869908702556698,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 12855,
+            "topic_name": "Hyena",
+            "topic_url": "https://en.wikipedia.org/wiki/Hyena",
+            "mean": 0.07266556172580836,
+            "variance": 0.3745741452598901,
+            "interest_mean": 1.0473759299355052,
+            "interest_var": 0.3641725152093202,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 18822,
+            "topic_name": "One-Step",
+            "topic_url": "https://en.wikipedia.org/wiki/One-Step",
+            "mean": 0.07266556172580835,
+            "variance": 0.3745741452598901,
+            "interest_mean": 1.047375929935505,
+            "interest_var": 0.3641725152093202,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 5355,
+            "topic_name": "Computational complexity theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Computational_complexity_theory",
+            "mean": 0.07266556172580835,
+            "variance": 0.3745741452598901,
+            "interest_mean": 1.0473759299355052,
+            "interest_var": 0.3641725152093202,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 20273,
+            "topic_name": "Physics",
+            "topic_url": "https://en.wikipedia.org/wiki/Physics",
+            "mean": 0.07266556172580835,
+            "variance": 0.3745741452598901,
+            "interest_mean": 1.0473759299355052,
+            "interest_var": 0.3641725152093202,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 20566,
+            "topic_name": "Plutonium",
+            "topic_url": "https://en.wikipedia.org/wiki/Plutonium",
+            "mean": 0.09917167804022498,
+            "variance": 0.37365541203544694,
+            "interest_mean": 1.03841218508947,
+            "interest_var": 0.3712092148883803,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 28491,
+            "topic_name": "Turbo-diesel",
+            "topic_url": "https://en.wikipedia.org/wiki/Turbo-diesel",
+            "mean": 0.17824075004683454,
+            "variance": 0.30231389058975344,
+            "interest_mean": 2.1403332691889942,
+            "interest_var": 0.27936012502025237,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 26182,
+            "topic_name": "Stock market index",
+            "topic_url": "https://en.wikipedia.org/wiki/Stock_market_index",
+            "mean": 0.09917167804022499,
+            "variance": 0.37365541203544694,
+            "interest_mean": 1.0384121850894699,
+            "interest_var": 0.3712092148883803,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 21096,
+            "topic_name": "Prediction",
+            "topic_url": "https://en.wikipedia.org/wiki/Prediction",
+            "mean": 0.09917167804022502,
+            "variance": 0.37365541203544694,
+            "interest_mean": 1.0384121850894699,
+            "interest_var": 0.3712092148883803,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 22732,
+            "topic_name": "Reinforcement learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "mean": 0.1617413912688876,
+            "variance": 0.29302977189493035,
+            "interest_mean": 1.1628310751493809,
+            "interest_var": 0.3015649466007304,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.16174139126888756,
+            "variance": 0.29302977189493046,
+            "interest_mean": 1.1628310751493816,
+            "interest_var": 0.3015649466007304,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 21967,
+            "topic_name": "Q-learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Q-learning",
+            "mean": 0.16695568867199473,
+            "variance": 0.36593204184356803,
+            "interest_mean": 0.5342992847477716,
+            "interest_var": 0.39640812275485593,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 14551,
+            "topic_name": "Kurzweil",
+            "topic_url": "https://en.wikipedia.org/wiki/Kurzweil",
+            "mean": 0.005330343582295687,
+            "variance": 0.36900204876351533,
+            "interest_mean": 0.7680058205378193,
+            "interest_var": 0.354437066783642,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 30287,
+            "topic_name": "Yuri (genre)",
+            "topic_url": "https://en.wikipedia.org/wiki/Yuri_(genre)",
+            "mean": 0.005330343582295693,
+            "variance": 0.36900204876351533,
+            "interest_mean": 0.7680058205378196,
+            "interest_var": 0.354437066783642,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 9689,
+            "topic_name": "Feature (machine learning)",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_(machine_learning)",
+            "mean": 0.03180635253892627,
+            "variance": 0.4306539912928791,
+            "interest_mean": 0.9380844389763838,
+            "interest_var": 0.403628116902733,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 13203,
+            "topic_name": "Incremental learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Incremental_learning",
+            "mean": 0.03180635253892627,
+            "variance": 0.4306539912928791,
+            "interest_mean": 0.9380844389763838,
+            "interest_var": 0.403628116902733,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 15937,
+            "topic_name": "Maize",
+            "topic_url": "https://en.wikipedia.org/wiki/Maize",
+            "mean": 0.03180635253892627,
+            "variance": 0.4306539912928791,
+            "interest_mean": 0.9380844389763838,
+            "interest_var": 0.403628116902733,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 17347,
+            "topic_name": "Monte Carlo method",
+            "topic_url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+            "mean": 0.03180635253892627,
+            "variance": 0.4306539912928791,
+            "interest_mean": 0.9380844389763836,
+            "interest_var": 0.403628116902733,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 22342,
+            "topic_name": "Random walk",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_walk",
+            "mean": 0.08255494021356909,
+            "variance": 0.4273162503280135,
+            "interest_mean": 0.637349984765839,
+            "interest_var": 0.40430482776501014,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 9330,
+            "topic_name": "Expected return",
+            "topic_url": "https://en.wikipedia.org/wiki/Expected_return",
+            "mean": 0.08255494021356909,
+            "variance": 0.4273162503280135,
+            "interest_mean": 0.637349984765839,
+            "interest_var": 0.40430482776501014,
+            "timestamp": 30406379.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.08255494021356909,
+            "variance": 0.4273162503280135,
+            "interest_mean": 0.637349984765839,
+            "interest_var": 0.40430482776501014,
+            "timestamp": 30406379.0
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+{
+  "n_perfiles": 14050,
+  "n_kc": 536424,
+  "sensibilidad_conocimiento": [
+    {
+      "corte": "mín / máx absolutos",
+      "MIN": -1.250691019406189,
+      "MAX": 1.210702439295883,
+      "% por debajo del mínimo": 0.0,
+      "% por encima del máximo": 0.0,
+      "mediana %": 53.288662449551126,
+      "rango intercuartil %": 10.595275352985723,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 63.68507001923851,
+      "% Alto": 25.00018641969785,
+      "% Medio": 24.999627160604298,
+      "% Básico": 24.99589876664728,
+      "% Muy bajo": 25.00428765305057
+    },
+    {
+      "corte": "0,5 / 99,5",
+      "MIN": -0.43955927295934294,
+      "MAX": 0.475024073556995,
+      "% por debajo del mínimo": 0.5001640493341089,
+      "% por encima del máximo": 0.5001640493341089,
+      "mediana %": 54.72567450770781,
+      "rango intercuartil %": 28.51477839206477,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.00018641969785095373,
+      "% que cambia con cortes fijos vigentes": 16.025010066663683,
+      "% Alto": 25.0,
+      "% Medio": 24.99981358030215,
+      "% Básico": 24.99589876664728,
+      "% Muy bajo": 25.00428765305057
+    },
+    {
+      "corte": "1 / 99 (actual)",
+      "MIN": -0.37644463742107354,
+      "MAX": 0.41485510490440214,
+      "% por debajo del mínimo": 1.0001416789703668,
+      "% por encima del máximo": 1.0001416789703668,
+      "mediana %": 55.275800860561105,
+      "rango intercuartil %": 32.957348589985436,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 0.0,
+      "% Alto": 25.00018641969785,
+      "% Medio": 24.999627160604298,
+      "% Básico": 24.99589876664728,
+      "% Muy bajo": 25.00428765305057
+    },
+    {
+      "corte": "2 / 98",
+      "MIN": -0.3155452664386057,
+      "MAX": 0.3553064670228653,
+      "% por debajo del mínimo": 2.0000969382428826,
+      "% por encima del máximo": 2.0000969382428826,
+      "mediana %": 56.12237101227059,
+      "rango intercuartil %": 38.87467251880352,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 15.839522467301986,
+      "% Alto": 25.00018641969785,
+      "% Medio": 24.999627160604298,
+      "% Básico": 24.99589876664728,
+      "% Muy bajo": 25.00428765305057
+    },
+    {
+      "corte": "5 / 95",
+      "MIN": -0.23962042897709618,
+      "MAX": 0.27262410544840476,
+      "% por debajo del mínimo": 4.99977629636258,
+      "% por encima del máximo": 5.000149135758281,
+      "mediana %": 58.677651225910765,
+      "rango intercuartil %": 50.91150748193922,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 33.021080339432984,
+      "% Alto": 25.00018641969785,
+      "% Medio": 24.999627160604298,
+      "% Básico": 24.99589876664728,
+      "% Muy bajo": 25.00428765305057
+    }
+  ],
+  "sensibilidad_interes": [
+    {
+      "corte": "mín / máx absolutos",
+      "MIN": 1.4328711492699004e-13,
+      "MAX": 4.915597676948029,
+      "% por encima del máximo": 0.0,
+      "mediana %": 20.952423659594473,
+      "rango intercuartil %": 8.399083915962041,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 58.09490253978197,
+      "% Alto": 27.663191803498727,
+      "% Medio": 39.004034122261494,
+      "% Bajo": 33.33277407423978
+    },
+    {
+      "corte": "0,5 / 99,5",
+      "MIN": 0.048720675616704685,
+      "MAX": 3.0314648151536745,
+      "% por encima del máximo": 0.5001640493341089,
+      "mediana %": 32.89642453915152,
+      "rango intercuartil %": 13.841789793006697,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 3.8506852788093,
+      "% Alto": 27.663191803498727,
+      "% Medio": 39.004034122261494,
+      "% Bajo": 33.33277407423978
+    },
+    {
+      "corte": "1 / 99 (actual)",
+      "MIN": 0.10697145387730408,
+      "MAX": 2.769201593688422,
+      "% por encima del máximo": 1.0001416789703668,
+      "mediana %": 34.668880912888596,
+      "rango intercuartil %": 15.508245049288863,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 0.0,
+      "% Alto": 27.663191803498727,
+      "% Medio": 39.004034122261494,
+      "% Bajo": 33.33277407423978
+    },
+    {
+      "corte": "2 / 98",
+      "MIN": 0.18937110712552346,
+      "MAX": 2.483934976998638,
+      "% por encima del máximo": 2.0000969382428826,
+      "mediana %": 36.63291985837843,
+      "rango intercuartil %": 17.993187257880262,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 23.605767079772715,
+      "% Alto": 27.663191803498727,
+      "% Medio": 39.004034122261494,
+      "% Bajo": 33.33277407423978
+    },
+    {
+      "corte": "5 / 95",
+      "MIN": 0.3448367262688118,
+      "MAX": 2.0612793891385577,
+      "% por encima del máximo": 5.000149135758281,
+      "mediana %": 39.913953388993924,
+      "rango intercuartil %": 24.053537166668782,
+      "% que cambia de etiqueta vs actual (cortes por cuantiles)": 0.0,
+      "% que cambia con cortes fijos vigentes": 26.600599525748287,
+      "% Alto": 27.663191803498727,
+      "% Medio": 39.004034122261494,
+      "% Bajo": 33.33277407423978
+    }
+  ],
+  "umbrales_equivalencia": [
+    {
+      "variable": "Conocimiento",
+      "umbral %": 64.5,
+      "% de temas por debajo": 74.93848149970918,
+      "% de temas en o por encima": 25.061518500290813
+    },
+    {
+      "variable": "Conocimiento",
+      "umbral %": 55.3,
+      "% de temas por debajo": 50.033741965311016,
+      "% de temas en o por encima": 49.96625803468898
+    },
+    {
+      "variable": "Conocimiento",
+      "umbral %": 31.6,
+      "% de temas por debajo": 25.132917244567732,
+      "% de temas en o por encima": 74.86708275543226
+    },
+    {
+      "variable": "Interés",
+      "umbral %": 36.8,
+      "% de temas por debajo": 72.62967354182513,
+      "% de temas en o por encima": 27.370326458174876
+    },
+    {
+      "variable": "Interés",
+      "umbral %": 27.9,
+      "% de temas por debajo": 33.30704815593635,
+      "% de temas en o por encima": 66.69295184406366
+    }
+  ],
+  "umbrales_robustez": [
+    {
+      "desplazamiento (puntos)": -10,
+      "Conocimiento: % que cambia de etiqueta": 50.00615185002908,
+      "Interés: % que cambia de etiqueta": 58.31301358626758
+    },
+    {
+      "desplazamiento (puntos)": -5,
+      "Conocimiento: % que cambia de etiqueta": 33.710833221481515,
+      "Interés: % que cambia de etiqueta": 37.663303655317435
+    },
+    {
+      "desplazamiento (puntos)": 5,
+      "Conocimiento: % que cambia de etiqueta": 34.970471119860406,
+      "Interés: % que cambia de etiqueta": 18.93912278346979
+    },
+    {
+      "desplazamiento (puntos)": 10,
+      "Conocimiento: % que cambia de etiqueta": 56.410973409094304,
+      "Interés: % que cambia de etiqueta": 48.70456951963372
+    }
+  ],
+  "umbrales_alternativa": {
+    "Conocimiento: cuartiles (umbrales equivalentes %)": [
+      31.567755864179382,
+      55.275800860561105,
+      64.52510445416482
+    ],
+    "Conocimiento: % de acuerdo con umbrales fijos": 99.76343340342714,
+    "Interés: terciles (umbrales equivalentes %)": [
+      27.92620237944181,
+      36.775867497122135
+    ],
+    "Interés: % de acuerdo con umbrales fijos": 78.89598526538708
+  },
+  "reparto_etiquetas": {
+    "Conocimiento": {
+      "Alto": 25.061518500290813,
+      "Medio": 24.904739534398164,
+      "Básico": 24.90082472074329,
+      "Muy bajo": 25.132917244567732
+    },
+    "Interés": {
+      "Alto": 27.370326458174876,
+      "Medio": 39.32262538588878,
+      "Bajo": 33.30704815593635
+    }
+  },
+  "confianza_tramos": [
+    {
+      "actualizaciones": "1",
+      "n temas": 411406,
+      "conf. conocimiento p25": 7.151088074967249,
+      "conf. conocimiento mediana": 13.422819992666412,
+      "conf. conocimiento p75": 14.44661219769504,
+      "conf. interés p25": 18.686158203317326,
+      "conf. interés mediana": 18.948250208453032,
+      "conf. interés p75": 19.486672924438626
+    },
+    {
+      "actualizaciones": "2",
+      "n temas": 83237,
+      "conf. conocimiento p25": 15.698198508316208,
+      "conf. conocimiento mediana": 21.93381164565915,
+      "conf. conocimiento p75": 28.194057241155956,
+      "conf. interés p25": 26.272770820525704,
+      "conf. interés mediana": 28.425806296583634,
+      "conf. interés p75": 36.44974855584603
+    },
+    {
+      "actualizaciones": "3-4",
+      "n temas": 31882,
+      "conf. conocimiento p25": 24.088145369721726,
+      "conf. conocimiento mediana": 32.35656698742578,
+      "conf. conocimiento p75": 41.67996294625219,
+      "conf. interés p25": 33.151966513266544,
+      "conf. interés mediana": 37.88887588941602,
+      "conf. interés p75": 46.20925611762095
+    },
+    {
+      "actualizaciones": "5-9",
+      "n temas": 8542,
+      "conf. conocimiento p25": 34.25934695325271,
+      "conf. conocimiento mediana": 47.320437958802096,
+      "conf. conocimiento p75": 59.12947863974321,
+      "conf. interés p25": 40.28471018054249,
+      "conf. interés mediana": 48.77340259159733,
+      "conf. interés p75": 57.851018816232454
+    },
+    {
+      "actualizaciones": "10-19",
+      "n temas": 1100,
+      "conf. conocimiento p25": 48.08963142031346,
+      "conf. conocimiento mediana": 65.23189267294515,
+      "conf. conocimiento p75": 76.58227308699654,
+      "conf. interés p25": 50.71613503510769,
+      "conf. interés mediana": 61.95143407899744,
+      "conf. interés p75": 68.79001908098147
+    },
+    {
+      "actualizaciones": "20-49",
+      "n temas": 202,
+      "conf. conocimiento p25": 61.7391095749243,
+      "conf. conocimiento mediana": 81.56978001688384,
+      "conf. conocimiento p75": 90.19760272773216,
+      "conf. interés p25": 55.7116836743302,
+      "conf. interés mediana": 65.48259621071304,
+      "conf. interés p75": 74.11881181013487
+    },
+    {
+      "actualizaciones": "50+",
+      "n temas": 55,
+      "conf. conocimiento p25": 57.80868171704958,
+      "conf. conocimiento mediana": 95.10265402582945,
+      "conf. conocimiento p75": 97.12068363622716,
+      "conf. interés p25": 48.288520194699466,
+      "conf. interés mediana": 61.556382511638844,
+      "conf. interés p75": 68.48736344834013
+    }
+  ],
+  "confianza_resumen": {
+    "KC con conteo de actualizaciones": 536424,
+    "KC sin conteo (tema no encontrado en session_history)": 0,
+    "Spearman (n_act, confianza conocimiento)": 0.5261037690088634,
+    "Spearman (n_act, confianza interés)": 0.590103024254693,
+    "Confianza conocimiento: mín / mediana / máx": [
+      1.3886717091545098,
+      13.773755076553995,
+      99.27617803670074
+    ],
+    "Confianza interés: mín / mediana / máx": [
+      1.017297357464031e-10,
+      19.182705463616013,
+      89.46963103046521
+    ],
+    "% de transiciones en que la varianza SUBE": 0.01400648816677661,
+    "Transiciones de varianza observadas": 221326,
+    "Medianas de conocimiento no decrecientes entre tramos": true,
+    "Medianas de interés no decrecientes entre tramos": false
+  }
+}

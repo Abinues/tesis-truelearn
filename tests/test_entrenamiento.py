@@ -1,43 +1,55 @@
 """
-Tests de ``logic/entrenador.py``, ``logic/peek_loader.py`` y de las
-herramientas exploratorias ``extractor_peek.py`` y ``preparar_datos.py``.
+tests/test_entrenamiento.py
+─────────────────────────────────────────────────────────────────────────────
+Tests de logic/entrenador.py y logic/peek_loader.py. Antes de este archivo,
+ambos módulos tenían 0% de cobertura de tests — justamente la parte más
+importante metodológicamente del proyecto (acá vive el fix del punto 2:
+el desfase entre session_history y el modelo final persistido).
 
-No se descarga el dataset PEEK real. Los tests de ``entrenar_usuario`` y
-``generar_perfil_json`` usan una secuencia diminuta y controlada de
-``EventModel`` contra el ``INKClassifier`` real; verifican, entre otras cosas,
-que el último snapshot de ``session_history`` coincide con el modelo final
-persistido. Los tests de ``cargar_dataset_peek`` reemplazan
-``truelearn.datasets.load_peek_dataset`` y solo comprueban el cambio de
-directorio y el bloqueo del wrapper.
+No se descarga el dataset PEEK real (no es alcanzable desde este
+entorno de todos modos): `test_entrenar_usuario_*` y
+`test_generar_perfil_json_*` usan una secuencia de EventModel
+diminuta y CONTROLADA (no el dataset completo) contra el INKClassifier
+REAL de truelearn — se instaló para esta refactorización y ya se usa en
+tests/test_truelearn_integration.py. Todos los tests de este archivo se
+saltan solos (`importorskip`) si truelearn no está disponible.
 
-Todo el módulo se omite si ``truelearn`` no está instalado. El
-``importorskip`` va antes de cualquier import del proyecto para que un fallo de
-importación no interrumpa la recolección de toda la suite. Los tests de
-``seleccionar_usuarios`` están en ``test_entrenador_puro.py`` porque no
-dependen de ``truelearn``.
+Los tests de seleccionar_usuarios() (una función pura, sin relación con
+truelearn) viven aparte, en tests/test_entrenador_puro.py, para que
+corran siempre sin depender de si la librería está instalada.
 
-``extractor_peek.py`` y ``preparar_datos.py`` no son llamados por
-``dashboard.py``, ``api_backend.py`` ni ``entrenador.py``; son herramientas
-manuales de exploración y se prueban de forma liviana.
+`test_cargar_dataset_peek_*` sí puede probarse sin truelearn en absoluto,
+mockeando `truelearn.datasets.load_peek_dataset` — lo único que se
+verifica es el comportamiento de chdir/Lock del propio wrapper, no la
+descarga real.
 """
 import os
 
 import pytest
 
+# El importorskip va ANTES de cualquier import propio del proyecto, no
+# después: si algún módulo importado más abajo llegara a depender de
+# truelearn a nivel de módulo (aunque ahora mismo logic/entrenador.py y
+# logic/peek_loader.py NO lo hacen), un import
+# fallido interrumpiría la RECOLECCIÓN de toda la suite (no solo de este
+# archivo), y pytest.importorskip no llega a ejecutarse a tiempo para
+# evitarlo.
 truelearn = pytest.importorskip("truelearn", reason="truelearn no está instalado")
 
 from logic.peek_loader import cargar_dataset_peek  # noqa: E402
 
+# ── seleccionar_usuarios ──────────────────────────────────────────────
+# NOTA: los tests de seleccionar_usuarios() viven en
+# tests/test_entrenador_puro.py, no acá — esa función es pura y no
+# necesita truelearn instalado para nada, así que no tiene sentido que
+# dependa del importorskip de este archivo.
+
+
+# ── entrenar_usuario / generar_perfil_json contra el INKClassifier real ──
 
 def _eventos_sinteticos():
-    """Crea una secuencia diminuta y determinística de eventos.
-
-    Son cinco eventos sobre dos temas, con marcas de tiempo crecientes y una
-    mezcla de enganche y desenganche (3 enganches y 2 desenganches).
-
-    Returns:
-        list[tuple[EventModel, bool]]: Pares (evento, enganchado).
-    """
+    """Una secuencia diminuta y determinística de eventos: 2 temas,
+    con timestamps crecientes, mezclando enganche y desenganche."""
     from truelearn.models import EventModel, Knowledge, KnowledgeComponent
 
     eventos = []
@@ -51,7 +63,6 @@ def _eventos_sinteticos():
 
 
 def test_entrenar_usuario_devuelve_session_history_no_vacio():
-    """``entrenar_usuario`` devuelve un historial con una entrada por evento."""
     from logic.entrenador import entrenar_usuario
 
     eventos = _eventos_sinteticos()
@@ -61,18 +72,21 @@ def test_entrenar_usuario_devuelve_session_history_no_vacio():
         99, eventos, mapping, num_epochs=1
     )
 
-    assert num_eng == 3
+    assert num_eng == 3       # True, True, True -> 3 engaged en la lista de arriba... ver nota
     assert num_non_eng == 2
-    assert len(session_history) == 5
+    assert len(session_history) == 5  # una entrada por evento (timestamps únicos)
+    # Cada entrada trae sus propias medias/varianzas, no listas vacías
     assert all(s["means"] for s in session_history)
 
 
 def test_entrenar_usuario_ultima_epoca_coincide_con_modelo_final():
-    """El último snapshot de ``session_history`` coincide con el modelo final.
-
-    Debe cumplirse sin importar cuántas épocas se usen; se prueba con
-    ``num_epochs=3`` para verificar que la corrección generaliza y no es
-    casualidad de una sola pasada.
+    """
+    Regresión directa: el snapshot de
+    session_history debe coincidir con el estado final del classifier
+    persistido, sin importar cuántas épocas se usen. Se prueba
+    explícitamente con num_epochs=3 (no solo el default 1) para
+    verificar que el fix generaliza y no es casualidad de una sola
+    pasada.
     """
     from logic.entrenador import entrenar_usuario
 
@@ -92,12 +106,6 @@ def test_entrenar_usuario_ultima_epoca_coincide_con_modelo_final():
 
 
 def test_generar_perfil_json_incluye_pesos_y_kcs(tmp_path, monkeypatch):
-    """``generar_perfil_json`` incluye los tres pesos y un KC por tema.
-
-    Args:
-        tmp_path (pathlib.Path): Directorio temporal para ``DATA_DIR``.
-        monkeypatch (pytest.MonkeyPatch): Fixture para reemplazar ``DATA_DIR``.
-    """
     from logic import entrenador
 
     monkeypatch.setattr(entrenador, "DATA_DIR", str(tmp_path))
@@ -114,12 +122,12 @@ def test_generar_perfil_json_incluye_pesos_y_kcs(tmp_path, monkeypatch):
 
     assert perfil["user_id"] == 99
     assert set(perfil["weights"].keys()) == {"novelty", "interest", "bias"}
-    assert len(perfil["knowledge_components"]) == 2
+    assert len(perfil["knowledge_components"]) == 2  # temas 1 y 2
     assert os.path.exists(ruta_json)
 
 
 def test_generar_perfil_json_metadata_tupla_url_primero(tmp_path, monkeypatch):
-    """Cubre los metadatos como tupla (url, nombre)."""
+    """Cubre la rama de meta como tupla (url, nombre) — antes sin testear."""
     from logic import entrenador
 
     monkeypatch.setattr(entrenador, "DATA_DIR", str(tmp_path))
@@ -137,7 +145,7 @@ def test_generar_perfil_json_metadata_tupla_url_primero(tmp_path, monkeypatch):
 
 
 def test_generar_perfil_json_metadata_dict(tmp_path, monkeypatch):
-    """Cubre los metadatos como diccionario."""
+    """Cubre la rama de meta como dict — antes sin testear."""
     from logic import entrenador
 
     monkeypatch.setattr(entrenador, "DATA_DIR", str(tmp_path))
@@ -156,12 +164,12 @@ def test_generar_perfil_json_metadata_dict(tmp_path, monkeypatch):
 
 
 def test_generar_perfil_json_metadata_desconocida(tmp_path, monkeypatch):
-    """Cubre el respaldo ``ID_<n>`` cuando el mapeo no trae metadatos del tema."""
+    """Cubre la rama de fallback cuando el mapping no trae nada para ese topic_id."""
     from logic import entrenador
 
     monkeypatch.setattr(entrenador, "DATA_DIR", str(tmp_path))
     eventos = _eventos_sinteticos()
-    mapping = {}
+    mapping = {}  # sin metadata para ningún tema
     classifier, session_history, num_eng, num_non_eng = entrenador.entrenar_usuario(
         99, eventos, mapping, num_epochs=1
     )
@@ -171,16 +179,14 @@ def test_generar_perfil_json_metadata_desconocida(tmp_path, monkeypatch):
     assert nombres == {"ID_1", "ID_2"}
 
 
+# ── entrenar_modelo_usuario(): la orquestación completa, con el dataset mockeado ──
+
 def test_entrenar_modelo_usuario_flujo_completo(tmp_path, monkeypatch):
-    """Ejecuta ``entrenar_modelo_usuario()`` de punta a punta con datos sintéticos.
-
-    Cubre la selección de usuarios, el entrenamiento, el guardado de los
-    ``.pkl`` y ``.json`` y el índice global. ``cargar_dataset_peek`` se
-    reemplaza para devolver un dataset diminuto.
-
-    Args:
-        tmp_path (pathlib.Path): Directorio temporal para ``data/`` y ``models/``.
-        monkeypatch (pytest.MonkeyPatch): Fixture para reemplazar constantes y funciones.
+    """
+    Ejercita entrenar_modelo_usuario() de punta a punta —selección de
+    usuarios, entrenamiento, guardado de .pkl y .json, índice global—
+    sin descargar el dataset PEEK real: se mockea cargar_dataset_peek
+    para devolver un dataset sintético diminuto.
     """
     from logic import entrenador
 
@@ -188,72 +194,55 @@ def test_entrenar_modelo_usuario_flujo_completo(tmp_path, monkeypatch):
     model_dir = tmp_path / "models"
     monkeypatch.setattr(entrenador, "DATA_DIR", str(data_dir))
     monkeypatch.setattr(entrenador, "MODEL_DIR", str(model_dir))
-    monkeypatch.setattr(entrenador, "N_USUARIOS_MUCHAS", 1)
-    monkeypatch.setattr(entrenador, "N_USUARIOS_POCAS", 1)
-    monkeypatch.setattr(entrenador, "UMBRAL_MUCHAS", 3)
-    monkeypatch.setattr(entrenador, "UMBRAL_POCAS_MAX", 10)
+    monkeypatch.setattr(entrenador, "N_USUARIOS_POR_ESTRATO", 1)
 
     mapping = {1: ("Álgebra", "http://x"), 2: ("Cálculo", "http://y")}
-    train_sintetico = [
-        (10, _eventos_sinteticos() * 2),
-        (20, _eventos_sinteticos()[:1]),
-    ]
+    # 12 usuarios: 4 con 1 evento, 4 con 3, 3 con 5 y 1 con 10 -> los cuatro estratos
+    ev = _eventos_sinteticos()
+    train_sintetico = (
+        [(u, ev[:1]) for u in range(1, 5)] +
+        [(u, ev[:3]) for u in range(5, 9)] +
+        [(u, ev) for u in range(9, 12)] +
+        [(12, ev * 2)]
+    )
 
     monkeypatch.setattr(entrenador, "cargar_dataset_peek",
                          lambda data_dir: (train_sintetico, None, mapping))
 
     entrenador.entrenar_modelo_usuario()
 
-    assert (model_dir / "model_u_10.pkl").exists()
-    assert (model_dir / "model_u_20.pkl").exists()
-    assert (data_dir / "visual_profile_10.json").exists()
-    assert (data_dir / "visual_profile_20.json").exists()
-    assert (data_dir / "usuarios_entrenados.json").exists()
-
     import json
     indice = json.loads((data_dir / "usuarios_entrenados.json").read_text(encoding="utf-8"))
-    assert {u["user_id"] for u in indice} == {10, 20}
-    assert {u["tipo"] for u in indice} == {"muchas", "pocas"}
+    assert len(indice) == 4
+    assert {u["tipo"] for u in indice} == {"pocas", "medias", "muchas", "muy_activas"}
+    for u in indice:
+        assert (model_dir / f"model_u_{u['user_id']}.pkl").exists()
+        assert (data_dir / f"visual_profile_{u['user_id']}.json").exists()
 
 
 def test_entrenar_modelo_usuario_maneja_error_sin_reventar(tmp_path, monkeypatch, capsys):
-    """``entrenar_modelo_usuario`` atrapa las excepciones y las registra.
-
-    De lo contrario, el hilo de ``/entrenar`` en ``api_backend.py`` moriría en
-    silencio sin marcar ``_training_done``.
-
-    Args:
-        tmp_path (pathlib.Path): Directorio temporal.
-        monkeypatch (pytest.MonkeyPatch): Fixture para reemplazar la carga del dataset.
-        capsys (pytest.CaptureFixture): Fixture para capturar la salida estándar.
-    """
+    """entrenar_modelo_usuario() atrapa cualquier excepción y la loguea,
+    en vez de propagarla (así el hilo de /entrenar en api_backend.py no
+    muere en silencio sin marcar _training_done)."""
     from logic import entrenador
 
     def _falla(data_dir):
-        """Simula que el dataset PEEK no está disponible."""
         raise RuntimeError("PEEK no disponible")
 
     monkeypatch.setattr(entrenador, "cargar_dataset_peek", _falla)
 
-    entrenador.entrenar_modelo_usuario()
+    entrenador.entrenar_modelo_usuario()  # no debe lanzar
 
     salida = capsys.readouterr().out
     assert "ERROR CRÍTICO" in salida
 
 
+# ── cargar_dataset_peek: chdir/Lock, sin necesitar el dataset real ──────
+
 def test_cargar_dataset_peek_llama_a_load_peek_dataset(tmp_path, monkeypatch):
-    """``cargar_dataset_peek`` llama a ``load_peek_dataset`` desde el directorio dado.
-
-    Verifica además que el directorio de trabajo se restaura al terminar.
-
-    Args:
-        tmp_path (pathlib.Path): Directorio de datos temporal.
-        monkeypatch (pytest.MonkeyPatch): Fixture para reemplazar ``load_peek_dataset``.
-    """
     llamadas = []
 
     def fake_load_peek_dataset():
-        """Registra el directorio de trabajo y devuelve un dataset ficticio."""
         llamadas.append(os.getcwd())
         return ("train", "test", "mapping")
 
@@ -265,21 +254,17 @@ def test_cargar_dataset_peek_llama_a_load_peek_dataset(tmp_path, monkeypatch):
     assert resultado == ("train", "test", "mapping")
     assert len(llamadas) == 1
     assert os.path.abspath(llamadas[0]) == os.path.abspath(str(tmp_path))
-    assert os.getcwd() == cwd_antes
+    assert os.getcwd() == cwd_antes  # el cwd se restauró
 
 
 def test_cargar_dataset_peek_restaura_cwd_incluso_si_falla(tmp_path, monkeypatch):
-    """Restaura el directorio de trabajo aunque ``load_peek_dataset`` falle.
-
-    Regresión: en la versión original, una excepción dejaba el directorio de
-    trabajo del proceso fijado en ``data/`` para siempre.
-
-    Args:
-        tmp_path (pathlib.Path): Directorio de datos temporal.
-        monkeypatch (pytest.MonkeyPatch): Fixture para reemplazar ``load_peek_dataset``.
+    """
+    Regresión directa: en la versión original,
+    si load_peek_dataset() lanzaba una excepción, el cwd del proceso
+    quedaba "pegado" en data/ para siempre. Acá se fuerza la excepción y
+    se verifica que el cwd se restaura de todos modos.
     """
     def fake_load_peek_dataset_que_falla():
-        """Simula una falla de red al descargar PEEK."""
         raise RuntimeError("simulando una falla de red al descargar PEEK")
 
     monkeypatch.setattr("truelearn.datasets.load_peek_dataset", fake_load_peek_dataset_que_falla)
@@ -292,7 +277,6 @@ def test_cargar_dataset_peek_restaura_cwd_incluso_si_falla(tmp_path, monkeypatch
 
 
 def test_cargar_dataset_peek_crea_el_directorio_si_no_existe(tmp_path, monkeypatch):
-    """``cargar_dataset_peek`` crea el directorio de datos si no existe."""
     destino = tmp_path / "no_existe_todavia"
     monkeypatch.setattr("truelearn.datasets.load_peek_dataset", lambda: (1, 2, 3))
 
@@ -301,8 +285,17 @@ def test_cargar_dataset_peek_crea_el_directorio_si_no_existe(tmp_path, monkeypat
     assert destino.exists()
 
 
+# ── extractor_peek.py y preparar_datos.py ────────────────────────────────
+#
+# NOTA: ninguno de los dos módulos es llamado
+# por dashboard.py, api_backend.py ni entrenador.py — son herramientas
+# exploratorias standalone (preparar_datos.py sí tiene un bloque
+# __main__, pensado para correrse a mano en la línea de comandos durante
+# la Fase 2 de la propuesta; extractor_peek.py no tiene ni eso). Se
+# testean igual, livianamente, para que no se rompan en silencio si
+# alguien los sigue usando de forma interactiva/manual.
+
 def test_extractor_peek_obtener_datos_usuario_por_id(monkeypatch):
-    """``obtener_datos_usuario`` devuelve los eventos del usuario pedido."""
     from logic import extractor_peek
 
     train_sintetico = [(10, ["eventosA"]), (20, ["eventosB"])]
@@ -316,20 +309,18 @@ def test_extractor_peek_obtener_datos_usuario_por_id(monkeypatch):
 
 
 def test_extractor_peek_obtener_datos_usuario_default_mas_de_20_eventos(monkeypatch):
-    """Sin id, devuelve el primer usuario con más de 20 eventos."""
     from logic import extractor_peek
 
     train_sintetico = [(1, list(range(5))), (2, list(range(25)))]
     monkeypatch.setattr(extractor_peek, "cargar_dataset_peek",
                          lambda data_dir: (train_sintetico, None, {}))
 
-    uid, eventos, _ = extractor_peek.obtener_datos_usuario()
+    uid, eventos, _ = extractor_peek.obtener_datos_usuario()  # sin id -> primero con >20 eventos
     assert uid == 2
     assert len(eventos) == 25
 
 
 def test_extractor_peek_usuario_no_encontrado(monkeypatch):
-    """Devuelve ``(None, None, None)`` si el usuario pedido no existe."""
     from logic import extractor_peek
 
     monkeypatch.setattr(extractor_peek, "cargar_dataset_peek",
@@ -339,13 +330,6 @@ def test_extractor_peek_usuario_no_encontrado(monkeypatch):
 
 
 def test_preparar_datos_extraer_muestra_genera_json(tmp_path, monkeypatch, capsys):
-    """``extraer_muestra`` genera ``datos_usuario_prueba.json`` con los eventos.
-
-    Args:
-        tmp_path (pathlib.Path): Directorio temporal para ``DATA_DIR``.
-        monkeypatch (pytest.MonkeyPatch): Fixture para reemplazar el dataset.
-        capsys (pytest.CaptureFixture): Fixture para capturar la salida estándar.
-    """
     from truelearn.models import EventModel, Knowledge, KnowledgeComponent
 
     from logic import preparar_datos
@@ -353,7 +337,7 @@ def test_preparar_datos_extraer_muestra_genera_json(tmp_path, monkeypatch, capsy
     monkeypatch.setattr(preparar_datos, "DATA_DIR", str(tmp_path))
 
     eventos_usuario = []
-    for t in range(16):
+    for t in range(16):  # > 15, para pasar el filtro "usuario con historial"
         ev = EventModel(Knowledge({1: KnowledgeComponent(mean=0.3, variance=0.4)}), event_time=float(t))
         eventos_usuario.append((ev, t % 2 == 0))
 
@@ -373,20 +357,13 @@ def test_preparar_datos_extraer_muestra_genera_json(tmp_path, monkeypatch, capsy
 
 
 def test_preparar_datos_sin_usuario_con_historial_no_rompe(tmp_path, monkeypatch, capsys):
-    """Si nadie tiene más de 15 eventos, no se genera archivo y se informa.
-
-    Args:
-        tmp_path (pathlib.Path): Directorio temporal para ``DATA_DIR``.
-        monkeypatch (pytest.MonkeyPatch): Fixture para reemplazar el dataset.
-        capsys (pytest.CaptureFixture): Fixture para capturar la salida estándar.
-    """
     from logic import preparar_datos
 
     monkeypatch.setattr(preparar_datos, "DATA_DIR", str(tmp_path))
     monkeypatch.setattr(preparar_datos, "cargar_dataset_peek",
-                         lambda data_dir: ([(1, [0] * 5)], None, {}))
+                         lambda data_dir: ([(1, [0] * 5)], None, {}))  # nadie tiene > 15 eventos
 
-    preparar_datos.extraer_muestra()
+    preparar_datos.extraer_muestra()  # no debe lanzar
 
     assert not (tmp_path / "datos_usuario_prueba.json").exists()
     assert "No se encontró un usuario" in capsys.readouterr().out

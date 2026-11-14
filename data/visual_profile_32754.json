@@ -1,0 +1,338 @@
+{
+    "user_id": 32754,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 3,
+    "weights": {
+        "novelty": {
+            "mean": 0.49751188558182957,
+            "variance": 0.4375966737280117
+        },
+        "interest": {
+            "mean": 0.35004120005094197,
+            "variance": 0.3967018782592465
+        },
+        "bias": {
+            "mean": -0.11609976138510836,
+            "variance": 0.31275131799378586
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 7168239.0,
+            "means": {
+                "Mathematical induction": 0.1351397781482725,
+                "Factorial": 0.1351397781482725,
+                "Constant function": 0.1351397781482725,
+                "Derivative": 0.262983909773808,
+                "Integer (computer science)": 0.13513977814827252,
+                "Chain rule": 0.17410825672948696,
+                "Trigonometric functions": 0.2505530370011547,
+                "Product rule": -0.07104799489606176,
+                "Function (mathematics)": 0.2505530370011547,
+                "Abuse of notation": 0.0885238925140416,
+                "Differential operator": 0.0885238925140416,
+                "OpenCourseWare": -0.15961823967681285,
+                "River delta": -0.15961823967681285,
+                "Function composition": -0.28249498008527246,
+                "Difference quotient": -0.15961823967681285,
+                "Quotient rule": -0.13312694387857466,
+                "Text mining": -0.13312694387857466
+            },
+            "variances": {
+                "Mathematical induction": 0.4328860001819952,
+                "Factorial": 0.4328860001819952,
+                "Constant function": 0.4328860001819952,
+                "Derivative": 0.3228178984154042,
+                "Integer (computer science)": 0.4328860001819952,
+                "Chain rule": 0.43177484688408907,
+                "Trigonometric functions": 0.37815308506508194,
+                "Product rule": 0.379132226303841,
+                "Function (mathematics)": 0.37815308506508194,
+                "Abuse of notation": 0.4280937880992571,
+                "Differential operator": 0.4280937880992571,
+                "OpenCourseWare": 0.46150214535284345,
+                "River delta": 0.46150214535284345,
+                "Function composition": 0.4301251676532174,
+                "Difference quotient": 0.46150214535284345,
+                "Quotient rule": 0.4631698345984615,
+                "Text mining": 0.4631698345984615
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 7607098.0,
+            "means": {
+                "Mathematical induction": 0.1351397781482725,
+                "Factorial": 0.1351397781482725,
+                "Constant function": 0.1351397781482725,
+                "Derivative": 0.262983909773808,
+                "Integer (computer science)": 0.13513977814827252,
+                "Chain rule": 0.17410825672948696,
+                "Trigonometric functions": 0.2505530370011547,
+                "Product rule": -0.07104799489606176,
+                "Function (mathematics)": 0.2505530370011547,
+                "Abuse of notation": 0.0885238925140416,
+                "Differential operator": 0.0885238925140416,
+                "OpenCourseWare": -0.15961823967681285,
+                "River delta": -0.15961823967681285,
+                "Function composition": -0.28249498008527246,
+                "Difference quotient": -0.15961823967681285,
+                "Quotient rule": -0.13312694387857466,
+                "Text mining": -0.13312694387857466,
+                "Aluminium": -0.14539944685344994,
+                "Astronomical unit": -0.14539944685344994,
+                "Light-year": -0.14539944685344997,
+                "Physics": -0.14539944685344997,
+                "Metre per second squared": -0.14539944685344997
+            },
+            "variances": {
+                "Mathematical induction": 0.4328860001819952,
+                "Factorial": 0.4328860001819952,
+                "Constant function": 0.4328860001819952,
+                "Derivative": 0.3228178984154042,
+                "Integer (computer science)": 0.4328860001819952,
+                "Chain rule": 0.43177484688408907,
+                "Trigonometric functions": 0.37815308506508194,
+                "Product rule": 0.379132226303841,
+                "Function (mathematics)": 0.37815308506508194,
+                "Abuse of notation": 0.4280937880992571,
+                "Differential operator": 0.4280937880992571,
+                "OpenCourseWare": 0.46150214535284345,
+                "River delta": 0.46150214535284345,
+                "Function composition": 0.4301251676532174,
+                "Difference quotient": 0.46150214535284345,
+                "Quotient rule": 0.4631698345984615,
+                "Text mining": 0.4631698345984615,
+                "Aluminium": 0.4637477521791505,
+                "Astronomical unit": 0.4637477521791505,
+                "Light-year": 0.4637477521791505,
+                "Physics": 0.4637477521791505,
+                "Metre per second squared": 0.4637477521791505
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 16310,
+            "topic_name": "Mathematical induction",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematical_induction",
+            "mean": 0.1351397781482725,
+            "variance": 0.4328860001819952,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 9530,
+            "topic_name": "Factorial",
+            "topic_url": "https://en.wikipedia.org/wiki/Factorial",
+            "mean": 0.1351397781482725,
+            "variance": 0.4328860001819952,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 5693,
+            "topic_name": "Constant function",
+            "topic_url": "https://en.wikipedia.org/wiki/Constant_function",
+            "mean": 0.1351397781482725,
+            "variance": 0.4328860001819952,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 7233,
+            "topic_name": "Derivative",
+            "topic_url": "https://en.wikipedia.org/wiki/Derivative",
+            "mean": 0.262983909773808,
+            "variance": 0.3228178984154042,
+            "interest_mean": 2.357890428522001,
+            "interest_var": 0.27122055621128877,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 13574,
+            "topic_name": "Integer (computer science)",
+            "topic_url": "https://en.wikipedia.org/wiki/Integer_(computer_science)",
+            "mean": 0.13513977814827252,
+            "variance": 0.4328860001819952,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 4044,
+            "topic_name": "Chain rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Chain_rule",
+            "mean": 0.17410825672948696,
+            "variance": 0.43177484688408907,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 28340,
+            "topic_name": "Trigonometric functions",
+            "topic_url": "https://en.wikipedia.org/wiki/Trigonometric_functions",
+            "mean": 0.2505530370011547,
+            "variance": 0.37815308506508194,
+            "interest_mean": 1.3178544974511428,
+            "interest_var": 0.3450333462299924,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 21456,
+            "topic_name": "Product rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Product_rule",
+            "mean": -0.07104799489606176,
+            "variance": 0.379132226303841,
+            "interest_mean": 1.897987012004031,
+            "interest_var": 0.3045498369266246,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 10663,
+            "topic_name": "Function (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_(mathematics)",
+            "mean": 0.2505530370011547,
+            "variance": 0.37815308506508194,
+            "interest_mean": 1.317854497451143,
+            "interest_var": 0.3450333462299924,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 156,
+            "topic_name": "Abuse of notation",
+            "topic_url": "https://en.wikipedia.org/wiki/Abuse_of_notation",
+            "mean": 0.0885238925140416,
+            "variance": 0.4280937880992571,
+            "interest_mean": 0.4951192138931975,
+            "interest_var": 0.40832415479145084,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 7441,
+            "topic_name": "Differential operator",
+            "topic_url": "https://en.wikipedia.org/wiki/Differential_operator",
+            "mean": 0.0885238925140416,
+            "variance": 0.4280937880992571,
+            "interest_mean": 0.4951192138931975,
+            "interest_var": 0.40832415479145084,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 18939,
+            "topic_name": "OpenCourseWare",
+            "topic_url": "https://en.wikipedia.org/wiki/OpenCourseWare",
+            "mean": -0.15961823967681285,
+            "variance": 0.46150214535284345,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 23155,
+            "topic_name": "River delta",
+            "topic_url": "https://en.wikipedia.org/wiki/River_delta",
+            "mean": -0.15961823967681285,
+            "variance": 0.46150214535284345,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 10666,
+            "topic_name": "Function composition",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_composition",
+            "mean": -0.28249498008527246,
+            "variance": 0.4301251676532174,
+            "interest_mean": 1.199703961447117,
+            "interest_var": 0.3515496975731303,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 7428,
+            "topic_name": "Difference quotient",
+            "topic_url": "https://en.wikipedia.org/wiki/Difference_quotient",
+            "mean": -0.15961823967681285,
+            "variance": 0.46150214535284345,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 22166,
+            "topic_name": "Quotient rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Quotient_rule",
+            "mean": -0.13312694387857466,
+            "variance": 0.4631698345984615,
+            "interest_mean": 0.30944447317696333,
+            "interest_var": 0.4188247902527558,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 27434,
+            "topic_name": "Text mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Text_mining",
+            "mean": -0.13312694387857466,
+            "variance": 0.4631698345984615,
+            "interest_mean": 0.30944447317696333,
+            "interest_var": 0.4188247902527558,
+            "timestamp": 7168239.0
+        },
+        {
+            "topic_id": 811,
+            "topic_name": "Aluminium",
+            "topic_url": "https://en.wikipedia.org/wiki/Aluminium",
+            "mean": -0.14539944685344994,
+            "variance": 0.4637477521791505,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7607098.0
+        },
+        {
+            "topic_id": 1587,
+            "topic_name": "Astronomical unit",
+            "topic_url": "https://en.wikipedia.org/wiki/Astronomical_unit",
+            "mean": -0.14539944685344994,
+            "variance": 0.4637477521791505,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7607098.0
+        },
+        {
+            "topic_id": 15147,
+            "topic_name": "Light-year",
+            "topic_url": "https://en.wikipedia.org/wiki/Light-year",
+            "mean": -0.14539944685344997,
+            "variance": 0.4637477521791505,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7607098.0
+        },
+        {
+            "topic_id": 20273,
+            "topic_name": "Physics",
+            "topic_url": "https://en.wikipedia.org/wiki/Physics",
+            "mean": -0.14539944685344997,
+            "variance": 0.4637477521791505,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7607098.0
+        },
+        {
+            "topic_id": 16792,
+            "topic_name": "Metre per second squared",
+            "topic_url": "https://en.wikipedia.org/wiki/Metre_per_second_squared",
+            "mean": -0.14539944685344997,
+            "variance": 0.4637477521791505,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7607098.0
+        }
+    ]
+}

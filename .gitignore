@@ -13,18 +13,28 @@ htmlcov/
 *.bak
 *.zip
 ajustar_*.py
+!ajustar_backend.py
+arreglar_*.py
 quitar_valor_manual.py
 parchar_calibrar.py
 
 # Dataset PEEK (se descarga solo) y calibración a gran escala (miles de archivos)
 data/*.csv
 data_calibracion/
+data_calibracion_todos/
 
 # Copias de seguridad y datos de PEEK en cualquier carpeta
 backup_*/
 peek.*.csv
-
 id_to_wiki_metadata_mapping.csv
-# Salidas de pruebas y secretos
+
+# Registros, salidas de pruebas y secretos
+*.log
 tests/_e2e_failures/
 .env
+.streamlit/secrets.toml
+
+# Editor y sistema operativo
+.vscode/
+.DS_Store
+Thumbs.db

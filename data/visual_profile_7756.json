@@ -1,0 +1,460 @@
+{
+    "user_id": 7756,
+    "number_of_engagements": 7,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 1.0469205926051663,
+            "variance": 0.4209842552258557
+        },
+        "interest": {
+            "mean": 1.071539994731234,
+            "variance": 0.4136921986207664
+        },
+        "bias": {
+            "mean": 0.8213844439042977,
+            "variance": 0.3229343653777016
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 22880837.0,
+            "means": {
+                "Artificial neural network": 0.20430663219609696,
+                "Arg max": 0.11348472308663078,
+                "Maximum a posteriori estimation": 0.11348472308663078,
+                "Superintelligence": 0.11348472308663078,
+                "Maximum likelihood estimation": 0.11348472308663078,
+                "Variational Bayesian methods": 0.2041968165966839,
+                "L": 0.11335056437037315,
+                "Active learning": 0.11335056437037315,
+                "Log probability": 0.11335056437037315,
+                "Inference": 0.11335056437037315,
+                "Generative model": 0.10490281490704777,
+                "Histogram": 0.10490281490704777,
+                "Factorial": 0.10490281490704777,
+                "I": 0.044981554914610866,
+                "Question": 0.044981554914610866,
+                "Plosive": 0.044981554914610866,
+                "Existential quantification": 0.044981554914610866,
+                "Conjecture": 0.044981554914610866
+            },
+            "variances": {
+                "Artificial neural network": 0.38079463758177856,
+                "Arg max": 0.4328859487228327,
+                "Maximum a posteriori estimation": 0.4328859487228327,
+                "Superintelligence": 0.4328859487228327,
+                "Maximum likelihood estimation": 0.4328859487228327,
+                "Variational Bayesian methods": 0.38088273662836425,
+                "L": 0.43300197571822907,
+                "Active learning": 0.43300197571822907,
+                "Log probability": 0.43300197571822907,
+                "Inference": 0.43300197571822907,
+                "Generative model": 0.4305042382918813,
+                "Histogram": 0.4305042382918813,
+                "Factorial": 0.4305042382918813,
+                "I": 0.43300199520448196,
+                "Question": 0.43300199520448196,
+                "Plosive": 0.43300199520448196,
+                "Existential quantification": 0.43300199520448196,
+                "Conjecture": 0.43300199520448196
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 22881333.0,
+            "means": {
+                "Artificial neural network": 0.20430663219609696,
+                "Arg max": 0.11348472308663078,
+                "Maximum a posteriori estimation": 0.11348472308663078,
+                "Superintelligence": 0.11348472308663078,
+                "Maximum likelihood estimation": 0.11348472308663078,
+                "Variational Bayesian methods": 0.2041968165966839,
+                "L": 0.11335056437037315,
+                "Active learning": 0.11335056437037315,
+                "Log probability": 0.11335056437037315,
+                "Inference": 0.11335056437037315,
+                "Generative model": 0.10490281490704777,
+                "Histogram": 0.10490281490704777,
+                "Factorial": 0.10490281490704777,
+                "I": 0.044981554914610866,
+                "Question": 0.044981554914610866,
+                "Plosive": 0.044981554914610866,
+                "Existential quantification": 0.044981554914610866,
+                "Conjecture": 0.044981554914610866,
+                "Neural network": 0.24021885068328158,
+                "Smartphone": 0.14154731211149849,
+                "Differential privacy": 0.14154731211149849,
+                "Bit array": 0.14154731211149849,
+                "Computer science": 0.14154731211149846,
+                "Minimum description length": 0.11393890450006652,
+                "Mixture model": 0.11393890450006652,
+                "Information theory": 0.11393890450006652,
+                "Entropy": 0.11393890450006652,
+                "Dropping out": 0.12022834101939356,
+                "Pruning": 0.12022834101939356,
+                "Convolutional neural network": 0.12022834101939356,
+                "Calculus of variations": 0.12022834101939356,
+                "Energy": 0.12022834101939356
+            },
+            "variances": {
+                "Artificial neural network": 0.38079463758177856,
+                "Arg max": 0.4328859487228327,
+                "Maximum a posteriori estimation": 0.4328859487228327,
+                "Superintelligence": 0.4328859487228327,
+                "Maximum likelihood estimation": 0.4328859487228327,
+                "Variational Bayesian methods": 0.38088273662836425,
+                "L": 0.43300197571822907,
+                "Active learning": 0.43300197571822907,
+                "Log probability": 0.43300197571822907,
+                "Inference": 0.43300197571822907,
+                "Generative model": 0.4305042382918813,
+                "Histogram": 0.4305042382918813,
+                "Factorial": 0.4305042382918813,
+                "I": 0.43300199520448196,
+                "Question": 0.43300199520448196,
+                "Plosive": 0.43300199520448196,
+                "Existential quantification": 0.43300199520448196,
+                "Conjecture": 0.43300199520448196,
+                "Neural network": 0.381837279407547,
+                "Smartphone": 0.4330019627831576,
+                "Differential privacy": 0.4330019627831576,
+                "Bit array": 0.4330019627831576,
+                "Computer science": 0.4330019627831576,
+                "Minimum description length": 0.43177703822474156,
+                "Mixture model": 0.43177703822474156,
+                "Information theory": 0.43177703822474156,
+                "Entropy": 0.43177703822474156,
+                "Dropping out": 0.4330019728267826,
+                "Pruning": 0.4330019728267826,
+                "Convolutional neural network": 0.4330019728267826,
+                "Calculus of variations": 0.4330019728267826,
+                "Energy": 0.4330019728267826
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 1478,
+            "topic_name": "Artificial neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_neural_network",
+            "mean": 0.20430663219609696,
+            "variance": 0.38079463758177856,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 1363,
+            "topic_name": "Arg max",
+            "topic_url": "https://en.wikipedia.org/wiki/Arg_max",
+            "mean": 0.11348472308663078,
+            "variance": 0.4328859487228327,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 16381,
+            "topic_name": "Maximum a posteriori estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_a_posteriori_estimation",
+            "mean": 0.11348472308663078,
+            "variance": 0.4328859487228327,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 26624,
+            "topic_name": "Superintelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Superintelligence",
+            "mean": 0.11348472308663078,
+            "variance": 0.4328859487228327,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": 0.11348472308663078,
+            "variance": 0.4328859487228327,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 29067,
+            "topic_name": "Variational Bayesian methods",
+            "topic_url": "https://en.wikipedia.org/wiki/Variational_Bayesian_methods",
+            "mean": 0.2041968165966839,
+            "variance": 0.38088273662836425,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 14558,
+            "topic_name": "L",
+            "topic_url": "https://en.wikipedia.org/wiki/L",
+            "mean": 0.11335056437037315,
+            "variance": 0.43300197571822907,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 302,
+            "topic_name": "Active learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Active_learning",
+            "mean": 0.11335056437037315,
+            "variance": 0.43300197571822907,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 15552,
+            "topic_name": "Log probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Log_probability",
+            "mean": 0.11335056437037315,
+            "variance": 0.43300197571822907,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 13342,
+            "topic_name": "Inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Inference",
+            "mean": 0.11335056437037315,
+            "variance": 0.43300197571822907,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": 0.10490281490704777,
+            "variance": 0.4305042382918813,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 12411,
+            "topic_name": "Histogram",
+            "topic_url": "https://en.wikipedia.org/wiki/Histogram",
+            "mean": 0.10490281490704777,
+            "variance": 0.4305042382918813,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 9530,
+            "topic_name": "Factorial",
+            "topic_url": "https://en.wikipedia.org/wiki/Factorial",
+            "mean": 0.10490281490704777,
+            "variance": 0.4305042382918813,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 12938,
+            "topic_name": "I",
+            "topic_url": "https://en.wikipedia.org/wiki/I",
+            "mean": 0.044981554914610866,
+            "variance": 0.43300199520448196,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 22132,
+            "topic_name": "Question",
+            "topic_url": "https://en.wikipedia.org/wiki/Question",
+            "mean": 0.044981554914610866,
+            "variance": 0.43300199520448196,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 26207,
+            "topic_name": "Plosive",
+            "topic_url": "https://en.wikipedia.org/wiki/Stop_consonant",
+            "mean": 0.044981554914610866,
+            "variance": 0.43300199520448196,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 9295,
+            "topic_name": "Existential quantification",
+            "topic_url": "https://en.wikipedia.org/wiki/Existential_quantification",
+            "mean": 0.044981554914610866,
+            "variance": 0.43300199520448196,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 5602,
+            "topic_name": "Conjecture",
+            "topic_url": "https://en.wikipedia.org/wiki/Conjecture",
+            "mean": 0.044981554914610866,
+            "variance": 0.43300199520448196,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22880837.0
+        },
+        {
+            "topic_id": 18126,
+            "topic_name": "Neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Neural_network",
+            "mean": 0.24021885068328158,
+            "variance": 0.381837279407547,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 24999,
+            "topic_name": "Smartphone",
+            "topic_url": "https://en.wikipedia.org/wiki/Smartphone",
+            "mean": 0.14154731211149849,
+            "variance": 0.4330019627831576,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 7442,
+            "topic_name": "Differential privacy",
+            "topic_url": "https://en.wikipedia.org/wiki/Differential_privacy",
+            "mean": 0.14154731211149849,
+            "variance": 0.4330019627831576,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 2627,
+            "topic_name": "Bit array",
+            "topic_url": "https://en.wikipedia.org/wiki/Bit_array",
+            "mean": 0.14154731211149849,
+            "variance": 0.4330019627831576,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": 0.14154731211149846,
+            "variance": 0.4330019627831576,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 17022,
+            "topic_name": "Minimum description length",
+            "topic_url": "https://en.wikipedia.org/wiki/Minimum_description_length",
+            "mean": 0.11393890450006652,
+            "variance": 0.43177703822474156,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 17125,
+            "topic_name": "Mixture model",
+            "topic_url": "https://en.wikipedia.org/wiki/Mixture_model",
+            "mean": 0.11393890450006652,
+            "variance": 0.43177703822474156,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 13454,
+            "topic_name": "Information theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Information_theory",
+            "mean": 0.11393890450006652,
+            "variance": 0.43177703822474156,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 8872,
+            "topic_name": "Entropy",
+            "topic_url": "https://en.wikipedia.org/wiki/Entropy",
+            "mean": 0.11393890450006652,
+            "variance": 0.43177703822474156,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 8047,
+            "topic_name": "Dropping out",
+            "topic_url": "https://en.wikipedia.org/wiki/Dropping_out",
+            "mean": 0.12022834101939356,
+            "variance": 0.4330019728267826,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 21726,
+            "topic_name": "Pruning",
+            "topic_url": "https://en.wikipedia.org/wiki/Pruning",
+            "mean": 0.12022834101939356,
+            "variance": 0.4330019728267826,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 5930,
+            "topic_name": "Convolutional neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+            "mean": 0.12022834101939356,
+            "variance": 0.4330019728267826,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 3441,
+            "topic_name": "Calculus of variations",
+            "topic_url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+            "mean": 0.12022834101939356,
+            "variance": 0.4330019728267826,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        },
+        {
+            "topic_id": 8767,
+            "topic_name": "Energy",
+            "topic_url": "https://en.wikipedia.org/wiki/Energy",
+            "mean": 0.12022834101939356,
+            "variance": 0.4330019728267826,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22881333.0
+        }
+    ]
+}

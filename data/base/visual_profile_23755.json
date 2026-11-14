@@ -1,0 +1,230 @@
+{
+    "user_id": 23755,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 4,
+    "weights": {
+        "novelty": {
+            "mean": 0.3891243818140241,
+            "variance": 0.45964318796776815
+        },
+        "interest": {
+            "mean": 0.16984613343518973,
+            "variance": 0.40595678447773303
+        },
+        "bias": {
+            "mean": -0.43044478187920987,
+            "variance": 0.335375653803392
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 3207834.0,
+            "means": {
+                "Geometry": -0.13724667625972323,
+                "Common carotid artery": -0.13724667625972323,
+                "External carotid artery": -0.13724667625972328,
+                "Fluent interface": -0.13724667625972328,
+                "Graphical user interface": -0.13724667625972328
+            },
+            "variances": {
+                "Geometry": 0.46479758222328943,
+                "Common carotid artery": 0.46479758222328943,
+                "External carotid artery": 0.46479758222328943,
+                "Fluent interface": 0.46479758222328943,
+                "Graphical user interface": 0.46479758222328943
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 3209280.0,
+            "means": {
+                "Geometry": -0.2732073865620442,
+                "Common carotid artery": -0.3340255744005787,
+                "External carotid artery": -0.22418555265249693,
+                "Fluent interface": -0.22418555265249698,
+                "Graphical user interface": -0.3180046732757238,
+                "User interface": -0.10677990264977627,
+                "Text-based user interface": -0.10677990264977627,
+                "Carotid artery": -0.10677990264977627,
+                "Newtonian fluid": 0.1647336843307389,
+                "Sensitivity analysis": 0.1647336843307389,
+                "Sufism": 0.1647336843307389,
+                "Velocity": 0.1647336843307389,
+                "Value theory": -0.12501403500051347,
+                "No-slip condition": -0.12501403500051347,
+                "Boundary value problem": -0.1250140350005135
+            },
+            "variances": {
+                "Geometry": 0.34883752617361746,
+                "Common carotid artery": 0.4124043133917887,
+                "External carotid artery": 0.439310761178257,
+                "Fluent interface": 0.439310761178257,
+                "Graphical user interface": 0.4150001122181466,
+                "User interface": 0.46850853407040544,
+                "Text-based user interface": 0.46850853407040544,
+                "Carotid artery": 0.46850853407040544,
+                "Newtonian fluid": 0.43131871483128115,
+                "Sensitivity analysis": 0.43131871483128115,
+                "Sufism": 0.43131871483128115,
+                "Velocity": 0.43131871483128115,
+                "Value theory": 0.46514599486240404,
+                "No-slip condition": 0.46514599486240404,
+                "Boundary value problem": 0.46514599486240404
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 11163,
+            "topic_name": "Geometry",
+            "topic_url": "https://en.wikipedia.org/wiki/Geometry",
+            "mean": -0.2732073865620442,
+            "variance": 0.34883752617361746,
+            "interest_mean": 2.5573482337002518,
+            "interest_var": 0.24491185165627039,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 5118,
+            "topic_name": "Common carotid artery",
+            "topic_url": "https://en.wikipedia.org/wiki/Common_carotid_artery",
+            "mean": -0.3340255744005787,
+            "variance": 0.4124043133917887,
+            "interest_mean": 1.6390358796714932,
+            "interest_var": 0.3117354023716318,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 9426,
+            "topic_name": "External carotid artery",
+            "topic_url": "https://en.wikipedia.org/wiki/External_carotid_artery",
+            "mean": -0.22418555265249693,
+            "variance": 0.439310761178257,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 10163,
+            "topic_name": "Fluent interface",
+            "topic_url": "https://en.wikipedia.org/wiki/Fluent_interface",
+            "mean": -0.22418555265249698,
+            "variance": 0.439310761178257,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 11612,
+            "topic_name": "Graphical user interface",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_user_interface",
+            "mean": -0.3180046732757238,
+            "variance": 0.4150001122181466,
+            "interest_mean": 1.7643169223898363,
+            "interest_var": 0.31004483090132495,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 28933,
+            "topic_name": "User interface",
+            "topic_url": "https://en.wikipedia.org/wiki/User_interface",
+            "mean": -0.10677990264977627,
+            "variance": 0.46850853407040544,
+            "interest_mean": 0.6968919625313518,
+            "interest_var": 0.4028444745133369,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 27439,
+            "topic_name": "Text-based user interface",
+            "topic_url": "https://en.wikipedia.org/wiki/Text-based_user_interface",
+            "mean": -0.10677990264977627,
+            "variance": 0.46850853407040544,
+            "interest_mean": 0.6968919625313519,
+            "interest_var": 0.4028444745133369,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 3743,
+            "topic_name": "Carotid artery",
+            "topic_url": "https://en.wikipedia.org/wiki/Carotid_artery",
+            "mean": -0.10677990264977627,
+            "variance": 0.46850853407040544,
+            "interest_mean": 0.6968919625313518,
+            "interest_var": 0.4028444745133369,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 18242,
+            "topic_name": "Newtonian fluid",
+            "topic_url": "https://en.wikipedia.org/wiki/Newtonian_fluid",
+            "mean": 0.1647336843307389,
+            "variance": 0.43131871483128115,
+            "interest_mean": 0.8184400659160294,
+            "interest_var": 0.4033509389982802,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 24213,
+            "topic_name": "Sensitivity analysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Sensitivity_analysis",
+            "mean": 0.1647336843307389,
+            "variance": 0.43131871483128115,
+            "interest_mean": 0.8184400659160294,
+            "interest_var": 0.4033509389982802,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 26537,
+            "topic_name": "Sufism",
+            "topic_url": "https://en.wikipedia.org/wiki/Sufism",
+            "mean": 0.1647336843307389,
+            "variance": 0.43131871483128115,
+            "interest_mean": 0.8184400659160295,
+            "interest_var": 0.4033509389982802,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 29130,
+            "topic_name": "Velocity",
+            "topic_url": "https://en.wikipedia.org/wiki/Velocity",
+            "mean": 0.1647336843307389,
+            "variance": 0.43131871483128115,
+            "interest_mean": 0.8184400659160295,
+            "interest_var": 0.4033509389982802,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 29018,
+            "topic_name": "Value theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Value_theory",
+            "mean": -0.12501403500051347,
+            "variance": 0.46514599486240404,
+            "interest_mean": 0.5231654954555974,
+            "interest_var": 0.40609530850820386,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 18315,
+            "topic_name": "No-slip condition",
+            "topic_url": "https://en.wikipedia.org/wiki/No-slip_condition",
+            "mean": -0.12501403500051347,
+            "variance": 0.46514599486240404,
+            "interest_mean": 0.5231654954555974,
+            "interest_var": 0.40609530850820386,
+            "timestamp": 3209280.0
+        },
+        {
+            "topic_id": 2956,
+            "topic_name": "Boundary value problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Boundary_value_problem",
+            "mean": -0.1250140350005135,
+            "variance": 0.46514599486240404,
+            "interest_mean": 0.5231654954555974,
+            "interest_var": 0.40609530850820386,
+            "timestamp": 3209280.0
+        }
+    ]
+}

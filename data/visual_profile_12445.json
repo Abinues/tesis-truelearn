@@ -1,0 +1,530 @@
+{
+    "user_id": 12445,
+    "number_of_engagements": 5,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.6121335590162539,
+            "variance": 0.4030654515360251
+        },
+        "interest": {
+            "mean": 0.3417710094878765,
+            "variance": 0.3477841161740574
+        },
+        "bias": {
+            "mean": -0.09625200559351163,
+            "variance": 0.24632464702252455
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 26591438.0,
+            "means": {
+                "Random variable": 0.15927394600585632,
+                "Multinomial distribution": 0.15927394600585632,
+                "Parallel computing": 0.15927394600585632,
+                "Graph coloring": 0.15927394600585632,
+                "Topic model": 0.15927394600585632
+            },
+            "variances": {
+                "Random variable": 0.43288600205522254,
+                "Multinomial distribution": 0.43288600205522254,
+                "Parallel computing": 0.43288600205522254,
+                "Graph coloring": 0.43288600205522254,
+                "Topic model": 0.43288600205522254
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 26593551.0,
+            "means": {
+                "Random variable": 0.15927394600585632,
+                "Multinomial distribution": 0.15927394600585632,
+                "Parallel computing": 0.15927394600585632,
+                "Graph coloring": 0.15927394600585632,
+                "Topic model": 0.15927394600585632,
+                "Machine learning": -0.5864677802303574,
+                "Random forest": -0.1942531753117554,
+                "Jenifer (singer)": -0.1942531753117554,
+                "Ground truth": -0.19425317531175543,
+                "Interaction point": -0.19425317531175543,
+                "Streaming media": 0.09330300495404624,
+                "Livestreaming": 0.09330300495404624,
+                "Password": 0.09330300495404624,
+                "Acceleration": 0.09330300495404624,
+                "Innovation": 0.16817301093062217,
+                "Data mining": -0.06703207193516254,
+                "Kyōgen": 0.08647198127246931,
+                "Refraction": 0.08647198127246931,
+                "Mobile app": 0.08647198127246931,
+                "Departments of France": 0.08183774023696128,
+                "Thesis": 0.08183774023696128,
+                "Conflict of interest": 0.08183774023696128,
+                "Yellowjacket": 0.08183774023696128,
+                "Stent": 0.08183774023696128,
+                "Embedded system": -0.12050468684956567,
+                "Social science": -0.12050468684956572,
+                "Computational social science": -0.12050468684956572,
+                "Parsec": -0.12227676590516981,
+                "Peer review": -0.12227676590516984,
+                "Social networking service": 0.03314700784436049,
+                "Graphophone": -0.12924238712960806,
+                "Deep learning": -0.12924238712960806,
+                "Laptop": -0.12924238712960806,
+                "Jellyfish": -0.12924238712960806,
+                "Artificial intelligence": -0.09408047302893754,
+                "Communes of France": -0.09408047302893754,
+                "Computer science": -0.09408047302893754,
+                "Biology": 0.16684578129512562,
+                "Cryptanalysis": 0.16684578129512564,
+                "Knowledge extraction": 0.16684578129512564
+            },
+            "variances": {
+                "Random variable": 0.43288600205522254,
+                "Multinomial distribution": 0.43288600205522254,
+                "Parallel computing": 0.43288600205522254,
+                "Graph coloring": 0.43288600205522254,
+                "Topic model": 0.43288600205522254,
+                "Machine learning": 0.36456186997093565,
+                "Random forest": 0.45841573127082896,
+                "Jenifer (singer)": 0.45841573127082896,
+                "Ground truth": 0.45841573127082896,
+                "Interaction point": 0.45841573127082896,
+                "Streaming media": 0.43291482902805195,
+                "Livestreaming": 0.43291482902805195,
+                "Password": 0.43291482902805195,
+                "Acceleration": 0.43291482902805195,
+                "Innovation": 0.38171929478815164,
+                "Data mining": 0.32863999214678397,
+                "Kyōgen": 0.4317084195916384,
+                "Refraction": 0.4317084195916384,
+                "Mobile app": 0.4317084195916384,
+                "Departments of France": 0.4329510738857167,
+                "Thesis": 0.4329510738857167,
+                "Conflict of interest": 0.4329510738857167,
+                "Yellowjacket": 0.4329510738857167,
+                "Stent": 0.4329510738857167,
+                "Embedded system": 0.46640608550373736,
+                "Social science": 0.46640608550373736,
+                "Computational social science": 0.46640608550373736,
+                "Parsec": 0.4657707631055069,
+                "Peer review": 0.4657707631055069,
+                "Social networking service": 0.40480445264139364,
+                "Graphophone": 0.4652258992871511,
+                "Deep learning": 0.4652258992871511,
+                "Laptop": 0.4652258992871511,
+                "Jellyfish": 0.4652258992871511,
+                "Artificial intelligence": 0.4700573900949549,
+                "Communes of France": 0.4700573900949549,
+                "Computer science": 0.4700573900949549,
+                "Biology": 0.42974366766666416,
+                "Cryptanalysis": 0.42974366766666416,
+                "Knowledge extraction": 0.42974366766666416
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": 0.15927394600585632,
+            "variance": 0.43288600205522254,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26591438.0
+        },
+        {
+            "topic_id": 17588,
+            "topic_name": "Multinomial distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Multinomial_distribution",
+            "mean": 0.15927394600585632,
+            "variance": 0.43288600205522254,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26591438.0
+        },
+        {
+            "topic_id": 19474,
+            "topic_name": "Parallel computing",
+            "topic_url": "https://en.wikipedia.org/wiki/Parallel_computing",
+            "mean": 0.15927394600585632,
+            "variance": 0.43288600205522254,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26591438.0
+        },
+        {
+            "topic_id": 11577,
+            "topic_name": "Graph coloring",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_coloring",
+            "mean": 0.15927394600585632,
+            "variance": 0.43288600205522254,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26591438.0
+        },
+        {
+            "topic_id": 27892,
+            "topic_name": "Topic model",
+            "topic_url": "https://en.wikipedia.org/wiki/Topic_model",
+            "mean": 0.15927394600585632,
+            "variance": 0.43288600205522254,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26591438.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.5864677802303574,
+            "variance": 0.36456186997093565,
+            "interest_mean": 2.746271730543308,
+            "interest_var": 0.24078884463573533,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 22324,
+            "topic_name": "Random forest",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_forest",
+            "mean": -0.1942531753117554,
+            "variance": 0.45841573127082896,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 14137,
+            "topic_name": "Jenifer (singer)",
+            "topic_url": "https://en.wikipedia.org/wiki/Jenifer_(singer)",
+            "mean": -0.1942531753117554,
+            "variance": 0.45841573127082896,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 11772,
+            "topic_name": "Ground truth",
+            "topic_url": "https://en.wikipedia.org/wiki/Ground_truth",
+            "mean": -0.19425317531175543,
+            "variance": 0.45841573127082896,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 13644,
+            "topic_name": "Interaction point",
+            "topic_url": "https://en.wikipedia.org/wiki/Interaction_point",
+            "mean": -0.19425317531175543,
+            "variance": 0.45841573127082896,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 26276,
+            "topic_name": "Streaming media",
+            "topic_url": "https://en.wikipedia.org/wiki/Streaming_media",
+            "mean": 0.09330300495404624,
+            "variance": 0.43291482902805195,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 15460,
+            "topic_name": "Livestreaming",
+            "topic_url": "https://en.wikipedia.org/wiki/Live_streaming",
+            "mean": 0.09330300495404624,
+            "variance": 0.43291482902805195,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 19673,
+            "topic_name": "Password",
+            "topic_url": "https://en.wikipedia.org/wiki/Password",
+            "mean": 0.09330300495404624,
+            "variance": 0.43291482902805195,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 180,
+            "topic_name": "Acceleration",
+            "topic_url": "https://en.wikipedia.org/wiki/Acceleration",
+            "mean": 0.09330300495404624,
+            "variance": 0.43291482902805195,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 13509,
+            "topic_name": "Innovation",
+            "topic_url": "https://en.wikipedia.org/wiki/Innovation",
+            "mean": 0.16817301093062217,
+            "variance": 0.38171929478815164,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 6823,
+            "topic_name": "Data mining",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_mining",
+            "mean": -0.06703207193516254,
+            "variance": 0.32863999214678397,
+            "interest_mean": 2.505777599732331,
+            "interest_var": 0.23966881991779146,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 14556,
+            "topic_name": "Kyōgen",
+            "topic_url": "https://en.wikipedia.org/wiki/Kyōgen",
+            "mean": 0.08647198127246931,
+            "variance": 0.4317084195916384,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 22662,
+            "topic_name": "Refraction",
+            "topic_url": "https://en.wikipedia.org/wiki/Refraction",
+            "mean": 0.08647198127246931,
+            "variance": 0.4317084195916384,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 17131,
+            "topic_name": "Mobile app",
+            "topic_url": "https://en.wikipedia.org/wiki/Mobile_app",
+            "mean": 0.08647198127246931,
+            "variance": 0.4317084195916384,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 7201,
+            "topic_name": "Departments of France",
+            "topic_url": "https://en.wikipedia.org/wiki/Departments_of_France",
+            "mean": 0.08183774023696128,
+            "variance": 0.4329510738857167,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 27591,
+            "topic_name": "Thesis",
+            "topic_url": "https://en.wikipedia.org/wiki/Thesis",
+            "mean": 0.08183774023696128,
+            "variance": 0.4329510738857167,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 5568,
+            "topic_name": "Conflict of interest",
+            "topic_url": "https://en.wikipedia.org/wiki/Conflict_of_interest",
+            "mean": 0.08183774023696128,
+            "variance": 0.4329510738857167,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 30251,
+            "topic_name": "Yellowjacket",
+            "topic_url": "https://en.wikipedia.org/wiki/Yellowjacket",
+            "mean": 0.08183774023696128,
+            "variance": 0.4329510738857167,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 26098,
+            "topic_name": "Stent",
+            "topic_url": "https://en.wikipedia.org/wiki/Stent",
+            "mean": 0.08183774023696128,
+            "variance": 0.4329510738857167,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 8641,
+            "topic_name": "Embedded system",
+            "topic_url": "https://en.wikipedia.org/wiki/Embedded_system",
+            "mean": -0.12050468684956567,
+            "variance": 0.46640608550373736,
+            "interest_mean": 0.7720929642083264,
+            "interest_var": 0.40440403696250193,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 25159,
+            "topic_name": "Social science",
+            "topic_url": "https://en.wikipedia.org/wiki/Social_science",
+            "mean": -0.12050468684956572,
+            "variance": 0.46640608550373736,
+            "interest_mean": 0.7720929642083264,
+            "interest_var": 0.40440403696250193,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 5377,
+            "topic_name": "Computational social science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computational_social_science",
+            "mean": -0.12050468684956572,
+            "variance": 0.46640608550373736,
+            "interest_mean": 0.7720929642083264,
+            "interest_var": 0.40440403696250193,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 19575,
+            "topic_name": "Parsec",
+            "topic_url": "https://en.wikipedia.org/wiki/Parsec",
+            "mean": -0.12227676590516981,
+            "variance": 0.4657707631055069,
+            "interest_mean": 0.5650136437786993,
+            "interest_var": 0.4061381304919771,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 19820,
+            "topic_name": "Peer review",
+            "topic_url": "https://en.wikipedia.org/wiki/Peer_review",
+            "mean": -0.12227676590516984,
+            "variance": 0.4657707631055069,
+            "interest_mean": 0.5650136437786993,
+            "interest_var": 0.4061381304919771,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 25143,
+            "topic_name": "Social networking service",
+            "topic_url": "https://en.wikipedia.org/wiki/Social_networking_service",
+            "mean": 0.03314700784436049,
+            "variance": 0.40480445264139364,
+            "interest_mean": 1.111435065277846,
+            "interest_var": 0.3412846737844829,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 11619,
+            "topic_name": "Graphophone",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphophone",
+            "mean": -0.12924238712960806,
+            "variance": 0.4652258992871511,
+            "interest_mean": 0.7567671972403396,
+            "interest_var": 0.4042775538634809,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": -0.12924238712960806,
+            "variance": 0.4652258992871511,
+            "interest_mean": 0.7567671972403396,
+            "interest_var": 0.4042775538634809,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 14713,
+            "topic_name": "Laptop",
+            "topic_url": "https://en.wikipedia.org/wiki/Laptop",
+            "mean": -0.12924238712960806,
+            "variance": 0.4652258992871511,
+            "interest_mean": 0.7567671972403396,
+            "interest_var": 0.4042775538634809,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 14135,
+            "topic_name": "Jellyfish",
+            "topic_url": "https://en.wikipedia.org/wiki/Jellyfish",
+            "mean": -0.12924238712960806,
+            "variance": 0.4652258992871511,
+            "interest_mean": 0.7567671972403396,
+            "interest_var": 0.4042775538634809,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": -0.09408047302893754,
+            "variance": 0.4700573900949549,
+            "interest_mean": 0.3619504825565081,
+            "interest_var": 0.414261809200823,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 5152,
+            "topic_name": "Communes of France",
+            "topic_url": "https://en.wikipedia.org/wiki/Communes_of_France",
+            "mean": -0.09408047302893754,
+            "variance": 0.4700573900949549,
+            "interest_mean": 0.3619504825565081,
+            "interest_var": 0.414261809200823,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": -0.09408047302893754,
+            "variance": 0.4700573900949549,
+            "interest_mean": 0.3619504825565081,
+            "interest_var": 0.414261809200823,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 2550,
+            "topic_name": "Biology",
+            "topic_url": "https://en.wikipedia.org/wiki/Biology",
+            "mean": 0.16684578129512562,
+            "variance": 0.42974366766666416,
+            "interest_mean": 0.6727039158293717,
+            "interest_var": 0.40170631725251255,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 6454,
+            "topic_name": "Cryptanalysis",
+            "topic_url": "https://en.wikipedia.org/wiki/Cryptanalysis",
+            "mean": 0.16684578129512564,
+            "variance": 0.42974366766666416,
+            "interest_mean": 0.6727039158293717,
+            "interest_var": 0.40170631725251255,
+            "timestamp": 26593551.0
+        },
+        {
+            "topic_id": 14492,
+            "topic_name": "Knowledge extraction",
+            "topic_url": "https://en.wikipedia.org/wiki/Knowledge_extraction",
+            "mean": 0.16684578129512564,
+            "variance": 0.42974366766666416,
+            "interest_mean": 0.6727039158293717,
+            "interest_var": 0.40170631725251255,
+            "timestamp": 26593551.0
+        }
+    ]
+}

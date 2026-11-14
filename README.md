@@ -1,34 +1,66 @@
-# TrueLearn — Visualización del perfil del estudiante y feedback explícito
+# TrueLearn — Visualización del perfil del estudiante y corrección del modelo en tiempo real
 
-Proyecto Final de Carrera — Ingeniería en Informática, FPUNA.
+Proyecto Final de Carrera — Ingeniería en Informática, FPUNA (2026).
 
-Este árbol de archivos es la versión corregida del proyecto: ver
-[`CAMBIOS.md`](./CAMBIOS.md) para el detalle completo de cada fix, su
-justificación y su test de regresión asociado.
+Tablero en Streamlit y backend en Flask sobre la biblioteca
+[TrueLearn](https://github.com/sahanbull/TrueLearn) 1.1.0. Muestra el perfil
+del estudiante (conocimiento e interés por tema) y permite que el estudiante
+corrija las estimaciones del modelo; el modelo se actualiza al momento con una
+regla bayesiana de corrección.
 
 ## Estructura
 
 ```
-tesis/
-├── dashboard.py          # Entry point de Streamlit
-├── shared.py              # CSS, helpers HTTP y popup de corrección
-├── pages/                 # Una página de Streamlit por pantalla
+.
+├── dashboard.py              # Punto de entrada de Streamlit (página de inicio)
+├── shared.py                 # CSS, funciones HTTP y ventana de corrección
+├── ajuste_letras.py          # Tamaños de letra compartidos por las páginas
+├── pages/                    # Una página de Streamlit por pantalla
+│   ├── login.py              #   elección del estudiante
+│   ├── resumen.py            #   resumen del perfil
+│   ├── temas.py              #   mapa de temas
+│   ├── evolucion.py          #   evolución temporal
+│   ├── prediccion.py         #   predicción y correcciones al modelo
+│   ├── historial.py          #   historial de correcciones
+│   └── pesos_ink.py          #   pesos del INKClassifier
 ├── logic/
-│   ├── api_backend.py     # Backend Flask (puerto 5000)
-│   ├── entrenador.py      # Entrena INKClassifier sobre PEEK
-│   ├── dominio.py         # Única fuente de verdad: rangos/umbrales/%
-│   ├── peek_loader.py     # Carga centralizada y thread-safe de PEEK
-│   ├── modelo_utils.py    # Utilidades sobre el classifier de TrueLearn
+│   ├── api_backend.py        # Backend Flask (puerto 5000)
+│   ├── administracion.py     # Restablecer todo y correcciones ficticias
+│   ├── entrenador.py         # Entrena el INKClassifier sobre PEEK
+│   ├── dominio.py            # Rangos, umbrales y escalas del dominio
+│   ├── peek_loader.py        # Carga del dataset PEEK
+│   ├── modelo_utils.py       # Utilidades sobre el clasificador de TrueLearn
 │   ├── extractor_peek.py
 │   ├── preparar_datos.py
 │   └── gestor_perfil.py
-├── tests/                 # 94 tests automatizados (pytest + AppTest)
-├── data/                  # JSONs de perfiles (se genera al entrenar)
-├── models/                # .pkl de modelos entrenados (se genera al entrenar)
-├── requirements.txt
-├── pytest.ini
-└── CAMBIOS.md
+├── tests/                    # Pruebas automatizadas (pytest, AppTest y e2e)
+├── data/                     # Perfiles JSON (se generan al entrenar)
+├── models/                   # Modelos entrenados .pkl (se generan al entrenar)
+├── analisis_sensibilidad/    # Resultados de los scripts de análisis (CSV/JSON)
+├── requirements.txt          # Dependencias de ejecución (versiones exactas)
+├── requirements-dev.txt      # Dependencias de desarrollo
+└── pyproject.toml            # Configuración del proyecto
 ```
+
+### Scripts de análisis y calibración
+
+Estos scripts no forman parte de la aplicación. Respaldan con datos las
+decisiones de diseño de `logic/dominio.py` y producen los resultados que usa
+la tesis:
+
+| Script | Qué hace |
+|---|---|
+| `entrenar_gran_escala.py` | Entrena a todos los usuarios del split de entrenamiento de PEEK con al menos un evento |
+| `calibrar_dominio.py` | Estadísticas empíricas de la media y la varianza de los componentes de conocimiento |
+| `calibrar_pesos.py` | Rangos de los pesos del clasificador con todos los usuarios |
+| `calibracion_por_estrato.py` | Muestra que la calibración de la escala no depende del nivel de actividad |
+| `calibrar_correcciones.py` | Respalda con datos la magnitud de las correcciones explícitas |
+| `sensibilidad_correccion.py` | Cuánto cambia la corrección según el parámetro `EVENTOS_EQUIVALENTES` |
+| `analisis_sensibilidad.py` | Respalda dos decisiones de diseño que no tienen fuente en la literatura |
+| `analisis_confianza_equipo.py` | Respaldo de la confianza (1 − varianza) × 100 |
+| `interes_masas.py` | Diagnóstico de la distribución de los terciles de interés |
+| `llenar_correcciones.py` | Llena con correcciones explícitas a los estudiantes ya entrenados |
+| `versiones.py` | Imprime las versiones usadas en el proyecto |
 
 ## Instalación
 
@@ -38,35 +70,32 @@ source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Para desarrollo (tests, linter, type-checker, cobertura):
+Para desarrollo (pruebas, linter, verificador de tipos, cobertura, navegador
+para las pruebas e2e):
 
 ```bash
 pip install -r requirements-dev.txt
+playwright install chromium
 ```
 
-Si `pip install truelearn` falla en Python 3.12+ (ver nota en
-`CAMBIOS.md`, sección final), usar:
+Si `pip install truelearn` falla (por ejemplo, en Python 3.12 o superior):
 
 ```bash
 pip install --no-deps truelearn
 pip install trueskill mpmath
 ```
 
-## Correr los tests (165 tests; 146 corren incluso sin truelearn instalado)
+## Datos
 
-```bash
-pytest -v
-```
+El dataset PEEK (Bulathwela et al., 2021) se descarga solo la primera vez que
+se entrena (`logic/peek_loader.py`). Su repositorio,
+[PEEKC-Dataset](https://github.com/sahanbull/PEEKC-Dataset), lo ofrece
+únicamente para investigación no comercial. Por eso el dataset y los archivos
+que se generan a partir de él no se incluyen en este repositorio.
 
-## Calidad de código
+## Entrenar los modelos
 
-```bash
-ruff check .                                              # linter
-mypy logic/dominio.py logic/modelo_utils.py logic/entrenador.py logic/peek_loader.py
-pytest --cov --cov-report=term-missing                    # cobertura (97.7%)
-```
-
-## Entrenar los modelos (requiere descargar PEEK, puede tardar)
+Requiere descargar PEEK y puede tardar:
 
 ```bash
 python -m logic.entrenador
@@ -74,13 +103,14 @@ python -m logic.entrenador
 
 ## Levantar el sistema completo
 
-En una terminal:
+Desde la raíz del proyecto y con el entorno virtual activado. En una terminal
+(backend, puerto 5000):
 
 ```bash
-python logic/api_backend.py
+python -m logic.api_backend
 ```
 
-En otra terminal:
+En otra terminal (tablero, puerto 8501 por defecto):
 
 ```bash
 streamlit run dashboard.py
@@ -89,9 +119,22 @@ streamlit run dashboard.py
 Por defecto el backend corre con `debug=False`. Para depurar localmente:
 
 ```bash
-TRUELEARN_DEBUG=1 python logic/api_backend.py
+TRUELEARN_DEBUG=1 python -m logic.api_backend          # Linux / macOS
+$env:TRUELEARN_DEBUG=1; python -m logic.api_backend    # Windows (PowerShell)
 ```
 
-**No** activar `TRUELEARN_DEBUG` si el puerto va a quedar accesible más
-allá de `localhost`: el modo debug de Flask permite ejecución de código
-arbitrario desde el navegador ante cualquier traceback.
+**No** activar `TRUELEARN_DEBUG` si el puerto va a quedar accesible más allá
+de `localhost`: el modo debug de Flask permite ejecución de código arbitrario
+desde el navegador ante cualquier error.
+
+## Pruebas y calidad de código
+
+```bash
+pytest -v                                                 # pruebas
+pytest --cov --cov-report=term-missing                    # cobertura
+ruff check .                                              # linter
+mypy logic/dominio.py logic/modelo_utils.py logic/entrenador.py logic/peek_loader.py
+```
+
+Algunas pruebas necesitan `truelearn` instalado y las pruebas e2e necesitan
+Playwright con Chromium; el resto corre sin ellos.

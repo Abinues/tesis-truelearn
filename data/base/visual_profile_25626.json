@@ -1,0 +1,458 @@
+{
+    "user_id": 25626,
+    "number_of_engagements": 8,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 1.086794204907976,
+            "variance": 0.4038033127891853
+        },
+        "interest": {
+            "mean": 1.0763169438422904,
+            "variance": 0.37827049652624917
+        },
+        "bias": {
+            "mean": 0.6875945561549123,
+            "variance": 0.2860150108788844
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 18262687.0,
+            "means": {
+                "Epistemology": -0.10795149130126269,
+                "Medicine": -0.10795149130126269,
+                "Germ theory of disease": -0.10795149130126269,
+                "Smallpox": -0.10795149130126269,
+                "Cholera": -0.10795149130126269
+            },
+            "variances": {
+                "Epistemology": 0.46906056750200403,
+                "Medicine": 0.46906056750200403,
+                "Germ theory of disease": 0.46906056750200403,
+                "Smallpox": 0.46906056750200403,
+                "Cholera": 0.46906056750200403
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 18265724.0,
+            "means": {
+                "Epistemology": -0.10795149130126269,
+                "Medicine": -0.10795149130126269,
+                "Germ theory of disease": 0.021469822697428528,
+                "Smallpox": 0.030000079249481938,
+                "Cholera": 0.4408205535914677,
+                "Endemism": 0.14705091421925517,
+                "Industrial Revolution": 0.14705091421925517,
+                "Lemon": 0.14705091421925517,
+                "Cemetery": 0.12449376570070987,
+                "Epidemic": 0.12449376570070987,
+                "Organized crime": 0.12449376570070987,
+                "Asthma": 0.12449376570070987,
+                "Dinosaur": 0.12449376570070987,
+                "Infection": 0.25064805470237667,
+                "Quarantine": 0.1632615731714922,
+                "Hospital": 0.1632615731714922,
+                "World War II": 0.16326157317149223,
+                "Sepsis": 0.1379579983539527,
+                "Intravenous therapy": 0.1379579983539527,
+                "Case fatality rate": 0.1379579983539527,
+                "Bubonic plague": 0.1013154738496344,
+                "Public health": 0.2438308993970535,
+                "International law": 0.1013154738496344,
+                "Unification of Italy": 0.10143390094038186,
+                "Grand tourer": 0.10143390094038188,
+                "South America": 0.10143390094038188,
+                "Italy": 0.10143390094038186,
+                "Strychnine": 0.09438707997455363,
+                "Caffeine": 0.09438707997455364,
+                "Left-wing politics": 0.09438707997455364,
+                "Health policy": 0.08226514451713289,
+                "Naples": 0.08226514451713289,
+                "United Kingdom": 0.08226514451713289,
+                "Literature": 0.08226514451713289
+            },
+            "variances": {
+                "Epistemology": 0.46906056750200403,
+                "Medicine": 0.46906056750200403,
+                "Germ theory of disease": 0.4072696632111445,
+                "Smallpox": 0.40899764175093695,
+                "Cholera": 0.24936097927013012,
+                "Endemism": 0.43175220210907894,
+                "Industrial Revolution": 0.43175220210907894,
+                "Lemon": 0.43175220210907894,
+                "Cemetery": 0.4329148282705356,
+                "Epidemic": 0.4329148282705356,
+                "Organized crime": 0.4329148282705356,
+                "Asthma": 0.4329148282705356,
+                "Dinosaur": 0.4329148282705356,
+                "Infection": 0.37791319211981883,
+                "Quarantine": 0.4312593042824712,
+                "Hospital": 0.4312593042824712,
+                "World War II": 0.4312593042824712,
+                "Sepsis": 0.4297887491359025,
+                "Intravenous therapy": 0.4297887491359025,
+                "Case fatality rate": 0.4297887491359025,
+                "Bubonic plague": 0.42829229444349826,
+                "Public health": 0.33582530440783404,
+                "International law": 0.42829229444349826,
+                "Unification of Italy": 0.4290777353064965,
+                "Grand tourer": 0.4290777353064965,
+                "South America": 0.4290777353064965,
+                "Italy": 0.4290777353064965,
+                "Strychnine": 0.4270874528514377,
+                "Caffeine": 0.4270874528514377,
+                "Left-wing politics": 0.4270874528514377,
+                "Health policy": 0.43064663743649445,
+                "Naples": 0.43064663743649445,
+                "United Kingdom": 0.43064663743649445,
+                "Literature": 0.43064663743649445
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 8957,
+            "topic_name": "Epistemology",
+            "topic_url": "https://en.wikipedia.org/wiki/Epistemology",
+            "mean": -0.10795149130126269,
+            "variance": 0.46906056750200403,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 18262687.0
+        },
+        {
+            "topic_id": 16524,
+            "topic_name": "Medicine",
+            "topic_url": "https://en.wikipedia.org/wiki/Medicine",
+            "mean": -0.10795149130126269,
+            "variance": 0.46906056750200403,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 18262687.0
+        },
+        {
+            "topic_id": 11191,
+            "topic_name": "Germ theory of disease",
+            "topic_url": "https://en.wikipedia.org/wiki/Germ_theory_of_disease",
+            "mean": 0.021469822697428528,
+            "variance": 0.4072696632111445,
+            "interest_mean": 1.5297527326893956,
+            "interest_var": 0.3455409391465786,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 24978,
+            "topic_name": "Smallpox",
+            "topic_url": "https://en.wikipedia.org/wiki/Smallpox",
+            "mean": 0.030000079249481938,
+            "variance": 0.40899764175093695,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 4338,
+            "topic_name": "Cholera",
+            "topic_url": "https://en.wikipedia.org/wiki/Cholera",
+            "mean": 0.4408205535914677,
+            "variance": 0.24936097927013012,
+            "interest_mean": 3.3812171251262035,
+            "interest_var": 0.20022850347782287,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 8739,
+            "topic_name": "Endemism",
+            "topic_url": "https://en.wikipedia.org/wiki/Endemism",
+            "mean": 0.14705091421925517,
+            "variance": 0.43175220210907894,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 13299,
+            "topic_name": "Industrial Revolution",
+            "topic_url": "https://en.wikipedia.org/wiki/Industrial_Revolution",
+            "mean": 0.14705091421925517,
+            "variance": 0.43175220210907894,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 14969,
+            "topic_name": "Lemon",
+            "topic_url": "https://en.wikipedia.org/wiki/Lemon",
+            "mean": 0.14705091421925517,
+            "variance": 0.43175220210907894,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 3948,
+            "topic_name": "Cemetery",
+            "topic_url": "https://en.wikipedia.org/wiki/Cemetery",
+            "mean": 0.12449376570070987,
+            "variance": 0.4329148282705356,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 8933,
+            "topic_name": "Epidemic",
+            "topic_url": "https://en.wikipedia.org/wiki/Epidemic",
+            "mean": 0.12449376570070987,
+            "variance": 0.4329148282705356,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 19134,
+            "topic_name": "Organized crime",
+            "topic_url": "https://en.wikipedia.org/wiki/Organized_crime",
+            "mean": 0.12449376570070987,
+            "variance": 0.4329148282705356,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 1571,
+            "topic_name": "Asthma",
+            "topic_url": "https://en.wikipedia.org/wiki/Asthma",
+            "mean": 0.12449376570070987,
+            "variance": 0.4329148282705356,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 7541,
+            "topic_name": "Dinosaur",
+            "topic_url": "https://en.wikipedia.org/wiki/Dinosaur",
+            "mean": 0.12449376570070987,
+            "variance": 0.4329148282705356,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 13340,
+            "topic_name": "Infection",
+            "topic_url": "https://en.wikipedia.org/wiki/Infection",
+            "mean": 0.25064805470237667,
+            "variance": 0.37791319211981883,
+            "interest_mean": 1.2602542413348865,
+            "interest_var": 0.34342674374429233,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 22088,
+            "topic_name": "Quarantine",
+            "topic_url": "https://en.wikipedia.org/wiki/Quarantine",
+            "mean": 0.1632615731714922,
+            "variance": 0.4312593042824712,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 12628,
+            "topic_name": "Hospital",
+            "topic_url": "https://en.wikipedia.org/wiki/Hospital",
+            "mean": 0.1632615731714922,
+            "variance": 0.4312593042824712,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 30148,
+            "topic_name": "World War II",
+            "topic_url": "https://en.wikipedia.org/wiki/World_War_II",
+            "mean": 0.16326157317149223,
+            "variance": 0.4312593042824712,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 24254,
+            "topic_name": "Sepsis",
+            "topic_url": "https://en.wikipedia.org/wiki/Sepsis",
+            "mean": 0.1379579983539527,
+            "variance": 0.4297887491359025,
+            "interest_mean": 0.5456919022916069,
+            "interest_var": 0.4076999158679227,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 13847,
+            "topic_name": "Intravenous therapy",
+            "topic_url": "https://en.wikipedia.org/wiki/Intravenous_therapy",
+            "mean": 0.1379579983539527,
+            "variance": 0.4297887491359025,
+            "interest_mean": 0.5456919022916069,
+            "interest_var": 0.4076999158679227,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 3784,
+            "topic_name": "Case fatality rate",
+            "topic_url": "https://en.wikipedia.org/wiki/Case_fatality_rate",
+            "mean": 0.1379579983539527,
+            "variance": 0.4297887491359025,
+            "interest_mean": 0.5456919022916069,
+            "interest_var": 0.4076999158679227,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 3174,
+            "topic_name": "Bubonic plague",
+            "topic_url": "https://en.wikipedia.org/wiki/Bubonic_plague",
+            "mean": 0.1013154738496344,
+            "variance": 0.42829229444349826,
+            "interest_mean": 0.5408103393349053,
+            "interest_var": 0.40663484091712476,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 21821,
+            "topic_name": "Public health",
+            "topic_url": "https://en.wikipedia.org/wiki/Public_health",
+            "mean": 0.2438308993970535,
+            "variance": 0.33582530440783404,
+            "interest_mean": 1.608761403584855,
+            "interest_var": 0.2987241898526371,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 13743,
+            "topic_name": "International law",
+            "topic_url": "https://en.wikipedia.org/wiki/International_law",
+            "mean": 0.1013154738496344,
+            "variance": 0.42829229444349826,
+            "interest_mean": 0.5408103393349051,
+            "interest_var": 0.40663484091712476,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 14062,
+            "topic_name": "Unification of Italy",
+            "topic_url": "https://en.wikipedia.org/wiki/Italian_unification",
+            "mean": 0.10143390094038186,
+            "variance": 0.4290777353064965,
+            "interest_mean": 0.6266798343674044,
+            "interest_var": 0.4057671047871797,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 11555,
+            "topic_name": "Grand tourer",
+            "topic_url": "https://en.wikipedia.org/wiki/Grand_tourer",
+            "mean": 0.10143390094038188,
+            "variance": 0.4290777353064965,
+            "interest_mean": 0.6266798343674044,
+            "interest_var": 0.4057671047871797,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 25413,
+            "topic_name": "South America",
+            "topic_url": "https://en.wikipedia.org/wiki/South_America",
+            "mean": 0.10143390094038188,
+            "variance": 0.4290777353064965,
+            "interest_mean": 0.6266798343674044,
+            "interest_var": 0.4057671047871797,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 14064,
+            "topic_name": "Italy",
+            "topic_url": "https://en.wikipedia.org/wiki/Italy",
+            "mean": 0.10143390094038186,
+            "variance": 0.4290777353064965,
+            "interest_mean": 0.6266798343674044,
+            "interest_var": 0.4057671047871797,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 26398,
+            "topic_name": "Strychnine",
+            "topic_url": "https://en.wikipedia.org/wiki/Strychnine",
+            "mean": 0.09438707997455363,
+            "variance": 0.4270874528514377,
+            "interest_mean": 0.49232720295125354,
+            "interest_var": 0.40737130300176994,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 3414,
+            "topic_name": "Caffeine",
+            "topic_url": "https://en.wikipedia.org/wiki/Caffeine",
+            "mean": 0.09438707997455364,
+            "variance": 0.4270874528514377,
+            "interest_mean": 0.49232720295125343,
+            "interest_var": 0.40737130300176994,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 14933,
+            "topic_name": "Left-wing politics",
+            "topic_url": "https://en.wikipedia.org/wiki/Left-wing_politics",
+            "mean": 0.09438707997455364,
+            "variance": 0.4270874528514377,
+            "interest_mean": 0.49232720295125343,
+            "interest_var": 0.40737130300176994,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 12115,
+            "topic_name": "Health policy",
+            "topic_url": "https://en.wikipedia.org/wiki/Health_policy",
+            "mean": 0.08226514451713289,
+            "variance": 0.43064663743649445,
+            "interest_mean": 0.9664377424418963,
+            "interest_var": 0.40223573055202294,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 17829,
+            "topic_name": "Naples",
+            "topic_url": "https://en.wikipedia.org/wiki/Naples",
+            "mean": 0.08226514451713289,
+            "variance": 0.43064663743649445,
+            "interest_mean": 0.9664377424418963,
+            "interest_var": 0.40223573055202294,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 28773,
+            "topic_name": "United Kingdom",
+            "topic_url": "https://en.wikipedia.org/wiki/United_Kingdom",
+            "mean": 0.08226514451713289,
+            "variance": 0.43064663743649445,
+            "interest_mean": 0.9664377424418963,
+            "interest_var": 0.40223573055202294,
+            "timestamp": 18265724.0
+        },
+        {
+            "topic_id": 15431,
+            "topic_name": "Literature",
+            "topic_url": "https://en.wikipedia.org/wiki/Literature",
+            "mean": 0.08226514451713289,
+            "variance": 0.43064663743649445,
+            "interest_mean": 0.9664377424418963,
+            "interest_var": 0.40223573055202294,
+            "timestamp": 18265724.0
+        }
+    ]
+}

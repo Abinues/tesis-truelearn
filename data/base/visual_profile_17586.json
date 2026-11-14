@@ -1,0 +1,372 @@
+{
+    "user_id": 17586,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.7704347332547733,
+            "variance": 0.4384212840415624
+        },
+        "interest": {
+            "mean": 0.7341878447177846,
+            "variance": 0.42464778152774285
+        },
+        "bias": {
+            "mean": 0.35869046802547466,
+            "variance": 0.33888061877592823
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 27490185.0,
+            "means": {
+                "Graph partition": 0.07725988235297318,
+                "Ion": 0.07725988235297318,
+                "Graph (discrete mathematics)": 0.07725988235297318,
+                "Structure formation": 0.07725988235297318,
+                "Brain": 0.07725988235297318
+            },
+            "variances": {
+                "Graph partition": 0.43288596619387854,
+                "Ion": 0.43288596619387854,
+                "Graph (discrete mathematics)": 0.43288596619387854,
+                "Structure formation": 0.43288596619387854,
+                "Brain": 0.43288596619387854
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 28988564.0,
+            "means": {
+                "Graph partition": 0.07725988235297318,
+                "Ion": 0.07725988235297318,
+                "Graph (discrete mathematics)": 0.07725988235297318,
+                "Structure formation": 0.07725988235297318,
+                "Brain": 0.07725988235297318,
+                "Controlled-access highway": 0.24144818837078857,
+                "Autonomous system (Internet)": 0.11262653927324234,
+                "Laser": 0.11262653927324234,
+                "Pedestrian": 0.11262653927324234,
+                "Radar": 0.11262653927324234,
+                "Self-driving car": 0.148754112260407,
+                "Artificial intelligence": 0.148754112260407,
+                "Dominoes": 0.148754112260407,
+                "Driver's license": 0.148754112260407,
+                "List of automated train systems": -0.16208456539937321,
+                "Petal": -0.16208456539937321,
+                "Straight-four engine": -0.16208456539937321,
+                "Marshmallow": -0.16208456539937321,
+                "Positive feedback": -0.16208456539937321
+            },
+            "variances": {
+                "Graph partition": 0.43288596619387854,
+                "Ion": 0.43288596619387854,
+                "Graph (discrete mathematics)": 0.43288596619387854,
+                "Structure formation": 0.43288596619387854,
+                "Brain": 0.43288596619387854,
+                "Controlled-access highway": 0.38183727689488284,
+                "Autonomous system (Internet)": 0.43300197601271245,
+                "Laser": 0.43300197601271245,
+                "Pedestrian": 0.43300197601271245,
+                "Radar": 0.43300197601271245,
+                "Self-driving car": 0.4317770214029227,
+                "Artificial intelligence": 0.4317770214029227,
+                "Dominoes": 0.4317770214029227,
+                "Driver's license": 0.4317770214029227,
+                "List of automated train systems": 0.4617550204178881,
+                "Petal": 0.4617550204178881,
+                "Straight-four engine": 0.4617550204178881,
+                "Marshmallow": 0.4617550204178881,
+                "Positive feedback": 0.4617550204178881
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 28988926.0,
+            "means": {
+                "Graph partition": 0.07725988235297318,
+                "Ion": 0.07725988235297318,
+                "Graph (discrete mathematics)": 0.07725988235297318,
+                "Structure formation": 0.07725988235297318,
+                "Brain": 0.07725988235297318,
+                "Controlled-access highway": 0.24144818837078857,
+                "Autonomous system (Internet)": 0.11262653927324234,
+                "Laser": 0.11262653927324234,
+                "Pedestrian": 0.11262653927324234,
+                "Radar": 0.11262653927324234,
+                "Self-driving car": 0.148754112260407,
+                "Artificial intelligence": 0.2542411460096866,
+                "Dominoes": 0.148754112260407,
+                "Driver's license": 0.148754112260407,
+                "List of automated train systems": -0.16208456539937321,
+                "Petal": -0.16208456539937321,
+                "Straight-four engine": -0.16208456539937321,
+                "Marshmallow": -0.16208456539937321,
+                "Positive feedback": -0.16208456539937321,
+                "Expert system": 0.12215452481298442,
+                "Mass spectrometry": 0.12215452481298442,
+                "Computer science": 0.12215452481298442,
+                "Emeritus": 0.12215452481298442
+            },
+            "variances": {
+                "Graph partition": 0.43288596619387854,
+                "Ion": 0.43288596619387854,
+                "Graph (discrete mathematics)": 0.43288596619387854,
+                "Structure formation": 0.43288596619387854,
+                "Brain": 0.43288596619387854,
+                "Controlled-access highway": 0.38183727689488284,
+                "Autonomous system (Internet)": 0.43300197601271245,
+                "Laser": 0.43300197601271245,
+                "Pedestrian": 0.43300197601271245,
+                "Radar": 0.43300197601271245,
+                "Self-driving car": 0.4317770214029227,
+                "Artificial intelligence": 0.38084501015857125,
+                "Dominoes": 0.4317770214029227,
+                "Driver's license": 0.4317770214029227,
+                "List of automated train systems": 0.4617550204178881,
+                "Petal": 0.4617550204178881,
+                "Straight-four engine": 0.4617550204178881,
+                "Marshmallow": 0.4617550204178881,
+                "Positive feedback": 0.4617550204178881,
+                "Expert system": 0.43170140292980885,
+                "Mass spectrometry": 0.43170140292980885,
+                "Computer science": 0.43170140292980885,
+                "Emeritus": 0.43170140292980885
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 11596,
+            "topic_name": "Graph partition",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_partition",
+            "mean": 0.07725988235297318,
+            "variance": 0.43288596619387854,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27490185.0
+        },
+        {
+            "topic_id": 13929,
+            "topic_name": "Ion",
+            "topic_url": "https://en.wikipedia.org/wiki/Ion",
+            "mean": 0.07725988235297318,
+            "variance": 0.43288596619387854,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27490185.0
+        },
+        {
+            "topic_id": 11574,
+            "topic_name": "Graph (discrete mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "mean": 0.07725988235297318,
+            "variance": 0.43288596619387854,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27490185.0
+        },
+        {
+            "topic_id": 26382,
+            "topic_name": "Structure formation",
+            "topic_url": "https://en.wikipedia.org/wiki/Structure_formation",
+            "mean": 0.07725988235297318,
+            "variance": 0.43288596619387854,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27490185.0
+        },
+        {
+            "topic_id": 3008,
+            "topic_name": "Brain",
+            "topic_url": "https://en.wikipedia.org/wiki/Brain",
+            "mean": 0.07725988235297318,
+            "variance": 0.43288596619387854,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 27490185.0
+        },
+        {
+            "topic_id": 5881,
+            "topic_name": "Controlled-access highway",
+            "topic_url": "https://en.wikipedia.org/wiki/Controlled-access_highway",
+            "mean": 0.24144818837078857,
+            "variance": 0.38183727689488284,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 1793,
+            "topic_name": "Autonomous system (Internet)",
+            "topic_url": "https://en.wikipedia.org/wiki/Autonomous_system_(Internet)",
+            "mean": 0.11262653927324234,
+            "variance": 0.43300197601271245,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 14731,
+            "topic_name": "Laser",
+            "topic_url": "https://en.wikipedia.org/wiki/Laser",
+            "mean": 0.11262653927324234,
+            "variance": 0.43300197601271245,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 19803,
+            "topic_name": "Pedestrian",
+            "topic_url": "https://en.wikipedia.org/wiki/Pedestrian",
+            "mean": 0.11262653927324234,
+            "variance": 0.43300197601271245,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 22207,
+            "topic_name": "Radar",
+            "topic_url": "https://en.wikipedia.org/wiki/Radar",
+            "mean": 0.11262653927324234,
+            "variance": 0.43300197601271245,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 24088,
+            "topic_name": "Self-driving car",
+            "topic_url": "https://en.wikipedia.org/wiki/Self-driving_car",
+            "mean": 0.148754112260407,
+            "variance": 0.4317770214029227,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": 0.2542411460096866,
+            "variance": 0.38084501015857125,
+            "interest_mean": 1.6859066884922465,
+            "interest_var": 0.3426791264591452,
+            "timestamp": 28988926.0
+        },
+        {
+            "topic_id": 7883,
+            "topic_name": "Dominoes",
+            "topic_url": "https://en.wikipedia.org/wiki/Dominoes",
+            "mean": 0.148754112260407,
+            "variance": 0.4317770214029227,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 8038,
+            "topic_name": "Driver's license",
+            "topic_url": "https://en.wikipedia.org/wiki/Driver's_license",
+            "mean": 0.148754112260407,
+            "variance": 0.4317770214029227,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 15353,
+            "topic_name": "List of automated train systems",
+            "topic_url": "https://en.wikipedia.org/wiki/List_of_automated_train_systems",
+            "mean": -0.16208456539937321,
+            "variance": 0.4617550204178881,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 20048,
+            "topic_name": "Petal",
+            "topic_url": "https://en.wikipedia.org/wiki/Petal",
+            "mean": -0.16208456539937321,
+            "variance": 0.4617550204178881,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 13499,
+            "topic_name": "Straight-four engine",
+            "topic_url": "https://en.wikipedia.org/wiki/Inline-four_engine",
+            "mean": -0.16208456539937321,
+            "variance": 0.4617550204178881,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 16186,
+            "topic_name": "Marshmallow",
+            "topic_url": "https://en.wikipedia.org/wiki/Marshmallow",
+            "mean": -0.16208456539937321,
+            "variance": 0.4617550204178881,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 20894,
+            "topic_name": "Positive feedback",
+            "topic_url": "https://en.wikipedia.org/wiki/Positive_feedback",
+            "mean": -0.16208456539937321,
+            "variance": 0.4617550204178881,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 28988564.0
+        },
+        {
+            "topic_id": 9354,
+            "topic_name": "Expert system",
+            "topic_url": "https://en.wikipedia.org/wiki/Expert_system",
+            "mean": 0.12215452481298442,
+            "variance": 0.43170140292980885,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 28988926.0
+        },
+        {
+            "topic_id": 16245,
+            "topic_name": "Mass spectrometry",
+            "topic_url": "https://en.wikipedia.org/wiki/Mass_spectrometry",
+            "mean": 0.12215452481298442,
+            "variance": 0.43170140292980885,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 28988926.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": 0.12215452481298442,
+            "variance": 0.43170140292980885,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 28988926.0
+        },
+        {
+            "topic_id": 8671,
+            "topic_name": "Emeritus",
+            "topic_url": "https://en.wikipedia.org/wiki/Emeritus",
+            "mean": 0.12215452481298442,
+            "variance": 0.43170140292980885,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 28988926.0
+        }
+    ]
+}

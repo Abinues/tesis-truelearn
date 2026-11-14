@@ -1,0 +1,328 @@
+{
+    "user_id": 33742,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 3,
+    "weights": {
+        "novelty": {
+            "mean": 0.7739992846362328,
+            "variance": 0.42747166168648254
+        },
+        "interest": {
+            "mean": 0.7275318686406849,
+            "variance": 0.37334188232397997
+        },
+        "bias": {
+            "mean": 0.08663187649365862,
+            "variance": 0.30026359399007485
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 30090240.0,
+            "means": {
+                "Covariance matrix": -0.12233047997535527,
+                "Machine learning": -0.12233047997535527,
+                "Probability distribution": -0.12233047997535527,
+                "First-hitting-time model": -0.12233047997535527,
+                "Estimation theory": -0.12233047997535527,
+                "Stochastic differential equation": 0.23117413050848545,
+                "Spectral density": -0.01239178308677496,
+                "Discrete time and continuous time": -0.11893704291105817,
+                "Differential equation": 0.23117413050848545,
+                "Stochastic process": 0.14620537919877533,
+                "Harmonic oscillator": -0.10550681979950453,
+                "Differentiable function": -0.10550681979950453,
+                "Covariance function": -0.10550681979950453,
+                "Stochastic": 0.4182383099187389,
+                "Independent increments": 0.28365741221141566,
+                "White noise": 0.2538356288772694,
+                "Normal distribution": 0.15647798664424553,
+                "Linear time-invariant system": 0.11398535339859603
+            },
+            "variances": {
+                "Covariance matrix": 0.466864723559914,
+                "Machine learning": 0.466864723559914,
+                "Probability distribution": 0.466864723559914,
+                "First-hitting-time model": 0.466864723559914,
+                "Estimation theory": 0.466864723559914,
+                "Stochastic differential equation": 0.30707986165042117,
+                "Spectral density": 0.40128579496679995,
+                "Discrete time and continuous time": 0.4673638175762131,
+                "Differential equation": 0.30707986165042117,
+                "Stochastic process": 0.4062311562491372,
+                "Harmonic oscillator": 0.46906600600967396,
+                "Differentiable function": 0.46906600600967396,
+                "Covariance function": 0.46906600600967396,
+                "Stochastic": 0.3760786348445278,
+                "Independent increments": 0.43003140759119796,
+                "White noise": 0.3718887830058563,
+                "Normal distribution": 0.4270620712670569,
+                "Linear time-invariant system": 0.42437125865662395
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 30090516.0,
+            "means": {
+                "Covariance matrix": -0.12233047997535527,
+                "Machine learning": -0.12233047997535527,
+                "Probability distribution": -0.12233047997535527,
+                "First-hitting-time model": -0.12233047997535527,
+                "Estimation theory": -0.12233047997535527,
+                "Stochastic differential equation": 0.28487148096881304,
+                "Spectral density": -0.01239178308677496,
+                "Discrete time and continuous time": -0.11893704291105817,
+                "Differential equation": 0.28487148096881304,
+                "Stochastic process": 0.14620537919877533,
+                "Harmonic oscillator": -0.10550681979950453,
+                "Differentiable function": -0.10550681979950453,
+                "Covariance function": -0.10550681979950453,
+                "Stochastic": 0.4182383099187389,
+                "Independent increments": 0.28365741221141566,
+                "White noise": 0.2538356288772694,
+                "Normal distribution": 0.15647798664424553,
+                "Linear time-invariant system": 0.11398535339859603,
+                "Frequentist inference": 0.0874322239363526,
+                "Time series": 0.0874322239363526,
+                "Ordinary differential equation": 0.0874322239363526
+            },
+            "variances": {
+                "Covariance matrix": 0.466864723559914,
+                "Machine learning": 0.466864723559914,
+                "Probability distribution": 0.466864723559914,
+                "First-hitting-time model": 0.466864723559914,
+                "Estimation theory": 0.466864723559914,
+                "Stochastic differential equation": 0.2788533866513126,
+                "Spectral density": 0.40128579496679995,
+                "Discrete time and continuous time": 0.4673638175762131,
+                "Differential equation": 0.2788533866513126,
+                "Stochastic process": 0.4062311562491372,
+                "Harmonic oscillator": 0.46906600600967396,
+                "Differentiable function": 0.46906600600967396,
+                "Covariance function": 0.46906600600967396,
+                "Stochastic": 0.3760786348445278,
+                "Independent increments": 0.43003140759119796,
+                "White noise": 0.3718887830058563,
+                "Normal distribution": 0.4270620712670569,
+                "Linear time-invariant system": 0.42437125865662395,
+                "Frequentist inference": 0.42516685773455276,
+                "Time series": 0.42516685773455276,
+                "Ordinary differential equation": 0.42516685773455276
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 6221,
+            "topic_name": "Covariance matrix",
+            "topic_url": "https://en.wikipedia.org/wiki/Covariance_matrix",
+            "mean": -0.12233047997535527,
+            "variance": 0.466864723559914,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.12233047997535527,
+            "variance": 0.466864723559914,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": -0.12233047997535527,
+            "variance": 0.466864723559914,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 9983,
+            "topic_name": "First-hitting-time model",
+            "topic_url": "https://en.wikipedia.org/wiki/First-hitting-time_model",
+            "mean": -0.12233047997535527,
+            "variance": 0.466864723559914,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 9071,
+            "topic_name": "Estimation theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Estimation_theory",
+            "mean": -0.12233047997535527,
+            "variance": 0.466864723559914,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 26156,
+            "topic_name": "Stochastic differential equation",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_differential_equation",
+            "mean": 0.28487148096881304,
+            "variance": 0.2788533866513126,
+            "interest_mean": 2.453480964895661,
+            "interest_var": 0.22933829327579275,
+            "timestamp": 30090516.0
+        },
+        {
+            "topic_id": 25588,
+            "topic_name": "Spectral density",
+            "topic_url": "https://en.wikipedia.org/wiki/Spectral_density",
+            "mean": -0.01239178308677496,
+            "variance": 0.40128579496679995,
+            "interest_mean": 1.2175900301598552,
+            "interest_var": 0.3642051142944234,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 7639,
+            "topic_name": "Discrete time and continuous time",
+            "topic_url": "https://en.wikipedia.org/wiki/Discrete_time_and_continuous_time",
+            "mean": -0.11893704291105817,
+            "variance": 0.4673638175762131,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 7436,
+            "topic_name": "Differential equation",
+            "topic_url": "https://en.wikipedia.org/wiki/Differential_equation",
+            "mean": 0.28487148096881304,
+            "variance": 0.2788533866513126,
+            "interest_mean": 2.4534809648956606,
+            "interest_var": 0.22933829327579275,
+            "timestamp": 30090516.0
+        },
+        {
+            "topic_id": 26167,
+            "topic_name": "Stochastic process",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_process",
+            "mean": 0.14620537919877533,
+            "variance": 0.4062311562491372,
+            "interest_mean": 1.3808161853834506,
+            "interest_var": 0.35053474606402346,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 12029,
+            "topic_name": "Harmonic oscillator",
+            "topic_url": "https://en.wikipedia.org/wiki/Harmonic_oscillator",
+            "mean": -0.10550681979950453,
+            "variance": 0.46906600600967396,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 7430,
+            "topic_name": "Differentiable function",
+            "topic_url": "https://en.wikipedia.org/wiki/Differentiable_function",
+            "mean": -0.10550681979950453,
+            "variance": 0.46906600600967396,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 6220,
+            "topic_name": "Covariance function",
+            "topic_url": "https://en.wikipedia.org/wiki/Covariance_function",
+            "mean": -0.10550681979950453,
+            "variance": 0.46906600600967396,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 26150,
+            "topic_name": "Stochastic",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic",
+            "mean": 0.4182383099187389,
+            "variance": 0.3760786348445278,
+            "interest_mean": 0.7036764731921361,
+            "interest_var": 0.3523853659368602,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 13225,
+            "topic_name": "Independent increments",
+            "topic_url": "https://en.wikipedia.org/wiki/Independent_increments",
+            "mean": 0.28365741221141566,
+            "variance": 0.43003140759119796,
+            "interest_mean": 0.3625293016628651,
+            "interest_var": 0.41525262545401864,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 29894,
+            "topic_name": "White noise",
+            "topic_url": "https://en.wikipedia.org/wiki/White_noise",
+            "mean": 0.2538356288772694,
+            "variance": 0.3718887830058563,
+            "interest_mean": 0.5430701670573448,
+            "interest_var": 0.3660120650292553,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 18442,
+            "topic_name": "Normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_distribution",
+            "mean": 0.15647798664424553,
+            "variance": 0.4270620712670569,
+            "interest_mean": 0.41077063770069594,
+            "interest_var": 0.40885354882240893,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 15255,
+            "topic_name": "Linear time-invariant system",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_time-invariant_system",
+            "mean": 0.11398535339859603,
+            "variance": 0.42437125865662395,
+            "interest_mean": 0.1617932995050448,
+            "interest_var": 0.43592789842433033,
+            "timestamp": 30090240.0
+        },
+        {
+            "topic_id": 10587,
+            "topic_name": "Frequentist inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Frequentist_inference",
+            "mean": 0.0874322239363526,
+            "variance": 0.42516685773455276,
+            "interest_mean": 0.35754885998471575,
+            "interest_var": 0.4125625165994166,
+            "timestamp": 30090516.0
+        },
+        {
+            "topic_id": 27756,
+            "topic_name": "Time series",
+            "topic_url": "https://en.wikipedia.org/wiki/Time_series",
+            "mean": 0.0874322239363526,
+            "variance": 0.42516685773455276,
+            "interest_mean": 0.3575488599847157,
+            "interest_var": 0.4125625165994166,
+            "timestamp": 30090516.0
+        },
+        {
+            "topic_id": 19093,
+            "topic_name": "Ordinary differential equation",
+            "topic_url": "https://en.wikipedia.org/wiki/Ordinary_differential_equation",
+            "mean": 0.0874322239363526,
+            "variance": 0.42516685773455276,
+            "interest_mean": 0.3575488599847157,
+            "interest_var": 0.4125625165994166,
+            "timestamp": 30090516.0
+        }
+    ]
+}

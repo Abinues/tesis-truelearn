@@ -29,7 +29,8 @@ import time
 
 from flask import Flask, jsonify, request
 
-from logic.dominio import clamp_conocimiento, clamp_interes, clamp_variance
+from logic.dominio import (INT_MAX, INT_MIN, KNOW_MAX, KNOW_MIN,
+                           clamp_conocimiento, clamp_interes, clamp_variance)
 from logic.modelo_utils import extraer_pesos_reales
 
 BASE_DIR  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -213,6 +214,56 @@ class TopicNoEncontradoError(Exception):
     """El tema indicado no existe en el modelo de conocimiento o de interés del usuario."""
 
 
+# ── Magnitud de las correcciones: observación bayesiana gaussiana ───────────
+# Una corrección explícita se trata como UNA observación del estudiante sobre
+# el componente de conocimiento (KC), con la misma regla que usa el modelo:
+# en la inferencia gaussiana las precisiones (1/varianza) se SUMAN, y la media
+# se mueve hacia lo que dice la observación con una ganancia que depende de
+# cuánta incertidumbre había (Bishop, 2006, sec. 2.3.6; TrueSkill, Herbrich
+# et al.):
+#
+#     1/var' = 1/var + p                       (la varianza siempre baja)
+#     media' = media + ganancia * (x - media)  con  ganancia = p * var'
+#
+# ¿Qué dice la observación (x)? Que el estudiante está en el extremo de la
+# escala calibrada con percentiles (logic/dominio.py):
+#     "sé más"         -> x = KNOW_MAX      "sé menos"       -> x = KNOW_MIN
+#     "me interesa"    -> x = INT_MAX       "no me interesa" -> x = INT_MIN
+# No hay ningún parámetro libre de "cuánto más": lo da la escala. Si el
+# tema ya está cerca del extremo, casi no se mueve; si está lejos, se mueve
+# más. Y el efecto escala solo con la evidencia previa (un tema con pocos
+# eventos se mueve mucho, uno con muchos casi nada), como con un evento real.
+#
+# Único parámetro: EVENTOS_EQUIVALENTES = 4, cuántos eventos reales de
+# precisión pesa la palabra directa del estudiante. Es un criterio de diseño:
+# lo que el estudiante declara es más firme que el enganche, que es un
+# indicador implícito (Hu, Koren y Volinsky, 2008). Su efecto se muestra en
+# analisis_sensibilidad/ (tabla con 1, 2 y 4 eventos). La precisión que
+# aporta cada evento se midió con los perfiles de 14.050 usuarios de PEEK:
+#     conocimiento  1/0.433 - 1/0.5 = 0.31  (varianza mediana tras 1 evento)
+#     interés       1/0.406 - 1/0.5 = 0.46
+EVENTOS_EQUIVALENTES = 4
+PRECISION_POR_EVENTO = {"conocimiento": 0.31, "interes": 0.46}
+
+
+def _observacion_bayesiana(mean, variance, objetivo, variable):
+    """Combina la media y varianza actuales con una observación del estudiante.
+
+    Args:
+        mean (float): Media actual del KC.
+        variance (float): Varianza actual del KC (> 0).
+        objetivo (float): Valor que dice la observación (extremo de la escala).
+        variable (str): ``"conocimiento"`` o ``"interes"``.
+
+    Returns:
+        tuple[float, float]: Nueva media y nueva varianza, sin acotar.
+    """
+    p = EVENTOS_EQUIVALENTES * PRECISION_POR_EVENTO[variable]
+    var_nueva = 1.0 / (1.0 / max(variance, 1e-9) + p)
+    ganancia = p * var_nueva
+    return mean + ganancia * (objetivo - mean), var_nueva
+
+
 def aplicar_correccion_directa(classifier, topic_id, tipo):
     """
     Corrige los componentes de conocimiento del modelo directamente con ``.update()``.
@@ -231,12 +282,13 @@ def aplicar_correccion_directa(classifier, topic_id, tipo):
         me interesa     sin cambio                    mean sube, variance baja
         no me interesa  sin cambio                    mean baja, variance baja
 
-    Las magnitudes son ``delta_know`` (0.25), ``delta_int`` (0.75) y
-    ``reduccion_var`` (0.15), calibradas contra el impacto medio de un
-    evento real de ``fit()``. Toda corrección explícita reduce la varianza
-    del componente que corrige (sube la confianza del sistema en él), sea
-    cual sea el sentido de la corrección: lo que el estudiante dice es la
-    información más firme que recibe el modelo.
+    La magnitud sale de una observación bayesiana gaussiana (ver el bloque
+    de constantes ``EVENTOS_EQUIVALENTES`` y ``PRECISION_POR_EVENTO``): el
+    estudiante dice que está en el extremo de la escala calibrada, la
+    precisión se suma, y por eso toda corrección
+    explícita reduce la varianza de la variable que corrige (sube la
+    confianza del sistema), sea cual sea el sentido, y el efecto es menor
+    cuanta más evidencia tenía ya el tema.
 
     Args:
         classifier (INKClassifier): Clasificador a corregir. Se modifica
@@ -270,39 +322,25 @@ def aplicar_correccion_directa(classifier, topic_id, tipo):
             kc_int = kc
             break
 
-    delta_know    = 0.25
-    delta_int     = 0.75
-    reduccion_var = 0.15
-
-    if tipo == "sé más":
+    if tipo in ("sé más", "sé menos"):
         if kc_know is None:
             raise TopicNoEncontradoError(topic_id)
-        base = kc_know.mean + delta_know
-        kc_know.update(mean=clamp_conocimiento(base),
-                        variance=clamp_variance(kc_know.variance - reduccion_var),
-                        timestamp=ts_ahora)
-
-    elif tipo == "sé menos":
-        if kc_know is None:
-            raise TopicNoEncontradoError(topic_id)
-        base = kc_know.mean - delta_know
-        kc_know.update(mean=clamp_conocimiento(base),
-                        variance=clamp_variance(kc_know.variance - reduccion_var),
-                        timestamp=ts_ahora)
-
-    elif tipo == "me interesa":
-        if kc_int is None:
-            raise TopicNoEncontradoError(topic_id)
-        kc_int.update(mean=clamp_interes(kc_int.mean + delta_int),
-                       variance=clamp_variance(kc_int.variance - reduccion_var),
+        objetivo = KNOW_MAX if tipo == "sé más" else KNOW_MIN
+        media, var = _observacion_bayesiana(kc_know.mean, kc_know.variance,
+                                            objetivo, "conocimiento")
+        kc_know.update(mean=clamp_conocimiento(media),
+                       variance=clamp_variance(var),
                        timestamp=ts_ahora)
 
-    elif tipo == "no me interesa":
+    elif tipo in ("me interesa", "no me interesa"):
         if kc_int is None:
             raise TopicNoEncontradoError(topic_id)
-        kc_int.update(mean=clamp_interes(kc_int.mean - delta_int),
-                       variance=clamp_variance(kc_int.variance - reduccion_var),
-                       timestamp=ts_ahora)
+        objetivo = INT_MAX if tipo == "me interesa" else INT_MIN
+        media, var = _observacion_bayesiana(kc_int.mean, kc_int.variance,
+                                            objetivo, "interes")
+        kc_int.update(mean=clamp_interes(media),
+                      variance=clamp_variance(var),
+                      timestamp=ts_ahora)
 
     return classifier
 

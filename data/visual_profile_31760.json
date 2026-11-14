@@ -1,0 +1,576 @@
+{
+    "user_id": 31760,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 14,
+    "weights": {
+        "novelty": {
+            "mean": -0.045699774246110415,
+            "variance": 0.44727363624511274
+        },
+        "interest": {
+            "mean": -0.49491891653957487,
+            "variance": 0.32515424354608136
+        },
+        "bias": {
+            "mean": -1.2084207185724962,
+            "variance": 0.24789816872602866
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 12953463.0,
+            "means": {
+                "Protein": -0.12802114917666824,
+                "Theoretical physics": -0.12802114917666824,
+                "Machine learning": -0.12802114917666826,
+                "Gene": -0.12802114917666826,
+                "Computational neuroscience": -0.12802114917666826
+            },
+            "variances": {
+                "Protein": 0.46605247688963775,
+                "Theoretical physics": 0.46605247688963775,
+                "Machine learning": 0.46605247688963775,
+                "Gene": 0.46605247688963775,
+                "Computational neuroscience": 0.46605247688963775
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 12960408.0,
+            "means": {
+                "Protein": -0.21047912536756067,
+                "Theoretical physics": -0.21047912536756067,
+                "Machine learning": -0.21047912536756067,
+                "Gene": -0.21047912536756067,
+                "Computational neuroscience": -0.21047912536756067,
+                "Approximate inference": -0.13144288440139543,
+                "Graphical model": -0.13144288440139543,
+                "Algorithm": -0.13144288440139545,
+                "Inference": -0.13144288440139545,
+                "Message passing": -0.13144288440139545
+            },
+            "variances": {
+                "Protein": 0.44128953946081867,
+                "Theoretical physics": 0.44128953946081867,
+                "Machine learning": 0.44128953946081867,
+                "Gene": 0.44128953946081867,
+                "Computational neuroscience": 0.44128953946081867,
+                "Approximate inference": 0.4655783729427491,
+                "Graphical model": 0.4655783729427491,
+                "Algorithm": 0.4655783729427491,
+                "Inference": 0.4655783729427491,
+                "Message passing": 0.4655783729427491
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 12960655.0,
+            "means": {
+                "Protein": -0.21047912536756067,
+                "Theoretical physics": -0.21047912536756067,
+                "Machine learning": -0.21047912536756067,
+                "Gene": -0.21047912536756067,
+                "Computational neuroscience": -0.21047912536756067,
+                "Approximate inference": -0.13144288440139543,
+                "Graphical model": -0.22575746602461902,
+                "Algorithm": -0.3304174883004126,
+                "Inference": -0.13144288440139545,
+                "Message passing": -0.13144288440139545,
+                "Gradient descent": -0.11858583332462654,
+                "Subderivative": -0.11858583332462654,
+                "Adaptive step size": -0.11858583332462656,
+                "Entropy": -0.11858583332462656,
+                "Linear programming": -0.10128754588308721,
+                "Discrete optimization": -0.10128754588308721,
+                "Part-of-speech tagging": -0.10128754588308721
+            },
+            "variances": {
+                "Protein": 0.44128953946081867,
+                "Theoretical physics": 0.44128953946081867,
+                "Machine learning": 0.44128953946081867,
+                "Gene": 0.44128953946081867,
+                "Computational neuroscience": 0.44128953946081867,
+                "Approximate inference": 0.4655783729427491,
+                "Graphical model": 0.439207515307909,
+                "Algorithm": 0.4138875909237858,
+                "Inference": 0.4655783729427491,
+                "Message passing": 0.4655783729427491,
+                "Gradient descent": 0.4671950150899614,
+                "Subderivative": 0.4671950150899614,
+                "Adaptive step size": 0.4671950150899614,
+                "Entropy": 0.4671950150899614,
+                "Linear programming": 0.46958564110835194,
+                "Discrete optimization": 0.46958564110835194,
+                "Part-of-speech tagging": 0.46958564110835194
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 12963144.0,
+            "means": {
+                "Protein": -0.4468650855059195,
+                "Theoretical physics": -0.2643860660240918,
+                "Machine learning": -0.2643860660240918,
+                "Gene": -0.2643860660240918,
+                "Computational neuroscience": -0.2643860660240918,
+                "Approximate inference": -0.20042583773954234,
+                "Graphical model": -0.29083315101133245,
+                "Algorithm": -0.47160714352632355,
+                "Inference": -0.2004258377395424,
+                "Message passing": -0.2004258377395424,
+                "Gradient descent": -0.11858583332462654,
+                "Subderivative": -0.11858583332462654,
+                "Adaptive step size": -0.11858583332462656,
+                "Entropy": -0.4941892205076311,
+                "Linear programming": -0.10128754588308721,
+                "Discrete optimization": -0.10128754588308721,
+                "Part-of-speech tagging": -0.10128754588308721,
+                "Polytope": -0.5033685897841802,
+                "Cutting-plane method": -0.11911271365570564,
+                "Amino acid": -0.11911271365570564,
+                "Shortest path problem": -0.12931815717035483,
+                "Parity (mathematics)": -0.12931815717035483,
+                "Local consistency": -0.12931815717035483,
+                "Graph (discrete mathematics)": -0.12931815717035483,
+                "Belief propagation": -0.10836590309346951,
+                "Conditional entropy": -0.10836590309346951,
+                "Distributed algorithm": -0.10836590309346954,
+                "Chain rule": -0.07295460418001169,
+                "Marginal distribution": -0.07295460418001169,
+                "Entropy (information theory)": -0.1260681916192733,
+                "Counting problem (complexity)": -0.08397338848457205,
+                "Exponential family": -0.08397338848457205,
+                "Convex function": -0.08397338848457205,
+                "Parity bit": -0.10081831657286201,
+                "Temperature": -0.10081831657286201,
+                "Bit": -0.10081831657286201,
+                "Spanning tree": -0.05595010893286629,
+                "Halting problem": -0.0559501089328663
+            },
+            "variances": {
+                "Protein": 0.3795536468710883,
+                "Theoretical physics": 0.4231606839178856,
+                "Machine learning": 0.4231606839178856,
+                "Gene": 0.4231606839178856,
+                "Computational neuroscience": 0.4231606839178856,
+                "Approximate inference": 0.44305309710293606,
+                "Graphical model": 0.4191616851244228,
+                "Algorithm": 0.3766393855545615,
+                "Inference": 0.44305309710293606,
+                "Message passing": 0.44305309710293606,
+                "Gradient descent": 0.4671950150899614,
+                "Subderivative": 0.4671950150899614,
+                "Adaptive step size": 0.4671950150899614,
+                "Entropy": 0.36641328799265294,
+                "Linear programming": 0.46958564110835194,
+                "Discrete optimization": 0.46958564110835194,
+                "Part-of-speech tagging": 0.46958564110835194,
+                "Polytope": 0.3654752084716591,
+                "Cutting-plane method": 0.46674041154634255,
+                "Amino acid": 0.46674041154634255,
+                "Shortest path problem": 0.4656453239623027,
+                "Parity (mathematics)": 0.4656453239623027,
+                "Local consistency": 0.4656453239623027,
+                "Graph (discrete mathematics)": 0.4656453239623027,
+                "Belief propagation": 0.46822275634673227,
+                "Conditional entropy": 0.46822275634673227,
+                "Distributed algorithm": 0.46822275634673227,
+                "Chain rule": 0.4746513318051964,
+                "Marginal distribution": 0.4746513318051964,
+                "Entropy (information theory)": 0.4550531453586339,
+                "Counting problem (complexity)": 0.47216638282058704,
+                "Exponential family": 0.47216638282058704,
+                "Convex function": 0.47216638282058704,
+                "Parity bit": 0.46901062215597855,
+                "Temperature": 0.46901062215597855,
+                "Bit": 0.46901062215597855,
+                "Spanning tree": 0.4782526428853867,
+                "Halting problem": 0.4782526428853867
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 21652,
+            "topic_name": "Protein",
+            "topic_url": "https://en.wikipedia.org/wiki/Protein",
+            "mean": -0.4468650855059195,
+            "variance": 0.3795536468710883,
+            "interest_mean": 2.092147905444342,
+            "interest_var": 0.26471354679941644,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 27532,
+            "topic_name": "Theoretical physics",
+            "topic_url": "https://en.wikipedia.org/wiki/Theoretical_physics",
+            "mean": -0.2643860660240918,
+            "variance": 0.4231606839178856,
+            "interest_mean": 1.3062589658308328,
+            "interest_var": 0.34164487955992173,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.2643860660240918,
+            "variance": 0.4231606839178856,
+            "interest_mean": 1.3062589658308328,
+            "interest_var": 0.34164487955992173,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 10985,
+            "topic_name": "Gene",
+            "topic_url": "https://en.wikipedia.org/wiki/Gene",
+            "mean": -0.2643860660240918,
+            "variance": 0.4231606839178856,
+            "interest_mean": 1.3062589658308328,
+            "interest_var": 0.34164487955992173,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 5369,
+            "topic_name": "Computational neuroscience",
+            "topic_url": "https://en.wikipedia.org/wiki/Computational_neuroscience",
+            "mean": -0.2643860660240918,
+            "variance": 0.4231606839178856,
+            "interest_mean": 1.3062589658308328,
+            "interest_var": 0.34164487955992173,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 1273,
+            "topic_name": "Approximate inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Approximate_inference",
+            "mean": -0.20042583773954234,
+            "variance": 0.44305309710293606,
+            "interest_mean": 1.124930938082248,
+            "interest_var": 0.3872564443816655,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": -0.29083315101133245,
+            "variance": 0.4191616851244228,
+            "interest_mean": 1.6188304658119461,
+            "interest_var": 0.33092127768332447,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.47160714352632355,
+            "variance": 0.3766393855545615,
+            "interest_mean": 2.5270546267173106,
+            "interest_var": 0.25922354017810834,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 13342,
+            "topic_name": "Inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Inference",
+            "mean": -0.2004258377395424,
+            "variance": 0.44305309710293606,
+            "interest_mean": 1.124930938082248,
+            "interest_var": 0.3872564443816655,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 16688,
+            "topic_name": "Message passing",
+            "topic_url": "https://en.wikipedia.org/wiki/Message_passing",
+            "mean": -0.2004258377395424,
+            "variance": 0.44305309710293606,
+            "interest_mean": 1.1249309380822479,
+            "interest_var": 0.3872564443816655,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 11511,
+            "topic_name": "Gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+            "mean": -0.11858583332462654,
+            "variance": 0.4671950150899614,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 12960655.0
+        },
+        {
+            "topic_id": 26445,
+            "topic_name": "Subderivative",
+            "topic_url": "https://en.wikipedia.org/wiki/Subderivative",
+            "mean": -0.11858583332462654,
+            "variance": 0.4671950150899614,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 12960655.0
+        },
+        {
+            "topic_id": 366,
+            "topic_name": "Adaptive step size",
+            "topic_url": "https://en.wikipedia.org/wiki/Adaptive_step_size",
+            "mean": -0.11858583332462656,
+            "variance": 0.4671950150899614,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 12960655.0
+        },
+        {
+            "topic_id": 8872,
+            "topic_name": "Entropy",
+            "topic_url": "https://en.wikipedia.org/wiki/Entropy",
+            "mean": -0.4941892205076311,
+            "variance": 0.36641328799265294,
+            "interest_mean": 2.5257905073788653,
+            "interest_var": 0.22203738341818802,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 15244,
+            "topic_name": "Linear programming",
+            "topic_url": "https://en.wikipedia.org/wiki/Linear_programming",
+            "mean": -0.10128754588308721,
+            "variance": 0.46958564110835194,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 12960655.0
+        },
+        {
+            "topic_id": 7634,
+            "topic_name": "Discrete optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Discrete_optimization",
+            "mean": -0.10128754588308721,
+            "variance": 0.46958564110835194,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 12960655.0
+        },
+        {
+            "topic_id": 19582,
+            "topic_name": "Part-of-speech tagging",
+            "topic_url": "https://en.wikipedia.org/wiki/Part-of-speech_tagging",
+            "mean": -0.10128754588308721,
+            "variance": 0.46958564110835194,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 12960655.0
+        },
+        {
+            "topic_id": 20783,
+            "topic_name": "Polytope",
+            "topic_url": "https://en.wikipedia.org/wiki/Polytope",
+            "mean": -0.5033685897841802,
+            "variance": 0.3654752084716591,
+            "interest_mean": 2.5410989152920225,
+            "interest_var": 0.22173833045945007,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 6622,
+            "topic_name": "Cutting-plane method",
+            "topic_url": "https://en.wikipedia.org/wiki/Cutting-plane_method",
+            "mean": -0.11911271365570564,
+            "variance": 0.46674041154634255,
+            "interest_mean": 0.751553121071565,
+            "interest_var": 0.40313099188618795,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 856,
+            "topic_name": "Amino acid",
+            "topic_url": "https://en.wikipedia.org/wiki/Amino_acid",
+            "mean": -0.11911271365570564,
+            "variance": 0.46674041154634255,
+            "interest_mean": 0.751553121071565,
+            "interest_var": 0.40313099188618795,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 24588,
+            "topic_name": "Shortest path problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Shortest_path_problem",
+            "mean": -0.12931815717035483,
+            "variance": 0.4656453239623027,
+            "interest_mean": 0.9815143245262247,
+            "interest_var": 0.404229331735767,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 19541,
+            "topic_name": "Parity (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Parity_(mathematics)",
+            "mean": -0.12931815717035483,
+            "variance": 0.4656453239623027,
+            "interest_mean": 0.9815143245262244,
+            "interest_var": 0.404229331735767,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 15499,
+            "topic_name": "Local consistency",
+            "topic_url": "https://en.wikipedia.org/wiki/Local_consistency",
+            "mean": -0.12931815717035483,
+            "variance": 0.4656453239623027,
+            "interest_mean": 0.9815143245262244,
+            "interest_var": 0.404229331735767,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 11574,
+            "topic_name": "Graph (discrete mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "mean": -0.12931815717035483,
+            "variance": 0.4656453239623027,
+            "interest_mean": 0.9815143245262244,
+            "interest_var": 0.404229331735767,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 2279,
+            "topic_name": "Belief propagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Belief_propagation",
+            "mean": -0.10836590309346951,
+            "variance": 0.46822275634673227,
+            "interest_mean": 0.6012390933472016,
+            "interest_var": 0.4045435104691508,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 5513,
+            "topic_name": "Conditional entropy",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_entropy",
+            "mean": -0.10836590309346951,
+            "variance": 0.46822275634673227,
+            "interest_mean": 0.6012390933472016,
+            "interest_var": 0.4045435104691508,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 7720,
+            "topic_name": "Distributed algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Distributed_algorithm",
+            "mean": -0.10836590309346954,
+            "variance": 0.46822275634673227,
+            "interest_mean": 0.6012390933472018,
+            "interest_var": 0.4045435104691508,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 4044,
+            "topic_name": "Chain rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Chain_rule",
+            "mean": -0.07295460418001169,
+            "variance": 0.4746513318051964,
+            "interest_mean": 0.4638696383206762,
+            "interest_var": 0.407873640888385,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 16085,
+            "topic_name": "Marginal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Marginal_distribution",
+            "mean": -0.07295460418001169,
+            "variance": 0.4746513318051964,
+            "interest_mean": 0.4638696383206762,
+            "interest_var": 0.407873640888385,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 8873,
+            "topic_name": "Entropy (information theory)",
+            "topic_url": "https://en.wikipedia.org/wiki/Entropy_(information_theory)",
+            "mean": -0.1260681916192733,
+            "variance": 0.4550531453586339,
+            "interest_mean": 0.6612448182225226,
+            "interest_var": 0.35617496541037313,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 6174,
+            "topic_name": "Counting problem (complexity)",
+            "topic_url": "https://en.wikipedia.org/wiki/Counting_problem_(complexity)",
+            "mean": -0.08397338848457205,
+            "variance": 0.47216638282058704,
+            "interest_mean": 0.3734777916212388,
+            "interest_var": 0.41206521148602837,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 9380,
+            "topic_name": "Exponential family",
+            "topic_url": "https://en.wikipedia.org/wiki/Exponential_family",
+            "mean": -0.08397338848457205,
+            "variance": 0.47216638282058704,
+            "interest_mean": 0.3734777916212388,
+            "interest_var": 0.41206521148602837,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 5918,
+            "topic_name": "Convex function",
+            "topic_url": "https://en.wikipedia.org/wiki/Convex_function",
+            "mean": -0.08397338848457205,
+            "variance": 0.47216638282058704,
+            "interest_mean": 0.3734777916212388,
+            "interest_var": 0.41206521148602837,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 19543,
+            "topic_name": "Parity bit",
+            "topic_url": "https://en.wikipedia.org/wiki/Parity_bit",
+            "mean": -0.10081831657286201,
+            "variance": 0.46901062215597855,
+            "interest_mean": 0.42225128309515036,
+            "interest_var": 0.4103069792854326,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 27283,
+            "topic_name": "Temperature",
+            "topic_url": "https://en.wikipedia.org/wiki/Temperature",
+            "mean": -0.10081831657286201,
+            "variance": 0.46901062215597855,
+            "interest_mean": 0.4222512830951504,
+            "interest_var": 0.4103069792854326,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 2626,
+            "topic_name": "Bit",
+            "topic_url": "https://en.wikipedia.org/wiki/Bit",
+            "mean": -0.10081831657286201,
+            "variance": 0.46901062215597855,
+            "interest_mean": 0.4222512830951504,
+            "interest_var": 0.4103069792854326,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 25501,
+            "topic_name": "Spanning tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Spanning_tree",
+            "mean": -0.05595010893286629,
+            "variance": 0.4782526428853867,
+            "interest_mean": 0.24195628267610741,
+            "interest_var": 0.422309458947461,
+            "timestamp": 12963144.0
+        },
+        {
+            "topic_id": 11928,
+            "topic_name": "Halting problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Halting_problem",
+            "mean": -0.0559501089328663,
+            "variance": 0.4782526428853867,
+            "interest_mean": 0.24195628267610741,
+            "interest_var": 0.422309458947461,
+            "timestamp": 12963144.0
+        }
+    ]
+}

@@ -1,0 +1,332 @@
+{
+    "user_id": 8266,
+    "number_of_engagements": 1,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.21444366477409857,
+            "variance": 0.45034364813333805
+        },
+        "interest": {
+            "mean": -0.05011427391668575,
+            "variance": 0.3863429649301637
+        },
+        "bias": {
+            "mean": -0.6624592868973517,
+            "variance": 0.2987513681169498
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 35988681.0,
+            "means": {
+                "Generative model": -0.2987647047063949,
+                "Maximum likelihood estimation": 0.20052957561775747,
+                "Probability density function": 0.20052957561775747,
+                "Normal distribution": 0.0673413625512214,
+                "Deep learning": 0.20052957561775747,
+                "Probability distribution": -0.21533171962213507,
+                "Chain rule": -0.12240825168955977,
+                "Latent and observable variables": -0.2153317196221351,
+                "Random variable": -0.1224082516895598,
+                "Autoencoder": -0.19512449654555353,
+                "Variational Bayesian methods": -0.09961568660140895,
+                "Log probability": -0.09961568660140896,
+                "Semi-Supervised Learning": -0.24760204951310635,
+                "Mean squared error": -0.1538375613508708,
+                "Neocortex": -0.1538375613508708,
+                "Colorimeter (chemistry)": -0.141398576315555,
+                "Particle accelerator": -0.141398576315555,
+                "Particle physics": -0.141398576315555,
+                "Monte Carlo method": -0.141398576315555,
+                "Convolution": -0.1249975708392414,
+                "Pixel": -0.1249975708392414,
+                "Checkerboard": -0.1249975708392414,
+                "Polar bear": -0.1249975708392414,
+                "Markov chain": -0.1015939081991342,
+                "Reverse image search": -0.1015939081991342
+            },
+            "variances": {
+                "Generative model": 0.32807816175182125,
+                "Maximum likelihood estimation": 0.4328858696698982,
+                "Probability density function": 0.4328858696698982,
+                "Normal distribution": 0.40400310640286785,
+                "Deep learning": 0.4328858696698982,
+                "Probability distribution": 0.44035036267069877,
+                "Chain rule": 0.46640981507455176,
+                "Latent and observable variables": 0.44035036267069877,
+                "Random variable": 0.46640981507455176,
+                "Autoencoder": 0.44242433698721684,
+                "Variational Bayesian methods": 0.4700518546689719,
+                "Log probability": 0.4700518546689719,
+                "Semi-Supervised Learning": 0.4348394946343145,
+                "Mean squared error": 0.46146707919951174,
+                "Neocortex": 0.46146707919951174,
+                "Colorimeter (chemistry)": 0.46338978704189077,
+                "Particle accelerator": 0.46338978704189077,
+                "Particle physics": 0.46338978704189077,
+                "Monte Carlo method": 0.46338978704189077,
+                "Convolution": 0.46553109244687435,
+                "Pixel": 0.46553109244687435,
+                "Checkerboard": 0.46553109244687435,
+                "Polar bear": 0.46553109244687435,
+                "Markov chain": 0.46873990215808436,
+                "Reverse image search": 0.46873990215808436
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": -0.2987647047063949,
+            "variance": 0.32807816175182125,
+            "interest_mean": 3.213516236614181,
+            "interest_var": 0.21920565617768217,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": 0.20052957561775747,
+            "variance": 0.4328858696698982,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 21372,
+            "topic_name": "Probability density function",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_density_function",
+            "mean": 0.20052957561775747,
+            "variance": 0.4328858696698982,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 18442,
+            "topic_name": "Normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_distribution",
+            "mean": 0.0673413625512214,
+            "variance": 0.40400310640286785,
+            "interest_mean": 1.585838197213189,
+            "interest_var": 0.3448125354211596,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.20052957561775747,
+            "variance": 0.4328858696698982,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": -0.21533171962213507,
+            "variance": 0.44035036267069877,
+            "interest_mean": 1.5690324941400824,
+            "interest_var": 0.34195808041614206,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 4044,
+            "topic_name": "Chain rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Chain_rule",
+            "mean": -0.12240825168955977,
+            "variance": 0.46640981507455176,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 14765,
+            "topic_name": "Latent and observable variables",
+            "topic_url": "https://en.wikipedia.org/wiki/Latent_variable",
+            "mean": -0.2153317196221351,
+            "variance": 0.44035036267069877,
+            "interest_mean": 1.5690324941400826,
+            "interest_var": 0.34195808041614206,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 22341,
+            "topic_name": "Random variable",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_variable",
+            "mean": -0.1224082516895598,
+            "variance": 0.46640981507455176,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 1749,
+            "topic_name": "Autoencoder",
+            "topic_url": "https://en.wikipedia.org/wiki/Autoencoder",
+            "mean": -0.19512449654555353,
+            "variance": 0.44242433698721684,
+            "interest_mean": 1.1021814168614272,
+            "interest_var": 0.3471063952861124,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 29067,
+            "topic_name": "Variational Bayesian methods",
+            "topic_url": "https://en.wikipedia.org/wiki/Variational_Bayesian_methods",
+            "mean": -0.09961568660140895,
+            "variance": 0.4700518546689719,
+            "interest_mean": 0.8050175163171822,
+            "interest_var": 0.4036429475274632,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 15552,
+            "topic_name": "Log probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Log_probability",
+            "mean": -0.09961568660140896,
+            "variance": 0.4700518546689719,
+            "interest_mean": 0.8050175163171822,
+            "interest_var": 0.4036429475274632,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 24178,
+            "topic_name": "Semi-Supervised Learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Semi-supervised_learning",
+            "mean": -0.24760204951310635,
+            "variance": 0.4348394946343145,
+            "interest_mean": 0.9140055913787037,
+            "interest_var": 0.34923080596842093,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 16429,
+            "topic_name": "Mean squared error",
+            "topic_url": "https://en.wikipedia.org/wiki/Mean_squared_error",
+            "mean": -0.1538375613508708,
+            "variance": 0.46146707919951174,
+            "interest_mean": 0.6146659702787396,
+            "interest_var": 0.406598266987526,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 18047,
+            "topic_name": "Neocortex",
+            "topic_url": "https://en.wikipedia.org/wiki/Neocortex",
+            "mean": -0.1538375613508708,
+            "variance": 0.46146707919951174,
+            "interest_mean": 0.6146659702787395,
+            "interest_var": 0.406598266987526,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 5014,
+            "topic_name": "Colorimeter (chemistry)",
+            "topic_url": "https://en.wikipedia.org/wiki/Colorimeter_(chemistry)",
+            "mean": -0.141398576315555,
+            "variance": 0.46338978704189077,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 19605,
+            "topic_name": "Particle accelerator",
+            "topic_url": "https://en.wikipedia.org/wiki/Particle_accelerator",
+            "mean": -0.141398576315555,
+            "variance": 0.46338978704189077,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 19617,
+            "topic_name": "Particle physics",
+            "topic_url": "https://en.wikipedia.org/wiki/Particle_physics",
+            "mean": -0.141398576315555,
+            "variance": 0.46338978704189077,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 17347,
+            "topic_name": "Monte Carlo method",
+            "topic_url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+            "mean": -0.141398576315555,
+            "variance": 0.46338978704189077,
+            "interest_mean": 0.72755236537616,
+            "interest_var": 0.40501689337727975,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 5927,
+            "topic_name": "Convolution",
+            "topic_url": "https://en.wikipedia.org/wiki/Convolution",
+            "mean": -0.1249975708392414,
+            "variance": 0.46553109244687435,
+            "interest_mean": 0.6537644727562917,
+            "interest_var": 0.40584286196994945,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 20410,
+            "topic_name": "Pixel",
+            "topic_url": "https://en.wikipedia.org/wiki/Pixel",
+            "mean": -0.1249975708392414,
+            "variance": 0.46553109244687435,
+            "interest_mean": 0.6537644727562917,
+            "interest_var": 0.40584286196994945,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 4149,
+            "topic_name": "Checkerboard",
+            "topic_url": "https://en.wikipedia.org/wiki/Checkerboard",
+            "mean": -0.1249975708392414,
+            "variance": 0.46553109244687435,
+            "interest_mean": 0.6537644727562917,
+            "interest_var": 0.40584286196994945,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 20635,
+            "topic_name": "Polar bear",
+            "topic_url": "https://en.wikipedia.org/wiki/Polar_bear",
+            "mean": -0.1249975708392414,
+            "variance": 0.46553109244687435,
+            "interest_mean": 0.6537644727562917,
+            "interest_var": 0.40584286196994945,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 16167,
+            "topic_name": "Markov chain",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "mean": -0.1015939081991342,
+            "variance": 0.46873990215808436,
+            "interest_mean": 0.36810243107743956,
+            "interest_var": 0.4132489796887273,
+            "timestamp": 35988681.0
+        },
+        {
+            "topic_id": 22991,
+            "topic_name": "Reverse image search",
+            "topic_url": "https://en.wikipedia.org/wiki/Reverse_image_search",
+            "mean": -0.1015939081991342,
+            "variance": 0.46873990215808436,
+            "interest_mean": 0.36810243107743956,
+            "interest_var": 0.4132489796887273,
+            "timestamp": 35988681.0
+        }
+    ]
+}

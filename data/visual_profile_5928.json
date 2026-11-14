@@ -1,0 +1,308 @@
+{
+    "user_id": 5928,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.17270372707783785,
+            "variance": 0.47158006620484216
+        },
+        "interest": {
+            "mean": -0.08723196491903132,
+            "variance": 0.4080545904235382
+        },
+        "bias": {
+            "mean": -0.8193566982368872,
+            "variance": 0.3227414486804247
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 268304.0,
+            "means": {
+                "Machine learning": -0.20214600793609586,
+                "Expert system": -0.1174304326401333,
+                "Artificial intelligence": -0.11743043264013331,
+                "Domain knowledge": -0.11743043264013331,
+                "Graphical model": -0.30590829662794095,
+                "Bayes' theorem": -0.18796633952409814,
+                "Probability": -0.09029855884038528,
+                "Blue box": -0.09029855884038529,
+                "Conditional probability": -0.09029855884038529,
+                "Orange (fruit)": -0.09029855884038529,
+                "Bayesian inference": -0.10344416972979265,
+                "Probability theory": -0.10344416972979265,
+                "Likelihood function": -0.10344416972979266,
+                "Directed graph": -0.2694827197390724,
+                "Product rule": -0.0905876353129279,
+                "Order theory": -0.09058763531292792,
+                "Joint probability distribution": -0.09058763531292792,
+                "Asthma": -0.1892356586350063,
+                "Graph (discrete mathematics)": -0.0910606948217147,
+                "Causality": -0.0910606948217147,
+                "Allergy": -0.0910606948217147,
+                "Allergen": -0.10404508611450865,
+                "Immunoglobulin E": -0.10404508611450865
+            },
+            "variances": {
+                "Machine learning": 0.44297384569379633,
+                "Expert system": 0.46758906446403664,
+                "Artificial intelligence": 0.46758906446403664,
+                "Domain knowledge": 0.46758906446403664,
+                "Graphical model": 0.4166445322680039,
+                "Bayes' theorem": 0.44483722563748085,
+                "Probability": 0.47207967804677464,
+                "Blue box": 0.47207967804677464,
+                "Conditional probability": 0.47207967804677464,
+                "Orange (fruit)": 0.47207967804677464,
+                "Bayesian inference": 0.46943984176098796,
+                "Probability theory": 0.46943984176098796,
+                "Likelihood function": 0.46943984176098796,
+                "Directed graph": 0.4218641738724065,
+                "Product rule": 0.47185410798168825,
+                "Order theory": 0.47185410798168825,
+                "Joint probability distribution": 0.47185410798168825,
+                "Asthma": 0.44405545924336043,
+                "Graph (discrete mathematics)": 0.4717904875644174,
+                "Causality": 0.4717904875644174,
+                "Allergy": 0.4717904875644174,
+                "Allergen": 0.46884912415172103,
+                "Immunoglobulin E": 0.46884912415172103
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.20214600793609586,
+            "variance": 0.44297384569379633,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 9354,
+            "topic_name": "Expert system",
+            "topic_url": "https://en.wikipedia.org/wiki/Expert_system",
+            "mean": -0.1174304326401333,
+            "variance": 0.46758906446403664,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": -0.11743043264013331,
+            "variance": 0.46758906446403664,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 7853,
+            "topic_name": "Domain knowledge",
+            "topic_url": "https://en.wikipedia.org/wiki/Domain_knowledge",
+            "mean": -0.11743043264013331,
+            "variance": 0.46758906446403664,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": -0.30590829662794095,
+            "variance": 0.4166445322680039,
+            "interest_mean": 1.953209941105621,
+            "interest_var": 0.3028238853318024,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 2198,
+            "topic_name": "Bayes' theorem",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayes'_theorem",
+            "mean": -0.18796633952409814,
+            "variance": 0.44483722563748085,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": -0.09029855884038528,
+            "variance": 0.47207967804677464,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 2774,
+            "topic_name": "Blue box",
+            "topic_url": "https://en.wikipedia.org/wiki/Blue_box",
+            "mean": -0.09029855884038529,
+            "variance": 0.47207967804677464,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 5518,
+            "topic_name": "Conditional probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_probability",
+            "mean": -0.09029855884038529,
+            "variance": 0.47207967804677464,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 19046,
+            "topic_name": "Orange (fruit)",
+            "topic_url": "https://en.wikipedia.org/wiki/Orange_(fruit)",
+            "mean": -0.09029855884038529,
+            "variance": 0.47207967804677464,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 2200,
+            "topic_name": "Bayesian inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference",
+            "mean": -0.10344416972979265,
+            "variance": 0.46943984176098796,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 21383,
+            "topic_name": "Probability theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_theory",
+            "mean": -0.10344416972979265,
+            "variance": 0.46943984176098796,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 15160,
+            "topic_name": "Likelihood function",
+            "topic_url": "https://en.wikipedia.org/wiki/Likelihood_function",
+            "mean": -0.10344416972979266,
+            "variance": 0.46943984176098796,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 7581,
+            "topic_name": "Directed graph",
+            "topic_url": "https://en.wikipedia.org/wiki/Directed_graph",
+            "mean": -0.2694827197390724,
+            "variance": 0.4218641738724065,
+            "interest_mean": 1.9508632564294783,
+            "interest_var": 0.3018939662641801,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 21456,
+            "topic_name": "Product rule",
+            "topic_url": "https://en.wikipedia.org/wiki/Product_rule",
+            "mean": -0.0905876353129279,
+            "variance": 0.47185410798168825,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 19080,
+            "topic_name": "Order theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Order_theory",
+            "mean": -0.09058763531292792,
+            "variance": 0.47185410798168825,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 14202,
+            "topic_name": "Joint probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Joint_probability_distribution",
+            "mean": -0.09058763531292792,
+            "variance": 0.47185410798168825,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 1571,
+            "topic_name": "Asthma",
+            "topic_url": "https://en.wikipedia.org/wiki/Asthma",
+            "mean": -0.1892356586350063,
+            "variance": 0.44405545924336043,
+            "interest_mean": 1.2621564357308301,
+            "interest_var": 0.3478447248317849,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 11574,
+            "topic_name": "Graph (discrete mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "mean": -0.0910606948217147,
+            "variance": 0.4717904875644174,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 3883,
+            "topic_name": "Causality",
+            "topic_url": "https://en.wikipedia.org/wiki/Causality",
+            "mean": -0.0910606948217147,
+            "variance": 0.4717904875644174,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 738,
+            "topic_name": "Allergy",
+            "topic_url": "https://en.wikipedia.org/wiki/Allergy",
+            "mean": -0.0910606948217147,
+            "variance": 0.4717904875644174,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 736,
+            "topic_name": "Allergen",
+            "topic_url": "https://en.wikipedia.org/wiki/Allergen",
+            "mean": -0.10404508611450865,
+            "variance": 0.46884912415172103,
+            "interest_mean": 0.3865957210101917,
+            "interest_var": 0.4131705842413478,
+            "timestamp": 268304.0
+        },
+        {
+            "topic_id": 13101,
+            "topic_name": "Immunoglobulin E",
+            "topic_url": "https://en.wikipedia.org/wiki/Immunoglobulin_E",
+            "mean": -0.10404508611450865,
+            "variance": 0.46884912415172103,
+            "interest_mean": 0.3865957210101917,
+            "interest_var": 0.4131705842413478,
+            "timestamp": 268304.0
+        }
+    ]
+}

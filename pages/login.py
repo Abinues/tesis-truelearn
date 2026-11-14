@@ -1,7 +1,7 @@
 """
-Página de selección de aprendiz (inicio).
+Página de selección del estudiante (inicio).
 
-Permite elegir, de un desplegable, uno de los aprendices entrenados y entrar
+Permite elegir, de un desplegable, uno de los estudiantes entrenados y entrar
 a su perfil. También incluye:
 
     - Un panel de presentación del proyecto.
@@ -63,7 +63,7 @@ def _resumir_log(lineas):
         lineas (list[str]): Líneas del log que devuelve el backend.
 
     Returns:
-        dict: ``hechos`` (aprendices entrenados), ``total`` (aprendices a
+        dict: ``hechos`` (estudiantes entrenados), ``total`` (estudiantes a
         entrenar, 0 si todavía no se sabe), ``fallaron`` y ``error`` (primera
         línea de error, o ``None``).
     """
@@ -105,7 +105,7 @@ def _confirmar_restablecer():
         "border-color:#2f4771 !important}</style>",
         unsafe_allow_html=True,
     )
-    st.write("Se van a borrar todos los feedbacks de todos los aprendices, "
+    st.write("Se van a borrar todos los feedbacks de todos los estudiantes, "
              "reales y ficticios, y los modelos vuelven a su estado al terminar "
              "el entrenamiento. No se puede deshacer.")
     c_no, c_si = st.columns(2)
@@ -120,11 +120,11 @@ def _confirmar_restablecer():
             st.session_state["admin_mensaje"] = ("error", error)
         else:
             texto = (f"Listo: se eliminaron {datos['feedbacks_eliminados']} feedbacks y "
-                     f"{datos['restaurados']} aprendices volvieron a su estado entrenado.")
+                     f"{datos['restaurados']} estudiantes volvieron a su estado entrenado.")
             st.session_state["admin_mensaje"] = ("success", texto)
             if datos["sin_copia"]:
                 st.session_state["admin_aviso"] = (
-                    f"{len(datos['sin_copia'])} aprendices tenían feedbacks y no tienen copia "
+                    f"{len(datos['sin_copia'])} estudiantes tenían feedbacks y no tienen copia "
                     "limpia, así que no se tocaron. Entrená el modelo de nuevo para dejarlos limpios.")
         st.rerun()
 
@@ -144,7 +144,7 @@ with col_brand:
         </div>
         <div style="font-size:1.05rem;color:#ffffff;line-height:1.9;
                     margin-bottom:2rem">
-            Visualización del perfil<br>del aprendiz y corrección<br>
+            Visualización del perfil<br>del estudiante y corrección<br>
             del modelo en tiempo real
         </div>
         <div style="width:40px;height:2px;background:#ffffff;
@@ -165,7 +165,7 @@ with col_main:
     <div style="padding:2rem 0 1rem">
         <div style="font-size:1.178rem;font-weight:700;color:#0f172a;
                     letter-spacing:-.02em;margin-bottom:.3rem">
-            Seleccioná un aprendiz
+            Seleccioná un estudiante
         </div>
         <div style="font-size:1.05rem;color:#64748b;margin-bottom:1.5rem">
             Elegí un perfil del menú para visualizar su conocimiento estimado.
@@ -177,34 +177,38 @@ with col_main:
         st.error("Backend no disponible. Corré: `python -m logic.api_backend`")
         st.stop()
 
+    muy_activos = [u for u in usuarios if u.get("tipo") == "muy_activas"]
     muchos = [u for u in usuarios if u.get("tipo") == "muchas"]
+    medios = [u for u in usuarios if u.get("tipo") == "medias"]
     pocos  = [u for u in usuarios if u.get("tipo") == "pocas"]
-    todos  = muchos + pocos
+    todos  = muy_activos + muchos + medios + pocos
 
     def fmt_opcion(u):
         """
-        Da formato al texto de un aprendiz para el desplegable.
+        Da formato al texto de un estudiante para el desplegable.
 
         Args:
-            u (dict): Resumen del aprendiz, con las claves ``"user_id"``,
+            u (dict): Resumen del estudiante, con las claves ``"user_id"``,
                 ``"tipo"``, ``"interacciones"``, ``"engagements"`` y,
                 opcionalmente, ``"sesiones"``.
 
         Returns:
-            str: Texto con el identificador, el tipo de aprendiz, la cantidad de
+            str: Texto con el identificador, el tipo de estudiante, la cantidad de
             eventos, el porcentaje de enganche y la cantidad de sesiones.
         """
         tasa_e = round(u["engagements"] / u["interacciones"] * 100) if u["interacciones"] > 0 else 0
-        tipo_txt = "Muchas interacciones" if u.get("tipo") == "muchas" else "Pocas interacciones"
-        return (f"Aprendiz #{u['user_id']} ({tipo_txt}) — "
+        tipo_txt = {"muy_activas": "Actividad muy alta",
+                    "muchas": "Muchas interacciones",
+                    "medias": "Interacciones medias"}.get(u.get("tipo"), "Pocas interacciones")
+        return (f"Estudiante #{u['user_id']} ({tipo_txt}) — "
                 f"{u['interacciones']} eventos · {tasa_e}% enganche · "
                 f"{u.get('sesiones',0)} sesiones")
 
     opciones_fmt = [fmt_opcion(u) for u in todos]
-    opciones_fmt.insert(0, "— Seleccioná un aprendiz —")
+    opciones_fmt.insert(0, "— Seleccioná un estudiante —")
 
     sel_idx = st.selectbox(
-        "Aprendiz",
+        "Estudiante",
         range(len(opciones_fmt)),
         format_func=lambda i: opciones_fmt[i],
         label_visibility="collapsed",
@@ -214,16 +218,19 @@ with col_main:
     if sel_idx > 0:
         u_sel = todos[sel_idx - 1]
         tasa_sel = round(u_sel["engagements"] / u_sel["interacciones"] * 100) if u_sel["interacciones"] > 0 else 0
+        rotulo_sel = {"muy_activas": "Muy activo",
+                      "muchas": "Activo",
+                      "medias": "Interacciones medias"}.get(u_sel.get("tipo"), "Pocas interacciones")
 
         st.markdown(f"""
         <div style="background:#f8fafc;border:1px solid #e2e8f0;
                     border-radius:14px;padding:1.2rem 1.4rem;margin:.8rem 0 1rem">
             <div style="font-size:1.25rem;font-weight:700;color:#0f172a;
                         margin-bottom:.6rem">
-                Aprendiz #{u_sel['user_id']}
+                Estudiante #{u_sel['user_id']}
                 <span style="font-size:.95rem;font-weight:500;color:#64748b;
                              margin-left:.5rem">
-                    {'Activo' if u_sel.get('tipo')=='muchas' else 'Pocas interacciones'}
+                    {rotulo_sel}
                 </span>
             </div>
             <div style="display:flex;gap:1.5rem;font-size:1.02rem;color:#475569">
@@ -247,7 +254,7 @@ with col_main:
                 padding:.7rem 1rem;font-size:1rem;color:#92400e;margin-bottom:1rem">
         <b>Nota sobre el dataset:</b> PEEK proviene de VideoLectures.net y está
         dominado por Ciencias de la Computación e IA. Los perfiles reflejan ese
-        sesgo temático y no representan aprendices de otras disciplinas.
+        sesgo temático y no representan estudiantes de otras disciplinas.
     </div>
     """, unsafe_allow_html=True)
 
@@ -268,7 +275,7 @@ with col_main:
 
             if st.session_state.get("admin_entrenando") and not activo:
                 st.session_state["admin_entrenando"] = False
-                st.rerun()                      # recarga la lista de aprendices
+                st.rerun()                      # recarga la lista de estudiantes
             st.session_state["admin_entrenando"] = activo
 
             c_entrenar, c_ficticios, c_restablecer = st.columns(3)
@@ -276,16 +283,16 @@ with col_main:
                 entrenar = st.button(
                     "Entrenar modelos desde PEEK", use_container_width=True,
                     key="btn_entrenar", disabled=activo,
-                    help="Entrena a todos los aprendices desde cero con el dataset PEEK. "
+                    help="Entrena a todos los estudiantes desde cero con el dataset PEEK. "
                          "Tarda unos minutos y reemplaza sus feedbacks.")
             with c_ficticios:
                 agregar = st.button(
                     "Agregar feedbacks ficticios", use_container_width=True,
                     key="btn_ficticios", disabled=activo,
-                    help="Agrega correcciones de prueba a cada aprendiz y las aplica al modelo. "
+                    help="Agrega correcciones de prueba a cada estudiante y las aplica al modelo. "
                          "Quedan marcadas como ficticias.")
                 cantidad = st.number_input(
-                    "Feedbacks por aprendiz", min_value=1, max_value=50, value=5,
+                    "Feedbacks por estudiante", min_value=1, max_value=50, value=5,
                     step=1, key="admin_cantidad", disabled=activo)
                 dias = st.number_input(
                     "Repartidos en los últimos (días)", min_value=1, max_value=365,
@@ -312,7 +319,7 @@ with col_main:
                     st.session_state["admin_mensaje"] = (
                         "success",
                         f"Se agregaron {datos['feedbacks']} feedbacks ficticios a "
-                        f"{datos['aprendices']} aprendices.")
+                        f"{datos['aprendices']} estudiantes.")
                 st.rerun()
             if restablecer:
                 st.session_state["admin_confirmando"] = True
@@ -323,7 +330,7 @@ with col_main:
                 r = _resumir_log(log_actual.get("log", []))
                 if r["hechos"] and r["total"]:
                     st.progress(min(r["hechos"] / r["total"], 1.0),
-                                text=f"Entrenando aprendices: {r['hechos']} de {r['total']}")
+                                text=f"Entrenando estudiantes: {r['hechos']} de {r['total']}")
                 else:
                     st.progress(0.0, text="Preparando el entrenamiento (cargando el dataset PEEK)...")
             elif log_actual.get("done"):
@@ -332,7 +339,7 @@ with col_main:
                     st.error(f"El entrenamiento falló: {r['error'][:200]}")
                 else:
                     st.caption("Último entrenamiento: completado."
-                               + (f" {r['fallaron']} aprendices fallaron y se saltearon."
+                               + (f" {r['fallaron']} estudiantes fallaron y se saltearon."
                                   if r["fallaron"] else ""))
 
             tipo, texto = st.session_state.pop("admin_mensaje", (None, None))
@@ -347,7 +354,7 @@ with col_main:
             est = None if activo else _pedir("GET", "/administracion/estado", timeout=10)[0]
             if est:
                 st.caption(
-                    f"{est['aprendices']} aprendices · {est['feedbacks']} feedbacks"
+                    f"{est['aprendices']} estudiantes · {est['feedbacks']} feedbacks"
                     + (f" ({est['ficticios']} ficticios)" if est["ficticios"] else ""))
 
         _panel_administracion()

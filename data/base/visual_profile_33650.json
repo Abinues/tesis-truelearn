@@ -1,0 +1,270 @@
+{
+    "user_id": 33650,
+    "number_of_engagements": 3,
+    "number_of_non_engagements": 4,
+    "weights": {
+        "novelty": {
+            "mean": 0.43698573002291824,
+            "variance": 0.43525894015992006
+        },
+        "interest": {
+            "mean": 0.10998069254850351,
+            "variance": 0.3522204119488263
+        },
+        "bias": {
+            "mean": -0.2199393655260239,
+            "variance": 0.30455262342560596
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 7851098.0,
+            "means": {
+                "Neuron": 0.19098313431838396,
+                "Machine learning": 0.19098313431838396,
+                "Computational neuroscience": 0.23406748939099037,
+                "Frontal lobe": 0.19098313431838396,
+                "Neuroscience": 0.23406748939099037,
+                "Reinforcement learning": 0.22465597830671125,
+                "Brain": 0.22465597830671125,
+                "Basal ganglia": 0.18156007984978584,
+                "External capsule": 0.18156007984978584,
+                "Internal capsule": 0.18156007984978584,
+                "Dopamine": 0.04976409401832429
+            },
+            "variances": {
+                "Neuron": 0.4328859584657743,
+                "Machine learning": 0.4328859584657743,
+                "Computational neuroscience": 0.3787774480394208,
+                "Frontal lobe": 0.4328859584657743,
+                "Neuroscience": 0.3787774480394208,
+                "Reinforcement learning": 0.3788644311443592,
+                "Brain": 0.3788644311443592,
+                "Basal ganglia": 0.4330019395214603,
+                "External capsule": 0.4330019395214603,
+                "Internal capsule": 0.4330019395214603,
+                "Dopamine": 0.42781306718269074
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 7851252.0,
+            "means": {
+                "Neuron": 0.020209047511184332,
+                "Machine learning": 0.02020904751118431,
+                "Computational neuroscience": -0.024544225764301927,
+                "Frontal lobe": 0.020209047511184332,
+                "Neuroscience": -0.024544225764301927,
+                "Reinforcement learning": 0.10722734236569968,
+                "Brain": 0.10722734236569968,
+                "Basal ganglia": 0.18156007984978584,
+                "External capsule": 0.18156007984978584,
+                "Internal capsule": 0.18156007984978584,
+                "Dopamine": 0.04976409401832429,
+                "Assignment problem": -0.15497447937553635
+            },
+            "variances": {
+                "Neuron": 0.3982550728795151,
+                "Machine learning": 0.3982550728795151,
+                "Computational neuroscience": 0.331382936099237,
+                "Frontal lobe": 0.3982550728795151,
+                "Neuroscience": 0.331382936099237,
+                "Reinforcement learning": 0.3547118844754131,
+                "Brain": 0.3547118844754131,
+                "Basal ganglia": 0.4330019395214603,
+                "External capsule": 0.4330019395214603,
+                "Internal capsule": 0.4330019395214603,
+                "Dopamine": 0.42781306718269074,
+                "Assignment problem": 0.457933607488365
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 7851924.0,
+            "means": {
+                "Neuron": 0.020209047511184332,
+                "Machine learning": 0.02020904751118431,
+                "Computational neuroscience": -0.09548500946227167,
+                "Frontal lobe": 0.020209047511184332,
+                "Neuroscience": -0.09548500946227166,
+                "Reinforcement learning": 0.03129241533573956,
+                "Brain": 0.03129241533573955,
+                "Basal ganglia": 0.18156007984978584,
+                "External capsule": 0.18156007984978584,
+                "Internal capsule": 0.18156007984978584,
+                "Dopamine": 0.04976409401832429,
+                "Assignment problem": -0.25300659104448076
+            },
+            "variances": {
+                "Neuron": 0.3982550728795151,
+                "Machine learning": 0.3982550728795151,
+                "Computational neuroscience": 0.3157969466326313,
+                "Frontal lobe": 0.3982550728795151,
+                "Neuroscience": 0.3157969466326313,
+                "Reinforcement learning": 0.33685418234940445,
+                "Brain": 0.33685418234940445,
+                "Basal ganglia": 0.4330019395214603,
+                "External capsule": 0.4330019395214603,
+                "Internal capsule": 0.4330019395214603,
+                "Dopamine": 0.42781306718269074,
+                "Assignment problem": 0.4281704412555633
+            }
+        },
+        {
+            "session_id": 4,
+            "timestamp": 7852139.0,
+            "means": {
+                "Neuron": 0.020209047511184332,
+                "Machine learning": 0.02020904751118431,
+                "Computational neuroscience": -0.1460589206727613,
+                "Frontal lobe": 0.020209047511184332,
+                "Neuroscience": -0.14605892067276127,
+                "Reinforcement learning": -0.02265374750933378,
+                "Brain": -0.022653747509333768,
+                "Basal ganglia": 0.18156007984978584,
+                "External capsule": 0.18156007984978584,
+                "Internal capsule": 0.18156007984978584,
+                "Dopamine": 0.04976409401832429,
+                "Assignment problem": -0.32157677232683984
+            },
+            "variances": {
+                "Neuron": 0.3982550728795151,
+                "Machine learning": 0.3982550728795151,
+                "Computational neuroscience": 0.3036452294304751,
+                "Frontal lobe": 0.3982550728795151,
+                "Neuroscience": 0.3036452294304751,
+                "Reinforcement learning": 0.32302789149758254,
+                "Brain": 0.32302789149758254,
+                "Basal ganglia": 0.4330019395214603,
+                "External capsule": 0.4330019395214603,
+                "Internal capsule": 0.4330019395214603,
+                "Dopamine": 0.42781306718269074,
+                "Assignment problem": 0.40583188167992906
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 18150,
+            "topic_name": "Neuron",
+            "topic_url": "https://en.wikipedia.org/wiki/Neuron",
+            "mean": 0.020209047511184332,
+            "variance": 0.3982550728795151,
+            "interest_mean": 1.1996350707481036,
+            "interest_var": 0.36850284621671797,
+            "timestamp": 7851252.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.02020904751118431,
+            "variance": 0.3982550728795151,
+            "interest_mean": 1.1996350707481036,
+            "interest_var": 0.36850284621671797,
+            "timestamp": 7851252.0
+        },
+        {
+            "topic_id": 5369,
+            "topic_name": "Computational neuroscience",
+            "topic_url": "https://en.wikipedia.org/wiki/Computational_neuroscience",
+            "mean": -0.1460589206727613,
+            "variance": 0.3036452294304751,
+            "interest_mean": 1.6981798421786194,
+            "interest_var": 0.26384151747253615,
+            "timestamp": 7852139.0
+        },
+        {
+            "topic_id": 10615,
+            "topic_name": "Frontal lobe",
+            "topic_url": "https://en.wikipedia.org/wiki/Frontal_lobe",
+            "mean": 0.020209047511184332,
+            "variance": 0.3982550728795151,
+            "interest_mean": 1.1996350707481036,
+            "interest_var": 0.36850284621671797,
+            "timestamp": 7851252.0
+        },
+        {
+            "topic_id": 18157,
+            "topic_name": "Neuroscience",
+            "topic_url": "https://en.wikipedia.org/wiki/Neuroscience",
+            "mean": -0.14605892067276127,
+            "variance": 0.3036452294304751,
+            "interest_mean": 1.6981798421786194,
+            "interest_var": 0.26384151747253615,
+            "timestamp": 7852139.0
+        },
+        {
+            "topic_id": 22732,
+            "topic_name": "Reinforcement learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "mean": -0.02265374750933378,
+            "variance": 0.32302789149758254,
+            "interest_mean": 1.617344219258199,
+            "interest_var": 0.282180069167612,
+            "timestamp": 7852139.0
+        },
+        {
+            "topic_id": 3008,
+            "topic_name": "Brain",
+            "topic_url": "https://en.wikipedia.org/wiki/Brain",
+            "mean": -0.022653747509333768,
+            "variance": 0.32302789149758254,
+            "interest_mean": 1.617344219258199,
+            "interest_var": 0.282180069167612,
+            "timestamp": 7852139.0
+        },
+        {
+            "topic_id": 2103,
+            "topic_name": "Basal ganglia",
+            "topic_url": "https://en.wikipedia.org/wiki/Basal_ganglia",
+            "mean": 0.18156007984978584,
+            "variance": 0.4330019395214603,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7851098.0
+        },
+        {
+            "topic_id": 9425,
+            "topic_name": "External capsule",
+            "topic_url": "https://en.wikipedia.org/wiki/External_capsule",
+            "mean": 0.18156007984978584,
+            "variance": 0.4330019395214603,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7851098.0
+        },
+        {
+            "topic_id": 13713,
+            "topic_name": "Internal capsule",
+            "topic_url": "https://en.wikipedia.org/wiki/Internal_capsule",
+            "mean": 0.18156007984978584,
+            "variance": 0.4330019395214603,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 7851098.0
+        },
+        {
+            "topic_id": 7902,
+            "topic_name": "Dopamine",
+            "topic_url": "https://en.wikipedia.org/wiki/Dopamine",
+            "mean": 0.04976409401832429,
+            "variance": 0.42781306718269074,
+            "interest_mean": 0.3787469991011511,
+            "interest_var": 0.4149657434422758,
+            "timestamp": 7851098.0
+        },
+        {
+            "topic_id": 1540,
+            "topic_name": "Assignment problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Assignment_problem",
+            "mean": -0.32157677232683984,
+            "variance": 0.40583188167992906,
+            "interest_mean": 0.31101641802480523,
+            "interest_var": 0.3687357589311044,
+            "timestamp": 7852139.0
+        }
+    ]
+}

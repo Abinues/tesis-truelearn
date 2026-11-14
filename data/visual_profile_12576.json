@@ -1,0 +1,422 @@
+{
+    "user_id": 12576,
+    "number_of_engagements": 8,
+    "number_of_non_engagements": 1,
+    "weights": {
+        "novelty": {
+            "mean": 0.971211939385514,
+            "variance": 0.4094022933779433
+        },
+        "interest": {
+            "mean": 0.9512642884046542,
+            "variance": 0.37696789435301753
+        },
+        "bias": {
+            "mean": 0.5938481667110564,
+            "variance": 0.29231473287695564
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 22969009.0,
+            "means": {
+                "Reinforcement learning": 0.3544656743983487,
+                "Online advertising": 0.13812704748852678,
+                "Real-time bidding": 0.13812704748852678,
+                "Auction": 0.13812704748852678,
+                "Probability": 0.16975405994912016,
+                "Machine learning": 0.24207880341515953,
+                "Cross entropy": 0.1454491871104629,
+                "Supervised learning": 0.12667004349399638,
+                "Click-through rate": 0.1900903558958605,
+                "Loss function": 0.12857658729277716,
+                "Loss functions for classification": 0.06833095710840094,
+                "Algorithm": 0.1411645787629428,
+                "Chemotherapy": 0.08381097581884882,
+                "Correlation does not imply causation": 0.08381097581884882,
+                "Confounding": 0.08381097581884882,
+                "Origin (mathematics)": 0.03193390531802321,
+                "Discrete uniform distribution": 0.031933905318023204,
+                "Data set": 0.031933905318023204,
+                "Importance sampling": 0.03653041871819295,
+                "Confidence interval": 0.03653041871819295,
+                "Mathematical optimization": 0.06015759001060867,
+                "Trust region": 0.06015759001060867,
+                "Mean squared error": 0.03841113811021794
+            },
+            "variances": {
+                "Reinforcement learning": 0.2541110657854049,
+                "Online advertising": 0.4328859833851618,
+                "Real-time bidding": 0.4328859833851618,
+                "Auction": 0.4328859833851618,
+                "Probability": 0.37832414383189805,
+                "Machine learning": 0.3022734179333303,
+                "Cross entropy": 0.3760819902305921,
+                "Supervised learning": 0.3727094648650659,
+                "Click-through rate": 0.338539926565401,
+                "Loss function": 0.33103466360347567,
+                "Loss functions for classification": 0.4294776701433685,
+                "Algorithm": 0.33483092857602853,
+                "Chemotherapy": 0.42942666145490827,
+                "Correlation does not imply causation": 0.42942666145490827,
+                "Confounding": 0.42942666145490827,
+                "Origin (mathematics)": 0.42938011902745327,
+                "Discrete uniform distribution": 0.42938011902745327,
+                "Data set": 0.42938011902745327,
+                "Importance sampling": 0.42720828273181594,
+                "Confidence interval": 0.42720828273181594,
+                "Mathematical optimization": 0.42531643222124976,
+                "Trust region": 0.42531643222124976,
+                "Mean squared error": 0.4207939124367967
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 23237514.0,
+            "means": {
+                "Reinforcement learning": 0.3544656743983487,
+                "Online advertising": 0.13812704748852678,
+                "Real-time bidding": 0.13812704748852678,
+                "Auction": 0.13812704748852678,
+                "Probability": 0.16975405994912016,
+                "Machine learning": 0.24207880341515953,
+                "Cross entropy": 0.1454491871104629,
+                "Supervised learning": 0.12667004349399638,
+                "Click-through rate": 0.1900903558958605,
+                "Loss function": 0.12857658729277716,
+                "Loss functions for classification": 0.06833095710840094,
+                "Algorithm": 0.1411645787629428,
+                "Chemotherapy": 0.08381097581884882,
+                "Correlation does not imply causation": 0.08381097581884882,
+                "Confounding": 0.08381097581884882,
+                "Origin (mathematics)": 0.03193390531802321,
+                "Discrete uniform distribution": 0.031933905318023204,
+                "Data set": 0.031933905318023204,
+                "Importance sampling": 0.03653041871819295,
+                "Confidence interval": 0.03653041871819295,
+                "Mathematical optimization": 0.06015759001060867,
+                "Trust region": 0.06015759001060867,
+                "Mean squared error": 0.03841113811021794,
+                "Generative model": -0.10647858603091247,
+                "Maximum likelihood estimation": -0.10647858603091247,
+                "Probability density function": -0.10647858603091247,
+                "Normal distribution": -0.10647858603091247,
+                "Deep learning": -0.10647858603091247
+            },
+            "variances": {
+                "Reinforcement learning": 0.2541110657854049,
+                "Online advertising": 0.4328859833851618,
+                "Real-time bidding": 0.4328859833851618,
+                "Auction": 0.4328859833851618,
+                "Probability": 0.37832414383189805,
+                "Machine learning": 0.3022734179333303,
+                "Cross entropy": 0.3760819902305921,
+                "Supervised learning": 0.3727094648650659,
+                "Click-through rate": 0.338539926565401,
+                "Loss function": 0.33103466360347567,
+                "Loss functions for classification": 0.4294776701433685,
+                "Algorithm": 0.33483092857602853,
+                "Chemotherapy": 0.42942666145490827,
+                "Correlation does not imply causation": 0.42942666145490827,
+                "Confounding": 0.42942666145490827,
+                "Origin (mathematics)": 0.42938011902745327,
+                "Discrete uniform distribution": 0.42938011902745327,
+                "Data set": 0.42938011902745327,
+                "Importance sampling": 0.42720828273181594,
+                "Confidence interval": 0.42720828273181594,
+                "Mathematical optimization": 0.42531643222124976,
+                "Trust region": 0.42531643222124976,
+                "Mean squared error": 0.4207939124367967,
+                "Generative model": 0.46929802907237517,
+                "Maximum likelihood estimation": 0.46929802907237517,
+                "Probability density function": 0.46929802907237517,
+                "Normal distribution": 0.46929802907237517,
+                "Deep learning": 0.46929802907237517
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 22732,
+            "topic_name": "Reinforcement learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+            "mean": 0.3544656743983487,
+            "variance": 0.2541110657854049,
+            "interest_mean": 2.7550068418261713,
+            "interest_var": 0.23248357430028507,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 18839,
+            "topic_name": "Online advertising",
+            "topic_url": "https://en.wikipedia.org/wiki/Online_advertising",
+            "mean": 0.13812704748852678,
+            "variance": 0.4328859833851618,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 22476,
+            "topic_name": "Real-time bidding",
+            "topic_url": "https://en.wikipedia.org/wiki/Real-time_bidding",
+            "mean": 0.13812704748852678,
+            "variance": 0.4328859833851618,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 1682,
+            "topic_name": "Auction",
+            "topic_url": "https://en.wikipedia.org/wiki/Auction",
+            "mean": 0.13812704748852678,
+            "variance": 0.4328859833851618,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.16975405994912016,
+            "variance": 0.37832414383189805,
+            "interest_mean": 1.4432915856468764,
+            "interest_var": 0.3471079613089919,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.24207880341515953,
+            "variance": 0.3022734179333303,
+            "interest_mean": 1.986873057829804,
+            "interest_var": 0.2817754413426291,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 6389,
+            "topic_name": "Cross entropy",
+            "topic_url": "https://en.wikipedia.org/wiki/Cross_entropy",
+            "mean": 0.1454491871104629,
+            "variance": 0.3760819902305921,
+            "interest_mean": 1.181337559703413,
+            "interest_var": 0.350012681743826,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 26660,
+            "topic_name": "Supervised learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Supervised_learning",
+            "mean": 0.12667004349399638,
+            "variance": 0.3727094648650659,
+            "interest_mean": 0.9856237411313633,
+            "interest_var": 0.3759749734345183,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 4643,
+            "topic_name": "Click-through rate",
+            "topic_url": "https://en.wikipedia.org/wiki/Click-through_rate",
+            "mean": 0.1900903558958605,
+            "variance": 0.338539926565401,
+            "interest_mean": 2.0228214864061678,
+            "interest_var": 0.2959739144777488,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.12857658729277716,
+            "variance": 0.33103466360347567,
+            "interest_mean": 1.062132951644577,
+            "interest_var": 0.3249340977142795,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 15666,
+            "topic_name": "Loss functions for classification",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_functions_for_classification",
+            "mean": 0.06833095710840094,
+            "variance": 0.4294776701433685,
+            "interest_mean": 0.6468234122415926,
+            "interest_var": 0.4054553027757717,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.1411645787629428,
+            "variance": 0.33483092857602853,
+            "interest_mean": 1.488256627276876,
+            "interest_var": 0.3019594069587403,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 4202,
+            "topic_name": "Chemotherapy",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemotherapy",
+            "mean": 0.08381097581884882,
+            "variance": 0.42942666145490827,
+            "interest_mean": 0.7217617291424211,
+            "interest_var": 0.4032163868061424,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 6071,
+            "topic_name": "Correlation does not imply causation",
+            "topic_url": "https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation",
+            "mean": 0.08381097581884882,
+            "variance": 0.42942666145490827,
+            "interest_mean": 0.7217617291424211,
+            "interest_var": 0.4032163868061424,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 5583,
+            "topic_name": "Confounding",
+            "topic_url": "https://en.wikipedia.org/wiki/Confounding",
+            "mean": 0.08381097581884882,
+            "variance": 0.42942666145490827,
+            "interest_mean": 0.7217617291424211,
+            "interest_var": 0.4032163868061424,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 19149,
+            "topic_name": "Origin (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Origin_(mathematics)",
+            "mean": 0.03193390531802321,
+            "variance": 0.42938011902745327,
+            "interest_mean": 0.7628080882395442,
+            "interest_var": 0.4021276538926768,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 7640,
+            "topic_name": "Discrete uniform distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Discrete_uniform_distribution",
+            "mean": 0.031933905318023204,
+            "variance": 0.42938011902745327,
+            "interest_mean": 0.762808088239544,
+            "interest_var": 0.4021276538926768,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 6842,
+            "topic_name": "Data set",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_set",
+            "mean": 0.031933905318023204,
+            "variance": 0.42938011902745327,
+            "interest_mean": 0.7628080882395442,
+            "interest_var": 0.4021276538926768,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 13142,
+            "topic_name": "Importance sampling",
+            "topic_url": "https://en.wikipedia.org/wiki/Importance_sampling",
+            "mean": 0.03653041871819295,
+            "variance": 0.42720828273181594,
+            "interest_mean": 0.43936173127508205,
+            "interest_var": 0.41006990403593513,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 5554,
+            "topic_name": "Confidence interval",
+            "topic_url": "https://en.wikipedia.org/wiki/Confidence_interval",
+            "mean": 0.03653041871819295,
+            "variance": 0.42720828273181594,
+            "interest_mean": 0.43936173127508227,
+            "interest_var": 0.41006990403593513,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 16318,
+            "topic_name": "Mathematical optimization",
+            "topic_url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
+            "mean": 0.06015759001060867,
+            "variance": 0.42531643222124976,
+            "interest_mean": 0.326687393360228,
+            "interest_var": 0.4159037602591176,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 28428,
+            "topic_name": "Trust region",
+            "topic_url": "https://en.wikipedia.org/wiki/Trust_region",
+            "mean": 0.06015759001060867,
+            "variance": 0.42531643222124976,
+            "interest_mean": 0.326687393360228,
+            "interest_var": 0.4159037602591176,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 16429,
+            "topic_name": "Mean squared error",
+            "topic_url": "https://en.wikipedia.org/wiki/Mean_squared_error",
+            "mean": 0.03841113811021794,
+            "variance": 0.4207939124367967,
+            "interest_mean": 0.08521966555003681,
+            "interest_var": 0.4554238784566625,
+            "timestamp": 22969009.0
+        },
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": -0.10647858603091247,
+            "variance": 0.46929802907237517,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23237514.0
+        },
+        {
+            "topic_id": 16388,
+            "topic_name": "Maximum likelihood estimation",
+            "topic_url": "https://en.wikipedia.org/wiki/Maximum_likelihood_estimation",
+            "mean": -0.10647858603091247,
+            "variance": 0.46929802907237517,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23237514.0
+        },
+        {
+            "topic_id": 21372,
+            "topic_name": "Probability density function",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_density_function",
+            "mean": -0.10647858603091247,
+            "variance": 0.46929802907237517,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23237514.0
+        },
+        {
+            "topic_id": 18442,
+            "topic_name": "Normal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Normal_distribution",
+            "mean": -0.10647858603091247,
+            "variance": 0.46929802907237517,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23237514.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": -0.10647858603091247,
+            "variance": 0.46929802907237517,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23237514.0
+        }
+    ]
+}

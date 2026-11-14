@@ -1,0 +1,406 @@
+{
+    "user_id": 3912,
+    "number_of_engagements": 9,
+    "number_of_non_engagements": 2,
+    "weights": {
+        "novelty": {
+            "mean": 1.0474290435450493,
+            "variance": 0.3827128195814641
+        },
+        "interest": {
+            "mean": 0.9695856030927621,
+            "variance": 0.33404392064918936
+        },
+        "bias": {
+            "mean": 0.6012315749485749,
+            "variance": 0.2593020115346678
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 2425683.0,
+            "means": {
+                "Data science": 0.06374845441985001,
+                "Big data": 0.06374845441985001,
+                "Apennine Mountains": 0.06374845441985001,
+                "Transistor": 0.06374845441985001,
+                "Science": 0.06374845441985003
+            },
+            "variances": {
+                "Data science": 0.4328858836142741,
+                "Big data": 0.4328858836142741,
+                "Apennine Mountains": 0.4328858836142741,
+                "Transistor": 0.4328858836142741,
+                "Science": 0.4328858836142741
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 2426604.0,
+            "means": {
+                "Data science": -0.24667675430242306,
+                "Big data": -0.24667675430242306,
+                "Apennine Mountains": -0.1224707376525269,
+                "Transistor": -0.12247073765252686,
+                "Science": -0.24667675430242297,
+                "Computer science": 0.08538059109137418,
+                "Face validity": 0.08538059109137418,
+                "Construct validity": 0.08538059109137418,
+                "Shader": 0.08538059109137418,
+                "Baseball": 0.08538059109137418,
+                "Ontology (computer science)": -0.1561155506644242,
+                "Data": -0.1561155506644242
+            },
+            "variances": {
+                "Data science": 0.3724411787848999,
+                "Big data": 0.3724411787848999,
+                "Apennine Mountains": 0.397801551867441,
+                "Transistor": 0.397801551867441,
+                "Science": 0.3724411787848999,
+                "Computer science": 0.43291482918591023,
+                "Face validity": 0.43291482918591023,
+                "Construct validity": 0.43291482918591023,
+                "Shader": 0.43291482918591023,
+                "Baseball": 0.43291482918591023,
+                "Ontology (computer science)": 0.45993522566717066,
+                "Data": 0.45993522566717066
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 2429209.0,
+            "means": {
+                "Data science": 0.10652036073815499,
+                "Big data": -0.02246144339910597,
+                "Apennine Mountains": 0.036155899452281405,
+                "Transistor": 0.03615589945228144,
+                "Science": 0.03547064465797983,
+                "Computer science": 0.11210375562228964,
+                "Face validity": 0.11210375562228964,
+                "Construct validity": 0.11210375562228964,
+                "Shader": 0.11210375562228964,
+                "Baseball": 0.11210375562228964,
+                "Ontology (computer science)": -0.04952640948907771,
+                "Data": 0.057558297019162076,
+                "Scatter plot": 0.0670869338032991,
+                "Don (honorific)": 0.0670869338032991,
+                "Storytelling": 0.0670869338032991,
+                "Logic": 0.0670869338032991,
+                "Probability": 0.06708693380329911,
+                "Streaming media": 0.05092551652514475,
+                "Descriptive statistics": 0.05092551652514475,
+                "Firewall (computing)": 0.05092551652514475,
+                "Continuous uniform distribution": 0.05092551652514475,
+                "Twitter": 0.1649323516002195,
+                "Web scraping": 0.13166963851129915,
+                "Ontology": 0.13166963851129915,
+                "Flute": 0.10904737906763512,
+                "Species": 0.10904737906763512,
+                "Fish": 0.10904737906763512
+            },
+            "variances": {
+                "Data science": 0.2461070295064534,
+                "Big data": 0.29086425768105334,
+                "Apennine Mountains": 0.34556592168484956,
+                "Transistor": 0.34556592168484956,
+                "Science": 0.2663304847574111,
+                "Computer science": 0.37768215093163376,
+                "Face validity": 0.37768215093163376,
+                "Construct validity": 0.37768215093163376,
+                "Shader": 0.37768215093163376,
+                "Baseball": 0.37768215093163376,
+                "Ontology (computer science)": 0.3889822574230038,
+                "Data": 0.34587814279637535,
+                "Scatter plot": 0.43291482949694515,
+                "Don (honorific)": 0.43291482949694515,
+                "Storytelling": 0.43291482949694515,
+                "Logic": 0.43291482949694515,
+                "Probability": 0.43291482949694515,
+                "Streaming media": 0.4329275767901927,
+                "Descriptive statistics": 0.4329275767901927,
+                "Firewall (computing)": 0.4329275767901927,
+                "Continuous uniform distribution": 0.4329275767901927,
+                "Twitter": 0.3792723884992289,
+                "Web scraping": 0.4284316127387179,
+                "Ontology": 0.4284316127387179,
+                "Flute": 0.42718705696137943,
+                "Species": 0.42718705696137943,
+                "Fish": 0.42718705696137943
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 6838,
+            "topic_name": "Data science",
+            "topic_url": "https://en.wikipedia.org/wiki/Data_science",
+            "mean": 0.10652036073815499,
+            "variance": 0.2461070295064534,
+            "interest_mean": 2.284030243327681,
+            "interest_var": 0.23831988174095575,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 2414,
+            "topic_name": "Big data",
+            "topic_url": "https://en.wikipedia.org/wiki/Big_data",
+            "mean": -0.02246144339910597,
+            "variance": 0.29086425768105334,
+            "interest_mean": 1.6342100703793117,
+            "interest_var": 0.3006571816056042,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 1196,
+            "topic_name": "Apennine Mountains",
+            "topic_url": "https://en.wikipedia.org/wiki/Apennine_Mountains",
+            "mean": 0.036155899452281405,
+            "variance": 0.34556592168484956,
+            "interest_mean": 1.2649651424440653,
+            "interest_var": 0.35807551984451363,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 28155,
+            "topic_name": "Transistor",
+            "topic_url": "https://en.wikipedia.org/wiki/Transistor",
+            "mean": 0.03615589945228144,
+            "variance": 0.34556592168484956,
+            "interest_mean": 1.2649651424440653,
+            "interest_var": 0.35807551984451363,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 23769,
+            "topic_name": "Science",
+            "topic_url": "https://en.wikipedia.org/wiki/Science",
+            "mean": 0.03547064465797983,
+            "variance": 0.2663304847574111,
+            "interest_mean": 1.9563917572964682,
+            "interest_var": 0.26595421063947855,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 5419,
+            "topic_name": "Computer science",
+            "topic_url": "https://en.wikipedia.org/wiki/Computer_science",
+            "mean": 0.11210375562228964,
+            "variance": 0.37768215093163376,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 9502,
+            "topic_name": "Face validity",
+            "topic_url": "https://en.wikipedia.org/wiki/Face_validity",
+            "mean": 0.11210375562228964,
+            "variance": 0.37768215093163376,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 5724,
+            "topic_name": "Construct validity",
+            "topic_url": "https://en.wikipedia.org/wiki/Construct_validity",
+            "mean": 0.11210375562228964,
+            "variance": 0.37768215093163376,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 24427,
+            "topic_name": "Shader",
+            "topic_url": "https://en.wikipedia.org/wiki/Shader",
+            "mean": 0.11210375562228964,
+            "variance": 0.37768215093163376,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 2120,
+            "topic_name": "Baseball",
+            "topic_url": "https://en.wikipedia.org/wiki/Baseball",
+            "mean": 0.11210375562228964,
+            "variance": 0.37768215093163376,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 18867,
+            "topic_name": "Ontology (computer science)",
+            "topic_url": "https://en.wikipedia.org/wiki/Ontology_(information_science)",
+            "mean": -0.04952640948907771,
+            "variance": 0.3889822574230038,
+            "interest_mean": 0.5111245133955348,
+            "interest_var": 0.3902765932196055,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 6773,
+            "topic_name": "Data",
+            "topic_url": "https://en.wikipedia.org/wiki/Data",
+            "mean": 0.057558297019162076,
+            "variance": 0.34587814279637535,
+            "interest_mean": 0.9880049692883842,
+            "interest_var": 0.33065258158513217,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 23725,
+            "topic_name": "Scatter plot",
+            "topic_url": "https://en.wikipedia.org/wiki/Scatter_plot",
+            "mean": 0.0670869338032991,
+            "variance": 0.43291482949694515,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 7885,
+            "topic_name": "Don (honorific)",
+            "topic_url": "https://en.wikipedia.org/wiki/Don_(honorific)",
+            "mean": 0.0670869338032991,
+            "variance": 0.43291482949694515,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 26231,
+            "topic_name": "Storytelling",
+            "topic_url": "https://en.wikipedia.org/wiki/Storytelling",
+            "mean": 0.0670869338032991,
+            "variance": 0.43291482949694515,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 15565,
+            "topic_name": "Logic",
+            "topic_url": "https://en.wikipedia.org/wiki/Logic",
+            "mean": 0.0670869338032991,
+            "variance": 0.43291482949694515,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": 0.06708693380329911,
+            "variance": 0.43291482949694515,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 26276,
+            "topic_name": "Streaming media",
+            "topic_url": "https://en.wikipedia.org/wiki/Streaming_media",
+            "mean": 0.05092551652514475,
+            "variance": 0.4329275767901927,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 7256,
+            "topic_name": "Descriptive statistics",
+            "topic_url": "https://en.wikipedia.org/wiki/Descriptive_statistics",
+            "mean": 0.05092551652514475,
+            "variance": 0.4329275767901927,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 9956,
+            "topic_name": "Firewall (computing)",
+            "topic_url": "https://en.wikipedia.org/wiki/Firewall_(computing)",
+            "mean": 0.05092551652514475,
+            "variance": 0.4329275767901927,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 28714,
+            "topic_name": "Continuous uniform distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Uniform_distribution_(continuous)",
+            "mean": 0.05092551652514475,
+            "variance": 0.4329275767901927,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 28540,
+            "topic_name": "Twitter",
+            "topic_url": "https://en.wikipedia.org/wiki/Twitter",
+            "mean": 0.1649323516002195,
+            "variance": 0.3792723884992289,
+            "interest_mean": 1.5675003321997265,
+            "interest_var": 0.34218784003981983,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 29756,
+            "topic_name": "Web scraping",
+            "topic_url": "https://en.wikipedia.org/wiki/Web_scraping",
+            "mean": 0.13166963851129915,
+            "variance": 0.4284316127387179,
+            "interest_mean": 0.5921140103562029,
+            "interest_var": 0.4026286377457592,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 18866,
+            "topic_name": "Ontology",
+            "topic_url": "https://en.wikipedia.org/wiki/Ontology",
+            "mean": 0.13166963851129915,
+            "variance": 0.4284316127387179,
+            "interest_mean": 0.5921140103562029,
+            "interest_var": 0.4026286377457592,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 10183,
+            "topic_name": "Flute",
+            "topic_url": "https://en.wikipedia.org/wiki/Flute",
+            "mean": 0.10904737906763512,
+            "variance": 0.42718705696137943,
+            "interest_mean": 0.5209969784846986,
+            "interest_var": 0.40435882912097504,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 25562,
+            "topic_name": "Species",
+            "topic_url": "https://en.wikipedia.org/wiki/Species",
+            "mean": 0.10904737906763512,
+            "variance": 0.42718705696137943,
+            "interest_mean": 0.5209969784846986,
+            "interest_var": 0.40435882912097504,
+            "timestamp": 2429209.0
+        },
+        {
+            "topic_id": 9996,
+            "topic_name": "Fish",
+            "topic_url": "https://en.wikipedia.org/wiki/Fish",
+            "mean": 0.10904737906763512,
+            "variance": 0.42718705696137943,
+            "interest_mean": 0.5209969784846986,
+            "interest_var": 0.40435882912097504,
+            "timestamp": 2429209.0
+        }
+    ]
+}

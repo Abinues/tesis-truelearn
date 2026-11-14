@@ -1,0 +1,342 @@
+{
+    "user_id": 20714,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 6,
+    "weights": {
+        "novelty": {
+            "mean": 0.13953110565070748,
+            "variance": 0.4656982374034481
+        },
+        "interest": {
+            "mean": -0.08510982099758593,
+            "variance": 0.40950246842134025
+        },
+        "bias": {
+            "mean": -0.8202724035720177,
+            "variance": 0.32379371479721214
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 9738553.0,
+            "means": {
+                "Support vector machine": -0.11588769591287555,
+                "Machine learning": -0.11588769591287555,
+                "Generative model": -0.22738113896599352,
+                "Perceptron": -0.11588769591287555,
+                "Nonlinear dimensionality reduction": -0.11588769591287555,
+                "Posterior probability": -0.2153011771819567,
+                "Logistic function": -0.11916222374340593,
+                "Nat (deity)": -0.11916222374340595,
+                "Probability distribution": -0.11916222374340595,
+                "Graphical model": -0.1339276215679814,
+                "Markov chain": -0.2296791325848179,
+                "Graph (discrete mathematics)": -0.1339276215679814,
+                "Probability": -0.2535483193432802,
+                "Marginal distribution": -0.13392762156798144,
+                "Restricted Boltzmann machine": -0.2244125734273294,
+                "Feature (machine learning)": -0.12855789652590183,
+                "Algorithm": -0.12855789652590183,
+                "Factorial": -0.2244125734273294,
+                "Prior probability": -0.10290537569530127
+            },
+            "variances": {
+                "Support vector machine": 0.4678220981055154,
+                "Machine learning": 0.4678220981055154,
+                "Generative model": 0.43904065974494416,
+                "Perceptron": 0.4678220981055154,
+                "Nonlinear dimensionality reduction": 0.4678220981055154,
+                "Posterior probability": 0.4401283912033259,
+                "Logistic function": 0.46712308656845325,
+                "Nat (deity)": 0.46712308656845325,
+                "Probability distribution": 0.46712308656845325,
+                "Graphical model": 0.465240568677155,
+                "Markov chain": 0.43846301350288797,
+                "Graph (discrete mathematics)": 0.465240568677155,
+                "Probability": 0.43558001519657963,
+                "Marginal distribution": 0.465240568677155,
+                "Restricted Boltzmann machine": 0.43890654611755114,
+                "Feature (machine learning)": 0.4657418344462853,
+                "Algorithm": 0.4657418344462853,
+                "Factorial": 0.43890654611755114,
+                "Prior probability": 0.4690717194847851
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 9738641.0,
+            "means": {
+                "Support vector machine": -0.11588769591287555,
+                "Machine learning": -0.21131689225021497,
+                "Generative model": -0.22738113896599352,
+                "Perceptron": -0.11588769591287555,
+                "Nonlinear dimensionality reduction": -0.11588769591287555,
+                "Posterior probability": -0.2153011771819567,
+                "Logistic function": -0.11916222374340593,
+                "Nat (deity)": -0.11916222374340595,
+                "Probability distribution": -0.11916222374340595,
+                "Graphical model": -0.22883022183457674,
+                "Markov chain": -0.2296791325848179,
+                "Graph (discrete mathematics)": -0.1339276215679814,
+                "Probability": -0.2535483193432802,
+                "Marginal distribution": -0.13392762156798144,
+                "Restricted Boltzmann machine": -0.2244125734273294,
+                "Feature (machine learning)": -0.12855789652590183,
+                "Algorithm": -0.12855789652590183,
+                "Factorial": -0.2244125734273294,
+                "Prior probability": -0.10290537569530127,
+                "Expert system": -0.1019930404354432,
+                "Artificial intelligence": -0.1019930404354432,
+                "Domain knowledge": -0.1019930404354432
+            },
+            "variances": {
+                "Support vector machine": 0.4678220981055154,
+                "Machine learning": 0.4412490534896706,
+                "Generative model": 0.43904065974494416,
+                "Perceptron": 0.4678220981055154,
+                "Nonlinear dimensionality reduction": 0.4678220981055154,
+                "Posterior probability": 0.4401283912033259,
+                "Logistic function": 0.46712308656845325,
+                "Nat (deity)": 0.46712308656845325,
+                "Probability distribution": 0.46712308656845325,
+                "Graphical model": 0.4389599849162417,
+                "Markov chain": 0.43846301350288797,
+                "Graph (discrete mathematics)": 0.465240568677155,
+                "Probability": 0.43558001519657963,
+                "Marginal distribution": 0.465240568677155,
+                "Restricted Boltzmann machine": 0.43890654611755114,
+                "Feature (machine learning)": 0.4657418344462853,
+                "Algorithm": 0.4657418344462853,
+                "Factorial": 0.43890654611755114,
+                "Prior probability": 0.4690717194847851,
+                "Expert system": 0.46964572525865866,
+                "Artificial intelligence": 0.46964572525865866,
+                "Domain knowledge": 0.46964572525865866
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 26678,
+            "topic_name": "Support vector machine",
+            "topic_url": "https://en.wikipedia.org/wiki/Support-vector_machine",
+            "mean": -0.11588769591287555,
+            "variance": 0.4678220981055154,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": -0.21131689225021497,
+            "variance": 0.4412490534896706,
+            "interest_mean": 1.687309225074474,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 9738641.0
+        },
+        {
+            "topic_id": 11058,
+            "topic_name": "Generative model",
+            "topic_url": "https://en.wikipedia.org/wiki/Generative_model",
+            "mean": -0.22738113896599352,
+            "variance": 0.43904065974494416,
+            "interest_mean": 1.8313130908597424,
+            "interest_var": 0.34392685402073503,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 19892,
+            "topic_name": "Perceptron",
+            "topic_url": "https://en.wikipedia.org/wiki/Perceptron",
+            "mean": -0.11588769591287555,
+            "variance": 0.4678220981055154,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 18404,
+            "topic_name": "Nonlinear dimensionality reduction",
+            "topic_url": "https://en.wikipedia.org/wiki/Nonlinear_dimensionality_reduction",
+            "mean": -0.11588769591287555,
+            "variance": 0.4678220981055154,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 20941,
+            "topic_name": "Posterior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Posterior_probability",
+            "mean": -0.2153011771819567,
+            "variance": 0.4401283912033259,
+            "interest_mean": 1.2967644706536867,
+            "interest_var": 0.34522753235000075,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 15591,
+            "topic_name": "Logistic function",
+            "topic_url": "https://en.wikipedia.org/wiki/Logistic_function",
+            "mean": -0.11916222374340593,
+            "variance": 0.46712308656845325,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 17847,
+            "topic_name": "Nat (deity)",
+            "topic_url": "https://en.wikipedia.org/wiki/Nat_(spirit)",
+            "mean": -0.11916222374340595,
+            "variance": 0.46712308656845325,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 21373,
+            "topic_name": "Probability distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability_distribution",
+            "mean": -0.11916222374340595,
+            "variance": 0.46712308656845325,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 11611,
+            "topic_name": "Graphical model",
+            "topic_url": "https://en.wikipedia.org/wiki/Graphical_model",
+            "mean": -0.22883022183457674,
+            "variance": 0.4389599849162417,
+            "interest_mean": 1.6873092250744737,
+            "interest_var": 0.3439002316636315,
+            "timestamp": 9738641.0
+        },
+        {
+            "topic_id": 16167,
+            "topic_name": "Markov chain",
+            "topic_url": "https://en.wikipedia.org/wiki/Markov_chain",
+            "mean": -0.2296791325848179,
+            "variance": 0.43846301350288797,
+            "interest_mean": 1.4674719125466253,
+            "interest_var": 0.34614912623721955,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 11574,
+            "topic_name": "Graph (discrete mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)",
+            "mean": -0.1339276215679814,
+            "variance": 0.465240568677155,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 21367,
+            "topic_name": "Probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Probability",
+            "mean": -0.2535483193432802,
+            "variance": 0.43558001519657963,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 16085,
+            "topic_name": "Marginal distribution",
+            "topic_url": "https://en.wikipedia.org/wiki/Marginal_distribution",
+            "mean": -0.13392762156798144,
+            "variance": 0.465240568677155,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 22932,
+            "topic_name": "Restricted Boltzmann machine",
+            "topic_url": "https://en.wikipedia.org/wiki/Restricted_Boltzmann_machine",
+            "mean": -0.2244125734273294,
+            "variance": 0.43890654611755114,
+            "interest_mean": 1.2967644706536865,
+            "interest_var": 0.34522753235000087,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 9689,
+            "topic_name": "Feature (machine learning)",
+            "topic_url": "https://en.wikipedia.org/wiki/Feature_(machine_learning)",
+            "mean": -0.12855789652590183,
+            "variance": 0.4657418344462853,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": -0.12855789652590183,
+            "variance": 0.4657418344462853,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 9530,
+            "topic_name": "Factorial",
+            "topic_url": "https://en.wikipedia.org/wiki/Factorial",
+            "mean": -0.2244125734273294,
+            "variance": 0.43890654611755114,
+            "interest_mean": 1.2967644706536867,
+            "interest_var": 0.34522753235000087,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 21311,
+            "topic_name": "Prior probability",
+            "topic_url": "https://en.wikipedia.org/wiki/Prior_probability",
+            "mean": -0.10290537569530127,
+            "variance": 0.4690717194847851,
+            "interest_mean": 0.4690987678797593,
+            "interest_var": 0.408619747280222,
+            "timestamp": 9738553.0
+        },
+        {
+            "topic_id": 9354,
+            "topic_name": "Expert system",
+            "topic_url": "https://en.wikipedia.org/wiki/Expert_system",
+            "mean": -0.1019930404354432,
+            "variance": 0.46964572525865866,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 9738641.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": -0.1019930404354432,
+            "variance": 0.46964572525865866,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 9738641.0
+        },
+        {
+            "topic_id": 7853,
+            "topic_name": "Domain knowledge",
+            "topic_url": "https://en.wikipedia.org/wiki/Domain_knowledge",
+            "mean": -0.1019930404354432,
+            "variance": 0.46964572525865866,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 9738641.0
+        }
+    ]
+}

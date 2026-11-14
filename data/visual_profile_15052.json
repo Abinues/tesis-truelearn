@@ -1,0 +1,440 @@
+{
+    "user_id": 15052,
+    "number_of_engagements": 14,
+    "number_of_non_engagements": 0,
+    "weights": {
+        "novelty": {
+            "mean": 1.2696164137103116,
+            "variance": 0.38091127216742354
+        },
+        "interest": {
+            "mean": 1.3629452067400931,
+            "variance": 0.3469762758811971
+        },
+        "bias": {
+            "mean": 1.0770437960648414,
+            "variance": 0.27022202629597947
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 32851729.0,
+            "means": {
+                "Dendrite": 0.3525898272583167,
+                "Electrode": 0.17465720532510842,
+                "Neuron": 0.5478419736442155,
+                "Sucrose": 0.17465720532510842,
+                "Apical dendrite": 0.2929666319620674,
+                "Axon": 0.13665198997471772,
+                "Axon hillock": 0.13665198997471775,
+                "Forward pass": 0.040293815127043726,
+                "Neocortex": 0.20014989560727234,
+                "Action potential": 0.11010070448890884,
+                "Visual cortex": 0.13583482855025958,
+                "Loss function": 0.08807572552663603,
+                "Cost curve": 0.08807572552663603,
+                "Brain": 0.11394306725388698,
+                "Function (mathematics)": 0.08807572552663603,
+                "System": 0.08807572552663603,
+                "Gradient descent": 0.05792120738443988,
+                "Stochastic gradient descent": 0.057921207384439885,
+                "Deep learning": 0.3575113801123236,
+                "Neural network": 0.2886104563152316,
+                "Backpropagation": 0.40597707919301546,
+                "Synapse": 0.16550287352192528,
+                "Generalized inverse": 0.21048927152744848,
+                "Random matrix": 0.21048927152744848,
+                "Transpose": 0.15262434833345553,
+                "Matrix (mathematics)": 0.21048927152744848,
+                "Assignment problem": 0.15754397555973906,
+                "Partial derivative": 0.1575439755597391,
+                "Chemical synapse": 0.10040275796760956,
+                "Artificial intelligence": 0.12533672908983182,
+                "Convolutional neural network": 0.12533672908983182,
+                "Inferior temporal gyrus": 0.12533672908983182,
+                "Distributed computing": 0.12533672908983182,
+                "Algorithm": 0.13412116408897787
+            },
+            "variances": {
+                "Dendrite": 0.33673695912623514,
+                "Electrode": 0.432885853542446,
+                "Neuron": 0.198986526285336,
+                "Sucrose": 0.432885853542446,
+                "Apical dendrite": 0.3798024860999939,
+                "Axon": 0.42918069067761705,
+                "Axon hillock": 0.42918069067761705,
+                "Forward pass": 0.3681548943467788,
+                "Neocortex": 0.32878547201210384,
+                "Action potential": 0.4307720103309018,
+                "Visual cortex": 0.3694195187545988,
+                "Loss function": 0.4330019848819925,
+                "Cost curve": 0.4330019848819925,
+                "Brain": 0.3710126431162323,
+                "Function (mathematics)": 0.4330019848819925,
+                "System": 0.4330019848819925,
+                "Gradient descent": 0.3676054895771353,
+                "Stochastic gradient descent": 0.3676054895771353,
+                "Deep learning": 0.3373491224001631,
+                "Neural network": 0.3316002362752003,
+                "Backpropagation": 0.20939333163333432,
+                "Synapse": 0.32161384234232765,
+                "Generalized inverse": 0.37511176474668795,
+                "Random matrix": 0.37511176474668795,
+                "Transpose": 0.4316345037851191,
+                "Matrix (mathematics)": 0.37511176474668795,
+                "Assignment problem": 0.4278984646919097,
+                "Partial derivative": 0.4278984646919097,
+                "Chemical synapse": 0.36010494623144534,
+                "Artificial intelligence": 0.4307119393916889,
+                "Convolutional neural network": 0.4307119393916889,
+                "Inferior temporal gyrus": 0.4307119393916889,
+                "Distributed computing": 0.4307119393916889,
+                "Algorithm": 0.36264537767168553
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 7162,
+            "topic_name": "Dendrite",
+            "topic_url": "https://en.wikipedia.org/wiki/Dendrite",
+            "mean": 0.3525898272583167,
+            "variance": 0.33673695912623514,
+            "interest_mean": 1.7373597731604202,
+            "interest_var": 0.3075247758258586,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 8483,
+            "topic_name": "Electrode",
+            "topic_url": "https://en.wikipedia.org/wiki/Electrode",
+            "mean": 0.17465720532510842,
+            "variance": 0.432885853542446,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 18150,
+            "topic_name": "Neuron",
+            "topic_url": "https://en.wikipedia.org/wiki/Neuron",
+            "mean": 0.5478419736442155,
+            "variance": 0.198986526285336,
+            "interest_mean": 2.918093547637019,
+            "interest_var": 0.20484127254199008,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 26527,
+            "topic_name": "Sucrose",
+            "topic_url": "https://en.wikipedia.org/wiki/Sucrose",
+            "mean": 0.17465720532510842,
+            "variance": 0.432885853542446,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 1206,
+            "topic_name": "Apical dendrite",
+            "topic_url": "https://en.wikipedia.org/wiki/Apical_dendrite",
+            "mean": 0.2929666319620674,
+            "variance": 0.3798024860999939,
+            "interest_mean": 1.5396361316932716,
+            "interest_var": 0.3455355054564685,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 1854,
+            "topic_name": "Axon",
+            "topic_url": "https://en.wikipedia.org/wiki/Axon",
+            "mean": 0.13665198997471772,
+            "variance": 0.42918069067761705,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 1855,
+            "topic_name": "Axon hillock",
+            "topic_url": "https://en.wikipedia.org/wiki/Axon_hillock",
+            "mean": 0.13665198997471775,
+            "variance": 0.42918069067761705,
+            "interest_mean": 0.5578465352366206,
+            "interest_var": 0.40769169787230103,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 10374,
+            "topic_name": "Forward pass",
+            "topic_url": "https://en.wikipedia.org/wiki/Forward_pass",
+            "mean": 0.040293815127043726,
+            "variance": 0.3681548943467788,
+            "interest_mean": 0.8773409014019758,
+            "interest_var": 0.38833989787642237,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 18047,
+            "topic_name": "Neocortex",
+            "topic_url": "https://en.wikipedia.org/wiki/Neocortex",
+            "mean": 0.20014989560727234,
+            "variance": 0.32878547201210384,
+            "interest_mean": 1.0970583950427826,
+            "interest_var": 0.3435245964588727,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 281,
+            "topic_name": "Action potential",
+            "topic_url": "https://en.wikipedia.org/wiki/Action_potential",
+            "mean": 0.11010070448890884,
+            "variance": 0.4307720103309018,
+            "interest_mean": 0.8504312305274538,
+            "interest_var": 0.40408647268191994,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 29373,
+            "topic_name": "Visual cortex",
+            "topic_url": "https://en.wikipedia.org/wiki/Visual_cortex",
+            "mean": 0.13583482855025958,
+            "variance": 0.3694195187545988,
+            "interest_mean": 0.8681040247371565,
+            "interest_var": 0.39278873368599465,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": 0.08807572552663603,
+            "variance": 0.4330019848819925,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 6121,
+            "topic_name": "Cost curve",
+            "topic_url": "https://en.wikipedia.org/wiki/Cost_curve",
+            "mean": 0.08807572552663603,
+            "variance": 0.4330019848819925,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 3008,
+            "topic_name": "Brain",
+            "topic_url": "https://en.wikipedia.org/wiki/Brain",
+            "mean": 0.11394306725388698,
+            "variance": 0.3710126431162323,
+            "interest_mean": 1.1038110596889208,
+            "interest_var": 0.39513221526302034,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 10663,
+            "topic_name": "Function (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Function_(mathematics)",
+            "mean": 0.08807572552663603,
+            "variance": 0.4330019848819925,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 26920,
+            "topic_name": "System",
+            "topic_url": "https://en.wikipedia.org/wiki/System",
+            "mean": 0.08807572552663603,
+            "variance": 0.4330019848819925,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 11511,
+            "topic_name": "Gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Gradient_descent",
+            "mean": 0.05792120738443988,
+            "variance": 0.3676054895771353,
+            "interest_mean": 0.7786438061227137,
+            "interest_var": 0.38864867662005587,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 26161,
+            "topic_name": "Stochastic gradient descent",
+            "topic_url": "https://en.wikipedia.org/wiki/Stochastic_gradient_descent",
+            "mean": 0.057921207384439885,
+            "variance": 0.3676054895771353,
+            "interest_mean": 0.7786438061227137,
+            "interest_var": 0.38864867662005587,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 7014,
+            "topic_name": "Deep learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Deep_learning",
+            "mean": 0.3575113801123236,
+            "variance": 0.3373491224001631,
+            "interest_mean": 1.9126846319478914,
+            "interest_var": 0.2948733592158114,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 18126,
+            "topic_name": "Neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Neural_network",
+            "mean": 0.2886104563152316,
+            "variance": 0.3316002362752003,
+            "interest_mean": 1.4034515387881235,
+            "interest_var": 0.31088598004505863,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 1910,
+            "topic_name": "Backpropagation",
+            "topic_url": "https://en.wikipedia.org/wiki/Backpropagation",
+            "mean": 0.40597707919301546,
+            "variance": 0.20939333163333432,
+            "interest_mean": 2.0410490840176356,
+            "interest_var": 0.2258914733435958,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 26864,
+            "topic_name": "Synapse",
+            "topic_url": "https://en.wikipedia.org/wiki/Synapse",
+            "mean": 0.16550287352192528,
+            "variance": 0.32161384234232765,
+            "interest_mean": 0.5654559154366664,
+            "interest_var": 0.332604416226724,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 11040,
+            "topic_name": "Generalized inverse",
+            "topic_url": "https://en.wikipedia.org/wiki/Generalized_inverse",
+            "mean": 0.21048927152744848,
+            "variance": 0.37511176474668795,
+            "interest_mean": 1.298521224184578,
+            "interest_var": 0.35106451492754853,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 22328,
+            "topic_name": "Random matrix",
+            "topic_url": "https://en.wikipedia.org/wiki/Random_matrix",
+            "mean": 0.21048927152744848,
+            "variance": 0.37511176474668795,
+            "interest_mean": 1.298521224184578,
+            "interest_var": 0.35106451492754853,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 28211,
+            "topic_name": "Transpose",
+            "topic_url": "https://en.wikipedia.org/wiki/Transpose",
+            "mean": 0.15262434833345553,
+            "variance": 0.4316345037851191,
+            "interest_mean": 1.0640881096007075,
+            "interest_var": 0.40390316527419484,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 16334,
+            "topic_name": "Matrix (mathematics)",
+            "topic_url": "https://en.wikipedia.org/wiki/Matrix_(mathematics)",
+            "mean": 0.21048927152744848,
+            "variance": 0.37511176474668795,
+            "interest_mean": 1.298521224184578,
+            "interest_var": 0.35106451492754853,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 1540,
+            "topic_name": "Assignment problem",
+            "topic_url": "https://en.wikipedia.org/wiki/Assignment_problem",
+            "mean": 0.15754397555973906,
+            "variance": 0.4278984646919097,
+            "interest_mean": 0.6811790608440028,
+            "interest_var": 0.40092270657431417,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 19587,
+            "topic_name": "Partial derivative",
+            "topic_url": "https://en.wikipedia.org/wiki/Partial_derivative",
+            "mean": 0.1575439755597391,
+            "variance": 0.4278984646919097,
+            "interest_mean": 0.6811790608440027,
+            "interest_var": 0.40092270657431417,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 4186,
+            "topic_name": "Chemical synapse",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemical_synapse",
+            "mean": 0.10040275796760956,
+            "variance": 0.36010494623144534,
+            "interest_mean": 0.32815877613158867,
+            "interest_var": 0.3785140383739239,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 1474,
+            "topic_name": "Artificial intelligence",
+            "topic_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+            "mean": 0.12533672908983182,
+            "variance": 0.4307119393916889,
+            "interest_mean": 0.8981181100172334,
+            "interest_var": 0.40304106192795985,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 5930,
+            "topic_name": "Convolutional neural network",
+            "topic_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+            "mean": 0.12533672908983182,
+            "variance": 0.4307119393916889,
+            "interest_mean": 0.8981181100172334,
+            "interest_var": 0.40304106192795985,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 13347,
+            "topic_name": "Inferior temporal gyrus",
+            "topic_url": "https://en.wikipedia.org/wiki/Inferior_temporal_gyrus",
+            "mean": 0.12533672908983182,
+            "variance": 0.4307119393916889,
+            "interest_mean": 0.8981181100172334,
+            "interest_var": 0.40304106192795985,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 7723,
+            "topic_name": "Distributed computing",
+            "topic_url": "https://en.wikipedia.org/wiki/Distributed_computing",
+            "mean": 0.12533672908983182,
+            "variance": 0.4307119393916889,
+            "interest_mean": 0.8981181100172334,
+            "interest_var": 0.40304106192795985,
+            "timestamp": 32851729.0
+        },
+        {
+            "topic_id": 692,
+            "topic_name": "Algorithm",
+            "topic_url": "https://en.wikipedia.org/wiki/Algorithm",
+            "mean": 0.13412116408897787,
+            "variance": 0.36264537767168553,
+            "interest_mean": 0.46230908476938004,
+            "interest_var": 0.36474920131974514,
+            "timestamp": 32851729.0
+        }
+    ]
+}

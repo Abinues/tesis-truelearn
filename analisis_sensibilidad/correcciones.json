@@ -1,0 +1,136 @@
+{
+  "resumen": {
+    "actualizaciones analizadas": 757552,
+    "1.ª actualización: |Δmedia| mediana": 0.12664906660988684,
+    "1.ª actualización: Δvarianza mediana": 0.06711405717618907,
+    "todas: |Δmedia| mediana": 0.11956945048024606,
+    "todas: Δvarianza mediana": 0.058235857215214154,
+    "constantes de la corrección": {
+      "delta_know": 0.145,
+      "reduccion_var": 0.151
+    }
+  },
+  "cambio_real": [
+    {
+      "actualizaciones (n-ésima del tema)": "1",
+      "n": 536226,
+      "abs_media_p25": 0.09930816497742821,
+      "abs_media_mediana": 0.12664906660988684,
+      "abs_media_p75": 0.15759975118416386,
+      "d_var_p25": 0.03544254978167444,
+      "d_var_mediana": 0.06711405717618907,
+      "d_var_p75": 0.0722585232475943,
+      "pct_mueve_como_correccion_media": 33.225169984297665,
+      "pct_mueve_como_correccion_var": 4.420524181968051
+    },
+    {
+      "actualizaciones (n-ésima del tema)": "2",
+      "n": 124909,
+      "abs_media_p25": 0.06366188054999267,
+      "abs_media_mediana": 0.09778257531241122,
+      "abs_media_p75": 0.16876802807527977,
+      "d_var_p25": 0.026980974078982478,
+      "d_var_mediana": 0.04670445407656304,
+      "d_var_p75": 0.06294028906136573,
+      "pct_mueve_como_correccion_media": 32.66778214540185,
+      "pct_mueve_como_correccion_var": 2.0550961099680567
+    },
+    {
+      "actualizaciones (n-ésima del tema)": "3-4",
+      "n": 60278,
+      "abs_media_p25": 0.04748602982186054,
+      "abs_media_mediana": 0.07885343806005429,
+      "abs_media_p75": 0.13386609902766475,
+      "d_var_p25": 0.019420327930350964,
+      "d_var_mediana": 0.029618018332281337,
+      "d_var_p75": 0.051124422461555116,
+      "pct_mueve_como_correccion_media": 21.332824579448555,
+      "pct_mueve_como_correccion_var": 0.6834997843325924
+    },
+    {
+      "actualizaciones (n-ésima del tema)": "5-9",
+      "n": 23735,
+      "abs_media_p25": 0.026456112578470442,
+      "abs_media_mediana": 0.04946235699988993,
+      "abs_media_p75": 0.09148323162643239,
+      "d_var_p25": 0.010573140579571316,
+      "d_var_mediana": 0.01580332519205757,
+      "d_var_p75": 0.028361168810013812,
+      "pct_mueve_como_correccion_media": 10.60459237413103,
+      "pct_mueve_como_correccion_var": 0.0800505582473141
+    },
+    {
+      "actualizaciones (n-ésima del tema)": "10-19",
+      "n": 6256,
+      "abs_media_p25": 0.00962846354295463,
+      "abs_media_mediana": 0.02109808760538251,
+      "abs_media_p75": 0.04599771617226117,
+      "d_var_p25": 0.004018399820617802,
+      "d_var_mediana": 0.006085259542715538,
+      "d_var_p75": 0.010072038829599922,
+      "pct_mueve_como_correccion_media": 4.060102301790281,
+      "pct_mueve_como_correccion_var": 0.0
+    },
+    {
+      "actualizaciones (n-ésima del tema)": "20-49",
+      "n": 3792,
+      "abs_media_p25": 0.0010910187561172027,
+      "abs_media_mediana": 0.004552027154167804,
+      "abs_media_p75": 0.013616164301357758,
+      "d_var_p25": 0.0010217908700044642,
+      "d_var_mediana": 0.0016553287313784137,
+      "d_var_p75": 0.0026164872209103462,
+      "pct_mueve_como_correccion_media": 1.0284810126582278,
+      "pct_mueve_como_correccion_var": 0.0
+    },
+    {
+      "actualizaciones (n-ésima del tema)": "50+",
+      "n": 2356,
+      "abs_media_p25": 0.00040189053369393823,
+      "abs_media_mediana": 0.0008975717201743505,
+      "abs_media_p75": 0.0017604512567863662,
+      "d_var_p25": 0.00015826887579645232,
+      "d_var_mediana": 0.0002891986852564055,
+      "d_var_p75": 0.0005018969287718458,
+      "pct_mueve_como_correccion_media": 0.08488964346349745,
+      "pct_mueve_como_correccion_var": 0.0
+    }
+  ],
+  "equivalencia": [
+    {
+      "temas con n actualizaciones": 1,
+      "varianza mediana": 0.43288594282381093,
+      "varianza tras la corrección": 0.28168400544321537,
+      "equivale a n' actualizaciones": 6.0,
+      "actualizaciones extra equivalentes": 5.0
+    },
+    {
+      "temas con n actualizaciones": 2,
+      "varianza mediana": 0.39242927138817646,
+      "varianza tras la corrección": 0.2639755316880251,
+      "equivale a n' actualizaciones": 6.0,
+      "actualizaciones extra equivalentes": 4.0
+    },
+    {
+      "temas con n actualizaciones": 4,
+      "varianza mediana": 0.3130634990763189,
+      "varianza tras la corrección": 0.2255177809299978,
+      "equivale a n' actualizaciones": 8.0,
+      "actualizaciones extra equivalentes": 4.0
+    },
+    {
+      "temas con n actualizaciones": 7,
+      "varianza mediana": 0.23768365117160722,
+      "varianza tras la corrección": 0.18357809609841186,
+      "equivale a n' actualizaciones": 12.0,
+      "actualizaciones extra equivalentes": 5.0
+    },
+    {
+      "temas con n actualizaciones": 15,
+      "varianza mediana": 0.14742358825824287,
+      "varianza tras la corrección": 0.12463893639972694,
+      "equivale a n' actualizaciones": 18.0,
+      "actualizaciones extra equivalentes": 3.0
+    }
+  ]
+}

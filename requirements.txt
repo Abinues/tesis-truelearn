@@ -1,4 +1,4 @@
-# FIX (ver CAMBIOS.md, punto 29): antes estas dependencias usaban RANGOS
+# FIX: antes estas dependencias usaban RANGOS
 # abiertos (ej. "streamlit>=1.38,<2.0"). Eso permitió que el entorno del
 # autor y el del asistente terminaran con versiones distintas de
 # streamlit (1.56.0 vs 1.63.0) sin que nadie lo notara, hasta que
@@ -10,7 +10,7 @@
 # la reproducibilidad del entorno importa tanto como el código: se fijan
 # versiones EXACTAS, verificadas por partida doble.
 #
-# NOTA (ver CAMBIOS.md, punto 30): la primera versión de este archivo
+# NOTA: la primera versión de este archivo
 # fijó pandas==3.0.2, que requiere Python >=3.11 y falló instalar en un
 # entorno con una versión de Python más vieja. Se corrigió a pandas
 # 2.3.3, que soporta Python >=3.9 (rango mucho más amplio) y pasa la

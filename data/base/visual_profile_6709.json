@@ -1,0 +1,320 @@
+{
+    "user_id": 6709,
+    "number_of_engagements": 5,
+    "number_of_non_engagements": 5,
+    "weights": {
+        "novelty": {
+            "mean": 0.45933772435605325,
+            "variance": 0.39956682656849485
+        },
+        "interest": {
+            "mean": 0.18248034656023912,
+            "variance": 0.3122471543949341
+        },
+        "bias": {
+            "mean": -0.1536533474848182,
+            "variance": 0.2635153141073225
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 7862326.0,
+            "means": {
+                "Frequentist inference": 0.21242492887387684,
+                "Loss function": 0.24190798958463625,
+                "Statistical inference": 0.11758742165240284,
+                "Bayesian inference in phylogeny": 0.11758742165240284,
+                "Quicksort": 0.11758742165240284,
+                "Machine learning": 0.23366770007308593,
+                "Empirical process": 0.1096541194341732,
+                "Nonparametric statistics": 0.1096541194341732,
+                "Statistical learning theory": 0.10965411943417319,
+                "Decision tree": 0.1053137556273559,
+                "Support vector machine": 0.1053137556273559,
+                "Conditional expectation": 0.04372358019546389,
+                "Minimax": 0.04372358019546387,
+                "Perspective (graphical)": -0.18060679506201568,
+                "Wave–particle duality": -0.18060679506201568,
+                "Decision theory": -0.18060679506201568,
+                "Calibration": -0.18060679506201568
+            },
+            "variances": {
+                "Frequentist inference": 0.28952532776079576,
+                "Loss function": 0.33584863321945063,
+                "Statistical inference": 0.4328858070799362,
+                "Bayesian inference in phylogeny": 0.4328858070799362,
+                "Quicksort": 0.4328858070799362,
+                "Machine learning": 0.3352037894833614,
+                "Empirical process": 0.43177487742086296,
+                "Nonparametric statistics": 0.43177487742086296,
+                "Statistical learning theory": 0.4317748774208628,
+                "Decision tree": 0.4281167489154296,
+                "Support vector machine": 0.4281167489154296,
+                "Conditional expectation": 0.4248905273924341,
+                "Minimax": 0.4248905273924341,
+                "Perspective (graphical)": 0.45806115206558423,
+                "Wave–particle duality": 0.45806115206558423,
+                "Decision theory": 0.45806115206558423,
+                "Calibration": 0.45806115206558423
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 7862729.0,
+            "means": {
+                "Frequentist inference": -0.01998901841217021,
+                "Loss function": -0.026530660767307434,
+                "Statistical inference": -0.08076016466801765,
+                "Bayesian inference in phylogeny": -0.08076016466801765,
+                "Quicksort": -0.08076016466801768,
+                "Machine learning": 0.11093361451039256,
+                "Empirical process": 0.1096541194341732,
+                "Nonparametric statistics": 0.1096541194341732,
+                "Statistical learning theory": 0.10965411943417319,
+                "Decision tree": -0.051440193285911415,
+                "Support vector machine": -0.051440193285911415,
+                "Conditional expectation": 0.04372358019546389,
+                "Minimax": 0.04372358019546387,
+                "Perspective (graphical)": -0.18060679506201568,
+                "Wave–particle duality": -0.18060679506201568,
+                "Decision theory": -0.18060679506201568,
+                "Calibration": -0.18060679506201568
+            },
+            "variances": {
+                "Frequentist inference": 0.2582570682387694,
+                "Loss function": 0.29415531413274015,
+                "Statistical inference": 0.3946955215466994,
+                "Bayesian inference in phylogeny": 0.3946955215466994,
+                "Quicksort": 0.3946955215466994,
+                "Machine learning": 0.31373094558339115,
+                "Empirical process": 0.43177487742086296,
+                "Nonparametric statistics": 0.43177487742086296,
+                "Statistical learning theory": 0.4317748774208628,
+                "Decision tree": 0.393090295515263,
+                "Support vector machine": 0.393090295515263,
+                "Conditional expectation": 0.4248905273924341,
+                "Minimax": 0.4248905273924341,
+                "Perspective (graphical)": 0.45806115206558423,
+                "Wave–particle duality": 0.45806115206558423,
+                "Decision theory": 0.45806115206558423,
+                "Calibration": 0.45806115206558423
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 7864569.0,
+            "means": {
+                "Frequentist inference": -0.060810681711224564,
+                "Loss function": -0.021121569902740372,
+                "Statistical inference": -0.08076016466801765,
+                "Bayesian inference in phylogeny": -0.08076016466801765,
+                "Quicksort": -0.08076016466801768,
+                "Machine learning": 0.11732297451073138,
+                "Empirical process": 0.1096541194341732,
+                "Nonparametric statistics": 0.1096541194341732,
+                "Statistical learning theory": 0.10965411943417319,
+                "Decision tree": -0.1682867007031079,
+                "Support vector machine": -0.1682867007031079,
+                "Conditional expectation": 0.16521225475225446,
+                "Minimax": 0.16521225475225443,
+                "Perspective (graphical)": -0.271268398138447,
+                "Wave–particle duality": -0.271268398138447,
+                "Decision theory": -0.271268398138447,
+                "Calibration": -0.271268398138447
+            },
+            "variances": {
+                "Frequentist inference": 0.21895800278074817,
+                "Loss function": 0.2520208756586449,
+                "Statistical inference": 0.3946955215466994,
+                "Bayesian inference in phylogeny": 0.3946955215466994,
+                "Quicksort": 0.3946955215466994,
+                "Machine learning": 0.26601522738747124,
+                "Empirical process": 0.43177487742086296,
+                "Nonparametric statistics": 0.43177487742086296,
+                "Statistical learning theory": 0.4317748774208628,
+                "Decision tree": 0.36501985740856385,
+                "Support vector machine": 0.36501985740856385,
+                "Conditional expectation": 0.36354817397480027,
+                "Minimax": 0.36354817397480027,
+                "Perspective (graphical)": 0.431023411074249,
+                "Wave–particle duality": 0.431023411074249,
+                "Decision theory": 0.431023411074249,
+                "Calibration": 0.431023411074249
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 10587,
+            "topic_name": "Frequentist inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Frequentist_inference",
+            "mean": -0.060810681711224564,
+            "variance": 0.21895800278074817,
+            "interest_mean": 2.8936301165264844,
+            "interest_var": 0.20322760167961731,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 15665,
+            "topic_name": "Loss function",
+            "topic_url": "https://en.wikipedia.org/wiki/Loss_function",
+            "mean": -0.021121569902740372,
+            "variance": 0.2520208756586449,
+            "interest_mean": 1.7848504144551762,
+            "interest_var": 0.2652632882797432,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 26028,
+            "topic_name": "Statistical inference",
+            "topic_url": "https://en.wikipedia.org/wiki/Statistical_inference",
+            "mean": -0.08076016466801765,
+            "variance": 0.3946955215466994,
+            "interest_mean": 1.1032201709839864,
+            "interest_var": 0.39581672922204525,
+            "timestamp": 7862729.0
+        },
+        {
+            "topic_id": 2201,
+            "topic_name": "Bayesian inference in phylogeny",
+            "topic_url": "https://en.wikipedia.org/wiki/Bayesian_inference_in_phylogeny",
+            "mean": -0.08076016466801765,
+            "variance": 0.3946955215466994,
+            "interest_mean": 1.1032201709839864,
+            "interest_var": 0.39581672922204525,
+            "timestamp": 7862729.0
+        },
+        {
+            "topic_id": 22143,
+            "topic_name": "Quicksort",
+            "topic_url": "https://en.wikipedia.org/wiki/Quicksort",
+            "mean": -0.08076016466801768,
+            "variance": 0.3946955215466994,
+            "interest_mean": 1.1032201709839866,
+            "interest_var": 0.39581672922204536,
+            "timestamp": 7862729.0
+        },
+        {
+            "topic_id": 15809,
+            "topic_name": "Machine learning",
+            "topic_url": "https://en.wikipedia.org/wiki/Machine_learning",
+            "mean": 0.11732297451073138,
+            "variance": 0.26601522738747124,
+            "interest_mean": 1.602351967540192,
+            "interest_var": 0.2694386586142506,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 8699,
+            "topic_name": "Empirical process",
+            "topic_url": "https://en.wikipedia.org/wiki/Empirical_process",
+            "mean": 0.1096541194341732,
+            "variance": 0.43177487742086296,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 7862326.0
+        },
+        {
+            "topic_id": 18415,
+            "topic_name": "Nonparametric statistics",
+            "topic_url": "https://en.wikipedia.org/wiki/Nonparametric_statistics",
+            "mean": 0.1096541194341732,
+            "variance": 0.43177487742086296,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 7862326.0
+        },
+        {
+            "topic_id": 26030,
+            "topic_name": "Statistical learning theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Statistical_learning_theory",
+            "mean": 0.10965411943417319,
+            "variance": 0.4317748774208628,
+            "interest_mean": 0.9165517110365546,
+            "interest_var": 0.40525874895773484,
+            "timestamp": 7862326.0
+        },
+        {
+            "topic_id": 6976,
+            "topic_name": "Decision tree",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_tree",
+            "mean": -0.1682867007031079,
+            "variance": 0.36501985740856385,
+            "interest_mean": 0.5417098405702794,
+            "interest_var": 0.369244763714891,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 26678,
+            "topic_name": "Support vector machine",
+            "topic_url": "https://en.wikipedia.org/wiki/Support-vector_machine",
+            "mean": -0.1682867007031079,
+            "variance": 0.36501985740856385,
+            "interest_mean": 0.5417098405702794,
+            "interest_var": 0.369244763714891,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 5514,
+            "topic_name": "Conditional expectation",
+            "topic_url": "https://en.wikipedia.org/wiki/Conditional_expectation",
+            "mean": 0.16521225475225446,
+            "variance": 0.36354817397480027,
+            "interest_mean": 0.3635994834340277,
+            "interest_var": 0.38705522894979,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 17015,
+            "topic_name": "Minimax",
+            "topic_url": "https://en.wikipedia.org/wiki/Minimax",
+            "mean": 0.16521225475225443,
+            "variance": 0.36354817397480027,
+            "interest_mean": 0.36359948343402776,
+            "interest_var": 0.38705522894979,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 20025,
+            "topic_name": "Perspective (graphical)",
+            "topic_url": "https://en.wikipedia.org/wiki/Perspective_(graphical)",
+            "mean": -0.271268398138447,
+            "variance": 0.431023411074249,
+            "interest_mean": 0.8704991477423584,
+            "interest_var": 0.3586969430354387,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 29673,
+            "topic_name": "Wave–particle duality",
+            "topic_url": "https://en.wikipedia.org/wiki/Wave–particle_duality",
+            "mean": -0.271268398138447,
+            "variance": 0.431023411074249,
+            "interest_mean": 0.8704991477423584,
+            "interest_var": 0.3586969430354387,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 6975,
+            "topic_name": "Decision theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Decision_theory",
+            "mean": -0.271268398138447,
+            "variance": 0.431023411074249,
+            "interest_mean": 0.8704991477423584,
+            "interest_var": 0.3586969430354387,
+            "timestamp": 7864569.0
+        },
+        {
+            "topic_id": 3448,
+            "topic_name": "Calibration",
+            "topic_url": "https://en.wikipedia.org/wiki/Calibration",
+            "mean": -0.271268398138447,
+            "variance": 0.431023411074249,
+            "interest_mean": 0.8704991477423584,
+            "interest_var": 0.3586969430354387,
+            "timestamp": 7864569.0
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+    "user_id": 10446,
+    "number_of_engagements": 4,
+    "number_of_non_engagements": 2,
+    "weights": {
+        "novelty": {
+            "mean": 0.7007254408429565,
+            "variance": 0.42966378486398205
+        },
+        "interest": {
+            "mean": 0.668089132438472,
+            "variance": 0.40104188703730226
+        },
+        "bias": {
+            "mean": 0.1814819882517223,
+            "variance": 0.31536318747586056
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 23968326.0,
+            "means": {
+                "Outsourcing": -0.14077135170197994,
+                "Electric motor": -0.14077135170197994,
+                "Steroid": -0.14077135170197994,
+                "Offshoring": -0.14077135170197994,
+                "TiVo": -0.14077135170197996
+            },
+            "variances": {
+                "Outsourcing": 0.46433717340869696,
+                "Electric motor": 0.46433717340869696,
+                "Steroid": 0.46433717340869696,
+                "Offshoring": 0.46433717340869696,
+                "TiVo": 0.46433717340869696
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 23974636.0,
+            "means": {
+                "Outsourcing": 0.06117252481387976,
+                "Electric motor": 0.06117252481387976,
+                "Steroid": 0.06117252481387976,
+                "Offshoring": 0.06117252481387974,
+                "TiVo": 0.06117252481387972,
+                "Globalization": 0.20850239076232188,
+                "Business process": 0.10073602578969686,
+                "Seiðr": 0.10073602578969686,
+                "Barcode": 0.10073602578969686,
+                "Boarding pass": 0.10073602578969686,
+                "Inflection point": 0.09903575251349164,
+                "Developing country": 0.09903575251349164,
+                "Central bank": 0.09903575251349164,
+                "Dot-com bubble": 0.09903575251349164,
+                "Patron saint": 0.09903575251349164,
+                "Anti-globalization movement": 0.12446601246555883,
+                "Poverty reduction": 0.12446601246555883,
+                "Staccato": 0.12446601246555883,
+                "Village": -0.03547379884104499,
+                "Open university": -0.18523445568691382,
+                "Troll doll": -0.18523445568691382,
+                "Intellectual property": -0.18523445568691382,
+                "Climate crisis": -0.18523445568691388
+            },
+            "variances": {
+                "Outsourcing": 0.4035455361146512,
+                "Electric motor": 0.4035455361146512,
+                "Steroid": 0.4035455361146512,
+                "Offshoring": 0.4035455361146512,
+                "TiVo": 0.4035455361146512,
+                "Globalization": 0.3817299447303398,
+                "Business process": 0.43291482886721866,
+                "Seiðr": 0.43291482886721866,
+                "Barcode": 0.43291482886721866,
+                "Boarding pass": 0.43291482886721866,
+                "Inflection point": 0.43293736848849884,
+                "Developing country": 0.43293736848849884,
+                "Central bank": 0.43293736848849884,
+                "Dot-com bubble": 0.43293736848849884,
+                "Patron saint": 0.43293736848849884,
+                "Anti-globalization movement": 0.43172262609969436,
+                "Poverty reduction": 0.43172262609969436,
+                "Staccato": 0.43172262609969436,
+                "Village": 0.4009363727968603,
+                "Open university": 0.4587059740152386,
+                "Troll doll": 0.4587059740152386,
+                "Intellectual property": 0.4587059740152386,
+                "Climate crisis": 0.4587059740152386
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 19244,
+            "topic_name": "Outsourcing",
+            "topic_url": "https://en.wikipedia.org/wiki/Outsourcing",
+            "mean": 0.06117252481387976,
+            "variance": 0.4035455361146512,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 8446,
+            "topic_name": "Electric motor",
+            "topic_url": "https://en.wikipedia.org/wiki/Electric_motor",
+            "mean": 0.06117252481387976,
+            "variance": 0.4035455361146512,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 26125,
+            "topic_name": "Steroid",
+            "topic_url": "https://en.wikipedia.org/wiki/Steroid",
+            "mean": 0.06117252481387976,
+            "variance": 0.4035455361146512,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 18754,
+            "topic_name": "Offshoring",
+            "topic_url": "https://en.wikipedia.org/wiki/Offshoring",
+            "mean": 0.06117252481387974,
+            "variance": 0.4035455361146512,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 27688,
+            "topic_name": "TiVo",
+            "topic_url": "https://en.wikipedia.org/wiki/TiVo",
+            "mean": 0.06117252481387972,
+            "variance": 0.4035455361146512,
+            "interest_mean": 1.261760500230573,
+            "interest_var": 0.36056982228192525,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 11327,
+            "topic_name": "Globalization",
+            "topic_url": "https://en.wikipedia.org/wiki/Globalization",
+            "mean": 0.20850239076232188,
+            "variance": 0.3817299447303398,
+            "interest_mean": 1.831313090859742,
+            "interest_var": 0.34392685402073514,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 3315,
+            "topic_name": "Business process",
+            "topic_url": "https://en.wikipedia.org/wiki/Business_process",
+            "mean": 0.10073602578969686,
+            "variance": 0.43291482886721866,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 24049,
+            "topic_name": "Seiðr",
+            "topic_url": "https://en.wikipedia.org/wiki/Seiðr",
+            "mean": 0.10073602578969686,
+            "variance": 0.43291482886721866,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 2058,
+            "topic_name": "Barcode",
+            "topic_url": "https://en.wikipedia.org/wiki/Barcode",
+            "mean": 0.10073602578969686,
+            "variance": 0.43291482886721866,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 2804,
+            "topic_name": "Boarding pass",
+            "topic_url": "https://en.wikipedia.org/wiki/Boarding_pass",
+            "mean": 0.10073602578969686,
+            "variance": 0.43291482886721866,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 13379,
+            "topic_name": "Inflection point",
+            "topic_url": "https://en.wikipedia.org/wiki/Inflection_point",
+            "mean": 0.09903575251349164,
+            "variance": 0.43293736848849884,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 7322,
+            "topic_name": "Developing country",
+            "topic_url": "https://en.wikipedia.org/wiki/Developing_country",
+            "mean": 0.09903575251349164,
+            "variance": 0.43293736848849884,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 3968,
+            "topic_name": "Central bank",
+            "topic_url": "https://en.wikipedia.org/wiki/Central_bank",
+            "mean": 0.09903575251349164,
+            "variance": 0.43293736848849884,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 7926,
+            "topic_name": "Dot-com bubble",
+            "topic_url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+            "mean": 0.09903575251349164,
+            "variance": 0.43293736848849884,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 19733,
+            "topic_name": "Patron saint",
+            "topic_url": "https://en.wikipedia.org/wiki/Patron_saint",
+            "mean": 0.09903575251349164,
+            "variance": 0.43293736848849884,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 1125,
+            "topic_name": "Anti-globalization movement",
+            "topic_url": "https://en.wikipedia.org/wiki/Anti-globalization_movement",
+            "mean": 0.12446601246555883,
+            "variance": 0.43172262609969436,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 20993,
+            "topic_name": "Poverty reduction",
+            "topic_url": "https://en.wikipedia.org/wiki/Poverty_reduction",
+            "mean": 0.12446601246555883,
+            "variance": 0.43172262609969436,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 25857,
+            "topic_name": "Staccato",
+            "topic_url": "https://en.wikipedia.org/wiki/Staccato",
+            "mean": 0.12446601246555883,
+            "variance": 0.43172262609969436,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 29270,
+            "topic_name": "Village",
+            "topic_url": "https://en.wikipedia.org/wiki/Village",
+            "mean": -0.03547379884104499,
+            "variance": 0.4009363727968603,
+            "interest_mean": 1.6859066884922465,
+            "interest_var": 0.3426791264591452,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 18924,
+            "topic_name": "Open university",
+            "topic_url": "https://en.wikipedia.org/wiki/Open_university",
+            "mean": -0.18523445568691382,
+            "variance": 0.4587059740152386,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 28379,
+            "topic_name": "Troll doll",
+            "topic_url": "https://en.wikipedia.org/wiki/Troll_doll",
+            "mean": -0.18523445568691382,
+            "variance": 0.4587059740152386,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 13602,
+            "topic_name": "Intellectual property",
+            "topic_url": "https://en.wikipedia.org/wiki/Intellectual_property",
+            "mean": -0.18523445568691382,
+            "variance": 0.4587059740152386,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 23974636.0
+        },
+        {
+            "topic_id": 4655,
+            "topic_name": "Climate crisis",
+            "topic_url": "https://en.wikipedia.org/wiki/Climate_crisis",
+            "mean": -0.18523445568691388,
+            "variance": 0.4587059740152386,
+            "interest_mean": 0.9492145196548605,
+            "interest_var": 0.4047405326399352,
+            "timestamp": 23974636.0
+        }
+    ]
+}

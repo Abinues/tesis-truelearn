@@ -1,0 +1,352 @@
+{
+    "user_id": 21272,
+    "number_of_engagements": 0,
+    "number_of_non_engagements": 9,
+    "weights": {
+        "novelty": {
+            "mean": 0.10538314807699696,
+            "variance": 0.4660627147718526
+        },
+        "interest": {
+            "mean": -0.29819921556009477,
+            "variance": 0.3616885947213088
+        },
+        "bias": {
+            "mean": -1.002889672925733,
+            "variance": 0.2876201674590833
+        }
+    },
+    "session_history": [
+        {
+            "session_id": 1,
+            "timestamp": 26349825.0,
+            "means": {
+                "Chemical polarity": -0.10639069867571745,
+                "Covalent bond": -0.10639069867571745,
+                "Electronegativity": -0.10639069867571747,
+                "Electron": -0.10639069867571747,
+                "OpenCourseWare": -0.10639069867571747
+            },
+            "variances": {
+                "Chemical polarity": 0.469312276270835,
+                "Covalent bond": 0.469312276270835,
+                "Electronegativity": 0.469312276270835,
+                "Electron": 0.469312276270835,
+                "OpenCourseWare": 0.469312276270835
+            }
+        },
+        {
+            "session_id": 2,
+            "timestamp": 26349971.0,
+            "means": {
+                "Chemical polarity": -0.10639069867571745,
+                "Covalent bond": -0.10639069867571745,
+                "Electronegativity": -0.10639069867571747,
+                "Electron": -0.16228726362639054,
+                "OpenCourseWare": -0.10639069867571747,
+                "Valence bond theory": -0.05955156915436808,
+                "Atomic orbital": -0.05955156915436808,
+                "Sigma bond": -0.05955156915436808,
+                "Molecular orbital": -0.05955156915436808
+            },
+            "variances": {
+                "Chemical polarity": 0.469312276270835,
+                "Covalent bond": 0.469312276270835,
+                "Electronegativity": 0.469312276270835,
+                "Electron": 0.4502197593430384,
+                "OpenCourseWare": 0.469312276270835,
+                "Valence bond theory": 0.4783289794617747,
+                "Atomic orbital": 0.4783289794617747,
+                "Sigma bond": 0.4783289794617747,
+                "Molecular orbital": 0.4783289794617747
+            }
+        },
+        {
+            "session_id": 3,
+            "timestamp": 26351288.0,
+            "means": {
+                "Chemical polarity": -0.10639069867571745,
+                "Covalent bond": -0.10639069867571745,
+                "Electronegativity": -0.10639069867571747,
+                "Electron": -0.2903714765418717,
+                "OpenCourseWare": -0.10639069867571747,
+                "Valence bond theory": -0.05955156915436808,
+                "Atomic orbital": -0.05955156915436808,
+                "Sigma bond": -0.05955156915436808,
+                "Molecular orbital": -0.05955156915436808,
+                "Double bond": -0.41790370332308896,
+                "Alkene": -0.3052111295247611,
+                "Carbon": -0.25262492090033756,
+                "Calorie": -0.3129661100065039,
+                "Molecular mechanics": -0.1269210323226514,
+                "Proton": -0.17632610767054696,
+                "Hydrogen chloride": -0.12115485793654476,
+                "Elimination reaction": -0.12115485793654476,
+                "Electrophile": -0.09834390901941133,
+                "Hydrogen": -0.1793244078129541,
+                "Pi bond": -0.09834390901941133,
+                "Ion": -0.34786055684020406,
+                "Hyperconjugation": -0.21335579966264664,
+                "Vinyl cation": -0.0835827492131093
+            },
+            "variances": {
+                "Chemical polarity": 0.469312276270835,
+                "Covalent bond": 0.469312276270835,
+                "Electronegativity": 0.469312276270835,
+                "Electron": 0.41076433157514647,
+                "OpenCourseWare": 0.469312276270835,
+                "Valence bond theory": 0.4783289794617747,
+                "Atomic orbital": 0.4783289794617747,
+                "Sigma bond": 0.4783289794617747,
+                "Molecular orbital": 0.4783289794617747,
+                "Double bond": 0.38497504531375065,
+                "Alkene": 0.40851306934103,
+                "Carbon": 0.4254010230077105,
+                "Calorie": 0.416068435714539,
+                "Molecular mechanics": 0.46620715031362114,
+                "Proton": 0.44654362044812157,
+                "Hydrogen chloride": 0.4665926377014742,
+                "Elimination reaction": 0.4665926377014742,
+                "Electrophile": 0.4702978625278455,
+                "Hydrogen": 0.44561846790358073,
+                "Pi bond": 0.4702978625278455,
+                "Ion": 0.3929135940347842,
+                "Hyperconjugation": 0.4302834369421239,
+                "Vinyl cation": 0.4724055287038031
+            }
+        }
+    ],
+    "explicit_feedback": [],
+    "knowledge_components": [
+        {
+            "topic_id": 4175,
+            "topic_name": "Chemical polarity",
+            "topic_url": "https://en.wikipedia.org/wiki/Chemical_polarity",
+            "mean": -0.10639069867571745,
+            "variance": 0.469312276270835,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26349825.0
+        },
+        {
+            "topic_id": 6217,
+            "topic_name": "Covalent bond",
+            "topic_url": "https://en.wikipedia.org/wiki/Covalent_bond",
+            "mean": -0.10639069867571745,
+            "variance": 0.469312276270835,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26349825.0
+        },
+        {
+            "topic_id": 8523,
+            "topic_name": "Electronegativity",
+            "topic_url": "https://en.wikipedia.org/wiki/Electronegativity",
+            "mean": -0.10639069867571747,
+            "variance": 0.469312276270835,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26349825.0
+        },
+        {
+            "topic_id": 8504,
+            "topic_name": "Electron",
+            "topic_url": "https://en.wikipedia.org/wiki/Electron",
+            "mean": -0.2903714765418717,
+            "variance": 0.41076433157514647,
+            "interest_mean": 2.0784935805693023,
+            "interest_var": 0.2999055416054601,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 18939,
+            "topic_name": "OpenCourseWare",
+            "topic_url": "https://en.wikipedia.org/wiki/OpenCourseWare",
+            "mean": -0.10639069867571747,
+            "variance": 0.469312276270835,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26349825.0
+        },
+        {
+            "topic_id": 28989,
+            "topic_name": "Valence bond theory",
+            "topic_url": "https://en.wikipedia.org/wiki/Valence_bond_theory",
+            "mean": -0.05955156915436808,
+            "variance": 0.4783289794617747,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 26349971.0
+        },
+        {
+            "topic_id": 1642,
+            "topic_name": "Atomic orbital",
+            "topic_url": "https://en.wikipedia.org/wiki/Atomic_orbital",
+            "mean": -0.05955156915436808,
+            "variance": 0.4783289794617747,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 26349971.0
+        },
+        {
+            "topic_id": 24652,
+            "topic_name": "Sigma bond",
+            "topic_url": "https://en.wikipedia.org/wiki/Sigma_bond",
+            "mean": -0.05955156915436808,
+            "variance": 0.4783289794617747,
+            "interest_mean": 0.9165517110365542,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 26349971.0
+        },
+        {
+            "topic_id": 17257,
+            "topic_name": "Molecular orbital",
+            "topic_url": "https://en.wikipedia.org/wiki/Molecular_orbital",
+            "mean": -0.05955156915436808,
+            "variance": 0.4783289794617747,
+            "interest_mean": 0.9165517110365544,
+            "interest_var": 0.40525874895773495,
+            "timestamp": 26349971.0
+        },
+        {
+            "topic_id": 7933,
+            "topic_name": "Double bond",
+            "topic_url": "https://en.wikipedia.org/wiki/Double_bond",
+            "mean": -0.41790370332308896,
+            "variance": 0.38497504531375065,
+            "interest_mean": 2.2846331530121136,
+            "interest_var": 0.28507176927406286,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 718,
+            "topic_name": "Alkene",
+            "topic_url": "https://en.wikipedia.org/wiki/Alkene",
+            "mean": -0.3052111295247611,
+            "variance": 0.40851306934103,
+            "interest_mean": 1.406627281504096,
+            "interest_var": 0.3318012670829932,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 3651,
+            "topic_name": "Carbon",
+            "topic_url": "https://en.wikipedia.org/wiki/Carbon",
+            "mean": -0.25262492090033756,
+            "variance": 0.4254010230077105,
+            "interest_mean": 1.450763278422521,
+            "interest_var": 0.33241330077398695,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 3479,
+            "topic_name": "Calorie",
+            "topic_url": "https://en.wikipedia.org/wiki/Calorie",
+            "mean": -0.3129661100065039,
+            "variance": 0.416068435714539,
+            "interest_mean": 1.9716732437275226,
+            "interest_var": 0.30054420996301673,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 17256,
+            "topic_name": "Molecular mechanics",
+            "topic_url": "https://en.wikipedia.org/wiki/Molecular_mechanics",
+            "mean": -0.1269210323226514,
+            "variance": 0.46620715031362114,
+            "interest_mean": 1.0860296825626903,
+            "interest_var": 0.40656920898341337,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 21684,
+            "topic_name": "Proton",
+            "topic_url": "https://en.wikipedia.org/wiki/Proton",
+            "mean": -0.17632610767054696,
+            "variance": 0.44654362044812157,
+            "interest_mean": 0.7490382949168508,
+            "interest_var": 0.3981962903547235,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 12824,
+            "topic_name": "Hydrogen chloride",
+            "topic_url": "https://en.wikipedia.org/wiki/Hydrogen_chloride",
+            "mean": -0.12115485793654476,
+            "variance": 0.4665926377014742,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 8601,
+            "topic_name": "Elimination reaction",
+            "topic_url": "https://en.wikipedia.org/wiki/Elimination_reaction",
+            "mean": -0.12115485793654476,
+            "variance": 0.4665926377014742,
+            "interest_mean": 0.73945533654064,
+            "interest_var": 0.40521848489966744,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 8562,
+            "topic_name": "Electrophile",
+            "topic_url": "https://en.wikipedia.org/wiki/Electrophile",
+            "mean": -0.09834390901941133,
+            "variance": 0.4702978625278455,
+            "interest_mean": 0.8226883562451254,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 12821,
+            "topic_name": "Hydrogen",
+            "topic_url": "https://en.wikipedia.org/wiki/Hydrogen",
+            "mean": -0.1793244078129541,
+            "variance": 0.44561846790358073,
+            "interest_mean": 1.1049838945220885,
+            "interest_var": 0.3491024180567966,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 20285,
+            "topic_name": "Pi bond",
+            "topic_url": "https://en.wikipedia.org/wiki/Pi_bond",
+            "mean": -0.09834390901941133,
+            "variance": 0.4702978625278455,
+            "interest_mean": 0.8226883562451252,
+            "interest_var": 0.4045465233041631,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 13929,
+            "topic_name": "Ion",
+            "topic_url": "https://en.wikipedia.org/wiki/Ion",
+            "mean": -0.34786055684020406,
+            "variance": 0.3929135940347842,
+            "interest_mean": 1.4257219261916327,
+            "interest_var": 0.2902324629314802,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 12874,
+            "topic_name": "Hyperconjugation",
+            "topic_url": "https://en.wikipedia.org/wiki/Hyperconjugation",
+            "mean": -0.21335579966264664,
+            "variance": 0.4302834369421239,
+            "interest_mean": 0.72136428910169,
+            "interest_var": 0.33803434035987456,
+            "timestamp": 26351288.0
+        },
+        {
+            "topic_id": 29283,
+            "topic_name": "Vinyl cation",
+            "topic_url": "https://en.wikipedia.org/wiki/Vinyl_cation",
+            "mean": -0.0835827492131093,
+            "variance": 0.4724055287038031,
+            "interest_mean": 0.4134397020865993,
+            "interest_var": 0.40835168241419895,
+            "timestamp": 26351288.0
+        }
+    ]
+}
