@@ -87,11 +87,17 @@ pip install trueskill mpmath
 
 ## Datos
 
-El dataset PEEK (Bulathwela et al., 2021) se descarga solo la primera vez que
-se entrena (`logic/peek_loader.py`). Su repositorio,
+El dataset PEEK (Bulathwela et al., 2021) no se incluye: se descarga solo la
+primera vez que se entrena (`logic/peek_loader.py`). Su repositorio,
 [PEEKC-Dataset](https://github.com/sahanbull/PEEKC-Dataset), lo ofrece
-únicamente para investigación no comercial. Por eso el dataset y los archivos
-que se generan a partir de él no se incluyen en este repositorio.
+únicamente para investigación no comercial. Los modelos de `models/` y los
+perfiles de `data/` son resultados derivados de PEEK y se publican solo con
+fines académicos, para reproducir la tesis, bajo esa misma condición de uso no
+comercial.
+
+## Licencia
+
+Uso solo para investigación no comercial (ver `LICENSE`), igual que PEEK.
 
 ## Entrenar los modelos
 
